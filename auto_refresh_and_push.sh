@@ -111,7 +111,8 @@ commit_and_push() {
     print_status "Committing and pushing changes..."
     
     # Add both output files to git
-    git add "$OUTPUT_FILE" "$ROOT_OUTPUT_FILE"
+    git add "$OUTPUT_FILE"
+    git add "$ROOT_OUTPUT_FILE"
     
     # Commit with timestamp
     git commit -m "$COMMIT_MESSAGE"
