@@ -110,21 +110,49 @@ check_changes() {
 commit_and_push() {
     print_status "Committing and pushing changes..."
     
-    # Add the output file to git
-    git add "$OUTPUT_FILE"
+    # Add both output files to git
+    git add "$OUTPUT_FILE" "$ROOT_OUTPUT_FILE"
     
     # Commit with timestamp
     git commit -m "$COMMIT_MESSAGE"
     
     # Push to GitHub
-    print_git "Pushing to GitHub..."
+    print_git "Pushing to GitHub main branch..."
     if git push origin "$BRANCH"; then
         print_status "Successfully pushed to GitHub"
+        
+        # Update GitHub Pages
+        update_github_pages
+        
         return 0
     else
         print_error "Failed to push to GitHub"
         return 1
     fi
+}
+
+# Function to update GitHub Pages
+update_github_pages() {
+    print_status "Updating GitHub Pages..."
+    
+    # Save current branch
+    current_branch=$(git branch --show-current)
+    
+    # Switch to gh-pages branch
+    git checkout gh-pages
+    
+    # Copy latest EPG file
+    cp "../$ROOT_OUTPUT_FILE" epg.xml
+    
+    # Commit and push to gh-pages
+    git add epg.xml
+    git commit -m "Update EPG XML - $(date '+%Y-%m-%d %H:%M:%S')"
+    git push origin gh-pages
+    
+    # Return to original branch
+    git checkout "$current_branch"
+    
+    print_status "GitHub Pages updated successfully!"
 }
 
 # Function to setup initial repository
