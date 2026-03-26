@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "epg.xml",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/epg.xml",
+      "dest": "/epg.xml"
+    },
+    {
+      "src": "/",
+      "dest": "/index.html"
+    }
+  ]
+}
