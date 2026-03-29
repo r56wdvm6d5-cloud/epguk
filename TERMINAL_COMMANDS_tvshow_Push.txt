@@ -1,0 +1,179 @@
+# Terminal Commands for Manual Push tvshow_epg.xml
+
+## Script Execution
+
+### Basic Usage
+```bash
+cd "/Users/ah/CascadeProjects/windsurf-project/Github Push (final_multi_system)"
+./manual_push_tvshow.sh
+```
+
+### Make Script Executable (if needed)
+```bash
+chmod +x "/Users/ah/CascadeProjects/windsurf-project/Github Push (final_multi_system)/manual_push_tvshow.sh"
+```
+
+## Manual Steps (if script fails)
+
+### 1. Navigate to GitHub Push Directory
+```bash
+cd "/Users/ah/CascadeProjects/windsurf-project/Github Push (final_multi_system)"
+```
+
+### 2. Copy Source File
+```bash
+cp "/Users/ah/CascadeProjects/windsurf-project/final_multi_system/Doc2:TV/DOC2:tvshow Github/Doc2/tvshow_epg.xml" "./tvshow_epg.xml"
+```
+
+### 3. Create Target Directory Structure (preserving GitHub structure)
+```bash
+mkdir -p "DOC2:tvshow Github/Doc2"
+```
+
+### 4. Copy to Target Location
+```bash
+cp "./tvshow_epg.xml" "DOC2:tvshow Github/Doc2/tvshow_epg.xml"
+```
+
+### 5. Stage Files
+```bash
+git add "tvshow_epg.xml"
+git add "DOC2:tvshow Github/Doc2/tvshow_epg.xml"
+```
+
+### 6. Commit Changes
+```bash
+git commit -m "Manual force push tvshow_epg.xml - $(date '+%Y-%m-%d %H:%M:%S')"
+```
+
+### 7. Force Push to GitHub
+```bash
+git push --force-with-lease origin main
+```
+
+### 8. Cleanup Temporary File
+```bash
+rm -f "./tvshow_epg.xml"
+```
+
+## Git Repository Management
+
+### Check Git Status
+```bash
+git status
+```
+
+### Pull Latest Changes (may fail due to divergent branches)
+```bash
+git pull origin main
+```
+
+### Force Pull (overwrite local changes)
+```bash
+git fetch --all
+git reset --hard origin/main
+```
+
+### Check Remote Configuration
+```bash
+git remote -v
+```
+
+### Add Remote if Missing
+```bash
+git remote add origin https://github.com/r56wdvm6d5-cloud/epguk.git
+```
+
+## Verification
+
+### Check File Exists in Repository
+```bash
+ls -la "DOC2:tvshow Github/Doc2/tvshow_epg.xml"
+```
+
+### Verify Git Log
+```bash
+git log --oneline -n 5
+```
+
+### Check Remote Branch
+```bash
+git branch -r
+```
+
+## Troubleshooting
+
+### If Git Pull Fails (Divergent Branches)
+```bash
+# Option 1: Configure pull to use merge
+git config pull.rebase false
+git pull origin main
+
+# Option 2: Configure pull to use rebase
+git config pull.rebase true
+git pull origin main
+
+# Option 3: Use fast-forward only
+git config pull.ff only
+git pull origin main
+```
+
+### If Push Fails Due to Authentication
+```bash
+# Check git credentials
+git config --list | grep user
+
+# Set up credentials if needed
+git config user.name "Your Name"
+git config user.email "your.email@example.com"
+```
+
+### Force Push Variations
+```bash
+# Standard force push (can overwrite others' work)
+git push --force origin main
+
+# Safer force push (won't overwrite if remote has new commits)
+git push --force-with-lease origin main
+```
+
+## File Paths Reference
+
+### Source File
+- Path: `/Users/ah/CascadeProjects/windsurf-project/final_multi_system/Doc2:TV/DOC2:tvshow Github/Doc2/tvshow_epg.xml`
+
+### Working Directory
+- Path: `/Users/ah/CascadeProjects/windsurf-project/Github Push (final_multi_system)`
+
+### Target in Repository
+- Path: `DOC2:tvshow Github/Doc2/tvshow_epg.xml`
+- URL: `https://github.com/r56wdvm6d5-cloud/epguk/blob/main/DOC2%3Atvshow%20Github/Doc2/tvshow_epg.xml`
+
+## Script Configuration
+
+The script uses these variables:
+- SOURCE_DIR: `/Users/ah/CascadeProjects/windsurf-project/final_multi_system/Doc2:TV/DOC2:tvshow Github/Doc2`
+- GITHUB_WORK_DIR: `/Users/ah/CascadeProjects/windsurf-project/Github Push (final_multi_system)`
+- GITHUB_REPO_URL: `https://github.com/r56wdvm6d5-cloud/epguk.git`
+- BRANCH: `main`
+- TARGET_PATH: `DOC2:tvshow Github/Doc2/tvshow_epg.xml`
+
+## Quick Commands
+
+### One-liner Manual Push
+```bash
+cd "/Users/ah/CascadeProjects/windsurf-project/Github Push (final_multi_system)" && cp "/Users/ah/CascadeProjects/windsurf-project/final_multi_system/Doc2:TV/DOC2:tvshow Github/Doc2/tvshow_epg.xml" "./tvshow_epg.xml" && mkdir -p "DOC2:tvshow Github/Doc2" && cp "./tvshow_epg.xml" "DOC2:tvshow Github/Doc2/tvshow_epg.xml" && git add "tvshow_epg.xml" "DOC2:tvshow Github/Doc2/tvshow_epg.xml" && git commit -m "Manual push tvshow_epg.xml - $(date '+%Y-%m-%d %H:%M:%S')" && git push --force-with-lease origin main && rm -f "./tvshow_epg.xml"
+```
+
+### Check Script Status
+```bash
+cd "/Users/ah/CascadeProjects/windsurf-project/Github Push (final_multi_system)" && ls -la manual_push_tvshow.sh
+```
+
+## Directory Structure Preservation
+
+This script maintains the GitHub repository structure:
+- Preserves existing `DOC2:tvshow Github/` directory
+- Preserves existing `Doc2/` subdirectory within it
+- Does not interfere with other existing directories like `Doc2/Doc2 Github/`
+- Maintains the exact target path as specified in the GitHub URL
