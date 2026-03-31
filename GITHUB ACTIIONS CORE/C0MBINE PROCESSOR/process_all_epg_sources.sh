@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Unified EPG Processor - Handles all 7 sources in one execution
+# Unified EPG Processor - Handles all 7 EPG sources in one execution
 # GitHub Actions Compatible
 
 set -euo pipefail
@@ -10,12 +10,12 @@ MULTI_PROCESSOR_DIR="../DOC1"
 MULTI_CONFIG="../DOC1/multi_xml_config.txt"
 MULTI_OUTPUT="../epg_combined.xml"
 
-DOC2_PROCESSOR_DIR="../Doc2"
-DOC2_CONFIG="../Doc2TV/Doc2_multi_xml_config.txt"
+DOC2_PROCESSOR_DIR="../Doc2TV"
+DOC2_CONFIG="../Doc2TV/Doc2tvshow multi_xml_config.txt"
 DOC2_OUTPUT="../Doc2_Doc2_epg.xml"
 
 DOCTV_PROCESSOR_DIR="../Doc2TV"
-DOCTV_CONFIG="../Doc2:TV/DOC2:tvshow_multi_xml_config.txt"
+DOCTV_CONFIG="../Doc2TV/DOC2tvshow multi_xml_config.txt"
 DOCTV_OUTPUT="../tvshow_epg.xml"
 
 TV2_PROCESSOR_DIR="../TV2"
@@ -55,6 +55,10 @@ print_error() {
     echo -e "${RED}[ERROR]${NC} $1"
 }
 
+print_warning() {
+    echo -e "${YELLOW}[WARNING]${NC} $1"
+}
+
 print_step() {
     echo -e "${CYAN}[STEP]${NC} $1"
 }
@@ -70,8 +74,8 @@ process_xml_source() {
     print_status "Changing to $processor_dir..."
     cd "$processor_dir"
     
-    if [ ! -f "Doc2_DOC2:tvshow multi_xml_processor.py" ]; then
-        print_error "Doc2_DOC2:tvshow multi_xml_processor.py not found in $processor_dir"
+    if [ ! -f "multi_xml_processor.py" ]; then
+        print_error "multi_xml_processor.py not found in $processor_dir"
         return 1
     fi
     
@@ -80,8 +84,8 @@ process_xml_source() {
         return 1
     fi
     
-    print_status "Running Doc2_DOC2:tvshow multi_xml_processor.py..."
-    python3 "Doc2_DOC2:tvshow multi_xml_processor.py" --config "$config_file" --output "$output_file"
+    print_status "Running multi_xml_processor.py..."
+    python3 "multi_xml_processor.py" --config "$config_file" --output "$output_file"
     
     if [ $? -eq 0 ]; then
         print_success "$source_name processing completed successfully"
