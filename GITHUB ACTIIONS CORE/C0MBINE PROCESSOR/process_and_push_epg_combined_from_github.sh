@@ -3,7 +3,7 @@
 # GitHub Actions Compatible Multi-XML Processing and Push Script
 # Processes all 7 EPG sources and pushes to GitHub
 
-set -e
+set -euo pipefail  # Exit on error, but don't exit on git commit failures
 
 # Configuration for GitHub Actions
 MULTI_PROCESSOR_DIR="../DOC1"
@@ -96,38 +96,53 @@ process_xml_source() {
     fi
 }
 
+# Function to safely add and commit files
+safe_git_commit() {
+    local files=("$@")
+    local has_changes=false
+    
+    print_status "Checking for changes in files: ${files[*]}"
+    
+    for file in "${files[@]}"; do
+        if [ -f "$file" ]; then
+            git add "$file"
+            has_changes=true
+            print_status "Added $file to git"
+        fi
+    done
+    
+    if [ "$has_changes" = true ]; then
+        print_status "Committing changes..."
+        git commit -m "Auto update all EPG files - $(date '+%Y-%m-%d %H:%M:%S')" || {
+            print_warning "Git commit failed - no changes detected"
+            return 0
+        }
+        
+        print_status "Pushing to GitHub..."
+        git push origin main || {
+            print_error "Failed to push to GitHub"
+            return 1
+        }
+        
+        print_success "All EPG files pushed to GitHub successfully"
+    else
+        print_status "No changes to commit"
+    fi
+}
+
 # Start the combined process
 print_status "Starting all 7 EPG sources processing and GitHub push..."
 
 # Process all 7 sources
-process_xml_source "$MULTI_PROCESSOR_DIR" "$MULTI_CONFIG" "$MULTI_OUTPUT" "Multi-XML Combined"
-process_xml_source "$DOC2_PROCESSOR_DIR" "$DOC2_CONFIG" "$DOC2_OUTPUT" "Doc2"
-process_xml_source "$DOCTV_PROCESSOR_DIR" "$DOCTV_CONFIG" "$DOCTV_OUTPUT" "Doc2:TV"
-process_xml_source "$TV2_PROCESSOR_DIR" "$TV2_CONFIG" "$TV2_OUTPUT" "TV2"
-process_xml_source "$TV3_PROCESSOR_DIR" "$TV3_CONFIG" "$TV3_OUTPUT" "TV3"
-process_xml_source "$TV4_PROCESSOR_DIR" "$TV4_CONFIG" "$TV4_OUTPUT" "TV4"
-process_xml_source "$TV5_PROCESSOR_DIR" "$TV5_CONFIG" "$TV5_OUTPUT" "TV5"
+process_xml_source "$MULTI_PROCESSOR_DIR" "$MULTI_CONFIG" "$MULTI_OUTPUT" "Multi-XML Combined" || exit 1
+process_xml_source "$DOC2_PROCESSOR_DIR" "$DOC2_CONFIG" "$DOC2_OUTPUT" "Doc2" || exit 1
+process_xml_source "$DOCTV_PROCESSOR_DIR" "$DOCTV_CONFIG" "$DOCTV_OUTPUT" "Doc2:TV" || exit 1
+process_xml_source "$TV2_PROCESSOR_DIR" "$TV2_CONFIG" "$TV2_OUTPUT" "TV2" || exit 1
+process_xml_source "$TV3_PROCESSOR_DIR" "$TV3_CONFIG" "$TV3_OUTPUT" "TV3" || exit 1
+process_xml_source "$TV4_PROCESSOR_DIR" "$TV4_CONFIG" "$TV4_OUTPUT" "TV4" || exit 1
+process_xml_source "$TV5_PROCESSOR_DIR" "$TV5_CONFIG" "$TV5_OUTPUT" "TV5" || exit 1
 
-# Push all outputs to GitHub
-print_step "Pushing all EPG files to GitHub..."
-print_status "Adding all XML files to git..."
-git add "$MULTI_OUTPUT" "$DOC2_OUTPUT" "$DOCTV_OUTPUT" "$TV2_OUTPUT" "$TV3_OUTPUT" "$TV4_OUTPUT" "$TV5_OUTPUT"
-
-if git diff --staged --quiet; then
-    print_status "Committing changes..."
-    git commit -m "Auto update all EPG files - $(date '+%Y-%m-%d %H:%M:%S')"
-    
-    print_status "Pushing to GitHub..."
-    git push origin main
-    
-    if [ $? -eq 0 ]; then
-        print_success "All EPG files pushed to GitHub successfully"
-    else
-        print_error "Failed to push to GitHub"
-        exit 1
-    fi
-else
-    print_status "No changes to commit"
-fi
+# Push all outputs to GitHub safely
+safe_git_commit "$MULTI_OUTPUT" "$DOC2_OUTPUT" "$DOCTV_OUTPUT" "$TV2_OUTPUT" "$TV3_OUTPUT" "$TV4_OUTPUT" "$TV5_OUTPUT"
 
 print_success "All 7 EPG sources processed and pushed successfully!"
