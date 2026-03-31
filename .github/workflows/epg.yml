@@ -8,6 +8,8 @@ on:
 jobs:
   process-epg:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     
     steps:
       - name: Checkout repository
@@ -27,6 +29,7 @@ jobs:
           chmod +x "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/process_and_push_tv3.sh"
           chmod +x "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/process_and_push_tv4.sh"
           chmod +x "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/process_and_push_tv5.sh"
+          chmod +x "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/process_and_push_epg_combined_from_github.sh"
       
       - name: Debug - List files
         run: |
