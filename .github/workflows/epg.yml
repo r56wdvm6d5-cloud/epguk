@@ -28,22 +28,33 @@ jobs:
           chmod +x "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/process_and_push_tv4.sh"
           chmod +x "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/process_and_push_tv5.sh"
       
+      - name: Debug - List files
+        run: |
+          echo "=== Listing GITHUB ACTIIONS CORE directory ==="
+          ls -la "GITHUB ACTIIONS CORE/"
+          echo "=== Listing C0MBINE PROCESSOR directory ==="
+          ls -la "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/"
+      
       - name: Process and push everything
         run: |
           cd "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR"
-          ./process_and_push_everything.sh
+          echo "=== Running process_and_push_everything.sh ==="
+          ./process_and_push_everything.sh || echo "Script failed with exit code $?"
       
       - name: Process and push TV3
         run: |
           cd "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR"
-          ./process_and_push_tv3.sh
+          echo "=== Running process_and_push_tv3.sh ==="
+          ./process_and_push_tv3.sh || echo "Script failed with exit code $?"
       
       - name: Process and push TV4
         run: |
           cd "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR"
-          ./process_and_push_tv4.sh
+          echo "=== Running process_and_push_tv4.sh ==="
+          ./process_and_push_tv4.sh || echo "Script failed with exit code $?"
       
       - name: Process and push TV5
         run: |
           cd "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR"
-          ./process_and_push_tv5.sh
+          echo "=== Running process_and_push_tv5.sh ==="
+          ./process_and_push_tv5.sh || echo "Script failed with exit code $?"
