@@ -1,0 +1,176 @@
+# Terminal Commands for Manual Push epg_combined.xml
+
+## Script Execution
+
+### Basic Usage
+```bash
+cd "/Users/ah/CascadeProjects/windsurf-project/Github Push (final_multi_system)"
+./manual_push_epg_combined.sh
+```
+
+### Make Script Executable (if needed)
+```bash
+chmod +x "/Users/ah/CascadeProjects/windsurf-project/Github Push (final_multi_system)/manual_push_epg_combined.sh"
+```
+
+## Manual Steps (if script fails)
+
+### 1. Navigate to GitHub Push Directory
+```bash
+cd "/Users/ah/CascadeProjects/windsurf-project/Github Push (final_multi_system)"
+```
+
+### 2. Copy Source File
+```bash
+cp "/Users/ah/CascadeProjects/windsurf-project/final_multi_system/Github/auto1/epg_combined.xml" "./epg_combined.xml"
+```
+
+### 3. Stage File
+```bash
+git add "epg_combined.xml"
+```
+
+### 4. Commit Changes
+```bash
+git commit -m "Manual force push epg_combined.xml - $(date '+%Y-%m-%d %H:%M:%S')"
+```
+
+### 5. Force Push to GitHub
+```bash
+git push --force-with-lease origin main
+```
+
+## Git Repository Management
+
+### Check Git Status
+```bash
+git status
+```
+
+### Pull Latest Changes (may fail due to divergent branches)
+```bash
+git pull origin main
+```
+
+### Force Pull (overwrite local changes)
+```bash
+git fetch --all
+git reset --hard origin/main
+```
+
+### Check Remote Configuration
+```bash
+git remote -v
+```
+
+### Add Remote if Missing
+```bash
+git remote add origin https://github.com/r56wdvm6d5-cloud/epguk.git
+```
+
+## Verification
+
+### Check File Exists in Repository
+```bash
+ls -la "epg_combined.xml"
+```
+
+### Verify Git Log
+```bash
+git log --oneline -n 5
+```
+
+### Check Remote Branch
+```bash
+git branch -r
+```
+
+## Troubleshooting
+
+### If Git Pull Fails (Divergent Branches)
+```bash
+# Option 1: Configure pull to use merge
+git config pull.rebase false
+git pull origin main
+
+# Option 2: Configure pull to use rebase
+git config pull.rebase true
+git pull origin main
+
+# Option 3: Use fast-forward only
+git config pull.ff only
+git pull origin main
+```
+
+### If Push Fails Due to Authentication
+```bash
+# Check git credentials
+git config --list | grep user
+
+# Set up credentials if needed
+git config user.name "Your Name"
+git config user.email "your.email@example.com"
+```
+
+### Force Push Variations
+```bash
+# Standard force push (can overwrite others' work)
+git push --force origin main
+
+# Safer force push (won't overwrite if remote has new commits)
+git push --force-with-lease origin main
+```
+
+## File Paths Reference
+
+### Source File (Active Document)
+- Path: `/Users/ah/CascadeProjects/windsurf-project/final_multi_system/Github/auto1/epg_combined.xml`
+
+### Alternative Source Locations
+- `/Users/ah/CascadeProjects/windsurf-project/final_multi_system/Github/epg_combined.xml`
+- `/Users/ah/CascadeProjects/windsurf-project/final_multi_system/Github/myepg/epg_combined.xml`
+- `/Users/ah/CascadeProjects/windsurf-project/final_multi_system/Github/Github/myepg/epg_combined.xml`
+
+### Working Directory
+- Path: `/Users/ah/CascadeProjects/windsurf-project/Github Push (final_multi_system)`
+
+### Target in Repository (Root Directory)
+- Path: `epg_combined.xml`
+- URL: `https://github.com/r56wdvm6d5-cloud/epguk/blob/main/epg_combined.xml`
+
+## Script Configuration
+
+The script uses these variables:
+- SOURCE_FILE: `/Users/ah/CascadeProjects/windsurf-project/final_multi_system/Github/auto1/epg_combined.xml`
+- GITHUB_WORK_DIR: `/Users/ah/CascadeProjects/windsurf-project/Github Push (final_multi_system)`
+- GITHUB_REPO_URL: `https://github.com/r56wdvm6d5-cloud/epguk.git`
+- BRANCH: `main`
+- TARGET_FILE: `epg_combined.xml`
+
+## Quick Commands
+
+### One-liner Manual Push
+```bash
+cd "/Users/ah/CascadeProjects/windsurf-project/Github Push (final_multi_system)" && cp "/Users/ah/CascadeProjects/windsurf-project/final_multi_system/Github/auto1/epg_combined.xml" "./epg_combined.xml" && git add "epg_combined.xml" && git commit -m "Manual push epg_combined.xml - $(date '+%Y-%m-%d %H:%M:%S')" && git push --force-with-lease origin main
+```
+
+### Check Script Status
+```bash
+cd "/Users/ah/CascadeProjects/windsurf-project/Github Push (final_multi_system)" && ls -la manual_push_epg_combined.sh
+```
+
+## Directory Structure Preservation
+
+This script maintains the GitHub repository structure:
+- Places epg_combined.xml in the root directory
+- Does not interfere with existing directories like `TV2 Github/`, `DOC2:tvshow Github/`, `Doc2/Doc2 Github/`
+- Keeps current GitHub EPGUK directory structure intact
+- Maintains all existing files and directories
+
+## Root Directory Push Notes
+
+When pushing to the root directory:
+- The file will be accessible directly at the repository root
+- No subdirectory structure is created
+- This is the main EPG file for the entire repository
+- Ensure this is the intended location before pushing
