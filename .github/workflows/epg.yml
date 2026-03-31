@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-      GITHUB_PUSH_DIR: "."  # Set to current directory in GitHub Actions
+      GITHUB_PUSH_DIR: "GITHUB ACTIIONS CORE"  # Set to GITHUB ACTIIONS CORE directory
     
     steps:
       - name: Checkout repository
@@ -36,8 +36,10 @@ jobs:
         run: |
           echo "=== Current working directory ==="
           pwd
-          echo "=== Listing files ==="
-          ls -la
+          echo "=== Listing GITHUB ACTIIONS CORE directory ==="
+          ls -la "GITHUB ACTIIONS CORE/"
+          echo "=== Listing C0MBINE PROCESSOR directory ==="
+          ls -la "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/"
       
       - name: Process and push everything
         run: |
