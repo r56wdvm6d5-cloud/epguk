@@ -8,31 +8,31 @@ set -euo pipefail
 # Configuration for GitHub Actions
 MULTI_PROCESSOR_DIR="../DOC1"
 MULTI_CONFIG="../DOC1/multi_xml_config.txt"
-MULTI_OUTPUT="../epg_combined.xml"
+MULTI_OUTPUT="GITHUB ACTIIONS CORE/epg_combined.xml"
 
 DOC2_PROCESSOR_DIR="../Doc2TV"
 DOC2_CONFIG="../Doc2TV/Doc2tvshow multi_xml_config.txt"
-DOC2_OUTPUT="../Doc2_Doc2_epg.xml"
+DOC2_OUTPUT="GITHUB ACTIIONS CORE/Doc2_Doc2_epg.xml"
 
 DOCTV_PROCESSOR_DIR="../Doc2TV"
 DOCTV_CONFIG="../Doc2TV/DOC2tvshow multi_xml_config.txt"
-DOCTV_OUTPUT="../tvshow_epg.xml"
+DOCTV_OUTPUT="GITHUB ACTIIONS CORE/tvshow_epg.xml"
 
 TV2_PROCESSOR_DIR="../TV2"
 TV2_CONFIG="../TV2/TV2.txt"
-TV2_OUTPUT="../TV2_epg.xml"
+TV2_OUTPUT="GITHUB ACTIIONS CORE/TV2_epg.xml"
 
 TV3_PROCESSOR_DIR="../TV3"
 TV3_CONFIG="../TV3/TV3.txt"
-TV3_OUTPUT="../TV3_epg.xml"
+TV3_OUTPUT="GITHUB ACTIIONS CORE/TV3_epg.xml"
 
 TV4_PROCESSOR_DIR="../TV4"
 TV4_CONFIG="../TV4/TV4.txt"
-TV4_OUTPUT="../TV4_epg.xml"
+TV4_OUTPUT="GITHUB ACTIIONS CORE/TV4_epg.xml"
 
 TV5_PROCESSOR_DIR="../TV5"
 TV5_CONFIG="../TV5/TV5.txt"
-TV5_OUTPUT="../TV5_epg.xml"
+TV5_OUTPUT="GITHUB ACTIIONS CORE/TV5_epg.xml"
 
 # Colors for output
 RED='\033[0;31m'
