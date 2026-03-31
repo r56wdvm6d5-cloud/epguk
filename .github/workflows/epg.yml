@@ -4,14 +4,12 @@ on:
   schedule:
     - cron: '0 * * * *'  # Every hour
   workflow_dispatch:  # Manual trigger
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Set at workflow level
 
 jobs:
   process-epg:
     runs-on: ubuntu-latest
     env:
-      GITHUB_PUSH_DIR: "GITHUB ACTIIONS CORE"  # Set to GITHUB ACTIIONS CORE directory
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Set at workflow level
     
     steps:
       - name: Checkout repository
@@ -27,23 +25,20 @@ jobs:
       
       - name: Make scripts executable
         run: |
-          chmod +x "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/process_and_push_everything.sh"
-          chmod +x "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/process_and_push_tv3.sh"
-          chmod +x "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/process_and_push_tv4.sh"
-          chmod +x "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/process_and_push_tv5.sh"
-          chmod +x "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/process_and_push_epg_combined_from_github.sh"
+          chmod +x "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/process_all_epg_sources.sh"
       
-      - name: Debug - Show Node.js version and environment
+      - name: Debug - Show working directory
         run: |
-          echo "=== Node.js Version ==="
-          node --version
-          echo "=== Environment Variables ==="
-          env | grep -E "(NODE|FORCE_JAVASCRIPT)"
+          echo "=== Current working directory ==="
+          pwd
+          echo "=== Listing GITHUB ACTIIONS CORE directory ==="
+          ls -la "GITHUB ACTIIONS CORE/"
+          echo "=== Listing C0MBINE PROCESSOR directory ==="
+          ls -la "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/"
       
-      - name: Process and push everything
+      - name: Process all 7 EPG sources
         run: |
           cd "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR"
-          echo "=== Running process_and_push_everything.sh from ==="
+          echo "=== Running unified EPG processor from ==="
           pwd
-          ls -la
-          ./process_and_push_everything.sh || echo "Script failed with exit code $?"
+          ./process_all_epg_sources.sh || echo "Script failed with exit code $?"
