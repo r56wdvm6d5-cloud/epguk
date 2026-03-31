@@ -11,10 +11,10 @@ MULTI_CONFIG="../DOC1/multi_xml_config.txt"
 MULTI_OUTPUT="../epg_combined.xml"
 
 DOC2_PROCESSOR_DIR="../Doc2"
-DOC2_CONFIG="../Doc2/Doc2_multi_xml_config.txt"
+DOC2_CONFIG="../Doc2TV/Doc2_multi_xml_config.txt"
 DOC2_OUTPUT="../Doc2_Doc2_epg.xml"
 
-DOCTV_PROCESSOR_DIR="../Doc2:TV"
+DOCTV_PROCESSOR_DIR="../Doc2TV"
 DOCTV_CONFIG="../Doc2:TV/DOC2:tvshow_multi_xml_config.txt"
 DOCTV_OUTPUT="../tvshow_epg.xml"
 
