@@ -69,13 +69,14 @@ process_xml_source() {
     local config_file="$2"
     local output_file="$3"
     local source_name="$4"
+    local processor_filename="$5"
     
     print_step "Processing $source_name..."
     print_status "Changing to $processor_dir..."
     cd "$processor_dir"
     
-    if [ ! -f "multi_xml_processor.py" ]; then
-        print_error "multi_xml_processor.py not found in $processor_dir"
+    if [ ! -f "$processor_filename" ]; then
+        print_error "$processor_filename not found in $processor_dir"
         return 1
     fi
     
@@ -84,8 +85,8 @@ process_xml_source() {
         return 1
     fi
     
-    print_status "Running multi_xml_processor.py..."
-    python3 "multi_xml_processor.py" --config "$config_file" --output "$output_file"
+    print_status "Running $processor_filename..."
+    python3 "$processor_filename" --config "$config_file" --output "$output_file"
     
     if [ $? -eq 0 ]; then
         print_success "$source_name processing completed successfully"
@@ -133,14 +134,14 @@ safe_git_commit() {
 # Start unified processing
 print_status "Starting unified EPG processing for all 7 sources..."
 
-# Process all 7 sources
-process_xml_source "$MULTI_PROCESSOR_DIR" "$MULTI_CONFIG" "$MULTI_OUTPUT" "Multi-XML Combined" || exit 1
-process_xml_source "$DOC2_PROCESSOR_DIR" "$DOC2_CONFIG" "$DOC2_OUTPUT" "Doc2" || exit 1
-process_xml_source "$DOCTV_PROCESSOR_DIR" "$DOCTV_CONFIG" "$DOCTV_OUTPUT" "Doc2:TV" || exit 1
-process_xml_source "$TV2_PROCESSOR_DIR" "$TV2_CONFIG" "$TV2_OUTPUT" "TV2" || exit 1
-process_xml_source "$TV3_PROCESSOR_DIR" "$TV3_CONFIG" "$TV3_OUTPUT" "TV3" || exit 1
-process_xml_source "$TV4_PROCESSOR_DIR" "$TV4_CONFIG" "$TV4_OUTPUT" "TV4" || exit 1
-process_xml_source "$TV5_PROCESSOR_DIR" "$TV5_CONFIG" "$TV5_OUTPUT" "TV5" || exit 1
+# Process all 7 sources with correct filenames
+process_xml_source "$MULTI_PROCESSOR_DIR" "$MULTI_CONFIG" "$MULTI_OUTPUT" "Multi-XML Combined" "multi_xml_processor.py" || exit 1
+process_xml_source "$DOC2_PROCESSOR_DIR" "$DOC2_CONFIG" "$DOC2_OUTPUT" "Doc2" "Doc2tvshow multi_xml_processor.py" || exit 1
+process_xml_source "$DOCTV_PROCESSOR_DIR" "$DOCTV_CONFIG" "$DOCTV_OUTPUT" "Doc2:TV" "DOC2tvshow multi_xml_processor.py" || exit 1
+process_xml_source "$TV2_PROCESSOR_DIR" "$TV2_CONFIG" "$TV2_OUTPUT" "TV2" "TV2_multi_xml_processor.py" || exit 1
+process_xml_source "$TV3_PROCESSOR_DIR" "$TV3_CONFIG" "$TV3_OUTPUT" "TV3" "TV3_multi_xml_processor.py" || exit 1
+process_xml_source "$TV4_PROCESSOR_DIR" "$TV4_CONFIG" "$TV4_OUTPUT" "TV4" "TV4_multi_xml_processor.py" || exit 1
+process_xml_source "$TV5_PROCESSOR_DIR" "$TV5_CONFIG" "$TV5_OUTPUT" "TV5" "TV5_multi_xml_processor.py" || exit 1
 
 # Push all outputs to GitHub safely
 safe_git_commit "$MULTI_OUTPUT" "$DOC2_OUTPUT" "$DOCTV_OUTPUT" "$TV2_OUTPUT" "$TV3_OUTPUT" "$TV4_OUTPUT" "$TV5_OUTPUT"
