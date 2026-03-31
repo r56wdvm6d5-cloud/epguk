@@ -70,8 +70,8 @@ process_xml_source() {
     print_status "Changing to $processor_dir..."
     cd "$processor_dir"
     
-    if [ ! -f "multi_xml_processor.py" ]; then
-        print_error "multi_xml_processor.py not found in $processor_dir"
+    if [ ! -f "Doc2_DOC2:tvshow multi_xml_processor.py" ]; then
+        print_error "Doc2_DOC2:tvshow multi_xml_processor.py not found in $processor_dir"
         return 1
     fi
     
@@ -80,8 +80,8 @@ process_xml_source() {
         return 1
     fi
     
-    print_status "Running multi_xml_processor.py..."
-    python3 "multi_xml_processor.py" --config "$config_file" --output "$output_file"
+    print_status "Running Doc2_DOC2:tvshow multi_xml_processor.py..."
+    python3 "Doc2_DOC2:tvshow multi_xml_processor.py" --config "$config_file" --output "$output_file"
     
     if [ $? -eq 0 ]; then
         print_success "$source_name processing completed successfully"
