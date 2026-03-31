@@ -6,11 +6,20 @@ on:
       - main
 
 jobs:
-  process:
+  build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
 
-      - name: Process EPG Sources
-        run: ./process_all_epg_sources.sh
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.8'
+
+    - name: Make script executable
+      run: chmod +x .github/actions/C0MBINE_PROCESSOR/process_all_epg_sources.sh
+
+    - name: Run EPG Source Processor
+      run: .github/actions/C0MBINE_PROCESSOR/process_all_epg_sources.sh
