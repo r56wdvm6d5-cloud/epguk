@@ -20,11 +20,6 @@ jobs:
         with:
           node-version: '24'
       
-      - name: Setup Python
-        uses: actions/setup-python@v3
-        with:
-          python-version: '3.9'
-      
       - name: Make scripts executable
         run: |
           chmod +x "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/process_all_epg_sources.sh"
