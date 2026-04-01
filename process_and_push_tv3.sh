@@ -55,8 +55,8 @@ print_header "TV3 Process and Push Script"
 print_header "Step 1: Processing TV3 XML"
 
 # Check if TV3 processor exists
-if [ ! -f "$TV3_PROCESSOR_DIR/TV3 multi_xml_processor.py" ]; then
-    print_error "TV3 processor not found: $TV3_PROCESSOR_DIR/TV3 multi_xml_processor.py"
+if [ ! -f "$TV3_PROCESSOR_DIR/TV3_multi_xml_processor.py" ]; then
+    print_error "TV3 processor not found: $TV3_PROCESSOR_DIR/TV3_multi_xml_processor.py"
     exit 1
 fi
 
@@ -70,9 +70,9 @@ print_status "Changing to TV3 processor directory..."
 cd "$TV3_PROCESSOR_DIR"
 
 print_status "Running TV3 multi-XML processor..."
-print_status "Command: python3 \"TV3 multi_xml_processor.py\" --config \"$TV3_CONFIG_FILE\" --output \"$TV3_OUTPUT_FILE\""
+print_status "Command: python3 \"TV3_multi_xml_processor.py\" --config \"$TV3_CONFIG_FILE\" --output \"$TV3_OUTPUT_FILE\""
 
-if python3 "TV3 multi_xml_processor.py" --config "$TV3_CONFIG_FILE" --output "$TV3_OUTPUT_FILE"; then
+if python3 "TV3_multi_xml_processor.py" --config "$TV3_CONFIG_FILE" --output "$TV3_OUTPUT_FILE"; then
     print_success "TV3 XML processing completed successfully!"
     
     # Check if output file was created
@@ -153,7 +153,7 @@ print_success "GitHub URL: https://github.com/r56wdvm6d5-cloud/epguk/blob/main/T
 
 echo ""
 print_status "Summary:"
-echo "- TV3 Processor: $TV3_PROCESSOR_DIR/TV3 multi_xml_processor.py"
+echo "- TV3 Processor: $TV3_PROCESSOR_DIR/TV3_multi_xml_processor.py"
 echo "- Config File: $TV3_CONFIG_FILE"
 echo "- Output File: $TV3_OUTPUT_FILE"
 echo "- GitHub Target: $TARGET_PATH"

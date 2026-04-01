@@ -2,7 +2,7 @@
 
 # Combined TV2 XML Processing and Push Script
 # This script:
-# 1. Processes XML using TV2 multi_xml_processor.py
+# 1. Processes XML using TV2_multi_xml_processor.py
 # 2. Pushes the result to GitHub using manual_push_tv2.sh
 
 set -e
@@ -45,17 +45,17 @@ print_step() {
 # Start the combined process
 print_status "Starting combined TV2 XML processing and GitHub push..."
 
-# Step 1: Process XML using TV2 multi_xml_processor.py
-print_step "Step 1: Processing XML with TV2 multi_xml_processor.py"
+# Step 1: Process XML using TV2_multi_xml_processor.py
+print_step "Step 1: Processing XML with TV2_multi_xml_processor.py"
 print_status "Changing to TV2 processor directory..."
 cd "$TV2_PROCESSOR_DIR"
 
-print_status "Running TV2 multi_xml_processor.py..."
+print_status "Running TV2_multi_xml_processor.py..."
 print_status "Config: $TV2_CONFIG"
 print_status "Output: $TV2_OUTPUT"
 
-if [ ! -f "TV2 multi_xml_processor.py" ]; then
-    print_error "TV2 multi_xml_processor.py not found in $TV2_PROCESSOR_DIR"
+if [ ! -f "TV2_multi_xml_processor.py" ]; then
+    print_error "TV2_multi_xml_processor.py not found in $TV2_PROCESSOR_DIR"
     exit 1
 fi
 
@@ -65,7 +65,7 @@ if [ ! -f "$TV2_CONFIG" ]; then
 fi
 
 # Execute the XML processor
-python3 "TV2 multi_xml_processor.py" --config "$TV2_CONFIG" --output "$TV2_OUTPUT"
+python3 "TV2_multi_xml_processor.py" --config "$TV2_CONFIG" --output "$TV2_OUTPUT"
 
 # Check if processing was successful
 if [ $? -eq 0 ]; then

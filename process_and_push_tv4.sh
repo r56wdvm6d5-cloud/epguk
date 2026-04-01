@@ -53,8 +53,8 @@ print_header "TV4 Process and Push Script"
 print_header "Step 1: Processing TV4 XML"
 
 # Check if TV4 processor exists
-if [ ! -f "$TV4_PROCESSOR_DIR/TV4 multi_xml_processor.py" ]; then
-    print_error "TV4 processor not found: $TV4_PROCESSOR_DIR/TV4 multi_xml_processor.py"
+if [ ! -f "$TV4_PROCESSOR_DIR/TV4_multi_xml_processor.py" ]; then
+    print_error "TV4 processor not found: $TV4_PROCESSOR_DIR/TV4_multi_xml_processor.py"
     exit 1
 fi
 
@@ -68,9 +68,9 @@ print_status "Changing to TV4 processor directory..."
 cd "$TV4_PROCESSOR_DIR"
 
 print_status "Running TV4 multi-XML processor..."
-print_status "Command: python3 \"TV4 multi_xml_processor.py\" --config \"$TV4_CONFIG_FILE\" --output \"$TV4_OUTPUT_FILE\""
+print_status "Command: python3 \"TV4_multi_xml_processor.py\" --config \"$TV4_CONFIG_FILE\" --output \"$TV4_OUTPUT_FILE\""
 
-if python3 "TV4 multi_xml_processor.py" --config "$TV4_CONFIG_FILE" --output "$TV4_OUTPUT_FILE"; then
+if python3 "TV4_multi_xml_processor.py" --config "$TV4_CONFIG_FILE" --output "$TV4_OUTPUT_FILE"; then
     print_success "TV4 XML processing completed successfully!"
     
     # Check if output file was created
@@ -151,7 +151,7 @@ print_success "GitHub URL: https://github.com/r56wdvm6d5-cloud/epguk/blob/main/T
 
 echo ""
 print_status "Summary:"
-echo "- TV4 Processor: $TV4_PROCESSOR_DIR/TV4 multi_xml_processor.py"
+echo "- TV4 Processor: $TV4_PROCESSOR_DIR/TV4_multi_xml_processor.py"
 echo "- Config File: $TV4_CONFIG_FILE"
 echo "- Output File: $TV4_OUTPUT_FILE"
 echo "- GitHub Target: $TARGET_PATH"
