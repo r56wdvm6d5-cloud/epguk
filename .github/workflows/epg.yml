@@ -30,7 +30,13 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          python3 -m pip install requests      
+          python3 -m pip install requests
+
+      - name: Configure Git identity
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
       - name: Make scripts executable
         run: |
           chmod +x "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/process_all_epg_sources.sh"
