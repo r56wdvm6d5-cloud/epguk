@@ -1,0 +1,49 @@
+name: EPG Multi-System Processor
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  process-epg:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Set at workflow level
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+      
+      - name: Make scripts executable
+        run: |
+          chmod +x "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/process_all_epg_sources.sh"
+      
+      - name: Debug - Show working directory
+        run: |
+          echo "=== Current working directory ==="
+          pwd
+          echo "=== Listing GITHUB ACTIIONS CORE directory ==="
+          ls -la "GITHUB ACTIIONS CORE/"
+          echo "=== Listing C0MBINE PROCESSOR directory ==="
+          ls -la "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/"
+      
+      - name: Process all 7 EPG sources
+        run: |
+          cd "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR"
+          echo "=== Running unified EPG processor from ==="
+          pwd
+          ./process_all_epg_sources.sh || echo "Script failed with exit code $?"
