@@ -14,11 +14,19 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
       
-      - name: Setup Node.js 24
+      - name: Setup Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: '24'
+          node-version: '22'
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
       
       - name: Make scripts executable
         run: |
@@ -26,21 +34,20 @@ jobs:
       
       - name: Debug - Show working directory
         run: |
-          echo "=== Current working directory ==="
-          pwd
-          echo "=== Listing GITHUB ACTIIONS CORE directory ==="
-          ls -la "GITHUB ACTIIONS CORE/"
-          echo "=== Listing C0MBINE PROCESSOR directory =name: EPG Multi-System Processor
+          echo "=== Currename: EPG Multi-System Processor
 
 on:
   schedule:
     - cron: '0 * * * *'  # Every hour
-  workflow_dispatch:  # Manual trig|
-
+  workflow_dispatch:  # Manual trigIT
 on:
   schedule:
-    - cron: '0ORE  0M    - cronSS  workflow    echo "=== Running unifie
-jobs:
-  process-epm ==="
-          pwd
-          ./process_all_epg_sources.sh || echo "Script failed with exit code $?"
+    - cron: '0cho "==    - cronC0  workflow_dSOR directory ==="
+       
+j ls -la "GITHUB ACTIIONS CORE/C0MBINE   prES    runs-on:       env:
+      FORCE_JAVA E      Fces
+        run: |
+          cd "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR"
+            - n"=        uses: acti EPG processor f        with:
+          tok      .          to_e          fetch-depth: 0
+      ailed with exi   ode $?"
