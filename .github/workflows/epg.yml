@@ -1,0 +1,46 @@
+name: EPG Multi-System Processor
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  process-epg:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Set at workflow level
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      
+      - name: Make scripts executable
+        run: |
+          chmod +x "GITHUB ACTIIONS CORE/C0MBINE PROCESSOR/process_all_epg_sources.sh"
+      
+      - name: Debug - Show working directory
+        run: |
+          echo "=== Current working directory ==="
+          pwd
+          echo "=== Listing GITHUB ACTIIONS CORE directory ==="
+          ls -la "GITHUB ACTIIONS CORE/"
+          echo "=== Listing C0MBINE PROCESSOR directory =name: EPG Multi-System Processor
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:  # Manual trig|
+
+on:
+  schedule:
+    - cron: '0ORE  0M    - cronSS  workflow    echo "=== Running unifie
+jobs:
+  process-epm ==="
+          pwd
+          ./process_all_epg_sources.sh || echo "Script failed with exit code $?"
