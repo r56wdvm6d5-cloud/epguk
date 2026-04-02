@@ -64,7 +64,8 @@ jobs:
       - name: Commit and push EPG files
         run: |
           cd "$GITHUB_WORKSPACE"
-          git pull --rebase origin main
+          git fetch origin main
+          git reset --hard origin/main
           git add GITHUB\ ACTIIONS\ CORE/*.xml || true
           git commit -m "Auto update all EPG files - $(date '+%Y-%m-%d %H:%M:%S')" || echo "Nothing to commit"
           git push origin HEAD:main
