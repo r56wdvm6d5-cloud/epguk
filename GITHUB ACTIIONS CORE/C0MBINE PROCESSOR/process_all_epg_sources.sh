@@ -11,8 +11,8 @@ MULTI_PROCESSOR_DIR="GITHUB ACTIIONS CORE/DOC1"
 MULTI_CONFIG="GITHUB ACTIIONS CORE/DOC1/multi_xml_config.txt"
 MULTI_OUTPUT="GITHUB ACTIIONS CORE/epg_combined.xml"
 
-DOC2_PROCESSOR_DIR="GITHUB ACTIIONS CORE/Doc2TV"
-DOC2_CONFIG="GITHUB ACTIIONS CORE/Doc2TV/DOC2tvshow multi_xml_config.txt"
+DOC2_PROCESSOR_DIR="GITHUB ACTIIONS CORE/Doc2"
+DOC2_CONFIG="GITHUB ACTIIONS CORE/Doc2/Doc2_multi_xml_config.txt"
 DOC2_OUTPUT="GITHUB ACTIIONS CORE/Doc2_Doc2_epg.xml"
 
 DOCTV_PROCESSOR_DIR="GITHUB ACTIIONS CORE/Doc2TV"
@@ -94,7 +94,7 @@ process_xml_source() {
 print_status "Starting unified EPG processing for all 7 sources..."
 
 process_xml_source "$MULTI_PROCESSOR_DIR"  "$MULTI_CONFIG"  "$MULTI_OUTPUT"  "Multi-XML Combined" "multi_xml_processor.py"              || exit 1
-process_xml_source "$DOC2_PROCESSOR_DIR"   "$DOC2_CONFIG"   "$DOC2_OUTPUT"   "Doc2"               "DOC2tvshow multi_xml_processor.py"   || exit 1
+process_xml_source "$DOC2_PROCESSOR_DIR"   "$DOC2_CONFIG"   "$DOC2_OUTPUT"   "Doc2"               "Doc2_multi_xml_processor.py"     || exit 1
 process_xml_source "$DOCTV_PROCESSOR_DIR"  "$DOCTV_CONFIG"  "$DOCTV_OUTPUT"  "Doc2:TV"            "DOC2tvshow multi_xml_processor.py"   || exit 1
 process_xml_source "$TV2_PROCESSOR_DIR"    "$TV2_CONFIG"    "$TV2_OUTPUT"    "TV2"                "TV2_multi_xml_processor.py"          || exit 1
 process_xml_source "$TV3_PROCESSOR_DIR"    "$TV3_CONFIG"    "$TV3_OUTPUT"    "TV3"                "TV3_multi_xml_processor.py"          || exit 1
