@@ -45,7 +45,9 @@ KSTVSPORTS2_CONFIG="GITHUB ACTIIONS CORE/KSTVSPORTS2/KSTVSPORTS2.txt"
 KSTVSPORTS2_OUTPUT="GITHUB ACTIIONS CORE/KSTVSPORTS2_epg.xml"
 KSTVSPORTS2_CACHE="GITHUB ACTIIONS CORE/KSTVSPORTS2/kstv_cache.xml"
 
-
+KSTVMOVIES_PROCESSOR_DIR="GITHUB ACTIIONS CORE/KSTVMOVIES"
+KSTVTVMOVIES_CONFIG="GITHUB ACTIIONS CORE/KSTVMOVIES/KSTVMOVIES.txt"
+KSTVMOVIES_OUTPUT="GITHUB ACTIIONS CORE/KSTVMOVIES_epg.xml"
 
 # Colors for output
 RED='\033[0;31m'
@@ -114,4 +116,5 @@ process_xml_source "$TV4_PROCESSOR_DIR"    "$TV4_CONFIG"    "$TV4_OUTPUT"    "TV
 process_xml_source "$TV5_PROCESSOR_DIR"    "$TV5_CONFIG"    "$TV5_OUTPUT"    "TV5"                "TV5_multi_xml_processor.py"          || exit 1
 process_xml_source "$KSTVSPORTS1_PROCESSOR_DIR"    "$KSTVSPORTS1_CONFIG"    "$KSTVSPORTS1_OUTPUT"    "KSTVSPORTS1"                "KSTVSPORTS1_multi_xml_processor.py"          || exit 1
 process_xml_source "$KSTVSPORTS2_PROCESSOR_DIR"    "$KSTVSPORTS2_CONFIG"    "$KSTVSPORTS2_OUTPUT"    "KSTVSPORTS2"                "KSTVSPORTS2_multi_xml_processor.py"          || exit 1
+process_xml_source "$KSTVMOVIES_PROCESSOR_DIR"    "$KSTVMOVIES_CONFIG"    "$KSTVMOVIES_OUTPUT"    "KSTVMOVIES"                "KSTVMOVIES.py"          || exit 1
 print_success "All 7 EPG sources processed successfully! Git handled by epg.yml"
