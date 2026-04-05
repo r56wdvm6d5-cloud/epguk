@@ -35,6 +35,10 @@ TV5_PROCESSOR_DIR="GITHUB ACTIIONS CORE/TV5"
 TV5_CONFIG="GITHUB ACTIIONS CORE/TV5/TV5.txt"
 TV5_OUTPUT="GITHUB ACTIIONS CORE/TV5_epg.xml"
 
+KSTVSPORTS1_PROCESSOR_DIR="GITHUB ACTIIONS CORE/KSTVSPORTS1"
+KSTVSPORTS1_CONFIG="GITHUB ACTIIONS CORE/KSTVSPORTS1/KSTVSPORTS1.txt"
+KSTVSPORTS1_OUTPUT="GITHUB ACTIIONS CORE/KSTVSPORTS1_epg.xml"
+
 # Colors for output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -100,5 +104,6 @@ process_xml_source "$TV2_PROCESSOR_DIR"    "$TV2_CONFIG"    "$TV2_OUTPUT"    "TV
 process_xml_source "$TV3_PROCESSOR_DIR"    "$TV3_CONFIG"    "$TV3_OUTPUT"    "TV3"                "TV3_multi_xml_processor.py"          || exit 1
 process_xml_source "$TV4_PROCESSOR_DIR"    "$TV4_CONFIG"    "$TV4_OUTPUT"    "TV4"                "TV4_multi_xml_processor.py"          || exit 1
 process_xml_source "$TV5_PROCESSOR_DIR"    "$TV5_CONFIG"    "$TV5_OUTPUT"    "TV5"                "TV5_multi_xml_processor.py"          || exit 1
+process_xml_source "$KSTVSPORTS1_PROCESSOR_DIR"    "$KSTVSPORTS1_CONFIG"    "$KSTVSPORTS1_OUTPUT"    "KSTVSPORTS1"                "KSTVSPORTS1_multi_xml_processor.py"          || exit 1
 
 print_success "All 7 EPG sources processed successfully! Git handled by epg.yml"
