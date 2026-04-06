@@ -23,6 +23,8 @@ class KSTVSportsProcessor:
 
     def __init__(self):
         self.current_time = datetime.now(timezone.utc)
+        self.max_programs = 900                  # Global cap across all channels
+        self.max_programs_per_channel = 100      # Per-channel early limit
         self.session = requests.Session()
         adapter = requests.adapters.HTTPAdapter(
             pool_connections=5,
@@ -235,6 +237,57 @@ class KSTVSportsProcessor:
         logger.info(f"Time filter: kept {len(filtered)} programmes (removed {len(programmes) - len(filtered)} past)")
         return filtered
 
+    def limit_programs_per_channel(self, programmes):
+        """Early per-channel limit: cap each channel at max_programs_per_channel."""
+        channel_programs = {}
+        for program in programmes:
+            ch_id = program.get('channel')
+            if ch_id not in channel_programs:
+                channel_programs[ch_id] = []
+            channel_programs[ch_id].append(program)
+
+        limited = []
+        for ch_id, progs in channel_programs.items():
+            if len(progs) > self.max_programs_per_channel:
+                logger.info(f"Per-channel limit [{ch_id}]: {len(progs)} -> {self.max_programs_per_channel} programmes")
+                limited.extend(progs[:self.max_programs_per_channel])
+            else:
+                limited.extend(progs)
+
+        logger.info(f"Per-channel limiting: {len(programmes)} -> {len(limited)} programmes")
+        return limited
+
+    def limit_programs_equally(self, programmes, num_channels):
+        """Global 900 cap with equal distribution across channels."""
+        if len(programmes) <= self.max_programs:
+            logger.info(f"Total programmes ({len(programmes)}) under global cap ({self.max_programs}), no limiting needed")
+            return programmes
+
+        programs_per_channel = self.max_programs // num_channels
+        remaining = self.max_programs % num_channels
+
+        logger.info(f"Global cap: {len(programmes)} -> {self.max_programs} ({programs_per_channel} per channel)")
+
+        channel_programs = {}
+        for program in programmes:
+            ch_id = program.get('channel')
+            if ch_id not in channel_programs:
+                channel_programs[ch_id] = []
+            channel_programs[ch_id].append(program)
+
+        limited = []
+        extra = remaining
+        for ch_id, progs in channel_programs.items():
+            limit = programs_per_channel + (1 if extra > 0 else 0)
+            if extra > 0:
+                extra -= 1
+            actual = min(limit, len(progs))
+            limited.extend(progs[:actual])
+            logger.info(f"Global cap [{ch_id}]: {len(progs)} -> {actual} programmes")
+
+        logger.info(f"Final total programmes: {len(limited)}")
+        return limited
+
     def build_output(self, channels, programmes):
         """Build output XML with proper formatting."""
         root = ET.Element("tv")
@@ -340,6 +393,12 @@ class KSTVSportsProcessor:
 
         # Filter past AFTER merging
         all_programmes = self.filter_past_programmes(all_programmes)
+
+        # Per-channel limit (100 per channel)
+        all_programmes = self.limit_programs_per_channel(all_programmes)
+
+        # Global 900 cap with equal distribution
+        all_programmes = self.limit_programs_equally(all_programmes, len(all_channels))
 
         output = self.build_output(all_channels, all_programmes)
 
