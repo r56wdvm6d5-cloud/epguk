@@ -7,7 +7,6 @@ Supports dual sources: KSTV bulk XML (fetched once + cached) and epg.pw per-chan
 
 import argparse
 import xml.etree.ElementTree as ET
-import xml.dom.minidom
 import requests
 import requests.adapters
 import re
@@ -323,15 +322,20 @@ class TV2MultiXMLProcessor:
 
         return root
 
-    def format_xml_output(self, root: ET.Element, pretty: bool = False) -> str:
-        """Format XML output."""
+    def format_xml_output(self, root: ET.Element, pretty: bool = True) -> str:
+        """Format XML output — always consistent indentation + XML declaration.
+
+        Both KSTV and epg.pw elements are re-serialised from the in-memory tree,
+        so the output is uniform regardless of the original source formatting.
+        The 'pretty' flag controls indentation (default True for readability).
+        """
         if pretty:
-            rough_string = ET.tostring(root, encoding='unicode')
-            reparsed = xml.dom.minidom.parseString(rough_string)
-            pretty_xml = reparsed.toprettyxml(indent="  ")
-            lines = [line for line in pretty_xml.split('\n') if line.strip()]
-            return '\n'.join(lines)
-        return ET.tostring(root, encoding='unicode', method='xml')
+            # ET.indent requires Python 3.9+ — strips any pre-existing tail whitespace
+            # then re-indents the whole tree uniformly
+            ET.indent(root, space="  ")
+
+        xml_body = ET.tostring(root, encoding='unicode', method='xml')
+        return '<?xml version="1.0" encoding="utf-8" ?>\n' + xml_body
 
     # -------------------------------------------------------------------------
     # Main processing
@@ -397,7 +401,7 @@ class TV2MultiXMLProcessor:
 
             # Build and write output
             combined_root    = self.create_combined_xml(all_channels, all_programmes)
-            formatted_output = self.format_xml_output(combined_root, pretty=False)
+            formatted_output = self.format_xml_output(combined_root)
 
             os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
             with open(output_file, 'w', encoding='utf-8') as f:
