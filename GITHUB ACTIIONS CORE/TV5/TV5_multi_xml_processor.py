@@ -13,32 +13,33 @@ Supports four source types:
        https://iptv-epg.org/files/epg-us.xml  (USA)
        https://iptv-epg.org/files/epg-au.xml  (Australia)
        https://iptv-epg.org/files/epg-nz.xml  (New Zealand)
-  4. mitthu786 gzipped bulk XML — accurate Indian OTT EPG (SonyLIV, JioTV, TataPlay etc.)
-       URL: https://github.com/mitthu786/tvepg/releases/download/latest/epg.xml.gz
-       Channel ID format examples:
-         sony1000009248  -> SONY SAB  (SonyLIV)
-         sony1000009246  -> SET HD    (SonyLIV)
-         291             -> SET HD    (JioTV)
-         ts63            -> Zee TV    (TataPlay)
+  4. open-epg.com bulk    — fetched once per country URL, cached, filtered by channel ID
+     Supported URLs:
+       https://www.open-epg.com/files/india3.xml  (India)
 
 Config file format (CHANNEL_ID|URL|DISPLAY_NAME):
   # KSTV source
   SomeID|http://kstv.us:8080/xmltv.php?type=xml|Channel Name
 
   # epg.pw per-channel source
-  463922|https://epg.pw/api/epg.xml?channel_id=463922|Some Channel
+  463922|https://epg.pw/api/epg.xml?channel_id=463922|SONY SAB
 
   # iptv-epg.org bulk source  (channel ID must match the id= in the XML)
-  STARPLUS.in|https://iptv-epg.org/files/epg-in.xml|STAR PLUS
+  SONYSAB.in|https://iptv-epg.org/files/epg-in.xml|SONY SAB
   BBC1.gb|https://iptv-epg.org/files/epg-gb.xml|BBC One
+  NBC.us|https://iptv-epg.org/files/epg-us.xml|NBC
+  ABC.au|https://iptv-epg.org/files/epg-au.xml|ABC Australia
+  TVNZ1.nz|https://iptv-epg.org/files/epg-nz.xml|TVNZ 1
 
-  # mitthu786 accurate Indian OTT bulk source (gzipped) — replaces epg.pw for Indian channels
-  sony1000009248|https://github.com/mitthu786/tvepg/releases/download/latest/epg.xml.gz|SONY SAB
+  # open-epg.com bulk source  (channel ID must match the id= in the XML)
+  STARPLUS.in|https://www.open-epg.com/files/india1.xml|STAR PLUS
+  ZeeTV.in|https://www.open-epg.com/files/india1.xml|ZEE TV
+  SONY_SAB.in|https://www.open-epg.com/files/india1.xml|SONY SAB
+  B4U_KADAK.in|https://www.open-epg.com/files/india1.xml|B4U KADAK
+  B4U_MOVIES.in|https://www.open-epg.com/files/india1.xml|B4U MOVIES
 """
 
 import argparse
-import gzip
-import io
 import xml.etree.ElementTree as ET
 import requests
 import requests.adapters
@@ -74,16 +75,25 @@ IPTV_EPG_ORG_CACHE_FILES = {
     'https://iptv-epg.org/files/epg-nz.xml': 'tv4_iptv_epg_nz_cache.xml',
 }
 
-MITTHU786_EPG_URL = "https://github.com/mitthu786/tvepg/releases/download/latest/epg.xml.gz"
-MITTHU786_CACHE_FILE = "tv4_mitthu786_cache.xml"
+# All supported open-epg.com bulk feed URLs
+OPEN_EPG_URLS = {
+    'india1.xml': 'https://www.open-epg.com/files/india1.xml',
+    'india3.xml': 'https://www.open-epg.com/files/india3.xml',
+}
+
+# Cache file names for open-epg.com feeds
+OPEN_EPG_CACHE_FILES = {
+    'https://www.open-epg.com/files/india1.xml': 'tv4_open_epg_india1_cache.xml',
+    'https://www.open-epg.com/files/india3.xml': 'tv4_open_epg_india3_cache.xml',
+}
 
 def is_iptv_epg_org_url(url: str) -> bool:
     """Return True if the URL is an iptv-epg.org bulk feed."""
     return 'iptv-epg.org/files/' in url
 
-def is_mitthu786_url(url: str) -> bool:
-    """Return True if the URL is the mitthu786 gzipped Indian OTT EPG feed."""
-    return 'mitthu786/tvepg' in url and url.endswith('.gz')
+def is_open_epg_url(url: str) -> bool:
+    """Return True if the URL is an open-epg.com bulk feed."""
+    return 'open-epg.com/files/' in url
 
 
 class TV4MultiXMLProcessor:
@@ -93,6 +103,8 @@ class TV4MultiXMLProcessor:
       - KSTV bulk XML (fetched once, cached)
       - epg.pw per-channel sources (parallel fetches)
       - iptv-epg.org bulk XMLs: epg-in, epg-gb, epg-us, epg-au, epg-nz
+        (each fetched once and cached separately)
+      - open-epg.com bulk XMLs: india3
         (each fetched once and cached separately)
     """
 
@@ -113,7 +125,7 @@ class TV4MultiXMLProcessor:
         self.session.mount('https://', adapter)
 
     # -------------------------------------------------------------------------
-    # Config loading — detects kstv / epg.pw / iptv-epg.org sources
+    # Config loading — detects kstv / epg.pw / iptv-epg.org / open-epg.com sources
     # -------------------------------------------------------------------------
 
     def load_config(self, config_file: str) -> Tuple[Dict, List, Dict, Dict]:
@@ -123,12 +135,14 @@ class TV4MultiXMLProcessor:
             kstv_channels    : dict  {channel_id: display_name}
             epgpw_sources    : list  [{channel_id, url, display_name}]
             iptvepg_sources  : dict  {bulk_url: {channel_id: display_name}}
-            mitthu786_channels: dict {channel_id: display_name}
+                               Channels grouped by their iptv-epg.org feed URL
+            open_epg_sources : dict  {bulk_url: {channel_id: display_name}}
+                               Channels grouped by their open-epg.com feed URL
         """
-        kstv_channels    = {}
-        epgpw_sources    = []
-        iptvepg_sources  = {}
-        mitthu786_channels = {}
+        kstv_channels   = {}
+        epgpw_sources   = []
+        iptvepg_sources = {}   # url -> {channel_id: display_name}
+        open_epg_sources = {}   # url -> {channel_id: display_name}
 
         try:
             with open(config_file, 'r') as f:
@@ -147,14 +161,17 @@ class TV4MultiXMLProcessor:
                         if channel_id not in kstv_channels:
                             kstv_channels[channel_id] = display_name
 
-                    elif is_mitthu786_url(url):
-                        # mitthu786 gzipped Indian OTT EPG — fetch once, filter by channel ID
-                        mitthu786_channels[channel_id] = display_name
-
                     elif is_iptv_epg_org_url(url):
+                        # Group by the bulk feed URL
                         if url not in iptvepg_sources:
                             iptvepg_sources[url] = {}
                         iptvepg_sources[url][channel_id] = display_name
+
+                    elif is_open_epg_url(url):
+                        # Group by the bulk feed URL
+                        if url not in open_epg_sources:
+                            open_epg_sources[url] = {}
+                        open_epg_sources[url][channel_id] = display_name
 
                     elif channel_id.isdigit() or 'epg.pw' in url:
                         epgpw_sources.append({
@@ -173,14 +190,16 @@ class TV4MultiXMLProcessor:
             logger.error(f"Config file not found: {config_file}")
 
         total_iptvepg = sum(len(v) for v in iptvepg_sources.values())
+        total_open_epg = sum(len(v) for v in open_epg_sources.values())
         logger.info(
             f"Loaded {len(kstv_channels)} KSTV channels, "
             f"{len(epgpw_sources)} epg.pw channels, "
             f"{total_iptvepg} iptv-epg.org channels "
             f"({len(iptvepg_sources)} feed(s)), "
-            f"{len(mitthu786_channels)} mitthu786 channels"
+            f"{total_open_epg} open-epg.com channels "
+            f"({len(open_epg_sources)} feed(s))"
         )
-        return kstv_channels, epgpw_sources, iptvepg_sources, mitthu786_channels
+        return kstv_channels, epgpw_sources, iptvepg_sources, open_epg_sources
 
     # -------------------------------------------------------------------------
     # KSTV bulk XML — fetch once, cache, filter by channel ID
@@ -224,92 +243,6 @@ class TV4MultiXMLProcessor:
                              cache_hours: float = 6) -> ET.Element:
         """Fetch the full KSTV EPG XML once, cache it locally."""
         return self.fetch_bulk_xml(KSTV_EPG_URL, cache_file, cache_hours, label='KSTV EPG')
-
-    def fetch_bulk_xml_gz(self, url: str, cache_file: str, cache_hours: float = 6,
-                          label: str = 'gzip bulk') -> ET.Element:
-        """Fetch a gzipped bulk XML feed, decompress, cache the XML, return root element."""
-        # Check cached (already decompressed) XML
-        if os.path.exists(cache_file):
-            age_hours = (time.time() - os.path.getmtime(cache_file)) / 3600
-            if age_hours < cache_hours:
-                logger.info(f"Using cached {label} ({age_hours:.1f}h old, limit {cache_hours}h)")
-                try:
-                    tree = ET.parse(cache_file)
-                    return tree.getroot()
-                except Exception as e:
-                    logger.warning(f"Cache read failed for {label}: {e} — re-fetching")
-
-        logger.info(f"Fetching {label} (gzipped) from {url} ...")
-        try:
-            response = self.session.get(url, timeout=120)
-            response.raise_for_status()
-
-            # Decompress gzip content
-            compressed = io.BytesIO(response.content)
-            with gzip.GzipFile(fileobj=compressed) as gz:
-                xml_bytes = gz.read()
-
-            # Cache the decompressed XML
-            with open(cache_file, 'wb') as f:
-                f.write(xml_bytes)
-            logger.info(f"{label} decompressed and cached to {cache_file}")
-
-            root = ET.fromstring(xml_bytes)
-            logger.info(f"Successfully fetched and parsed {label}")
-            return root
-
-        except Exception as e:
-            logger.error(f"Failed to fetch {label}: {e}")
-            if os.path.exists(cache_file):
-                logger.warning(f"Using stale cache for {label} as fallback")
-                try:
-                    tree = ET.parse(cache_file)
-                    return tree.getroot()
-                except Exception:
-                    pass
-            return None
-
-    def process_mitthu786_sources(self, mitthu786_channels: Dict[str, str],
-                                   cache_hours: float = 6) -> Tuple[Dict, List]:
-        """Fetch the mitthu786 gzipped EPG once, filter wanted channels.
-
-        Args:
-            mitthu786_channels : {channel_id: display_name}
-            cache_hours        : cache TTL in hours
-
-        Returns:
-            all_channels   : {channel_id: ET.Element}
-            all_programmes : [ET.Element]
-        """
-        logger.info(
-            f"Processing {len(mitthu786_channels)} mitthu786 channel(s) "
-            f"from gzipped feed..."
-        )
-        root = self.fetch_bulk_xml_gz(
-            MITTHU786_EPG_URL,
-            MITTHU786_CACHE_FILE,
-            cache_hours,
-            label='mitthu786 Indian OTT EPG'
-        )
-        if root is None:
-            logger.warning("mitthu786 EPG fetch failed — skipping these channels")
-            return {}, []
-
-        channels, programmes = self.filter_bulk_channels(
-            root, mitthu786_channels, source_label='mitthu786'
-        )
-
-        missing = set(mitthu786_channels.keys()) - set(channels.keys())
-        if missing:
-            logger.warning(
-                f"mitthu786: {len(missing)} channel(s) not found in feed: "
-                + ', '.join(sorted(missing))
-            )
-
-        logger.info(
-            f"mitthu786: added {len(channels)} channels, {len(programmes)} programmes"
-        )
-        return channels, programmes
 
     def filter_bulk_channels(self, root: ET.Element,
                               wanted_channels: Dict[str, str],
@@ -377,6 +310,58 @@ class TV4MultiXMLProcessor:
             # Determine a human-readable label
             feed_name = feed_url.split('/')[-1]   # e.g. epg-in.xml
             label = f'iptv-epg.org/{feed_name} ({len(wanted_channels)} channels)'
+
+            root = self.fetch_bulk_xml(feed_url, cache_file, cache_hours, label=label)
+            if root is None:
+                logger.warning(f"Skipping {feed_url} — fetch failed")
+                continue
+
+            channels, programmes = self.filter_bulk_channels(root, wanted_channels,
+                                                              source_label=feed_name)
+            all_channels.update(channels)
+            all_programmes.extend(programmes)
+            logger.info(f"{feed_name}: added {len(channels)} channels, {len(programmes)} programmes")
+
+            # Warn about channels not found in feed
+            missing = set(wanted_channels.keys()) - set(channels.keys())
+            if missing:
+                logger.warning(
+                    f"{feed_name}: {len(missing)} channel(s) not found in feed: "
+                    + ', '.join(sorted(missing))
+                )
+
+        return all_channels, all_programmes
+
+    # -------------------------------------------------------------------------
+    # open-epg.com bulk feeds — one fetch+cache per URL
+    # -------------------------------------------------------------------------
+
+    def process_open_epg_sources(self, open_epg_sources: Dict[str, Dict[str, str]],
+                                 cache_hours: float = 6) -> Tuple[Dict, List]:
+        """Fetch each open-epg.com feed once, cache it, filter wanted channels.
+
+        Args:
+            open_epg_sources : {feed_url: {channel_id: display_name}}
+            cache_hours       : cache TTL in hours
+
+        Returns:
+            all_channels   : {channel_id: ET.Element}
+            all_programmes : [ET.Element]
+        """
+        all_channels   = {}
+        all_programmes = []
+
+        for feed_url, wanted_channels in open_epg_sources.items():
+            # Determine cache file name
+            cache_file = OPEN_EPG_CACHE_FILES.get(feed_url)
+            if not cache_file:
+                # Derive from URL if unknown (future-proofing)
+                slug = feed_url.split('/')[-1].replace('.xml', '')
+                cache_file = f'tv4_open_epg_{slug}_cache.xml'
+
+            # Determine a human-readable label
+            feed_name = feed_url.split('/')[-1]   # e.g. india3.xml
+            label = f'open-epg.com/{feed_name} ({len(wanted_channels)} channels)'
 
             root = self.fetch_bulk_xml(feed_url, cache_file, cache_hours, label=label)
             if root is None:
@@ -583,13 +568,11 @@ class TV4MultiXMLProcessor:
     def process_multiple_sources(self, config_file: str, output_file: str,
                                   cache_file: str = 'tv4_kstv_cache.xml',
                                   cache_hours: float = 6) -> bool:
-        """Main processing — handles KSTV, epg.pw, iptv-epg.org, and mitthu786 sources."""
+        """Main processing — handles KSTV, epg.pw, iptv-epg.org, and open-epg.com sources."""
         try:
-            kstv_channels, epgpw_sources, iptvepg_sources, mitthu786_channels = \
-                self.load_config(config_file)
+            kstv_channels, epgpw_sources, iptvepg_sources, open_epg_sources = self.load_config(config_file)
 
-            if not kstv_channels and not epgpw_sources and not iptvepg_sources \
-                    and not mitthu786_channels:
+            if not kstv_channels and not epgpw_sources and not iptvepg_sources and not open_epg_sources:
                 logger.error("No valid sources found in configuration")
                 return False
 
@@ -624,13 +607,19 @@ class TV4MultiXMLProcessor:
                     f"iptv-epg.org total: {len(channels)} channels, {len(programmes)} programmes"
                 )
 
-            # --- 3. mitthu786: fetch gzipped feed once, filter by channel ID ---
-            if mitthu786_channels:
-                channels, programmes = self.process_mitthu786_sources(
-                    mitthu786_channels, cache_hours
+            # --- 3. open-epg.com: fetch each feed once, filter by channel ID ---
+            if open_epg_sources:
+                total = sum(len(v) for v in open_epg_sources.values())
+                logger.info(
+                    f"Processing {total} open-epg.com channels "
+                    f"across {len(open_epg_sources)} feed(s)..."
                 )
+                channels, programmes = self.process_open_epg_sources(open_epg_sources, cache_hours)
                 all_channels.update(channels)
                 all_programmes.extend(programmes)
+                logger.info(
+                    f"open-epg.com total: {len(channels)} channels, {len(programmes)} programmes"
+                )
 
             # --- 4. epg.pw: fetch each channel in parallel ---
             if epgpw_sources:
@@ -694,7 +683,7 @@ def main():
         description=(
             'TV4 Multi-XML Processor — '
             'KSTV bulk XML + epg.pw per-channel + iptv-epg.org bulk feeds '
-            '(IN/GB/US/AU/NZ) with auto-date update'
+            '(IN/GB/US/AU/NZ) + open-epg.com bulk feeds (India) with auto-date update'
         )
     )
     parser.add_argument('--config', '-c', default='TV4_multi_xml_config.txt',
@@ -726,3 +715,4 @@ def main():
 
 if __name__ == "__main__":
     exit(main())
+
