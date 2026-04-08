@@ -1,35 +1,90 @@
 #!/usr/bin/env python3
 """
-Multi-XML Processor with Auto-Date Update
+TV4 Multi-XML Processor with Auto-Date Update
 Fetches and combines multiple XML sources into one EPG file
+
+Supports three source types:
+  1. KSTV bulk XML        — fetched once, cached, filtered by channel ID
+  2. epg.pw per-channel   — one HTTP request per channel (parallel)
+  3. iptv-epg.org bulk    — fetched once per country URL, cached, filtered by channel ID
+     Supported URLs:
+       https://iptv-epg.org/files/epg-in.xml  (India)
+       https://iptv-epg.org/files/epg-gb.xml  (UK)
+       https://iptv-epg.org/files/epg-us.xml  (USA)
+       https://iptv-epg.org/files/epg-au.xml  (Australia)
+       https://iptv-epg.org/files/epg-nz.xml  (New Zealand)
+
+Config file format (CHANNEL_ID|URL|DISPLAY_NAME):
+  # KSTV source
+  SomeID|http://kstv.us:8080/xmltv.php?type=xml|Channel Name
+
+  # epg.pw per-channel source
+  463922|https://epg.pw/api/epg.xml?channel_id=463922|SONY SAB
+
+  # iptv-epg.org bulk source  (channel ID must match the id= in the XML)
+  SONYSAB.in|https://iptv-epg.org/files/epg-in.xml|SONY SAB
+  BBC1.gb|https://iptv-epg.org/files/epg-gb.xml|BBC One
+  NBC.us|https://iptv-epg.org/files/epg-us.xml|NBC
+  ABC.au|https://iptv-epg.org/files/epg-au.xml|ABC Australia
+  TVNZ1.nz|https://iptv-epg.org/files/epg-nz.xml|TVNZ 1
 """
 
 import argparse
 import xml.etree.ElementTree as ET
-import xml.dom.minidom
 import requests
 import requests.adapters
 import re
 from datetime import datetime, timezone
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import os
 import logging
-from typing import List, Dict, Any
+from typing import List, Dict, Tuple
 import time
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-class TV5MultiXMLProcessor:
-    """Process multiple XML sources and combine them into one EPG file."""
-    
+KSTV_EPG_URL = "http://kstv.us:8080/xmltv.php?type=xml"
+
+# All supported iptv-epg.org bulk feed URLs
+IPTV_EPG_ORG_URLS = {
+    'epg-in.xml': 'https://iptv-epg.org/files/epg-in.xml',
+    'epg-gb.xml': 'https://iptv-epg.org/files/epg-gb.xml',
+    'epg-us.xml': 'https://iptv-epg.org/files/epg-us.xml',
+    'epg-au.xml': 'https://iptv-epg.org/files/epg-au.xml',
+    'epg-nz.xml': 'https://iptv-epg.org/files/epg-nz.xml',
+}
+
+# Cache file names for iptv-epg.org feeds
+IPTV_EPG_ORG_CACHE_FILES = {
+    'https://iptv-epg.org/files/epg-in.xml': 'tv4_iptv_epg_in_cache.xml',
+    'https://iptv-epg.org/files/epg-gb.xml': 'tv4_iptv_epg_gb_cache.xml',
+    'https://iptv-epg.org/files/epg-us.xml': 'tv4_iptv_epg_us_cache.xml',
+    'https://iptv-epg.org/files/epg-au.xml': 'tv4_iptv_epg_au_cache.xml',
+    'https://iptv-epg.org/files/epg-nz.xml': 'tv4_iptv_epg_nz_cache.xml',
+}
+
+def is_iptv_epg_org_url(url: str) -> bool:
+    """Return True if the URL is an iptv-epg.org bulk feed."""
+    return 'iptv-epg.org/files/' in url
+
+
+class TV4MultiXMLProcessor:
+    """Process multiple XML sources and combine them into one EPG file.
+
+    Supports:
+      - KSTV bulk XML (fetched once, cached)
+      - epg.pw per-channel sources (parallel fetches)
+      - iptv-epg.org bulk XMLs: epg-in, epg-gb, epg-us, epg-au, epg-nz
+        (each fetched once and cached separately)
+    """
+
     def __init__(self):
-        self.channels = {}
-        self.programs = []
-        self.max_programs = 900  # Maximum programs cap
-        self.max_programs_per_channel = 100  # Early limiting for faster loading
-        self.current_time = datetime.now(timezone.utc)  # Current UTC time for checking
-        
+        self.max_programs = 900                 # Global programme cap
+        self.max_programs_per_channel = 100     # Per-channel early limit
+        self.current_time = datetime.now(timezone.utc)
+
         # Setup connection pooling for faster HTTP requests
         self.session = requests.Session()
         adapter = requests.adapters.HTTPAdapter(
@@ -40,310 +95,517 @@ class TV5MultiXMLProcessor:
         )
         self.session.mount('http://', adapter)
         self.session.mount('https://', adapter)
-    
-    def load_config(self, config_file: str) -> List[Dict[str, str]]:
-        """Load configuration from file."""
-        sources = []
-        
+
+    # -------------------------------------------------------------------------
+    # Config loading — detects kstv / epg.pw / iptv-epg.org sources
+    # -------------------------------------------------------------------------
+
+    def load_config(self, config_file: str) -> Tuple[Dict, List, Dict]:
+        """Load configuration from file.
+
+        Returns:
+            kstv_channels    : dict  {channel_id: display_name}
+            epgpw_sources    : list  [{channel_id, url, display_name}]
+            iptvepg_sources  : dict  {bulk_url: {channel_id: display_name}}
+                               Channels grouped by their iptv-epg.org feed URL
+        """
+        kstv_channels   = {}
+        epgpw_sources   = []
+        iptvepg_sources = {}   # url -> {channel_id: display_name}
+
         try:
             with open(config_file, 'r') as f:
                 for line in f:
                     line = line.strip()
-                    if line and not line.startswith('#'):
-                        parts = line.split('|')
-                        if len(parts) == 3:
-                            sources.append({
-                                'channel_id': parts[0].strip(),
-                                'url': parts[1].strip(),
-                                'display_name': parts[2].strip()
-                            })
+                    if not line or line.startswith('#') or line.startswith('='):
+                        continue
+                    parts = line.split('|', 2)
+                    if len(parts) < 3:
+                        continue
+                    channel_id   = parts[0].strip()
+                    url          = parts[1].strip()
+                    display_name = parts[2].strip()
+
+                    if 'kstv.us' in url:
+                        if channel_id not in kstv_channels:
+                            kstv_channels[channel_id] = display_name
+
+                    elif is_iptv_epg_org_url(url):
+                        # Group by the bulk feed URL
+                        if url not in iptvepg_sources:
+                            iptvepg_sources[url] = {}
+                        iptvepg_sources[url][channel_id] = display_name
+
+                    elif channel_id.isdigit() or 'epg.pw' in url:
+                        epgpw_sources.append({
+                            'channel_id':   channel_id,
+                            'url':          url,
+                            'display_name': display_name
+                        })
+                    else:
+                        epgpw_sources.append({
+                            'channel_id':   channel_id,
+                            'url':          url,
+                            'display_name': display_name
+                        })
+
         except FileNotFoundError:
             logger.error(f"Config file not found: {config_file}")
-        
-        logger.info(f"Loaded {len(sources)} XML sources from config")
-        return sources
-    
-    def fetch_xml(self, url: str) -> ET.Element:
-        """Fetch XML from URL using connection pool."""
+
+        total_iptvepg = sum(len(v) for v in iptvepg_sources.values())
+        logger.info(
+            f"Loaded {len(kstv_channels)} KSTV channels, "
+            f"{len(epgpw_sources)} epg.pw channels, "
+            f"{total_iptvepg} iptv-epg.org channels "
+            f"({len(iptvepg_sources)} feed(s))"
+        )
+        return kstv_channels, epgpw_sources, iptvepg_sources
+
+    # -------------------------------------------------------------------------
+    # KSTV bulk XML — fetch once, cache, filter by channel ID
+    # -------------------------------------------------------------------------
+
+    def fetch_bulk_xml(self, url: str, cache_file: str, cache_hours: float = 6,
+                       label: str = 'bulk') -> ET.Element:
+        """Generic: fetch a bulk XML feed once, cache it, return root element."""
+        if os.path.exists(cache_file):
+            age_hours = (time.time() - os.path.getmtime(cache_file)) / 3600
+            if age_hours < cache_hours:
+                logger.info(f"Using cached {label} ({age_hours:.1f}h old, limit {cache_hours}h)")
+                try:
+                    tree = ET.parse(cache_file)
+                    return tree.getroot()
+                except Exception as e:
+                    logger.warning(f"Cache read failed for {label}: {e} — re-fetching")
+
+        logger.info(f"Fetching {label} from {url} ...")
         try:
-            logger.info(f"Fetching XML from: {url}")
+            response = self.session.get(url, timeout=120)
+            response.raise_for_status()
+            with open(cache_file, 'wb') as f:
+                f.write(response.content)
+            logger.info(f"{label} cached to {cache_file}")
+            root = ET.fromstring(response.content)
+            logger.info(f"Successfully fetched {label}")
+            return root
+        except Exception as e:
+            logger.error(f"Failed to fetch {label}: {e}")
+            if os.path.exists(cache_file):
+                logger.warning(f"Using stale cache for {label} as fallback")
+                try:
+                    tree = ET.parse(cache_file)
+                    return tree.getroot()
+                except Exception:
+                    pass
+            return None
+
+    def fetch_full_kstv_epg(self, cache_file: str = 'tv4_kstv_cache.xml',
+                             cache_hours: float = 6) -> ET.Element:
+        """Fetch the full KSTV EPG XML once, cache it locally."""
+        return self.fetch_bulk_xml(KSTV_EPG_URL, cache_file, cache_hours, label='KSTV EPG')
+
+    def filter_bulk_channels(self, root: ET.Element,
+                              wanted_channels: Dict[str, str],
+                              source_label: str = 'bulk') -> Tuple[Dict, List]:
+        """Filter wanted channels and programmes from any bulk EPG XML root."""
+        out_channels   = {}
+        out_programmes = []
+
+        for channel in root.findall('.//channel'):
+            ch_id = channel.get('id')
+            if ch_id in wanted_channels:
+                disp = channel.find('display-name')
+                if disp is not None:
+                    disp.text = wanted_channels[ch_id]
+                out_channels[ch_id] = channel
+
+        # Deduplicate by display name + start + title + desc
+        seen_keys = set()
+        for programme in root.findall('.//programme'):
+            ch_id = programme.get('channel')
+            if ch_id in wanted_channels:
+                display_name = wanted_channels[ch_id]
+                title_el = programme.find('title')
+                desc_el  = programme.find('desc')
+                title = title_el.text if title_el is not None else ''
+                desc  = desc_el.text  if desc_el  is not None else ''
+                key = f"{display_name}|{programme.get('start')}|{title}|{desc}"
+                if key not in seen_keys:
+                    seen_keys.add(key)
+                    out_programmes.append(programme)
+
+        logger.info(
+            f"{source_label} filter: {len(out_channels)} channels, "
+            f"{len(out_programmes)} programmes (deduplicated)"
+        )
+        return out_channels, out_programmes
+
+    # -------------------------------------------------------------------------
+    # iptv-epg.org bulk feeds — one fetch+cache per URL
+    # -------------------------------------------------------------------------
+
+    def process_iptvepg_sources(self, iptvepg_sources: Dict[str, Dict[str, str]],
+                                 cache_hours: float = 6) -> Tuple[Dict, List]:
+        """Fetch each iptv-epg.org feed once, cache it, filter wanted channels.
+
+        Args:
+            iptvepg_sources : {feed_url: {channel_id: display_name}}
+            cache_hours     : cache TTL in hours
+
+        Returns:
+            all_channels   : {channel_id: ET.Element}
+            all_programmes : [ET.Element]
+        """
+        all_channels   = {}
+        all_programmes = []
+
+        for feed_url, wanted_channels in iptvepg_sources.items():
+            # Determine cache file name
+            cache_file = IPTV_EPG_ORG_CACHE_FILES.get(feed_url)
+            if not cache_file:
+                # Derive from URL if unknown (future-proofing)
+                slug = feed_url.split('/')[-1].replace('.xml', '')
+                cache_file = f'tv4_iptv_epg_{slug}_cache.xml'
+
+            # Determine a human-readable label
+            feed_name = feed_url.split('/')[-1]   # e.g. epg-in.xml
+            label = f'iptv-epg.org/{feed_name} ({len(wanted_channels)} channels)'
+
+            root = self.fetch_bulk_xml(feed_url, cache_file, cache_hours, label=label)
+            if root is None:
+                logger.warning(f"Skipping {feed_url} — fetch failed")
+                continue
+
+            channels, programmes = self.filter_bulk_channels(root, wanted_channels,
+                                                              source_label=feed_name)
+            all_channels.update(channels)
+            all_programmes.extend(programmes)
+            logger.info(f"{feed_name}: added {len(channels)} channels, {len(programmes)} programmes")
+
+            # Warn about channels not found in feed
+            missing = set(wanted_channels.keys()) - set(channels.keys())
+            if missing:
+                logger.warning(
+                    f"{feed_name}: {len(missing)} channel(s) not found in feed: "
+                    + ', '.join(sorted(missing))
+                )
+
+        return all_channels, all_programmes
+
+    # -------------------------------------------------------------------------
+    # epg.pw per-channel fetch (parallel)
+    # -------------------------------------------------------------------------
+
+    def fetch_epgpw_source(self, source: Dict[str, str]) -> Tuple[ET.Element, List[ET.Element]]:
+        """Fetch a single epg.pw channel XML and return channel element + programmes."""
+        url          = source['url']
+        display_name = source['display_name']
+        channel_id   = source['channel_id']
+
+        # Update date in URL to today
+        today = datetime.now().strftime("%Y%m%d")
+        url = re.sub(r'date=\d{8}', f'date={today}', url)
+
+        try:
+            logger.info(f"Fetching epg.pw: {display_name}")
             response = self.session.get(url, timeout=30)
             response.raise_for_status()
-            
-            # Parse XML
             root = ET.fromstring(response.content)
-            return root
-            
-        except requests.RequestException as e:
-            logger.error(f"Failed to fetch XML from {url}: {e}")
+
+            channel = root.find('.//channel')
+            if channel is not None:
+                channel.set('id', channel_id)
+                disp = channel.find('display-name')
+                if disp is not None:
+                    disp.text = display_name
+                else:
+                    disp = ET.SubElement(channel, 'display-name')
+                    disp.set('lang', 'en')
+                    disp.text = display_name
+
+            programmes = []
+            for prog in root.findall('.//programme'):
+                prog.set('channel', channel_id)
+                programmes.append(prog)
+
+            return channel, programmes
+
+        except Exception as e:
+            logger.error(f"Failed to fetch epg.pw source {display_name}: {e}")
+            return None, []
+
+    # -------------------------------------------------------------------------
+    # Time filtering
+    # -------------------------------------------------------------------------
+
+    def parse_time(self, time_str: str):
+        """Parse EPG time string to UTC datetime."""
+        try:
+            time_str = time_str.strip()
+            if len(time_str) > 14 and ('+' in time_str[14:] or '-' in time_str[14:]):
+                return datetime.strptime(time_str, '%Y%m%d%H%M%S %z').astimezone(timezone.utc)
+            return datetime.strptime(time_str[:14], '%Y%m%d%H%M%S').replace(tzinfo=timezone.utc)
+        except Exception:
             return None
-        except ET.ParseError as e:
-            logger.error(f"Failed to parse XML from {url}: {e}")
-            return None
-    
-    def extract_channel_data(self, root: ET.Element, source_info: Dict[str, str]) -> None:
-        """Extract channel information from XML."""
-        channel = root.find(".//channel")
-        if channel is not None:
-            channel_id = source_info['channel_id']
-            display_name = source_info['display_name']
-            
-            # Use provided display name or fall back to XML
-            existing_display = channel.find(".//display-name")
-            if existing_display is not None:
-                existing_display.text = display_name
+
+    def filter_future_programs(self, programmes: List[ET.Element]) -> List[ET.Element]:
+        """Keep future programmes and currently-airing ones, drop fully past ones."""
+        original_count = len(programmes)
+        kept = []
+
+        logger.info(
+            f"Time filter: keeping programmes at/after "
+            f"{self.current_time.strftime('%Y-%m-%d %H:%M:%S UTC')} or currently airing"
+        )
+
+        for program in programmes:
+            start_str = program.get('start')
+            stop_str  = program.get('stop')
+
+            if not start_str:
+                kept.append(program)
+                continue
+
+            start_time = self.parse_time(start_str)
+            if start_time is None:
+                kept.append(program)
+                continue
+
+            if stop_str:
+                stop_time = self.parse_time(stop_str)
+                if stop_time and stop_time <= self.current_time:
+                    continue  # Fully aired — skip
             else:
-                # Add display-name element if missing
-                display_elem = ET.SubElement(channel, "display-name")
-                display_elem.set('lang', 'en')
-                display_elem.text = display_name
-            
-            # Ensure channel ID matches
-            channel.set('id', channel_id)
-            self.channels[channel_id] = channel
-    
-    def extract_program_data(self, root: ET.Element, source_info: Dict[str, str]) -> None:
-        """Extract program data from XML with early limiting for faster loading."""
-        channel_id = source_info['channel_id']
-        
-        programs = root.findall(".//programme")
-        
-        # Early limiting: Take only first N programs per channel for faster IPTVNATOR loading
-        if len(programs) > self.max_programs_per_channel:
-            programs = programs[:self.max_programs_per_channel]
-            logger.info(f"Early limited channel {channel_id}: {len(root.findall('.//programme'))} -> {len(programs)} programs")
-        
-        for program in programs:
-            # Update channel ID to match our config
-            program.set('channel', channel_id)
-            self.programs.append(program)
-        
-        logger.info(f"Extracted {len(programs)} programs for channel {channel_id}")
-    
-    def process_source(self, source_info: Dict[str, str]) -> bool:
-        """Process a single XML source."""
-        # Update date parameter to current date
-        current_date = datetime.now().strftime("%Y%m%d")
-        url = source_info['url']
-        
-        # Replace date in URL with current date
-        if 'date=' in url:
-            url = re.sub(r'date=\d{8}', f'date={current_date}', url)
-            logger.info(f"Updated date in URL: {url}")
-        
-        root = self.fetch_xml(url)
-        if root is None:
-            return False
-        
-        self.extract_channel_data(root, source_info)
-        self.extract_program_data(root, source_info)
-        return True
-    
-    def create_combined_xml(self) -> ET.Element:
-        """Create combined XML output."""
-        # Create root element
+                if start_time < self.current_time:
+                    continue
+
+            kept.append(program)
+
+        logger.info(
+            f"Time filter: {original_count} -> {len(kept)} programmes "
+            f"(removed {original_count - len(kept)} past)"
+        )
+        return kept
+
+    # -------------------------------------------------------------------------
+    # Programme limiting
+    # -------------------------------------------------------------------------
+
+    def limit_programs_per_channel(self, programmes: List[ET.Element]) -> List[ET.Element]:
+        """Cap each channel at max_programs_per_channel programmes."""
+        channel_programs: Dict[str, list] = {}
+        for prog in programmes:
+            channel_programs.setdefault(prog.get('channel'), []).append(prog)
+
+        limited = []
+        for ch_id, progs in channel_programs.items():
+            if len(progs) > self.max_programs_per_channel:
+                logger.info(f"Per-channel limit [{ch_id}]: {len(progs)} -> {self.max_programs_per_channel}")
+                limited.extend(progs[:self.max_programs_per_channel])
+            else:
+                limited.extend(progs)
+
+        logger.info(f"Per-channel limiting: {len(programmes)} -> {len(limited)} programmes")
+        return limited
+
+    def limit_programs_equally(self, programmes: List[ET.Element], num_channels: int) -> List[ET.Element]:
+        """Global 900 cap distributed equally across channels."""
+        if len(programmes) <= self.max_programs:
+            logger.info(
+                f"Total programmes ({len(programmes)}) under global cap "
+                f"({self.max_programs}), no limiting needed"
+            )
+            return programmes
+
+        programs_per_channel = self.max_programs // num_channels
+        remaining = self.max_programs % num_channels
+        logger.info(
+            f"Global cap: {len(programmes)} -> {self.max_programs} "
+            f"(~{programs_per_channel} per channel)"
+        )
+
+        channel_programs: Dict[str, list] = {}
+        for prog in programmes:
+            channel_programs.setdefault(prog.get('channel'), []).append(prog)
+
+        limited = []
+        extra = remaining
+        for ch_id, progs in channel_programs.items():
+            limit  = programs_per_channel + (1 if extra > 0 else 0)
+            if extra > 0:
+                extra -= 1
+            actual = min(limit, len(progs))
+            limited.extend(progs[:actual])
+            logger.info(f"Global cap [{ch_id}]: {len(progs)} -> {actual} programmes")
+
+        logger.info(f"Final total programmes: {len(limited)}")
+        return limited
+
+    # -------------------------------------------------------------------------
+    # XML output
+    # -------------------------------------------------------------------------
+
+    def create_combined_xml(self, channels: Dict, programmes: List[ET.Element]) -> ET.Element:
+        """Build combined XML output."""
         root = ET.Element("tv")
         root.set('date', datetime.now().strftime("%Y%m%d%H%M%S %z"))
-        root.set('generator-info-name', 'TV5-Multi-XML-Processor')
+        root.set('generator-info-name', 'TV4-Multi-XML-Processor')
         root.set('generator-info-url', 'https://github.com/r56wdvm6d5-cloud/epguk')
-        root.set('source-info-name', 'TV5-Source-EPG')
-        
-        # Add all channels
-        for channel_id, channel in self.channels.items():
-            root.append(channel)
-        
-        # Add all programs
-        for program in self.programs:
-            root.append(program)
-        
+        root.set('source-info-name', 'TV4-Source-EPG')
+
+        for channel in channels.values():
+            if isinstance(channel, ET.Element):
+                root.append(channel)
+        for programme in programmes:
+            root.append(programme)
+
         return root
-    
-    def format_xml_output(self, root: ET.Element, pretty: bool = False) -> str:
-        """Format XML output - skip pretty printing for faster IPTVNATOR loading."""
+
+    def format_xml_output(self, root: ET.Element, pretty: bool = True) -> str:
+        """Format XML output — always consistent indentation + XML declaration."""
         if pretty:
-            # Pretty printing (slower, for debugging)
-            rough_string = ET.tostring(root, encoding='unicode')
-            reparsed = xml.dom.minidom.parseString(rough_string)
-            pretty_xml = reparsed.toprettyxml(indent="  ")
-            # Remove empty lines
-            lines = [line for line in pretty_xml.split('\n') if line.strip()]
-            return '\n'.join(lines)
-        else:
-            # Fast output (smaller file, faster IPTVNATOR loading)
-            return ET.tostring(root, encoding='unicode', method='xml')
-    
-    def check_current_utc_time(self) -> None:
-        """Check and display current UTC time for verification."""
-        logger.info(f"Current UTC time: {self.current_time.strftime('%Y-%m-%d %H:%M:%S UTC')}")
-        logger.info(f"Time filtering will keep programs starting from this time onwards")
-    
-    def filter_future_programs(self) -> None:
-        """Filter out programs that have already aired (start time before current time)."""
-        original_count = len(self.programs)
-        future_programs = []
-        
-        logger.info(f"Filter condition: start_time >= {self.current_time.strftime('%H:%M:%S UTC')} OR programme currently airing")
-        
-        for program in self.programs:
-            start_time_str = program.get('start')
-            stop_time_str = program.get('stop')
-            
-            if start_time_str:
-                try:
-                    # Parse start time from EPG format (YYYYMMDDHHMMSS + timezone)
-                    start_time_str_clean = start_time_str[:14]  # Remove timezone part
-                    start_time = datetime.strptime(start_time_str_clean, '%Y%m%d%H%M%S')
-                    start_time = start_time.replace(tzinfo=timezone.utc)
-                    
-                    # Parse stop time if available
-                    if stop_time_str:
-                        stop_time_str_clean = stop_time_str[:14]  # Remove timezone part
-                        stop_time = datetime.strptime(stop_time_str_clean, '%Y%m%d%H%M%S')
-                        stop_time = stop_time.replace(tzinfo=timezone.utc)
-                        
-                        # Keep program if it starts AT AND AFTER current UTC time OR is currently airing
-                        if start_time >= self.current_time or (start_time < self.current_time and stop_time > self.current_time):
-                            future_programs.append(program)
-                            if start_time < self.current_time and stop_time > self.current_time:
-                                logger.debug(f"Keeping currently airing programme: {start_time.strftime('%H:%M:%S')} - {stop_time.strftime('%H:%M:%S')}")
-                        else:
-                            logger.debug(f"Keeping future programme: {start_time.strftime('%H:%M:%S UTC')}")
-                    else:
-                        # If no stop time, use start time only
-                        if start_time >= self.current_time:
-                            future_programs.append(program)
-                        else:
-                            # Log filtered program for debugging
-                            logger.debug(f"Filtered out programme starting at {start_time.strftime('%H:%M:%S UTC')} (before current time)")
-                except (ValueError, TypeError) as e:
-                    # If we can't parse the time, keep the program (safe fallback)
-                    future_programs.append(program)
-                    logger.warning(f"Could not parse start time '{start_time_str}' for program, keeping it: {e}")
-            else:
-                # If no start time, keep the program (safe fallback)
-                future_programs.append(program)
-        
-        filtered_count = len(future_programs)
-        removed_count = original_count - filtered_count
-        
-        self.programs = future_programs
-        logger.info(f"Time filtering: {original_count} -> {filtered_count} programs (removed {removed_count} past programs)")
-        logger.info(f"EPG starts from: {self.current_time.strftime('%Y-%m-%d %H:%M:%S UTC')}")
-    
-    def limit_programs_equally(self) -> None:
-        """Limit programs to maximum 900 with equal distribution across channels."""
-        total_programs = len(self.programs)
-        num_channels = len(self.channels)
-        
-        if total_programs <= self.max_programs:
-            # No limiting needed
-            logger.info(f"Total programs ({total_programs}) is under cap ({self.max_programs}), using all programs")
-            return
-        
-        # Calculate programs per channel
-        programs_per_channel = self.max_programs // num_channels
-        remaining_programs = self.max_programs % num_channels
-        
-        logger.info(f"Limiting programs from {total_programs} to {self.max_programs} ({programs_per_channel} per channel)")
-        
-        # Group programs by channel
-        channel_programs = {}
-        for program in self.programs:
-            channel_id = program.get('channel')
-            if channel_id not in channel_programs:
-                channel_programs[channel_id] = []
-            channel_programs[channel_id].append(program)
-        
-        # Limit programs per channel
-        limited_programs = []
-        channels_with_extra = remaining_programs
-        for channel_id, programs in channel_programs.items():
-            # Take first N programs from each channel
-            channel_limit = programs_per_channel
-            if channels_with_extra > 0:
-                channel_limit += 1
-                channels_with_extra -= 1
-            
-            # Don't take more programs than available
-            actual_limit = min(channel_limit, len(programs))
-            limited_programs.extend(programs[:actual_limit])
-            logger.info(f"Channel {channel_id}: {len(programs)} -> {len(programs[:actual_limit])} programs")
-        
-        self.programs = limited_programs
-        logger.info(f"Final total programs: {len(self.programs)}")
-    
-    def process_multiple_sources(self, config_file: str, output_file: str) -> bool:
-        """Main processing function."""
+            ET.indent(root, space="  ")
+
+        xml_body = ET.tostring(root, encoding='unicode', method='xml')
+        return '<?xml version="1.0" encoding="utf-8" ?>\n' + xml_body
+
+    # -------------------------------------------------------------------------
+    # Main processing
+    # -------------------------------------------------------------------------
+
+    def process_multiple_sources(self, config_file: str, output_file: str,
+                                  cache_file: str = 'tv4_kstv_cache.xml',
+                                  cache_hours: float = 6) -> bool:
+        """Main processing — handles KSTV, epg.pw, and iptv-epg.org sources."""
         try:
-            # Load configuration
-            sources = self.load_config(config_file)
-            if not sources:
+            kstv_channels, epgpw_sources, iptvepg_sources = self.load_config(config_file)
+
+            if not kstv_channels and not epgpw_sources and not iptvepg_sources:
                 logger.error("No valid sources found in configuration")
                 return False
-            
-            # Process each source
-            success_count = 0
-            for source in sources:
-                if self.process_source(source):
-                    success_count += 1
-            
-            logger.info(f"Successfully processed {success_count}/{len(sources)} sources")
-            
-            # Check and display current UTC time
-            self.check_current_utc_time()
-            
-            # Apply time filtering
-            self.filter_future_programs()
-            
-            # Apply program limiting
-            self.limit_programs_equally()
-            
-            # Create combined output
-            combined_root = self.create_combined_xml()
-            formatted_output = self.format_xml_output(combined_root, pretty=False)
-            
-            # Ensure output directory exists
-            os.makedirs(os.path.dirname(output_file), exist_ok=True)
-            
-            # Write to file
+
+            all_channels: Dict   = {}
+            all_programmes: List = []
+
+            # --- 1. KSTV: fetch once, filter by channel ID ---
+            if kstv_channels:
+                logger.info(f"Processing {len(kstv_channels)} KSTV channels (single fetch + cache)...")
+                kstv_root = self.fetch_full_kstv_epg(cache_file, cache_hours)
+                if kstv_root is not None:
+                    channels, programmes = self.filter_bulk_channels(
+                        kstv_root, kstv_channels, source_label='KSTV'
+                    )
+                    all_channels.update(channels)
+                    all_programmes.extend(programmes)
+                    logger.info(f"KSTV: added {len(channels)} channels, {len(programmes)} programmes")
+                else:
+                    logger.warning("KSTV EPG fetch failed — skipping KSTV channels")
+
+            # --- 2. iptv-epg.org: fetch each feed once, filter by channel ID ---
+            if iptvepg_sources:
+                total = sum(len(v) for v in iptvepg_sources.values())
+                logger.info(
+                    f"Processing {total} iptv-epg.org channels "
+                    f"across {len(iptvepg_sources)} feed(s)..."
+                )
+                channels, programmes = self.process_iptvepg_sources(iptvepg_sources, cache_hours)
+                all_channels.update(channels)
+                all_programmes.extend(programmes)
+                logger.info(
+                    f"iptv-epg.org total: {len(channels)} channels, {len(programmes)} programmes"
+                )
+
+            # --- 3. epg.pw: fetch each channel in parallel ---
+            if epgpw_sources:
+                max_workers = min(10, len(epgpw_sources))
+                logger.info(
+                    f"Fetching {len(epgpw_sources)} epg.pw channels in parallel "
+                    f"(workers={max_workers})"
+                )
+                with ThreadPoolExecutor(max_workers=max_workers) as executor:
+                    futures = {executor.submit(self.fetch_epgpw_source, src): src
+                               for src in epgpw_sources}
+                    for future in as_completed(futures):
+                        src = futures[future]
+                        try:
+                            channel, programmes = future.result()
+                            if channel is not None:
+                                all_channels[src['channel_id']] = channel
+                                all_programmes.extend(programmes)
+                        except Exception as e:
+                            logger.error(f"Failed: {src['display_name']}: {e}")
+
+            if not all_channels:
+                logger.warning("No matching channels found!")
+                return False
+
+            logger.info(
+                f"Before filtering: {len(all_channels)} channels, "
+                f"{len(all_programmes)} programmes"
+            )
+            logger.info(f"Current UTC time: {self.current_time.strftime('%Y-%m-%d %H:%M:%S UTC')}")
+
+            # Filter past programmes
+            all_programmes = self.filter_future_programs(all_programmes)
+
+            # Per-channel cap (100 per channel)
+            all_programmes = self.limit_programs_per_channel(all_programmes)
+
+            # Global 900 cap with equal distribution
+            all_programmes = self.limit_programs_equally(all_programmes, len(all_channels))
+
+            # Build and write output
+            combined_root    = self.create_combined_xml(all_channels, all_programmes)
+            formatted_output = self.format_xml_output(combined_root)
+
+            os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
             with open(output_file, 'w', encoding='utf-8') as f:
                 f.write(formatted_output)
-            
+
             logger.info(f"Combined EPG XML saved to: {output_file}")
-            logger.info(f"Total channels: {len(self.channels)}")
-            logger.info(f"Total programs: {len(self.programs)}")
-            
+            logger.info(f"Total channels: {len(all_channels)}, Total programmes: {len(all_programmes)}")
             return True
-            
+
         except Exception as e:
-            logger.error(f"Error processing multiple sources: {e}")
+            logger.error(f"Error processing sources: {e}")
             return False
+
 
 def main():
     """Main function."""
-    parser = argparse.ArgumentParser(description='Process multiple XML sources into one EPG file with auto-date update')
-    parser.add_argument('--config', '-c', default='TV5_multi_xml_config.txt', 
-                       help='Configuration file with XML sources')
-    parser.add_argument('--output', '-o', required=True, 
-                       help='Output EPG XML file path')
-    parser.add_argument('--verbose', '-v', action='store_true', 
-                       help='Enable verbose logging')
-    
+    parser = argparse.ArgumentParser(
+        description=(
+            'TV4 Multi-XML Processor — '
+            'KSTV bulk XML + epg.pw per-channel + iptv-epg.org bulk feeds '
+            '(IN/GB/US/AU/NZ) with auto-date update'
+        )
+    )
+    parser.add_argument('--config', '-c', default='TV4_multi_xml_config.txt',
+                        help='Configuration file with XML sources')
+    parser.add_argument('--output', '-o', required=True,
+                        help='Output EPG XML file path')
+    parser.add_argument('--cache', default='tv4_kstv_cache.xml',
+                        help='KSTV cache file path (default: tv4_kstv_cache.xml)')
+    parser.add_argument('--cache-hours', type=float, default=6,
+                        help='Cache expiry in hours for all bulk feeds (default: 6)')
+    parser.add_argument('--verbose', '-v', action='store_true',
+                        help='Enable verbose logging')
+
     args = parser.parse_args()
-    
+
     if args.verbose:
         logging.getLogger().setLevel(logging.DEBUG)
-    
-    # Validate config file exists
+
     if not os.path.exists(args.config):
         logger.error(f"Configuration file not found: {args.config}")
         return 1
-    
-    # Process multiple sources
-    processor = TV5MultiXMLProcessor()
-    success = processor.process_multiple_sources(args.config, args.output)
-    
+
+    processor = TV4MultiXMLProcessor()
+    success = processor.process_multiple_sources(
+        args.config, args.output, args.cache, args.cache_hours
+    )
     return 0 if success else 1
+
 
 if __name__ == "__main__":
     exit(main())

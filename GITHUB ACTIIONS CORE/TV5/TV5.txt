@@ -3,10 +3,35 @@
 # Format: CHANNEL_ID|URL|DISPLAY_NAME
 # Note: Date will be automatically updated to current date
 
+
+# TV5 XML Sources Configuration
+# Format: CHANNEL_ID|URL|DISPLAY_NAME
+# EPG Source: https://iptv-epg.org/files/epg-in.xml
+
 ======================
 DRAMAS 2027
 ======================
-464105|https://epg.pw/api/epg.xml?channel_id=464105|SET HD
-463922|https://epg.pw/api/epg.xml?channel_id=463922|SONY SAB
-463918|https://epg.pw/api/epg.xml?channel_id=463918|STAR PLUS
-441340|https://epg.pw/api/epg.xml?channel_id=441340|ZEE TV HD
+SET.in|https://iptv-epg.org/files/epg-in.xml|SET HD (Sony Entertainment Television)
+SONYSAB.in|https://iptv-epg.org/files/epg-in.xml|SONY SAB
+STARPLUS.in|https://iptv-epg.org/files/epg-in.xml|STAR PLUS
+ZeeTV.in|https://iptv-epg.org/files/epg-in.xml|ZEE TV
+
+======================
+SPORTS 2027
+======================
+SonySportsTEN1.in|https://iptv-epg.org/files/epg-in.xml|Sony Sports TEN 1
+SonySportsTEN2.in|https://iptv-epg.org/files/epg-in.xml|Sony Sports TEN 2
+SonySportsTEN3.in|https://iptv-epg.org/files/epg-in.xml|Sony Sports TEN 3
+SonySportsTEN4.in|https://iptv-epg.org/files/epg-in.xml|Sony Sports TEN 4
+SONYSPORTSTEN5.in|https://iptv-epg.org/files/epg-in.xml|Sony Sports TEN 5
+StarSports1.in|https://iptv-epg.org/files/epg-in.xml|Star Sports 1
+StarSports2.in|https://iptv-epg.org/files/epg-in.xml|Star Sports 2
+StarSportsSelect1.in|https://iptv-epg.org/files/epg-in.xml|Star Sports Select 1
+StarSportsSelect2.in|https://iptv-epg.org/files/epg-in.xml|Star Sports Select 2
+
+======================
+MOVIES 2027
+======================
+ZeeCinema.in|https://iptv-epg.org/files/epg-in.xml|Zee Cinema
+B4UKadak.in|https://iptv-epg.org/files/epg-in.xml|B4U Kadak
+B4UMovies.in|https://iptv-epg.org/files/epg-in.xml|B4U Movies
