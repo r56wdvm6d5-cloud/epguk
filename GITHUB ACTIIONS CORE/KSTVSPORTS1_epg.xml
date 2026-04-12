@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<tv date="20260412075550" generator-info-name="KSTV-Sports-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="KSTV-Sports-EPG">
+<tv date="20260412083517" generator-info-name="KSTV-Sports-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="KSTV-Sports-EPG">
   <channel id="beinsportsxtra.us">
     <display-name>US | Bein Sports Xtra</display-name>
     <icon src="https://raw.githubusercontent.com/Fourqui/tv/master/countries/international/beinsports/horizontal/bein-sports-xtra-hz-int.png" />
@@ -100,16 +100,16 @@
     <display-name>US | Monumental Sports Network</display-name>
     <icon src="https://tlgrm.re/images/Monumental-Sports-Network.png" />
   </channel>
+  <channel id="464905">
+    <display-name lang="US">MSG Plus</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="219100">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">Premier Sports 1 HD</display-name>
+    <icon src="" />
+  </channel>
   <channel id="465348">
     <display-name lang="US">NHL Network HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="464810">
-    <display-name lang="US">Game Show Network HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465058">
-    <display-name lang="US">CHSN Chicago Sports Network</display-name>
     <icon src="" />
   </channel>
   <channel id="465169">
@@ -120,42 +120,38 @@
     <display-name lang="US">MSG National</display-name>
     <icon src="" />
   </channel>
-  <channel id="470741">
-    <display-name lang="Canada">Golf Channel</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465225">
-    <display-name lang="US">New England Sports Network HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="464905">
-    <display-name lang="US">MSG Plus</display-name>
+  <channel id="464810">
+    <display-name lang="US">Game Show Network HD</display-name>
     <icon src="" />
   </channel>
   <channel id="470638">
     <display-name lang="Canada">Game Show Network</display-name>
     <icon src="" />
   </channel>
-  <channel id="219100">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">Premier Sports 1 HD</display-name>
-    <icon src="" />
-  </channel>
   <channel id="486728">
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">LFCTV HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="464879">
-    <display-name lang="US">ACC Network</display-name>
+  <channel id="465225">
+    <display-name lang="US">New England Sports Network HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="470741">
+    <display-name lang="Canada">Golf Channel</display-name>
     <icon src="" />
   </channel>
   <channel id="465073">
     <display-name lang="US">Big Ten Network HD</display-name>
     <icon src="" />
   </channel>
-  <programme start="20260412020000 -0400" stop="20260412040000 -0400" channel="espnu.us">
-    <title>College Softball</title>
-    <desc>From Red &amp; Charline McCombs Field in Austin, Texas.</desc>
-  </programme>
+  <channel id="464879">
+    <display-name lang="US">ACC Network</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465058">
+    <display-name lang="US">CHSN Chicago Sports Network</display-name>
+    <icon src="" />
+  </channel>
   <programme start="20260412040000 -0400" stop="20260412060000 -0400" channel="espnu.us">
     <title>College Softball</title>
     <desc>From Boyd and Jill Smith Family Stadium in Stanford, Calif.</desc>
@@ -212,9 +208,9 @@
     <title>College Softball</title>
     <desc>From Red &amp; Charline McCombs Field in Austin, Texas.</desc>
   </programme>
-  <programme start="20260412010100 -0400" stop="20260412040000 -0400" channel="FoxSports2.us">
-    <title>Live: AFL Premiership Football</title>
-    <desc>From Barossa Park in Lyndoch, South Australia, Australia.</desc>
+  <programme start="20260413040000 -0400" stop="20260413060000 -0400" channel="espnu.us">
+    <title>Women's College Lacrosse</title>
+    <desc>From Homewood Field in Baltimore.</desc>
   </programme>
   <programme start="20260412040000 -0400" stop="20260412060000 -0400" channel="FoxSports2.us">
     <title>MLS Soccer</title>
@@ -271,6 +267,10 @@
   <programme start="20260413003000 -0400" stop="20260413033000 -0400" channel="FoxSports2.us">
     <title>NASCAR Cup Series</title>
     <desc>The NASCAR Cup Series races at Bristol Motor Speedway in Tennessee. Driver Kyle Larson defends his past victory on this concrete oval against points leader Tyler Reddick. They must battle over five hundred grueling laps to secure a massive win today.</desc>
+  </programme>
+  <programme start="20260413033000 -0400" stop="20260413053000 -0400" channel="FoxSports2.us">
+    <title>NASCAR Craftsman Truck Series</title>
+    <desc>The NASCAR Truck Series arrives in Bristol for 250 laps of short-track racing. Corey Heim and Ben Rhodes look to navigate the steep banking and heavy traffic at Bristol Motor Speedway to secure a critical early-season victory in Tennessee.</desc>
   </programme>
   <programme start="20260411210000 -0400" stop="20260412080000 -0400" channel="GolfChannel.us">
     <title>Live From the Masters</title>
@@ -404,10 +404,6 @@
     <title>Eliminate Dust, Odor, Pollen &amp; More</title>
     <desc>Breathe better with the NuWave OxyPure Smart Air Purifier. Removes virtually 100% of indoor airborne pollutants.</desc>
   </programme>
-  <programme start="20260412020000 -0400" stop="20260412040000 -0400" channel="NBATV.us">
-    <title>NBA Shot Clock: Best Games of the Night</title>
-    <desc>Watch the best NBA games of the night in a condensed format.</desc>
-  </programme>
   <programme start="20260412040000 -0400" stop="20260412060000 -0400" channel="NBATV.us">
     <title>NBA Shot Clock: Games of the Week</title>
     <desc>Watch the best NBA games of the week in a condensed format.</desc>
@@ -488,17 +484,9 @@
     <title>The Association: Weekend</title>
     <desc>The Association will celebrate the game, players and the culture of the NBA; inform and entertain viewers with league news, analysis and storylines; and guide fans to the must-watch action across the league in real time.</desc>
   </programme>
-  <programme start="20260413020000 -0400" stop="20260413040000 -0400" channel="NBATV.us">
+  <programme start="20260413020000 -0400" stop="20260413050000 -0400" channel="NBATV.us">
     <title>Everything You Missed: Nightly Recap</title>
     <desc>Catch up on the night's best NBA action.</desc>
-  </programme>
-  <programme start="20260412030000 -0400" stop="20260412040000 -0400" channel="NBCSNWashington.us">
-    <title>Hope for Pain Sufferers</title>
-    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
-  </programme>
-  <programme start="20260412040000 -0400" stop="20260412043000 -0400" channel="NBCSNWashington.us">
-    <title>Men's Health - All-Natural Secret for Prostate Health</title>
-    <desc>Prosvent is a doctor formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
   </programme>
   <programme start="20260412043000 -0400" stop="20260412050000 -0400" channel="NBCSNWashington.us">
     <title>Paid Programming</title>
@@ -604,9 +592,13 @@
     <title>Paid Programming</title>
     <desc>Paid programming.</desc>
   </programme>
-  <programme start="20260412030000 -0400" stop="20260412040000 -0400" channel="NFLNetwork.us">
-    <title>NFL's Greatest Games</title>
-    <desc>From Feb. 13, 2022.</desc>
+  <programme start="20260413033000 -0400" stop="20260413040000 -0400" channel="NBCSNWashington.us">
+    <title>Hope for Pain Sufferers</title>
+    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
+  </programme>
+  <programme start="20260413040000 -0400" stop="20260413043000 -0400" channel="NBCSNWashington.us">
+    <title>Men's Health - All-Natural Secret for Prostate Health</title>
+    <desc>Prosvent is a doctor formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
   </programme>
   <programme start="20260412040000 -0400" stop="20260412050000 -0400" channel="NFLNetwork.us">
     <title>NFL's Greatest Games</title>
@@ -672,6 +664,10 @@
     <title>A Football Life</title>
     <desc>New York Giants head coach Tom Coughlin, a man whose life has been about coaching.</desc>
   </programme>
+  <programme start="20260413040000 -0400" stop="20260413050000 -0400" channel="NFLNetwork.us">
+    <title>A Football Life</title>
+    <desc>Chronicling Don Shula's memorable career, including the uprecedented run by the Dolphins in the early 1970s.</desc>
+  </programme>
   <programme start="20260412033000 -0400" stop="20260412080000 -0400" channel="beINSports.us">
     <title>Paid Programming</title>
     <desc>Paid programming.</desc>
@@ -736,6 +732,10 @@
     <title>The Knockout Room</title>
     <desc />
   </programme>
+  <programme start="20260413033000 -0400" stop="20260413043000 -0400" channel="beINSports.us">
+    <title>Paid Programming</title>
+    <desc>Paid programming.</desc>
+  </programme>
   <programme start="20260412030000 -0400" stop="20260412050000 -0400" channel="cbssportsnetworkusa.us">
     <title>Poker Night in America</title>
     <desc>The show keeps it pretty simple, emphasizing the fun personalities and stories behind the players, injecting lifestyle and reality aspects to the game.</desc>
@@ -780,13 +780,9 @@
     <title>SailGP</title>
     <desc>Top-performing athletes from all over the globe showcase their skills as they compete in the SailGP to win the coveted title.</desc>
   </programme>
-  <programme start="20260413030000 -0400" stop="20260413040000 -0400" channel="cbssportsnetworkusa.us">
+  <programme start="20260413030000 -0400" stop="20260413050000 -0400" channel="cbssportsnetworkusa.us">
     <title>World Poker Tour</title>
     <desc>Professional poker action from a series of international tournaments.</desc>
-  </programme>
-  <programme start="20260412020000 -0400" stop="20260412040000 -0400" channel="espn2.us">
-    <title>Washington Capitals at Pittsburgh Penguins</title>
-    <desc>From PPG Paints Arena in Pittsburgh.</desc>
   </programme>
   <programme start="20260412040000 -0400" stop="20260412060000 -0400" channel="espn2.us">
     <title>30 for 30</title>
@@ -839,6 +835,10 @@
   <programme start="20260413020000 -0400" stop="20260413040000 -0400" channel="espn2.us">
     <title>Orlando Magic at Boston Celtics</title>
     <desc>The Orlando Magic face the Boston Celtics at the TD Garden for their final regular-season game. This game carries significant Eastern Conference playoff implications as Boston is securely in second place, trailing only the Detroit Pistons.</desc>
+  </programme>
+  <programme start="20260413040000 -0400" stop="20260413050000 -0400" channel="espn2.us">
+    <title>SportsCenter</title>
+    <desc>ESPN's flagship program provides sports news, highlights and analysis.</desc>
   </programme>
   <programme start="20260411060000 -0400" stop="20260413080000 -0400" channel="nflredzone.us">
     <title>Every Sunday Afternoon</title>
@@ -923,6 +923,10 @@
   <programme start="20260413030000 -0400" stop="20260413040000 -0400" channel="fightnetwork.ca">
     <title>IMPACT in 60</title>
     <desc>A look back at some of the most memorable matches in IMPACT Wrestling Knockouts Tag Team Championship history; featuring The Beautiful People; Sarita and Taylor Wilde and more.</desc>
+  </programme>
+  <programme start="20260413040000 -0400" stop="20260413050000 -0400" channel="fightnetwork.ca">
+    <title>Fight Network Recharged</title>
+    <desc>Before transitioning to the world of kickboxing and taking the sport by storm, Tiffany Van Soest earns her.</desc>
   </programme>
   <programme start="20260412030000 -0400" stop="20260412050000 -0400" channel="nbatv.ca">
     <title>Raptors Classic Games</title>
@@ -1012,10 +1016,6 @@
     <title>Brooklyn Nets vs. Toronto Raptors</title>
     <desc>From Scotiabank Arena in Toronto.</desc>
   </programme>
-  <programme start="20260412030000 -0400" stop="20260412040000 -0400" channel="sky.sports.cricket.gb">
-    <title>IPL Rajasthan.R v RC.Bengaluru Hlts</title>
-    <desc>Rajasthan Royals face Royal Challengers Bengaluru in the IPL. (10.04).</desc>
-  </programme>
   <programme start="20260412040000 -0400" stop="20260412045500 -0400" channel="sky.sports.cricket.gb">
     <title>IPL Chennai.SK v Delhi.C</title>
     <desc>Chennai Super Kings face Delhi Capitals in the IPL. (11.04).</desc>
@@ -1104,13 +1104,141 @@
     <title>Indian Premier League</title>
     <desc>Beaten by Rajasthan in their opener, Ruturaj Gaikwad's Chennai Super Kings next face Punjab Kings in the IPL. Cooper Connolly led Punjab home in his debut with an assured 72*.</desc>
   </programme>
-  <programme start="20260412033000 -0400" stop="20260412040000 -0400" channel="beinsportsxtra.us">
-    <title>FIBA 3x3 Basketball</title>
-    <desc>Champions Cup: Men's, U.S. vs. Madagascar.</desc>
+  <programme start="20260412043000 -0400" stop="20260412050000 -0400" channel="premier.sports.2.gb">
+    <title>Bike World</title>
+    <desc>Bike World brings you the latest action from the high octane world of two wheels, on-road, off-road or on track. Alan Rawlings - Director John Hogan Chris Northover Luke Bowler Suzy Taylor.</desc>
   </programme>
-  <programme start="20260412033000 -0400" stop="20260412040000 -0400" channel="beinsportsxtra.us">
-    <title>FIBA 3x3 Women's World Cup</title>
-    <desc>Canada vs. Azerbaijan.</desc>
+  <programme start="20260412050000 -0400" stop="20260412060000 -0400" channel="premier.sports.2.gb">
+    <title>Temples of Sport</title>
+    <desc>Temples of Sport is a series focusing on iconic sporting venues around the globe.</desc>
+  </programme>
+  <programme start="20260412060000 -0400" stop="20260412075500 -0400" channel="premier.sports.2.gb">
+    <title>LaLiga</title>
+    <desc>Coverage of the 2025/26 LaLiga season featuring some of the biggest names in world football.</desc>
+  </programme>
+  <programme start="20260412075500 -0400" stop="20260412100000 -0400" channel="premier.sports.2.gb">
+    <title>LaLiga LIVE</title>
+    <desc>Coverage of the 2025/26 LaLiga season featuring some of the biggest names in world football.</desc>
+  </programme>
+  <programme start="20260412100000 -0400" stop="20260412101000 -0400" channel="premier.sports.2.gb">
+    <title>LaLiga Highlights</title>
+    <desc>Watch match highlights from the latest round of La Liga.</desc>
+  </programme>
+  <programme start="20260412101000 -0400" stop="20260412121500 -0400" channel="premier.sports.2.gb">
+    <title>LaLiga LIVE</title>
+    <desc>Coverage of the 2025/26 LaLiga season featuring some of the biggest names in world football.</desc>
+  </programme>
+  <programme start="20260412121500 -0400" stop="20260412123000 -0400" channel="premier.sports.2.gb">
+    <title>LaLiga Highlights</title>
+    <desc>Watch match highlights from the latest round of LaLiga.</desc>
+  </programme>
+  <programme start="20260412123000 -0400" stop="20260412130000 -0400" channel="premier.sports.2.gb">
+    <title>Bike World</title>
+    <desc>Bike World brings you the latest action from the high octane world of two wheels, on-road, off-road or on track. Alan Rawlings - Director John Hogan Chris Northover Luke Bowler Suzy Taylor.</desc>
+  </programme>
+  <programme start="20260412130000 -0400" stop="20260412140000 -0400" channel="premier.sports.2.gb">
+    <title>NASCAR Cup Series Motor Racing</title>
+    <desc>Highlights from the latest round of the 2026 NASCAR Cup Series.</desc>
+  </programme>
+  <programme start="20260412140000 -0400" stop="20260412190000 -0400" channel="premier.sports.2.gb">
+    <title>NASCAR Cup Series Motor Racing LIVE</title>
+    <desc>Coverage of the 2026 NASCAR Cup Series. This is the 78th season of NASCAR, the most elite professional stock car racing in the United States.</desc>
+  </programme>
+  <programme start="20260412190000 -0400" stop="20260412193000 -0400" channel="premier.sports.2.gb">
+    <title>Bike World</title>
+    <desc>Bike World brings you the latest action from the high octane world of two wheels, on-road, off-road or on track. Alan Rawlings - Director John Hogan Chris Northover Luke Bowler Suzy Taylor.</desc>
+  </programme>
+  <programme start="20260412193000 -0400" stop="20260412200000 -0400" channel="premier.sports.2.gb">
+    <title>Motorsport</title>
+    <desc>Watch the greatest motor racing action.</desc>
+  </programme>
+  <programme start="20260412200000 -0400" stop="20260412210000 -0400" channel="premier.sports.2.gb">
+    <title>NHL Tonight</title>
+    <desc>Enjoy all the highlights from the previous evening's NHL action and stay informed with comprehensive post-game analysis, scores, interviews and breaking news. Kathryn Tappen - Host.</desc>
+  </programme>
+  <programme start="20260412200000 -0400" stop="20260412210000 -0400" channel="premier.sports.2.gb">
+    <title>NHL On The Fly</title>
+    <desc>Enjoy all the highlights from the previous evening's NHL action and stay informed with comprehensive post-game analysis, scores, interviews and breaking news.</desc>
+  </programme>
+  <programme start="20260412210000 -0400" stop="20260413000000 -0400" channel="premier.sports.2.gb">
+    <title>NHL Hockey LIVE</title>
+    <desc>Coverage of the NHL 2025/26 season.</desc>
+  </programme>
+  <programme start="20260413000000 -0400" stop="20260413010000 -0400" channel="premier.sports.2.gb">
+    <title>This is Hockey</title>
+    <desc>An exhilarating documentary series produced by the NHL that delves into the burgeoning world of hockey across Latin America and the Caribbean.</desc>
+  </programme>
+  <programme start="20260413010000 -0400" stop="20260413013000 -0400" channel="premier.sports.2.gb">
+    <title>Temples of Sport</title>
+    <desc>Temples of Sport is a series focusing on iconic sporting venues around the globe.</desc>
+  </programme>
+  <programme start="20260413013000 -0400" stop="20260413053000 -0400" channel="premier.sports.2.gb">
+    <title>NHL Hockey</title>
+    <desc>Coverage of the NHL 2025/26 season.</desc>
+  </programme>
+  <programme start="20260412020000 -0400" stop="20260412050000 -0400" channel="fight.network.usa.us">
+    <title>AXS TV Fights</title>
+    <desc>Malaipet fights Fabio Pinca for welterweight; Tiffany Van Soest meets Magali Foroni; live from Las Vegas.</desc>
+  </programme>
+  <programme start="20260412050000 -0400" stop="20260412055300 -0400" channel="fight.network.usa.us">
+    <title>Abu Dhabi Grand Slam UAE</title>
+    <desc>Featuring Joao Miyao vs. Tiago Bravo and Bianca Basilio vs. Dayane Bazzoni in grappling bouts from Abu Dhabi, UAE.</desc>
+  </programme>
+  <programme start="20260412055300 -0400" stop="20260412063400 -0400" channel="fight.network.usa.us">
+    <title>IMPACT in 60 || Best of The Good Brothers</title>
+    <desc>Looking back at the dominant 2020 run from Doc Gallows and Karl Anderson, plus a look back at Gallows' first IMPACT Wrestling tenure.</desc>
+  </programme>
+  <programme start="20260412063400 -0400" stop="20260412074500 -0400" channel="fight.network.usa.us">
+    <title>IMPACT in 60 || Tenille Dashwood</title>
+    <desc>Memorable knockouts encounters featuring the influential Tenille Dashwood.</desc>
+  </programme>
+  <programme start="20260412074500 -0400" stop="20260412094500 -0400" channel="fight.network.usa.us">
+    <title>OVW TV: Primetime</title>
+    <desc>Ohio Valley Wrestling has produced more internationally acclaimed superstars than any other wrestling promotion in the world.</desc>
+  </programme>
+  <programme start="20260412094500 -0400" stop="20260412124500 -0400" channel="fight.network.usa.us">
+    <title>AXS TV Fights</title>
+    <desc>Malaipet fights Fabio Pinca for welterweight; Tiffany Van Soest meets Magali Foroni; live from Las Vegas.</desc>
+  </programme>
+  <programme start="20260412124500 -0400" stop="20260412133800 -0400" channel="fight.network.usa.us">
+    <title>Abu Dhabi Grand Slam UAE</title>
+    <desc>Featuring Joao Miyao vs. Tiago Bravo and Bianca Basilio vs. Dayane Bazzoni in grappling bouts from Abu Dhabi, UAE.</desc>
+  </programme>
+  <programme start="20260412133800 -0400" stop="20260412141900 -0400" channel="fight.network.usa.us">
+    <title>IMPACT in 60 || Best of The Good Brothers</title>
+    <desc>Looking back at the dominant 2020 run from Doc Gallows and Karl Anderson, plus a look back at Gallows' first IMPACT Wrestling tenure.</desc>
+  </programme>
+  <programme start="20260412141900 -0400" stop="20260412153000 -0400" channel="fight.network.usa.us">
+    <title>IMPACT in 60 || Tenille Dashwood</title>
+    <desc>Memorable knockouts encounters featuring the influential Tenille Dashwood.</desc>
+  </programme>
+  <programme start="20260412153000 -0400" stop="20260412174500 -0400" channel="fight.network.usa.us">
+    <title>OVW TV: Primetime</title>
+    <desc>Ohio Valley Wrestling has produced more internationally acclaimed superstars than any other wrestling promotion in the world.</desc>
+  </programme>
+  <programme start="20260412174500 -0400" stop="20260412204500 -0400" channel="fight.network.usa.us">
+    <title>AXS TV Fights</title>
+    <desc>Malaipet fights Fabio Pinca for welterweight; Tiffany Van Soest meets Magali Foroni; live from Las Vegas.</desc>
+  </programme>
+  <programme start="20260412204500 -0400" stop="20260412213800 -0400" channel="fight.network.usa.us">
+    <title>Abu Dhabi Grand Slam UAE</title>
+    <desc>Featuring Joao Miyao vs. Tiago Bravo and Bianca Basilio vs. Dayane Bazzoni in grappling bouts from Abu Dhabi, UAE.</desc>
+  </programme>
+  <programme start="20260412213800 -0400" stop="20260412221900 -0400" channel="fight.network.usa.us">
+    <title>IMPACT in 60 || Best of The Good Brothers</title>
+    <desc>Looking back at the dominant 2020 run from Doc Gallows and Karl Anderson, plus a look back at Gallows' first IMPACT Wrestling tenure.</desc>
+  </programme>
+  <programme start="20260412221900 -0400" stop="20260412233000 -0400" channel="fight.network.usa.us">
+    <title>IMPACT in 60 || Tenille Dashwood</title>
+    <desc>Memorable knockouts encounters featuring the influential Tenille Dashwood.</desc>
+  </programme>
+  <programme start="20260412233000 -0400" stop="20260413020000 -0400" channel="fight.network.usa.us">
+    <title>OVW TV: Primetime</title>
+    <desc>Ohio Valley Wrestling has produced more internationally acclaimed superstars than any other wrestling promotion in the world.</desc>
+  </programme>
+  <programme start="20260413020000 -0400" stop="20260413050000 -0400" channel="fight.network.usa.us">
+    <title>DEEP: Cage Impact 2016</title>
+    <desc>Features Nam Phan vs. Masakazu Imanari and Hiroto Uesako vs. Tatsunaro Nagakura from Tokyo. From April 23, 2016.</desc>
   </programme>
   <programme start="20260412040000 -0400" stop="20260412050000 -0400" channel="beinsportsxtra.us">
     <title>Ferrari Challenge Racing Series</title>
@@ -1256,9 +1384,9 @@
     <title>FIBA 3x3 Women's World Cup</title>
     <desc>Azerbaijan vs. Netherlands.</desc>
   </programme>
-  <programme start="20260412030000 -0400" stop="20260412040000 -0400" channel="espnnews.us">
-    <title>Battle Court Jai-Alai Championship VII</title>
-    <desc>Battle Court VII is the most highly anticipated Jai-Alai event of the year.The World Jai-Alai League's Championship game features Udonis Haslem's two-time title holders, The Renegades, versus the newest expansion team in the League, The Fireballs.</desc>
+  <programme start="20260413040000 -0400" stop="20260413050000 -0400" channel="beinsportsxtra.us">
+    <title>Ferrari Challenge Racing Series</title>
+    <desc>Phillip Island: Race 2.</desc>
   </programme>
   <programme start="20260412040000 -0400" stop="20260412050000 -0400" channel="espnnews.us">
     <title>11th Annual Outhouse Races</title>
@@ -1408,6 +1536,50 @@
     <title>Major League Table Tennis</title>
     <desc>Coverage of the American professional table tennis league.</desc>
   </programme>
+  <programme start="20260413040000 -0400" stop="20260413050000 -0400" channel="espnnews.us">
+    <title>Extreme Axe &amp; Knife Games</title>
+    <desc>Extreme axe and knife action from the WATL Commissioner's Cup.</desc>
+  </programme>
+  <programme start="20260412033000 -0400" stop="20260412063000 -0400" channel="foxsports1.us">
+    <title>MLB Baseball</title>
+    <desc>From Oriole Park at Camden Yards in Baltimore.</desc>
+  </programme>
+  <programme start="20260412063000 -0400" stop="20260412070000 -0400" channel="foxsports1.us">
+    <title>FIFA World Cup 2026 Stories From the Cities</title>
+    <desc>Boston is bursting with history and boasts a passionate sporting culture which makes it one of the most intriguing American host cities at the 2026 FIFA World Cup.</desc>
+  </programme>
+  <programme start="20260412070000 -0400" stop="20260412113000 -0400" channel="foxsports1.us">
+    <title>The American Rodeo</title>
+    <desc>All the action from rodeo competitions.</desc>
+  </programme>
+  <programme start="20260412113000 -0400" stop="20260412130000 -0400" channel="foxsports1.us">
+    <title>NHRA Drag Racing</title>
+    <desc>From In-N-Out Burger Pomona Dragstrip in Pomona, Calif.</desc>
+  </programme>
+  <programme start="20260412130000 -0400" stop="20260412140000 -0400" channel="foxsports1.us">
+    <title>Horse Racing</title>
+    <desc>The best racehorses square off in the premier races from across the country.</desc>
+  </programme>
+  <programme start="20260412140000 -0400" stop="20260412150000 -0400" channel="foxsports1.us">
+    <title>NASCAR RaceDay</title>
+    <desc>Behind the scenes and up-to-the-minute reports from the garage prior to the start of each NASCAR Cup Series race.</desc>
+  </programme>
+  <programme start="20260412150000 -0400" stop="20260412183000 -0400" channel="foxsports1.us">
+    <title>NASCAR Cup Series</title>
+    <desc>From Bristol Motor Speedway Dirt Course in Bristol, Tenn.</desc>
+  </programme>
+  <programme start="20260412183000 -0400" stop="20260412213000 -0400" channel="foxsports1.us">
+    <title>NHRA Drag Racing</title>
+    <desc>From In-N-Out Burger Pomona Dragstrip in Pomona, Calif.</desc>
+  </programme>
+  <programme start="20260412213000 -0400" stop="20260413003000 -0400" channel="foxsports1.us">
+    <title>NASCAR Cup Series</title>
+    <desc>From Bristol Motor Speedway Dirt Course in Bristol, Tenn.</desc>
+  </programme>
+  <programme start="20260413003000 -0400" stop="20260413050000 -0400" channel="foxsports1.us">
+    <title>The American Rodeo</title>
+    <desc>All the action from rodeo competitions.</desc>
+  </programme>
   <programme start="20260412000000 -0400" stop="20260412070000 -0400" channel="mlbnetwork.us">
     <title>Quick Pitch</title>
     <desc>All the latest baseball news, scores and highlights. Plus, a first look at upcoming matchups.</desc>
@@ -1448,7 +1620,7 @@
     <title>The Rookie</title>
     <desc>A high-school baseball coach (Dennis Quaid) makes it to the Major Leagues as a middle-aged relief pitcher.</desc>
   </programme>
-  <programme start="20260412230000 -0400" stop="20260413040000 -0400" channel="mlbnetwork.us">
+  <programme start="20260412230000 -0400" stop="20260413050000 -0400" channel="mlbnetwork.us">
     <title>MLB Tonight</title>
     <desc>MLB Tonight fills out its customary scorecard by recapping the highs, lows and everything in between from Sunday's MLB action.</desc>
   </programme>
@@ -1512,49 +1684,33 @@
     <title>IPL Cricket</title>
     <desc>From Ekana Cricket Stadium in Lucknow, Uttar Pradesh, India.</desc>
   </programme>
-  <programme start="20260412033000 -0400" stop="20260412063000 -0400" channel="foxsports1.us">
-    <title>MLB Baseball</title>
-    <desc>From Oriole Park at Camden Yards in Baltimore.</desc>
+  <programme start="20260411190000 -0400" stop="20260412140000 -0400" channel="golfchannel.us">
+    <title>Live From the Masters</title>
+    <desc>Comprehensive news coverage surrounding the Masters Tournament focusing on emerging storylines, analysis, features and guest interviews.</desc>
   </programme>
-  <programme start="20260412063000 -0400" stop="20260412070000 -0400" channel="foxsports1.us">
-    <title>FIFA World Cup 2026 Stories From the Cities</title>
-    <desc>Boston is bursting with history and boasts a passionate sporting culture which makes it one of the most intriguing American host cities at the 2026 FIFA World Cup.</desc>
+  <programme start="20260412140000 -0400" stop="20260412150000 -0400" channel="golfchannel.us">
+    <title>GOLF Films</title>
+    <desc>Part one of this this two-part biopic reflects on the humble beginnings of Ben Hogan and the impact of the near-fatal car crash during the prime of his career.</desc>
   </programme>
-  <programme start="20260412070000 -0400" stop="20260412113000 -0400" channel="foxsports1.us">
-    <title>The American Rodeo</title>
-    <desc>All the action from rodeo competitions.</desc>
+  <programme start="20260412150000 -0400" stop="20260412163000 -0400" channel="golfchannel.us">
+    <title>GOLF Films</title>
+    <desc>Part two of this two-part biopic chronicles one of the greatest comebacks of all time. After a near-fatal car crash, Ben Hogan pressed on to become a 64-time PGA Tour winner and the inspiration for the 1951 motion picture "Follow the Sun.".</desc>
   </programme>
-  <programme start="20260412113000 -0400" stop="20260412130000 -0400" channel="foxsports1.us">
-    <title>NHRA Drag Racing</title>
-    <desc>From In-N-Out Burger Pomona Dragstrip in Pomona, Calif.</desc>
+  <programme start="20260412163000 -0400" stop="20260412173000 -0400" channel="golfchannel.us">
+    <title>Golf Channel Academy</title>
+    <desc>World Golf Hall of Famer Tom Watson shares playing tips.</desc>
   </programme>
-  <programme start="20260412130000 -0400" stop="20260412140000 -0400" channel="foxsports1.us">
-    <title>Horse Racing</title>
-    <desc>The best racehorses square off in the premier races from across the country.</desc>
+  <programme start="20260412173000 -0400" stop="20260412183000 -0400" channel="golfchannel.us">
+    <title>Golf Channel Academy</title>
+    <desc>Sir Nick Faldo on how to drive the ball farther by using momentum.</desc>
   </programme>
-  <programme start="20260412140000 -0400" stop="20260412150000 -0400" channel="foxsports1.us">
-    <title>NASCAR RaceDay</title>
-    <desc>Behind the scenes and up-to-the-minute reports from the garage prior to the start of each NASCAR Cup Series race.</desc>
+  <programme start="20260412183000 -0400" stop="20260412190000 -0400" channel="golfchannel.us">
+    <title>Golf Channel Academy</title>
+    <desc>Short game secrets from Bernhard Langer.</desc>
   </programme>
-  <programme start="20260412150000 -0400" stop="20260412183000 -0400" channel="foxsports1.us">
-    <title>NASCAR Cup Series</title>
-    <desc>From Bristol Motor Speedway Dirt Course in Bristol, Tenn.</desc>
-  </programme>
-  <programme start="20260412183000 -0400" stop="20260412213000 -0400" channel="foxsports1.us">
-    <title>NHRA Drag Racing</title>
-    <desc>From In-N-Out Burger Pomona Dragstrip in Pomona, Calif.</desc>
-  </programme>
-  <programme start="20260412213000 -0400" stop="20260413003000 -0400" channel="foxsports1.us">
-    <title>NASCAR Cup Series</title>
-    <desc>From Bristol Motor Speedway Dirt Course in Bristol, Tenn.</desc>
-  </programme>
-  <programme start="20260413003000 -0400" stop="20260413050000 -0400" channel="foxsports1.us">
-    <title>The American Rodeo</title>
-    <desc>All the action from rodeo competitions.</desc>
-  </programme>
-  <programme start="20260412020000 -0400" stop="20260412040000 -0400" channel="nbatv.us">
-    <title>NBA Shot Clock: Best Games of the Night</title>
-    <desc>Watch the best NBA games of the night in a condensed format.</desc>
+  <programme start="20260412190000 -0400" stop="20260413050000 -0400" channel="golfchannel.us">
+    <title>Live From the Masters</title>
+    <desc>Comprehensive news coverage surrounding the Masters Tournament focusing on emerging storylines, analysis, features and guest interviews.</desc>
   </programme>
   <programme start="20260412040000 -0400" stop="20260412060000 -0400" channel="nbatv.us">
     <title>NBA Shot Clock: Games of the Week</title>
@@ -1620,181 +1776,9 @@
     <title>The Association: Weekend</title>
     <desc>The Association will celebrate the game, players and the culture of the NBA; inform and entertain viewers with league news, analysis and storylines; and guide fans to the must-watch action across the league in real time.</desc>
   </programme>
-  <programme start="20260413020000 -0400" stop="20260413040000 -0400" channel="nbatv.us">
+  <programme start="20260413020000 -0400" stop="20260413050000 -0400" channel="nbatv.us">
     <title>Everything You Missed: Nightly Recap</title>
     <desc>Catch up on the night's best NBA action.</desc>
-  </programme>
-  <programme start="20260412013000 -0400" stop="20260412043000 -0400" channel="premier.sports.2.gb">
-    <title>NASCAR Truck Series Motor Racing</title>
-    <desc>Coverage of the NASCAR Trucks season.</desc>
-  </programme>
-  <programme start="20260412043000 -0400" stop="20260412050000 -0400" channel="premier.sports.2.gb">
-    <title>Bike World</title>
-    <desc>Bike World brings you the latest action from the high octane world of two wheels, on-road, off-road or on track. Alan Rawlings - Director John Hogan Chris Northover Luke Bowler Suzy Taylor.</desc>
-  </programme>
-  <programme start="20260412050000 -0400" stop="20260412060000 -0400" channel="premier.sports.2.gb">
-    <title>Temples of Sport</title>
-    <desc>Temples of Sport is a series focusing on iconic sporting venues around the globe.</desc>
-  </programme>
-  <programme start="20260412060000 -0400" stop="20260412075500 -0400" channel="premier.sports.2.gb">
-    <title>LaLiga</title>
-    <desc>Coverage of the 2025/26 LaLiga season featuring some of the biggest names in world football.</desc>
-  </programme>
-  <programme start="20260412075500 -0400" stop="20260412100000 -0400" channel="premier.sports.2.gb">
-    <title>LaLiga LIVE</title>
-    <desc>Coverage of the 2025/26 LaLiga season featuring some of the biggest names in world football.</desc>
-  </programme>
-  <programme start="20260412100000 -0400" stop="20260412101000 -0400" channel="premier.sports.2.gb">
-    <title>LaLiga Highlights</title>
-    <desc>Watch match highlights from the latest round of La Liga.</desc>
-  </programme>
-  <programme start="20260412101000 -0400" stop="20260412121500 -0400" channel="premier.sports.2.gb">
-    <title>LaLiga LIVE</title>
-    <desc>Coverage of the 2025/26 LaLiga season featuring some of the biggest names in world football.</desc>
-  </programme>
-  <programme start="20260412121500 -0400" stop="20260412123000 -0400" channel="premier.sports.2.gb">
-    <title>LaLiga Highlights</title>
-    <desc>Watch match highlights from the latest round of LaLiga.</desc>
-  </programme>
-  <programme start="20260412123000 -0400" stop="20260412130000 -0400" channel="premier.sports.2.gb">
-    <title>Bike World</title>
-    <desc>Bike World brings you the latest action from the high octane world of two wheels, on-road, off-road or on track. Alan Rawlings - Director John Hogan Chris Northover Luke Bowler Suzy Taylor.</desc>
-  </programme>
-  <programme start="20260412130000 -0400" stop="20260412140000 -0400" channel="premier.sports.2.gb">
-    <title>NASCAR Cup Series Motor Racing</title>
-    <desc>Highlights from the latest round of the 2026 NASCAR Cup Series.</desc>
-  </programme>
-  <programme start="20260412140000 -0400" stop="20260412190000 -0400" channel="premier.sports.2.gb">
-    <title>NASCAR Cup Series Motor Racing LIVE</title>
-    <desc>Coverage of the 2026 NASCAR Cup Series. This is the 78th season of NASCAR, the most elite professional stock car racing in the United States.</desc>
-  </programme>
-  <programme start="20260412190000 -0400" stop="20260412193000 -0400" channel="premier.sports.2.gb">
-    <title>Bike World</title>
-    <desc>Bike World brings you the latest action from the high octane world of two wheels, on-road, off-road or on track. Alan Rawlings - Director John Hogan Chris Northover Luke Bowler Suzy Taylor.</desc>
-  </programme>
-  <programme start="20260412193000 -0400" stop="20260412200000 -0400" channel="premier.sports.2.gb">
-    <title>Motorsport</title>
-    <desc>Watch the greatest motor racing action.</desc>
-  </programme>
-  <programme start="20260412200000 -0400" stop="20260412210000 -0400" channel="premier.sports.2.gb">
-    <title>NHL Tonight</title>
-    <desc>Enjoy all the highlights from the previous evening's NHL action and stay informed with comprehensive post-game analysis, scores, interviews and breaking news. Kathryn Tappen - Host.</desc>
-  </programme>
-  <programme start="20260412200000 -0400" stop="20260412210000 -0400" channel="premier.sports.2.gb">
-    <title>NHL On The Fly</title>
-    <desc>Enjoy all the highlights from the previous evening's NHL action and stay informed with comprehensive post-game analysis, scores, interviews and breaking news.</desc>
-  </programme>
-  <programme start="20260412210000 -0400" stop="20260413000000 -0400" channel="premier.sports.2.gb">
-    <title>NHL Hockey LIVE</title>
-    <desc>Coverage of the NHL 2025/26 season.</desc>
-  </programme>
-  <programme start="20260413000000 -0400" stop="20260413010000 -0400" channel="premier.sports.2.gb">
-    <title>This is Hockey</title>
-    <desc>An exhilarating documentary series produced by the NHL that delves into the burgeoning world of hockey across Latin America and the Caribbean.</desc>
-  </programme>
-  <programme start="20260413010000 -0400" stop="20260413013000 -0400" channel="premier.sports.2.gb">
-    <title>Temples of Sport</title>
-    <desc>Temples of Sport is a series focusing on iconic sporting venues around the globe.</desc>
-  </programme>
-  <programme start="20260413013000 -0400" stop="20260413053000 -0400" channel="premier.sports.2.gb">
-    <title>NHL Hockey</title>
-    <desc>Coverage of the NHL 2025/26 season.</desc>
-  </programme>
-  <programme start="20260412020000 -0400" stop="20260412050000 -0400" channel="fight.network.usa.us">
-    <title>AXS TV Fights</title>
-    <desc>Malaipet fights Fabio Pinca for welterweight; Tiffany Van Soest meets Magali Foroni; live from Las Vegas.</desc>
-  </programme>
-  <programme start="20260412050000 -0400" stop="20260412055300 -0400" channel="fight.network.usa.us">
-    <title>Abu Dhabi Grand Slam UAE</title>
-    <desc>Featuring Joao Miyao vs. Tiago Bravo and Bianca Basilio vs. Dayane Bazzoni in grappling bouts from Abu Dhabi, UAE.</desc>
-  </programme>
-  <programme start="20260412055300 -0400" stop="20260412063400 -0400" channel="fight.network.usa.us">
-    <title>IMPACT in 60 || Best of The Good Brothers</title>
-    <desc>Looking back at the dominant 2020 run from Doc Gallows and Karl Anderson, plus a look back at Gallows' first IMPACT Wrestling tenure.</desc>
-  </programme>
-  <programme start="20260412063400 -0400" stop="20260412074500 -0400" channel="fight.network.usa.us">
-    <title>IMPACT in 60 || Tenille Dashwood</title>
-    <desc>Memorable knockouts encounters featuring the influential Tenille Dashwood.</desc>
-  </programme>
-  <programme start="20260412074500 -0400" stop="20260412094500 -0400" channel="fight.network.usa.us">
-    <title>OVW TV: Primetime</title>
-    <desc>Ohio Valley Wrestling has produced more internationally acclaimed superstars than any other wrestling promotion in the world.</desc>
-  </programme>
-  <programme start="20260412094500 -0400" stop="20260412124500 -0400" channel="fight.network.usa.us">
-    <title>AXS TV Fights</title>
-    <desc>Malaipet fights Fabio Pinca for welterweight; Tiffany Van Soest meets Magali Foroni; live from Las Vegas.</desc>
-  </programme>
-  <programme start="20260412124500 -0400" stop="20260412133800 -0400" channel="fight.network.usa.us">
-    <title>Abu Dhabi Grand Slam UAE</title>
-    <desc>Featuring Joao Miyao vs. Tiago Bravo and Bianca Basilio vs. Dayane Bazzoni in grappling bouts from Abu Dhabi, UAE.</desc>
-  </programme>
-  <programme start="20260412133800 -0400" stop="20260412141900 -0400" channel="fight.network.usa.us">
-    <title>IMPACT in 60 || Best of The Good Brothers</title>
-    <desc>Looking back at the dominant 2020 run from Doc Gallows and Karl Anderson, plus a look back at Gallows' first IMPACT Wrestling tenure.</desc>
-  </programme>
-  <programme start="20260412141900 -0400" stop="20260412153000 -0400" channel="fight.network.usa.us">
-    <title>IMPACT in 60 || Tenille Dashwood</title>
-    <desc>Memorable knockouts encounters featuring the influential Tenille Dashwood.</desc>
-  </programme>
-  <programme start="20260412153000 -0400" stop="20260412174500 -0400" channel="fight.network.usa.us">
-    <title>OVW TV: Primetime</title>
-    <desc>Ohio Valley Wrestling has produced more internationally acclaimed superstars than any other wrestling promotion in the world.</desc>
-  </programme>
-  <programme start="20260412174500 -0400" stop="20260412204500 -0400" channel="fight.network.usa.us">
-    <title>AXS TV Fights</title>
-    <desc>Malaipet fights Fabio Pinca for welterweight; Tiffany Van Soest meets Magali Foroni; live from Las Vegas.</desc>
-  </programme>
-  <programme start="20260412204500 -0400" stop="20260412213800 -0400" channel="fight.network.usa.us">
-    <title>Abu Dhabi Grand Slam UAE</title>
-    <desc>Featuring Joao Miyao vs. Tiago Bravo and Bianca Basilio vs. Dayane Bazzoni in grappling bouts from Abu Dhabi, UAE.</desc>
-  </programme>
-  <programme start="20260412213800 -0400" stop="20260412221900 -0400" channel="fight.network.usa.us">
-    <title>IMPACT in 60 || Best of The Good Brothers</title>
-    <desc>Looking back at the dominant 2020 run from Doc Gallows and Karl Anderson, plus a look back at Gallows' first IMPACT Wrestling tenure.</desc>
-  </programme>
-  <programme start="20260412221900 -0400" stop="20260412233000 -0400" channel="fight.network.usa.us">
-    <title>IMPACT in 60 || Tenille Dashwood</title>
-    <desc>Memorable knockouts encounters featuring the influential Tenille Dashwood.</desc>
-  </programme>
-  <programme start="20260412233000 -0400" stop="20260413020000 -0400" channel="fight.network.usa.us">
-    <title>OVW TV: Primetime</title>
-    <desc>Ohio Valley Wrestling has produced more internationally acclaimed superstars than any other wrestling promotion in the world.</desc>
-  </programme>
-  <programme start="20260413020000 -0400" stop="20260413050000 -0400" channel="fight.network.usa.us">
-    <title>DEEP: Cage Impact 2016</title>
-    <desc>Features Nam Phan vs. Masakazu Imanari and Hiroto Uesako vs. Tatsunaro Nagakura from Tokyo. From April 23, 2016.</desc>
-  </programme>
-  <programme start="20260411190000 -0400" stop="20260412140000 -0400" channel="golfchannel.us">
-    <title>Live From the Masters</title>
-    <desc>Comprehensive news coverage surrounding the Masters Tournament focusing on emerging storylines, analysis, features and guest interviews.</desc>
-  </programme>
-  <programme start="20260412140000 -0400" stop="20260412150000 -0400" channel="golfchannel.us">
-    <title>GOLF Films</title>
-    <desc>Part one of this this two-part biopic reflects on the humble beginnings of Ben Hogan and the impact of the near-fatal car crash during the prime of his career.</desc>
-  </programme>
-  <programme start="20260412150000 -0400" stop="20260412163000 -0400" channel="golfchannel.us">
-    <title>GOLF Films</title>
-    <desc>Part two of this two-part biopic chronicles one of the greatest comebacks of all time. After a near-fatal car crash, Ben Hogan pressed on to become a 64-time PGA Tour winner and the inspiration for the 1951 motion picture "Follow the Sun.".</desc>
-  </programme>
-  <programme start="20260412163000 -0400" stop="20260412173000 -0400" channel="golfchannel.us">
-    <title>Golf Channel Academy</title>
-    <desc>World Golf Hall of Famer Tom Watson shares playing tips.</desc>
-  </programme>
-  <programme start="20260412173000 -0400" stop="20260412183000 -0400" channel="golfchannel.us">
-    <title>Golf Channel Academy</title>
-    <desc>Sir Nick Faldo on how to drive the ball farther by using momentum.</desc>
-  </programme>
-  <programme start="20260412183000 -0400" stop="20260412190000 -0400" channel="golfchannel.us">
-    <title>Golf Channel Academy</title>
-    <desc>Short game secrets from Bernhard Langer.</desc>
-  </programme>
-  <programme start="20260412190000 -0400" stop="20260413050000 -0400" channel="golfchannel.us">
-    <title>Live From the Masters</title>
-    <desc>Comprehensive news coverage surrounding the Masters Tournament focusing on emerging storylines, analysis, features and guest interviews.</desc>
-  </programme>
-  <programme start="20260412033000 -0400" stop="20260412043000 -0400" channel="foxsoccerplus.us">
-    <title>Take Us Home</title>
-    <desc>New Leeds United owner Andrea Radrizzani has a mission: to take Leeds United back to the Premier League; first he must find a new head coach capable of fulfilling the club's supporters' dreams.</desc>
   </programme>
   <programme start="20260412043000 -0400" stop="20260412050100 -0400" channel="foxsoccerplus.us">
     <title>The Rover of Tobruk</title>
@@ -1864,9 +1848,13 @@
     <title>MLS Soccer</title>
     <desc>Q2 Stadium hosts a Western Conference tilt between Austin FC and the LA Galaxy. Los Angeles holds a narrow all-time advantage in the series. Galaxy forward Joao Klauss arrives in Texas with a hot hand after recently netting a brace.</desc>
   </programme>
-  <programme start="20260412030000 -0400" stop="20260412040000 -0400" channel="nflnetwork.us">
-    <title>NFL's Greatest Games</title>
-    <desc>From Feb. 13, 2022.</desc>
+  <programme start="20260413040000 -0400" stop="20260413060000 -0400" channel="foxsoccerplus.us">
+    <title>NRL Rugby</title>
+    <desc>From AAMI Park in Melbourne City, Victoria, Australia.</desc>
+  </programme>
+  <programme start="20260413043000 -0400" stop="20260413050000 -0400" channel="foxsoccerplus.us">
+    <title>Academy Dreams: Leeds United</title>
+    <desc>As the season progresses our U23s are feeling the strain of training under Marcelo Bielsa -- the only way to get up to standard is to play games at full intensity; new recruits to the side also struggle with the levels of effort demanded.</desc>
   </programme>
   <programme start="20260412040000 -0400" stop="20260412050000 -0400" channel="nflnetwork.us">
     <title>NFL's Greatest Games</title>
@@ -1931,6 +1919,290 @@
   <programme start="20260413030000 -0400" stop="20260413040000 -0400" channel="nflnetwork.us">
     <title>A Football Life</title>
     <desc>New York Giants head coach Tom Coughlin, a man whose life has been about coaching.</desc>
+  </programme>
+  <programme start="20260413040000 -0400" stop="20260413050000 -0400" channel="nflnetwork.us">
+    <title>A Football Life</title>
+    <desc>Chronicling Don Shula's memorable career, including the uprecedented run by the Dolphins in the early 1970s.</desc>
+  </programme>
+  <programme channel="464905" start="20260412080000 +0000" stop="20260412090000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="464905" start="20260412090000 +0000" stop="20260412093000 +0000">
+    <title lang="zh">Hope for Pain Sufferers</title>
+    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="464905" start="20260412093000 +0000" stop="20260412123000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="464905" start="20260412123000 +0000" stop="20260412130000 +0000">
+    <title lang="zh">Hope for Pain Sufferers</title>
+    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="464905" start="20260412130000 +0000" stop="20260412140000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="464905" start="20260412140000 +0000" stop="20260412160000 +0000">
+    <title lang="zh">NHL Hockey</title>
+    <desc>The Ottawa Senators face the New York Islanders at UBS Arena. This late-season Eastern Conference matchup features two teams currently positioned in the middle of the standings, with both side-by-side in the hunt for a higher playoff seed.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="464905" start="20260412160000 +0000" stop="20260412180000 +0000">
+    <title lang="zh">NHL Hockey</title>
+    <desc>From Little Caesars Arena in Detroit, Mich.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="464905" start="20260412180000 +0000" stop="20260412213000 +0000">
+    <title lang="zh">Live: FanDuel Racing</title>
+    <desc>Live horse racing from around the country.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="464905" start="20260412213000 +0000" stop="20260412220000 +0000">
+    <title lang="zh">Live: Islanders Pregame</title>
+    <desc>Analysis of the upcoming Islanders game.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="464905" start="20260412220000 +0000" stop="20260413000000 +0000">
+    <title lang="zh">Live: NHL Hockey</title>
+    <desc>The Montreal Canadiens travel to face the New York Islanders at UBS Arena for a late-season Eastern Conference clash. The teams are currently tied at 1-1, with Islanders winning 4-3 during their first matchup, and Canadiens winning 7-3 this season.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="464905" start="20260413003000 +0000" stop="20260413010000 +0000">
+    <title lang="zh">Live: Islanders Postgame</title>
+    <desc>Highlights and analysis of the Islanders game.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464905" start="20260413010000 +0000" stop="20260413013000 +0000">
+    <title lang="zh">Islanders Shorts</title>
+    <desc>The highlights of the Islanders team.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464905" start="20260413013000 +0000" stop="20260413020000 +0000">
+    <title lang="zh">Devils Shorts</title>
+    <desc />
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464905" start="20260413020000 +0000" stop="20260413040000 +0000">
+    <title lang="zh">Poker</title>
+    <desc>Poker action from tournaments around the world.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464905" start="20260413040000 +0000" stop="20260413060000 +0000">
+    <title lang="zh">NHL Hockey</title>
+    <desc>The Senators travel to face the Devils at the Prudential Center. Ottawa won the most recent meeting 4-1 on January 31, 2026. Both teams are currently tied at 1-1 in the regular season series. Tim Stutzle leads Ottawa in points, goals and assists.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464905" start="20260413060000 +0000" stop="20260413080000 +0000">
+    <title lang="zh">NHL Hockey</title>
+    <desc>The Montreal Canadiens travel to face the New York Islanders at UBS Arena for a late-season Eastern Conference clash. The teams are currently tied at 1-1, with Islanders winning 4-3 during their first matchup, and Canadiens winning 7-3 this season.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464905" start="20260413080000 +0000" stop="20260413133000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464905" start="20260413133000 +0000" stop="20260413140000 +0000">
+    <title lang="zh">Giants Access Blue</title>
+    <desc>Everything you need to know about your NY Giants.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464905" start="20260413140000 +0000" stop="20260413160000 +0000">
+    <title lang="zh">NHL Hockey</title>
+    <desc>The Montreal Canadiens travel to face the New York Islanders at UBS Arena for a late-season Eastern Conference clash. The teams are currently tied at 1-1, with Islanders winning 4-3 during their first matchup, and Canadiens winning 7-3 this season.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464905" start="20260413160000 +0000" stop="20260413180000 +0000">
+    <title lang="zh">Poker</title>
+    <desc>Poker action from tournaments around the world.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464905" start="20260413180000 +0000" stop="20260413200000 +0000">
+    <title lang="zh">NHL Hockey</title>
+    <desc>The Senators travel to face the Devils at the Prudential Center. Ottawa won the most recent meeting 4-1 on January 31, 2026. Both teams are currently tied at 1-1 in the regular season series. Tim Stutzle leads Ottawa in points, goals and assists.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464905" start="20260413200000 +0000" stop="20260413220000 +0000">
+    <title lang="zh">Poker</title>
+    <desc>Poker action from tournaments around the world.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464905" start="20260413220000 +0000" stop="20260413223000 +0000">
+    <title lang="zh">MSG PM</title>
+    <desc />
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464905" start="20260413223000 +0000" stop="20260413230000 +0000">
+    <title lang="zh">Live: Rangers Pregame</title>
+    <desc>A preview of the New York Rangers upcoming game.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464905" start="20260413230000 +0000" stop="20260414000000 +0000">
+    <title lang="zh">Live: NHL Hockey</title>
+    <desc>From Amerant Bank Arena in Sunrise, Fla.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="219100" start="20260412070000 +0000" stop="20260412090000 +0000">
+    <title lang="zh">LaLiga</title>
+    <desc>Barcelona v Espanyol.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="219100" start="20260412090000 +0000" stop="20260412110000 +0000">
+    <title lang="zh">Champions Cup</title>
+    <desc>Leinster Rugby v Sale Sharks in the third quarter-final.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="219100" start="20260412110000 +0000" stop="20260412134500 +0000">
+    <title lang="zh">Live Challenge Cup</title>
+    <desc>Benetton v Exeter Chiefs (Kick-off 12.30pm). Coverage of the fourth quarter-final match from Stadio Comunale di Monigo in Treviso.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="219100" start="20260412134500 +0000" stop="20260412163000 +0000">
+    <title lang="zh">Live Champions Cup</title>
+    <desc>Bordeaux-Begles v Toulouse (Kick-off 3.00pm). Coverage of the fourth quarter-final from Stade Chaban-Delmas.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="219100" start="20260412163000 +0000" stop="20260412183000 +0000">
+    <title lang="zh">Live LaLiga</title>
+    <desc>Celta Vigo v Real Oviedo (Kick-off 5.30pm). Coverage of the Spanish top-flight match from Estadio Abanca-Balaídos.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="219100" start="20260412183000 +0000" stop="20260412184000 +0000">
+    <title lang="zh">LaLiga Match Highlights</title>
+    <desc>Real Oviedo v Sevilla.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="219100" start="20260412184000 +0000" stop="20260412185500 +0000">
+    <title lang="zh">LaLiga Match Highlights</title>
+    <desc>Alavés v Osasuna.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="219100" start="20260412185500 +0000" stop="20260412210000 +0000">
+    <title lang="zh">Live LaLiga</title>
+    <desc>Athletic Bilbao v Villarreal (Kick-off 8.00pm). Coverage of the Spanish top-flight match from San Mames.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="219100" start="20260412210000 +0000" stop="20260412213000 +0000">
+    <title lang="zh">Sporting Greats</title>
+    <desc>Legendary sporting figures discuss their careers.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="219100" start="20260412213000 +0000" stop="20260412214000 +0000">
+    <title lang="zh">LaLiga Match Highlights</title>
+    <desc>Valencia v Celta Vigo.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="219100" start="20260412214000 +0000" stop="20260412215500 +0000">
+    <title lang="zh">LaLiga Match Highlights</title>
+    <desc>Getafe v Athletic Bilbao.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="219100" start="20260412215500 +0000" stop="20260412225500 +0000">
+    <title lang="zh">NHL on the Fly</title>
+    <desc>Catch up on all the latest NHL news.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="219100" start="20260412225500 +0000" stop="20260413000000 +0000">
+    <title lang="zh">Live Argentine Primera Division</title>
+    <desc>Racing Club v River Plate (Kick-off 12.00am). Coverage of the match from Estadio Presidente Perón.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="219100" start="20260413010000 +0000" stop="20260413020000 +0000">
+    <title lang="zh">Football's Greatest</title>
+    <desc>The finest players in history discuss their careers.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="219100" start="20260413020000 +0000" stop="20260413040000 +0000">
+    <title lang="zh">Eredivisie</title>
+    <desc>NEC Nijmegen v Feyenoord.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="219100" start="20260413040000 +0000" stop="20260413050000 +0000">
+    <title lang="zh">Temples of Sport</title>
+    <desc>Iconic sporting venues from around the globe.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="219100" start="20260413050000 +0000" stop="20260413060000 +0000">
+    <title lang="zh">Sporting Greats</title>
+    <desc>Legendary sporting figures discuss their careers.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="219100" start="20260413060000 +0000" stop="20260413080000 +0000">
+    <title lang="zh">Champions Cup</title>
+    <desc>Bath Rugby v Northampton Saints the first quarter-final.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="219100" start="20260413080000 +0000" stop="20260413100000 +0000">
+    <title lang="zh">Champions Cup</title>
+    <desc>Glasgow Warriors v Toulon in the second quarter-final.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="219100" start="20260413100000 +0000" stop="20260413120000 +0000">
+    <title lang="zh">Champions Cup</title>
+    <desc>Leinster Rugby v Sale Sharks in the third quarter-final.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="219100" start="20260413120000 +0000" stop="20260413130000 +0000">
+    <title lang="zh">Sporting Greats</title>
+    <desc>Legendary sporting figures discuss their careers.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="219100" start="20260413130000 +0000" stop="20260413133000 +0000">
+    <title lang="zh">NHL on the Fly</title>
+    <desc>Catch up on all the latest NHL news.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="219100" start="20260413133000 +0000" stop="20260413140000 +0000">
+    <title lang="zh">Football's Greatest</title>
+    <desc>The finest players in history discuss their careers.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="219100" start="20260413140000 +0000" stop="20260413160000 +0000">
+    <title lang="zh">Champions Cup</title>
+    <desc>Bordeaux-Begles v Toulouse.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="219100" start="20260413160000 +0000" stop="20260413175500 +0000">
+    <title lang="zh">LaLiga</title>
+    <desc>Athletic Bilbao v Villarreal.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="219100" start="20260413175500 +0000" stop="20260413185500 +0000">
+    <title lang="zh">Champions Cup Highlights</title>
+    <desc>Action from the quarter-finals.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="219100" start="20260413185500 +0000" stop="20260413210000 +0000">
+    <title lang="zh">Live LaLiga</title>
+    <desc>Levante v Getafe (Kick-off 8.00pm). Coverage of the Spanish top-flight match from Estadi Ciutat de Valéncia.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="219100" start="20260413210000 +0000" stop="20260413213000 +0000">
+    <title lang="zh">Sporting Greats</title>
+    <desc>Legendary sporting figures discuss their careers.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="219100" start="20260413213000 +0000" stop="20260413223000 +0000">
+    <title lang="zh">Champions Cup Highlights</title>
+    <desc>Action from the quarter-finals.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="219100" start="20260413223000 +0000" stop="20260413233000 +0000">
+    <title lang="zh">NHL Specials</title>
+    <desc>A look at the Florida Panthers' historic repeat victory in the Stanley Cup.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="219100" start="20260413233000 +0000" stop="20260414000000 +0000">
+    <title lang="zh">NHL Ice Hockey</title>
+    <desc>Calgary Flames v Utah Mammoth.</desc>
+    <date>2026-04-13</date>
   </programme>
   <programme channel="465348" start="20260412060000 +0000" stop="20260412150000 +0000">
     <title lang="zh">On the Fly</title>
@@ -2017,15 +2289,235 @@
     <desc>Whip around through live look-ins, real-time scores, breaking news and expert analysis with the studio hosts and seasoned NHL veterans. Stay on top of all the action around the league with NHL Tonight.</desc>
     <date>2026-04-13</date>
   </programme>
-  <programme channel="464810" start="20260412073000 +0000" stop="20260412080000 +0000">
-    <title lang="zh">Family Feud</title>
-    <desc>Steve Harvey assumes the hosting duties for this daytime game show in which five members of one family are pitted against five members of another family. Each team's goal is to guess the results of audience survey questions. A player from each team initially faces off, answering the question to earn the chance to either pass or play. The winning family gets a chance to earn extra cash in a bonus r</desc>
+  <programme channel="465169" start="20260412020000 +0000" stop="20260413000000 +0000">
+    <title lang="zh">SIGN OFF</title>
+    <desc>Sign off.</desc>
     <date>2026-04-12</date>
   </programme>
-  <programme channel="464810" start="20260412080000 +0000" stop="20260412083000 +0000">
-    <title lang="zh">Healthy Joints for Life With Rich Diana</title>
-    <desc>Healthy Joints for Life! Episode 1 of world-renowned orthopedist and longevity researcher Dr. Rich Diana's new series on healthy aging; learn about the real causes behind joint aging, and the promising new drug, supplement and therapy options.</desc>
+  <programme channel="465169" start="20260413020000 +0000" stop="20260414000000 +0000">
+    <title lang="zh">SIGN OFF</title>
+    <desc>Sign off.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260412080000 +0000" stop="20260412093000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
     <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412093000 +0000" stop="20260412100000 +0000">
+    <title lang="zh">Transform your home today, fast &amp; easy!</title>
+    <desc>RotoRazer is the world's greatest jigsaw, circular saw, band saw, tile saw and hacksaw all-in-one amazing easy to use tool!</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412100000 +0000" stop="20260412103000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412103000 +0000" stop="20260412110000 +0000">
+    <title lang="zh">Under Eye Bags? SOLUTION!</title>
+    <desc>Plexaderm helps reduce Under Eye Bags, Dark Circles, and Wrinkles in just 10 minutes!</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412110000 +0000" stop="20260412113000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412113000 +0000" stop="20260412120000 +0000">
+    <title lang="zh">Under Eye Bags? SOLUTION!</title>
+    <desc>Plexaderm helps reduce Under Eye Bags, Dark Circles, and Wrinkles in just 10 minutes!</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412120000 +0000" stop="20260412123000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412123000 +0000" stop="20260412130000 +0000">
+    <title lang="zh">Under Eye Bags? SOLUTION!</title>
+    <desc>Plexaderm helps reduce Under Eye Bags, Dark Circles, and Wrinkles in just 10 minutes!</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412130000 +0000" stop="20260412140000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412140000 +0000" stop="20260412160000 +0000">
+    <title lang="zh">NHL Hockey</title>
+    <desc>From American Airlines Center in Dallas.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412160000 +0000" stop="20260412163000 +0000">
+    <title lang="zh">NY Rangers Postgame</title>
+    <desc>Highlights and analysis of the previous game.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412163000 +0000" stop="20260412170000 +0000">
+    <title lang="zh">Rangers Shorts</title>
+    <desc />
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412170000 +0000" stop="20260412190000 +0000">
+    <title lang="zh">NHL Hockey</title>
+    <desc>From American Airlines Center in Dallas.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412190000 +0000" stop="20260412193000 +0000">
+    <title lang="zh">NY Rangers Postgame</title>
+    <desc>Highlights and analysis of the previous game.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412193000 +0000" stop="20260412200000 +0000">
+    <title lang="zh">Rangers Shorts</title>
+    <desc />
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412200000 +0000" stop="20260412210000 +0000">
+    <title lang="zh">A New York Knicks Podcast: Garden Party</title>
+    <desc />
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412210000 +0000" stop="20260412213000 +0000">
+    <title lang="zh">Knicks Shorts</title>
+    <desc />
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412213000 +0000" stop="20260412220000 +0000">
+    <title lang="zh">Live: NY Knicks Pre-Game</title>
+    <desc>Preview of the New York Knicks game.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412220000 +0000" stop="20260412223000 +0000">
+    <title lang="zh">All Blacks in Their Own Words</title>
+    <desc>A story of resilience, with a country united behind them, an insight into the team, the players, the coaches and their journey.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412223000 +0000" stop="20260412230000 +0000">
+    <title lang="zh">Sports Stars of Tomorrow</title>
+    <desc>Profiles of the top rookie, college and high-school talent in sports; current athletes share their experiences, advice and personal impressions of the road to stardom.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260412230000 +0000" stop="20260413003000 +0000">
+    <title lang="zh">United Fight Alliance</title>
+    <desc>United Fight Alliance features top-ranked fighters, up and coming fighters, intense action and footage from some of the biggest names in combat sports and exclusive content spanning MMA, boxing, kickboxing, bare knuckle boxing, muay thai and more.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465033" start="20260413003000 +0000" stop="20260413010000 +0000">
+    <title lang="zh">Live: NY Knicks Post Game</title>
+    <desc>Review of the New York Knicks game.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413010000 +0000" stop="20260413013000 +0000">
+    <title lang="zh">Knicks Shorts</title>
+    <desc />
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413013000 +0000" stop="20260413033000 +0000">
+    <title lang="zh">NBA Basketball</title>
+    <desc>From Madison Square Garden in New York.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413033000 +0000" stop="20260413040000 +0000">
+    <title lang="zh">NY Knicks Post Game</title>
+    <desc>Review of the New York Knicks game.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413040000 +0000" stop="20260413060000 +0000">
+    <title lang="zh">NBA Basketball</title>
+    <desc>From Madison Square Garden in New York.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413060000 +0000" stop="20260413093000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413093000 +0000" stop="20260413100000 +0000">
+    <title lang="zh">Transform your home today, fast &amp; easy!</title>
+    <desc>RotoRazer is the world's greatest jigsaw, circular saw, band saw, tile saw and hacksaw all-in-one amazing easy to use tool!</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413100000 +0000" stop="20260413113000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413113000 +0000" stop="20260413120000 +0000">
+    <title lang="zh">Hope for Pain Sufferers</title>
+    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413120000 +0000" stop="20260413140000 +0000">
+    <title lang="zh">NBA Basketball</title>
+    <desc>From Madison Square Garden in New York.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413140000 +0000" stop="20260413143000 +0000">
+    <title lang="zh">NY Knicks Post Game</title>
+    <desc>Review of the New York Knicks game.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413143000 +0000" stop="20260413150000 +0000">
+    <title lang="zh">Knicks Shorts</title>
+    <desc />
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413150000 +0000" stop="20260413160000 +0000">
+    <title lang="zh">Live: Up &amp; Adams</title>
+    <desc>Kay Adams and a rotating roster of current and former players discuss the biggest storylines in the NFL.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413160000 +0000" stop="20260413170000 +0000">
+    <title lang="zh">Live: The Ringer Gambling Show</title>
+    <desc />
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413170000 +0000" stop="20260413190000 +0000">
+    <title lang="zh">NBA Basketball</title>
+    <desc>From Madison Square Garden in New York.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413190000 +0000" stop="20260413193000 +0000">
+    <title lang="zh">NY Knicks Post Game</title>
+    <desc>Review of the New York Knicks game.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413193000 +0000" stop="20260413200000 +0000">
+    <title lang="zh">Knicks Shorts</title>
+    <desc />
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413200000 +0000" stop="20260413220000 +0000">
+    <title lang="zh">NBA Basketball</title>
+    <desc>From Madison Square Garden in New York.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413220000 +0000" stop="20260413223000 +0000">
+    <title lang="zh">MSG PM</title>
+    <desc />
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413223000 +0000" stop="20260413230000 +0000">
+    <title lang="zh">Live: NY Rangers Pre-Game</title>
+    <desc />
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413230000 +0000" stop="20260413233000 +0000">
+    <title lang="zh">Up &amp; Adams</title>
+    <desc>Kay Adams and a rotating roster of current and former players discuss the biggest storylines in the NFL.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260413233000 +0000" stop="20260414000000 +0000">
+    <title lang="zh">The Contenders 2026</title>
+    <desc />
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465033" start="20260414000000 +0000" stop="20260415000000 +0000">
+    <title lang="zh">Fight Sports: In 60</title>
+    <desc>Cut down versions of boxing matches.</desc>
+    <date>2026-04-14</date>
   </programme>
   <programme channel="464810" start="20260412083000 +0000" stop="20260412090000 +0000">
     <title lang="zh">Protect Your Family From Identity Theft</title>
@@ -2292,921 +2784,6 @@
     <desc>A mother-daughter duo answers holiday-themed trivia questions.</desc>
     <date>2026-04-14</date>
   </programme>
-  <programme channel="465058" start="20260412073000 +0000" stop="20260412080000 +0000">
-    <title lang="zh">The Aging Brain</title>
-    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260412080000 +0000" stop="20260412083000 +0000">
-    <title lang="zh">Going To The Bathroom Too Much?</title>
-    <desc>Better Bladder is a new safe and natural alternative to drugs, surgery and adult diapers. 90 percent see fewer bathroom visits, leaks &amp; accidents. Tune in for a special TV offer!</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260412083000 +0000" stop="20260412090000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260412090000 +0000" stop="20260412093000 +0000">
-    <title lang="zh">Men's Health - All-Natural Secret for Prostate Health</title>
-    <desc>Prosvent is a doctor formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260412093000 +0000" stop="20260412103000 +0000">
-    <title lang="zh">The Aging Brain</title>
-    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260412103000 +0000" stop="20260412110000 +0000">
-    <title lang="zh">Going To The Bathroom Too Much?</title>
-    <desc>Better Bladder is a new safe and natural alternative to drugs, surgery and adult diapers. 90 percent see fewer bathroom visits, leaks &amp; accidents. Tune in for a special TV offer!</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260412110000 +0000" stop="20260412120000 +0000">
-    <title lang="zh">Sidelined with Brooke Fletcher and Dani Klupenger</title>
-    <desc />
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260412120000 +0000" stop="20260412130000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260412130000 +0000" stop="20260412133000 +0000">
-    <title lang="zh">Men's Health - All-Natural Secret for Prostate Health</title>
-    <desc>Prosvent is a doctor formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260412133000 +0000" stop="20260412140000 +0000">
-    <title lang="zh">Natural Blood Pressure Management</title>
-    <desc>Cardiologist Dr. Ernst von Schwarz, M.D. shows how to manage your blood pressure naturally and help protect your heart for life with My Best Heart.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260412140000 +0000" stop="20260412163000 +0000">
-    <title lang="zh">MLB Baseball</title>
-    <desc>From Kauffman Stadium in Kansas City, Mo.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260412163000 +0000" stop="20260412173000 +0000">
-    <title lang="zh">The White Sox Podcast With Chuck Garfien</title>
-    <desc />
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260412173000 +0000" stop="20260412180000 +0000">
-    <title lang="zh">White Sox Countdown Live</title>
-    <desc />
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260412180000 +0000" stop="20260412210000 +0000">
-    <title lang="zh">Live: MLB Baseball</title>
-    <desc>From Kauffman Stadium in Kansas City, Mo.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260412210000 +0000" stop="20260412213000 +0000">
-    <title lang="zh">White Sox Postgame Live</title>
-    <desc />
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260412213000 +0000" stop="20260412223000 +0000">
-    <title lang="zh">The White Sox Podcast With Chuck Garfien</title>
-    <desc />
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260412223000 +0000" stop="20260412230000 +0000">
-    <title lang="zh">Journey to the Chi</title>
-    <desc />
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260412230000 +0000" stop="20260412233000 +0000">
-    <title lang="zh">Journey to the Chi</title>
-    <desc />
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260412233000 +0000" stop="20260413000000 +0000">
-    <title lang="zh">Journey to the Chi</title>
-    <desc />
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465058" start="20260413000000 +0000" stop="20260413003000 +0000">
-    <title lang="zh">Bulls Countdown Live</title>
-    <desc>Live pregame analysis and discussion.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413003000 +0000" stop="20260413030000 +0000">
-    <title lang="zh">Live: NBA Basketball</title>
-    <desc>From American Airlines Center in Dallas.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413030000 +0000" stop="20260413033000 +0000">
-    <title lang="zh">Bulls Postgame Live</title>
-    <desc>Live postgame analysis, wrapping up the game with player/coach interviews and live press conferences.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413033000 +0000" stop="20260413040000 +0000">
-    <title lang="zh">Journey to the Chi</title>
-    <desc />
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413040000 +0000" stop="20260413063000 +0000">
-    <title lang="zh">NBA Basketball</title>
-    <desc>From American Airlines Center in Dallas.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413063000 +0000" stop="20260413070000 +0000">
-    <title lang="zh">MidWest Outdoors</title>
-    <desc>Hunting, boating, canoeing, camping, hiking, snowmobiling.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413070000 +0000" stop="20260413073000 +0000">
-    <title lang="zh">Men's Health - All-Natural Secret for Prostate Health</title>
-    <desc>Prosvent is a doctor formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413073000 +0000" stop="20260413080000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413080000 +0000" stop="20260413083000 +0000">
-    <title lang="zh">Going To The Bathroom Too Much?</title>
-    <desc>Better Bladder is a new safe and natural alternative to drugs, surgery and adult diapers. 90 percent see fewer bathroom visits, leaks &amp; accidents. Tune in for a special TV offer!</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413083000 +0000" stop="20260413090000 +0000">
-    <title lang="zh">Natural Blood Pressure Management</title>
-    <desc>Cardiologist Dr. Ernst von Schwarz, M.D. shows how to manage your blood pressure naturally and help protect your heart for life with My Best Heart.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413090000 +0000" stop="20260413093000 +0000">
-    <title lang="zh">Men's Health - All-Natural Secret for Prostate Health</title>
-    <desc>Prosvent is a doctor formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413093000 +0000" stop="20260413103000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413103000 +0000" stop="20260413110000 +0000">
-    <title lang="zh">Going To The Bathroom Too Much?</title>
-    <desc>Better Bladder is a new safe and natural alternative to drugs, surgery and adult diapers. 90 percent see fewer bathroom visits, leaks &amp; accidents. Tune in for a special TV offer!</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413110000 +0000" stop="20260413113000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413113000 +0000" stop="20260413120000 +0000">
-    <title lang="zh">Men's Health - All-Natural Secret for Prostate Health</title>
-    <desc>Prosvent is a doctor formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413120000 +0000" stop="20260413140000 +0000">
-    <title lang="zh">The Mully &amp; Haugh Show</title>
-    <desc>Live sports radio talkback featuring the personalities from 670 The Score.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413140000 +0000" stop="20260413143000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413143000 +0000" stop="20260413150000 +0000">
-    <title lang="zh">Hope for Pain Sufferers</title>
-    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413150000 +0000" stop="20260413173000 +0000">
-    <title lang="zh">MLB Baseball</title>
-    <desc>From Kauffman Stadium in Kansas City, Mo.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413173000 +0000" stop="20260413180000 +0000">
-    <title lang="zh">MidWest Outdoors</title>
-    <desc>Hunting, boating, canoeing, camping, hiking, snowmobiling.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413180000 +0000" stop="20260413203000 +0000">
-    <title lang="zh">NBA Basketball</title>
-    <desc>From American Airlines Center in Dallas.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413203000 +0000" stop="20260413210000 +0000">
-    <title lang="zh">MidWest Outdoors</title>
-    <desc>Hunting, boating, canoeing, camping, hiking, snowmobiling.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413210000 +0000" stop="20260413220000 +0000">
-    <title lang="zh">CHSN Podcast Come Alive!</title>
-    <desc>The best-of moments and key discussions from all of CHSN's podcast moments.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413220000 +0000" stop="20260413223000 +0000">
-    <title lang="zh">PRO FOOTBALL WEEKLY TV PODCAST</title>
-    <desc />
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413223000 +0000" stop="20260413230000 +0000">
-    <title lang="zh">Live: The Big Pro Football Show</title>
-    <desc />
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260413230000 +0000" stop="20260414000000 +0000">
-    <title lang="zh">Live: The Chicago Lead</title>
-    <desc>Talk show spotlighting comprehensive reports and features on not just about the Blackhawks, Bulls and White Sox, but also the Bears, Cubs, Sky and the vast college sports landscape of Chicagoland.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465058" start="20260414000000 +0000" stop="20260415000000 +0000">
-    <title lang="zh">Blackhawks Countdown Live</title>
-    <desc>Live pregame analysis and discussion.</desc>
-    <date>2026-04-14</date>
-  </programme>
-  <programme channel="465169" start="20260412020000 +0000" stop="20260413000000 +0000">
-    <title lang="zh">SIGN OFF</title>
-    <desc>Sign off.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465169" start="20260413020000 +0000" stop="20260414000000 +0000">
-    <title lang="zh">SIGN OFF</title>
-    <desc>Sign off.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260412073000 +0000" stop="20260412080000 +0000">
-    <title lang="zh">NY Rangers Postgame</title>
-    <desc>Highlights and analysis of the previous game.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412080000 +0000" stop="20260412093000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412093000 +0000" stop="20260412100000 +0000">
-    <title lang="zh">Transform your home today, fast &amp; easy!</title>
-    <desc>RotoRazer is the world's greatest jigsaw, circular saw, band saw, tile saw and hacksaw all-in-one amazing easy to use tool!</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412100000 +0000" stop="20260412103000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412103000 +0000" stop="20260412110000 +0000">
-    <title lang="zh">Under Eye Bags? SOLUTION!</title>
-    <desc>Plexaderm helps reduce Under Eye Bags, Dark Circles, and Wrinkles in just 10 minutes!</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412110000 +0000" stop="20260412113000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412113000 +0000" stop="20260412120000 +0000">
-    <title lang="zh">Under Eye Bags? SOLUTION!</title>
-    <desc>Plexaderm helps reduce Under Eye Bags, Dark Circles, and Wrinkles in just 10 minutes!</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412120000 +0000" stop="20260412123000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412123000 +0000" stop="20260412130000 +0000">
-    <title lang="zh">Under Eye Bags? SOLUTION!</title>
-    <desc>Plexaderm helps reduce Under Eye Bags, Dark Circles, and Wrinkles in just 10 minutes!</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412130000 +0000" stop="20260412140000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412140000 +0000" stop="20260412160000 +0000">
-    <title lang="zh">NHL Hockey</title>
-    <desc>From American Airlines Center in Dallas.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412160000 +0000" stop="20260412163000 +0000">
-    <title lang="zh">NY Rangers Postgame</title>
-    <desc>Highlights and analysis of the previous game.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412163000 +0000" stop="20260412170000 +0000">
-    <title lang="zh">Rangers Shorts</title>
-    <desc />
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412170000 +0000" stop="20260412190000 +0000">
-    <title lang="zh">NHL Hockey</title>
-    <desc>From American Airlines Center in Dallas.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412190000 +0000" stop="20260412193000 +0000">
-    <title lang="zh">NY Rangers Postgame</title>
-    <desc>Highlights and analysis of the previous game.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412193000 +0000" stop="20260412200000 +0000">
-    <title lang="zh">Rangers Shorts</title>
-    <desc />
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412200000 +0000" stop="20260412210000 +0000">
-    <title lang="zh">A New York Knicks Podcast: Garden Party</title>
-    <desc />
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412210000 +0000" stop="20260412213000 +0000">
-    <title lang="zh">Knicks Shorts</title>
-    <desc />
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412213000 +0000" stop="20260412220000 +0000">
-    <title lang="zh">Live: NY Knicks Pre-Game</title>
-    <desc>Preview of the New York Knicks game.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412220000 +0000" stop="20260412223000 +0000">
-    <title lang="zh">All Blacks in Their Own Words</title>
-    <desc>A story of resilience, with a country united behind them, an insight into the team, the players, the coaches and their journey.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412223000 +0000" stop="20260412230000 +0000">
-    <title lang="zh">Sports Stars of Tomorrow</title>
-    <desc>Profiles of the top rookie, college and high-school talent in sports; current athletes share their experiences, advice and personal impressions of the road to stardom.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260412230000 +0000" stop="20260413003000 +0000">
-    <title lang="zh">United Fight Alliance</title>
-    <desc>United Fight Alliance features top-ranked fighters, up and coming fighters, intense action and footage from some of the biggest names in combat sports and exclusive content spanning MMA, boxing, kickboxing, bare knuckle boxing, muay thai and more.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465033" start="20260413003000 +0000" stop="20260413010000 +0000">
-    <title lang="zh">Live: NY Knicks Post Game</title>
-    <desc>Review of the New York Knicks game.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413010000 +0000" stop="20260413013000 +0000">
-    <title lang="zh">Knicks Shorts</title>
-    <desc />
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413013000 +0000" stop="20260413033000 +0000">
-    <title lang="zh">NBA Basketball</title>
-    <desc>From Madison Square Garden in New York.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413033000 +0000" stop="20260413040000 +0000">
-    <title lang="zh">NY Knicks Post Game</title>
-    <desc>Review of the New York Knicks game.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413040000 +0000" stop="20260413060000 +0000">
-    <title lang="zh">NBA Basketball</title>
-    <desc>From Madison Square Garden in New York.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413060000 +0000" stop="20260413093000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413093000 +0000" stop="20260413100000 +0000">
-    <title lang="zh">Transform your home today, fast &amp; easy!</title>
-    <desc>RotoRazer is the world's greatest jigsaw, circular saw, band saw, tile saw and hacksaw all-in-one amazing easy to use tool!</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413100000 +0000" stop="20260413113000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413113000 +0000" stop="20260413120000 +0000">
-    <title lang="zh">Hope for Pain Sufferers</title>
-    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413120000 +0000" stop="20260413140000 +0000">
-    <title lang="zh">NBA Basketball</title>
-    <desc>From Madison Square Garden in New York.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413140000 +0000" stop="20260413143000 +0000">
-    <title lang="zh">NY Knicks Post Game</title>
-    <desc>Review of the New York Knicks game.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413143000 +0000" stop="20260413150000 +0000">
-    <title lang="zh">Knicks Shorts</title>
-    <desc />
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413150000 +0000" stop="20260413160000 +0000">
-    <title lang="zh">Live: Up &amp; Adams</title>
-    <desc>Kay Adams and a rotating roster of current and former players discuss the biggest storylines in the NFL.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413160000 +0000" stop="20260413170000 +0000">
-    <title lang="zh">Live: The Ringer Gambling Show</title>
-    <desc />
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413170000 +0000" stop="20260413190000 +0000">
-    <title lang="zh">NBA Basketball</title>
-    <desc>From Madison Square Garden in New York.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413190000 +0000" stop="20260413193000 +0000">
-    <title lang="zh">NY Knicks Post Game</title>
-    <desc>Review of the New York Knicks game.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413193000 +0000" stop="20260413200000 +0000">
-    <title lang="zh">Knicks Shorts</title>
-    <desc />
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413200000 +0000" stop="20260413220000 +0000">
-    <title lang="zh">NBA Basketball</title>
-    <desc>From Madison Square Garden in New York.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413220000 +0000" stop="20260413223000 +0000">
-    <title lang="zh">MSG PM</title>
-    <desc />
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413223000 +0000" stop="20260413230000 +0000">
-    <title lang="zh">Live: NY Rangers Pre-Game</title>
-    <desc />
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413230000 +0000" stop="20260413233000 +0000">
-    <title lang="zh">Up &amp; Adams</title>
-    <desc>Kay Adams and a rotating roster of current and former players discuss the biggest storylines in the NFL.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260413233000 +0000" stop="20260414000000 +0000">
-    <title lang="zh">The Contenders 2026</title>
-    <desc />
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465033" start="20260414000000 +0000" stop="20260415000000 +0000">
-    <title lang="zh">Fight Sports: In 60</title>
-    <desc>Cut down versions of boxing matches.</desc>
-    <date>2026-04-14</date>
-  </programme>
-  <programme channel="470741" start="20260412010000 +0000" stop="20260412180000 +0000">
-    <title lang="zh">Live From the Masters</title>
-    <desc>Comprehensive news coverage surrounding the Masters Tournament focusing on emerging storylines, analysis, features and guest interviews.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="470741" start="20260412180000 +0000" stop="20260412190000 +0000">
-    <title lang="zh">GOLF Films</title>
-    <desc>Part one of this this two-part biopic reflects on the humble beginnings of Ben Hogan and the impact of the near-fatal car crash during the prime of his career.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="470741" start="20260412190000 +0000" stop="20260412203000 +0000">
-    <title lang="zh">GOLF Films</title>
-    <desc>Part two of this two-part biopic chronicles one of the greatest comebacks of all time. After a near-fatal car crash, Ben Hogan pressed on to become a 64-time PGA Tour winner and the inspiration for the 1951 motion picture "Follow the Sun.".</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="470741" start="20260412203000 +0000" stop="20260412213000 +0000">
-    <title lang="zh">Golf Channel Academy</title>
-    <desc>World Golf Hall of Famer Tom Watson shares playing tips.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="470741" start="20260412213000 +0000" stop="20260412223000 +0000">
-    <title lang="zh">Golf Channel Academy</title>
-    <desc>Sir Nick Faldo on how to drive the ball farther by using momentum.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="470741" start="20260412223000 +0000" stop="20260412230000 +0000">
-    <title lang="zh">Golf Channel Academy</title>
-    <desc>Short game secrets from Bernhard Langer.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="470741" start="20260412230000 +0000" stop="20260413000000 +0000">
-    <title lang="zh">Live From the Masters</title>
-    <desc>Comprehensive news coverage surrounding the Masters Tournament focusing on emerging storylines, analysis, features and guest interviews.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="470741" start="20260413010000 +0000" stop="20260413120000 +0000">
-    <title lang="zh">Live From the Masters</title>
-    <desc>Comprehensive news coverage surrounding the Masters Tournament focusing on emerging storylines, analysis, features and guest interviews.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="470741" start="20260413120000 +0000" stop="20260413130000 +0000">
-    <title lang="zh">Live: 5 Clubs With Gary Williams</title>
-    <desc>Viewpoints of people in the game with people who love the game; we discuss what is of interest to them in the vast and deep reservoir of stories within the game of golf.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="470741" start="20260413130000 +0000" stop="20260413140000 +0000">
-    <title lang="zh">Live: Golf Channel Podcast with Rex &amp; Lav</title>
-    <desc>GolfChannel.com writers discuss and debate the news of the PGA Tour, DP World Tour, LPGA, Korn Ferry Tour, Champions Tour, College Golf and the amateur game.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="470741" start="20260413140000 +0000" stop="20260413210000 +0000">
-    <title lang="zh">Live From the Masters</title>
-    <desc>Comprehensive news coverage surrounding the Masters Tournament focusing on emerging storylines, analysis, features and guest interviews.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="470741" start="20260413210000 +0000" stop="20260413230000 +0000">
-    <title lang="zh">Live: Golf Today</title>
-    <desc>Damon Hack, Anna Jackson and Eamon Lynch lead and shape the daily conversation throughout the golf world.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="470741" start="20260413230000 +0000" stop="20260414000000 +0000">
-    <title lang="zh">Live: College Golf</title>
-    <desc>Coverage of college golf action.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260412073000 +0000" stop="20260412080000 +0000">
-    <title lang="zh">Spanish Fly</title>
-    <desc>This long-running outdoors program features saltwater sportfishing adventures on host Jose Wejebe's home waters of the Florida Keys, or in some exotic location such as Venezuela, Costa Rica or even Brazil.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412080000 +0000" stop="20260412083000 +0000">
-    <title lang="zh">George Poveromo's World of Saltwater Fishing</title>
-    <desc>Renowned saltwater fishing master George Poveromo hosts this long-running series that presents information on catching a wide range of coastal and offshore saltwater game fish. Filming occurs along the coastal U.S. and popular angling destinations abroad, with Poveromo providing tips on how to catch a wide variety of fish, from exotic species like blue marlin and bonefish to regional favorites suc</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412083000 +0000" stop="20260412090000 +0000">
-    <title lang="zh">Raised Hunting</title>
-    <desc>A family that hunts together stays together. David Holder, his wife, Karin, and their sons, Warren and Easton, firmly believe that motto, and "Raised Hunting" provides a platform for them to pass on the life lessons they have learned in the wild. Facing various challenges during bowhunting adventures allows the Holders to not only demonstrate how to track and harvest animals but also to show the f</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412090000 +0000" stop="20260412110000 +0000">
-    <title lang="zh">Minor League Baseball</title>
-    <desc>From Polar Park in Worcester, Mass.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412110000 +0000" stop="20260412113000 +0000">
-    <title lang="zh">Golf Destination</title>
-    <desc>An in-depth look at some of the world's greatest golf courses.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412113000 +0000" stop="20260412120000 +0000">
-    <title lang="zh">A Fishing Story With Ronnie Green</title>
-    <desc>Comedian Arnez J talks about how fishing has been a part of his life since he was a kid.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412120000 +0000" stop="20260412123000 +0000">
-    <title lang="zh">New England Traveler</title>
-    <desc>In historic Newburyport, Mass., Greg explores the Custom House Maritime Museum and Rear Range Lighthouse, the only lighthouse in the world you can dine in, located right on the Merrimack River. Then he tries his hand at making fried clams.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412123000 +0000" stop="20260412130000 +0000">
-    <title lang="zh">Travel Moore With Anthony Moore</title>
-    <desc>Anthony heads out in search of some of the best burgers New England has to offer. He visits the seacoast NH area and visits Hop and Grind and also Gibbs Garage Bar and Grille then scoots to Salem, Mass., to critique Boston Burger and Bit Bar.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412130000 +0000" stop="20260412133000 +0000">
-    <title lang="zh">Best Mattress Topper Ever!</title>
-    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412133000 +0000" stop="20260412140000 +0000">
-    <title lang="zh">Pocket Hose Copper Head - see why 50 million sold</title>
-    <desc>Join TV legend Richard Karn to discover the strongest, smartest Pocket Hose yet! The Copper HeadTM features anti-burst technology, a kink-proof Force Field jacket, Tri-Tex inner tube and game-changing Pocket PivotTM for 360° freedom.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412140000 +0000" stop="20260412143000 +0000">
-    <title lang="zh">RateEscape: Stop Overpaying For Cellular</title>
-    <desc>Cut up to half the cost of your monthly cell phone bill; same towers, same coverage, but a lot less money; it sounds great but is it too good to be true?; join myth-busting legend Kari Byron as she takes on Big Wireless to save you money.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412143000 +0000" stop="20260412150000 +0000">
-    <title lang="zh">Ready for a safer shower? Enjoy a one-day bath remodel with Jacuzzi.</title>
-    <desc>Trusted brand Jacuzzi Bath Remodel and interior designer Christina Hall share their secrets on how you can easily and affordably transform your bathroom into a gorgeous custom, safe, stylish space in 1 day! Call for a FREE quote &amp; installation.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412150000 +0000" stop="20260412153000 +0000">
-    <title lang="zh">The Aging Brain</title>
-    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412153000 +0000" stop="20260412160000 +0000">
-    <title lang="zh">Hear Better With Audien</title>
-    <desc>Audien Hearing is a leader in over-the-counter hearing aids, committed to making high-quality hearing accessible to all. Discover how advanced, affordable solutions are helping more people experience better hearing every day.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412160000 +0000" stop="20260412163000 +0000">
-    <title lang="zh">Charlie Moore Outdoors</title>
-    <desc>Charlie heads down to his house in Florida to escape the winter blues. On day one, Charlie catches a lot of largemouth bass and whips up a special Italian pasta dinner for the crew. On day two, the Mad Fisherman catches really big bass.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412163000 +0000" stop="20260412170000 +0000">
-    <title lang="zh">Charlie Moore Outdoors</title>
-    <desc>Charlie hits Lake Winnipesaukee. Plot twist: he doesn't fish for bass. Lake guide Tim Moore convinces the Mad Fisherman to troll for salmon and lake trout. The Mad Cook grills up his catch, salmon. Tim and Charlie fish for crappie.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412170000 +0000" stop="20260412173000 +0000">
-    <title lang="zh">Live: Red Sox First Pitch</title>
-    <desc>A preview of the upcoming game and news and analysis from industry insiders.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412173000 +0000" stop="20260412180000 +0000">
-    <title lang="zh">Red Sox GameDay Live</title>
-    <desc>The latest pregame news and commentary about the Red Sox, plus exclusive features and analysis with former players and writers.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412180000 +0000" stop="20260412210000 +0000">
-    <title lang="zh">Live: MLB Baseball</title>
-    <desc>From Busch Stadium in St. Louis, Mi.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412210000 +0000" stop="20260412213000 +0000">
-    <title lang="zh">Red Sox Extra Innings Live</title>
-    <desc>A complete breakdown of the game, postgame reaction from the players, and highlights from around the league.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412213000 +0000" stop="20260412220000 +0000">
-    <title lang="zh">Live: Red Sox Final</title>
-    <desc>A complete breakdown of the game, postgame reaction from the players and highlights from around the league.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260412220000 +0000" stop="20260413000000 +0000">
-    <title lang="zh">Live: NHL Hockey</title>
-    <desc>The Blue Jackets host the Bruins at Nationwide Arena for an Eastern Conference match. This is their third and final meeting this season, with the Bruins leading the season series 2-0. Zach Werenski leads the Blue Jackets in this crucial matchup.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="465225" start="20260413003000 +0000" stop="20260413010000 +0000">
-    <title lang="zh">Bruins Overtime Live</title>
-    <desc>A complete breakdown of the game, postgame reaction from the players and coaches and highlights from around the league.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413010000 +0000" stop="20260413013000 +0000">
-    <title lang="zh">Live: Bruins Postgame Final</title>
-    <desc>A look back at today's Bruins game and the impact the game has on the bigger picture and how it shapes the team and its direction moving forward.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413013000 +0000" stop="20260413033000 +0000">
-    <title lang="zh">USL League One Soccer</title>
-    <desc>From Fitzpatrick Stadium in Portland, Maine.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413033000 +0000" stop="20260413040000 +0000">
-    <title lang="zh">Dirty Water TV</title>
-    <desc>The best parties, hottest venues, and coolest destinations in New England nightlife.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413040000 +0000" stop="20260413060000 +0000">
-    <title lang="zh">MLB Baseball</title>
-    <desc>From Busch Stadium in St. Louis, Mi.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413060000 +0000" stop="20260413063000 +0000">
-    <title lang="zh">Red Sox Extra Innings Live</title>
-    <desc>A complete breakdown of the game, postgame reaction from the players, and highlights from around the league.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413063000 +0000" stop="20260413070000 +0000">
-    <title lang="zh">Red Sox Final</title>
-    <desc>A complete breakdown of the game, postgame reaction from the players and highlights from around the league.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413070000 +0000" stop="20260413090000 +0000">
-    <title lang="zh">NHL Hockey</title>
-    <desc>The Blue Jackets host the Bruins at Nationwide Arena for an Eastern Conference match. This is their third and final meeting this season, with the Bruins leading the season series 2-0. Zach Werenski leads the Blue Jackets in this crucial matchup.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413090000 +0000" stop="20260413093000 +0000">
-    <title lang="zh">Bruins Overtime Live</title>
-    <desc>A complete breakdown of the game, postgame reaction from the players and coaches and highlights from around the league.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413093000 +0000" stop="20260413100000 +0000">
-    <title lang="zh">Bruins Postgame Final</title>
-    <desc>A look back at today's Bruins game and the impact the game has on the bigger picture and how it shapes the team and its direction moving forward.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413100000 +0000" stop="20260413120000 +0000">
-    <title lang="zh">MLB Baseball</title>
-    <desc>From Busch Stadium in St. Louis, Mi.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413120000 +0000" stop="20260413123000 +0000">
-    <title lang="zh">Red Sox Extra Innings Live</title>
-    <desc>A complete breakdown of the game, postgame reaction from the players, and highlights from around the league.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413123000 +0000" stop="20260413130000 +0000">
-    <title lang="zh">Red Sox Final</title>
-    <desc>A complete breakdown of the game, postgame reaction from the players and highlights from around the league.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413130000 +0000" stop="20260413133000 +0000">
-    <title lang="zh">Hope for Pain Sufferers</title>
-    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413133000 +0000" stop="20260413140000 +0000">
-    <title lang="zh">Tired of Pain? Go Drug-Free</title>
-    <desc>See how a drug-free patch is helping people find relief-without medication.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413140000 +0000" stop="20260413143000 +0000">
-    <title lang="zh">Pocket Hose Copper Head - see why 50 million sold</title>
-    <desc>Join TV legend Richard Karn to discover the strongest, smartest Pocket Hose yet! The Copper HeadTM features anti-burst technology, a kink-proof Force Field jacket, Tri-Tex inner tube and game-changing Pocket PivotTM for 360° freedom.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413143000 +0000" stop="20260413150000 +0000">
-    <title lang="zh">Natural Blood Pressure Management</title>
-    <desc>Cardiologist Dr. Ernst von Schwarz, M.D. shows how to manage your blood pressure naturally and help protect your heart for life with My Best Heart.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413150000 +0000" stop="20260413153000 +0000">
-    <title lang="zh">RateEscape: Stop Overpaying For Cellular</title>
-    <desc>Cut up to half the cost of your monthly cell phone bill; same towers, same coverage, but a lot less money; it sounds great but is it too good to be true?; join myth-busting legend Kari Byron as she takes on Big Wireless to save you money.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413153000 +0000" stop="20260413160000 +0000">
-    <title lang="zh">Hope for Pain Sufferers</title>
-    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413160000 +0000" stop="20260413170000 +0000">
-    <title lang="zh">The Varsity With John Ourand</title>
-    <desc>John Ourand and a rotating cast of industry insiders take you inside the executive suites and owners boxes where the decisions that shape the entire sports business are made; you'll hear interviews with players, execs and everyone in between.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413170000 +0000" stop="20260413180000 +0000">
-    <title lang="zh">Live: The Hockey Hub</title>
-    <desc>Hockey talk from NESN announcers that begins with the Bruins and expands to cover the greater New England hockey scene.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413180000 +0000" stop="20260413200000 +0000">
-    <title lang="zh">NHL Hockey</title>
-    <desc>The Blue Jackets host the Bruins at Nationwide Arena for an Eastern Conference match. This is their third and final meeting this season, with the Bruins leading the season series 2-0. Zach Werenski leads the Blue Jackets in this crucial matchup.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413200000 +0000" stop="20260413220000 +0000">
-    <title lang="zh">Live: Boston Has Entered the Chat</title>
-    <desc>A daily show featuring conversational debate that sets up the day in Boston sports. The format incorporates social media and timely guests to inform and entertain fans of New England sports teams.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413220000 +0000" stop="20260413223000 +0000">
-    <title lang="zh">Charlie Moore Outdoors</title>
-    <desc>Charlie and Angela hook up with their friend Chris Rondeau and head down to the Bahamas to check out his brand new yacht. Charlie and Chris fish for Mahi Mahi and Yellow Eye Snapper. Angela and Charlie check out the local scene in Atlantis.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413223000 +0000" stop="20260413230000 +0000">
-    <title lang="zh">Live: Red Sox First Pitch</title>
-    <desc>A preview of the upcoming game and news and analysis from industry insiders.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413230000 +0000" stop="20260413233000 +0000">
-    <title lang="zh">Red Sox GameDay Live</title>
-    <desc>The latest pregame news and commentary about the Red Sox, plus exclusive features and analysis with former players and writers.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="465225" start="20260413233000 +0000" stop="20260414000000 +0000">
-    <title lang="zh">Live: MLB Baseball</title>
-    <desc>From Target Field in Minneapolis.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464905" start="20260412073000 +0000" stop="20260412080000 +0000">
-    <title lang="zh">Devils Shorts</title>
-    <desc />
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="464905" start="20260412080000 +0000" stop="20260412090000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="464905" start="20260412090000 +0000" stop="20260412093000 +0000">
-    <title lang="zh">Hope for Pain Sufferers</title>
-    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="464905" start="20260412093000 +0000" stop="20260412123000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="464905" start="20260412123000 +0000" stop="20260412130000 +0000">
-    <title lang="zh">Hope for Pain Sufferers</title>
-    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="464905" start="20260412130000 +0000" stop="20260412140000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="464905" start="20260412140000 +0000" stop="20260412160000 +0000">
-    <title lang="zh">NHL Hockey</title>
-    <desc>The Ottawa Senators face the New York Islanders at UBS Arena. This late-season Eastern Conference matchup features two teams currently positioned in the middle of the standings, with both side-by-side in the hunt for a higher playoff seed.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="464905" start="20260412160000 +0000" stop="20260412180000 +0000">
-    <title lang="zh">NHL Hockey</title>
-    <desc>From Little Caesars Arena in Detroit, Mich.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="464905" start="20260412180000 +0000" stop="20260412213000 +0000">
-    <title lang="zh">Live: FanDuel Racing</title>
-    <desc>Live horse racing from around the country.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="464905" start="20260412213000 +0000" stop="20260412220000 +0000">
-    <title lang="zh">Live: Islanders Pregame</title>
-    <desc>Analysis of the upcoming Islanders game.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="464905" start="20260412220000 +0000" stop="20260413000000 +0000">
-    <title lang="zh">Live: NHL Hockey</title>
-    <desc>The Montreal Canadiens travel to face the New York Islanders at UBS Arena for a late-season Eastern Conference clash. The teams are currently tied at 1-1, with Islanders winning 4-3 during their first matchup, and Canadiens winning 7-3 this season.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="464905" start="20260413003000 +0000" stop="20260413010000 +0000">
-    <title lang="zh">Live: Islanders Postgame</title>
-    <desc>Highlights and analysis of the Islanders game.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464905" start="20260413010000 +0000" stop="20260413013000 +0000">
-    <title lang="zh">Islanders Shorts</title>
-    <desc>The highlights of the Islanders team.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464905" start="20260413013000 +0000" stop="20260413020000 +0000">
-    <title lang="zh">Devils Shorts</title>
-    <desc />
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464905" start="20260413020000 +0000" stop="20260413040000 +0000">
-    <title lang="zh">Poker</title>
-    <desc>Poker action from tournaments around the world.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464905" start="20260413040000 +0000" stop="20260413060000 +0000">
-    <title lang="zh">NHL Hockey</title>
-    <desc>The Senators travel to face the Devils at the Prudential Center. Ottawa won the most recent meeting 4-1 on January 31, 2026. Both teams are currently tied at 1-1 in the regular season series. Tim Stutzle leads Ottawa in points, goals and assists.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464905" start="20260413060000 +0000" stop="20260413080000 +0000">
-    <title lang="zh">NHL Hockey</title>
-    <desc>The Montreal Canadiens travel to face the New York Islanders at UBS Arena for a late-season Eastern Conference clash. The teams are currently tied at 1-1, with Islanders winning 4-3 during their first matchup, and Canadiens winning 7-3 this season.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464905" start="20260413080000 +0000" stop="20260413133000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464905" start="20260413133000 +0000" stop="20260413140000 +0000">
-    <title lang="zh">Giants Access Blue</title>
-    <desc>Everything you need to know about your NY Giants.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464905" start="20260413140000 +0000" stop="20260413160000 +0000">
-    <title lang="zh">NHL Hockey</title>
-    <desc>The Montreal Canadiens travel to face the New York Islanders at UBS Arena for a late-season Eastern Conference clash. The teams are currently tied at 1-1, with Islanders winning 4-3 during their first matchup, and Canadiens winning 7-3 this season.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464905" start="20260413160000 +0000" stop="20260413180000 +0000">
-    <title lang="zh">Poker</title>
-    <desc>Poker action from tournaments around the world.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464905" start="20260413180000 +0000" stop="20260413200000 +0000">
-    <title lang="zh">NHL Hockey</title>
-    <desc>The Senators travel to face the Devils at the Prudential Center. Ottawa won the most recent meeting 4-1 on January 31, 2026. Both teams are currently tied at 1-1 in the regular season series. Tim Stutzle leads Ottawa in points, goals and assists.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464905" start="20260413200000 +0000" stop="20260413220000 +0000">
-    <title lang="zh">Poker</title>
-    <desc>Poker action from tournaments around the world.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464905" start="20260413220000 +0000" stop="20260413223000 +0000">
-    <title lang="zh">MSG PM</title>
-    <desc />
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464905" start="20260413223000 +0000" stop="20260413230000 +0000">
-    <title lang="zh">Live: Rangers Pregame</title>
-    <desc>A preview of the New York Rangers upcoming game.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464905" start="20260413230000 +0000" stop="20260414000000 +0000">
-    <title lang="zh">Live: NHL Hockey</title>
-    <desc>From Amerant Bank Arena in Sunrise, Fla.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="470638" start="20260412073000 +0000" stop="20260412080000 +0000">
-    <title lang="zh">Family Feud</title>
-    <desc>Steve Harvey assumes the hosting duties for this daytime game show in which five members of one family are pitted against five members of another family. Each team's goal is to guess the results of audience survey questions. A player from each team initially faces off, answering the question to earn the chance to either pass or play. The winning family gets a chance to earn extra cash in a bonus r</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="470638" start="20260412080000 +0000" stop="20260412083000 +0000">
-    <title lang="zh">Healthy Joints for Life With Rich Diana</title>
-    <desc>Healthy Joints for Life! Episode 1 of world-renowned orthopedist and longevity researcher Dr. Rich Diana's new series on healthy aging; learn about the real causes behind joint aging, and the promising new drug, supplement and therapy options.</desc>
-    <date>2026-04-12</date>
-  </programme>
   <programme channel="470638" start="20260412083000 +0000" stop="20260412090000 +0000">
     <title lang="zh">Protect Your Family From Identity Theft</title>
     <desc>Every five seconds there's a victim of identity theft; LifeLock helps alert, restore identity and reimburse lost funds-leading the way in protecting families every day.</desc>
@@ -3472,171 +3049,6 @@
     <desc>A mother-daughter duo answers holiday-themed trivia questions.</desc>
     <date>2026-04-14</date>
   </programme>
-  <programme channel="219100" start="20260412070000 +0000" stop="20260412090000 +0000">
-    <title lang="zh">LaLiga</title>
-    <desc>Barcelona v Espanyol.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="219100" start="20260412090000 +0000" stop="20260412110000 +0000">
-    <title lang="zh">Champions Cup</title>
-    <desc>Leinster Rugby v Sale Sharks in the third quarter-final.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="219100" start="20260412110000 +0000" stop="20260412134500 +0000">
-    <title lang="zh">Live Challenge Cup</title>
-    <desc>Benetton v Exeter Chiefs (Kick-off 12.30pm). Coverage of the fourth quarter-final match from Stadio Comunale di Monigo in Treviso.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="219100" start="20260412134500 +0000" stop="20260412163000 +0000">
-    <title lang="zh">Live Champions Cup</title>
-    <desc>Bordeaux-Begles v Toulouse (Kick-off 3.00pm). Coverage of the fourth quarter-final from Stade Chaban-Delmas.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="219100" start="20260412163000 +0000" stop="20260412183000 +0000">
-    <title lang="zh">Live LaLiga</title>
-    <desc>Celta Vigo v Real Oviedo (Kick-off 5.30pm). Coverage of the Spanish top-flight match from Estadio Abanca-Balaídos.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="219100" start="20260412183000 +0000" stop="20260412184000 +0000">
-    <title lang="zh">LaLiga Match Highlights</title>
-    <desc>Real Oviedo v Sevilla.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="219100" start="20260412184000 +0000" stop="20260412185500 +0000">
-    <title lang="zh">LaLiga Match Highlights</title>
-    <desc>Alavés v Osasuna.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="219100" start="20260412185500 +0000" stop="20260412210000 +0000">
-    <title lang="zh">Live LaLiga</title>
-    <desc>Athletic Bilbao v Villarreal (Kick-off 8.00pm). Coverage of the Spanish top-flight match from San Mames.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="219100" start="20260412210000 +0000" stop="20260412213000 +0000">
-    <title lang="zh">Sporting Greats</title>
-    <desc>Legendary sporting figures discuss their careers.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="219100" start="20260412213000 +0000" stop="20260412214000 +0000">
-    <title lang="zh">LaLiga Match Highlights</title>
-    <desc>Valencia v Celta Vigo.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="219100" start="20260412214000 +0000" stop="20260412215500 +0000">
-    <title lang="zh">LaLiga Match Highlights</title>
-    <desc>Getafe v Athletic Bilbao.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="219100" start="20260412215500 +0000" stop="20260412225500 +0000">
-    <title lang="zh">NHL on the Fly</title>
-    <desc>Catch up on all the latest NHL news.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="219100" start="20260412225500 +0000" stop="20260413000000 +0000">
-    <title lang="zh">Live Argentine Primera Division</title>
-    <desc>Racing Club v River Plate (Kick-off 12.00am). Coverage of the match from Estadio Presidente Perón.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="219100" start="20260413010000 +0000" stop="20260413020000 +0000">
-    <title lang="zh">Football's Greatest</title>
-    <desc>The finest players in history discuss their careers.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="219100" start="20260413020000 +0000" stop="20260413040000 +0000">
-    <title lang="zh">Eredivisie</title>
-    <desc>NEC Nijmegen v Feyenoord.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="219100" start="20260413040000 +0000" stop="20260413050000 +0000">
-    <title lang="zh">Temples of Sport</title>
-    <desc>Iconic sporting venues from around the globe.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="219100" start="20260413050000 +0000" stop="20260413060000 +0000">
-    <title lang="zh">Sporting Greats</title>
-    <desc>Legendary sporting figures discuss their careers.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="219100" start="20260413060000 +0000" stop="20260413080000 +0000">
-    <title lang="zh">Champions Cup</title>
-    <desc>Bath Rugby v Northampton Saints the first quarter-final.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="219100" start="20260413080000 +0000" stop="20260413100000 +0000">
-    <title lang="zh">Champions Cup</title>
-    <desc>Glasgow Warriors v Toulon in the second quarter-final.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="219100" start="20260413100000 +0000" stop="20260413120000 +0000">
-    <title lang="zh">Champions Cup</title>
-    <desc>Leinster Rugby v Sale Sharks in the third quarter-final.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="219100" start="20260413120000 +0000" stop="20260413130000 +0000">
-    <title lang="zh">Sporting Greats</title>
-    <desc>Legendary sporting figures discuss their careers.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="219100" start="20260413130000 +0000" stop="20260413133000 +0000">
-    <title lang="zh">NHL on the Fly</title>
-    <desc>Catch up on all the latest NHL news.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="219100" start="20260413133000 +0000" stop="20260413140000 +0000">
-    <title lang="zh">Football's Greatest</title>
-    <desc>The finest players in history discuss their careers.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="219100" start="20260413140000 +0000" stop="20260413160000 +0000">
-    <title lang="zh">Champions Cup</title>
-    <desc>Bordeaux-Begles v Toulouse.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="219100" start="20260413160000 +0000" stop="20260413175500 +0000">
-    <title lang="zh">LaLiga</title>
-    <desc>Athletic Bilbao v Villarreal.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="219100" start="20260413175500 +0000" stop="20260413185500 +0000">
-    <title lang="zh">Champions Cup Highlights</title>
-    <desc>Action from the quarter-finals.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="219100" start="20260413185500 +0000" stop="20260413210000 +0000">
-    <title lang="zh">Live LaLiga</title>
-    <desc>Levante v Getafe (Kick-off 8.00pm). Coverage of the Spanish top-flight match from Estadi Ciutat de Valéncia.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="219100" start="20260413210000 +0000" stop="20260413213000 +0000">
-    <title lang="zh">Sporting Greats</title>
-    <desc>Legendary sporting figures discuss their careers.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="219100" start="20260413213000 +0000" stop="20260413223000 +0000">
-    <title lang="zh">Champions Cup Highlights</title>
-    <desc>Action from the quarter-finals.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="219100" start="20260413223000 +0000" stop="20260413233000 +0000">
-    <title lang="zh">NHL Specials</title>
-    <desc>A look at the Florida Panthers' historic repeat victory in the Stanley Cup.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="219100" start="20260413233000 +0000" stop="20260414000000 +0000">
-    <title lang="zh">NHL Ice Hockey</title>
-    <desc>Calgary Flames v Utah Mammoth.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="486728" start="20260412070000 +0000" stop="20260412080000 +0000">
-    <title lang="zh">We Are Liverpool</title>
-    <desc>Dirk Kuyt, the man for the big occasion, joins Peter McDowall and Jan Molby to relive the highlights of his Reds career.</desc>
-    <date>2026-04-12</date>
-  </programme>
-  <programme channel="486728" start="20260412080000 +0000" stop="20260412083000 +0000">
-    <title lang="zh">Ultimate XI</title>
-    <desc>Former Liverpool midfielder Jan Molby takes on the role of fantasy manager and reveals who would make it into his Ultimate XI.</desc>
-    <date>2026-04-12</date>
-  </programme>
   <programme channel="486728" start="20260412083000 +0000" stop="20260412090000 +0000">
     <title lang="zh">Wembley Wizards: Liverpool's Cup Double</title>
     <desc>Relive the Reds successful Carabao Cup and FA Cup campaigns of 2021/22 in LFCTVs exclusive mini-documentary.</desc>
@@ -3867,105 +3279,305 @@
     <desc>Coverage of Liverpool's press conference ahead of Liverpool's match against PSG.</desc>
     <date>2026-04-13</date>
   </programme>
-  <programme channel="464879" start="20260412060000 +0000" stop="20260412090000 +0000">
-    <title lang="zh">College Baseball</title>
-    <desc>From Shea Field in Chestnut Hill, Mass.</desc>
+  <programme channel="465225" start="20260412083000 +0000" stop="20260412090000 +0000">
+    <title lang="zh">Raised Hunting</title>
+    <desc>A family that hunts together stays together. David Holder, his wife, Karin, and their sons, Warren and Easton, firmly believe that motto, and "Raised Hunting" provides a platform for them to pass on the life lessons they have learned in the wild. Facing various challenges during bowhunting adventures allows the Holders to not only demonstrate how to track and harvest animals but also to show the f</desc>
     <date>2026-04-12</date>
   </programme>
-  <programme channel="464879" start="20260412090000 +0000" stop="20260412110000 +0000">
-    <title lang="zh">Women's College Gymnastics</title>
-    <desc>Session two.</desc>
+  <programme channel="465225" start="20260412090000 +0000" stop="20260412110000 +0000">
+    <title lang="zh">Minor League Baseball</title>
+    <desc>From Polar Park in Worcester, Mass.</desc>
     <date>2026-04-12</date>
   </programme>
-  <programme channel="464879" start="20260412110000 +0000" stop="20260412140000 +0000">
-    <title lang="zh">All ACC</title>
-    <desc>Providing the latest news and information on the ACC's 28 sponsored sports - including post-game coverage around the conference's biggest events.</desc>
+  <programme channel="465225" start="20260412110000 +0000" stop="20260412113000 +0000">
+    <title lang="zh">Golf Destination</title>
+    <desc>An in-depth look at some of the world's greatest golf courses.</desc>
     <date>2026-04-12</date>
   </programme>
-  <programme channel="464879" start="20260412140000 +0000" stop="20260412170000 +0000">
-    <title lang="zh">College Baseball</title>
-    <desc>From Shea Field in Chestnut Hill, Mass.</desc>
+  <programme channel="465225" start="20260412113000 +0000" stop="20260412120000 +0000">
+    <title lang="zh">A Fishing Story With Ronnie Green</title>
+    <desc>Comedian Arnez J talks about how fishing has been a part of his life since he was a kid.</desc>
     <date>2026-04-12</date>
   </programme>
-  <programme channel="464879" start="20260412170000 +0000" stop="20260412200000 +0000">
-    <title lang="zh">Live: College Baseball</title>
-    <desc>From Jim Patterson Stadium in Louisville.</desc>
+  <programme channel="465225" start="20260412120000 +0000" stop="20260412123000 +0000">
+    <title lang="zh">New England Traveler</title>
+    <desc>In historic Newburyport, Mass., Greg explores the Custom House Maritime Museum and Rear Range Lighthouse, the only lighthouse in the world you can dine in, located right on the Merrimack River. Then he tries his hand at making fried clams.</desc>
     <date>2026-04-12</date>
   </programme>
-  <programme channel="464879" start="20260412200000 +0000" stop="20260412220000 +0000">
-    <title lang="zh">Live: College Softball</title>
-    <desc>From Palmer Park in Charlottesville, Va.</desc>
+  <programme channel="465225" start="20260412123000 +0000" stop="20260412130000 +0000">
+    <title lang="zh">Travel Moore With Anthony Moore</title>
+    <desc>Anthony heads out in search of some of the best burgers New England has to offer. He visits the seacoast NH area and visits Hop and Grind and also Gibbs Garage Bar and Grille then scoots to Salem, Mass., to critique Boston Burger and Bit Bar.</desc>
     <date>2026-04-12</date>
   </programme>
-  <programme channel="464879" start="20260412220000 +0000" stop="20260413000000 +0000">
-    <title lang="zh">College Softball</title>
-    <desc>Action from women's college softball.</desc>
+  <programme channel="465225" start="20260412130000 +0000" stop="20260412133000 +0000">
+    <title lang="zh">Best Mattress Topper Ever!</title>
+    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
     <date>2026-04-12</date>
   </programme>
-  <programme channel="464879" start="20260413000000 +0000" stop="20260413010000 +0000">
-    <title lang="zh">Live: All ACC</title>
-    <desc>Providing the latest news and information on the ACC's 28 sponsored sports - including post-game coverage around the conference's biggest events.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464879" start="20260413010000 +0000" stop="20260413060000 +0000">
-    <title lang="zh">All ACC</title>
-    <desc>Providing the latest news and information on the ACC's 28 sponsored sports - including post-game coverage around the conference's biggest events.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464879" start="20260413060000 +0000" stop="20260413080000 +0000">
-    <title lang="zh">Women's College Soccer</title>
-    <desc>Championship.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464879" start="20260413080000 +0000" stop="20260413100000 +0000">
-    <title lang="zh">Men's College Soccer</title>
-    <desc>Championship.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464879" start="20260413100000 +0000" stop="20260413110000 +0000">
-    <title lang="zh">All Access the ACC Life</title>
-    <desc>A glimpse of a day in the life of ACC student-athletes, coaches, staff, parents and fans.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464879" start="20260413110000 +0000" stop="20260413140000 +0000">
-    <title lang="zh">All ACC</title>
-    <desc>Providing the latest news and information on the ACC's 28 sponsored sports - including post-game coverage around the conference's biggest events.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464879" start="20260413140000 +0000" stop="20260413160000 +0000">
-    <title lang="zh">College Softball</title>
-    <desc>From Boyd and Jill Smith Family Stadium in Stanford, Calif.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464879" start="20260413160000 +0000" stop="20260413180000 +0000">
-    <title lang="zh">College Softball</title>
-    <desc>From Vartabedian Field in Pittsburgh.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464879" start="20260413180000 +0000" stop="20260413210000 +0000">
-    <title lang="zh">College Baseball</title>
-    <desc>All the action from college baseball.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464879" start="20260413210000 +0000" stop="20260413220000 +0000">
-    <title lang="zh">ACC Huddle</title>
-    <desc>Host Taylor Tannenbaum and analysts Jimbo Fisher, Eddie Royal and Eric Mac Lain go on the road each week to preview the slate of ACC football games. Live from campus of the ACC's marquee game of the week.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464879" start="20260413220000 +0000" stop="20260414000000 +0000">
-    <title lang="zh">College Softball</title>
-    <desc>From Rhoads Stadium in Tuscaloosa, Ala.</desc>
-    <date>2026-04-13</date>
-  </programme>
-  <programme channel="464879" start="20260414000000 +0000" stop="20260415000000 +0000">
-    <title lang="zh">College Baseball</title>
-    <desc>From Jim Patterson Stadium in Louisville.</desc>
-    <date>2026-04-14</date>
-  </programme>
-  <programme channel="465073" start="20260412053000 +0000" stop="20260412080000 +0000">
-    <title lang="zh">The B1G Show</title>
-    <desc>Highlights, news, and analysis from around the Big Ten.</desc>
+  <programme channel="465225" start="20260412133000 +0000" stop="20260412140000 +0000">
+    <title lang="zh">Pocket Hose Copper Head - see why 50 million sold</title>
+    <desc>Join TV legend Richard Karn to discover the strongest, smartest Pocket Hose yet! The Copper HeadTM features anti-burst technology, a kink-proof Force Field jacket, Tri-Tex inner tube and game-changing Pocket PivotTM for 360° freedom.</desc>
     <date>2026-04-12</date>
+  </programme>
+  <programme channel="465225" start="20260412140000 +0000" stop="20260412143000 +0000">
+    <title lang="zh">RateEscape: Stop Overpaying For Cellular</title>
+    <desc>Cut up to half the cost of your monthly cell phone bill; same towers, same coverage, but a lot less money; it sounds great but is it too good to be true?; join myth-busting legend Kari Byron as she takes on Big Wireless to save you money.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465225" start="20260412143000 +0000" stop="20260412150000 +0000">
+    <title lang="zh">Ready for a safer shower? Enjoy a one-day bath remodel with Jacuzzi.</title>
+    <desc>Trusted brand Jacuzzi Bath Remodel and interior designer Christina Hall share their secrets on how you can easily and affordably transform your bathroom into a gorgeous custom, safe, stylish space in 1 day! Call for a FREE quote &amp; installation.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465225" start="20260412150000 +0000" stop="20260412153000 +0000">
+    <title lang="zh">The Aging Brain</title>
+    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465225" start="20260412153000 +0000" stop="20260412160000 +0000">
+    <title lang="zh">Hear Better With Audien</title>
+    <desc>Audien Hearing is a leader in over-the-counter hearing aids, committed to making high-quality hearing accessible to all. Discover how advanced, affordable solutions are helping more people experience better hearing every day.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465225" start="20260412160000 +0000" stop="20260412163000 +0000">
+    <title lang="zh">Charlie Moore Outdoors</title>
+    <desc>Charlie heads down to his house in Florida to escape the winter blues. On day one, Charlie catches a lot of largemouth bass and whips up a special Italian pasta dinner for the crew. On day two, the Mad Fisherman catches really big bass.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465225" start="20260412163000 +0000" stop="20260412170000 +0000">
+    <title lang="zh">Charlie Moore Outdoors</title>
+    <desc>Charlie hits Lake Winnipesaukee. Plot twist: he doesn't fish for bass. Lake guide Tim Moore convinces the Mad Fisherman to troll for salmon and lake trout. The Mad Cook grills up his catch, salmon. Tim and Charlie fish for crappie.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465225" start="20260412170000 +0000" stop="20260412173000 +0000">
+    <title lang="zh">Live: Red Sox First Pitch</title>
+    <desc>A preview of the upcoming game and news and analysis from industry insiders.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465225" start="20260412173000 +0000" stop="20260412180000 +0000">
+    <title lang="zh">Red Sox GameDay Live</title>
+    <desc>The latest pregame news and commentary about the Red Sox, plus exclusive features and analysis with former players and writers.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465225" start="20260412180000 +0000" stop="20260412210000 +0000">
+    <title lang="zh">Live: MLB Baseball</title>
+    <desc>From Busch Stadium in St. Louis, Mi.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465225" start="20260412210000 +0000" stop="20260412213000 +0000">
+    <title lang="zh">Red Sox Extra Innings Live</title>
+    <desc>A complete breakdown of the game, postgame reaction from the players, and highlights from around the league.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465225" start="20260412213000 +0000" stop="20260412220000 +0000">
+    <title lang="zh">Live: Red Sox Final</title>
+    <desc>A complete breakdown of the game, postgame reaction from the players and highlights from around the league.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465225" start="20260412220000 +0000" stop="20260413000000 +0000">
+    <title lang="zh">Live: NHL Hockey</title>
+    <desc>The Blue Jackets host the Bruins at Nationwide Arena for an Eastern Conference match. This is their third and final meeting this season, with the Bruins leading the season series 2-0. Zach Werenski leads the Blue Jackets in this crucial matchup.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465225" start="20260413003000 +0000" stop="20260413010000 +0000">
+    <title lang="zh">Bruins Overtime Live</title>
+    <desc>A complete breakdown of the game, postgame reaction from the players and coaches and highlights from around the league.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413010000 +0000" stop="20260413013000 +0000">
+    <title lang="zh">Live: Bruins Postgame Final</title>
+    <desc>A look back at today's Bruins game and the impact the game has on the bigger picture and how it shapes the team and its direction moving forward.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413013000 +0000" stop="20260413033000 +0000">
+    <title lang="zh">USL League One Soccer</title>
+    <desc>From Fitzpatrick Stadium in Portland, Maine.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413033000 +0000" stop="20260413040000 +0000">
+    <title lang="zh">Dirty Water TV</title>
+    <desc>The best parties, hottest venues, and coolest destinations in New England nightlife.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413040000 +0000" stop="20260413060000 +0000">
+    <title lang="zh">MLB Baseball</title>
+    <desc>From Busch Stadium in St. Louis, Mi.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413060000 +0000" stop="20260413063000 +0000">
+    <title lang="zh">Red Sox Extra Innings Live</title>
+    <desc>A complete breakdown of the game, postgame reaction from the players, and highlights from around the league.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413063000 +0000" stop="20260413070000 +0000">
+    <title lang="zh">Red Sox Final</title>
+    <desc>A complete breakdown of the game, postgame reaction from the players and highlights from around the league.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413070000 +0000" stop="20260413090000 +0000">
+    <title lang="zh">NHL Hockey</title>
+    <desc>The Blue Jackets host the Bruins at Nationwide Arena for an Eastern Conference match. This is their third and final meeting this season, with the Bruins leading the season series 2-0. Zach Werenski leads the Blue Jackets in this crucial matchup.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413090000 +0000" stop="20260413093000 +0000">
+    <title lang="zh">Bruins Overtime Live</title>
+    <desc>A complete breakdown of the game, postgame reaction from the players and coaches and highlights from around the league.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413093000 +0000" stop="20260413100000 +0000">
+    <title lang="zh">Bruins Postgame Final</title>
+    <desc>A look back at today's Bruins game and the impact the game has on the bigger picture and how it shapes the team and its direction moving forward.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413100000 +0000" stop="20260413120000 +0000">
+    <title lang="zh">MLB Baseball</title>
+    <desc>From Busch Stadium in St. Louis, Mi.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413120000 +0000" stop="20260413123000 +0000">
+    <title lang="zh">Red Sox Extra Innings Live</title>
+    <desc>A complete breakdown of the game, postgame reaction from the players, and highlights from around the league.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413123000 +0000" stop="20260413130000 +0000">
+    <title lang="zh">Red Sox Final</title>
+    <desc>A complete breakdown of the game, postgame reaction from the players and highlights from around the league.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413130000 +0000" stop="20260413133000 +0000">
+    <title lang="zh">Hope for Pain Sufferers</title>
+    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413133000 +0000" stop="20260413140000 +0000">
+    <title lang="zh">Tired of Pain? Go Drug-Free</title>
+    <desc>See how a drug-free patch is helping people find relief-without medication.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413140000 +0000" stop="20260413143000 +0000">
+    <title lang="zh">Pocket Hose Copper Head - see why 50 million sold</title>
+    <desc>Join TV legend Richard Karn to discover the strongest, smartest Pocket Hose yet! The Copper HeadTM features anti-burst technology, a kink-proof Force Field jacket, Tri-Tex inner tube and game-changing Pocket PivotTM for 360° freedom.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413143000 +0000" stop="20260413150000 +0000">
+    <title lang="zh">Natural Blood Pressure Management</title>
+    <desc>Cardiologist Dr. Ernst von Schwarz, M.D. shows how to manage your blood pressure naturally and help protect your heart for life with My Best Heart.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413150000 +0000" stop="20260413153000 +0000">
+    <title lang="zh">RateEscape: Stop Overpaying For Cellular</title>
+    <desc>Cut up to half the cost of your monthly cell phone bill; same towers, same coverage, but a lot less money; it sounds great but is it too good to be true?; join myth-busting legend Kari Byron as she takes on Big Wireless to save you money.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413153000 +0000" stop="20260413160000 +0000">
+    <title lang="zh">Hope for Pain Sufferers</title>
+    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413160000 +0000" stop="20260413170000 +0000">
+    <title lang="zh">The Varsity With John Ourand</title>
+    <desc>John Ourand and a rotating cast of industry insiders take you inside the executive suites and owners boxes where the decisions that shape the entire sports business are made; you'll hear interviews with players, execs and everyone in between.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413170000 +0000" stop="20260413180000 +0000">
+    <title lang="zh">Live: The Hockey Hub</title>
+    <desc>Hockey talk from NESN announcers that begins with the Bruins and expands to cover the greater New England hockey scene.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413180000 +0000" stop="20260413200000 +0000">
+    <title lang="zh">NHL Hockey</title>
+    <desc>The Blue Jackets host the Bruins at Nationwide Arena for an Eastern Conference match. This is their third and final meeting this season, with the Bruins leading the season series 2-0. Zach Werenski leads the Blue Jackets in this crucial matchup.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413200000 +0000" stop="20260413220000 +0000">
+    <title lang="zh">Live: Boston Has Entered the Chat</title>
+    <desc>A daily show featuring conversational debate that sets up the day in Boston sports. The format incorporates social media and timely guests to inform and entertain fans of New England sports teams.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413220000 +0000" stop="20260413223000 +0000">
+    <title lang="zh">Charlie Moore Outdoors</title>
+    <desc>Charlie and Angela hook up with their friend Chris Rondeau and head down to the Bahamas to check out his brand new yacht. Charlie and Chris fish for Mahi Mahi and Yellow Eye Snapper. Angela and Charlie check out the local scene in Atlantis.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413223000 +0000" stop="20260413230000 +0000">
+    <title lang="zh">Live: Red Sox First Pitch</title>
+    <desc>A preview of the upcoming game and news and analysis from industry insiders.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413230000 +0000" stop="20260413233000 +0000">
+    <title lang="zh">Red Sox GameDay Live</title>
+    <desc>The latest pregame news and commentary about the Red Sox, plus exclusive features and analysis with former players and writers.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465225" start="20260413233000 +0000" stop="20260414000000 +0000">
+    <title lang="zh">Live: MLB Baseball</title>
+    <desc>From Target Field in Minneapolis.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="470741" start="20260412010000 +0000" stop="20260412180000 +0000">
+    <title lang="zh">Live From the Masters</title>
+    <desc>Comprehensive news coverage surrounding the Masters Tournament focusing on emerging storylines, analysis, features and guest interviews.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="470741" start="20260412180000 +0000" stop="20260412190000 +0000">
+    <title lang="zh">GOLF Films</title>
+    <desc>Part one of this this two-part biopic reflects on the humble beginnings of Ben Hogan and the impact of the near-fatal car crash during the prime of his career.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="470741" start="20260412190000 +0000" stop="20260412203000 +0000">
+    <title lang="zh">GOLF Films</title>
+    <desc>Part two of this two-part biopic chronicles one of the greatest comebacks of all time. After a near-fatal car crash, Ben Hogan pressed on to become a 64-time PGA Tour winner and the inspiration for the 1951 motion picture "Follow the Sun.".</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="470741" start="20260412203000 +0000" stop="20260412213000 +0000">
+    <title lang="zh">Golf Channel Academy</title>
+    <desc>World Golf Hall of Famer Tom Watson shares playing tips.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="470741" start="20260412213000 +0000" stop="20260412223000 +0000">
+    <title lang="zh">Golf Channel Academy</title>
+    <desc>Sir Nick Faldo on how to drive the ball farther by using momentum.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="470741" start="20260412223000 +0000" stop="20260412230000 +0000">
+    <title lang="zh">Golf Channel Academy</title>
+    <desc>Short game secrets from Bernhard Langer.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="470741" start="20260412230000 +0000" stop="20260413000000 +0000">
+    <title lang="zh">Live From the Masters</title>
+    <desc>Comprehensive news coverage surrounding the Masters Tournament focusing on emerging storylines, analysis, features and guest interviews.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="470741" start="20260413010000 +0000" stop="20260413120000 +0000">
+    <title lang="zh">Live From the Masters</title>
+    <desc>Comprehensive news coverage surrounding the Masters Tournament focusing on emerging storylines, analysis, features and guest interviews.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="470741" start="20260413120000 +0000" stop="20260413130000 +0000">
+    <title lang="zh">Live: 5 Clubs With Gary Williams</title>
+    <desc>Viewpoints of people in the game with people who love the game; we discuss what is of interest to them in the vast and deep reservoir of stories within the game of golf.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="470741" start="20260413130000 +0000" stop="20260413140000 +0000">
+    <title lang="zh">Live: Golf Channel Podcast with Rex &amp; Lav</title>
+    <desc>GolfChannel.com writers discuss and debate the news of the PGA Tour, DP World Tour, LPGA, Korn Ferry Tour, Champions Tour, College Golf and the amateur game.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="470741" start="20260413140000 +0000" stop="20260413210000 +0000">
+    <title lang="zh">Live From the Masters</title>
+    <desc>Comprehensive news coverage surrounding the Masters Tournament focusing on emerging storylines, analysis, features and guest interviews.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="470741" start="20260413210000 +0000" stop="20260413230000 +0000">
+    <title lang="zh">Live: Golf Today</title>
+    <desc>Damon Hack, Anna Jackson and Eamon Lynch lead and shape the daily conversation throughout the golf world.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="470741" start="20260413230000 +0000" stop="20260414000000 +0000">
+    <title lang="zh">Live: College Golf</title>
+    <desc>Coverage of college golf action.</desc>
+    <date>2026-04-13</date>
   </programme>
   <programme channel="465073" start="20260412080000 +0000" stop="20260412100000 +0000">
     <title lang="zh">Men's College Lacrosse</title>
@@ -4120,6 +3732,321 @@
   <programme channel="465073" start="20260414000000 +0000" stop="20260415000000 +0000">
     <title lang="zh">B1G Today</title>
     <desc>News from around the Big 10 Conference.</desc>
+    <date>2026-04-14</date>
+  </programme>
+  <programme channel="464879" start="20260412060000 +0000" stop="20260412090000 +0000">
+    <title lang="zh">College Baseball</title>
+    <desc>From Shea Field in Chestnut Hill, Mass.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="464879" start="20260412090000 +0000" stop="20260412110000 +0000">
+    <title lang="zh">Women's College Gymnastics</title>
+    <desc>Session two.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="464879" start="20260412110000 +0000" stop="20260412140000 +0000">
+    <title lang="zh">All ACC</title>
+    <desc>Providing the latest news and information on the ACC's 28 sponsored sports - including post-game coverage around the conference's biggest events.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="464879" start="20260412140000 +0000" stop="20260412170000 +0000">
+    <title lang="zh">College Baseball</title>
+    <desc>From Shea Field in Chestnut Hill, Mass.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="464879" start="20260412170000 +0000" stop="20260412200000 +0000">
+    <title lang="zh">Live: College Baseball</title>
+    <desc>From Jim Patterson Stadium in Louisville.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="464879" start="20260412200000 +0000" stop="20260412220000 +0000">
+    <title lang="zh">Live: College Softball</title>
+    <desc>From Palmer Park in Charlottesville, Va.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="464879" start="20260412220000 +0000" stop="20260413000000 +0000">
+    <title lang="zh">College Softball</title>
+    <desc>Action from women's college softball.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="464879" start="20260413000000 +0000" stop="20260413010000 +0000">
+    <title lang="zh">Live: All ACC</title>
+    <desc>Providing the latest news and information on the ACC's 28 sponsored sports - including post-game coverage around the conference's biggest events.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464879" start="20260413010000 +0000" stop="20260413060000 +0000">
+    <title lang="zh">All ACC</title>
+    <desc>Providing the latest news and information on the ACC's 28 sponsored sports - including post-game coverage around the conference's biggest events.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464879" start="20260413060000 +0000" stop="20260413080000 +0000">
+    <title lang="zh">Women's College Soccer</title>
+    <desc>Championship.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464879" start="20260413080000 +0000" stop="20260413100000 +0000">
+    <title lang="zh">Men's College Soccer</title>
+    <desc>Championship.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464879" start="20260413100000 +0000" stop="20260413110000 +0000">
+    <title lang="zh">All Access the ACC Life</title>
+    <desc>A glimpse of a day in the life of ACC student-athletes, coaches, staff, parents and fans.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464879" start="20260413110000 +0000" stop="20260413140000 +0000">
+    <title lang="zh">All ACC</title>
+    <desc>Providing the latest news and information on the ACC's 28 sponsored sports - including post-game coverage around the conference's biggest events.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464879" start="20260413140000 +0000" stop="20260413160000 +0000">
+    <title lang="zh">College Softball</title>
+    <desc>From Boyd and Jill Smith Family Stadium in Stanford, Calif.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464879" start="20260413160000 +0000" stop="20260413180000 +0000">
+    <title lang="zh">College Softball</title>
+    <desc>From Vartabedian Field in Pittsburgh.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464879" start="20260413180000 +0000" stop="20260413210000 +0000">
+    <title lang="zh">College Baseball</title>
+    <desc>All the action from college baseball.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464879" start="20260413210000 +0000" stop="20260413220000 +0000">
+    <title lang="zh">ACC Huddle</title>
+    <desc>Host Taylor Tannenbaum and analysts Jimbo Fisher, Eddie Royal and Eric Mac Lain go on the road each week to preview the slate of ACC football games. Live from campus of the ACC's marquee game of the week.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464879" start="20260413220000 +0000" stop="20260414000000 +0000">
+    <title lang="zh">College Softball</title>
+    <desc>From Rhoads Stadium in Tuscaloosa, Ala.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="464879" start="20260414000000 +0000" stop="20260415000000 +0000">
+    <title lang="zh">College Baseball</title>
+    <desc>From Jim Patterson Stadium in Louisville.</desc>
+    <date>2026-04-14</date>
+  </programme>
+  <programme channel="465058" start="20260412083000 +0000" stop="20260412090000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465058" start="20260412090000 +0000" stop="20260412093000 +0000">
+    <title lang="zh">Men's Health - All-Natural Secret for Prostate Health</title>
+    <desc>Prosvent is a doctor formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465058" start="20260412093000 +0000" stop="20260412103000 +0000">
+    <title lang="zh">The Aging Brain</title>
+    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465058" start="20260412103000 +0000" stop="20260412110000 +0000">
+    <title lang="zh">Going To The Bathroom Too Much?</title>
+    <desc>Better Bladder is a new safe and natural alternative to drugs, surgery and adult diapers. 90 percent see fewer bathroom visits, leaks &amp; accidents. Tune in for a special TV offer!</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465058" start="20260412110000 +0000" stop="20260412120000 +0000">
+    <title lang="zh">Sidelined with Brooke Fletcher and Dani Klupenger</title>
+    <desc />
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465058" start="20260412120000 +0000" stop="20260412130000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465058" start="20260412130000 +0000" stop="20260412133000 +0000">
+    <title lang="zh">Men's Health - All-Natural Secret for Prostate Health</title>
+    <desc>Prosvent is a doctor formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465058" start="20260412133000 +0000" stop="20260412140000 +0000">
+    <title lang="zh">Natural Blood Pressure Management</title>
+    <desc>Cardiologist Dr. Ernst von Schwarz, M.D. shows how to manage your blood pressure naturally and help protect your heart for life with My Best Heart.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465058" start="20260412140000 +0000" stop="20260412163000 +0000">
+    <title lang="zh">MLB Baseball</title>
+    <desc>From Kauffman Stadium in Kansas City, Mo.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465058" start="20260412163000 +0000" stop="20260412173000 +0000">
+    <title lang="zh">The White Sox Podcast With Chuck Garfien</title>
+    <desc />
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465058" start="20260412173000 +0000" stop="20260412180000 +0000">
+    <title lang="zh">White Sox Countdown Live</title>
+    <desc />
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465058" start="20260412180000 +0000" stop="20260412210000 +0000">
+    <title lang="zh">Live: MLB Baseball</title>
+    <desc>From Kauffman Stadium in Kansas City, Mo.</desc>
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465058" start="20260412210000 +0000" stop="20260412213000 +0000">
+    <title lang="zh">White Sox Postgame Live</title>
+    <desc />
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465058" start="20260412213000 +0000" stop="20260412223000 +0000">
+    <title lang="zh">The White Sox Podcast With Chuck Garfien</title>
+    <desc />
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465058" start="20260412223000 +0000" stop="20260412230000 +0000">
+    <title lang="zh">Journey to the Chi</title>
+    <desc />
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465058" start="20260412230000 +0000" stop="20260412233000 +0000">
+    <title lang="zh">Journey to the Chi</title>
+    <desc />
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465058" start="20260412233000 +0000" stop="20260413000000 +0000">
+    <title lang="zh">Journey to the Chi</title>
+    <desc />
+    <date>2026-04-12</date>
+  </programme>
+  <programme channel="465058" start="20260413000000 +0000" stop="20260413003000 +0000">
+    <title lang="zh">Bulls Countdown Live</title>
+    <desc>Live pregame analysis and discussion.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413003000 +0000" stop="20260413030000 +0000">
+    <title lang="zh">Live: NBA Basketball</title>
+    <desc>From American Airlines Center in Dallas.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413030000 +0000" stop="20260413033000 +0000">
+    <title lang="zh">Bulls Postgame Live</title>
+    <desc>Live postgame analysis, wrapping up the game with player/coach interviews and live press conferences.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413033000 +0000" stop="20260413040000 +0000">
+    <title lang="zh">Journey to the Chi</title>
+    <desc />
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413040000 +0000" stop="20260413063000 +0000">
+    <title lang="zh">NBA Basketball</title>
+    <desc>From American Airlines Center in Dallas.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413063000 +0000" stop="20260413070000 +0000">
+    <title lang="zh">MidWest Outdoors</title>
+    <desc>Hunting, boating, canoeing, camping, hiking, snowmobiling.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413070000 +0000" stop="20260413073000 +0000">
+    <title lang="zh">Men's Health - All-Natural Secret for Prostate Health</title>
+    <desc>Prosvent is a doctor formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413073000 +0000" stop="20260413080000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413080000 +0000" stop="20260413083000 +0000">
+    <title lang="zh">Going To The Bathroom Too Much?</title>
+    <desc>Better Bladder is a new safe and natural alternative to drugs, surgery and adult diapers. 90 percent see fewer bathroom visits, leaks &amp; accidents. Tune in for a special TV offer!</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413083000 +0000" stop="20260413090000 +0000">
+    <title lang="zh">Natural Blood Pressure Management</title>
+    <desc>Cardiologist Dr. Ernst von Schwarz, M.D. shows how to manage your blood pressure naturally and help protect your heart for life with My Best Heart.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413090000 +0000" stop="20260413093000 +0000">
+    <title lang="zh">Men's Health - All-Natural Secret for Prostate Health</title>
+    <desc>Prosvent is a doctor formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413093000 +0000" stop="20260413103000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413103000 +0000" stop="20260413110000 +0000">
+    <title lang="zh">Going To The Bathroom Too Much?</title>
+    <desc>Better Bladder is a new safe and natural alternative to drugs, surgery and adult diapers. 90 percent see fewer bathroom visits, leaks &amp; accidents. Tune in for a special TV offer!</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413110000 +0000" stop="20260413113000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413113000 +0000" stop="20260413120000 +0000">
+    <title lang="zh">Men's Health - All-Natural Secret for Prostate Health</title>
+    <desc>Prosvent is a doctor formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413120000 +0000" stop="20260413140000 +0000">
+    <title lang="zh">The Mully &amp; Haugh Show</title>
+    <desc>Live sports radio talkback featuring the personalities from 670 The Score.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413140000 +0000" stop="20260413143000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413143000 +0000" stop="20260413150000 +0000">
+    <title lang="zh">Hope for Pain Sufferers</title>
+    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413150000 +0000" stop="20260413173000 +0000">
+    <title lang="zh">MLB Baseball</title>
+    <desc>From Kauffman Stadium in Kansas City, Mo.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413173000 +0000" stop="20260413180000 +0000">
+    <title lang="zh">MidWest Outdoors</title>
+    <desc>Hunting, boating, canoeing, camping, hiking, snowmobiling.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413180000 +0000" stop="20260413203000 +0000">
+    <title lang="zh">NBA Basketball</title>
+    <desc>From American Airlines Center in Dallas.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413203000 +0000" stop="20260413210000 +0000">
+    <title lang="zh">MidWest Outdoors</title>
+    <desc>Hunting, boating, canoeing, camping, hiking, snowmobiling.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413210000 +0000" stop="20260413220000 +0000">
+    <title lang="zh">CHSN Podcast Come Alive!</title>
+    <desc>The best-of moments and key discussions from all of CHSN's podcast moments.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413220000 +0000" stop="20260413223000 +0000">
+    <title lang="zh">PRO FOOTBALL WEEKLY TV PODCAST</title>
+    <desc />
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413223000 +0000" stop="20260413230000 +0000">
+    <title lang="zh">Live: The Big Pro Football Show</title>
+    <desc />
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260413230000 +0000" stop="20260414000000 +0000">
+    <title lang="zh">Live: The Chicago Lead</title>
+    <desc>Talk show spotlighting comprehensive reports and features on not just about the Blackhawks, Bulls and White Sox, but also the Bears, Cubs, Sky and the vast college sports landscape of Chicagoland.</desc>
+    <date>2026-04-13</date>
+  </programme>
+  <programme channel="465058" start="20260414000000 +0000" stop="20260415000000 +0000">
+    <title lang="zh">Blackhawks Countdown Live</title>
+    <desc>Live pregame analysis and discussion.</desc>
     <date>2026-04-14</date>
   </programme>
 </tv>
