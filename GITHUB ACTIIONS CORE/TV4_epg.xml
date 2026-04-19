@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<tv date="20260419162513 " generator-info-name="TV2-Multi-XML-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="TV2-Source-EPG">
+<tv date="20260419172555 " generator-info-name="TV2-Multi-XML-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="TV2-Source-EPG">
   <channel id="HistoryChannel.us">
     <display-name>US | History</display-name>
     <icon src="https://tlgrm.re/images/history-channel-us.png" />
@@ -120,6 +120,10 @@
     <display-name>CA - Nat Geo Wild</display-name>
     <icon src="https://tlgrm.re/images/nat-geo-wild-us.png" />
   </channel>
+  <channel id="380437">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">U and YESTERDAY</display-name>
+    <icon src="" />
+  </channel>
   <channel id="486671">
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">alibi+1</display-name>
     <icon src="" />
@@ -128,17 +132,13 @@
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">U and Eden+1</display-name>
     <icon src="" />
   </channel>
-  <channel id="2390">
-    <display-name lang="New Zealand">TVNZ 2</display-name>
-    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609082329098980_43.png" />
-  </channel>
   <channel id="2638">
     <display-name lang="New Zealand">TVNZ 1</display-name>
     <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609082516361447_66.png" />
   </channel>
-  <channel id="380437">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">U and YESTERDAY</display-name>
-    <icon src="" />
+  <channel id="2390">
+    <display-name lang="New Zealand">TVNZ 2</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609082329098980_43.png" />
   </channel>
   <programme start="20260420103000 -0400" stop="20260420110000 -0400" channel="bet.us">
     <title>The Jamie Foxx Show</title>
@@ -156,13 +156,9 @@
     <title>The Jamie Foxx Show</title>
     <desc>When Fancy (Garcelle Beauvais) meets someone new, Jamie (Jamie Foxx) tries to monopolize her time by pretending to be sick.</desc>
   </programme>
-  <programme start="20260419120000 -0400" stop="20260419123000 -0400" channel="bet.us">
-    <title>Family Matters</title>
-    <desc>Rachel and Harriette wreck Carl's vintage patrol car and must fix the car before Carl notices.</desc>
-  </programme>
-  <programme start="20260419123000 -0400" stop="20260419130000 -0400" channel="bet.us">
-    <title>Family Matters</title>
-    <desc>Harriette gets jealous when Carl goes on a lengthy stakeout with a policewoman.</desc>
+  <programme start="20260420123000 -0400" stop="20260420130000 -0400" channel="bet.us">
+    <title>The Jamie Foxx Show</title>
+    <desc>Jamie (Jamie Foxx) finds size 22 basketball shoes underneath Fancy's (Garcelle Beauvais) bed while poking around her apartment. Guest stars: NBA players Kevin Garnett and Derek Fisher.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419133000 -0400" channel="bet.us">
     <title>Family Matters</title>
@@ -244,13 +240,9 @@
     <title>Tyler Perry's Meet the Browns</title>
     <desc>Will convinces Brianna to let him come to her school's career day because her real father is in prison.</desc>
   </programme>
-  <programme start="20260419120000 -0400" stop="20260419123000 -0400" channel="AntennaTV.us">
-    <title>Soap</title>
-    <desc>Corinne sets out to bring Tim back from his cave; Burt has an encounter with a UFO.</desc>
-  </programme>
-  <programme start="20260419123000 -0400" stop="20260419130000 -0400" channel="AntennaTV.us">
-    <title>Soap</title>
-    <desc>Corinne's baby begins speaking in Latin and Greek and throws Tim across the room.</desc>
+  <programme start="20260420063000 -0400" stop="20260420070000 -0400" channel="bet.us">
+    <title>Tyler Perry's Meet the Browns</title>
+    <desc>Will must explain himself when Sasha discovers bachelor-party photos on his cell phone.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419133000 -0400" channel="AntennaTV.us">
     <title>Benson</title>
@@ -348,6 +340,14 @@
     <title>The Drew Carey Show</title>
     <desc>Drew hosts Nicki's parents when she goes out of town, but instigates an argument that leads to their breakup.</desc>
   </programme>
+  <programme start="20260420010000 -0400" stop="20260420013000 -0400" channel="AntennaTV.us">
+    <title>NewsRadio</title>
+    <desc>Lisa (Maura Tierney) learns Jimmy's (Stephen Root) key to management; Bill (Phil Hartman) gets a butler (guest star Ian Abercrombie); Matthew (Andy Dick) is found out on the streets.</desc>
+  </programme>
+  <programme start="20260420013000 -0400" stop="20260420020000 -0400" channel="AntennaTV.us">
+    <title>NewsRadio</title>
+    <desc>Dave and Lisa find out that Bill plans to adopt an infant; Jimmy gets Beth to play a role for a bachelor auction.</desc>
+  </programme>
   <programme start="20260419120000 -0400" stop="20260419143000 -0400" channel="BBCAmerica.us">
     <title>The Silence of the Lambs</title>
     <desc>Jodie Foster stars as Clarice Starling, a top student at the FBI's training academy. Jack Crawford (Scott Glenn) wants Clarice to interview Dr. Hannibal Lecter (Anthony Hopkins), a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism. Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.</desc>
@@ -415,6 +415,14 @@
   <programme start="20260420120000 -0400" stop="20260420123000 -0400" channel="BBCAmerica.us">
     <title>Two and a Half Men</title>
     <desc>Alan helps Walden get ready for a date with Bridget (Judy Greer); Jake decides to drop out of school like Walden did.</desc>
+  </programme>
+  <programme start="20260420123000 -0400" stop="20260420130000 -0400" channel="BBCAmerica.us">
+    <title>Two and a Half Men</title>
+    <desc>Walden searches for love; Alan encounters a chance to reconcile with Lyndsey.</desc>
+  </programme>
+  <programme start="20260420130000 -0400" stop="20260420153000 -0400" channel="BBCAmerica.us">
+    <title>3:10 to Yuma</title>
+    <desc>Outlaw Ben Wade (Russell Crowe) terrorizes 1800s Arizona, especially the Southern Railroad, until he is finally captured. Wade must be brought to trial, so Dan Evans (Christian Bale), the owner of a drought-stricken ranch, volunteers to escort him to the train. Along the trail, a grudging respect forms between the men, but danger looms at every turn, and the criminal's men are in pursuit.</desc>
   </programme>
   <programme start="20260419113000 -0400" stop="20260419143000 -0400" channel="BetHer.us">
     <title>The Photograph</title>
@@ -495,6 +503,22 @@
   <programme start="20260420120000 -0400" stop="20260420123000 -0400" channel="BetHer.us">
     <title>Tyler Perry's House of Payne</title>
     <desc>When Ella sponsors the membership of the new wife of a longtime dea-con into her social club, Incomparable Crowns, she begins to suspect something may be going on behind closed doors in the new marriage.</desc>
+  </programme>
+  <programme start="20260420121200 -0400" stop="20260420124800 -0400" channel="BetHer.us">
+    <title>Tyler Perry's House of Payne</title>
+    <desc>When Ella sponsors the membership of the new wife of a longtime dea-con into her social club, Incomparable Crowns, she begins to suspect something may be going on behind closed doors in the new marriage.</desc>
+  </programme>
+  <programme start="20260420123000 -0400" stop="20260420130000 -0400" channel="BetHer.us">
+    <title>Tyler Perry's House of Payne</title>
+    <desc>Jazmine reminds a forgetful C.J. about his first wedding anniversary; Curtis and Ella bring over a cake called No Bueno to celebrate, only to learn there is no celebration to be had; Calvin prepares to attend Pookie's wedding solo.</desc>
+  </programme>
+  <programme start="20260420124800 -0400" stop="20260420132400 -0400" channel="BetHer.us">
+    <title>Tyler Perry's House of Payne</title>
+    <desc>Jazmine reminds a forgetful C.J. about his first wedding anniversary; Curtis and Ella bring over a cake called No Bueno to celebrate, only to learn there is no celebration to be had; Calvin prepares to attend Pookie's wedding solo.</desc>
+  </programme>
+  <programme start="20260420130000 -0400" stop="20260420133000 -0400" channel="BetHer.us">
+    <title>Tyler Perry's House of Payne</title>
+    <desc>Malik is thrilled when he lands an interview with a councilman he idolizes, but he finds out that getting the job is only half the battle; Curtis fails a health inspection forcing him to modify his barbecue recipe to disastrous results.</desc>
   </programme>
   <programme start="20260419120000 -0400" stop="20260419140000 -0400" channel="DiscoveryChannel.uk">
     <title>Alaska</title>
@@ -600,22 +624,6 @@
     <title>How It's Made</title>
     <desc>More everyday items go under microscope. How are objects including aircraft cabinets and motorcycle brake locks produced?</desc>
   </programme>
-  <programme start="20260419120000 -0400" stop="20260419123000 -0400" channel="DiscoveryFamily.us">
-    <title>My Little Pony Equestria Girls: Dance Magic</title>
-    <desc>Rarity convinces her friends to join a music video competition; when the girls learn that Crystal Prep Academy is also interested in participating, they worry whether they'll be able to pull together and make a winning music video.</desc>
-  </programme>
-  <programme start="20260419123000 -0400" stop="20260419124500 -0400" channel="DiscoveryFamily.us">
-    <title>Wild Manes</title>
-    <desc>It's spa and makeover day at the clubhouse, and Perla suggests they save some styling time with her new automatic hairstyling machine.</desc>
-  </programme>
-  <programme start="20260419124500 -0400" stop="20260419130000 -0400" channel="DiscoveryFamily.us">
-    <title>Wild Manes</title>
-    <desc>Cocoa overhears Cherie talking and misunderstands; she thinks Cherie is leaving town; Cocoa tells all the other horses about this misinterpreted news.</desc>
-  </programme>
-  <programme start="20260419130000 -0400" stop="20260419131500 -0400" channel="DiscoveryFamily.us">
-    <title>The Sylvester &amp; Tweety Mysteries</title>
-    <desc>Granny loses her glasses.</desc>
-  </programme>
   <programme start="20260419131500 -0400" stop="20260419133000 -0400" channel="DiscoveryFamily.us">
     <title>The Sylvester &amp; Tweety Mysteries</title>
     <desc>A rare diamond collar is stolen at Australia's International Dog Show.</desc>
@@ -704,9 +712,21 @@
     <title>Island Life</title>
     <desc>A woman looks at beach houses to move closer to her daughter and grandchild in Atlantic Beach, N.C., and is hoping to find an open concept, three-bedroom home with expansive water views.</desc>
   </programme>
-  <programme start="20260419110000 -0400" stop="20260419130000 -0400" channel="HGTV.us">
-    <title>Rock the Block</title>
-    <desc>For the first time ever, HGTV stars partner up with celebrities to create a main suite; Ty invites the teams to a Las Vegas show and delivers housewarming gifts to use in their spaces; Lisa Vanderpump arrives to judge.</desc>
+  <programme start="20260420020000 -0400" stop="20260420023000 -0400" channel="DiscoveryFamily.us">
+    <title>Island Life</title>
+    <desc>A Navy pilot and his family are settling down on beautiful Aquidneck Island, R.I.; she wants a house with New England charm and isn't afraid of a fixer-upper, but he thinks new construction would be easier to manage.</desc>
+  </programme>
+  <programme start="20260420023000 -0400" stop="20260420030000 -0400" channel="DiscoveryFamily.us">
+    <title>Island Life</title>
+    <desc>A Long Beach family wants a locale that's close to town, but they don't want the big city price tag.</desc>
+  </programme>
+  <programme start="20260420030000 -0400" stop="20260420040000 -0400" channel="DiscoveryFamily.us">
+    <title>Ultimate Cake Off</title>
+    <desc>Master cake decorators Tariq Hanna, Richard Medina and Ashley Vicos lead their teams in a competition to create a cake for the Aquarium of the Pacific's summer shark celebration.</desc>
+  </programme>
+  <programme start="20260420040000 -0400" stop="20260420043000 -0400" channel="DiscoveryFamily.us">
+    <title>Beach Hunters</title>
+    <desc>Eager to take a break from cold winters, a busy New Jersey couple heads to Key West, Fla., in search of a warm waterfront home; they want a private, spacious property but love the vibrant bohemian culture the city has to offer.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419140000 -0400" channel="HGTV.us">
     <title>Fixer to Fabulous</title>
@@ -808,9 +828,9 @@
     <title>Unsellable Houses</title>
     <desc>After seven months on the market, Lyndsay and Leslie battle plumbing problems and water damage to get a small home sold; using unique solutions, the twins transform the crowded entrance, tiny bathroom and rotted deck into a tranquil hideaway.</desc>
   </programme>
-  <programme start="20260419120000 -0400" stop="20260419130000 -0400" channel="HistoryChannel.us">
-    <title>The Food That Built America</title>
-    <desc>A down-on-his-luck Japanese businessman and a Chinese immigrant and her son change the American palette when they introduce instant noodles in a cup, Peking Duck, and a big Chinese restaurant chain in the nation.</desc>
+  <programme start="20260420100000 -0400" stop="20260420110000 -0400" channel="HGTV.us">
+    <title>Unsellable Houses</title>
+    <desc>A homeowner needs help letting go of her colorful home of 25 years; the renovation is a real challenge for Lyndsay and Leslie as they look to transform the color cacophony and convoluted layout into a clean and simple oasis.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419140000 -0400" channel="HistoryChannel.us">
     <title>Hazardous History With Henry Winkler</title>
@@ -912,9 +932,9 @@
     <title>Buried: Knights Templar and the Holy Grail</title>
     <desc>An investigation into the true fate of the Knights Templar begins in Jerusalem, where tunnels and a safe house may have been used to move holy relics to safety during the fall of the city.</desc>
   </programme>
-  <programme start="20260419120000 -0400" stop="20260419130000 -0400" channel="HomeShoppingNetwork.us">
-    <title>Live: Come on In! With Callie</title>
-    <desc>Callie is filling the house with favorite faces and warm and welcoming finds for your home and more.</desc>
+  <programme start="20260420110000 -0400" stop="20260420120000 -0400" channel="HistoryChannel.us">
+    <title>Buried: Knights Templar and the Holy Grail</title>
+    <desc>In Acre, Israel, the team goes underground to investigate the purpose of the Templars' tunnel system, theorizing they may have contemplated a covert landing in sea caves.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419140000 -0400" channel="HomeShoppingNetwork.us">
     <title>Live: Come on In! With Callie</title>
@@ -1012,9 +1032,9 @@
     <title>Live: South Street Loft Home</title>
     <desc />
   </programme>
-  <programme start="20260419120000 -0400" stop="20260419130000 -0400" channel="NatGeoWild.us">
-    <title>Secrets of the Zoo</title>
-    <desc>An abscessed tooth turns nasty for an aging sheep; Lulu the giraffe has her baby; a dangerously skinny skink confounds the vet staff.</desc>
+  <programme start="20260420130000 -0400" stop="20260420140000 -0400" channel="HomeShoppingNetwork.us">
+    <title>Live: Beekman 1802 Happy Place Cleaning - All on Free Shipping</title>
+    <desc>Make the home a happy place and experience botanical infused cleaners made without harsh chemicals.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419140000 -0400" channel="NatGeoWild.us">
     <title>Secrets of the Zoo</title>
@@ -1116,9 +1136,9 @@
     <title>Forecast: Shark Attack</title>
     <desc>Marine biologist Greg Skomal and meteorologist Joe Merchant test the theory that shark attacks can be as predictable as the weather.</desc>
   </programme>
-  <programme start="20260419110000 -0400" stop="20260419130000 -0400" channel="Oxygen.us">
-    <title>Aaron Hernandez Uncovered</title>
-    <desc>Aaron's fiancée and close friends discuss the struggle to accept Aaron's new reality behind bars. Through the murder trial of Odin Lloyd, sisters are torn apart and a conviction seals Aaron's fate. Finally Aaron's darkest secret is revealed.</desc>
+  <programme start="20260420100000 -0400" stop="20260420110000 -0400" channel="NatGeoWild.us">
+    <title>When Sharks Attack</title>
+    <desc>A small Alabama beach town emerges as an unlikely shark attack hot spot.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419140000 -0400" channel="Oxygen.us">
     <title>Philly Homicide</title>
@@ -1208,6 +1228,10 @@
     <title>A Wedding and a Murder</title>
     <desc>A romantic anniversary getaway for a couple of high school sweethearts turns disastrous when they become victims of a robbery gone wrong; homicide investigators unravel a lurid secret at the heart of the murder, leading them to a stone-cold killer.</desc>
   </programme>
+  <programme start="20260420130000 -0400" stop="20260420140000 -0400" channel="Oxygen.us">
+    <title>A Wedding and a Murder</title>
+    <desc>While a young couple enjoy a romantic honeymoon, a brutal sexual assault and murder occurs; investigators must navigate a web of lies, suspects, and clues to bring a charismatic killer to justice.</desc>
+  </programme>
   <programme start="20260419120000 -0400" stop="20260419160000 -0400" channel="QVC.us">
     <title>In the Kitchen With David</title>
     <desc>Innovative appliances, kitchenware and cookbooks; food, fun and everything a home cook needs to create meals and memories.</desc>
@@ -1272,13 +1296,9 @@
     <title>Live: It's All About Mom</title>
     <desc>Mother's Day means saying Thank Q to ALL the moms in your life - in your family, your circle of friends, and especially yourself, so find the perfect presents right here where It's All About Mom.</desc>
   </programme>
-  <programme start="20260419113000 -0400" stop="20260419123000 -0400" channel="VirginMediaOne.ie">
-    <title>Britain's Got Talent</title>
-    <desc>Hosted by Ant and Dec, Britain's Got Talent is back for its 19th series with even more spectacular performances than previous years, continuing its accolade-winning run.</desc>
-  </programme>
-  <programme start="20260419123000 -0400" stop="20260419130000 -0400" channel="VirginMediaOne.ie">
-    <title>News at 5.30</title>
-    <desc>The latest national and international news stories from the Virgin Media News team.</desc>
+  <programme start="20260420130000 -0400" stop="20260420140000 -0400" channel="QVC.us">
+    <title>From Diamonds to Diamonique</title>
+    <desc>It's time to sparkle, shine and save in a salute to April's birthstone; shopping for the jewelry-loving moms on one's Mother's Day gift list, and focusing on favorite facets from diamonds to Diamonique.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419140000 -0400" channel="VirginMediaOne.ie">
     <title>Celebrity Sabotage</title>
@@ -1356,9 +1376,9 @@
     <title>Judge Judy</title>
     <desc>A scorned woman warns her ex's new girlfriend not to date him for a multitude of reasons; he accuses her of trespassing and harassment.</desc>
   </programme>
-  <programme start="20260419120000 -0400" stop="20260419130000 -0400" channel="VirginMediaThree.ie">
-    <title>Building Giants</title>
-    <desc>A team of expert engineers must complete a new bridge in just three months using cutting-edge technology and the latest construction methods.</desc>
+  <programme start="20260420123000 -0400" stop="20260420130500 -0400" channel="VirginMediaOne.ie">
+    <title>News at 5.30</title>
+    <desc>The latest national and international news stories from the Virgin Media News team.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419140000 -0400" channel="VirginMediaThree.ie">
     <title>Robson and Jim's Fly-Fishing Adventures</title>
@@ -1448,9 +1468,9 @@
     <title>The Royal</title>
     <desc>There's a race against time to find a baby kidnapped from the hospital nursery, Marian confronts the ghost of Fawcett Ward, and Susie's drunken antics prove to be the last straw for Matron. Elsewhere, when Weatherill collapses, it's devastating for both her and Ormerod.</desc>
   </programme>
-  <programme start="20260419121000 -0400" stop="20260419131000 -0400" channel="VirginMediaTwo.ie">
-    <title>Gary Barlow's Wine</title>
-    <desc>Driven by his obsession for fantastic wines, Gary Barlow is taking us on tour with him to explore South Africa, sharing his appetite for amazing culture and great food.</desc>
+  <programme start="20260420124500 -0400" stop="20260420145500 -0400" channel="VirginMediaThree.ie">
+    <title>A Touch of Frost</title>
+    <desc>A vital witness to a gangland killing goes missing before she can give evidence in court. Frost is under extra pressure to find her and her son before the murderer can call in a hit man to eliminate them both.</desc>
   </programme>
   <programme start="20260419131000 -0400" stop="20260419150000 -0400" channel="VirginMediaTwo.ie">
     <title>The Voice USA</title>
@@ -1540,9 +1560,9 @@
     <title>Tipping Point</title>
     <desc>Three players are pit against a mesmerising machine. There are mystery prizes and a jaw-dropping jackpot up for grabs for any player.</desc>
   </programme>
-  <programme start="20260419120000 -0400" stop="20260419130000 -0400" channel="WCBS.us">
-    <title>Sports Spectacular</title>
-    <desc>Athletic event.</desc>
+  <programme start="20260420130000 -0400" stop="20260420140000 -0400" channel="VirginMediaTwo.ie">
+    <title>The Chase</title>
+    <desc>Four players answer trivia questions. Then as a team, face a quiz champion to win thousands of pounds in a timed final quiz. Bradley Walsh hosts.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419140000 -0400" channel="WCBS.us">
     <title>PBR Bull Riding</title>
@@ -1644,13 +1664,9 @@
     <title>Let's Make a Deal</title>
     <desc>Costumed contestants compete for cash and prizes.</desc>
   </programme>
-  <programme start="20260419120000 -0400" stop="20260419123000 -0400" channel="WFXT.us">
-    <title>To Be Announced</title>
-    <desc>Programming to be announced.</desc>
-  </programme>
-  <programme start="20260419123000 -0400" stop="20260419130000 -0400" channel="WFXT.us">
-    <title>To Be Announced</title>
-    <desc>Programming to be announced.</desc>
+  <programme start="20260420110000 -0400" stop="20260420120000 -0400" channel="WCBS.us">
+    <title>The Price Is Right</title>
+    <desc>"Come on down!" "The Price Is Right" -- hosted by Bob Barker until 2007 and Drew Carey thereafter -- features a wide variety of games and contests with the same basic challenge: Guess the prices of everyday (or not-quite-everyday) retail items. Four contestants, all of whom are seated in one of the wildest audiences in daytime game-show history, are called to the stage to play a preliminary pricing round. That winner joins the host on stage for one of more than 70 different pricing games. After three such games, the contestants spin a big wheel -- hoping to get as close to $1 as possible -- in the "Showcase Showdown." The two highest winners of that round advance to the final, where prizes could be cars or roomsful of furniture. A trio of models presents the prizes.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419140000 -0400" channel="WFXT.us">
     <title>Live: NASCAR RaceDay</title>
@@ -1748,13 +1764,9 @@
     <title>Live: Boston 25 News at Noon</title>
     <desc>Major local news stories, breaking news and overnight news, along with weather and traffic.</desc>
   </programme>
-  <programme start="20260419120000 -0400" stop="20260419123000 -0400" channel="WSBK.us">
-    <title>Joni Table Talk</title>
-    <desc>Joni and guests tackle a wide range of relevant issues, controversial subjects and hard-hitting news topics with candor and wit.</desc>
-  </programme>
-  <programme start="20260419123000 -0400" stop="20260419130000 -0400" channel="WSBK.us">
-    <title>Paid Programming</title>
-    <desc>Paid programming.</desc>
+  <programme start="20260420130000 -0400" stop="20260420140000 -0400" channel="WFXT.us">
+    <title>Live: Boston 25 News</title>
+    <desc>The Boston 25 News Team delivers coverage of major local news stories, breaking news and a forecast.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419133000 -0400" channel="WSBK.us">
     <title>Game Time With Boomer Esiason</title>
@@ -1852,9 +1864,13 @@
     <title>Paid Programming</title>
     <desc>Paid programming.</desc>
   </programme>
-  <programme start="20260419120000 -0400" stop="20260419130000 -0400" channel="WeTV.us">
-    <title>Criminal Minds</title>
-    <desc>The team tracks a suspect who shares the same style as a serial killer from 30 years ago; someone tracks the BAU's cases and replicates crimes.</desc>
+  <programme start="20260420073000 -0400" stop="20260420080000 -0400" channel="WSBK.us">
+    <title>Scrambled Up</title>
+    <desc>The key to "Scrambled Up" is its simple, fast and fun format. Four players compete to be the first to correctly unscramble word puzzles. Colorful tiles slowly rearrange themselves while players are given clues to the answer. Host Michael Yo.</desc>
+  </programme>
+  <programme start="20260420080000 -0400" stop="20260420083000 -0400" channel="WSBK.us">
+    <title>Scrambled Up</title>
+    <desc>The key to "Scrambled Up" is its simple, fast and fun format. Four players compete to be the first to correctly unscramble word puzzles. Colorful tiles slowly rearrange themselves while players are given clues to the answer. Host Michael Yo.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419140000 -0400" channel="WeTV.us">
     <title>Criminal Minds</title>
@@ -1956,9 +1972,9 @@
     <title>9-1-1</title>
     <desc>Athena and the 118 respond to bizarre emergency calls on Halloween, including a flock of crows terrorizing a field trip, an office employee having a close encounter with an eight-limbed creature and a ghost-like girl wandering a neighborhood.</desc>
   </programme>
-  <programme start="20260419120000 -0400" stop="20260419130000 -0400" channel="WeatherChannel.us">
-    <title>Weekend Recharge</title>
-    <desc>Though it has "weekend" in the title, this show discusses the week ahead in addition to offering suggestions for what to do on Saturday and Sunday. Weather Channel meteorologists go beyond the elements outside and into the realm of lifestyle tips. Each host has a recurring segment on "Weekend Recharge," which include helping parents get a fresh start to each day and explaining how the weather is expected to impact the weekend's scheduled sports action.</desc>
+  <programme start="20260420100000 -0400" stop="20260420110000 -0400" channel="WeTV.us">
+    <title>9-1-1</title>
+    <desc>When a murder weapon from a case close to Athena in the early '90s resurfaces, flashbacks to 1989 show how Athena joined the LAPD and became the police officer she is today.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419140000 -0400" channel="WeatherChannel.us">
     <title>Pattrn</title>
@@ -2052,9 +2068,9 @@
     <title>America's Morning Headquarters</title>
     <desc>Starting the day by opening a window into weather, looking out at the stories and science behind the forecast.</desc>
   </programme>
-  <programme start="20260419120000 -0400" stop="20260419130000 -0400" channel="bravo.us">
-    <title>The Real Housewives of Rhode Island</title>
-    <desc>Set against the shores of the Ocean State, The Real Housewives franchise expands into the world of a tight-knit circle of Rhode Islanders who have deep community roots and families that go back generations.</desc>
+  <programme start="20260420130000 -0400" stop="20260420140000 -0400" channel="WeatherChannel.us">
+    <title>America's Morning Headquarters</title>
+    <desc>Starting the day by opening a window into weather, looking out at the stories and science behind the forecast.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419140000 -0400" channel="bravo.us">
     <title>The Real Housewives of Atlanta</title>
@@ -2152,9 +2168,9 @@
     <title>Below Deck Adventure</title>
     <desc>The battle between the teams continues when Mike misses a call; Jess experiments with a dessert she's never made before; communication issues cause problems on deck for Lewis just as his new deckhand arrives; Faye sets her sights on the new guy.</desc>
   </programme>
-  <programme start="20260419120000 -0400" stop="20260419130000 -0400" channel="discoverychannel.us">
-    <title>Filthy Fortunes</title>
-    <desc>Matt and his troops head to the Pacific Northwest to search a three-barn hoard loaded with U.S. military treasures, including Willy's Jeeps and uniforms; a biohazard mess hides first-generation computers and video equipment at a second location.</desc>
+  <programme start="20260420130000 -0400" stop="20260420140000 -0400" channel="bravo.us">
+    <title>Below Deck Adventure</title>
+    <desc>New deckhand Seth finds cracks within the leadership of his department and claims he could run it better; a plate mix-up causes problems at a viking Oktoberfest-themed dinner; Faye takes the guests paragliding.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419140000 -0400" channel="discoverychannel.us">
     <title>Filthy Fortunes</title>
@@ -2252,6 +2268,10 @@
     <title>120 Hours Behind Bars</title>
     <desc>Behind the walls of Clayton County Jail, deteriorating infrastructure creates dangerous conditions for both inmates and staff.</desc>
   </programme>
+  <programme start="20260420130000 -0400" stop="20260420140000 -0400" channel="discoverychannel.us">
+    <title>120 Hours Behind Bars</title>
+    <desc>Caddo Parish Correctional Center is struggling with a staffing shortage, the inmates outnumber the deputies by 180 to one; to ensure the safety of both inmates and staff alike, the Emergency Response Team springs into action.</desc>
+  </programme>
   <programme start="20260419120000 -0400" stop="20260419140000 -0400" channel="discoverylife.us">
     <title>My 600-Lb. Life: Where Are They Now?</title>
     <desc>Sean must overcome recent tragedies in his life before he loses all the progress he made over the last two years; Dottie struggles to stay on track while maintaining her family life.</desc>
@@ -2307,14 +2327,6 @@
   <programme start="20260420120000 -0400" stop="20260420140000 -0400" channel="discoverylife.us">
     <title>My 600-Lb. Life</title>
     <desc>At 670 pounds, Ashley, who lives in her parents' home with her husband, decides she must make a drastic change to save her life and her marriage.</desc>
-  </programme>
-  <programme start="20260419120000 -0400" stop="20260419123000 -0400" channel="discoveryscience.us">
-    <title>How It's Made</title>
-    <desc>Cotton; rodeo roping chutes; Asian noodles; rotary engines.</desc>
-  </programme>
-  <programme start="20260419123000 -0400" stop="20260419130000 -0400" channel="discoveryscience.us">
-    <title>How It's Made</title>
-    <desc>Sleeper rigs; pecans; steel pulleys; acetate eyewear.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419133000 -0400" channel="discoveryscience.us">
     <title>How It's Made</title>
@@ -2412,13 +2424,9 @@
     <title>Secrets in the Jungle</title>
     <desc>On the island of Madagascar, paleontologists discover an intact fossil unlike any known animal, living or extinct; bizarre stone spheres are discovered in Costa Rica; the curious remains of a small man are found in Chiapas, Mexico.</desc>
   </programme>
-  <programme start="20260419120000 -0400" stop="20260419123000 -0400" channel="cbcmontreal.ca">
-    <title>Marketplace</title>
-    <desc>After investigating customer concerns about AGM Renovations, the company abruptly shuts down; Marketplace speaks to customers left in the lurch and travels overseas, searching for the man behind the operation.</desc>
-  </programme>
-  <programme start="20260419123000 -0400" stop="20260419130000 -0400" channel="cbcmontreal.ca">
-    <title>Land and Sea</title>
-    <desc>Keeping rare purebred poultry thriving; we'll follow Nova Scotians to the biggest purebred poultry show in Canada.</desc>
+  <programme start="20260420130000 -0400" stop="20260420140000 -0400" channel="discoveryscience.us">
+    <title>Secrets in the Jungle</title>
+    <desc>On the volcanic island of Kolombagara, explorers uncover a mysterious man-made cave in the dense jungle; a researcher finds two unknown animal skulls in Vietnam; human remains are discovered in a narrow chamber of a South African cave system.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419133000 -0400" channel="cbcmontreal.ca">
     <title>Maamuitaau</title>
@@ -2516,13 +2524,13 @@
     <title>Super Why's Comic Book Adventures</title>
     <desc>More Man uses a tongue twister to multiply himself; now there are too many More Men moving around in Exclamation Park.</desc>
   </programme>
-  <programme start="20260419121500 -0400" stop="20260419124000 -0400" channel="disneychannel.ca">
-    <title>Zombies: The Re-Animated Series</title>
-    <desc>Bucky adopts a zombie-dog named Barky to boost his followers online; Wyatt teams up with a monster who promises to help him get over his fight with Eliza.</desc>
+  <programme start="20260420073000 -0400" stop="20260420074300 -0400" channel="cbcmontreal.ca">
+    <title>Dino Ranch: Island Explorers</title>
+    <desc>While herding a large group of dinos, the Rancher's mission is thrown off track by a loud Psittacosaurus named Squawk.</desc>
   </programme>
-  <programme start="20260419124000 -0400" stop="20260419130500 -0400" channel="disneychannel.ca">
-    <title>Zombies: The Re-Animated Series</title>
-    <desc>Worried that they're drifting apart, Addison and Bree set out to rekindle their BFF connection; Addison and Zed open a supernatural pet-sitting business.</desc>
+  <programme start="20260420074300 -0400" stop="20260420075700 -0400" channel="cbcmontreal.ca">
+    <title>PAW Patrol</title>
+    <desc>Yumi's new Robo-Corn Plucker goes haywire, and Ryder and the PAW Patrol must get it under control.</desc>
   </programme>
   <programme start="20260419130500 -0400" stop="20260419133000 -0400" channel="disneychannel.ca">
     <title>Phineas and Ferb</title>
@@ -2616,6 +2624,14 @@
     <title>Electric Bloom</title>
     <desc>The girls get a potentially life-changing audition, but get asked to perform at a wedding at the exact same time; what do they do?</desc>
   </programme>
+  <programme start="20260419220000 -0400" stop="20260419230000 -0400" channel="disneychannel.ca">
+    <title>The Hardy Boys</title>
+    <desc>Frank and Joe return to detective work after a classmate goes missing.</desc>
+  </programme>
+  <programme start="20260419230000 -0400" stop="20260419233000 -0400" channel="disneychannel.ca">
+    <title>The Next Step</title>
+    <desc>Everything is on the line as A-Troupe band together to dance their best for the internationals re-adjudication; their international dreams could come to an end if they don't perform.</desc>
+  </programme>
   <programme start="20260420020000 -0400" stop="20260420023000 -0400" channel="aspiretv.us">
     <title>Paid Programming</title>
     <desc>Paid programming.</desc>
@@ -2627,14 +2643,6 @@
   <programme start="20260420040000 -0400" stop="20260420043000 -0400" channel="aspiretv.us">
     <title>Paid Programming</title>
     <desc>Paid programming.</desc>
-  </programme>
-  <programme start="20260419100000 -0400" stop="20260419123000 -0400" channel="aspiretv.us">
-    <title>All Things Fall Apart</title>
-    <desc>Deon (50 Cent), a promising running back, tries to make it through his senior year of college while battling a deadly disease.</desc>
-  </programme>
-  <programme start="20260419123000 -0400" stop="20260419130000 -0400" channel="aspiretv.us">
-    <title>City Eats: Atlanta</title>
-    <desc>Zak Wallace introduces chef Todd and his pizzeria shop in Smyrna.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419133000 -0400" channel="aspiretv.us">
     <title>City Eats: Atlanta</title>
@@ -2716,9 +2724,13 @@
     <title>The Aging Brain</title>
     <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
   </programme>
-  <programme start="20260419102400 -0400" stop="20260419130000 -0400" channel="sony.max.gb">
-    <title>Pati Patni Aur Woh - 2019</title>
-    <desc>Chintu Tyagi is an ordinary, middle class man who finds himself torn between his wife and another woman.</desc>
+  <programme start="20260420033000 -0400" stop="20260420040000 -0400" channel="aspiretv.us">
+    <title>Ready for a safer shower? Enjoy a one-day bath remodel with Jacuzzi.</title>
+    <desc>Trusted brand Jacuzzi Bath Remodel and interior designer Christina Hall share their secrets on how you can easily and affordably transform your bathroom into a gorgeous custom, safe, stylish space in 1 day! Call for a FREE quote &amp; installation.</desc>
+  </programme>
+  <programme start="20260420040000 -0400" stop="20260420043000 -0400" channel="aspiretv.us">
+    <title>Best Mattress Topper Ever!</title>
+    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419160300 -0400" channel="sony.max.gb">
     <title>Mubarakan</title>
@@ -2760,9 +2772,9 @@
     <title>Tara Vs Bilal</title>
     <desc>Bilal, a carefree man, lives an easy-going life in London and falls in love with Tara, a sensitive woman, but is unable to express his feelings to her.</desc>
   </programme>
-  <programme start="20260419120000 -0400" stop="20260419130000 -0400" channel="betjams.us">
-    <title>BET Jams Mixtape</title>
-    <desc />
+  <programme start="20260420125900 -0400" stop="20260420152700 -0400" channel="sony.max.gb">
+    <title>Ek Ladki Ko Dekha Toh Aisa Laga</title>
+    <desc>A young woman must contend with a family that wants her to get married, a writer who is completely smitten with her, and a secret that she harbors close to her heart.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419140000 -0400" channel="betjams.us">
     <title>Music Playlist</title>
@@ -2860,9 +2872,9 @@
     <title>Music Playlist</title>
     <desc>Rap, R&amp;B, hip-hop, and soul music.</desc>
   </programme>
-  <programme start="20260419120000 -0400" stop="20260419130000 -0400" channel="natgeowild.ca">
-    <title>Secrets of the Zoo</title>
-    <desc>The staff at the Columbus Zoo can hardly contain itself as it prepares to make a home for an orphaned baby gorilla.</desc>
+  <programme start="20260420130000 -0400" stop="20260420140000 -0400" channel="betjams.us">
+    <title>Music Playlist</title>
+    <desc>Rap, R&amp;B, hip-hop, and soul music.</desc>
   </programme>
   <programme start="20260419130000 -0400" stop="20260419140000 -0400" channel="natgeowild.ca">
     <title>Secrets of the Zoo</title>
@@ -2960,10 +2972,134 @@
     <title>Pick a Puppy</title>
     <desc>The Morris-Higginson family is looking for a puppy for their three daughters.</desc>
   </programme>
-  <programme channel="486671" start="20260419160000 +0000" stop="20260419170000 +0000">
-    <title lang="zh">Shakespeare &amp; Hathaway Private Investigators</title>
-    <desc>O Thou Invisible Spirit of Wine: When paranormal activity is reported in a Tudor pub, old family feuds are brought to a head.</desc>
+  <programme start="20260420093000 -0400" stop="20260420100000 -0400" channel="natgeowild.ca">
+    <title>Pick a Puppy</title>
+    <desc>The Zeimer family looks to find its very first puppy.</desc>
+  </programme>
+  <programme channel="380437" start="20260419170000 +0000" stop="20260419180000 +0000">
+    <title lang="zh">Planet Earth</title>
+    <desc>David Attenborough narrates the award-winning natural history series. This edition looks at caves, home to troglodytes like the Texas cave salamander.</desc>
     <date>2026-04-19</date>
+  </programme>
+  <programme channel="380437" start="20260419180000 +0000" stop="20260419190000 +0000">
+    <title lang="zh">Planet Earth</title>
+    <desc>David Attenborough narrates the landmark nature series he has described as 'mind-blowing'. See the full force of an avalanche in the Rockies, lair of the grizzlies.</desc>
+    <date>2026-04-19</date>
+  </programme>
+  <programme channel="380437" start="20260419190000 +0000" stop="20260419194000 +0000">
+    <title lang="zh">Whatever Happened to the Likely Lads</title>
+    <desc>Perhaps the most well-remembered episode of the classic sitcom. Bob and Terry try to avoid hearing a football score before they watch a recording of the match on TV.</desc>
+    <date>2026-04-19</date>
+  </programme>
+  <programme channel="380437" start="20260419194000 +0000" stop="20260419202000 +0000">
+    <title lang="zh">Whatever Happened to the Likely Lads</title>
+    <desc>Laddish sitcom from the terrific team of Dick Clement and Ian La Frenais. Bob thinks Terry needs new mates, so invites him to a trendy dinner party.</desc>
+    <date>2026-04-19</date>
+  </programme>
+  <programme channel="380437" start="20260419202000 +0000" stop="20260419210000 +0000">
+    <title lang="zh">Whatever Happened to the Likely Lads</title>
+    <desc>70s sitcom from the creators of Porridge. Terry helps Bob move his treasured possessions from his old house to the new one, but Thelma does not approve.</desc>
+    <date>2026-04-19</date>
+  </programme>
+  <programme channel="380437" start="20260419210000 +0000" stop="20260419220000 +0000">
+    <title lang="zh">Bangers &amp; Cash</title>
+    <desc>Jack's baby Max makes his podium debut with Great Grandad Derek. Paul visits a former stock car racer and finds a Pinto pimped Anglia and a Talbot Sunbeam Lotus.</desc>
+    <date>2026-04-19</date>
+  </programme>
+  <programme channel="380437" start="20260419220000 +0000" stop="20260419230000 +0000">
+    <title lang="zh">Bangers &amp; Cash</title>
+    <desc>Jack's drawn the short straw again as he attempts to shift a couple of 1930's Austin Sevens that have been stuck in the same spot for half a century.</desc>
+    <date>2026-04-19</date>
+  </programme>
+  <programme channel="380437" start="20260419230000 +0000" stop="20260420000000 +0000">
+    <title lang="zh">Bangers &amp; Cash</title>
+    <desc>Derek heads to North Wales to collect an Austin 7, and a gem of a Bentley, a British classic with coachwork built by top notch Parisian outfit Kellner who specialised i.</desc>
+    <date>2026-04-19</date>
+  </programme>
+  <programme channel="380437" start="20260420000000 +0000" stop="20260420010000 +0000">
+    <title lang="zh">Bangers &amp; Cash</title>
+    <desc>Derek heads to Doncaster to collect four vintage BSAs motorbikes including one said to be the rarest BSA of all.</desc>
+    <date>2026-04-20</date>
+  </programme>
+  <programme channel="380437" start="20260420010000 +0000" stop="20260420020000 +0000">
+    <title lang="zh">Bangers &amp; Cash</title>
+    <desc>Derek makes the short trip to a mysterious Yorkshire beauty spot to pick up a 1920s style bus that isn't all that it seems.</desc>
+    <date>2026-04-20</date>
+  </programme>
+  <programme channel="380437" start="20260420020000 +0000" stop="20260420051000 +0000">
+    <title lang="zh">Teleshopping</title>
+    <desc>Shopping from Home.</desc>
+    <date>2026-04-20</date>
+  </programme>
+  <programme channel="380437" start="20260420051000 +0000" stop="20260420053500 +0000">
+    <title lang="zh">Great Coastal Railway Journeys</title>
+    <desc>Michael Portillo travels across Dorset, beginning in Portland Harbour, the location for the 2012 Olympic sailing events.</desc>
+    <date>2026-04-20</date>
+  </programme>
+  <programme channel="380437" start="20260420053500 +0000" stop="20260420061000 +0000">
+    <title lang="zh">Great Coastal Railway Journeys</title>
+    <desc>Michael Portillo visits Dorset's Jurassic Coast. He heads through Swanage, Poole and Sandbanks, before ending his journey on Brownsea Island.</desc>
+    <date>2026-04-20</date>
+  </programme>
+  <programme channel="380437" start="20260420061000 +0000" stop="20260420063500 +0000">
+    <title lang="zh">Great Coastal Railway Journeys</title>
+    <desc>Michael Portillo heads from Southampton to the Isle of Wight, where he rides the island's railway, made up of recycled London Underground trains.</desc>
+    <date>2026-04-20</date>
+  </programme>
+  <programme channel="380437" start="20260420063500 +0000" stop="20260420070000 +0000">
+    <title lang="zh">Great Coastal Railway Journeys</title>
+    <desc>Michael Portillo explores Lee on the Solent in Hampshire, the maritime city of Portsmouth, and Chichester's vast, natural harbour.</desc>
+    <date>2026-04-20</date>
+  </programme>
+  <programme channel="380437" start="20260420070000 +0000" stop="20260420080000 +0000">
+    <title lang="zh">Bangers &amp; Cash: Restoring Classics</title>
+    <desc>The team gamble on restoring a Vanden Plas saloon from the 1970s and a child's tricycle from the 1960s while catching up on the restoration of a rare Sunbeam Lotus.</desc>
+    <date>2026-04-20</date>
+  </programme>
+  <programme channel="380437" start="20260420080000 +0000" stop="20260420090000 +0000">
+    <title lang="zh">Bangers &amp; Cash: Restoring Classics</title>
+    <desc>Derek encourages the team to buy a Francis Barnett Plover at auction, and the wheels come off the restoration of an MG Metro.</desc>
+    <date>2026-04-20</date>
+  </programme>
+  <programme channel="380437" start="20260420090000 +0000" stop="20260420100000 +0000">
+    <title lang="zh">The World at War</title>
+    <desc>Laurence Olivier narrates the acclaimed documentary series on WWII. Hear how Japanese advances across Asia forced the Allies into ignominious retreat.</desc>
+    <date>2026-04-20</date>
+  </programme>
+  <programme channel="380437" start="20260420100000 +0000" stop="20260420110000 +0000">
+    <title lang="zh">Nazi Hunters</title>
+    <desc>From scientists to SS commanders - the stories of the Nazi war criminals and how they were tracked down. Here, Hitler's personal secretary Martin Bormann.</desc>
+    <date>2026-04-20</date>
+  </programme>
+  <programme channel="380437" start="20260420110000 +0000" stop="20260420120000 +0000">
+    <title lang="zh">Antiques Roadshow</title>
+    <desc>Fiona Bruce presents from Glasgow's Pollok Park, where finds include an incredibly rare Victoria Cross medal awarded to a Sikh soldier in the Second World War.</desc>
+    <date>2026-04-20</date>
+  </programme>
+  <programme channel="380437" start="20260420120000 +0000" stop="20260420130000 +0000">
+    <title lang="zh">Antiques Roadshow</title>
+    <desc>Swanage Pier and Seafront, Dorset 2: Fiona Bruce presents from Swanage Pier on Dorset's Jurassic Coast, where treasures include dinosaur footprints, and a Art Deco bronze sculpture.</desc>
+    <date>2026-04-20</date>
+  </programme>
+  <programme channel="380437" start="20260420130000 +0000" stop="20260420140000 +0000">
+    <title lang="zh">Bangers &amp; Cash: Restoring Classics</title>
+    <desc>The Restos team try their hardest not to go too far on an Opel Manta. And a Peugeot 205 GTI brings back happy B-road memories for a mechanic who owned one.</desc>
+    <date>2026-04-20</date>
+  </programme>
+  <programme channel="380437" start="20260420140000 +0000" stop="20260420150000 +0000">
+    <title lang="zh">Bangers &amp; Cash: Restoring Classics</title>
+    <desc>The team head for restoration in their Bedford Rascal Campervan. They also purchase a true British classic - a TR6 - which is almost too good to touch.</desc>
+    <date>2026-04-20</date>
+  </programme>
+  <programme channel="380437" start="20260420150000 +0000" stop="20260420160000 +0000">
+    <title lang="zh">The World at War</title>
+    <desc>Laurence Olivier narrates the acclaimed documentary series on WWII. Hear how Japanese advances across Asia forced the Allies into ignominious retreat.</desc>
+    <date>2026-04-20</date>
+  </programme>
+  <programme channel="380437" start="20260420160000 +0000" stop="20260420170000 +0000">
+    <title lang="zh">Nazi Hunters</title>
+    <desc>From scientists to SS commanders - the stories of the Nazi war criminals and how they were tracked down. Here, Hitler's personal secretary Martin Bormann.</desc>
+    <date>2026-04-20</date>
   </programme>
   <programme channel="486671" start="20260419170000 +0000" stop="20260419180000 +0000">
     <title lang="zh">Shakespeare &amp; Hathaway Private Investigators</title>
@@ -3085,10 +3221,10 @@
     <desc>As Charlie and Rex head into the woods to track a missing photographer, a mysterious organization throws the investigation off its trail.</desc>
     <date>2026-04-20</date>
   </programme>
-  <programme channel="399723" start="20260419160000 +0000" stop="20260419170000 +0000">
-    <title lang="zh">Great Canal Journeys</title>
-    <desc>Timothy West and Prunella Scales embark on a voyage across the Netherlands, where they tour Amsterdam's canal district.</desc>
-    <date>2026-04-19</date>
+  <programme channel="486671" start="20260420180000 +0000" stop="20260420190000 +0000">
+    <title lang="zh">My Life Is Murder</title>
+    <desc>When Alexa looks into the death of a popular male nanny, she learns that it's not just kids who have cliques - and pushy parents are more terrifying than many killers.</desc>
+    <date>2026-04-20</date>
   </programme>
   <programme channel="399723" start="20260419170000 +0000" stop="20260419180000 +0000">
     <title lang="zh">The Life of Mammals</title>
@@ -3210,140 +3346,10 @@
     <desc>Classic comedy and music courtesy of the late, great Ronnie Corbett and Ronnie Barker in their 1970s heyday. Here, the sketches include Secret Service.</desc>
     <date>2026-04-20</date>
   </programme>
-  <programme channel="2390" start="20260419160000 +0000" stop="20260419163000 +0000">
-    <title lang="zh">Infomercial</title>
-    <desc>Infomercials is an umbrella title for independent, quarter-hour television comedy specials airing on Adult Swim. Unlike actual paid programming, all of the programs are fictitious and maintain no continuity with each other.</desc>
-    <date>2026-04-19</date>
-  </programme>
-  <programme channel="2390" start="20260419163000 +0000" stop="20260419170000 +0000">
-    <title lang="zh">Infomercial</title>
-    <desc>Infomercials is an umbrella title for independent, quarter-hour television comedy specials airing on Adult Swim. Unlike actual paid programming, all of the programs are fictitious and maintain no continuity with each other.</desc>
-    <date>2026-04-19</date>
-  </programme>
-  <programme channel="2390" start="20260419170000 +0000" stop="20260419173000 +0000">
-    <title lang="zh">Infomercial</title>
-    <desc>Infomercials is an umbrella title for independent, quarter-hour television comedy specials airing on Adult Swim. Unlike actual paid programming, all of the programs are fictitious and maintain no continuity with each other.</desc>
-    <date>2026-04-19</date>
-  </programme>
-  <programme channel="2390" start="20260419173000 +0000" stop="20260419180000 +0000">
-    <title lang="zh">TVNZ2 Returns At 6am</title>
-    <desc />
-    <date>2026-04-19</date>
-  </programme>
-  <programme channel="2390" start="20260419180000 +0000" stop="20260419183000 +0000">
-    <title lang="zh">LES MILLS Born To Move</title>
-    <desc>Designed to nurture a life-long love of physical activity, BORN TO MOVE helps children experience the joy and vitality of moving to music, combining fun and fitness in way that children love.</desc>
-    <date>2026-04-19</date>
-  </programme>
-  <programme channel="2390" start="20260419183000 +0000" stop="20260419183500 +0000">
-    <title lang="zh">Kiri and Lou</title>
-    <desc>Kiri and Lou are invited to lunch with two very slow snails, Hemi and Lemi. Kiri is famished but she tries to be polite and not gnash her teeth.</desc>
-    <date>2026-04-19</date>
-  </programme>
-  <programme channel="2390" start="20260419183500 +0000" stop="20260419190000 +0000">
-    <title lang="zh">Toi Time</title>
-    <desc>Featuring Anika Moa and her music, educating and entertaining kids through play, movement and dance.</desc>
-    <date>2026-04-19</date>
-  </programme>
-  <programme channel="2390" start="20260419190000 +0000" stop="20260419192500 +0000">
-    <title lang="zh">The Jungle Bunch To The Rescue!</title>
-    <desc>The jungle can be a dangerous place... but thankfully there are a group of heroes ready to defend those in trouble. Join the Jungle Bunch as they rush to the rescue of their animal friends!</desc>
-    <date>2026-04-19</date>
-  </programme>
-  <programme channel="2390" start="20260419192500 +0000" stop="20260419195000 +0000">
-    <title lang="zh">Sonic Boom</title>
-    <desc>Sonic, Tails, Amy, Knuckles, and Sticks reside on Seaside Island in Hedgehog Village. Together they defend the island from various threats like Doctor Eggman and his robotic creations.</desc>
-    <date>2026-04-19</date>
-  </programme>
-  <programme channel="2390" start="20260419195000 +0000" stop="20260419201000 +0000">
-    <title lang="zh">LEGO Ninjago: Masters Of Spinjitzu</title>
-    <desc>Kai, Jay, Cole and Zane must master their elemental powers and Spinjitzu weapons to protect the land of Ninjago, which also has an underworld.</desc>
-    <date>2026-04-19</date>
-  </programme>
-  <programme channel="2390" start="20260419201000 +0000" stop="20260419202500 +0000">
-    <title lang="zh">Maddie + Triggs</title>
-    <desc>Maddie, an adventurous youngster who happens to be visually impaired, sets out with her best doggy friend Triggs to discover the music and adventure in the sounds of the world around them.</desc>
-    <date>2026-04-19</date>
-  </programme>
-  <programme channel="2390" start="20260419202500 +0000" stop="20260419210000 +0000">
-    <title lang="zh">Gus the Itsy Bitsy Knight</title>
-    <desc>Astride his electric pony, wielding a laser sword, little Gus is out to prove that a brave heart can overcome anything.</desc>
-    <date>2026-04-19</date>
-  </programme>
-  <programme channel="2390" start="20260419210000 +0000" stop="20260419213000 +0000">
-    <title lang="zh">Infomercial</title>
-    <desc>Infomercials is an umbrella title for independent, quarter-hour television comedy specials airing on Adult Swim. Unlike actual paid programming, all of the programs are fictitious and maintain no continuity with each other.</desc>
-    <date>2026-04-19</date>
-  </programme>
-  <programme channel="2390" start="20260419213000 +0000" stop="20260419220000 +0000">
-    <title lang="zh">Les Mills Adult Classes</title>
-    <desc>Les Mills and TVNZ are thrilled to be working together to offer you free access to renowned Les Mills classes; BODYBALANCE, BODYCOMBAT, BODYATTACK, LES MILLS CORE and LES MILLS GRIT Cardio.</desc>
-    <date>2026-04-19</date>
-  </programme>
-  <programme channel="2390" start="20260419220000 +0000" stop="20260419223000 +0000">
-    <title lang="zh">Everyday Gourmet With Justine Schofield</title>
-    <desc>MasterChef Australia finalist Justine Schofield shares some of her favourite recipes in this cookery program aimed at ideas for the home cook.</desc>
-    <date>2026-04-19</date>
-  </programme>
-  <programme channel="2390" start="20260419223000 +0000" stop="20260419230000 +0000">
-    <title lang="zh">Farm To Fork</title>
-    <desc>Farm to Fork takes you on a journey across Australia, showcasing fresh local produce to inspire healthy cooking. Discover where your food comes from, support local farmers, and learn how to eat well.</desc>
-    <date>2026-04-19</date>
-  </programme>
-  <programme channel="2390" start="20260419230000 +0000" stop="20260420000000 +0000">
-    <title lang="zh">The Drew Barrymore Show</title>
-    <desc>Driven by humour and optimism, Drew Barrymore presents human interest stories and has heartfelt conversations with special guests.</desc>
-    <date>2026-04-19</date>
-  </programme>
-  <programme channel="2390" start="20260420000000 +0000" stop="20260420003000 +0000">
-    <title lang="zh">Home And Away</title>
-    <desc>John grows suspicious. Brax’s grand plan stalls. Great news is afoot for Sonny.</desc>
+  <programme channel="399723" start="20260420174000 +0000" stop="20260420184000 +0000">
+    <title lang="zh">The Two Ronnies</title>
+    <desc>More classic comedy courtesy of Ronnies B and C. Sketches include Hampton Wick, Saying Everything Twice and Hearing Aid.</desc>
     <date>2026-04-20</date>
-  </programme>
-  <programme channel="2390" start="20260420003000 +0000" stop="20260420013000 +0000">
-    <title lang="zh">Tipping Point Australia</title>
-    <desc>Hosted by Australian tennis legend Todd Woodbridge, Tipping point will push contestants' luck to the very edge in their quest to beat the mesmerising device and win mystery prizes and cash!</desc>
-    <date>2026-04-20</date>
-  </programme>
-  <programme channel="2390" start="20260420013000 +0000" stop="20260420023000 +0000">
-    <title lang="zh">Bridge Of Lies</title>
-    <desc>Ross Kemp hosts a nail-biting quiz. Using knowledge, strategy and a little luck, contestants must cross the Bridge, spotting the lies. One wrong step and they lose everything!</desc>
-    <date>2026-04-20</date>
-  </programme>
-  <programme channel="2390" start="20260420023000 +0000" stop="20260420030000 +0000">
-    <title lang="zh">Everyday Gourmet With Justine Schofield</title>
-    <desc>MasterChef Australia finalist Justine Schofield shares some of her favourite recipes in this cookery program aimed at ideas for the home cook.</desc>
-    <date>2026-04-20</date>
-  </programme>
-  <programme channel="2390" start="20260420030000 +0000" stop="20260420040000 +0000">
-    <title lang="zh">Travel Guides</title>
-    <desc>Our bonza, ripper, fair dinkum Aussie Travel Guides take a 10-day South Pacific cruise; swimming with turtles in New Caledonia and snorkelling in Vanuatu.</desc>
-    <date>2026-04-20</date>
-  </programme>
-  <programme channel="2390" start="20260420040000 +0000" stop="20260420050000 +0000">
-    <title lang="zh">Tipping Point Australia</title>
-    <desc>Hosted by Australian tennis legend Todd Woodbridge, Tipping point will push contestants' luck to the very edge in their quest to beat the mesmerising device and win mystery prizes and cash!</desc>
-    <date>2026-04-20</date>
-  </programme>
-  <programme channel="2390" start="20260420050000 +0000" stop="20260420053000 +0000">
-    <title lang="zh">The Simpsons</title>
-    <desc>Lisa is upset when Bart becomes a better jazz musician than her, so she decides to set up an animal shelter in the Simpsons' attic. S18 E2</desc>
-    <date>2026-04-20</date>
-  </programme>
-  <programme channel="2390" start="20260420053000 +0000" stop="20260420063000 +0000">
-    <title lang="zh">The Big Bang Theory</title>
-    <desc>A change in Sheldon's routine forces him to re-evaluate his entire life when his barber is sick. Meanwhile, Howard rethinks his decision to go into space after astronaut training. S5 E18</desc>
-    <date>2026-04-20</date>
-  </programme>
-  <programme channel="2638" start="20260419160000 +0000" stop="20260419163000 +0000">
-    <title lang="zh">Infomercials</title>
-    <desc>Infomercials is an umbrella title for independent, quarter-hour television comedy specials airing on Adult Swim. Unlike actual paid programming, all of the programs are fictitious and maintain no continuity with each other.</desc>
-    <date>2026-04-19</date>
-  </programme>
-  <programme channel="2638" start="20260419163000 +0000" stop="20260419170000 +0000">
-    <title lang="zh">Infomercials</title>
-    <desc>Infomercials is an umbrella title for independent, quarter-hour television comedy specials airing on Adult Swim. Unlike actual paid programming, all of the programs are fictitious and maintain no continuity with each other.</desc>
-    <date>2026-04-19</date>
   </programme>
   <programme channel="2638" start="20260419170000 +0000" stop="20260419173000 +0000">
     <title lang="zh">Infomercials</title>
@@ -3460,129 +3466,139 @@
     <desc>Cody's triggered.</desc>
     <date>2026-04-20</date>
   </programme>
-  <programme channel="380437" start="20260419160000 +0000" stop="20260419170000 +0000">
-    <title lang="zh">Canal Boat Diaries</title>
-    <desc>Robbie Cumming sets out to explore the meandering waterways of inner city Birmingham including the Soho Loop and the Engine Arm Canal.</desc>
+  <programme channel="2638" start="20260420115500 +0000" stop="20260420130000 +0000">
+    <title lang="zh">The Secret Genius Of Modern Life</title>
+    <desc>Season Finale: Hannah goes behind the scenes to look at the technology behind the lift, entering a 246m high lift shaft to test everything from the brakes to her own fear of heights.</desc>
+    <date>2026-04-20</date>
+  </programme>
+  <programme channel="2638" start="20260420130000 +0000" stop="20260420134500 +0000">
+    <title lang="zh">Secrets Of The London Underground</title>
+    <desc>Tim and Siddy meet at Gloucester Road in London's museum quarter, a station serving the Circle, District, and Piccadilly lines. S4 E9</desc>
+    <date>2026-04-20</date>
+  </programme>
+  <programme channel="2390" start="20260419170000 +0000" stop="20260419173000 +0000">
+    <title lang="zh">Infomercial</title>
+    <desc>Infomercials is an umbrella title for independent, quarter-hour television comedy specials airing on Adult Swim. Unlike actual paid programming, all of the programs are fictitious and maintain no continuity with each other.</desc>
     <date>2026-04-19</date>
   </programme>
-  <programme channel="380437" start="20260419170000 +0000" stop="20260419180000 +0000">
-    <title lang="zh">Planet Earth</title>
-    <desc>David Attenborough narrates the award-winning natural history series. This edition looks at caves, home to troglodytes like the Texas cave salamander.</desc>
+  <programme channel="2390" start="20260419173000 +0000" stop="20260419180000 +0000">
+    <title lang="zh">TVNZ2 Returns At 6am</title>
+    <desc />
     <date>2026-04-19</date>
   </programme>
-  <programme channel="380437" start="20260419180000 +0000" stop="20260419190000 +0000">
-    <title lang="zh">Planet Earth</title>
-    <desc>David Attenborough narrates the landmark nature series he has described as 'mind-blowing'. See the full force of an avalanche in the Rockies, lair of the grizzlies.</desc>
+  <programme channel="2390" start="20260419180000 +0000" stop="20260419183000 +0000">
+    <title lang="zh">LES MILLS Born To Move</title>
+    <desc>Designed to nurture a life-long love of physical activity, BORN TO MOVE helps children experience the joy and vitality of moving to music, combining fun and fitness in way that children love.</desc>
     <date>2026-04-19</date>
   </programme>
-  <programme channel="380437" start="20260419190000 +0000" stop="20260419194000 +0000">
-    <title lang="zh">Whatever Happened to the Likely Lads</title>
-    <desc>Perhaps the most well-remembered episode of the classic sitcom. Bob and Terry try to avoid hearing a football score before they watch a recording of the match on TV.</desc>
+  <programme channel="2390" start="20260419183000 +0000" stop="20260419183500 +0000">
+    <title lang="zh">Kiri and Lou</title>
+    <desc>Kiri and Lou are invited to lunch with two very slow snails, Hemi and Lemi. Kiri is famished but she tries to be polite and not gnash her teeth.</desc>
     <date>2026-04-19</date>
   </programme>
-  <programme channel="380437" start="20260419194000 +0000" stop="20260419202000 +0000">
-    <title lang="zh">Whatever Happened to the Likely Lads</title>
-    <desc>Laddish sitcom from the terrific team of Dick Clement and Ian La Frenais. Bob thinks Terry needs new mates, so invites him to a trendy dinner party.</desc>
+  <programme channel="2390" start="20260419183500 +0000" stop="20260419190000 +0000">
+    <title lang="zh">Toi Time</title>
+    <desc>Featuring Anika Moa and her music, educating and entertaining kids through play, movement and dance.</desc>
     <date>2026-04-19</date>
   </programme>
-  <programme channel="380437" start="20260419202000 +0000" stop="20260419210000 +0000">
-    <title lang="zh">Whatever Happened to the Likely Lads</title>
-    <desc>70s sitcom from the creators of Porridge. Terry helps Bob move his treasured possessions from his old house to the new one, but Thelma does not approve.</desc>
+  <programme channel="2390" start="20260419190000 +0000" stop="20260419192500 +0000">
+    <title lang="zh">The Jungle Bunch To The Rescue!</title>
+    <desc>The jungle can be a dangerous place... but thankfully there are a group of heroes ready to defend those in trouble. Join the Jungle Bunch as they rush to the rescue of their animal friends!</desc>
     <date>2026-04-19</date>
   </programme>
-  <programme channel="380437" start="20260419210000 +0000" stop="20260419220000 +0000">
-    <title lang="zh">Bangers &amp; Cash</title>
-    <desc>Jack's baby Max makes his podium debut with Great Grandad Derek. Paul visits a former stock car racer and finds a Pinto pimped Anglia and a Talbot Sunbeam Lotus.</desc>
+  <programme channel="2390" start="20260419192500 +0000" stop="20260419195000 +0000">
+    <title lang="zh">Sonic Boom</title>
+    <desc>Sonic, Tails, Amy, Knuckles, and Sticks reside on Seaside Island in Hedgehog Village. Together they defend the island from various threats like Doctor Eggman and his robotic creations.</desc>
     <date>2026-04-19</date>
   </programme>
-  <programme channel="380437" start="20260419220000 +0000" stop="20260419230000 +0000">
-    <title lang="zh">Bangers &amp; Cash</title>
-    <desc>Jack's drawn the short straw again as he attempts to shift a couple of 1930's Austin Sevens that have been stuck in the same spot for half a century.</desc>
+  <programme channel="2390" start="20260419195000 +0000" stop="20260419201000 +0000">
+    <title lang="zh">LEGO Ninjago: Masters Of Spinjitzu</title>
+    <desc>Kai, Jay, Cole and Zane must master their elemental powers and Spinjitzu weapons to protect the land of Ninjago, which also has an underworld.</desc>
     <date>2026-04-19</date>
   </programme>
-  <programme channel="380437" start="20260419230000 +0000" stop="20260420000000 +0000">
-    <title lang="zh">Bangers &amp; Cash</title>
-    <desc>Derek heads to North Wales to collect an Austin 7, and a gem of a Bentley, a British classic with coachwork built by top notch Parisian outfit Kellner who specialised i.</desc>
+  <programme channel="2390" start="20260419201000 +0000" stop="20260419202500 +0000">
+    <title lang="zh">Maddie + Triggs</title>
+    <desc>Maddie, an adventurous youngster who happens to be visually impaired, sets out with her best doggy friend Triggs to discover the music and adventure in the sounds of the world around them.</desc>
     <date>2026-04-19</date>
   </programme>
-  <programme channel="380437" start="20260420000000 +0000" stop="20260420010000 +0000">
-    <title lang="zh">Bangers &amp; Cash</title>
-    <desc>Derek heads to Doncaster to collect four vintage BSAs motorbikes including one said to be the rarest BSA of all.</desc>
+  <programme channel="2390" start="20260419202500 +0000" stop="20260419210000 +0000">
+    <title lang="zh">Gus the Itsy Bitsy Knight</title>
+    <desc>Astride his electric pony, wielding a laser sword, little Gus is out to prove that a brave heart can overcome anything.</desc>
+    <date>2026-04-19</date>
+  </programme>
+  <programme channel="2390" start="20260419210000 +0000" stop="20260419213000 +0000">
+    <title lang="zh">Infomercial</title>
+    <desc>Infomercials is an umbrella title for independent, quarter-hour television comedy specials airing on Adult Swim. Unlike actual paid programming, all of the programs are fictitious and maintain no continuity with each other.</desc>
+    <date>2026-04-19</date>
+  </programme>
+  <programme channel="2390" start="20260419213000 +0000" stop="20260419220000 +0000">
+    <title lang="zh">Les Mills Adult Classes</title>
+    <desc>Les Mills and TVNZ are thrilled to be working together to offer you free access to renowned Les Mills classes; BODYBALANCE, BODYCOMBAT, BODYATTACK, LES MILLS CORE and LES MILLS GRIT Cardio.</desc>
+    <date>2026-04-19</date>
+  </programme>
+  <programme channel="2390" start="20260419220000 +0000" stop="20260419223000 +0000">
+    <title lang="zh">Everyday Gourmet With Justine Schofield</title>
+    <desc>MasterChef Australia finalist Justine Schofield shares some of her favourite recipes in this cookery program aimed at ideas for the home cook.</desc>
+    <date>2026-04-19</date>
+  </programme>
+  <programme channel="2390" start="20260419223000 +0000" stop="20260419230000 +0000">
+    <title lang="zh">Farm To Fork</title>
+    <desc>Farm to Fork takes you on a journey across Australia, showcasing fresh local produce to inspire healthy cooking. Discover where your food comes from, support local farmers, and learn how to eat well.</desc>
+    <date>2026-04-19</date>
+  </programme>
+  <programme channel="2390" start="20260419230000 +0000" stop="20260420000000 +0000">
+    <title lang="zh">The Drew Barrymore Show</title>
+    <desc>Driven by humour and optimism, Drew Barrymore presents human interest stories and has heartfelt conversations with special guests.</desc>
+    <date>2026-04-19</date>
+  </programme>
+  <programme channel="2390" start="20260420000000 +0000" stop="20260420003000 +0000">
+    <title lang="zh">Home And Away</title>
+    <desc>John grows suspicious. Brax’s grand plan stalls. Great news is afoot for Sonny.</desc>
     <date>2026-04-20</date>
   </programme>
-  <programme channel="380437" start="20260420010000 +0000" stop="20260420020000 +0000">
-    <title lang="zh">Bangers &amp; Cash</title>
-    <desc>Derek makes the short trip to a mysterious Yorkshire beauty spot to pick up a 1920s style bus that isn't all that it seems.</desc>
+  <programme channel="2390" start="20260420003000 +0000" stop="20260420013000 +0000">
+    <title lang="zh">Tipping Point Australia</title>
+    <desc>Hosted by Australian tennis legend Todd Woodbridge, Tipping point will push contestants' luck to the very edge in their quest to beat the mesmerising device and win mystery prizes and cash!</desc>
     <date>2026-04-20</date>
   </programme>
-  <programme channel="380437" start="20260420020000 +0000" stop="20260420051000 +0000">
-    <title lang="zh">Teleshopping</title>
-    <desc>Shopping from Home.</desc>
+  <programme channel="2390" start="20260420013000 +0000" stop="20260420023000 +0000">
+    <title lang="zh">Bridge Of Lies</title>
+    <desc>Ross Kemp hosts a nail-biting quiz. Using knowledge, strategy and a little luck, contestants must cross the Bridge, spotting the lies. One wrong step and they lose everything!</desc>
     <date>2026-04-20</date>
   </programme>
-  <programme channel="380437" start="20260420051000 +0000" stop="20260420053500 +0000">
-    <title lang="zh">Great Coastal Railway Journeys</title>
-    <desc>Michael Portillo travels across Dorset, beginning in Portland Harbour, the location for the 2012 Olympic sailing events.</desc>
+  <programme channel="2390" start="20260420023000 +0000" stop="20260420030000 +0000">
+    <title lang="zh">Everyday Gourmet With Justine Schofield</title>
+    <desc>MasterChef Australia finalist Justine Schofield shares some of her favourite recipes in this cookery program aimed at ideas for the home cook.</desc>
     <date>2026-04-20</date>
   </programme>
-  <programme channel="380437" start="20260420053500 +0000" stop="20260420061000 +0000">
-    <title lang="zh">Great Coastal Railway Journeys</title>
-    <desc>Michael Portillo visits Dorset's Jurassic Coast. He heads through Swanage, Poole and Sandbanks, before ending his journey on Brownsea Island.</desc>
+  <programme channel="2390" start="20260420030000 +0000" stop="20260420040000 +0000">
+    <title lang="zh">Travel Guides</title>
+    <desc>Our bonza, ripper, fair dinkum Aussie Travel Guides take a 10-day South Pacific cruise; swimming with turtles in New Caledonia and snorkelling in Vanuatu.</desc>
     <date>2026-04-20</date>
   </programme>
-  <programme channel="380437" start="20260420061000 +0000" stop="20260420063500 +0000">
-    <title lang="zh">Great Coastal Railway Journeys</title>
-    <desc>Michael Portillo heads from Southampton to the Isle of Wight, where he rides the island's railway, made up of recycled London Underground trains.</desc>
+  <programme channel="2390" start="20260420040000 +0000" stop="20260420050000 +0000">
+    <title lang="zh">Tipping Point Australia</title>
+    <desc>Hosted by Australian tennis legend Todd Woodbridge, Tipping point will push contestants' luck to the very edge in their quest to beat the mesmerising device and win mystery prizes and cash!</desc>
     <date>2026-04-20</date>
   </programme>
-  <programme channel="380437" start="20260420063500 +0000" stop="20260420070000 +0000">
-    <title lang="zh">Great Coastal Railway Journeys</title>
-    <desc>Michael Portillo explores Lee on the Solent in Hampshire, the maritime city of Portsmouth, and Chichester's vast, natural harbour.</desc>
+  <programme channel="2390" start="20260420050000 +0000" stop="20260420053000 +0000">
+    <title lang="zh">The Simpsons</title>
+    <desc>Lisa is upset when Bart becomes a better jazz musician than her, so she decides to set up an animal shelter in the Simpsons' attic. S18 E2</desc>
     <date>2026-04-20</date>
   </programme>
-  <programme channel="380437" start="20260420070000 +0000" stop="20260420080000 +0000">
-    <title lang="zh">Bangers &amp; Cash: Restoring Classics</title>
-    <desc>The team gamble on restoring a Vanden Plas saloon from the 1970s and a child's tricycle from the 1960s while catching up on the restoration of a rare Sunbeam Lotus.</desc>
+  <programme channel="2390" start="20260420053000 +0000" stop="20260420063000 +0000">
+    <title lang="zh">The Big Bang Theory</title>
+    <desc>A change in Sheldon's routine forces him to re-evaluate his entire life when his barber is sick. Meanwhile, Howard rethinks his decision to go into space after astronaut training. S5 E18</desc>
     <date>2026-04-20</date>
   </programme>
-  <programme channel="380437" start="20260420080000 +0000" stop="20260420090000 +0000">
-    <title lang="zh">Bangers &amp; Cash: Restoring Classics</title>
-    <desc>Derek encourages the team to buy a Francis Barnett Plover at auction, and the wheels come off the restoration of an MG Metro.</desc>
+  <programme channel="2390" start="20260420063000 +0000" stop="20260420070000 +0000">
+    <title lang="zh">Home And Away</title>
+    <desc>Lacey fights off the press. John plays detective. Sonny and Dana celebrate progress.</desc>
     <date>2026-04-20</date>
   </programme>
-  <programme channel="380437" start="20260420090000 +0000" stop="20260420100000 +0000">
-    <title lang="zh">The World at War</title>
-    <desc>Laurence Olivier narrates the acclaimed documentary series on WWII. Hear how Japanese advances across Asia forced the Allies into ignominious retreat.</desc>
-    <date>2026-04-20</date>
-  </programme>
-  <programme channel="380437" start="20260420100000 +0000" stop="20260420110000 +0000">
-    <title lang="zh">Nazi Hunters</title>
-    <desc>From scientists to SS commanders - the stories of the Nazi war criminals and how they were tracked down. Here, Hitler's personal secretary Martin Bormann.</desc>
-    <date>2026-04-20</date>
-  </programme>
-  <programme channel="380437" start="20260420110000 +0000" stop="20260420120000 +0000">
-    <title lang="zh">Antiques Roadshow</title>
-    <desc>Fiona Bruce presents from Glasgow's Pollok Park, where finds include an incredibly rare Victoria Cross medal awarded to a Sikh soldier in the Second World War.</desc>
-    <date>2026-04-20</date>
-  </programme>
-  <programme channel="380437" start="20260420120000 +0000" stop="20260420130000 +0000">
-    <title lang="zh">Antiques Roadshow</title>
-    <desc>Swanage Pier and Seafront, Dorset 2: Fiona Bruce presents from Swanage Pier on Dorset's Jurassic Coast, where treasures include dinosaur footprints, and a Art Deco bronze sculpture.</desc>
-    <date>2026-04-20</date>
-  </programme>
-  <programme channel="380437" start="20260420130000 +0000" stop="20260420140000 +0000">
-    <title lang="zh">Bangers &amp; Cash: Restoring Classics</title>
-    <desc>The Restos team try their hardest not to go too far on an Opel Manta. And a Peugeot 205 GTI brings back happy B-road memories for a mechanic who owned one.</desc>
-    <date>2026-04-20</date>
-  </programme>
-  <programme channel="380437" start="20260420140000 +0000" stop="20260420150000 +0000">
-    <title lang="zh">Bangers &amp; Cash: Restoring Classics</title>
-    <desc>The team head for restoration in their Bedford Rascal Campervan. They also purchase a true British classic - a TR6 - which is almost too good to touch.</desc>
-    <date>2026-04-20</date>
-  </programme>
-  <programme channel="380437" start="20260420150000 +0000" stop="20260420160000 +0000">
-    <title lang="zh">The World at War</title>
-    <desc>Laurence Olivier narrates the acclaimed documentary series on WWII. Hear how Japanese advances across Asia forced the Allies into ignominious retreat.</desc>
+  <programme channel="2390" start="20260420070000 +0000" stop="20260420073000 +0000">
+    <title lang="zh">Shortland Street</title>
+    <desc>Cody's triggered.</desc>
     <date>2026-04-20</date>
   </programme>
 </tv>
