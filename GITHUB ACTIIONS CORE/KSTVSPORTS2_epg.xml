@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<tv date="20260424223032" generator-info-name="KSTV-Sports-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="KSTV-Sports-EPG">
+<tv date="20260424233004" generator-info-name="KSTV-Sports-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="KSTV-Sports-EPG">
   <channel id="hallmark.us">
     <display-name>CA - SPORTSNET ONTARIO</display-name>
     <icon src="https://raw.githubusercontent.com/Fourqui/tv/master/countries/united-states/root-sports-us.png" />
@@ -76,20 +76,16 @@
     <display-name>UK | Sky Sports Racing</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/320/140/skychb1354.png" />
   </channel>
-  <channel id="465108">
-    <display-name lang="US">ESPNU HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="400478">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">TNT Sports 4 HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465198">
-    <display-name lang="US">ESPN HD</display-name>
+  <channel id="400480">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">TNT Sports 2 HD</display-name>
     <icon src="" />
   </channel>
   <channel id="9415">
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">SkySpMainEvHD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465108">
+    <display-name lang="US">ESPNU HD</display-name>
     <icon src="" />
   </channel>
   <channel id="400479">
@@ -100,16 +96,16 @@
     <display-name lang="US">SportsNet Pittsburgh HD</display-name>
     <icon src="" />
   </channel>
+  <channel id="465288">
+    <display-name lang="US">Altitude Sports</display-name>
+    <icon src="" />
+  </channel>
   <channel id="9175">
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">Racing TV HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="400480">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">TNT Sports 2 HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465288">
-    <display-name lang="US">Altitude Sports</display-name>
+  <channel id="400478">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">TNT Sports 4 HD</display-name>
     <icon src="" />
   </channel>
   <channel id="470732">
@@ -128,12 +124,16 @@
     <display-name lang="US">SNY SportsNet New York HD</display-name>
     <icon src="" />
   </channel>
+  <channel id="465358">
+    <display-name lang="US">World Fishing Network HD (US)</display-name>
+    <icon src="" />
+  </channel>
   <channel id="470811">
     <display-name lang="Canada">Sportsnet World</display-name>
     <icon src="" />
   </channel>
-  <channel id="465358">
-    <display-name lang="US">World Fishing Network HD (US)</display-name>
+  <channel id="465198">
+    <display-name lang="US">ESPN HD</display-name>
     <icon src="" />
   </channel>
   <channel id="465236">
@@ -231,14 +231,6 @@
   <programme start="20260425180000 -0400" stop="20260425200000 -0400" channel="hallmark.us">
     <title>Roadhouse Romance</title>
     <desc>Lt. Callie Jackson returns home after a military tour to find her late grandfather's barbecue joint is struggling, but she has a run-in with a TV director who teaches her that sometimes it's best to look forward instead of looking back.</desc>
-  </programme>
-  <programme start="20260424183000 -0400" stop="20260424190000 -0400" channel="sportsmanchannel.ca">
-    <title>Fishing the Flats</title>
-    <desc>Henry Waszczuk provides tips on shallow water fishing in warm weather destinations.</desc>
-  </programme>
-  <programme start="20260424190000 -0400" stop="20260424193000 -0400" channel="sportsmanchannel.ca">
-    <title>Shooting USA</title>
-    <desc>Join us on the floor of the Sands Convention Center in Las Vegas for the industry only Shooting Hunting and Outdoor Trade show better known as SHOT.</desc>
   </programme>
   <programme start="20260424193000 -0400" stop="20260424200000 -0400" channel="sportsmanchannel.ca">
     <title>Guns &amp; Ammo TV</title>
@@ -408,9 +400,13 @@
     <title>Angler &amp; Hunter TV</title>
     <desc>Outdoor fishing and hunting action with host Mike Miller.</desc>
   </programme>
-  <programme start="20260424180000 -0400" stop="20260424190000 -0400" channel="sportsnet360.ca">
-    <title>The FAN Pregame</title>
-    <desc>Ailish Forfar and Justin Cuthbert discuss the stories that matter most to sports fans.</desc>
+  <programme start="20260425183000 -0400" stop="20260425190000 -0400" channel="sportsmanchannel.ca">
+    <title>Guns &amp; Ammo TV</title>
+    <desc>A weekly look at the latest products from the shooting sports industry, from product reviews to firearms training and competition.</desc>
+  </programme>
+  <programme start="20260425190000 -0400" stop="20260425193000 -0400" channel="sportsmanchannel.ca">
+    <title>The New Fly Fisher</title>
+    <desc>Mark Melnyk is fishing the Yakima River in Washington with participants of Recovery Beyond and Red's Fly Shop.</desc>
   </programme>
   <programme start="20260424190000 -0400" stop="20260424210000 -0400" channel="sportsnet360.ca">
     <title>TNA iMPACT!</title>
@@ -516,10 +512,6 @@
     <title>UFC Fight Night: Sterling vs. Zalal - Prelims</title>
     <desc>Jafel Filho vs. Lucas Rocha, flyweight; Mayra Bueno Silva vs. Michelle Montague, bantamweight; Jackson McVey vs. Sedriques Dumas, middleweight; Rodolfo Vieira vs. Eric McConico, middleweight. From Meta APEX in Las Vegas.</desc>
   </programme>
-  <programme start="20260424183000 -0400" stop="20260424190000 -0400" channel="sportsneteast.ca">
-    <title>Hockey Central</title>
-    <desc>Breaking news, analysis and debate from around the NHL.</desc>
-  </programme>
   <programme start="20260424190000 -0400" stop="20260424220000 -0400" channel="sportsneteast.ca">
     <title>Tampa Bay Lightning vs. Montréal Canadiens</title>
     <desc>Eastern Conference First Round, Game 3.</desc>
@@ -568,9 +560,13 @@
     <title>Plays of the Month - Highlights</title>
     <desc>Highlighting the past month's best in daily sports moments.</desc>
   </programme>
-  <programme start="20260424180000 -0400" stop="20260424193000 -0400" channel="tsn1.ca">
-    <title>SportsCentre</title>
-    <desc>TSN's flagship show providing news, highlights, analysis and interviews from the world of sports.</desc>
+  <programme start="20260425183000 -0400" stop="20260425190000 -0400" channel="sportsneteast.ca">
+    <title>Misplays of the Month</title>
+    <desc>A look at the month's top bloopers.</desc>
+  </programme>
+  <programme start="20260425190000 -0400" stop="20260425193000 -0400" channel="sportsneteast.ca">
+    <title>NHL Best of the Season Highlights</title>
+    <desc />
   </programme>
   <programme start="20260424193000 -0400" stop="20260424203000 -0400" channel="tsn1.ca">
     <title>The Pitch</title>
@@ -660,6 +656,10 @@
     <title>SC</title>
     <desc>The best and worst from the world of sports.</desc>
   </programme>
+  <programme start="20260425190000 -0400" stop="20260425213000 -0400" channel="tsn1.ca">
+    <title>Minnesota vs. PWHL Vancouver</title>
+    <desc>Ice hockey action from the women's pro league based in North America.</desc>
+  </programme>
   <programme start="20260424180000 -0400" stop="20260424202100 -0400" channel="tsn2.ca">
     <title>SC</title>
     <desc>The best and worst from the world of sports.</desc>
@@ -696,9 +696,9 @@
     <title>SC</title>
     <desc>The best and worst from the world of sports.</desc>
   </programme>
-  <programme start="20260424180000 -0400" stop="20260424190000 -0400" channel="tsn3.ca">
-    <title>NFL Draft Countdown</title>
-    <desc>Countdown to the start of the 2026 NFL draft. A look at the players whose lives are about to change as they enter the National Football League.</desc>
+  <programme start="20260425190000 -0400" stop="20260425210000 -0400" channel="tsn2.ca">
+    <title>Northern Super League Soccer</title>
+    <desc>From McMahon Stadium in Calgary, Alberta.</desc>
   </programme>
   <programme start="20260424190000 -0400" stop="20260424233000 -0400" channel="tsn3.ca">
     <title>2026 NFL Draft</title>
@@ -724,9 +724,13 @@
     <title>2026 NFL Draft</title>
     <desc>From Pittsburgh.</desc>
   </programme>
-  <programme start="20260424180000 -0400" stop="20260424190000 -0400" channel="tsn5.ca">
-    <title>SportsCentre</title>
-    <desc>TSN's flagship show providing news, highlights, analysis and interviews from the world of sports.</desc>
+  <programme start="20260425190000 -0400" stop="20260425193000 -0400" channel="tsn3.ca">
+    <title>SC</title>
+    <desc>The best and worst from the world of sports.</desc>
+  </programme>
+  <programme start="20260425190000 -0400" stop="20260425203000 -0400" channel="tsn3.ca">
+    <title>New York Knicks vs. Atlanta Hawks</title>
+    <desc>Eastern Conference First Round, Game 4.</desc>
   </programme>
   <programme start="20260424190000 -0400" stop="20260424213000 -0400" channel="tsn5.ca">
     <title>Boston Celtics vs. Philadelphia 76ers</title>
@@ -804,261 +808,81 @@
     <title>SC</title>
     <desc>The best and worst from the world of sports.</desc>
   </programme>
-  <programme start="20260424180000 -0400" stop="20260424193000 -0400" channel="tsn4.ca">
-    <title>SportsCentre</title>
-    <desc>TSN's flagship show providing news, highlights, analysis and interviews from the world of sports.</desc>
+  <programme start="20260425190000 -0400" stop="20260425213000 -0400" channel="tsn5.ca">
+    <title>Minnesota vs. PWHL Vancouver</title>
+    <desc>Ice hockey action from the women's pro league based in North America.</desc>
   </programme>
-  <programme start="20260424193000 -0400" stop="20260424220000 -0400" channel="tsn4.ca">
-    <title>NBA Basketball</title>
-    <desc>Professional basketball action from the NBA.</desc>
+  <programme start="20260425190000 -0400" stop="20260425213000 -0400" channel="tsn5.ca">
+    <title>NLL Lacrosse</title>
+    <desc>Action from the National Lacrosse League.</desc>
   </programme>
-  <programme start="20260424193000 -0400" stop="20260424200000 -0400" channel="tsn4.ca">
-    <title>SC</title>
-    <desc>The best and worst from the world of sports.</desc>
-  </programme>
-  <programme start="20260424200000 -0400" stop="20260424223000 -0400" channel="tsn4.ca">
-    <title>Los Angeles Lakers vs. Houston Rockets</title>
-    <desc>Western Conference First Round, Game 3.</desc>
-  </programme>
-  <programme start="20260424220000 -0400" stop="20260424223000 -0400" channel="tsn4.ca">
-    <title>SC</title>
-    <desc>The best and worst from the world of sports.</desc>
-  </programme>
-  <programme start="20260424223000 -0400" stop="20260425010000 -0400" channel="tsn4.ca">
-    <title>NBA Basketball</title>
-    <desc>Professional basketball action from the NBA.</desc>
-  </programme>
-  <programme start="20260424223000 -0400" stop="20260425010000 -0400" channel="tsn4.ca">
-    <title>San Antonio Spurs vs. Portland Trail Blazers</title>
-    <desc>Western Conference First Round, Game 3.</desc>
-  </programme>
-  <programme start="20260425010000 -0400" stop="20260425094500 -0400" channel="tsn4.ca">
-    <title>SportsCentre</title>
-    <desc>TSN's flagship show providing news, highlights, analysis and interviews from the world of sports.</desc>
-  </programme>
-  <programme start="20260425094500 -0400" stop="20260425121500 -0400" channel="tsn4.ca">
-    <title>Barcelona vs. Getafe</title>
-    <desc>From Coliseum Alfonso Perez Stadium in Getafe, Madrid, Spain.</desc>
-  </programme>
-  <programme start="20260425121500 -0400" stop="20260425123000 -0400" channel="tsn4.ca">
-    <title>SC</title>
-    <desc>The best and worst from the world of sports.</desc>
-  </programme>
-  <programme start="20260425123000 -0400" stop="20260425130000 -0400" channel="tsn4.ca">
-    <title>NBA Playoffs Pregame</title>
-    <desc>Pregame analysis of NBA playoff action.</desc>
-  </programme>
-  <programme start="20260425123000 -0400" stop="20260425133000 -0400" channel="tsn4.ca">
-    <title>SC</title>
-    <desc>Features the top 100 catches of all-time.</desc>
-  </programme>
-  <programme start="20260425130000 -0400" stop="20260425153000 -0400" channel="tsn4.ca">
-    <title>NBA Basketball</title>
-    <desc>Professional basketball action from the NBA.</desc>
-  </programme>
-  <programme start="20260425133000 -0400" stop="20260425153000 -0400" channel="tsn4.ca">
-    <title>SC</title>
-    <desc>The best and worst from the world of sports.</desc>
-  </programme>
-  <programme start="20260425153000 -0400" stop="20260425180000 -0400" channel="tsn4.ca">
-    <title>NBA Basketball</title>
-    <desc>Professional basketball action from the NBA.</desc>
-  </programme>
-  <programme start="20260425153000 -0400" stop="20260425180000 -0400" channel="tsn4.ca">
-    <title>Oklahoma City Thunder vs. Phoenix Suns</title>
-    <desc>Western Conference First Round, Game 3.</desc>
-  </programme>
-  <programme start="20260425180000 -0400" stop="20260425203000 -0400" channel="tsn4.ca">
-    <title>NBA Basketball</title>
-    <desc>Professional basketball action from the NBA.</desc>
-  </programme>
-  <programme start="20260425180000 -0400" stop="20260425203000 -0400" channel="tsn4.ca">
-    <title>New York Knicks vs. Atlanta Hawks</title>
-    <desc>Eastern Conference First Round, Game 4.</desc>
-  </programme>
-  <programme start="20260424180000 -0400" stop="20260424190000 -0400" channel="btsport1.uk">
-    <title>MLB Highlights</title>
-    <desc>Highlights from Major League Baseball. (23.04).</desc>
-  </programme>
-  <programme start="20260424190000 -0400" stop="20260424220000 -0400" channel="btsport1.uk">
-    <title>Live MLB: Twins @ Rays</title>
-    <desc>Action from Major League Baseball.</desc>
-  </programme>
-  <programme start="20260424220000 -0400" stop="20260424223000 -0400" channel="btsport1.uk">
-    <title>MLB Plays of the Week</title>
-    <desc>This weekly MLB highlights show showcases the most exciting plays from the past week's matches.</desc>
-  </programme>
-  <programme start="20260424220000 -0400" stop="20260424224500 -0400" channel="btsport1.uk">
-    <title>MX2: Trentino - Race 1</title>
-    <desc>FIM Motocross World Championship action from MX2 race one at the Crossodromo Ciclamino in Trentino, Italy.</desc>
-  </programme>
-  <programme start="20260424223000 -0400" stop="20260424230000 -0400" channel="btsport1.uk">
-    <title>MLB Epic Moments: A Panda Strikes</title>
-    <desc>MLB Epic Moments goes back to Game 1 of the 2012 World Series between the San Francisco Giants and Detroit Tigers.</desc>
-  </programme>
-  <programme start="20260424224500 -0400" stop="20260424233000 -0400" channel="btsport1.uk">
-    <title>MXGP: Trentino - Race 1</title>
-    <desc>FIM Motocross World Championship action from MXGP race one at the Crossodromo Ciclamino in Trentino, Italy.</desc>
-  </programme>
-  <programme start="20260424230000 -0400" stop="20260425000000 -0400" channel="btsport1.uk">
-    <title>Serie A: Napoli v Cremonese</title>
-    <desc>Football from Italy's top division.</desc>
-  </programme>
-  <programme start="20260424233000 -0400" stop="20260425001500 -0400" channel="btsport1.uk">
-    <title>MX2: Trentino - Race 2</title>
-    <desc>FIM Motocross World Championship action from MX2 race two at the Crossodromo Ciclamino in Trentino, Italy.</desc>
-  </programme>
-  <programme start="20260425000000 -0400" stop="20260425003000 -0400" channel="btsport1.uk">
-    <title>GP of Spain: The Inside Line</title>
-    <desc>Action, news and reactions from the fourth round of the 2026 MotoGP Season. Suzi Perry and the team are trackside at the Circuito de Jerez.</desc>
-  </programme>
-  <programme start="20260425001500 -0400" stop="20260425010000 -0400" channel="btsport1.uk">
-    <title>MXGP: Trentino - Race 2</title>
-    <desc>FIM Motocross World Championship action from MXGP race two at the Crossodromo Ciclamino in Trentino, Italy.</desc>
-  </programme>
-  <programme start="20260425003000 -0400" stop="20260425010000 -0400" channel="btsport1.uk">
-    <title>WRC - Islas Canarias</title>
-    <desc>Highlights from the World Rally Championship in the Islas Canarias.</desc>
-  </programme>
-  <programme start="20260425010000 -0400" stop="20260425020000 -0400" channel="btsport1.uk">
-    <title>Newcastle RB v Bristol Bears</title>
-    <desc>Action from the Gallagher PREM meeting between Newcastle Red Bulls and Bristol Bears.</desc>
-  </programme>
-  <programme start="20260425020000 -0400" stop="20260425060000 -0400" channel="btsport1.uk">
-    <title>T100 Triathlon World Tour</title>
-    <desc>The latest action from the T100 Triathlon World Tour.</desc>
-  </programme>
-  <programme start="20260425020000 -0400" stop="20260425060000 -0400" channel="btsport1.uk">
-    <title>Live: T100 Triathlon World Tour</title>
-    <desc>Coverage of the 2026 Singapore T100, held in the awe-inspiring Marina Bay. Brits Samuel Dickinson, Lucy Charles-Barclay and India Lee are set to compete.</desc>
-  </programme>
-  <programme start="20260425060000 -0400" stop="20260425100000 -0400" channel="btsport1.uk">
-    <title>Live PL: Fulham v Aston Villa</title>
-    <desc>Action from the Premier League as Fulham host Aston Villa at Craven Cottage.</desc>
-  </programme>
-  <programme start="20260425100000 -0400" stop="20260425103000 -0400" channel="btsport1.uk">
-    <title>Live: Xtra Time</title>
-    <desc>Post-match reaction and analysis from the Premier League clash between Fulham and Aston Villa.</desc>
-  </programme>
-  <programme start="20260425103000 -0400" stop="20260425110000 -0400" channel="btsport1.uk">
-    <title>Roll The Tape</title>
-    <desc>The latest episode of Roll The Tape.</desc>
-  </programme>
-  <programme start="20260425110000 -0400" stop="20260425150000 -0400" channel="btsport1.uk">
-    <title>Live FA Cup Man City v Southampton</title>
-    <desc>Championship side Southampton look to complete a remarkable run to the Emirates FA Cup final as they face-off against seven-time winners Manchester City at Wembley.</desc>
-  </programme>
-  <programme start="20260425150000 -0400" stop="20260425170000 -0400" channel="btsport1.uk">
-    <title>Live Snooker: World Championship</title>
-    <desc>Snooker action from the World Championship.</desc>
-  </programme>
-  <programme start="20260425170000 -0400" stop="20260425173000 -0400" channel="btsport1.uk">
-    <title>MotoGP: Spain Sprint Race</title>
-    <desc>Action from MotoGP.</desc>
-  </programme>
-  <programme start="20260425173000 -0400" stop="20260425180000 -0400" channel="btsport1.uk">
-    <title>WRC - Islas Canarias</title>
-    <desc>Highlights from the World Rally Championship in the Islas Canarias. 2/3.</desc>
-  </programme>
-  <programme start="20260425180000 -0400" stop="20260425200000 -0400" channel="btsport1.uk">
-    <title>Live: UFC Fight Night Prelims</title>
-    <desc>Action from the UFC Fight Night Prelims in Las Vegas ahead of the welterweight fight between Sean Brady and Joaquin Buckley.</desc>
-  </programme>
-  <programme start="20260424140000 -0400" stop="20260424190000 -0400" channel="skysportsmix.uk">
-    <title>Live NFL Draft Kick-off Show</title>
-    <desc>As the 2026 NFL Draft heads into its second day, look ahead at the picks from the latest rounds, with discussion of the opening day.</desc>
-  </programme>
-  <programme start="20260424190000 -0400" stop="20260424230000 -0400" channel="skysportsmix.uk">
-    <title>Live NFL Draft Day 2</title>
+  <programme start="20260424190000 -0400" stop="20260424230000 -0400" channel="skysportsaction.uk">
+    <title>NFL Draft LIVE</title>
     <desc>Day two as the 2026 NFL Draft continues from Pittsburgh. Following the first round of selections yesterday, today will see the second and third rounds drafted.</desc>
   </programme>
-  <programme start="20260424230000 -0400" stop="20260424233000 -0400" channel="skysportsmix.uk">
-    <title>One Championship Weekly Magazine</title>
-    <desc>The weekly show looking back at the best performances of ONE Championship's biggest stars ahead of highly anticipated upcoming bouts.</desc>
+  <programme start="20260424230000 -0400" stop="20260424231500 -0400" channel="skysportsaction.uk">
+    <title>Super League Rugby</title>
+    <desc>Leigh Leopards host Leeds Rhinos in the Betfred Super League.</desc>
   </programme>
-  <programme start="20260424233000 -0400" stop="20260424234500 -0400" channel="skysportsmix.uk">
-    <title>PL Greatest Games:M City/L'Pool 13</title>
-    <desc>Relive a Premier League classic, as Man City face Liverpool back in 2013. City needed three points to close the gap at the top to Man Utd, while the Reds were chasing a top four spot.</desc>
+  <programme start="20260424231500 -0400" stop="20260424233000 -0400" channel="skysportsaction.uk">
+    <title>Super League Rugby</title>
+    <desc>St Helens host Warrington Wolves in the Betfred Super League.</desc>
   </programme>
-  <programme start="20260424234500 -0400" stop="20260425000000 -0400" channel="skysportsmix.uk">
-    <title>EFL 17/18: Cardiff v Wolves</title>
-    <desc>A chance to relive a classic match from the EFL. Here, Cardiff City host Wolves at the Cardiff City Stadium in 2018 in a match that had a dramatic ending.</desc>
+  <programme start="20260424233000 -0400" stop="20260424234500 -0400" channel="skysportsaction.uk">
+    <title>Super League Rugby</title>
+    <desc>Leigh Leopards join Salford Red Devils during the Betfred Super League's Magic Weekend - as Adrian Lam pits his side against Paul Rowley's at Elland Road.</desc>
   </programme>
-  <programme start="20260425000000 -0400" stop="20260425001500 -0400" channel="skysportsmix.uk">
-    <title>EFL 17/18: Derby County v Leeds</title>
-    <desc>A chance to relive a classic match from the EFL. Here, Derby County take on Marcelo Bielsa's Leeds United at Pride Park in a Championship match that saw five goals.</desc>
+  <programme start="20260424234500 -0400" stop="20260425000000 -0400" channel="skysportsaction.uk">
+    <title>NFL Football</title>
+    <desc>Bitesize highlights from a divisional round match-up during the 2025 NFL playoffs.</desc>
   </programme>
-  <programme start="20260425001500 -0400" stop="20260425003000 -0400" channel="skysportsmix.uk">
-    <title>EFL 17/18: West Brom v Leeds Utd</title>
-    <desc>A chance to relive a classic match from the EFL. Here, West Brom take on Leeds United at The Hawthorns in a high-scoring Championship match that saw one side dominate.</desc>
+  <programme start="20260425000000 -0400" stop="20260425001500 -0400" channel="skysportsaction.uk">
+    <title>NFL Football</title>
+    <desc>Action from the NFL, America's top professional American football league.</desc>
   </programme>
-  <programme start="20260425003000 -0400" stop="20260425004500 -0400" channel="skysportsmix.uk">
-    <title>EFL 17/18: A. Villa v Birmingham</title>
-    <desc>A chance to relive a classic match from the EFL. Here, Aston Villa host Birmingham City at Villa Park in a high-scoring Second City derby.</desc>
+  <programme start="20260425001500 -0400" stop="20260425003000 -0400" channel="skysportsaction.uk">
+    <title>NFL Football</title>
+    <desc>Bitesize highlights from the NFC Championship game from the 2025 NFL playoffs.</desc>
   </programme>
-  <programme start="20260425004500 -0400" stop="20260425010000 -0400" channel="skysportsmix.uk">
-    <title>EFL 17/18: Aston Villa v N. Forest</title>
-    <desc>A chance to relive a classic match from the EFL. Here, Aston Villa host Nottingham Forest at Villa Park in an enthralling, end-to-end encounter that saw 10 goals.</desc>
+  <programme start="20260425003000 -0400" stop="20260425004500 -0400" channel="skysportsaction.uk">
+    <title>NFL Football</title>
+    <desc>Bitesize highlights from a wild-card contest during the NFL playoffs.</desc>
   </programme>
-  <programme start="20260425010000 -0400" stop="20260425020000 -0400" channel="skysportsmix.uk">
-    <title>WTA Final: Rouen</title>
-    <desc>A women's singles champion is crowned in the final of WTA Rouen.</desc>
+  <programme start="20260425004500 -0400" stop="20260425010000 -0400" channel="skysportsaction.uk">
+    <title>NFL Football</title>
+    <desc>Bitesize highlights from week 10 of the 2025 NFL season.</desc>
   </programme>
-  <programme start="20260425020000 -0400" stop="20260425044500 -0400" channel="skysportsmix.uk">
-    <title>S/Lge: York v Toulouse</title>
-    <desc>York Knights clash with Toulouse Olympique in the Betfred Super League.</desc>
+  <programme start="20260425010000 -0400" stop="20260425040500 -0400" channel="skysportsaction.uk">
+    <title>Super League Rugby</title>
+    <desc>St Helens play host to Leigh Leopards in the Betfred Super League.</desc>
   </programme>
-  <programme start="20260425044500 -0400" stop="20260425050000 -0400" channel="skysportsmix.uk">
-    <title>EFL 18/19: Aston Villa v Leeds Utd</title>
-    <desc>In the dying embers of an 2018-19 Sky Bet Championship clash at Villa Park, Kemar Roofe's last-gasp goal sealed a famous Leeds comeback having trailed 2-0 to Aston Villa.</desc>
+  <programme start="20260425040500 -0400" stop="20260425081500 -0400" channel="skysportsaction.uk">
+    <title>NRL LIVE</title>
+    <desc>Coverage of all the action from the Australian National Rugby League competition.</desc>
   </programme>
-  <programme start="20260425050000 -0400" stop="20260425051500 -0400" channel="skysportsmix.uk">
-    <title>EFL 16/17:Birmingham v Aston Villa</title>
-    <desc>A chance to relive some classic action from the English Football League. Here, local rivals Birmingham City and Aston Villa clash in the Sky Bet Championship at St Andrew's in October 2016.</desc>
+  <programme start="20260425081500 -0400" stop="20260425083000 -0400" channel="skysportsaction.uk">
+    <title>NFL Football</title>
+    <desc>Action from the NFL, America's top professional American football league.</desc>
   </programme>
-  <programme start="20260425051500 -0400" stop="20260425053000 -0400" channel="skysportsmix.uk">
-    <title>EFL 09/10: Sheff Utd v Sheff Weds</title>
-    <desc>A chance to relive a classic clash from the English Football League. Here, Sheffield United and Sheffield Wednesday meet in a thrilling Steel City derby in September 2009.</desc>
+  <programme start="20260425083000 -0400" stop="20260425090000 -0400" channel="skysportsaction.uk">
+    <title>NFL Football</title>
+    <desc>Bitesize highlights from a match-up during week 16 of the 2025 NFL season.</desc>
   </programme>
-  <programme start="20260425053000 -0400" stop="20260425063000 -0400" channel="skysportsmix.uk">
-    <title>Ladies European Tour Golf Hlts</title>
-    <desc>Tournament highlights from the Joburg Ladies Open, a Ladies European Event held at Randpark Golf Club. England's Mimi Rhodes clinched victory this time a year ago.</desc>
+  <programme start="20260425090000 -0400" stop="20260425100000 -0400" channel="skysportsaction.uk">
+    <title>NFL Football</title>
+    <desc>A week 18 match-up from the 2025 NFL.</desc>
   </programme>
-  <programme start="20260425063000 -0400" stop="20260425103000 -0400" channel="skysportsmix.uk">
-    <title>Live Ladies European Tour Golf</title>
-    <desc>Day three of the Investec South Africa Women's Open - a Ladies European Tour event at Royal Cape Golf Club. French golfer Perrine Delacour scooped victory at this event last season.</desc>
+  <programme start="20260425100000 -0400" stop="20260425190000 -0400" channel="skysportsaction.uk">
+    <title>NFL Draft LIVE</title>
+    <desc>Live coverage of the NFL Draft, as the teams select new rookie players for the upcoming season.</desc>
   </programme>
-  <programme start="20260425103000 -0400" stop="20260425104000 -0400" channel="skysportsmix.uk">
-    <title>Darts Gold: PL Final 2013</title>
-    <desc>Michael van Gerwen faces Phil Taylor in the 2013 Premier League Darts final at the O2. The Dutchman saw off James Wade in the semi-finals, while Taylor took down Raymond van Barneveld.</desc>
+  <programme start="20260425190000 -0400" stop="20260425191500 -0400" channel="skysportsaction.uk">
+    <title>NFL Football</title>
+    <desc>Action from the NFL, America's top professional American football league.</desc>
   </programme>
-  <programme start="20260425103000 -0400" stop="20260425104000 -0400" channel="skysportsmix.uk">
-    <title>Darts Gold-Van Gerwen v Anderson</title>
-    <desc>A look back at some classic darts action. Here, Michael van Gerwen takes on Gary Anderson in the third round of the 2014 PDC World Darts Championship.</desc>
-  </programme>
-  <programme start="20260425104000 -0400" stop="20260425105500 -0400" channel="skysportsmix.uk">
-    <title>S/Lge 2024 Highlights</title>
-    <desc>Warrington Wolves host Hull FC in the Betfred Super League. The Black and Whites fell on home soil previously to the Rhinos, while Warrington also tasted defeat to the Red Devils. (03.05).</desc>
-  </programme>
-  <programme start="20260425105500 -0400" stop="20260425123000 -0400" channel="skysportsmix.uk">
-    <title>Live: Netball Super League</title>
-    <desc>London Mavericks meet AO Manchester Thunder in the Netball Super League.</desc>
-  </programme>
-  <programme start="20260425123000 -0400" stop="20260425143000 -0400" channel="skysportsmix.uk">
-    <title>Live B'Liga: Hamburg v Hoffenheim</title>
-    <desc>A contest from the German Bundesliga.</desc>
-  </programme>
-  <programme start="20260425143000 -0400" stop="20260425150000 -0400" channel="skysportsmix.uk">
-    <title>MVG v Wade: Premier Lge 2015</title>
-    <desc>Revisit a classic Premier League Darts contest from the Motorpoint Arena where Michael Van Gerwen dismantled James Wade in 2015 with an average of 116.90. Contains flashing images.</desc>
-  </programme>
-  <programme start="20260425150000 -0400" stop="20260425213000 -0400" channel="skysportsmix.uk">
-    <title>Live NBA Playoffs</title>
-    <desc>A match-up from the NBA playoffs.</desc>
-  </programme>
-  <programme start="20260424170000 -0400" stop="20260424191500 -0400" channel="skysportsf1.uk">
-    <title>Formula 1</title>
-    <desc>Featuring all the action and highlights from Formula 1 racing.</desc>
+  <programme start="20260425191500 -0400" stop="20260425193000 -0400" channel="skysportsaction.uk">
+    <title>NFL Football</title>
+    <desc>Bitesize highlights from the NFC Championship game from the 2025 NFL playoffs.</desc>
   </programme>
   <programme start="20260424191500 -0400" stop="20260424194500 -0400" channel="skysportsf1.uk">
     <title>Ted's Notebook</title>
@@ -1232,165 +1056,9 @@
     <title>Ted's Notebook</title>
     <desc>Ted Kravitz gives his thoughts.</desc>
   </programme>
-  <programme start="20260425180000 -0400" stop="20260425190000 -0400" channel="skysportsf1.uk">
+  <programme start="20260425180000 -0400" stop="20260425200000 -0400" channel="skysportsf1.uk">
     <title>Ferrari Challenge Europe</title>
     <desc>Coverage of motor racing action.</desc>
-  </programme>
-  <programme start="20260424183000 -0400" stop="20260424184500 -0400" channel="skysportsfootball.uk">
-    <title>EFL Greatest</title>
-    <desc>Relive some classic action from the English Football League. Here, Birmingham City take on Middlesbrough at St Andrew's in a four-goal thriller in the 2015-16 season.</desc>
-  </programme>
-  <programme start="20260424184500 -0400" stop="20260424190000 -0400" channel="skysportsfootball.uk">
-    <title>EFL Greatest</title>
-    <desc>A look back at some classic matches from the English Football League. Here, Middlesbrough take on Brighton and Hove Albion in a tense Championship promotion decider in May 2016.</desc>
-  </programme>
-  <programme start="20260424190000 -0400" stop="20260424210000 -0400" channel="skysportsfootball.uk">
-    <title>EFL Cup Football</title>
-    <desc>A chance to relive a classic League Cup final from years gone by, as Manchester United and Southampton meet in the 2016-17 campaign in a game packed with goals and drama.</desc>
-  </programme>
-  <programme start="20260424210000 -0400" stop="20260424213000 -0400" channel="skysportsfootball.uk">
-    <title>There's Only One Sauzee</title>
-    <desc>Hibernian legend Franck Sauzée sits down with Luke Shanley to reflect on his time in Leith as a Hibs player and manager, and recollect his Champions League success with Marseille in 1993.</desc>
-  </programme>
-  <programme start="20260424213000 -0400" stop="20260424220000 -0400" channel="skysportsfootball.uk">
-    <title>Dundee United: One and Only Time</title>
-    <desc />
-  </programme>
-  <programme start="20260424220000 -0400" stop="20260424221500 -0400" channel="skysportsfootball.uk">
-    <title>EFL Greatest</title>
-    <desc>A look back at some classic matches from the English Football League. Here, Aston Villa play Nottingham Forest in a thrilling draw in September 2016 in the Sky Bet Championship.</desc>
-  </programme>
-  <programme start="20260424221500 -0400" stop="20260424223000 -0400" channel="skysportsfootball.uk">
-    <title>EFL Greatest</title>
-    <desc>Relive some classic matches in English football. Here, Cardiff City face Bristol City in a Severnside derby in the Sky Bet Championship, in what was Neil Warnock's first game at Cardiff.</desc>
-  </programme>
-  <programme start="20260424223000 -0400" stop="20260424224500 -0400" channel="skysportsfootball.uk">
-    <title>EFL Greatest</title>
-    <desc>Relive some classic matches in English football. Here, Burton Albion face Birmingham City in 2016 in the Sky Bet Championship, in what was the sides' first competitive meeting.</desc>
-  </programme>
-  <programme start="20260424224500 -0400" stop="20260424230000 -0400" channel="skysportsfootball.uk">
-    <title>EFL Greatest</title>
-    <desc>Relive classic matches from the English Football League.</desc>
-  </programme>
-  <programme start="20260424230000 -0400" stop="20260425000000 -0400" channel="skysportsfootball.uk">
-    <title>EFL</title>
-    <desc>Revisit the 2022-2023 Sky Bet Championship campaign - a season that saw Vincent Kompany's Burnley secure their Premier League return alongside Sheffield United and Luton Town.</desc>
-  </programme>
-  <programme start="20260425000000 -0400" stop="20260425003000 -0400" channel="skysportsfootball.uk">
-    <title>Best Goals of the Carabao Cup</title>
-    <desc>From the Abbey all the way to Wembley - this season's Carabao Cup has thrown up a host spectacular goals. Look back at the 2022-23 competition's finest strikes.</desc>
-  </programme>
-  <programme start="20260425003000 -0400" stop="20260425010000 -0400" channel="skysportsfootball.uk">
-    <title>EFL Trophy Football</title>
-    <desc>The moment to shine at Wembley has arrived for Bolton Wanderers and Plymouth Argyle, as the pair turn their attentions away from promotion to the final of the 2022-23 EFL Trophy.</desc>
-  </programme>
-  <programme start="20260425010000 -0400" stop="20260425011500 -0400" channel="skysportsfootball.uk">
-    <title>EFL</title>
-    <desc>Action from the Sky Bet Championship.</desc>
-  </programme>
-  <programme start="20260425011500 -0400" stop="20260425031500 -0400" channel="skysportsfootball.uk">
-    <title>EFL Cup Football</title>
-    <desc>Coverage from the annual knockout football competition organised by the English Football League.</desc>
-  </programme>
-  <programme start="20260425031500 -0400" stop="20260425041500 -0400" channel="skysportsfootball.uk">
-    <title>Scottish Premiership Football</title>
-    <desc>Coverage of a fixture from top division of the Scottish Professional Football League.</desc>
-  </programme>
-  <programme start="20260425041500 -0400" stop="20260425043000 -0400" channel="skysportsfootball.uk">
-    <title>EFL Greatest</title>
-    <desc>Relive some classic action from the English Football League. Here, Nottingham Forest take on Newcastle United at the City Ground in a game that saw two red cards and two penalties.</desc>
-  </programme>
-  <programme start="20260425043000 -0400" stop="20260425044500 -0400" channel="skysportsfootball.uk">
-    <title>EFL</title>
-    <desc>Action from Sky Bet League Two.</desc>
-  </programme>
-  <programme start="20260425044500 -0400" stop="20260425050000 -0400" channel="skysportsfootball.uk">
-    <title>EFL</title>
-    <desc>Action from the Sky Bet Championship.</desc>
-  </programme>
-  <programme start="20260425050000 -0400" stop="20260425060000 -0400" channel="skysportsfootball.uk">
-    <title>Saturday Social LIVE</title>
-    <desc>A new Saturday morning show providing a flavour of footballers life off the pitch as well as on it. Hear from YouTubers, musicians and others, watch behind-the-scenes features and more.</desc>
-  </programme>
-  <programme start="20260425060000 -0400" stop="20260425100000 -0400" channel="skysportsfootball.uk">
-    <title>EFL LIVE</title>
-    <desc>Action from the Sky Bet Championship.</desc>
-  </programme>
-  <programme start="20260425100000 -0400" stop="20260425120000 -0400" channel="skysportsfootball.uk">
-    <title>Gillette Labs Soccer Saturday LIVE</title>
-    <desc>Studio guests look over all the afternoon's football from across the country, with analysis of the scores, results and stories as they come in.</desc>
-  </programme>
-  <programme start="20260425120000 -0400" stop="20260425150000 -0400" channel="skysportsfootball.uk">
-    <title>Scottish Premiership Football LIVE</title>
-    <desc>Coverage of a fixture from top division of the Scottish Professional Football League.</desc>
-  </programme>
-  <programme start="20260425150000 -0400" stop="20260425184500 -0400" channel="skysportsfootball.uk">
-    <title>EFL</title>
-    <desc>Action from the Sky Bet Championship.</desc>
-  </programme>
-  <programme start="20260424140000 -0400" stop="20260424190000 -0400" channel="skysportsaction.uk">
-    <title>NFL Draft LIVE</title>
-    <desc>As the 2026 NFL Draft heads into its second day, look ahead at the picks from the latest rounds, with discussion of the opening day.</desc>
-  </programme>
-  <programme start="20260424190000 -0400" stop="20260424230000 -0400" channel="skysportsaction.uk">
-    <title>NFL Draft LIVE</title>
-    <desc>Day two as the 2026 NFL Draft continues from Pittsburgh. Following the first round of selections yesterday, today will see the second and third rounds drafted.</desc>
-  </programme>
-  <programme start="20260424230000 -0400" stop="20260424231500 -0400" channel="skysportsaction.uk">
-    <title>Super League Rugby</title>
-    <desc>Leigh Leopards host Leeds Rhinos in the Betfred Super League.</desc>
-  </programme>
-  <programme start="20260424231500 -0400" stop="20260424233000 -0400" channel="skysportsaction.uk">
-    <title>Super League Rugby</title>
-    <desc>St Helens host Warrington Wolves in the Betfred Super League.</desc>
-  </programme>
-  <programme start="20260424233000 -0400" stop="20260424234500 -0400" channel="skysportsaction.uk">
-    <title>Super League Rugby</title>
-    <desc>Leigh Leopards join Salford Red Devils during the Betfred Super League's Magic Weekend - as Adrian Lam pits his side against Paul Rowley's at Elland Road.</desc>
-  </programme>
-  <programme start="20260424234500 -0400" stop="20260425000000 -0400" channel="skysportsaction.uk">
-    <title>NFL Football</title>
-    <desc>Bitesize highlights from a divisional round match-up during the 2025 NFL playoffs.</desc>
-  </programme>
-  <programme start="20260425000000 -0400" stop="20260425001500 -0400" channel="skysportsaction.uk">
-    <title>NFL Football</title>
-    <desc>Action from the NFL, America's top professional American football league.</desc>
-  </programme>
-  <programme start="20260425001500 -0400" stop="20260425003000 -0400" channel="skysportsaction.uk">
-    <title>NFL Football</title>
-    <desc>Bitesize highlights from the NFC Championship game from the 2025 NFL playoffs.</desc>
-  </programme>
-  <programme start="20260425003000 -0400" stop="20260425004500 -0400" channel="skysportsaction.uk">
-    <title>NFL Football</title>
-    <desc>Bitesize highlights from a wild-card contest during the NFL playoffs.</desc>
-  </programme>
-  <programme start="20260425004500 -0400" stop="20260425010000 -0400" channel="skysportsaction.uk">
-    <title>NFL Football</title>
-    <desc>Bitesize highlights from week 10 of the 2025 NFL season.</desc>
-  </programme>
-  <programme start="20260425010000 -0400" stop="20260425040500 -0400" channel="skysportsaction.uk">
-    <title>Super League Rugby</title>
-    <desc>St Helens play host to Leigh Leopards in the Betfred Super League.</desc>
-  </programme>
-  <programme start="20260425040500 -0400" stop="20260425081500 -0400" channel="skysportsaction.uk">
-    <title>NRL LIVE</title>
-    <desc>Coverage of all the action from the Australian National Rugby League competition.</desc>
-  </programme>
-  <programme start="20260425081500 -0400" stop="20260425083000 -0400" channel="skysportsaction.uk">
-    <title>NFL Football</title>
-    <desc>Action from the NFL, America's top professional American football league.</desc>
-  </programme>
-  <programme start="20260425083000 -0400" stop="20260425090000 -0400" channel="skysportsaction.uk">
-    <title>NFL Football</title>
-    <desc>Bitesize highlights from a match-up during week 16 of the 2025 NFL season.</desc>
-  </programme>
-  <programme start="20260425090000 -0400" stop="20260425100000 -0400" channel="skysportsaction.uk">
-    <title>NFL Football</title>
-    <desc>A week 18 match-up from the 2025 NFL.</desc>
-  </programme>
-  <programme start="20260425100000 -0400" stop="20260425190000 -0400" channel="skysportsaction.uk">
-    <title>NFL Draft LIVE</title>
-    <desc>Live coverage of the NFL Draft, as the teams select new rookie players for the upcoming season.</desc>
   </programme>
   <programme start="20260424180000 -0400" stop="20260424200000 -0400" channel="skysportsgolf.uk">
     <title>Chevron Championship, LPGA Tour Golf LIVE</title>
@@ -1452,13 +1120,97 @@
     <title>Hall or Nothing: Georgia's Story</title>
     <desc>In 2018, Georgia Hall became the first home champion of the Women's British Open in nine years, her very first Tour win. This documentary presents her remarkable journey in the sport.</desc>
   </programme>
-  <programme start="20260424183000 -0400" stop="20260424190000 -0400" channel="skysportspremiereleague.uk">
-    <title>Netbusters</title>
-    <desc>Relive the action from the Premier League in a unique way with fast-paced highlights using alternative angles, featuring every goal from every game.</desc>
+  <programme start="20260425190000 -0400" stop="20260425200000 -0400" channel="skysportsgolf.uk">
+    <title>Final Cut</title>
+    <desc>The Long Game: A new documentary series going behind the scenes of golf's Staysure Legends Tour, including exclusive interviews, unparalleled access and no filters.</desc>
   </programme>
-  <programme start="20260424190000 -0400" stop="20260424193000 -0400" channel="skysportspremiereleague.uk">
-    <title>FNF</title>
-    <desc>Sunderland v Nottingham Forest. Highlights of the Premier League match at the Stadium of Light.</desc>
+  <programme start="20260424190000 -0400" stop="20260424230000 -0400" channel="skysportsmix.uk">
+    <title>Live NFL Draft Day 2</title>
+    <desc>Day two as the 2026 NFL Draft continues from Pittsburgh. Following the first round of selections yesterday, today will see the second and third rounds drafted.</desc>
+  </programme>
+  <programme start="20260424230000 -0400" stop="20260424233000 -0400" channel="skysportsmix.uk">
+    <title>One Championship Weekly Magazine</title>
+    <desc>The weekly show looking back at the best performances of ONE Championship's biggest stars ahead of highly anticipated upcoming bouts.</desc>
+  </programme>
+  <programme start="20260424233000 -0400" stop="20260424234500 -0400" channel="skysportsmix.uk">
+    <title>PL Greatest Games:M City/L'Pool 13</title>
+    <desc>Relive a Premier League classic, as Man City face Liverpool back in 2013. City needed three points to close the gap at the top to Man Utd, while the Reds were chasing a top four spot.</desc>
+  </programme>
+  <programme start="20260424234500 -0400" stop="20260425000000 -0400" channel="skysportsmix.uk">
+    <title>EFL 17/18: Cardiff v Wolves</title>
+    <desc>A chance to relive a classic match from the EFL. Here, Cardiff City host Wolves at the Cardiff City Stadium in 2018 in a match that had a dramatic ending.</desc>
+  </programme>
+  <programme start="20260425000000 -0400" stop="20260425001500 -0400" channel="skysportsmix.uk">
+    <title>EFL 17/18: Derby County v Leeds</title>
+    <desc>A chance to relive a classic match from the EFL. Here, Derby County take on Marcelo Bielsa's Leeds United at Pride Park in a Championship match that saw five goals.</desc>
+  </programme>
+  <programme start="20260425001500 -0400" stop="20260425003000 -0400" channel="skysportsmix.uk">
+    <title>EFL 17/18: West Brom v Leeds Utd</title>
+    <desc>A chance to relive a classic match from the EFL. Here, West Brom take on Leeds United at The Hawthorns in a high-scoring Championship match that saw one side dominate.</desc>
+  </programme>
+  <programme start="20260425003000 -0400" stop="20260425004500 -0400" channel="skysportsmix.uk">
+    <title>EFL 17/18: A. Villa v Birmingham</title>
+    <desc>A chance to relive a classic match from the EFL. Here, Aston Villa host Birmingham City at Villa Park in a high-scoring Second City derby.</desc>
+  </programme>
+  <programme start="20260425004500 -0400" stop="20260425010000 -0400" channel="skysportsmix.uk">
+    <title>EFL 17/18: Aston Villa v N. Forest</title>
+    <desc>A chance to relive a classic match from the EFL. Here, Aston Villa host Nottingham Forest at Villa Park in an enthralling, end-to-end encounter that saw 10 goals.</desc>
+  </programme>
+  <programme start="20260425010000 -0400" stop="20260425020000 -0400" channel="skysportsmix.uk">
+    <title>WTA Final: Rouen</title>
+    <desc>A women's singles champion is crowned in the final of WTA Rouen.</desc>
+  </programme>
+  <programme start="20260425020000 -0400" stop="20260425044500 -0400" channel="skysportsmix.uk">
+    <title>S/Lge: York v Toulouse</title>
+    <desc>York Knights clash with Toulouse Olympique in the Betfred Super League.</desc>
+  </programme>
+  <programme start="20260425044500 -0400" stop="20260425050000 -0400" channel="skysportsmix.uk">
+    <title>EFL 18/19: Aston Villa v Leeds Utd</title>
+    <desc>In the dying embers of an 2018-19 Sky Bet Championship clash at Villa Park, Kemar Roofe's last-gasp goal sealed a famous Leeds comeback having trailed 2-0 to Aston Villa.</desc>
+  </programme>
+  <programme start="20260425050000 -0400" stop="20260425051500 -0400" channel="skysportsmix.uk">
+    <title>EFL 16/17:Birmingham v Aston Villa</title>
+    <desc>A chance to relive some classic action from the English Football League. Here, local rivals Birmingham City and Aston Villa clash in the Sky Bet Championship at St Andrew's in October 2016.</desc>
+  </programme>
+  <programme start="20260425051500 -0400" stop="20260425053000 -0400" channel="skysportsmix.uk">
+    <title>EFL 09/10: Sheff Utd v Sheff Weds</title>
+    <desc>A chance to relive a classic clash from the English Football League. Here, Sheffield United and Sheffield Wednesday meet in a thrilling Steel City derby in September 2009.</desc>
+  </programme>
+  <programme start="20260425053000 -0400" stop="20260425063000 -0400" channel="skysportsmix.uk">
+    <title>Ladies European Tour Golf Hlts</title>
+    <desc>Tournament highlights from the Joburg Ladies Open, a Ladies European Event held at Randpark Golf Club. England's Mimi Rhodes clinched victory this time a year ago.</desc>
+  </programme>
+  <programme start="20260425063000 -0400" stop="20260425103000 -0400" channel="skysportsmix.uk">
+    <title>Live Ladies European Tour Golf</title>
+    <desc>Day three of the Investec South Africa Women's Open - a Ladies European Tour event at Royal Cape Golf Club. French golfer Perrine Delacour scooped victory at this event last season.</desc>
+  </programme>
+  <programme start="20260425103000 -0400" stop="20260425104000 -0400" channel="skysportsmix.uk">
+    <title>Darts Gold: PL Final 2013</title>
+    <desc>Michael van Gerwen faces Phil Taylor in the 2013 Premier League Darts final at the O2. The Dutchman saw off James Wade in the semi-finals, while Taylor took down Raymond van Barneveld.</desc>
+  </programme>
+  <programme start="20260425103000 -0400" stop="20260425104000 -0400" channel="skysportsmix.uk">
+    <title>Darts Gold-Van Gerwen v Anderson</title>
+    <desc>A look back at some classic darts action. Here, Michael van Gerwen takes on Gary Anderson in the third round of the 2014 PDC World Darts Championship.</desc>
+  </programme>
+  <programme start="20260425104000 -0400" stop="20260425105500 -0400" channel="skysportsmix.uk">
+    <title>S/Lge 2024 Highlights</title>
+    <desc>Warrington Wolves host Hull FC in the Betfred Super League. The Black and Whites fell on home soil previously to the Rhinos, while Warrington also tasted defeat to the Red Devils. (03.05).</desc>
+  </programme>
+  <programme start="20260425105500 -0400" stop="20260425123000 -0400" channel="skysportsmix.uk">
+    <title>Live: Netball Super League</title>
+    <desc>London Mavericks meet AO Manchester Thunder in the Netball Super League.</desc>
+  </programme>
+  <programme start="20260425123000 -0400" stop="20260425143000 -0400" channel="skysportsmix.uk">
+    <title>Live B'Liga: Hamburg v Hoffenheim</title>
+    <desc>A contest from the German Bundesliga.</desc>
+  </programme>
+  <programme start="20260425143000 -0400" stop="20260425150000 -0400" channel="skysportsmix.uk">
+    <title>MVG v Wade: Premier Lge 2015</title>
+    <desc>Revisit a classic Premier League Darts contest from the Motorpoint Arena where Michael Van Gerwen dismantled James Wade in 2015 with an average of 116.90. Contains flashing images.</desc>
+  </programme>
+  <programme start="20260425150000 -0400" stop="20260425213000 -0400" channel="skysportsmix.uk">
+    <title>Live NBA Playoffs</title>
+    <desc>A match-up from the NBA playoffs.</desc>
   </programme>
   <programme start="20260424193000 -0400" stop="20260424200000 -0400" channel="skysportspremiereleague.uk">
     <title>Premier League Stories</title>
@@ -1572,6 +1324,250 @@
     <title>Premier League Highlights</title>
     <desc>West Ham United v Everton.</desc>
   </programme>
+  <programme start="20260425190000 -0400" stop="20260425193000 -0400" channel="skysportspremiereleague.uk">
+    <title>SNF</title>
+    <desc>Arsenal V Newcastle United in the Premier League.</desc>
+  </programme>
+  <programme start="20260424193000 -0400" stop="20260424220000 -0400" channel="tsn4.ca">
+    <title>NBA Basketball</title>
+    <desc>Professional basketball action from the NBA.</desc>
+  </programme>
+  <programme start="20260424193000 -0400" stop="20260424200000 -0400" channel="tsn4.ca">
+    <title>SC</title>
+    <desc>The best and worst from the world of sports.</desc>
+  </programme>
+  <programme start="20260424200000 -0400" stop="20260424223000 -0400" channel="tsn4.ca">
+    <title>Los Angeles Lakers vs. Houston Rockets</title>
+    <desc>Western Conference First Round, Game 3.</desc>
+  </programme>
+  <programme start="20260424220000 -0400" stop="20260424223000 -0400" channel="tsn4.ca">
+    <title>SC</title>
+    <desc>The best and worst from the world of sports.</desc>
+  </programme>
+  <programme start="20260424223000 -0400" stop="20260425010000 -0400" channel="tsn4.ca">
+    <title>NBA Basketball</title>
+    <desc>Professional basketball action from the NBA.</desc>
+  </programme>
+  <programme start="20260424223000 -0400" stop="20260425010000 -0400" channel="tsn4.ca">
+    <title>San Antonio Spurs vs. Portland Trail Blazers</title>
+    <desc>Western Conference First Round, Game 3.</desc>
+  </programme>
+  <programme start="20260425010000 -0400" stop="20260425094500 -0400" channel="tsn4.ca">
+    <title>SportsCentre</title>
+    <desc>TSN's flagship show providing news, highlights, analysis and interviews from the world of sports.</desc>
+  </programme>
+  <programme start="20260425094500 -0400" stop="20260425121500 -0400" channel="tsn4.ca">
+    <title>Barcelona vs. Getafe</title>
+    <desc>From Coliseum Alfonso Perez Stadium in Getafe, Madrid, Spain.</desc>
+  </programme>
+  <programme start="20260425121500 -0400" stop="20260425123000 -0400" channel="tsn4.ca">
+    <title>SC</title>
+    <desc>The best and worst from the world of sports.</desc>
+  </programme>
+  <programme start="20260425123000 -0400" stop="20260425130000 -0400" channel="tsn4.ca">
+    <title>NBA Playoffs Pregame</title>
+    <desc>Pregame analysis of NBA playoff action.</desc>
+  </programme>
+  <programme start="20260425123000 -0400" stop="20260425133000 -0400" channel="tsn4.ca">
+    <title>SC</title>
+    <desc>Features the top 100 catches of all-time.</desc>
+  </programme>
+  <programme start="20260425130000 -0400" stop="20260425153000 -0400" channel="tsn4.ca">
+    <title>NBA Basketball</title>
+    <desc>Professional basketball action from the NBA.</desc>
+  </programme>
+  <programme start="20260425133000 -0400" stop="20260425153000 -0400" channel="tsn4.ca">
+    <title>SC</title>
+    <desc>The best and worst from the world of sports.</desc>
+  </programme>
+  <programme start="20260425153000 -0400" stop="20260425180000 -0400" channel="tsn4.ca">
+    <title>NBA Basketball</title>
+    <desc>Professional basketball action from the NBA.</desc>
+  </programme>
+  <programme start="20260425153000 -0400" stop="20260425180000 -0400" channel="tsn4.ca">
+    <title>Oklahoma City Thunder vs. Phoenix Suns</title>
+    <desc>Western Conference First Round, Game 3.</desc>
+  </programme>
+  <programme start="20260425180000 -0400" stop="20260425203000 -0400" channel="tsn4.ca">
+    <title>NBA Basketball</title>
+    <desc>Professional basketball action from the NBA.</desc>
+  </programme>
+  <programme start="20260425180000 -0400" stop="20260425203000 -0400" channel="tsn4.ca">
+    <title>New York Knicks vs. Atlanta Hawks</title>
+    <desc>Eastern Conference First Round, Game 4.</desc>
+  </programme>
+  <programme start="20260424190000 -0400" stop="20260424220000 -0400" channel="btsport1.uk">
+    <title>Live MLB: Twins @ Rays</title>
+    <desc>Action from Major League Baseball.</desc>
+  </programme>
+  <programme start="20260424220000 -0400" stop="20260424223000 -0400" channel="btsport1.uk">
+    <title>MLB Plays of the Week</title>
+    <desc>This weekly MLB highlights show showcases the most exciting plays from the past week's matches.</desc>
+  </programme>
+  <programme start="20260424220000 -0400" stop="20260424224500 -0400" channel="btsport1.uk">
+    <title>MX2: Trentino - Race 1</title>
+    <desc>FIM Motocross World Championship action from MX2 race one at the Crossodromo Ciclamino in Trentino, Italy.</desc>
+  </programme>
+  <programme start="20260424223000 -0400" stop="20260424230000 -0400" channel="btsport1.uk">
+    <title>MLB Epic Moments: A Panda Strikes</title>
+    <desc>MLB Epic Moments goes back to Game 1 of the 2012 World Series between the San Francisco Giants and Detroit Tigers.</desc>
+  </programme>
+  <programme start="20260424224500 -0400" stop="20260424233000 -0400" channel="btsport1.uk">
+    <title>MXGP: Trentino - Race 1</title>
+    <desc>FIM Motocross World Championship action from MXGP race one at the Crossodromo Ciclamino in Trentino, Italy.</desc>
+  </programme>
+  <programme start="20260424230000 -0400" stop="20260425000000 -0400" channel="btsport1.uk">
+    <title>Serie A: Napoli v Cremonese</title>
+    <desc>Football from Italy's top division.</desc>
+  </programme>
+  <programme start="20260424233000 -0400" stop="20260425001500 -0400" channel="btsport1.uk">
+    <title>MX2: Trentino - Race 2</title>
+    <desc>FIM Motocross World Championship action from MX2 race two at the Crossodromo Ciclamino in Trentino, Italy.</desc>
+  </programme>
+  <programme start="20260425000000 -0400" stop="20260425003000 -0400" channel="btsport1.uk">
+    <title>GP of Spain: The Inside Line</title>
+    <desc>Action, news and reactions from the fourth round of the 2026 MotoGP Season. Suzi Perry and the team are trackside at the Circuito de Jerez.</desc>
+  </programme>
+  <programme start="20260425001500 -0400" stop="20260425010000 -0400" channel="btsport1.uk">
+    <title>MXGP: Trentino - Race 2</title>
+    <desc>FIM Motocross World Championship action from MXGP race two at the Crossodromo Ciclamino in Trentino, Italy.</desc>
+  </programme>
+  <programme start="20260425003000 -0400" stop="20260425010000 -0400" channel="btsport1.uk">
+    <title>WRC - Islas Canarias</title>
+    <desc>Highlights from the World Rally Championship in the Islas Canarias.</desc>
+  </programme>
+  <programme start="20260425010000 -0400" stop="20260425020000 -0400" channel="btsport1.uk">
+    <title>Newcastle RB v Bristol Bears</title>
+    <desc>Action from the Gallagher PREM meeting between Newcastle Red Bulls and Bristol Bears.</desc>
+  </programme>
+  <programme start="20260425020000 -0400" stop="20260425060000 -0400" channel="btsport1.uk">
+    <title>T100 Triathlon World Tour</title>
+    <desc>The latest action from the T100 Triathlon World Tour.</desc>
+  </programme>
+  <programme start="20260425020000 -0400" stop="20260425060000 -0400" channel="btsport1.uk">
+    <title>Live: T100 Triathlon World Tour</title>
+    <desc>Coverage of the 2026 Singapore T100, held in the awe-inspiring Marina Bay. Brits Samuel Dickinson, Lucy Charles-Barclay and India Lee are set to compete.</desc>
+  </programme>
+  <programme start="20260425060000 -0400" stop="20260425100000 -0400" channel="btsport1.uk">
+    <title>Live PL: Fulham v Aston Villa</title>
+    <desc>Action from the Premier League as Fulham host Aston Villa at Craven Cottage.</desc>
+  </programme>
+  <programme start="20260425100000 -0400" stop="20260425103000 -0400" channel="btsport1.uk">
+    <title>Live: Xtra Time</title>
+    <desc>Post-match reaction and analysis from the Premier League clash between Fulham and Aston Villa.</desc>
+  </programme>
+  <programme start="20260425103000 -0400" stop="20260425110000 -0400" channel="btsport1.uk">
+    <title>Roll The Tape</title>
+    <desc>The latest episode of Roll The Tape.</desc>
+  </programme>
+  <programme start="20260425110000 -0400" stop="20260425150000 -0400" channel="btsport1.uk">
+    <title>Live FA Cup Man City v Southampton</title>
+    <desc>Championship side Southampton look to complete a remarkable run to the Emirates FA Cup final as they face-off against seven-time winners Manchester City at Wembley.</desc>
+  </programme>
+  <programme start="20260425150000 -0400" stop="20260425170000 -0400" channel="btsport1.uk">
+    <title>Live Snooker: World Championship</title>
+    <desc>Snooker action from the World Championship.</desc>
+  </programme>
+  <programme start="20260425170000 -0400" stop="20260425173000 -0400" channel="btsport1.uk">
+    <title>MotoGP: Spain Sprint Race</title>
+    <desc>Action from MotoGP.</desc>
+  </programme>
+  <programme start="20260425173000 -0400" stop="20260425180000 -0400" channel="btsport1.uk">
+    <title>WRC - Islas Canarias</title>
+    <desc>Highlights from the World Rally Championship in the Islas Canarias. 2/3.</desc>
+  </programme>
+  <programme start="20260425180000 -0400" stop="20260425200000 -0400" channel="btsport1.uk">
+    <title>Live: UFC Fight Night Prelims</title>
+    <desc>Action from the UFC Fight Night Prelims in Las Vegas ahead of the welterweight fight between Sean Brady and Joaquin Buckley.</desc>
+  </programme>
+  <programme start="20260424190000 -0400" stop="20260424210000 -0400" channel="skysportsfootball.uk">
+    <title>EFL Cup Football</title>
+    <desc>A chance to relive a classic League Cup final from years gone by, as Manchester United and Southampton meet in the 2016-17 campaign in a game packed with goals and drama.</desc>
+  </programme>
+  <programme start="20260424210000 -0400" stop="20260424213000 -0400" channel="skysportsfootball.uk">
+    <title>There's Only One Sauzee</title>
+    <desc>Hibernian legend Franck Sauzée sits down with Luke Shanley to reflect on his time in Leith as a Hibs player and manager, and recollect his Champions League success with Marseille in 1993.</desc>
+  </programme>
+  <programme start="20260424213000 -0400" stop="20260424220000 -0400" channel="skysportsfootball.uk">
+    <title>Dundee United: One and Only Time</title>
+    <desc />
+  </programme>
+  <programme start="20260424220000 -0400" stop="20260424221500 -0400" channel="skysportsfootball.uk">
+    <title>EFL Greatest</title>
+    <desc>A look back at some classic matches from the English Football League. Here, Aston Villa play Nottingham Forest in a thrilling draw in September 2016 in the Sky Bet Championship.</desc>
+  </programme>
+  <programme start="20260424221500 -0400" stop="20260424223000 -0400" channel="skysportsfootball.uk">
+    <title>EFL Greatest</title>
+    <desc>Relive some classic matches in English football. Here, Cardiff City face Bristol City in a Severnside derby in the Sky Bet Championship, in what was Neil Warnock's first game at Cardiff.</desc>
+  </programme>
+  <programme start="20260424223000 -0400" stop="20260424224500 -0400" channel="skysportsfootball.uk">
+    <title>EFL Greatest</title>
+    <desc>Relive some classic matches in English football. Here, Burton Albion face Birmingham City in 2016 in the Sky Bet Championship, in what was the sides' first competitive meeting.</desc>
+  </programme>
+  <programme start="20260424224500 -0400" stop="20260424230000 -0400" channel="skysportsfootball.uk">
+    <title>EFL Greatest</title>
+    <desc>Relive classic matches from the English Football League.</desc>
+  </programme>
+  <programme start="20260424230000 -0400" stop="20260425000000 -0400" channel="skysportsfootball.uk">
+    <title>EFL</title>
+    <desc>Revisit the 2022-2023 Sky Bet Championship campaign - a season that saw Vincent Kompany's Burnley secure their Premier League return alongside Sheffield United and Luton Town.</desc>
+  </programme>
+  <programme start="20260425000000 -0400" stop="20260425003000 -0400" channel="skysportsfootball.uk">
+    <title>Best Goals of the Carabao Cup</title>
+    <desc>From the Abbey all the way to Wembley - this season's Carabao Cup has thrown up a host spectacular goals. Look back at the 2022-23 competition's finest strikes.</desc>
+  </programme>
+  <programme start="20260425003000 -0400" stop="20260425010000 -0400" channel="skysportsfootball.uk">
+    <title>EFL Trophy Football</title>
+    <desc>The moment to shine at Wembley has arrived for Bolton Wanderers and Plymouth Argyle, as the pair turn their attentions away from promotion to the final of the 2022-23 EFL Trophy.</desc>
+  </programme>
+  <programme start="20260425010000 -0400" stop="20260425011500 -0400" channel="skysportsfootball.uk">
+    <title>EFL</title>
+    <desc>Action from the Sky Bet Championship.</desc>
+  </programme>
+  <programme start="20260425011500 -0400" stop="20260425031500 -0400" channel="skysportsfootball.uk">
+    <title>EFL Cup Football</title>
+    <desc>Coverage from the annual knockout football competition organised by the English Football League.</desc>
+  </programme>
+  <programme start="20260425031500 -0400" stop="20260425041500 -0400" channel="skysportsfootball.uk">
+    <title>Scottish Premiership Football</title>
+    <desc>Coverage of a fixture from top division of the Scottish Professional Football League.</desc>
+  </programme>
+  <programme start="20260425041500 -0400" stop="20260425043000 -0400" channel="skysportsfootball.uk">
+    <title>EFL Greatest</title>
+    <desc>Relive some classic action from the English Football League. Here, Nottingham Forest take on Newcastle United at the City Ground in a game that saw two red cards and two penalties.</desc>
+  </programme>
+  <programme start="20260425043000 -0400" stop="20260425044500 -0400" channel="skysportsfootball.uk">
+    <title>EFL</title>
+    <desc>Action from Sky Bet League Two.</desc>
+  </programme>
+  <programme start="20260425044500 -0400" stop="20260425050000 -0400" channel="skysportsfootball.uk">
+    <title>EFL</title>
+    <desc>Action from the Sky Bet Championship.</desc>
+  </programme>
+  <programme start="20260425050000 -0400" stop="20260425060000 -0400" channel="skysportsfootball.uk">
+    <title>Saturday Social LIVE</title>
+    <desc>A new Saturday morning show providing a flavour of footballers life off the pitch as well as on it. Hear from YouTubers, musicians and others, watch behind-the-scenes features and more.</desc>
+  </programme>
+  <programme start="20260425060000 -0400" stop="20260425100000 -0400" channel="skysportsfootball.uk">
+    <title>EFL LIVE</title>
+    <desc>Action from the Sky Bet Championship.</desc>
+  </programme>
+  <programme start="20260425100000 -0400" stop="20260425120000 -0400" channel="skysportsfootball.uk">
+    <title>Gillette Labs Soccer Saturday LIVE</title>
+    <desc>Studio guests look over all the afternoon's football from across the country, with analysis of the scores, results and stories as they come in.</desc>
+  </programme>
+  <programme start="20260425120000 -0400" stop="20260425150000 -0400" channel="skysportsfootball.uk">
+    <title>Scottish Premiership Football LIVE</title>
+    <desc>Coverage of a fixture from top division of the Scottish Professional Football League.</desc>
+  </programme>
+  <programme start="20260425150000 -0400" stop="20260425191500 -0400" channel="skysportsfootball.uk">
+    <title>EFL</title>
+    <desc>Action from the Sky Bet Championship.</desc>
+  </programme>
+  <programme start="20260425191500 -0400" stop="20260425194500 -0400" channel="skysportsfootball.uk">
+    <title>WSL</title>
+    <desc>Professional women's football clubs compete against each other during the Women's Super League to emerge victorious and win the coveted title.</desc>
+  </programme>
   <programme start="20260424160000 -0400" stop="20260424210000 -0400" channel="skysportsracing.uk">
     <title>Stateside LIVE</title>
     <desc>Live racing from the USA.</desc>
@@ -1600,15 +1596,140 @@
     <title>Stateside LIVE</title>
     <desc>Live racing from the USA.</desc>
   </programme>
-  <programme channel="465108" start="20260424210000 +0000" stop="20260424230000 +0000">
-    <title lang="zh">30 for 30</title>
-    <desc>The University of Miami's football program tries to recover from the devastation left by NCAA sanctions and scandals.</desc>
+  <programme channel="400480" start="20260424233000 +0000" stop="20260425000000 +0000">
+    <title lang="zh">The Gallagher PREM</title>
+    <desc>Newcastle Red Bulls v Bristol Bears.</desc>
     <date>2026-04-24</date>
   </programme>
-  <programme channel="465108" start="20260424230000 +0000" stop="20260424233000 +0000">
-    <title lang="zh">SEC Inside</title>
-    <desc>Each week, a half-hour episode will focus on a select team and explore previously unaired footage and sounds from game preparation, the sideline and following the final whistle.</desc>
+  <programme channel="400480" start="20260425003000 +0000" stop="20260425004500 +0000">
+    <title lang="zh">TNT Sports Reload</title>
+    <desc>The best bits from TNT Sports over the last week, including exclusive interviews, top action, and more.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400480" start="20260425004500 +0000" stop="20260425021500 +0000">
+    <title lang="zh">AFL</title>
+    <desc>Richmond Tigers v Melbourne Demons.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400480" start="20260425021500 +0000" stop="20260425051500 +0000">
+    <title lang="zh">Live AFL</title>
+    <desc>Hawthorn Hawks v Gold Coast Suns (Bounce-up 3.15am). Coverage of the match from UTAS Stadium in Launceston.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400480" start="20260425051500 +0000" stop="20260425053000 +0000">
+    <title lang="zh">TNT Sports Reload</title>
+    <desc>The best bits from TNT Sports over the last week, including exclusive interviews, top action, and more.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400480" start="20260425053000 +0000" stop="20260425060000 +0000">
+    <title lang="zh">Premier League Preview</title>
+    <desc>A look ahead to matchday 34 of the top flight, featuring Fulham v Aston Villa, Arsenal v Newcastle United, and Manchester United v Brentford.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400480" start="20260425060000 +0000" stop="20260425063000 +0000">
+    <title lang="zh">MotoGP</title>
+    <desc>Insight and analysis from the Grand Prix of Spain.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400480" start="20260425063000 +0000" stop="20260425080000 +0000">
+    <title lang="zh">Live MotoGP</title>
+    <desc>The Grand Prix of Spain Moto3 and Moto2 second free practice sessions. Coverage from the fourth round of the season at Circuito de Jerez - Ángel Nieto in Jerez de la Frontera.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400480" start="20260425080000 +0000" stop="20260425104500 +0000">
+    <title lang="zh">Live MotoGP</title>
+    <desc>The Grand Prix of Spain MotoGP second free practice and qualifying sessions. Coverage from the fourth round of the season at Circuito de Jerez - Ángel Nieto in Jerez de la Frontera.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400480" start="20260425104500 +0000" stop="20260425124500 +0000">
+    <title lang="zh">Live MotoGP</title>
+    <desc>The Grand Prix of Spain MotoGP Moto3 and Moto2 qualifying sessions. Coverage from the fourth round of the season at Circuito de Jerez - Ángel Nieto in Jerez de la Frontera.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400480" start="20260425124500 +0000" stop="20260425134500 +0000">
+    <title lang="zh">Live MotoGP</title>
+    <desc>The Grand Prix of Spain MotoGP sprint race (Start-time 2.00pm). Coverage from the fourth round of the season at Circuito de Jerez - Ángel Nieto in Jerez de la Frontera.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400480" start="20260425134500 +0000" stop="20260425161500 +0000">
+    <title lang="zh">Live: The Gallagher PREM</title>
+    <desc>Saracens v Leicester Tigers (Kick-off 3.05pm). Coverage of the match from the 14th round of fixtures, which takes place at StoneX Stadium.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400480" start="20260425161500 +0000" stop="20260425184500 +0000">
+    <title lang="zh">Live: The Gallagher PREM</title>
+    <desc>Northampton Saints v Bath Rugby (Kick-off 5.30pm). Coverage of the match from the 14th round of fixtures from cinch Stadium at Franklin's Gardens.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400480" start="20260425184500 +0000" stop="20260425190000 +0000">
+    <title lang="zh">Playing for Our Future - Rugby</title>
+    <desc>Asking what the future holds for rugby in the battle against global warming. Reshmin Chowdhury meets people at all levels to discuss how rugby can be a positive force for change.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400480" start="20260425190000 +0000" stop="20260425220000 +0000">
+    <title lang="zh">Live MLB</title>
+    <desc>Toronto Blue Jays v Cleveland Guardians (Start-time 8.07pm). Coverage of the American League match from Rogers Centre.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400480" start="20260425220000 +0000" stop="20260425230000 +0000">
+    <title lang="zh">UEFA Europa League &amp; Conference League Magazine</title>
+    <desc>A round-up of the latest news and highlights.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400480" start="20260425230000 +0000" stop="20260426000000 +0000">
+    <title lang="zh">Live MLB</title>
+    <desc>Los Angeles Dodgers v Chicago Cubs (Start-time 12.15am). Coverage of the National League match from Dodger Stadium.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9415" start="20260424220000 +0000" stop="20260425000000 +0000">
+    <title lang="zh">Live LPGA Tour Golf</title>
+    <desc>The second session of day two at the 2026 Chevron Championship, the season's first women's Major - taking place at Memorial Park Golf Course.</desc>
     <date>2026-04-24</date>
+  </programme>
+  <programme channel="9415" start="20260425000000 +0000" stop="20260425030000 +0000">
+    <title lang="zh">Live NFL Draft Day 2</title>
+    <desc>Day two as the 2026 NFL Draft continues from Pittsburgh. Following the first round of selections yesterday, today will see the second and third rounds drafted.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9415" start="20260425030000 +0000" stop="20260425043000 +0000">
+    <title lang="zh">Sky Sports News</title>
+    <desc>Round-up of the sports news with live analysis and comments, plus extended interviews with the headline makers.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9415" start="20260425043000 +0000" stop="20260425090000 +0000">
+    <title lang="zh">Live DP World Tour Golf</title>
+    <desc>The third day of the 2026 Volvo China Open - a DP World Tour event staged at the Shanghai Enhance Anting Golf Club. Ashun Wu held off England's Jordan Smith to win this event last year.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9415" start="20260425090000 +0000" stop="20260425100000 +0000">
+    <title lang="zh">Gillette Soccer Saturday Pre-Match</title>
+    <desc>Build up to the afternoon's football with in-depth interviews and features from the biggest names in the Premier League, EFL and Scotland.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9415" start="20260425100000 +0000" stop="20260425140000 +0000">
+    <title lang="zh">Live EFL: West Brom v Ipswich Town</title>
+    <desc>West Brom play host to Ipswich Town at the Hawthorns in the Sky Bet Championship.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9415" start="20260425140000 +0000" stop="20260425160000 +0000">
+    <title lang="zh">Live: ATP/WTA Madrid</title>
+    <desc>Enjoy live action from the ATP and WTA Tours.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9415" start="20260425160000 +0000" stop="20260425193000 +0000">
+    <title lang="zh">Live SNF: Arsenal v Newcastle</title>
+    <desc>On Saturday Night Football, Arsenal play host to Newcastle United at the Emirates Stadium in the Premier League.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9415" start="20260425193000 +0000" stop="20260425220000 +0000">
+    <title lang="zh">Live LPGA Tour Golf</title>
+    <desc>The third day of the Chevron Championship - the first women's Major on the 2026 calendar. It took a five-way playoff to determine last year's winner - Mao Saigo.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9415" start="20260425220000 +0000" stop="20260426000000 +0000">
+    <title lang="zh">Live NBA Playoffs</title>
+    <desc>A match-up from the NBA playoffs.</desc>
+    <date>2026-04-25</date>
   </programme>
   <programme channel="465108" start="20260424233000 +0000" stop="20260425000000 +0000">
     <title lang="zh">The Climb: LSU Gymnastics</title>
@@ -1725,226 +1846,6 @@
     <desc>Focusing on the state of Arkansas, and on the river that defines its eastern flank. When the Mississippi River changes course, it leaves behind an old bend in the main channel called an oxbow. Lake Chicot, home to Lake Village, Ark., is the largest oxbow in North America.</desc>
     <date>2026-04-26</date>
   </programme>
-  <programme channel="400478" start="20260424223000 +0000" stop="20260424233000 +0000">
-    <title lang="zh">Supercars Championship Highlights</title>
-    <desc>Action from the first day of the ITM Christchurch 440.</desc>
-    <date>2026-04-24</date>
-  </programme>
-  <programme channel="400478" start="20260424233000 +0000" stop="20260425000000 +0000">
-    <title lang="zh">Supercars Championship Highlights</title>
-    <desc>Action from the second day of the ITM Christchurch 440.</desc>
-    <date>2026-04-24</date>
-  </programme>
-  <programme channel="400478" start="20260425003000 +0000" stop="20260425013000 +0000">
-    <title lang="zh">Serie A</title>
-    <desc>Napoli v Cremonese.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425013000 +0000" stop="20260425020000 +0000">
-    <title lang="zh">World Rally Championship</title>
-    <desc>Action from the first day of the Rally Islas Canarias.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425020000 +0000" stop="20260425023000 +0000">
-    <title lang="zh">The Cycling Show</title>
-    <desc>All the latest news from the world of cycling.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425023000 +0000" stop="20260425030000 +0000">
-    <title lang="zh">Race Bikes</title>
-    <desc>A deeper look into the world of Mountain Bike racing.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425030000 +0000" stop="20260425040000 +0000">
-    <title lang="zh">Isuzu UTE A-League</title>
-    <desc>Macarthur Bulls v Wellington Phoenix.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425040000 +0000" stop="20260425060000 +0000">
-    <title lang="zh">Live: A-League Women</title>
-    <desc>Canberra United Women v Melbourne Victory Women (Kick-off 5.00am). Coverage of the Elimination Final at McKellar Park.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425060000 +0000" stop="20260425070000 +0000">
-    <title lang="zh">Men's Cycling Pro Series</title>
-    <desc>Action from the fifth stage of the 2026 Tour of the Alps.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425070000 +0000" stop="20260425090000 +0000">
-    <title lang="zh">Live: A-League Women</title>
-    <desc>Brisbane Roar Women v Adelaide United Women (Kick-off 8.00am). Coverage of the Elimination Final match from Spencer Park.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425090000 +0000" stop="20260425100000 +0000">
-    <title lang="zh">Roll the Tape</title>
-    <desc>A chat with musician Noel Gallagher.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425100000 +0000" stop="20260425130000 +0000">
-    <title lang="zh">Live AFL</title>
-    <desc>Fremantle Dockers v Carlton Blues (Bounce-up 11.15am). Coverage of the match from the seventh round of fixtures, which takes place at Optus stadium in Perth.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425130000 +0000" stop="20260425131500 +0000">
-    <title lang="zh">TNT Sports Cricket Reload</title>
-    <desc>A look back at Bangladesh v Australia in the third ODI of the series.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425131500 +0000" stop="20260425143000 +0000">
-    <title lang="zh">Live World Rally Championship</title>
-    <desc>The Rally Islas Canarias. Coverage of Special Stage 12 from the fifth round of the season, which takes place in Las Palmas, Gran Canaria.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425143000 +0000" stop="20260425150000 +0000">
-    <title lang="zh">Discovery Golf</title>
-    <desc>A weekly show featuring the latest news from the world of golf.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425150000 +0000" stop="20260425171500 +0000">
-    <title lang="zh">Live World Rally Championship</title>
-    <desc>The Rally Islas Canarias. Coverage of Special Stages 13 and 14 from the fifth round of the season, which takes place in Las Palmas, Gran Canaria.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425171500 +0000" stop="20260425174500 +0000">
-    <title lang="zh">European Rally Championship Highlights</title>
-    <desc>Action from the 2026 Rally Sierra Morena.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425174500 +0000" stop="20260425181500 +0000">
-    <title lang="zh">TNT Sports Reload</title>
-    <desc>The best bits from TNT Sports over the last week, including exclusive interviews, top action, and more.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425181500 +0000" stop="20260425191500 +0000">
-    <title lang="zh">MLB Highlights</title>
-    <desc>Action from Major League Baseball.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425191500 +0000" stop="20260425201500 +0000">
-    <title lang="zh">Men's Cycling Pro Series</title>
-    <desc>Action from the fifth stage of the 2026 Tour of the Alps.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425201500 +0000" stop="20260425204500 +0000">
-    <title lang="zh">The Cycling Show</title>
-    <desc>All the latest news from the world of cycling.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425204500 +0000" stop="20260425224500 +0000">
-    <title lang="zh">Isuzu UTE A-League</title>
-    <desc>Newcastle Jets v Central Coast Mariners.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425224500 +0000" stop="20260425234500 +0000">
-    <title lang="zh">Isuzu UTE A-League</title>
-    <desc>Perth Glory v Brisbane Roar.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400478" start="20260425234500 +0000" stop="20260426000000 +0000">
-    <title lang="zh">The Emirates FA Cup</title>
-    <desc>Action from Manchester City v Southampton in the first semi-final.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="465198" start="20260424220000 +0000" stop="20260424230000 +0000">
-    <title lang="zh">Live: NFL Draft Countdown</title>
-    <desc>Countdown to the start of the 2026 NFL draft. A look at the players whose lives are about to change as they enter the National Football League.</desc>
-    <date>2026-04-24</date>
-  </programme>
-  <programme channel="465198" start="20260424230000 +0000" stop="20260425000000 +0000">
-    <title lang="zh">Live: 2026 NFL Draft</title>
-    <desc>A panel of analysts breaks down the picks teams make in the 2026 NFL Draft in Pittsburgh, the 91st annual event.</desc>
-    <date>2026-04-24</date>
-  </programme>
-  <programme channel="465198" start="20260425033000 +0000" stop="20260425043000 +0000">
-    <title lang="zh">Live: SportsCenter With Scott Van Pelt</title>
-    <desc>SVP's up at midnight and bringing his unique perspective on games people play to "SportsCenter" viewers. The hourlong, late-night show is driven by the host's self-deprecating wit and passion for sports, with featured elements, including Van Pelt's nightly "1 Big Thing" commentary and a weekly look back at the moments that drove bettors wild in "Bad Beats." The show also delivers what "SportsCente</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="465198" start="20260425043000 +0000" stop="20260425063000 +0000">
-    <title lang="zh">Live: SportsCenter</title>
-    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="465198" start="20260425063000 +0000" stop="20260425110000 +0000">
-    <title lang="zh">SportsCenter</title>
-    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="465198" start="20260425110000 +0000" stop="20260425160000 +0000">
-    <title lang="zh">Live: SportsCenter</title>
-    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="465198" start="20260425160000 +0000" stop="20260425230000 +0000">
-    <title lang="zh">Live: 2026 NFL Draft</title>
-    <desc>From Pittsburgh.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="465198" start="20260425230000 +0000" stop="20260426000000 +0000">
-    <title lang="zh">Live: United Football League</title>
-    <desc>The Orlando Storm host the St. Louis BattleHawks for a Week 5 UFL matchup at Inter&amp;Co Stadium in Florida. This game features a clash between the undefeated inaugural Storm and a BattleHawks team looking to rebound from a close loss.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9415" start="20260424220000 +0000" stop="20260425000000 +0000">
-    <title lang="zh">Live LPGA Tour Golf</title>
-    <desc>The second session of day two at the 2026 Chevron Championship, the season's first women's Major - taking place at Memorial Park Golf Course.</desc>
-    <date>2026-04-24</date>
-  </programme>
-  <programme channel="9415" start="20260425000000 +0000" stop="20260425030000 +0000">
-    <title lang="zh">Live NFL Draft Day 2</title>
-    <desc>Day two as the 2026 NFL Draft continues from Pittsburgh. Following the first round of selections yesterday, today will see the second and third rounds drafted.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9415" start="20260425030000 +0000" stop="20260425043000 +0000">
-    <title lang="zh">Sky Sports News</title>
-    <desc>Round-up of the sports news with live analysis and comments, plus extended interviews with the headline makers.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9415" start="20260425043000 +0000" stop="20260425090000 +0000">
-    <title lang="zh">Live DP World Tour Golf</title>
-    <desc>The third day of the 2026 Volvo China Open - a DP World Tour event staged at the Shanghai Enhance Anting Golf Club. Ashun Wu held off England's Jordan Smith to win this event last year.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9415" start="20260425090000 +0000" stop="20260425100000 +0000">
-    <title lang="zh">Gillette Soccer Saturday Pre-Match</title>
-    <desc>Build up to the afternoon's football with in-depth interviews and features from the biggest names in the Premier League, EFL and Scotland.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9415" start="20260425100000 +0000" stop="20260425140000 +0000">
-    <title lang="zh">Live EFL: West Brom v Ipswich Town</title>
-    <desc>West Brom play host to Ipswich Town at the Hawthorns in the Sky Bet Championship.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9415" start="20260425140000 +0000" stop="20260425160000 +0000">
-    <title lang="zh">Live: ATP/WTA Madrid</title>
-    <desc>Enjoy live action from the ATP and WTA Tours.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9415" start="20260425160000 +0000" stop="20260425193000 +0000">
-    <title lang="zh">Live SNF: Arsenal v Newcastle</title>
-    <desc>On Saturday Night Football, Arsenal play host to Newcastle United at the Emirates Stadium in the Premier League.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9415" start="20260425193000 +0000" stop="20260425220000 +0000">
-    <title lang="zh">Live LPGA Tour Golf</title>
-    <desc>The third day of the Chevron Championship - the first women's Major on the 2026 calendar. It took a five-way playoff to determine last year's winner - Mao Saigo.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9415" start="20260425220000 +0000" stop="20260426000000 +0000">
-    <title lang="zh">Live NBA Playoffs</title>
-    <desc>A match-up from the NBA playoffs.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400479" start="20260424220000 +0000" stop="20260424230000 +0000">
-    <title lang="zh">Men's Cycling Pro Series</title>
-    <desc>Action from the fifth stage of the 2026 Tour of the Alps.</desc>
-    <date>2026-04-24</date>
-  </programme>
-  <programme channel="400479" start="20260424230000 +0000" stop="20260424233000 +0000">
-    <title lang="zh">MotoGP</title>
-    <desc>Insight and analysis from the Grand Prix of Spain.</desc>
-    <date>2026-04-24</date>
-  </programme>
   <programme channel="400479" start="20260424233000 +0000" stop="20260425000000 +0000">
     <title lang="zh">Inside Serie A</title>
     <desc>A round up of all the latest news from the Italian top flight.</desc>
@@ -2039,16 +1940,6 @@
     <title lang="zh">Live: NWSL</title>
     <desc>Chicago Stars v Boston Legacy (Kick-off 11.30pm). Coverage of the National Women's Soccer League match from Northwestern Medicine Field at Martin Stadium in Evanston, Illinois.</desc>
     <date>2026-04-25</date>
-  </programme>
-  <programme channel="465124" start="20260424223000 +0000" stop="20260424230000 +0000">
-    <title lang="zh">Bucs Bounty</title>
-    <desc />
-    <date>2026-04-24</date>
-  </programme>
-  <programme channel="465124" start="20260424230000 +0000" stop="20260424233000 +0000">
-    <title lang="zh">Pirates Game Day Live</title>
-    <desc />
-    <date>2026-04-24</date>
   </programme>
   <programme channel="465124" start="20260424233000 +0000" stop="20260425000000 +0000">
     <title lang="zh">Live: MLB Baseball</title>
@@ -2204,186 +2095,6 @@
     <title lang="zh">Live: NHL Hockey</title>
     <desc>Eastern Conference First Round, Game 4.</desc>
     <date>2026-04-26</date>
-  </programme>
-  <programme channel="9175" start="20260424223000 +0000" stop="20260425000000 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Sandown and Perth.</desc>
-    <date>2026-04-24</date>
-  </programme>
-  <programme channel="9175" start="20260425003000 +0000" stop="20260425020000 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Cork and Kilbegan.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9175" start="20260425020000 +0000" stop="20260425034500 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Sandown and Perth.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9175" start="20260425034500 +0000" stop="20260425051500 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Cork and Kilbegan.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9175" start="20260425051500 +0000" stop="20260425070000 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Sandown and Perth.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9175" start="20260425070000 +0000" stop="20260425083000 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Cork and Kilbegan.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9175" start="20260425083000 +0000" stop="20260425101500 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Sandown and Perth.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9175" start="20260425101500 +0000" stop="20260425110000 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Cork and Kilbegan.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9175" start="20260425110000 +0000" stop="20260425120000 +0000">
-    <title lang="zh">The Full SP: Preview</title>
-    <desc>A preview of the day's racing with live news from the courses.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9175" start="20260425120000 +0000" stop="20260425170000 +0000">
-    <title lang="zh">The Full SP: Live Racing</title>
-    <desc>Today's live racing action from Sandown, Haydock, Leicester, Navan and Limerick.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9175" start="20260425170000 +0000" stop="20260425173000 +0000">
-    <title lang="zh">The Full SP: Review</title>
-    <desc>The Racing TV team reviews yesterday's action-packed day on the track.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9175" start="20260425173000 +0000" stop="20260425193000 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch today's racing action from Sandown, Haydock and Leicester.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9175" start="20260425193000 +0000" stop="20260425204500 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch today's racing action from Navan and Limerick.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9175" start="20260425204500 +0000" stop="20260425211500 +0000">
-    <title lang="zh">The Full SP: Review</title>
-    <desc>The Racing TV team reviews yesterday's action-packed day on the track.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9175" start="20260425211500 +0000" stop="20260425231500 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch today's racing action from Sandown, Haydock and Leicester.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="9175" start="20260425231500 +0000" stop="20260426000000 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Navan and Limerick.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400480" start="20260424223000 +0000" stop="20260424233000 +0000">
-    <title lang="zh">Isuzu UTE A-League</title>
-    <desc>Macarthur Bulls v Wellington Phoenix.</desc>
-    <date>2026-04-24</date>
-  </programme>
-  <programme channel="400480" start="20260424233000 +0000" stop="20260425000000 +0000">
-    <title lang="zh">The Gallagher PREM</title>
-    <desc>Newcastle Red Bulls v Bristol Bears.</desc>
-    <date>2026-04-24</date>
-  </programme>
-  <programme channel="400480" start="20260425003000 +0000" stop="20260425004500 +0000">
-    <title lang="zh">TNT Sports Reload</title>
-    <desc>The best bits from TNT Sports over the last week, including exclusive interviews, top action, and more.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400480" start="20260425004500 +0000" stop="20260425021500 +0000">
-    <title lang="zh">AFL</title>
-    <desc>Richmond Tigers v Melbourne Demons.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400480" start="20260425021500 +0000" stop="20260425051500 +0000">
-    <title lang="zh">Live AFL</title>
-    <desc>Hawthorn Hawks v Gold Coast Suns (Bounce-up 3.15am). Coverage of the match from UTAS Stadium in Launceston.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400480" start="20260425051500 +0000" stop="20260425053000 +0000">
-    <title lang="zh">TNT Sports Reload</title>
-    <desc>The best bits from TNT Sports over the last week, including exclusive interviews, top action, and more.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400480" start="20260425053000 +0000" stop="20260425060000 +0000">
-    <title lang="zh">Premier League Preview</title>
-    <desc>A look ahead to matchday 34 of the top flight, featuring Fulham v Aston Villa, Arsenal v Newcastle United, and Manchester United v Brentford.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400480" start="20260425060000 +0000" stop="20260425063000 +0000">
-    <title lang="zh">MotoGP</title>
-    <desc>Insight and analysis from the Grand Prix of Spain.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400480" start="20260425063000 +0000" stop="20260425080000 +0000">
-    <title lang="zh">Live MotoGP</title>
-    <desc>The Grand Prix of Spain Moto3 and Moto2 second free practice sessions. Coverage from the fourth round of the season at Circuito de Jerez - Ángel Nieto in Jerez de la Frontera.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400480" start="20260425080000 +0000" stop="20260425104500 +0000">
-    <title lang="zh">Live MotoGP</title>
-    <desc>The Grand Prix of Spain MotoGP second free practice and qualifying sessions. Coverage from the fourth round of the season at Circuito de Jerez - Ángel Nieto in Jerez de la Frontera.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400480" start="20260425104500 +0000" stop="20260425124500 +0000">
-    <title lang="zh">Live MotoGP</title>
-    <desc>The Grand Prix of Spain MotoGP Moto3 and Moto2 qualifying sessions. Coverage from the fourth round of the season at Circuito de Jerez - Ángel Nieto in Jerez de la Frontera.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400480" start="20260425124500 +0000" stop="20260425134500 +0000">
-    <title lang="zh">Live MotoGP</title>
-    <desc>The Grand Prix of Spain MotoGP sprint race (Start-time 2.00pm). Coverage from the fourth round of the season at Circuito de Jerez - Ángel Nieto in Jerez de la Frontera.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400480" start="20260425134500 +0000" stop="20260425161500 +0000">
-    <title lang="zh">Live: The Gallagher PREM</title>
-    <desc>Saracens v Leicester Tigers (Kick-off 3.05pm). Coverage of the match from the 14th round of fixtures, which takes place at StoneX Stadium.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400480" start="20260425161500 +0000" stop="20260425184500 +0000">
-    <title lang="zh">Live: The Gallagher PREM</title>
-    <desc>Northampton Saints v Bath Rugby (Kick-off 5.30pm). Coverage of the match from the 14th round of fixtures from cinch Stadium at Franklin's Gardens.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400480" start="20260425184500 +0000" stop="20260425190000 +0000">
-    <title lang="zh">Playing for Our Future - Rugby</title>
-    <desc>Asking what the future holds for rugby in the battle against global warming. Reshmin Chowdhury meets people at all levels to discuss how rugby can be a positive force for change.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400480" start="20260425190000 +0000" stop="20260425220000 +0000">
-    <title lang="zh">Live MLB</title>
-    <desc>Toronto Blue Jays v Cleveland Guardians (Start-time 8.07pm). Coverage of the American League match from Rogers Centre.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400480" start="20260425220000 +0000" stop="20260425230000 +0000">
-    <title lang="zh">UEFA Europa League &amp; Conference League Magazine</title>
-    <desc>A round-up of the latest news and highlights.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="400480" start="20260425230000 +0000" stop="20260426000000 +0000">
-    <title lang="zh">Live MLB</title>
-    <desc>Los Angeles Dodgers v Chicago Cubs (Start-time 12.15am). Coverage of the National League match from Dodger Stadium.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="465288" start="20260424210000 +0000" stop="20260424230000 +0000">
-    <title lang="zh">FanDuel Racing</title>
-    <desc>Live horse racing from around the country.</desc>
-    <date>2026-04-24</date>
-  </programme>
-  <programme channel="465288" start="20260424230000 +0000" stop="20260424233000 +0000">
-    <title lang="zh">The Contenders 2026</title>
-    <desc>Croatia are World Cup specialists, Moises Caicedo is living up to his huge price tag and we analyze the Group Stage draw; Croatia excels in World Cups, Caicedo impresses and we analyze the Group Stage draw.</desc>
-    <date>2026-04-24</date>
   </programme>
   <programme channel="465288" start="20260424233000 +0000" stop="20260425000000 +0000">
     <title lang="zh">The Contenders 2026</title>
@@ -2550,10 +2261,200 @@
     <desc />
     <date>2026-04-25</date>
   </programme>
-  <programme channel="470732" start="20260424223000 +0000" stop="20260424230000 +0000">
-    <title lang="zh">Live: Hockey Central</title>
-    <desc>Breaking news, analysis and debate from around the NHL.</desc>
+  <programme channel="9175" start="20260424223000 +0000" stop="20260425000000 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Sandown and Perth.</desc>
     <date>2026-04-24</date>
+  </programme>
+  <programme channel="9175" start="20260425003000 +0000" stop="20260425020000 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Cork and Kilbegan.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9175" start="20260425020000 +0000" stop="20260425034500 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Sandown and Perth.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9175" start="20260425034500 +0000" stop="20260425051500 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Cork and Kilbegan.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9175" start="20260425051500 +0000" stop="20260425070000 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Sandown and Perth.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9175" start="20260425070000 +0000" stop="20260425083000 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Cork and Kilbegan.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9175" start="20260425083000 +0000" stop="20260425101500 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Sandown and Perth.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9175" start="20260425101500 +0000" stop="20260425110000 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Cork and Kilbegan.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9175" start="20260425110000 +0000" stop="20260425120000 +0000">
+    <title lang="zh">The Full SP: Preview</title>
+    <desc>A preview of the day's racing with live news from the courses.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9175" start="20260425120000 +0000" stop="20260425170000 +0000">
+    <title lang="zh">The Full SP: Live Racing</title>
+    <desc>Today's live racing action from Sandown, Haydock, Leicester, Navan and Limerick.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9175" start="20260425170000 +0000" stop="20260425173000 +0000">
+    <title lang="zh">The Full SP: Review</title>
+    <desc>The Racing TV team reviews yesterday's action-packed day on the track.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9175" start="20260425173000 +0000" stop="20260425193000 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch today's racing action from Sandown, Haydock and Leicester.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9175" start="20260425193000 +0000" stop="20260425204500 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch today's racing action from Navan and Limerick.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9175" start="20260425204500 +0000" stop="20260425211500 +0000">
+    <title lang="zh">The Full SP: Review</title>
+    <desc>The Racing TV team reviews yesterday's action-packed day on the track.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9175" start="20260425211500 +0000" stop="20260425231500 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch today's racing action from Sandown, Haydock and Leicester.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="9175" start="20260425231500 +0000" stop="20260426000000 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Navan and Limerick.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260424233000 +0000" stop="20260425000000 +0000">
+    <title lang="zh">Supercars Championship Highlights</title>
+    <desc>Action from the second day of the ITM Christchurch 440.</desc>
+    <date>2026-04-24</date>
+  </programme>
+  <programme channel="400478" start="20260425003000 +0000" stop="20260425013000 +0000">
+    <title lang="zh">Serie A</title>
+    <desc>Napoli v Cremonese.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425013000 +0000" stop="20260425020000 +0000">
+    <title lang="zh">World Rally Championship</title>
+    <desc>Action from the first day of the Rally Islas Canarias.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425020000 +0000" stop="20260425023000 +0000">
+    <title lang="zh">The Cycling Show</title>
+    <desc>All the latest news from the world of cycling.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425023000 +0000" stop="20260425030000 +0000">
+    <title lang="zh">Race Bikes</title>
+    <desc>A deeper look into the world of Mountain Bike racing.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425030000 +0000" stop="20260425040000 +0000">
+    <title lang="zh">Isuzu UTE A-League</title>
+    <desc>Macarthur Bulls v Wellington Phoenix.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425040000 +0000" stop="20260425060000 +0000">
+    <title lang="zh">Live: A-League Women</title>
+    <desc>Canberra United Women v Melbourne Victory Women (Kick-off 5.00am). Coverage of the Elimination Final at McKellar Park.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425060000 +0000" stop="20260425070000 +0000">
+    <title lang="zh">Men's Cycling Pro Series</title>
+    <desc>Action from the fifth stage of the 2026 Tour of the Alps.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425070000 +0000" stop="20260425090000 +0000">
+    <title lang="zh">Live: A-League Women</title>
+    <desc>Brisbane Roar Women v Adelaide United Women (Kick-off 8.00am). Coverage of the Elimination Final match from Spencer Park.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425090000 +0000" stop="20260425100000 +0000">
+    <title lang="zh">Roll the Tape</title>
+    <desc>A chat with musician Noel Gallagher.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425100000 +0000" stop="20260425130000 +0000">
+    <title lang="zh">Live AFL</title>
+    <desc>Fremantle Dockers v Carlton Blues (Bounce-up 11.15am). Coverage of the match from the seventh round of fixtures, which takes place at Optus stadium in Perth.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425130000 +0000" stop="20260425131500 +0000">
+    <title lang="zh">TNT Sports Cricket Reload</title>
+    <desc>A look back at Bangladesh v Australia in the third ODI of the series.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425131500 +0000" stop="20260425143000 +0000">
+    <title lang="zh">Live World Rally Championship</title>
+    <desc>The Rally Islas Canarias. Coverage of Special Stage 12 from the fifth round of the season, which takes place in Las Palmas, Gran Canaria.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425143000 +0000" stop="20260425150000 +0000">
+    <title lang="zh">Discovery Golf</title>
+    <desc>A weekly show featuring the latest news from the world of golf.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425150000 +0000" stop="20260425171500 +0000">
+    <title lang="zh">Live World Rally Championship</title>
+    <desc>The Rally Islas Canarias. Coverage of Special Stages 13 and 14 from the fifth round of the season, which takes place in Las Palmas, Gran Canaria.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425171500 +0000" stop="20260425174500 +0000">
+    <title lang="zh">European Rally Championship Highlights</title>
+    <desc>Action from the 2026 Rally Sierra Morena.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425174500 +0000" stop="20260425181500 +0000">
+    <title lang="zh">TNT Sports Reload</title>
+    <desc>The best bits from TNT Sports over the last week, including exclusive interviews, top action, and more.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425181500 +0000" stop="20260425191500 +0000">
+    <title lang="zh">MLB Highlights</title>
+    <desc>Action from Major League Baseball.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425191500 +0000" stop="20260425201500 +0000">
+    <title lang="zh">Men's Cycling Pro Series</title>
+    <desc>Action from the fifth stage of the 2026 Tour of the Alps.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425201500 +0000" stop="20260425204500 +0000">
+    <title lang="zh">The Cycling Show</title>
+    <desc>All the latest news from the world of cycling.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425204500 +0000" stop="20260425224500 +0000">
+    <title lang="zh">Isuzu UTE A-League</title>
+    <desc>Newcastle Jets v Central Coast Mariners.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425224500 +0000" stop="20260425234500 +0000">
+    <title lang="zh">Isuzu UTE A-League</title>
+    <desc>Perth Glory v Brisbane Roar.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="400478" start="20260425234500 +0000" stop="20260426000000 +0000">
+    <title lang="zh">The Emirates FA Cup</title>
+    <desc>Action from Manchester City v Southampton in the first semi-final.</desc>
+    <date>2026-04-25</date>
   </programme>
   <programme channel="470732" start="20260424230000 +0000" stop="20260425000000 +0000">
     <title lang="zh">Live: NHL Hockey</title>
@@ -2619,16 +2520,6 @@
     <title lang="zh">Live: NHL Hockey</title>
     <desc>Eastern Conference First Round, Game 4.</desc>
     <date>2026-04-26</date>
-  </programme>
-  <programme channel="465264" start="20260424223000 +0000" stop="20260424230000 +0000">
-    <title lang="zh">MeatEater</title>
-    <desc>On an angling expedition along the Rewa River in Guyana, Steve and his Macushi guides catch exotic species such as black piranha and vampire fish.</desc>
-    <date>2026-04-24</date>
-  </programme>
-  <programme channel="465264" start="20260424230000 +0000" stop="20260424233000 +0000">
-    <title lang="zh">Relentless Pursuit</title>
-    <desc>Join the Slock Master for an action-packed voyage into the past where primitive hunting is relived by the world's most recognized authority in spear and blowgun hunting. Laugh or cry, Tim Wells delivers every time.</desc>
-    <date>2026-04-24</date>
   </programme>
   <programme channel="465264" start="20260424233000 +0000" stop="20260425000000 +0000">
     <title lang="zh">Savage Outdoors</title>
@@ -2860,11 +2751,6 @@
     <desc>Andy Buchanan and his team embark on adrenaline-fueled hunting adventures across Africa, showcasing the continent's most sought-after trophies while delving into the crucial role of hunters in wildlife conservation. Amidst epic hunts and breathtaking scenery, they address misconceptions about hunting and highlight the collaborative efforts of local communities, governments, and hunters to protect </desc>
     <date>2026-04-26</date>
   </programme>
-  <programme channel="470873" start="20260424223000 +0000" stop="20260424230000 +0000">
-    <title lang="zh">Live: Blue Jays Central</title>
-    <desc>Toronto Blue Jays pregame show hosted by Jamie Campbell.</desc>
-    <date>2026-04-24</date>
-  </programme>
   <programme channel="470873" start="20260424230000 +0000" stop="20260425000000 +0000">
     <title lang="zh">Live: MLB Baseball</title>
     <desc>Guardians and the BlueJays meet for the opening game of their regular seasons series. Gavin Williams looks to maintain dominant form against the Jays lineup that is anchored by superstar Vladimir Guerrero Jr. The Guardians look to maintain momentum.</desc>
@@ -3035,16 +2921,6 @@
     <desc>From April 25, 2026.</desc>
     <date>2026-04-26</date>
   </programme>
-  <programme channel="464777" start="20260424223000 +0000" stop="20260424230000 +0000">
-    <title lang="zh">Oh Yeah ...</title>
-    <desc>Stories in New York sports from 1986.</desc>
-    <date>2026-04-24</date>
-  </programme>
-  <programme channel="464777" start="20260424230000 +0000" stop="20260424233000 +0000">
-    <title lang="zh">Oh Yeah ...</title>
-    <desc>A look back at the obscure, oddball, and twisted stories in New York Sports from 1987.</desc>
-    <date>2026-04-24</date>
-  </programme>
   <programme channel="464777" start="20260424233000 +0000" stop="20260425000000 +0000">
     <title lang="zh">Oh Yeah ...</title>
     <desc>Obscure stories in New York sports from 1989.</desc>
@@ -3134,121 +3010,6 @@
     <title lang="zh">MLB Baseball</title>
     <desc>From Citi Field in Flushing, N.Y.</desc>
     <date>2026-04-26</date>
-  </programme>
-  <programme channel="470811" start="20260424210000 +0000" stop="20260424230000 +0000">
-    <title lang="zh">PREM Rugby</title>
-    <desc>From Kingston Park in Newcastle upon Tyne, Newcastle upon Tyne, United Kingdom.</desc>
-    <date>2026-04-24</date>
-  </programme>
-  <programme channel="470811" start="20260424230000 +0000" stop="20260425000000 +0000">
-    <title lang="zh">FA Cup Preview Show</title>
-    <desc>Set the stage for upcoming matches.</desc>
-    <date>2026-04-24</date>
-  </programme>
-  <programme channel="470811" start="20260425000000 +0000" stop="20260425020000 +0000">
-    <title lang="zh">United Rugby Championship</title>
-    <desc>Rugby union competition involving professional sides from Ireland, Italy, Scotland, South Africa and Wales.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="470811" start="20260425020000 +0000" stop="20260425030000 +0000">
-    <title lang="zh">FA Cup Preview Show</title>
-    <desc>Set the stage for upcoming matches.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="470811" start="20260425030000 +0000" stop="20260425050000 +0000">
-    <title lang="zh">Rugby Super League</title>
-    <desc>From Headingley Stadium in Leeds, England, United Kingdom.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="470811" start="20260425050000 +0000" stop="20260425053000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>2005 FA Cup.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="470811" start="20260425053000 +0000" stop="20260425060000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>Another vintage batch of footage from the FA Cup.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="470811" start="20260425060000 +0000" stop="20260425080000 +0000">
-    <title lang="zh">PREM Rugby</title>
-    <desc>From Kingston Park in Newcastle upon Tyne, Newcastle upon Tyne, United Kingdom.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="470811" start="20260425080000 +0000" stop="20260425100000 +0000">
-    <title lang="zh">Sportsnet World Highlights</title>
-    <desc>A look at the best stories from around the world of sports.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="470811" start="20260425100000 +0000" stop="20260425114500 +0000">
-    <title lang="zh">Live: NRL Rugby</title>
-    <desc>From AAMI Park in Melbourne City, Victoria, Australia.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="470811" start="20260425114500 +0000" stop="20260425133000 +0000">
-    <title lang="zh">Live: United Rugby Championship</title>
-    <desc>Rugby union competition involving professional sides from Ireland, Italy, Scotland, South Africa and Wales.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="470811" start="20260425133000 +0000" stop="20260425140000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>2005 FA Cup.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="470811" start="20260425140000 +0000" stop="20260425160000 +0000">
-    <title lang="zh">Live: Premiership Rugby</title>
-    <desc>From StoneX Stadium in Hendon, Barnet, United Kingdom.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="470811" start="20260425160000 +0000" stop="20260425180000 +0000">
-    <title lang="zh">Live: FA Cup Soccer</title>
-    <desc>Semifinal.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="470811" start="20260425180000 +0000" stop="20260425183000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>From April 9, 1995.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="470811" start="20260425183000 +0000" stop="20260425203000 +0000">
-    <title lang="zh">Live: United Rugby Championship</title>
-    <desc>Rugby union competition involving professional sides from Ireland, Italy, Scotland, South Africa and Wales.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="470811" start="20260425203000 +0000" stop="20260425210000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>From April 13, 1997.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="470811" start="20260425210000 +0000" stop="20260425230000 +0000">
-    <title lang="zh">Rugby Super League</title>
-    <desc>Comprehensive coverage of all the action from the matches played as part of the Rugby Super League.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="470811" start="20260425230000 +0000" stop="20260425233000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>From March 12, 2005.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="470811" start="20260425233000 +0000" stop="20260426000000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>2005 FA Cup.</desc>
-    <date>2026-04-25</date>
-  </programme>
-  <programme channel="470811" start="20260426000000 +0000" stop="20260427000000 +0000">
-    <title lang="zh">FA Cup Soccer</title>
-    <desc>Semifinal.</desc>
-    <date>2026-04-26</date>
-  </programme>
-  <programme channel="465358" start="20260424223000 +0000" stop="20260424230000 +0000">
-    <title lang="zh">The New Fly Fisher</title>
-    <desc>Mark Melnyk is fishing the Yakima River in Washington with participants of Recovery Beyond and Red's Fly Shop.</desc>
-    <date>2026-04-24</date>
-  </programme>
-  <programme channel="465358" start="20260424230000 +0000" stop="20260424233000 +0000">
-    <title lang="zh">Connect Fishing Experiences</title>
-    <desc>Reel Obsession Fishing Resort Esperanza Inlet offers a truly world class sport fishing experience in picturesque Zeballos on North.</desc>
-    <date>2026-04-24</date>
   </programme>
   <programme channel="465358" start="20260424233000 +0000" stop="20260425000000 +0000">
     <title lang="zh">Extreme Angler TV</title>
@@ -3485,10 +3246,140 @@
     <desc>Professional angler Chris Lane uses all his skills to bring giant bass to the surface for some epic topwater eats.</desc>
     <date>2026-04-26</date>
   </programme>
-  <programme channel="465236" start="20260424220000 +0000" stop="20260424230000 +0000">
-    <title lang="zh">Tennis Channel Live at Madrid</title>
-    <desc>Coverage of all the action from Madrid.</desc>
+  <programme channel="470811" start="20260424230000 +0000" stop="20260425000000 +0000">
+    <title lang="zh">FA Cup Preview Show</title>
+    <desc>Set the stage for upcoming matches.</desc>
     <date>2026-04-24</date>
+  </programme>
+  <programme channel="470811" start="20260425000000 +0000" stop="20260425020000 +0000">
+    <title lang="zh">United Rugby Championship</title>
+    <desc>Rugby union competition involving professional sides from Ireland, Italy, Scotland, South Africa and Wales.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="470811" start="20260425020000 +0000" stop="20260425030000 +0000">
+    <title lang="zh">FA Cup Preview Show</title>
+    <desc>Set the stage for upcoming matches.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="470811" start="20260425030000 +0000" stop="20260425050000 +0000">
+    <title lang="zh">Rugby Super League</title>
+    <desc>From Headingley Stadium in Leeds, England, United Kingdom.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="470811" start="20260425050000 +0000" stop="20260425053000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>2005 FA Cup.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="470811" start="20260425053000 +0000" stop="20260425060000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>Another vintage batch of footage from the FA Cup.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="470811" start="20260425060000 +0000" stop="20260425080000 +0000">
+    <title lang="zh">PREM Rugby</title>
+    <desc>From Kingston Park in Newcastle upon Tyne, Newcastle upon Tyne, United Kingdom.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="470811" start="20260425080000 +0000" stop="20260425100000 +0000">
+    <title lang="zh">Sportsnet World Highlights</title>
+    <desc>A look at the best stories from around the world of sports.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="470811" start="20260425100000 +0000" stop="20260425114500 +0000">
+    <title lang="zh">Live: NRL Rugby</title>
+    <desc>From AAMI Park in Melbourne City, Victoria, Australia.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="470811" start="20260425114500 +0000" stop="20260425133000 +0000">
+    <title lang="zh">Live: United Rugby Championship</title>
+    <desc>Rugby union competition involving professional sides from Ireland, Italy, Scotland, South Africa and Wales.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="470811" start="20260425133000 +0000" stop="20260425140000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>2005 FA Cup.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="470811" start="20260425140000 +0000" stop="20260425160000 +0000">
+    <title lang="zh">Live: Premiership Rugby</title>
+    <desc>From StoneX Stadium in Hendon, Barnet, United Kingdom.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="470811" start="20260425160000 +0000" stop="20260425180000 +0000">
+    <title lang="zh">Live: FA Cup Soccer</title>
+    <desc>Semifinal.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="470811" start="20260425180000 +0000" stop="20260425183000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>From April 9, 1995.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="470811" start="20260425183000 +0000" stop="20260425203000 +0000">
+    <title lang="zh">Live: United Rugby Championship</title>
+    <desc>Rugby union competition involving professional sides from Ireland, Italy, Scotland, South Africa and Wales.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="470811" start="20260425203000 +0000" stop="20260425210000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>From April 13, 1997.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="470811" start="20260425210000 +0000" stop="20260425230000 +0000">
+    <title lang="zh">Rugby Super League</title>
+    <desc>Comprehensive coverage of all the action from the matches played as part of the Rugby Super League.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="470811" start="20260425230000 +0000" stop="20260425233000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>From March 12, 2005.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="470811" start="20260425233000 +0000" stop="20260426000000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>2005 FA Cup.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="470811" start="20260426000000 +0000" stop="20260427000000 +0000">
+    <title lang="zh">FA Cup Soccer</title>
+    <desc>Semifinal.</desc>
+    <date>2026-04-26</date>
+  </programme>
+  <programme channel="465198" start="20260424230000 +0000" stop="20260425000000 +0000">
+    <title lang="zh">Live: 2026 NFL Draft</title>
+    <desc>A panel of analysts breaks down the picks teams make in the 2026 NFL Draft in Pittsburgh, the 91st annual event.</desc>
+    <date>2026-04-24</date>
+  </programme>
+  <programme channel="465198" start="20260425033000 +0000" stop="20260425043000 +0000">
+    <title lang="zh">Live: SportsCenter With Scott Van Pelt</title>
+    <desc>SVP's up at midnight and bringing his unique perspective on games people play to "SportsCenter" viewers. The hourlong, late-night show is driven by the host's self-deprecating wit and passion for sports, with featured elements, including Van Pelt's nightly "1 Big Thing" commentary and a weekly look back at the moments that drove bettors wild in "Bad Beats." The show also delivers what "SportsCente</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="465198" start="20260425043000 +0000" stop="20260425063000 +0000">
+    <title lang="zh">Live: SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="465198" start="20260425063000 +0000" stop="20260425110000 +0000">
+    <title lang="zh">SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="465198" start="20260425110000 +0000" stop="20260425160000 +0000">
+    <title lang="zh">Live: SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="465198" start="20260425160000 +0000" stop="20260425230000 +0000">
+    <title lang="zh">Live: 2026 NFL Draft</title>
+    <desc>From Pittsburgh.</desc>
+    <date>2026-04-25</date>
+  </programme>
+  <programme channel="465198" start="20260425230000 +0000" stop="20260426000000 +0000">
+    <title lang="zh">Live: United Football League</title>
+    <desc>The Orlando Storm host the St. Louis BattleHawks for a Week 5 UFL matchup at Inter&amp;Co Stadium in Florida. This game features a clash between the undefeated inaugural Storm and a BattleHawks team looking to rebound from a close loss.</desc>
+    <date>2026-04-25</date>
   </programme>
   <programme channel="465236" start="20260424230000 +0000" stop="20260425000000 +0000">
     <title lang="zh">2026 Mutua Madrid Open Tennis</title>
