@@ -1,19 +1,43 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<tv date="20260509195619 " generator-info-name="TV2-Multi-XML-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="TV2-Source-EPG">
+<tv date="20260509203143 " generator-info-name="TV2-Multi-XML-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="TV2-Source-EPG">
+  <channel id="FX.us">
+    <display-name>US | FX East</display-name>
+    <icon src="https://tlgrm.re/images/fx-us.png" />
+  </channel>
   <channel id="470820">
     <display-name lang="Canada">FXX Canada</display-name>
     <icon src="" />
   </channel>
-  <channel id="465357">
-    <display-name lang="US">FXX HD</display-name>
+  <channel id="465331">
+    <display-name lang="US">Freeform HD</display-name>
     <icon src="" />
   </channel>
   <channel id="464897">
     <display-name lang="US">Hallmark Family</display-name>
     <icon src="" />
   </channel>
+  <channel id="470910">
+    <display-name lang="Canada">FX HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465105">
+    <display-name lang="US">Fuse HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="470509">
+    <display-name lang="Canada">CTV LIFE CHANNEL</display-name>
+    <icon src="" />
+  </channel>
   <channel id="464774">
     <display-name lang="US">FYI Channel HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465357">
+    <display-name lang="US">FXX HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465241">
+    <display-name lang="US">Hallmark Channel HD</display-name>
     <icon src="" />
   </channel>
   <channel id="470299">
@@ -22,14 +46,6 @@
   </channel>
   <channel id="465167">
     <display-name lang="US">Hallmark Mystery HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465241">
-    <display-name lang="US">Hallmark Channel HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="470509">
-    <display-name lang="Canada">CTV LIFE CHANNEL</display-name>
     <icon src="" />
   </channel>
   <channel id="481954">
@@ -88,12 +104,12 @@
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">MTV HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="465080">
-    <display-name lang="US">MTV - Music Television HD</display-name>
-    <icon src="" />
-  </channel>
   <channel id="464825">
     <display-name lang="US">MTVLIVE</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465080">
+    <display-name lang="US">MTV - Music Television HD</display-name>
     <icon src="" />
   </channel>
   <channel id="465113">
@@ -112,39 +128,57 @@
     <display-name lang="US">KNBC-DT</display-name>
     <icon src="" />
   </channel>
-  <channel id="468233">
-    <display-name lang="US">WCAU-DT</display-name>
-    <icon src="" />
-  </channel>
   <channel id="467015">
     <display-name lang="US">WNBC-DT</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="468233">
+    <display-name lang="US">WCAU-DT</display-name>
     <icon src="" />
   </channel>
   <channel id="470330">
     <display-name lang="Canada">ONETV</display-name>
     <icon src="" />
   </channel>
-  <channel id="470910">
-    <display-name lang="Canada">FX HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465105">
-    <display-name lang="US">Fuse HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465331">
-    <display-name lang="US">Freeform HD</display-name>
-    <icon src="" />
-  </channel>
-  <programme channel="470820" start="20260509193000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">Modern Family</title>
-    <desc>Claire struggles to find the right time to fire an employee; Phil thinks he caught Luke with a girl; Alex moves back in, seemingly undetected; Jay refuses to believe it might be difficult to re-enter the workforce.</desc>
-    <date>2026-05-09</date>
+  <programme start="20260509163000 -0400" stop="20260509200000 -0400" channel="FX.us">
+    <title>Transformers: Dark of the Moon</title>
+    <desc>Sam Witwicky and his new girlfriend, Carly, join the fray when the evil Decepticons renew their longstanding war against the Autobots. Optimus Prime believes that resurrecting ancient Transformer Sentinel Prime, once the leader of the Autobots, may lead to victory. That decision, however, has devastating consequences. The war appears to tip in favor of the Decepticons, leading to a climactic battle in Chicago.</desc>
   </programme>
-  <programme channel="470820" start="20260509200000 +0000" stop="20260509203000 +0000">
-    <title lang="zh">Modern Family</title>
-    <desc>The Dunphys travel to New York, while Mitch, Cam and Lily visit the Midwest, and Jay, Gloria, Manny and Joe go to Mexico; the family gets together for Father's Day.</desc>
-    <date>2026-05-09</date>
+  <programme start="20260509200000 -0400" stop="20260509233000 -0400" channel="FX.us">
+    <title>Transformers: Age of Extinction</title>
+    <desc>After an epic battle, a great city lies in ruins, but the Earth itself is saved. As humanity begins to pick up the pieces, a shadowy group emerges to try to take control of history. Meanwhile, an ancient and powerful new menace sets its sights on Earth. A new group of humans, led by Cade Yeager (Mark Wahlberg), helps Optimus Prime (Peter Cullen) and the Autobots rise up to meet their most fearsome challenge yet: a worldwide war of good versus evil.</desc>
+  </programme>
+  <programme start="20260509233000 -0400" stop="20260510030000 -0400" channel="FX.us">
+    <title>Transformers: Age of Extinction</title>
+    <desc>After an epic battle, a great city lies in ruins, but the Earth itself is saved. As humanity begins to pick up the pieces, a shadowy group emerges to try to take control of history. Meanwhile, an ancient and powerful new menace sets its sights on Earth. A new group of humans, led by Cade Yeager (Mark Wahlberg), helps Optimus Prime (Peter Cullen) and the Autobots rise up to meet their most fearsome challenge yet: a worldwide war of good versus evil.</desc>
+  </programme>
+  <programme start="20260510030000 -0400" stop="20260510050000 -0400" channel="FX.us">
+    <title>The Predator</title>
+    <desc>From the outer reaches of space to the small-town streets of suburbia, the hunt comes home. The universe's most lethal hunters are stronger, smarter and deadlier than ever before, having genetically upgraded themselves with DNA from other species. When a boy accidentally triggers their return to Earth, only a ragtag crew of ex-soldiers and a disgruntled science teacher can prevent the end of the human race.</desc>
+  </programme>
+  <programme start="20260510050000 -0400" stop="20260510053000 -0400" channel="FX.us">
+    <title>Paid Programming</title>
+    <desc>Paid programming.</desc>
+  </programme>
+  <programme start="20260510053000 -0400" stop="20260510063000 -0400" channel="FX.us">
+    <title>Overwhelmed with IRS Debt? Keys to Resolving Tax Debt</title>
+    <desc>See how one company is changing people's lives by helping them put their tax problems to rest.</desc>
+  </programme>
+  <programme start="20260510063000 -0400" stop="20260510070000 -0400" channel="FX.us">
+    <title>Paid Programming</title>
+    <desc>Paid programming.</desc>
+  </programme>
+  <programme start="20260510070000 -0400" stop="20260510100000 -0400" channel="FX.us">
+    <title>Pirates of the Caribbean: The Curse of the Black Pearl</title>
+    <desc>Capt. Jack Sparrow (Johnny Depp) arrives at Port Royal in the Caribbean without a ship or crew. His timing is inopportune, however, because later that evening the town is besieged by a pirate ship. The pirates kidnap the governor's daughter, Elizabeth (Keira Knightley), who's in possession of a valuable coin that is linked to a curse that has transformed the pirates into the undead. A gallant blacksmith (Orlando Bloom) in love with Elizabeth allies with Sparrow in pursuit of the pirates.</desc>
+  </programme>
+  <programme start="20260510100000 -0400" stop="20260510133000 -0400" channel="FX.us">
+    <title>Pirates of the Caribbean: Dead Man's Chest</title>
+    <desc>When ghostly pirate Davy Jones comes to collect a blood debt, Capt. Jack Sparrow must find a way to avoid his fate lest his soul be damned for all time. Nevertheless, the wily ghost manages to interrupt the wedding plans of Jack's friends Will Turner and Elizabeth Swann.</desc>
+  </programme>
+  <programme start="20260510133000 -0400" stop="20260510170000 -0400" channel="FX.us">
+    <title>Pirates of the Caribbean: At World's End</title>
+    <desc>Will Turner (Orlando Bloom) and Elizabeth Swann (Keira Knightley) join forces with Capt. Barbossa (Geoffrey Rush) to free Jack Sparrow (Johnny Depp) from Davy Jones' locker. Meanwhile, the crew of the Flying Dutchman ghost ship wreaks havoc on the Seven Seas. The friends must navigate dangerous waters to confront Chinese pirate Sao Feng (Chow Yun-Fat) and, ultimately, they must choose sides in a battle wherein the pirate life hangs in the balance.</desc>
   </programme>
   <programme channel="470820" start="20260509203000 +0000" stop="20260509210000 +0000">
     <title lang="zh">Modern Family</title>
@@ -271,145 +305,125 @@
     <desc>Rex's starring role in a television commercial is interrupted by the murder of one of the agency's ad executives.</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="465357" start="20260509193000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">The Simpsons</title>
-    <desc>When a drink erases the last 24 hours of his memory, Homer seeks help to try to piece together the events that led to his family being gone.</desc>
+  <programme channel="470820" start="20260510120000 +0000" stop="20260510130000 +0000">
+    <title lang="zh">Hudson &amp; Rex</title>
+    <desc>After the owner of a construction company is found dead, Charlie and Rex track the killer to an underground casino; Major Crimes goes undercover to solve the case.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465331" start="20260509194500 +0000" stop="20260509215500 +0000">
+    <title lang="zh">Frozen II</title>
+    <desc>Elsa the Snow Queen has an extraordinary gift -- the power to create ice and snow. But no matter how happy she is to be surrounded by the people of Arendelle, Elsa finds herself strangely unsettled. After hearing a mysterious voice call out to her, Elsa travels to the enchanted forests and dark seas beyond her kingdom -- an adventure that soon turns into a journey of self-discovery.</desc>
     <date>2026-05-09</date>
   </programme>
-  <programme channel="465357" start="20260509200000 +0000" stop="20260509203000 +0000">
-    <title lang="zh">The Simpsons</title>
-    <desc>Homer destroys Springfield's fast-food district; Mayor Quimby decides to have an early election.</desc>
+  <programme channel="465331" start="20260509215500 +0000" stop="20260510000000 +0000">
+    <title lang="zh">Brave</title>
+    <desc>Merida (Kelly Macdonald), the impetuous but courageous daughter of Scottish King Fergus (Billy Connolly) and Queen Elinor (Emma Thompson), is a skilled archer who wants to carve out her own path in life. Her defiance of an age-old tradition angers the Highland lords and leads to chaos in the kingdom. Merida seeks help from an eccentric witch (Julie Walters), who grants her an ill-fated wish. Now, </desc>
     <date>2026-05-09</date>
   </programme>
-  <programme channel="465357" start="20260509203000 +0000" stop="20260509210000 +0000">
-    <title lang="zh">The Simpsons</title>
-    <desc>When Bart and Lisa unearth Marge's diploma from Springfield University, Marge reminisces about her college days, when she dated a pretentious professor and Homer became a music star.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465357" start="20260509210000 +0000" stop="20260509213000 +0000">
-    <title lang="zh">Family Guy</title>
-    <desc>Brian and Lois try to help Chris manage his anger by encouraging him to take up a sport; Frank Sinatra Jr., Stewie and Brian open an Italian restaurant.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465357" start="20260509213000 +0000" stop="20260509220000 +0000">
-    <title lang="zh">Family Guy</title>
-    <desc>With the airline pilots on strike, Quagmire decides to become a gigolo to earn money; Brian gets a job at a hardware store for the health insurance.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465357" start="20260509220000 +0000" stop="20260509223000 +0000">
-    <title lang="zh">Family Guy</title>
-    <desc>Viewers are taken for a behind-the-scenes look at a "Family Guy" production week; Peter is replaced and pitches a new series to Fox Television Group Chairmen and CEO's Dana Walden and Gary Newman.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465357" start="20260509223000 +0000" stop="20260509230000 +0000">
-    <title lang="zh">Family Guy</title>
-    <desc>Taylor Swift agrees to go to the homecoming dance with Chris; Peter decides to become an Uber driver.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465357" start="20260509230000 +0000" stop="20260509233000 +0000">
-    <title lang="zh">Family Guy</title>
-    <desc>Peter and Lois decide not to vaccinate Stewie after reading about the potential side effects; the rest of Quahog soon follows suit.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465357" start="20260509233000 +0000" stop="20260510000000 +0000">
-    <title lang="zh">Family Guy</title>
-    <desc>The cast re-enacts "The Great Gatsby," "The Adventures of Huckleberry Finn" and "Of Mice and Men.".</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465357" start="20260510000000 +0000" stop="20260510003000 +0000">
-    <title lang="zh">Family Guy</title>
-    <desc>When Peter overhears Carter's plan to save money by using toxic chemicals in the brewery's beer cans, he tells a journalist about it; Brian asks for Stewie's help when his driver's license expired.</desc>
+  <programme channel="465331" start="20260510000000 +0000" stop="20260510023000 +0000">
+    <title lang="zh">Moana</title>
+    <desc>An adventurous teenager sails out on a daring mission to save her people. During her journey, Moana meets the once-mighty demigod Maui, who guides her in her quest to become a master way-finder. Together they sail across the open ocean on an action-packed voyage, encountering enormous monsters and impossible odds. Along the way, Moana fulfills the ancient quest of her ancestors and discovers the o</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="465357" start="20260510003000 +0000" stop="20260510010000 +0000">
-    <title lang="zh">Family Guy</title>
-    <desc>Peter gets power hungry when he's asked to fill in for a mall Santa; Stewie and Brian decide to crash holiday office parties for free food, fun and women.</desc>
+  <programme channel="465331" start="20260510023000 +0000" stop="20260510043000 +0000">
+    <title lang="zh">Lilo &amp; Stitch</title>
+    <desc>A tale of a young girl's close encounter with the galaxy's most wanted extraterrestrial. Lilo is a lonely Hawaiian girl who adopts a small ugly "dog," whom she names Stitch. Stitch would be the perfect pet if he weren't in reality a genetic experiment who has escaped from an alien planet and crash-landed on Earth. Through her love, faith and unwavering belief in ohana, the Hawaiian concept of fami</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="465357" start="20260510010000 +0000" stop="20260510013000 +0000">
-    <title lang="zh">Family Guy</title>
-    <desc>When Quagmire gets free plane tickets for a guys' trip to San Francisco, unforeseen events put his flying abilities to the test.</desc>
+  <programme channel="465331" start="20260510043000 +0000" stop="20260510060000 +0000">
+    <title lang="zh">Dumbo</title>
+    <desc>A young circus elephant is born with comically large ears and given the cruel nickname Dumbo. One day at a show, he is taunted by a group of kids, inciting his mother into a rage that gets her locked up. After Dumbo's ears cause an accident that injures many of the other elephants, he is made to dress like a clown and perform dangerous stunts. Everything changes when Dumbo discovers that his enorm</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="465357" start="20260510013000 +0000" stop="20260510020000 +0000">
-    <title lang="zh">Family Guy</title>
-    <desc>Professional football player Rob Gronkowski moves into the neighborhood; Stewie uses steroids to increase his new bees' honey output, but it makes them aggressive instead.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465357" start="20260510020000 +0000" stop="20260510023000 +0000">
-    <title lang="zh">Family Guy</title>
-    <desc>While the guys try to start a podcast, Peter goes solo and becomes a DJ.; when Lois' allergy forces Brian to move into Stewie's bedroom, the two have a difficult time as roommates.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465357" start="20260510023000 +0000" stop="20260510030000 +0000">
-    <title lang="zh">Family Guy</title>
-    <desc>The guys decide to form a string quartet, but Peter doesn't make the cut; Brian is forced to be Carter's seeing eye dog.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465357" start="20260510030000 +0000" stop="20260510033000 +0000">
-    <title lang="zh">Family Guy</title>
-    <desc>Peter and the gang must intervene when a popular dating app sends Quagmire on the road to hedonism; Stewie finds out he has scoliosis.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465357" start="20260510033000 +0000" stop="20260510040000 +0000">
-    <title lang="zh">Family Guy</title>
-    <desc>Peter helps Joe with several crime cases but gets angry when Joe tries to take all of the credit; Brian convinces Stewie to join a football team and panics when he gets a concussion.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465357" start="20260510040000 +0000" stop="20260510043000 +0000">
-    <title lang="zh">Family Guy</title>
-    <desc>Peter opens up his own food truck business in an attempt to avoid the healthy food Lois forces him to eat; Meg joins a roller derby team, despite Chris thinking it's too dangerous.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465357" start="20260510043000 +0000" stop="20260510050000 +0000">
-    <title lang="zh">Family Guy</title>
-    <desc>Lois upstages Peter at a Red Sox fantasy baseball camp; Stewie runs away from home while Meg is watching him.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465357" start="20260510050000 +0000" stop="20260510053000 +0000">
-    <title lang="zh">King of the Hill</title>
-    <desc>When unresolved feelings for Redcorn turn into stress for Nancy, her hair falls out; Nancy's mother learns a secret about hereditary hair loss.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465357" start="20260510053000 +0000" stop="20260510060000 +0000">
-    <title lang="zh">King of the Hill</title>
-    <desc>Bill tries to get in shape for a physical at work; Hank tries to knock some sense into everyone as the family prepares for Luanne and Lucky's lavish wedding.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465357" start="20260510060000 +0000" stop="20260510063000 +0000">
-    <title lang="zh">King of the Hill</title>
-    <desc>Bill tries to get in shape for a physical at work; Hank tries to knock some sense into everyone as the family prepares for Luanne and Lucky's lavish wedding.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465357" start="20260510063000 +0000" stop="20260510070000 +0000">
-    <title lang="zh">King of the Hill</title>
-    <desc>At a college football game, Bobby ventures into a VIP suite belonging to a retired Nebraska quarterback; in the suite, Hank pretends to be the quarterback and calls a play.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465357" start="20260510070000 +0000" stop="20260510073000 +0000">
-    <title lang="zh">King of the Hill</title>
-    <desc>Bobby raises a protest over a soda machine at school to impress a girl.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465357" start="20260510073000 +0000" stop="20260510080000 +0000">
-    <title lang="zh">King of the Hill</title>
-    <desc>Bobby is asked to be a cheerleader for the school's annual powder-puff football game; Peggy volunteers with the PTA.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465357" start="20260510080000 +0000" stop="20260510083000 +0000">
+  <programme channel="465331" start="20260510060000 +0000" stop="20260510063000 +0000">
     <title lang="zh">NEW! Shark PowerDetect with DuoClean Detect Technology</title>
     <desc>Meet the new Shark PowerDetect Upright Vacuum with features like DuoClean Detect Technology, self-cleaning brush roll and odor neutralizing and you will be cleaning faster, smarter and better!</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="465357" start="20260510083000 +0000" stop="20260510090000 +0000">
+  <programme channel="465331" start="20260510063000 +0000" stop="20260510070000 +0000">
+    <title lang="zh">Joe Lando joins Jane Seymour - New Crepe Erase show with 3 FREE Gifts!</title>
+    <desc>TV stars Joe Lando and Jane Seymour reveal the secret to smoother, younger-looking skin with Crepe Erase. Plus, receive 3 FREE gifts with this limited-time offer.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465331" start="20260510070000 +0000" stop="20260510073000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465331" start="20260510073000 +0000" stop="20260510080000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465331" start="20260510080000 +0000" stop="20260510083000 +0000">
+    <title lang="zh">NEW! Shark PowerDetect with DuoClean Detect Technology</title>
+    <desc>Meet the new Shark PowerDetect Upright Vacuum with features like DuoClean Detect Technology, self-cleaning brush roll and odor neutralizing and you will be cleaning faster, smarter and better!</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465331" start="20260510083000 +0000" stop="20260510090000 +0000">
+    <title lang="zh">Best Mattress Topper Ever!</title>
+    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465331" start="20260510090000 +0000" stop="20260510093000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465331" start="20260510093000 +0000" stop="20260510100000 +0000">
+    <title lang="zh">Ready for a safer shower? Enjoy a one-day bath remodel with Jacuzzi.</title>
+    <desc>Trusted brand Jacuzzi Bath Remodel and interior designer Christina Hall share their secrets on how you can easily and affordably transform your bathroom into a gorgeous custom, safe, stylish space in 1 day! Call for a FREE quote &amp; installation.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465331" start="20260510100000 +0000" stop="20260510103000 +0000">
     <title lang="zh">Have Thinning Hair? Keranique Can Help Regrow Beautiful, Thicker Hair!</title>
     <desc>If you have thinning hair or hair loss, Keranique can help regrow thicker, longer and fuller hair. Keranique is the number 1 hair regrowth system for women. Regain your confidence with beautiful, thicker and fuller hair in just 3 easy steps!</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="464897" start="20260509180000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">All Yours</title>
-    <desc>Cass, a busy, single mother, hires her friend Matt to help her take care of the kids. Eventually, she realizes that the person who could complete her family may have been there the whole time.</desc>
-    <date>2026-05-09</date>
+  <programme channel="465331" start="20260510103000 +0000" stop="20260510110000 +0000">
+    <title lang="zh">NEW! Shark PowerDetect with DuoClean Detect Technology</title>
+    <desc>Meet the new Shark PowerDetect Upright Vacuum with features like DuoClean Detect Technology, self-cleaning brush roll and odor neutralizing and you will be cleaning faster, smarter and better!</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465331" start="20260510110000 +0000" stop="20260510113000 +0000">
+    <title lang="zh">According to Jim</title>
+    <desc>Jim worries Cheryl will learn the truth about her engagement ring after she invites his old girlfriend (Crystal Bernard) to dinner.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465331" start="20260510113000 +0000" stop="20260510120000 +0000">
+    <title lang="zh">According to Jim</title>
+    <desc>Jim goes into protective overdrive after Cheryl is mugged while shopping.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465331" start="20260510120000 +0000" stop="20260510143000 +0000">
+    <title lang="zh">The Game Plan</title>
+    <desc>Bachelor football star Joe Kingman (Dwayne "The Rock" Johnson) seems to have it all. He is wealthy and carefree, and his team is on the way to capturing a championship. Suddenly, he is tackled by some unexpected news: He has a young daughter (Madison Pettis), the result of a last fling with his ex-wife. Joe must learn to balance his personal and professional lives with the needs of his child.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465331" start="20260510143000 +0000" stop="20260510163500 +0000">
+    <title lang="zh">Maleficent</title>
+    <desc>As a beautiful young woman of pure heart, Maleficent (Angelina Jolie) has an idyllic life in a forest kingdom. When an invading army threatens the land, Maleficent rises up to become its fiercest protector. However, a terrible betrayal hardens her heart and twists her into a creature bent on revenge. She engages in an epic battle with the invading king's successor, then curses his newborn daughter</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465331" start="20260510163500 +0000" stop="20260510191500 +0000">
+    <title lang="zh">Maleficent: Mistress of Evil</title>
+    <desc>Maleficent travels to a grand old castle to celebrate young Aurora's upcoming wedding to Prince Phillip. While there, she meets Aurora's future mother-in-law -- a conniving queen who hatches a devious plot to destroy the land's fairies. Hoping to stop her, Maleficent joins forces with a seasoned warrior and a group of outcasts to battle the queen and her powerful army.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465331" start="20260510191500 +0000" stop="20260510215000 +0000">
+    <title lang="zh">Cinderella</title>
+    <desc>After her father unexpectedly dies, young Ella (Lily James) finds herself at the mercy of her cruel stepmother (Cate Blanchett) and stepsisters, who reduce her to scullery maid. Despite her circumstances, she refuses to despair. An invitation to a palace ball gives Ella hope that she might reunite with the dashing stranger (Richard Madden) she met in the woods, but her stepmother prevents her from</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465331" start="20260510215000 +0000" stop="20260510235500 +0000">
+    <title lang="zh">Freaky Friday</title>
+    <desc>Single mother Tess Coleman (Jamie Lee Curtis) and her teenage daughter Anna (Lindsay Lohan) couldn't be more different, and it is driving them both insane. After receiving cryptic fortunes at a Chinese restaurant, the two wake up the next day to discover that they have somehow switched bodies. Unable to switch back, they are forced to masquerade as one another until a solution can be found. In the</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465331" start="20260510235500 +0000" stop="20260511000000 +0000">
+    <title lang="zh">The Parent Trap</title>
+    <desc>Twins Annie and Hallie are strangers until happenstance unites them. The preteen girls' divorced parents, Nick and Elizabeth are living on opposite sides of the Atlantic, each with one child. After meeting at camp, American Hallie and British-raised Annie engineer an identity swap, giving both the chance to spend time with the parent they've missed. If the scheme works, it might just make the fami</desc>
+    <date>2026-05-10</date>
   </programme>
   <programme channel="464897" start="20260509200000 +0000" stop="20260509220000 +0000">
     <title lang="zh">A Novel Romance</title>
@@ -531,15 +545,380 @@
     <desc>A helicopter mom follows her daughter to college and lands a job on campus. When she meets a charismatic professor, she learns more about herself and discovers a life of her own.</desc>
     <date>2026-05-11</date>
   </programme>
-  <programme channel="464774" start="20260509193000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">Parking Wars</title>
-    <desc>Courtney and Michelle need backup; a broken meter standoff.</desc>
+  <programme channel="470910" start="20260509200000 +0000" stop="20260509210000 +0000">
+    <title lang="zh">Law &amp; Order: Special Victims Unit</title>
+    <desc>Benson and Carisi are baffled when a series of assaults have the same M.O. but different DNA at each crime scene; Muncy believes Elias Olsen has struck again and is determined to prove it.</desc>
     <date>2026-05-09</date>
   </programme>
-  <programme channel="464774" start="20260509200000 +0000" stop="20260509203000 +0000">
-    <title lang="zh">Parking Wars</title>
-    <desc>April Fool's Day is no joke in Philly when Garfield and Sherry face off with a man trying to block the boot; in Detroit, veteran ticket-writer Norman demands respect, even when cursed out by angry women.</desc>
+  <programme channel="470910" start="20260509210000 +0000" stop="20260509220000 +0000">
+    <title lang="zh">Law &amp; Order</title>
+    <desc>A deadly subway shooting has Cosgrove and Shaw racing to find the culprit before another attack is orchestrated; Price and Maroun struggle to put their ethical principles aside when the U.S. Attorney's office pushes for the death penalty in the case.</desc>
     <date>2026-05-09</date>
+  </programme>
+  <programme channel="470910" start="20260509220000 +0000" stop="20260509230000 +0000">
+    <title lang="zh">Law &amp; Order: Special Victims Unit</title>
+    <desc>Benson and Carisi are baffled when a series of assaults have the same M.O. but different DNA at each crime scene; Muncy believes Elias Olsen has struck again and is determined to prove it.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="470910" start="20260509230000 +0000" stop="20260510000000 +0000">
+    <title lang="zh">Law &amp; Order</title>
+    <desc>Lives hang in the balance as detectives and prosecutors pursue justice in New York City. In cases ripped from the headlines, police investigate serious and often deadly crimes, weighing the evidence and questioning the suspects until someone is taken into custody. The district attorney's office then builds a case to convict the perpetrator by proving them guilty beyond a reasonable doubt. Working </desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="470910" start="20260510000000 +0000" stop="20260510010000 +0000">
+    <title lang="zh">Law &amp; Order: Special Victims Unit</title>
+    <desc>This groundbreaking series from executive producer Dick Wolf's "Law &amp; Order" franchise chronicles the ripped-from-the-headlines investigations of the NYPD's Special Victims Unit; led by courageous and compassionate Capt. Olivia Benson, this elite team includes Sgt. Odafin Tutuola, Detective Amanda Rollins, Officer Katriona Tamin and Deputy Chief Christian Garland, who focus on finding justice for </desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510010000 +0000" stop="20260510020000 +0000">
+    <title lang="zh">Chicago Med</title>
+    <desc>Members of the city's most highly skilled medical team save lives while navigating their unique interpersonal relationships. The Gaffney Chicago Medical Center's elite team of dedicated doctors, nurses and staff face challenges each day as they do what it takes to treat their patients, sometimes in surprisingly inventive ways. As the city's last line of defense, doctors Charles, Halstead, Marcel, </desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510020000 +0000" stop="20260510030000 +0000">
+    <title lang="zh">Chicago Fire</title>
+    <desc>As the firefighters, rescue squad and paramedics of Chicago Firehouse 51 forge headfirst into danger, the choices they make can mean the difference between life and death. But from the relentless pressure of saving lives, an extended family is forged. Led by Chief Wallace Boden, Matthew Casey, Kelly Severide, Gabriela Dawson and the others know -- when it's go time, Firehouse 51 lays it all on the</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510030000 +0000" stop="20260510040000 +0000">
+    <title lang="zh">Chicago P.D.</title>
+    <desc>Chicago P.D.'s Intelligence Unit, led by Sgt. Hank Voight, investigates the city's most formidable offenses -- drug trafficking, organized crime, high-profile murders and other large-scale felonies. The squad -- made up of Voight, Trudy Platt, Kim Burgess, Adam Ruzek, Kevin Atwater, Jay Halstead and Hailey Upton -- is committed to protecting the city and seeking truth, but in the midst of a changi</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510040000 +0000" stop="20260510050000 +0000">
+    <title lang="zh">Chicago Med</title>
+    <desc>Members of the city's most highly skilled medical team save lives while navigating their unique interpersonal relationships. The Gaffney Chicago Medical Center's elite team of dedicated doctors, nurses and staff face challenges each day as they do what it takes to treat their patients, sometimes in surprisingly inventive ways. As the city's last line of defense, doctors Charles, Halstead, Marcel, </desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510050000 +0000" stop="20260510060000 +0000">
+    <title lang="zh">Chicago Fire</title>
+    <desc>As the firefighters, rescue squad and paramedics of Chicago Firehouse 51 forge headfirst into danger, the choices they make can mean the difference between life and death. But from the relentless pressure of saving lives, an extended family is forged. Led by Chief Wallace Boden, Matthew Casey, Kelly Severide, Gabriela Dawson and the others know -- when it's go time, Firehouse 51 lays it all on the</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510060000 +0000" stop="20260510070000 +0000">
+    <title lang="zh">Chicago P.D.</title>
+    <desc>Chicago P.D.'s Intelligence Unit, led by Sgt. Hank Voight, investigates the city's most formidable offenses -- drug trafficking, organized crime, high-profile murders and other large-scale felonies. The squad -- made up of Voight, Trudy Platt, Kim Burgess, Adam Ruzek, Kevin Atwater, Jay Halstead and Hailey Upton -- is committed to protecting the city and seeking truth, but in the midst of a changi</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510070000 +0000" stop="20260510080000 +0000">
+    <title lang="zh">Hudson &amp; Rex</title>
+    <desc>Rex is on trial after his DNA is discovered at the scene of the murder of Donovan's former police informant.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510080000 +0000" stop="20260510090000 +0000">
+    <title lang="zh">Hudson &amp; Rex</title>
+    <desc>Charlie and Rex investigate a fairytale-turned-nightmare when a princess performer suspiciously dies at a child's birthday party.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510090000 +0000" stop="20260510100000 +0000">
+    <title lang="zh">Hudson &amp; Rex</title>
+    <desc>Charlie and Rex are in grave danger as they find themselves captives of a kidnapper seeking vengeance.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510100000 +0000" stop="20260510110000 +0000">
+    <title lang="zh">Hudson &amp; Rex</title>
+    <desc>An arsonist begins terrorizing a neighborhood with car bombs; Charlie and Rex race to find the next target before the case goes up in smoke.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510110000 +0000" stop="20260510120000 +0000">
+    <title lang="zh">Hudson &amp; Rex</title>
+    <desc>When a murder appears to mimic an infamous crime spree from the past, Charlie and Rex rush to stop the culprit from continuing a serial killer's legacy.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510120000 +0000" stop="20260510130000 +0000">
+    <title lang="zh">Hudson &amp; Rex</title>
+    <desc>Charlie lets Rex take the lead as they investigate a murder at a prestigious dog show.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510130000 +0000" stop="20260510140000 +0000">
+    <title lang="zh">Hudson &amp; Rex</title>
+    <desc>Trapped in an isolated mansion during a storm, Charlie and Rex uncover a wannabe-killer after the hostess is drugged; Sarah fights to keep her alive.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510140000 +0000" stop="20260510150000 +0000">
+    <title lang="zh">Hudson &amp; Rex</title>
+    <desc>Charlie and Rex are in grave danger as they find themselves captives of a kidnapper seeking vengeance.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510150000 +0000" stop="20260510160000 +0000">
+    <title lang="zh">Hudson &amp; Rex</title>
+    <desc>An arsonist begins terrorizing a neighborhood with car bombs; Charlie and Rex race to find the next target before the case goes up in smoke.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510160000 +0000" stop="20260510170000 +0000">
+    <title lang="zh">Hudson &amp; Rex</title>
+    <desc>When a murder appears to mimic an infamous crime spree from the past, Charlie and Rex rush to stop the culprit from continuing a serial killer's legacy.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510170000 +0000" stop="20260510180000 +0000">
+    <title lang="zh">Hudson &amp; Rex</title>
+    <desc>Charlie lets Rex take the lead as they investigate a murder at a prestigious dog show.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510180000 +0000" stop="20260510190000 +0000">
+    <title lang="zh">Hudson &amp; Rex</title>
+    <desc>Trapped in an isolated mansion during a storm, Charlie and Rex uncover a wannabe-killer after the hostess is drugged; Sarah fights to keep her alive.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510190000 +0000" stop="20260510200000 +0000">
+    <title lang="zh">Hudson &amp; Rex</title>
+    <desc>Charlie and Rex are in grave danger as they find themselves captives of a kidnapper seeking vengeance.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510200000 +0000" stop="20260510210000 +0000">
+    <title lang="zh">Chicago Med</title>
+    <desc>Members of the city's most highly skilled medical team save lives while navigating their unique interpersonal relationships. The Gaffney Chicago Medical Center's elite team of dedicated doctors, nurses and staff face challenges each day as they do what it takes to treat their patients, sometimes in surprisingly inventive ways. As the city's last line of defense, doctors Charles, Halstead, Marcel, </desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470910" start="20260510210000 +0000" stop="20260510220000 +0000">
+    <title lang="zh">Chicago Fire</title>
+    <desc>As the firefighters, rescue squad and paramedics of Chicago Firehouse 51 forge headfirst into danger, the choices they make can mean the difference between life and death. But from the relentless pressure of saving lives, an extended family is forged. Led by Chief Wallace Boden, Matthew Casey, Kelly Severide, Gabriela Dawson and the others know -- when it's go time, Firehouse 51 lays it all on the</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260509200000 +0000" stop="20260509210000 +0000">
+    <title lang="zh">The Myth of Marilyn Monroe</title>
+    <desc>A look at Marilyn Monroe as a defining icon of 1950s America and how, throughout the decade, the myth of Marilyn and the American dream seemed to crumble.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="465105" start="20260509210000 +0000" stop="20260509220000 +0000">
+    <title lang="zh">Dolly Parton: Big Hair, Bigger Heart</title>
+    <desc>From humble roots to icon status, Dolly Parton has built a rich legacy in music and beyond. This is her story.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="465105" start="20260509220000 +0000" stop="20260510000000 +0000">
+    <title lang="zh">The Luau</title>
+    <desc>A man who owes a large sum of cash throws a party that soon spirals out of control just to raise some money.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="465105" start="20260510000000 +0000" stop="20260510020000 +0000">
+    <title lang="zh">Malibooty</title>
+    <desc>Three buddies (Brian Hooks, Sticky Fingaz, J.T. Jackson) leave their Arizona town and head to California for a wild beach party.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510020000 +0000" stop="20260510043000 +0000">
+    <title lang="zh">Bodied</title>
+    <desc>A progressive graduate student finds success and sparks outrage when his interest in battle rap as a thesis subject turns into a competitive obsession.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510043000 +0000" stop="20260510050000 +0000">
+    <title lang="zh">TallBoyz</title>
+    <desc>Matthew and Marilla get an orphan they didn't anticipate; wearing a muzzle greatly reduces the risk of transmission; a small scientific wonder baffles a high school teacher.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510050000 +0000" stop="20260510053000 +0000">
+    <title lang="zh">TallBoyz</title>
+    <desc>The Boyz navigate Guled's acceptance into the royal family; sexting gets competitive; babies can spit bars.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510053000 +0000" stop="20260510060000 +0000">
+    <title lang="zh">TallBoyz</title>
+    <desc>Two mobsters struggle to follow a lead; the body never forgets, even after death; there's a first time for everything in dating; a scientist has a stern warning for the universe.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510060000 +0000" stop="20260510063000 +0000">
+    <title lang="zh">TallBoyz</title>
+    <desc>Guled makes a special wish; the party theme is diversity; a father and son examine the wizarding world.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510063000 +0000" stop="20260510073000 +0000">
+    <title lang="zh">How To Have A Better Orgasm</title>
+    <desc>Women share how their experience of orgasms has improved thanks to better interpersonal communication, or just making time for themselves. Personal accounts reveal that, across the board, there's a turning point in learning how to have a better one.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510073000 +0000" stop="20260510080000 +0000">
+    <title lang="zh">My Big Boobs</title>
+    <desc>Podcaster and body confidence advocate Jackie Adedeji meets women with big breasts to explore the growing issue living with larger breasts and the increased demand for reduction surgery.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510080000 +0000" stop="20260510083000 +0000">
+    <title lang="zh">Sense Appeal</title>
+    <desc>Nonbinary filmmaker Jordan is looking for someone wild and squishy; they sense fancy sweat and barbecue sauce.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510083000 +0000" stop="20260510090000 +0000">
+    <title lang="zh">Sense Appeal</title>
+    <desc>Business student Amanda wants a beautiful boy for lifelong love; she senses sloppy kisses and the look of lust.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510090000 +0000" stop="20260510093000 +0000">
+    <title lang="zh">Sense Appeal</title>
+    <desc>Bartender Shenika wants a woman with the chemistry cocktail of spice, culture and perfect pheromones; she senses massages and mom voice.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510093000 +0000" stop="20260510100000 +0000">
+    <title lang="zh">Sense Appeal</title>
+    <desc>Rock star/cheerleader Kyle looks for a squad mate who is his kind of crazy; he senses sensual touches and confident kisses.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510100000 +0000" stop="20260510110000 +0000">
+    <title lang="zh">Unbreakable</title>
+    <desc>Jayden has the finish line in sight; AJ suffers a blow; meeting Ella, who wants to drive trucks.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510110000 +0000" stop="20260510120000 +0000">
+    <title lang="zh">Unbreakable</title>
+    <desc>Ming Ming goes on his first ever date; AJ makes a comeback; Ella has a change of heart.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510120000 +0000" stop="20260510123000 +0000">
+    <title lang="zh">Off the Map With Shannen and Holly</title>
+    <desc>Shannen learns to play the harmonica; the best ribs of the South.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510123000 +0000" stop="20260510130000 +0000">
+    <title lang="zh">Off the Map With Shannen and Holly</title>
+    <desc>The girls are pulled over; dirt track race.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510130000 +0000" stop="20260510133000 +0000">
+    <title lang="zh">Cheaters</title>
+    <desc>Kesha wants to find out what's going on with Duke.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510133000 +0000" stop="20260510140000 +0000">
+    <title lang="zh">Cheaters</title>
+    <desc>Larry wants to know why his wife is acting peculiar.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510140000 +0000" stop="20260510143000 +0000">
+    <title lang="zh">Cheaters</title>
+    <desc>Nicholas is worried about his relationship with Ava.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510143000 +0000" stop="20260510150000 +0000">
+    <title lang="zh">Cheaters</title>
+    <desc>Jill wants to know why Rose constantly wants alone time.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510150000 +0000" stop="20260510153000 +0000">
+    <title lang="zh">Cheaters</title>
+    <desc>Bridget risks breaking her heart to check up on Dwight.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510153000 +0000" stop="20260510160000 +0000">
+    <title lang="zh">Cheaters</title>
+    <desc>Christian wants to discover why Celeste is so secretive.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465105" start="20260510160000 +0000" stop="20260510163000 +0000">
+    <title lang="zh">Cheaters</title>
+    <desc>Amber wants to know the reason behind Robert's constant showering and frequent haircuts.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260509203000 +0000" stop="20260509213000 +0000">
+    <title lang="zh">MasterChef Australia</title>
+    <desc>Each team of two must create two plates of identical dishes; the teams are not allowed to look at or taste their partners' dish.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="470509" start="20260509213000 +0000" stop="20260509230000 +0000">
+    <title lang="zh">MasterChef Australia</title>
+    <desc>The four contestants who came last in the team challenge must participate in a cook-off in order to gain immunity from elimination.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="470509" start="20260509230000 +0000" stop="20260510000000 +0000">
+    <title lang="zh">All's Fair in Love &amp; Mahjong</title>
+    <desc>A school nurse turns her love of the game Mahjong into a new path, inspired by a jovial contractor fixing up her home, who encourages her to take a chance on the future.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="470509" start="20260510010000 +0000" stop="20260510030000 +0000">
+    <title lang="zh">Aurora Teagarden Mysteries: Three Bedrooms, One Corpse</title>
+    <desc>Master sleuth Aurora Teagarden (Candace Cameron Bure) investigates the deaths of two people found inside houses that are being sold.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260510030000 +0000" stop="20260510050000 +0000">
+    <title lang="zh">All's Fair in Love &amp; Mahjong</title>
+    <desc>A school nurse turns her love of the game Mahjong into a new path, inspired by a jovial contractor fixing up her home, who encourages her to take a chance on the future.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260510050000 +0000" stop="20260510070000 +0000">
+    <title lang="zh">Aurora Teagarden Mysteries: Three Bedrooms, One Corpse</title>
+    <desc>Master sleuth Aurora Teagarden (Candace Cameron Bure) investigates the deaths of two people found inside houses that are being sold.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260510070000 +0000" stop="20260510090000 +0000">
+    <title lang="zh">Aurora Teagarden Mysteries: The Julius House</title>
+    <desc>Aurora Teagarden finds her dream home, unaware of its strange history. Just as she's ready to move in, she discovers that its previous owners disappeared without a trace.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260510090000 +0000" stop="20260510093000 +0000">
+    <title lang="zh">Mary Makes It Easy</title>
+    <desc>Mary makes healthier versions of her favorite comfort foods by incorporating more nutrients and adding healthier ingredients without sacrificing the flavor.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260510093000 +0000" stop="20260510100000 +0000">
+    <title lang="zh">Mary Makes It Easy</title>
+    <desc>Baking may be a science, but it doesn't need to be complicated; Mary's recipes show some simple solutions for enjoying baked goods at home.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260510100000 +0000" stop="20260510120000 +0000">
+    <title lang="zh">Aurora Teagarden Mysteries: The Julius House</title>
+    <desc>Aurora Teagarden finds her dream home, unaware of its strange history. Just as she's ready to move in, she discovers that its previous owners disappeared without a trace.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260510120000 +0000" stop="20260510130000 +0000">
+    <title lang="zh">Blue Bloods</title>
+    <desc>Frank clashes with the team when one of the members becomes the focus of a departmental investigation; Jamie and Danny team up to investigate a series of carjackings involving one of Danny's criminal informants.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260510130000 +0000" stop="20260510140000 +0000">
+    <title lang="zh">Blue Bloods</title>
+    <desc>Danny and Baez investigate a case of grand larceny tied to feuding crime families; Frank clashes with Mayor Chase when an influx of immigrants arrives in the city; Erin questions whether her district attorney campaign is compromising her day job.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260510140000 +0000" stop="20260510150000 +0000">
+    <title lang="zh">Blue Bloods</title>
+    <desc>Jamie partners with the FDNY to find the arsonist responsible for a massive fire at an NYPD evidence storage facility; Eddie asks Frank to put her on modified duty following her divisive arrest of an anti-cop protestor at a rally.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260510150000 +0000" stop="20260510160000 +0000">
+    <title lang="zh">Blue Bloods</title>
+    <desc>Frank worries his longtime friend is hiding his true reason for returning to the city; Baez and her daughter are targeted by a criminal Baez once put away; Anthony is sucked into the inner workings of an underground crime ring.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260510160000 +0000" stop="20260510170000 +0000">
+    <title lang="zh">Blue Bloods</title>
+    <desc>Danny and Baez team up with Danny's old partner to find a copycat killer emulating a criminal's murders from a previous case; Frank and Mayor Chase battle over how best to handle the city's rising homeless population.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260510170000 +0000" stop="20260510180000 +0000">
+    <title lang="zh">Blue Bloods</title>
+    <desc>The family argues over Danny's questionable tactics as he searches for a missing girl; Jamie starts his new life as a cop.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260510180000 +0000" stop="20260510190000 +0000">
+    <title lang="zh">Blue Bloods</title>
+    <desc>A good Samaritan with a police record takes action against a terrorizing subway criminal, forcing the Reagans to weigh the rights and wrongs of vigilantism.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260510190000 +0000" stop="20260510200000 +0000">
+    <title lang="zh">Blue Bloods</title>
+    <desc>Danny, Erin and Frank work together to seek justice when the main suspect in a rape case is protected by diplomatic immunity.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260510200000 +0000" stop="20260510210000 +0000">
+    <title lang="zh">Blue Bloods</title>
+    <desc>Frank clashes with the team when one of the members becomes the focus of a departmental investigation; Jamie and Danny team up to investigate a series of carjackings involving one of Danny's criminal informants.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260510210000 +0000" stop="20260510220000 +0000">
+    <title lang="zh">Blue Bloods</title>
+    <desc>Danny and Baez investigate a case of grand larceny tied to feuding crime families; Frank clashes with Mayor Chase when an influx of immigrants arrives in the city; Erin questions whether her district attorney campaign is compromising her day job.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260510220000 +0000" stop="20260510230000 +0000">
+    <title lang="zh">Blue Bloods</title>
+    <desc>Jamie partners with the FDNY to find the arsonist responsible for a massive fire at an NYPD evidence storage facility; Eddie asks Frank to put her on modified duty following her divisive arrest of an anti-cop protestor at a rally.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260510230000 +0000" stop="20260511000000 +0000">
+    <title lang="zh">Blue Bloods</title>
+    <desc>Frank worries his longtime friend is hiding his true reason for returning to the city; Baez and her daughter are targeted by a criminal Baez once put away; Anthony is sucked into the inner workings of an underground crime ring.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470509" start="20260511000000 +0000" stop="20260512000000 +0000">
+    <title lang="zh">Blue Bloods</title>
+    <desc>Danny and Baez team up with Danny's old partner to find a copycat killer emulating a criminal's murders from a previous case; Frank and Mayor Chase battle over how best to handle the city's rising homeless population.</desc>
+    <date>2026-05-11</date>
   </programme>
   <programme channel="464774" start="20260509203000 +0000" stop="20260509210000 +0000">
     <title lang="zh">Parking Wars</title>
@@ -666,10 +1045,265 @@
     <desc>Garfield and Sherry deal with a woman making a scene by refusing to leave her booted car so it can be towed in Philadelphia; parking melee during a Baptist convention in Detroit; a woman learns her boyfriend's dark parking secrets.</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="470299" start="20260509193000 +0000" stop="20260509203000 +0000">
-    <title lang="zh">Great Chocolate Showdown</title>
-    <desc>The eight home bakers take a journey to the world of galaxy mirror glaze as they create a solar system cake for their technique test; the home bakers flex their taste buds in the elimination challenge as they identify ingredients in a taste-off.</desc>
+  <programme channel="464774" start="20260510090000 +0000" stop="20260510093000 +0000">
+    <title lang="zh">The Aging Brain</title>
+    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260509203000 +0000" stop="20260509210000 +0000">
+    <title lang="zh">The Simpsons</title>
+    <desc>When Bart and Lisa unearth Marge's diploma from Springfield University, Marge reminisces about her college days, when she dated a pretentious professor and Homer became a music star.</desc>
     <date>2026-05-09</date>
+  </programme>
+  <programme channel="465357" start="20260509210000 +0000" stop="20260509213000 +0000">
+    <title lang="zh">Family Guy</title>
+    <desc>Brian and Lois try to help Chris manage his anger by encouraging him to take up a sport; Frank Sinatra Jr., Stewie and Brian open an Italian restaurant.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="465357" start="20260509213000 +0000" stop="20260509220000 +0000">
+    <title lang="zh">Family Guy</title>
+    <desc>With the airline pilots on strike, Quagmire decides to become a gigolo to earn money; Brian gets a job at a hardware store for the health insurance.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="465357" start="20260509220000 +0000" stop="20260509223000 +0000">
+    <title lang="zh">Family Guy</title>
+    <desc>Viewers are taken for a behind-the-scenes look at a "Family Guy" production week; Peter is replaced and pitches a new series to Fox Television Group Chairmen and CEO's Dana Walden and Gary Newman.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="465357" start="20260509223000 +0000" stop="20260509230000 +0000">
+    <title lang="zh">Family Guy</title>
+    <desc>Taylor Swift agrees to go to the homecoming dance with Chris; Peter decides to become an Uber driver.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="465357" start="20260509230000 +0000" stop="20260509233000 +0000">
+    <title lang="zh">Family Guy</title>
+    <desc>Peter and Lois decide not to vaccinate Stewie after reading about the potential side effects; the rest of Quahog soon follows suit.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="465357" start="20260509233000 +0000" stop="20260510000000 +0000">
+    <title lang="zh">Family Guy</title>
+    <desc>The cast re-enacts "The Great Gatsby," "The Adventures of Huckleberry Finn" and "Of Mice and Men.".</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="465357" start="20260510000000 +0000" stop="20260510003000 +0000">
+    <title lang="zh">Family Guy</title>
+    <desc>When Peter overhears Carter's plan to save money by using toxic chemicals in the brewery's beer cans, he tells a journalist about it; Brian asks for Stewie's help when his driver's license expired.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260510003000 +0000" stop="20260510010000 +0000">
+    <title lang="zh">Family Guy</title>
+    <desc>Peter gets power hungry when he's asked to fill in for a mall Santa; Stewie and Brian decide to crash holiday office parties for free food, fun and women.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260510010000 +0000" stop="20260510013000 +0000">
+    <title lang="zh">Family Guy</title>
+    <desc>When Quagmire gets free plane tickets for a guys' trip to San Francisco, unforeseen events put his flying abilities to the test.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260510013000 +0000" stop="20260510020000 +0000">
+    <title lang="zh">Family Guy</title>
+    <desc>Professional football player Rob Gronkowski moves into the neighborhood; Stewie uses steroids to increase his new bees' honey output, but it makes them aggressive instead.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260510020000 +0000" stop="20260510023000 +0000">
+    <title lang="zh">Family Guy</title>
+    <desc>While the guys try to start a podcast, Peter goes solo and becomes a DJ.; when Lois' allergy forces Brian to move into Stewie's bedroom, the two have a difficult time as roommates.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260510023000 +0000" stop="20260510030000 +0000">
+    <title lang="zh">Family Guy</title>
+    <desc>The guys decide to form a string quartet, but Peter doesn't make the cut; Brian is forced to be Carter's seeing eye dog.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260510030000 +0000" stop="20260510033000 +0000">
+    <title lang="zh">Family Guy</title>
+    <desc>Peter and the gang must intervene when a popular dating app sends Quagmire on the road to hedonism; Stewie finds out he has scoliosis.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260510033000 +0000" stop="20260510040000 +0000">
+    <title lang="zh">Family Guy</title>
+    <desc>Peter helps Joe with several crime cases but gets angry when Joe tries to take all of the credit; Brian convinces Stewie to join a football team and panics when he gets a concussion.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260510040000 +0000" stop="20260510043000 +0000">
+    <title lang="zh">Family Guy</title>
+    <desc>Peter opens up his own food truck business in an attempt to avoid the healthy food Lois forces him to eat; Meg joins a roller derby team, despite Chris thinking it's too dangerous.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260510043000 +0000" stop="20260510050000 +0000">
+    <title lang="zh">Family Guy</title>
+    <desc>Lois upstages Peter at a Red Sox fantasy baseball camp; Stewie runs away from home while Meg is watching him.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260510050000 +0000" stop="20260510053000 +0000">
+    <title lang="zh">King of the Hill</title>
+    <desc>When unresolved feelings for Redcorn turn into stress for Nancy, her hair falls out; Nancy's mother learns a secret about hereditary hair loss.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260510053000 +0000" stop="20260510060000 +0000">
+    <title lang="zh">King of the Hill</title>
+    <desc>Bill tries to get in shape for a physical at work; Hank tries to knock some sense into everyone as the family prepares for Luanne and Lucky's lavish wedding.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260510060000 +0000" stop="20260510063000 +0000">
+    <title lang="zh">King of the Hill</title>
+    <desc>Bill tries to get in shape for a physical at work; Hank tries to knock some sense into everyone as the family prepares for Luanne and Lucky's lavish wedding.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260510063000 +0000" stop="20260510070000 +0000">
+    <title lang="zh">King of the Hill</title>
+    <desc>At a college football game, Bobby ventures into a VIP suite belonging to a retired Nebraska quarterback; in the suite, Hank pretends to be the quarterback and calls a play.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260510070000 +0000" stop="20260510073000 +0000">
+    <title lang="zh">King of the Hill</title>
+    <desc>Bobby raises a protest over a soda machine at school to impress a girl.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260510073000 +0000" stop="20260510080000 +0000">
+    <title lang="zh">King of the Hill</title>
+    <desc>Bobby is asked to be a cheerleader for the school's annual powder-puff football game; Peggy volunteers with the PTA.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260510080000 +0000" stop="20260510083000 +0000">
+    <title lang="zh">NEW! Shark PowerDetect with DuoClean Detect Technology</title>
+    <desc>Meet the new Shark PowerDetect Upright Vacuum with features like DuoClean Detect Technology, self-cleaning brush roll and odor neutralizing and you will be cleaning faster, smarter and better!</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260510083000 +0000" stop="20260510090000 +0000">
+    <title lang="zh">Have Thinning Hair? Keranique Can Help Regrow Beautiful, Thicker Hair!</title>
+    <desc>If you have thinning hair or hair loss, Keranique can help regrow thicker, longer and fuller hair. Keranique is the number 1 hair regrowth system for women. Regain your confidence with beautiful, thicker and fuller hair in just 3 easy steps!</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465357" start="20260510090000 +0000" stop="20260510093000 +0000">
+    <title lang="zh">NEW! Shark PowerDetect with DuoClean Detect Technology</title>
+    <desc>Meet the new Shark PowerDetect Upright Vacuum with features like DuoClean Detect Technology, self-cleaning brush roll and odor neutralizing and you will be cleaning faster, smarter and better!</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260509200000 +0000" stop="20260509220000 +0000">
+    <title lang="zh">Villa Amore</title>
+    <desc>Liara goes to Italy and impulsively buys the villa where her parents met. She soon learns she is in way over her head and must ask a lawyer-turned-handyman to help her renovate.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="465241" start="20260509220000 +0000" stop="20260510000000 +0000">
+    <title lang="zh">My Secret Valentine</title>
+    <desc>A young woman takes advice from the chalkboard notes that her mysterious tenant leaves when a slick sales rep arrives with plans to buy her family's prized winery.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="465241" start="20260510000000 +0000" stop="20260510020000 +0000">
+    <title lang="zh">All's Fair in Love &amp; Mahjong</title>
+    <desc>A school nurse turns her love of the game Mahjong into a new path, inspired by a jovial contractor fixing up her home, who encourages her to take a chance on the future.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510020000 +0000" stop="20260510040000 +0000">
+    <title lang="zh">I'll Be Seeing You</title>
+    <desc>When a work errand derails Amy's weekend plans with her grandma, they embark on a road trip with one sentimental detour but need the help of a charming activities director.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510040000 +0000" stop="20260510043000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>Sophia wants to wed Max Weinstock, her husband's partner.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510043000 +0000" stop="20260510050000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>Sophia and Max return from their honeymoon and open a food stand on the boardwalk.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510050000 +0000" stop="20260510053000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>Blanche's tattered jacket, containing a winning lottery ticket, ends up in charity.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510053000 +0000" stop="20260510060000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>Blanche learns that her brother is gay after he claims to have slept with Rose.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510060000 +0000" stop="20260510063000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>Dorothy wants her ex-husband back when he becomes engaged to another woman.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510063000 +0000" stop="20260510070000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>Sophia wants to wed Max Weinstock, her husband's partner.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510070000 +0000" stop="20260510073000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>Sophia and Max return from their honeymoon and open a food stand on the boardwalk.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510073000 +0000" stop="20260510080000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>Blanche's tattered jacket, containing a winning lottery ticket, ends up in charity.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510080000 +0000" stop="20260510083000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>Blanche learns that her brother is gay after he claims to have slept with Rose.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510083000 +0000" stop="20260510090000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>Dorothy wants her ex-husband back when he becomes engaged to another woman.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510090000 +0000" stop="20260510093000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Reba celebrates her divorce with lunch and finds her credit card is declined; Reba is angered to find out Brock let Barbra Jean run up the shared credit card for her wedding.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510093000 +0000" stop="20260510100000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Reba's parents visit and surprise everyone when they accept Barbra Jean into the family.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510100000 +0000" stop="20260510103000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Reba returns to work but is fired when advice to a teen couple is misinterpreted as endorsing premarital sex.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510103000 +0000" stop="20260510110000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Brock asks Reba to help plan his father's funeral after he dies on a golf course and Barbra Jean wants the funeral a grand event and play the bereaved woman.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510110000 +0000" stop="20260510130000 +0000">
+    <title lang="zh">Branching Out</title>
+    <desc>To help build a family tree, single mom Amelia tracks down her daughter's biological father. It soon becomes a journey of trust, love and discovering the real meaning of family.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510130000 +0000" stop="20260510150000 +0000">
+    <title lang="zh">Summer Villa</title>
+    <desc>A novelist suffering from writer's block and a chef recovering from a bad review share a French villa for the summer.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510150000 +0000" stop="20260510170000 +0000">
+    <title lang="zh">The Presence of Love</title>
+    <desc>An adjunct professor bonds with a single father after traveling to England to visit the farm where her late mother grew up.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510170000 +0000" stop="20260510190000 +0000">
+    <title lang="zh">Harvest Love</title>
+    <desc>A widowed surgeon visits her family's pear orchard in hopes of taking a break from her hectic life and reconnecting with her distant son. Once there, she begins to fall for the farm manager, Will, who is growing a new hybrid pear.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510190000 +0000" stop="20260510210000 +0000">
+    <title lang="zh">A Valentine's Match</title>
+    <desc>Fired from her job as a reality TV host, a woman returns home for Valentine's Day and finds herself running a town festival auction with her ex-fiance.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510210000 +0000" stop="20260510230000 +0000">
+    <title lang="zh">Love of the Irish</title>
+    <desc>Tired of bad luck, Fiona takes her mother on a trip to Ireland to turn things around. She soon meets a charming single father who helps her make her own luck.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465241" start="20260510230000 +0000" stop="20260511000000 +0000">
+    <title lang="zh">All's Fair in Love &amp; Mahjong</title>
+    <desc>A school nurse turns her love of the game Mahjong into a new path, inspired by a jovial contractor fixing up her home, who encourages her to take a chance on the future.</desc>
+    <date>2026-05-10</date>
   </programme>
   <programme channel="470299" start="20260509203000 +0000" stop="20260509213000 +0000">
     <title lang="zh">Scott's Vacation House Rules</title>
@@ -801,11 +1435,6 @@
     <desc>John's en route to Calgary, Alberta for ramen so amazing people line up all day; a super-stacked pizza with an amazing crust in Kamloops, British Columbia; a perfect cheeseburger in Toronto.</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="465167" start="20260509180000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">The Jane Mysteries: Too Much to Lose</title>
-    <desc>When a reporter interviewing Jane seeks help to find a missing colleague, Jane takes on the case. Irene has disappeared after winning a game show which leads Jane to uncover a web of deceit.</desc>
-    <date>2026-05-09</date>
-  </programme>
   <programme channel="465167" start="20260509200000 +0000" stop="20260509220000 +0000">
     <title lang="zh">The Jane Mysteries: Inheritance Lost</title>
     <desc>Singer Jane Da Silva inherits a nonprofit detective agency that helps people who aren't able to help themselves. With guidance from her aunt and a detective, Jane takes on the case of a mother's untimely death years earlier.</desc>
@@ -910,261 +1539,6 @@
     <title lang="zh">Hannah Swensen Mysteries</title>
     <desc>Hannah's favorite reality show takes over The Cookie Jar; when the producer is found dead, Hannah and Norman team up to track down the killer.</desc>
     <date>2026-05-11</date>
-  </programme>
-  <programme channel="465241" start="20260509180000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">Adventures in Love &amp; Birding</title>
-    <desc>A single mom agrees to be the partner of a bird enthusiast for a birding competition but misunderstands the assignment and tells everyone she's his new girlfriend instead of just his teammate.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465241" start="20260509200000 +0000" stop="20260509220000 +0000">
-    <title lang="zh">Villa Amore</title>
-    <desc>Liara goes to Italy and impulsively buys the villa where her parents met. She soon learns she is in way over her head and must ask a lawyer-turned-handyman to help her renovate.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465241" start="20260509220000 +0000" stop="20260510000000 +0000">
-    <title lang="zh">My Secret Valentine</title>
-    <desc>A young woman takes advice from the chalkboard notes that her mysterious tenant leaves when a slick sales rep arrives with plans to buy her family's prized winery.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465241" start="20260510000000 +0000" stop="20260510020000 +0000">
-    <title lang="zh">All's Fair in Love &amp; Mahjong</title>
-    <desc>A school nurse turns her love of the game Mahjong into a new path, inspired by a jovial contractor fixing up her home, who encourages her to take a chance on the future.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510020000 +0000" stop="20260510040000 +0000">
-    <title lang="zh">I'll Be Seeing You</title>
-    <desc>When a work errand derails Amy's weekend plans with her grandma, they embark on a road trip with one sentimental detour but need the help of a charming activities director.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510040000 +0000" stop="20260510043000 +0000">
-    <title lang="zh">The Golden Girls</title>
-    <desc>Sophia wants to wed Max Weinstock, her husband's partner.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510043000 +0000" stop="20260510050000 +0000">
-    <title lang="zh">The Golden Girls</title>
-    <desc>Sophia and Max return from their honeymoon and open a food stand on the boardwalk.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510050000 +0000" stop="20260510053000 +0000">
-    <title lang="zh">The Golden Girls</title>
-    <desc>Blanche's tattered jacket, containing a winning lottery ticket, ends up in charity.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510053000 +0000" stop="20260510060000 +0000">
-    <title lang="zh">The Golden Girls</title>
-    <desc>Blanche learns that her brother is gay after he claims to have slept with Rose.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510060000 +0000" stop="20260510063000 +0000">
-    <title lang="zh">The Golden Girls</title>
-    <desc>Dorothy wants her ex-husband back when he becomes engaged to another woman.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510063000 +0000" stop="20260510070000 +0000">
-    <title lang="zh">The Golden Girls</title>
-    <desc>Sophia wants to wed Max Weinstock, her husband's partner.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510070000 +0000" stop="20260510073000 +0000">
-    <title lang="zh">The Golden Girls</title>
-    <desc>Sophia and Max return from their honeymoon and open a food stand on the boardwalk.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510073000 +0000" stop="20260510080000 +0000">
-    <title lang="zh">The Golden Girls</title>
-    <desc>Blanche's tattered jacket, containing a winning lottery ticket, ends up in charity.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510080000 +0000" stop="20260510083000 +0000">
-    <title lang="zh">The Golden Girls</title>
-    <desc>Blanche learns that her brother is gay after he claims to have slept with Rose.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510083000 +0000" stop="20260510090000 +0000">
-    <title lang="zh">The Golden Girls</title>
-    <desc>Dorothy wants her ex-husband back when he becomes engaged to another woman.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510090000 +0000" stop="20260510093000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>Reba celebrates her divorce with lunch and finds her credit card is declined; Reba is angered to find out Brock let Barbra Jean run up the shared credit card for her wedding.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510093000 +0000" stop="20260510100000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>Reba's parents visit and surprise everyone when they accept Barbra Jean into the family.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510100000 +0000" stop="20260510103000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>Reba returns to work but is fired when advice to a teen couple is misinterpreted as endorsing premarital sex.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510103000 +0000" stop="20260510110000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>Brock asks Reba to help plan his father's funeral after he dies on a golf course and Barbra Jean wants the funeral a grand event and play the bereaved woman.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510110000 +0000" stop="20260510130000 +0000">
-    <title lang="zh">Branching Out</title>
-    <desc>To help build a family tree, single mom Amelia tracks down her daughter's biological father. It soon becomes a journey of trust, love and discovering the real meaning of family.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510130000 +0000" stop="20260510150000 +0000">
-    <title lang="zh">Summer Villa</title>
-    <desc>A novelist suffering from writer's block and a chef recovering from a bad review share a French villa for the summer.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510150000 +0000" stop="20260510170000 +0000">
-    <title lang="zh">The Presence of Love</title>
-    <desc>An adjunct professor bonds with a single father after traveling to England to visit the farm where her late mother grew up.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510170000 +0000" stop="20260510190000 +0000">
-    <title lang="zh">Harvest Love</title>
-    <desc>A widowed surgeon visits her family's pear orchard in hopes of taking a break from her hectic life and reconnecting with her distant son. Once there, she begins to fall for the farm manager, Will, who is growing a new hybrid pear.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510190000 +0000" stop="20260510210000 +0000">
-    <title lang="zh">A Valentine's Match</title>
-    <desc>Fired from her job as a reality TV host, a woman returns home for Valentine's Day and finds herself running a town festival auction with her ex-fiance.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510210000 +0000" stop="20260510230000 +0000">
-    <title lang="zh">Love of the Irish</title>
-    <desc>Tired of bad luck, Fiona takes her mother on a trip to Ireland to turn things around. She soon meets a charming single father who helps her make her own luck.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465241" start="20260510230000 +0000" stop="20260511000000 +0000">
-    <title lang="zh">All's Fair in Love &amp; Mahjong</title>
-    <desc>A school nurse turns her love of the game Mahjong into a new path, inspired by a jovial contractor fixing up her home, who encourages her to take a chance on the future.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260509190000 +0000" stop="20260509203000 +0000">
-    <title lang="zh">MasterChef Australia</title>
-    <desc>Top three winners from the invention test face off to avoid elimination; all aiming to out-perform one of Australia's top chefs.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="470509" start="20260509203000 +0000" stop="20260509213000 +0000">
-    <title lang="zh">MasterChef Australia</title>
-    <desc>Each team of two must create two plates of identical dishes; the teams are not allowed to look at or taste their partners' dish.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="470509" start="20260509213000 +0000" stop="20260509230000 +0000">
-    <title lang="zh">MasterChef Australia</title>
-    <desc>The four contestants who came last in the team challenge must participate in a cook-off in order to gain immunity from elimination.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="470509" start="20260509230000 +0000" stop="20260510000000 +0000">
-    <title lang="zh">All's Fair in Love &amp; Mahjong</title>
-    <desc>A school nurse turns her love of the game Mahjong into a new path, inspired by a jovial contractor fixing up her home, who encourages her to take a chance on the future.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="470509" start="20260510010000 +0000" stop="20260510030000 +0000">
-    <title lang="zh">Aurora Teagarden Mysteries: Three Bedrooms, One Corpse</title>
-    <desc>Master sleuth Aurora Teagarden (Candace Cameron Bure) investigates the deaths of two people found inside houses that are being sold.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260510030000 +0000" stop="20260510050000 +0000">
-    <title lang="zh">All's Fair in Love &amp; Mahjong</title>
-    <desc>A school nurse turns her love of the game Mahjong into a new path, inspired by a jovial contractor fixing up her home, who encourages her to take a chance on the future.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260510050000 +0000" stop="20260510070000 +0000">
-    <title lang="zh">Aurora Teagarden Mysteries: Three Bedrooms, One Corpse</title>
-    <desc>Master sleuth Aurora Teagarden (Candace Cameron Bure) investigates the deaths of two people found inside houses that are being sold.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260510070000 +0000" stop="20260510090000 +0000">
-    <title lang="zh">Aurora Teagarden Mysteries: The Julius House</title>
-    <desc>Aurora Teagarden finds her dream home, unaware of its strange history. Just as she's ready to move in, she discovers that its previous owners disappeared without a trace.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260510090000 +0000" stop="20260510093000 +0000">
-    <title lang="zh">Mary Makes It Easy</title>
-    <desc>Mary makes healthier versions of her favorite comfort foods by incorporating more nutrients and adding healthier ingredients without sacrificing the flavor.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260510093000 +0000" stop="20260510100000 +0000">
-    <title lang="zh">Mary Makes It Easy</title>
-    <desc>Baking may be a science, but it doesn't need to be complicated; Mary's recipes show some simple solutions for enjoying baked goods at home.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260510100000 +0000" stop="20260510120000 +0000">
-    <title lang="zh">Aurora Teagarden Mysteries: The Julius House</title>
-    <desc>Aurora Teagarden finds her dream home, unaware of its strange history. Just as she's ready to move in, she discovers that its previous owners disappeared without a trace.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260510120000 +0000" stop="20260510130000 +0000">
-    <title lang="zh">Blue Bloods</title>
-    <desc>Frank clashes with the team when one of the members becomes the focus of a departmental investigation; Jamie and Danny team up to investigate a series of carjackings involving one of Danny's criminal informants.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260510130000 +0000" stop="20260510140000 +0000">
-    <title lang="zh">Blue Bloods</title>
-    <desc>Danny and Baez investigate a case of grand larceny tied to feuding crime families; Frank clashes with Mayor Chase when an influx of immigrants arrives in the city; Erin questions whether her district attorney campaign is compromising her day job.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260510140000 +0000" stop="20260510150000 +0000">
-    <title lang="zh">Blue Bloods</title>
-    <desc>Jamie partners with the FDNY to find the arsonist responsible for a massive fire at an NYPD evidence storage facility; Eddie asks Frank to put her on modified duty following her divisive arrest of an anti-cop protestor at a rally.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260510150000 +0000" stop="20260510160000 +0000">
-    <title lang="zh">Blue Bloods</title>
-    <desc>Frank worries his longtime friend is hiding his true reason for returning to the city; Baez and her daughter are targeted by a criminal Baez once put away; Anthony is sucked into the inner workings of an underground crime ring.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260510160000 +0000" stop="20260510170000 +0000">
-    <title lang="zh">Blue Bloods</title>
-    <desc>Danny and Baez team up with Danny's old partner to find a copycat killer emulating a criminal's murders from a previous case; Frank and Mayor Chase battle over how best to handle the city's rising homeless population.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260510170000 +0000" stop="20260510180000 +0000">
-    <title lang="zh">Blue Bloods</title>
-    <desc>The family argues over Danny's questionable tactics as he searches for a missing girl; Jamie starts his new life as a cop.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260510180000 +0000" stop="20260510190000 +0000">
-    <title lang="zh">Blue Bloods</title>
-    <desc>A good Samaritan with a police record takes action against a terrorizing subway criminal, forcing the Reagans to weigh the rights and wrongs of vigilantism.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260510190000 +0000" stop="20260510200000 +0000">
-    <title lang="zh">Blue Bloods</title>
-    <desc>Danny, Erin and Frank work together to seek justice when the main suspect in a rape case is protected by diplomatic immunity.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260510200000 +0000" stop="20260510210000 +0000">
-    <title lang="zh">Blue Bloods</title>
-    <desc>Frank clashes with the team when one of the members becomes the focus of a departmental investigation; Jamie and Danny team up to investigate a series of carjackings involving one of Danny's criminal informants.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260510210000 +0000" stop="20260510220000 +0000">
-    <title lang="zh">Blue Bloods</title>
-    <desc>Danny and Baez investigate a case of grand larceny tied to feuding crime families; Frank clashes with Mayor Chase when an influx of immigrants arrives in the city; Erin questions whether her district attorney campaign is compromising her day job.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260510220000 +0000" stop="20260510230000 +0000">
-    <title lang="zh">Blue Bloods</title>
-    <desc>Jamie partners with the FDNY to find the arsonist responsible for a massive fire at an NYPD evidence storage facility; Eddie asks Frank to put her on modified duty following her divisive arrest of an anti-cop protestor at a rally.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260510230000 +0000" stop="20260511000000 +0000">
-    <title lang="zh">Blue Bloods</title>
-    <desc>Frank worries his longtime friend is hiding his true reason for returning to the city; Baez and her daughter are targeted by a criminal Baez once put away; Anthony is sucked into the inner workings of an underground crime ring.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470509" start="20260511000000 +0000" stop="20260512000000 +0000">
-    <title lang="zh">Blue Bloods</title>
-    <desc>Danny and Baez team up with Danny's old partner to find a copycat killer emulating a criminal's murders from a previous case; Frank and Mayor Chase battle over how best to handle the city's rising homeless population.</desc>
-    <date>2026-05-11</date>
-  </programme>
-  <programme channel="481954" start="20260509192100 +0000" stop="20260509201300 +0000">
-    <title lang="zh">Celebrity Help! My House Is Haunted</title>
-    <desc>In Jodie Kidd's 15th-century pub, a violent spirit flings bottles at staff and rearranges the furniture; a look at an irate poltergeist; two clashing energies in the former model's cozy watering hole.</desc>
-    <date>2026-05-09</date>
   </programme>
   <programme channel="481954" start="20260509201300 +0000" stop="20260509210600 +0000">
     <title lang="zh">Celebrity Help! My House Is Haunted</title>
@@ -1426,16 +1800,6 @@
     <desc>Gibbs is assigned the role of acting director while the team searches worldwide for Director Vance's whereabouts.</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="465354" start="20260510190000 +0000" stop="20260510200000 +0000">
-    <title lang="zh">NCIS</title>
-    <desc>A Navy lieutenant is found murdered in his hot tub; the team interviews families in the victim's peculiar neighborhood; Torres must face the consequences of a volatile night out with Palmer.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="486672" start="20260509180000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">Britain's Got Talent</title>
-    <desc>Britain's Got Talent goes live on Saturday nights for the Semi-Finals as the acts who impressed the judges during auditions must now compete for a place in the grand finale.</desc>
-    <date>2026-05-09</date>
-  </programme>
   <programme channel="486672" start="20260509200000 +0000" stop="20260509210000 +0000">
     <title lang="zh">It'll Be Alright on the Night</title>
     <desc>Tom Allen celebrates TV cock-ups featuring Alexander Armstrong, Richard Ayoade, Rob Beckett, Coleen Nolan, the cast of Heartstopper and more of the nation's favourite stars.</desc>
@@ -1566,11 +1930,6 @@
     <desc>Graham puts on some communal activities to give the neighbours a chance to bond, but a shocking twist after the next immunity challenge throws everything into chaos.</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="492942" start="20260509190000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">Bones</title>
-    <desc>The body of a fraternity brother is discovered inside a rival school's mascot uniform; Booth tries to help his brother find a new job.</desc>
-    <date>2026-05-09</date>
-  </programme>
   <programme channel="492942" start="20260509200000 +0000" stop="20260509210000 +0000">
     <title lang="zh">Bones</title>
     <desc>Brennan asks Booth to be the father of her child; Stewie Griffin (Seth MacFarlane) offers the couple advice.</desc>
@@ -1700,11 +2059,6 @@
     <title lang="zh">Hawaii Five-0</title>
     <desc>At Halloween, the team investigates a string of murders that mirrors stories from well-known Hawaiian folklore; Grover visits a man who is hours away from execution and may hold the key to a case that has plagued Grover for years.</desc>
     <date>2026-05-10</date>
-  </programme>
-  <programme channel="486720" start="20260509185000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">Indiana Jones and the Temple of Doom</title>
-    <desc>Classic Oscar-winning action-adventure film sequel starring Harrison Ford and Kate Capshaw, 1984. Indiana Jones tries to recover a rock that is sacred to an Indian village.</desc>
-    <date>2026-05-09</date>
   </programme>
   <programme channel="486720" start="20260509200000 +0000" stop="20260509210000 +0000">
     <title lang="zh">The Suicide Squad</title>
@@ -1911,16 +2265,6 @@
     <desc>A writers' circle is anticipating a visit from a best-selling novelist, but they are about to witness a sequence of gruesome events far stranger than any fiction.</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="486853" start="20260509191000 +0000" stop="20260509201000 +0000">
-    <title lang="zh">Force 10 from Navarone</title>
-    <desc>Wartime drama film sequel starring Harrison Ford and Robert Shaw, 1978. A team of misfit military experts are tasked with destroying a bridge that is vital to a German scheme.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="486853" start="20260509201000 +0000" stop="20260509201500 +0000">
-    <title lang="zh">FYI Daily</title>
-    <desc>Latest news from the world of entertainment.</desc>
-    <date>2026-05-09</date>
-  </programme>
   <programme channel="486853" start="20260509201500 +0000" stop="20260509214500 +0000">
     <title lang="zh">Force 10 from Navarone</title>
     <desc>Wartime drama film sequel starring Harrison Ford and Robert Shaw, 1978. A team of misfit military experts are tasked with destroying a bridge that is vital to a German scheme.</desc>
@@ -2046,11 +2390,6 @@
     <desc>To retrieve the stolen diamonds, Albert formulates a plan and seeks the help of his father's old accomplice. Lily finds the gold biscuit that Charlie dropped in the bathroom.</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="486821" start="20260509190000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">Lingo</title>
-    <desc>Going for glory this time are South London brothers Kevin and Ian, Bailey and his auntie Jo from Kettering, and siblings Kevin and Karen from Cumbria and Barnsley.</desc>
-    <date>2026-05-09</date>
-  </programme>
   <programme channel="486821" start="20260509200000 +0000" stop="20260509210000 +0000">
     <title lang="zh">Romesh Ranganathan's Parents' Evening</title>
     <desc>Mel B, Jonathan Ross and Richard Madeley have their kids' fate in their hands as they compete in the game show that hinges on meeting parents' expectations.</desc>
@@ -2165,11 +2504,6 @@
     <title lang="zh">Tipping Point</title>
     <desc>Ben Shephard hosts the quiz show in which four players take on an extraordinary machine in the hope of winning a cash jackpot.</desc>
     <date>2026-05-10</date>
-  </programme>
-  <programme channel="465290" start="20260509180000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">Family Pictures</title>
-    <desc>Sylvie and Maggie are two strangers living on opposite coasts, leading very similar lives with husbands who travel for work too much and daughters about to leave the nest. But when their daughters befriend each other, a shocking secret emerges.</desc>
-    <date>2026-05-09</date>
   </programme>
   <programme channel="465290" start="20260509200000 +0000" stop="20260509220000 +0000">
     <title lang="zh">To Have and to Hold</title>
@@ -2290,11 +2624,6 @@
     <title lang="zh">My Granddaughter Has Your Son's Face</title>
     <desc>A woman tries to protect her family and their future after townspeople learn the pastor's son impregnated her daughter.</desc>
     <date>2026-05-11</date>
-  </programme>
-  <programme channel="465002" start="20260509190000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">Married at First Sight</title>
-    <desc>The couples have moved in together, now they get the chance to make an impression on their spouses' friends and families; one bride is reluctant to meet her husband's friends.</desc>
-    <date>2026-05-09</date>
   </programme>
   <programme channel="465002" start="20260509200000 +0000" stop="20260509210000 +0000">
     <title lang="zh">Married at First Sight</title>
@@ -2421,10 +2750,10 @@
     <desc>To grow forge closer bonds with one another, the couples indulge their partners' intimate fantasies and desires; Amber's insecurities fuel doubts for Dave.</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="470737" start="20260509190000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">Game of Wool: Britain's Best Knitter</title>
-    <desc>Ten amateur knitters vie for UK's first TV knitting champion title; Olympic diver Tom Daley hosts as judges Di Gilpin and Shelia Greenwell eliminate contestants weekly based on creativity and technique.</desc>
-    <date>2026-05-09</date>
+  <programme channel="465002" start="20260510180000 +0000" stop="20260510190000 +0000">
+    <title lang="zh">Married at First Sight</title>
+    <desc>Halfway through the experiment and the couples are celebrating their one-month anniversaries; they take the opportunity to reflect on their time together so far.</desc>
+    <date>2026-05-10</date>
   </programme>
   <programme channel="470737" start="20260509200000 +0000" stop="20260509210000 +0000">
     <title lang="zh">Game of Wool: Britain's Best Knitter</title>
@@ -2549,6 +2878,11 @@
   <programme channel="470737" start="20260510190000 +0000" stop="20260510200000 +0000">
     <title lang="zh">Junior Baking Show</title>
     <desc>Rav sends the bakers hopping mad in a hot cross bunnies Technical challenge. In the Showstopper, the bakers aim to school the judges with their bread-ucational centerpieces.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="470737" start="20260510200000 +0000" stop="20260510210000 +0000">
+    <title lang="zh">Junior Baking Show</title>
+    <desc>Rav leaves the bakers wide eyed in disbelief with an invisible filling pie. In the Showstopper, the bakers pay homage to their idols by making their role models, in a tricky choux challenge.</desc>
     <date>2026-05-10</date>
   </programme>
   <programme channel="470474" start="20260509193000 +0000" stop="20260509214500 +0000">
@@ -2681,11 +3015,6 @@
     <desc>Lisa must defend her brother when Bart is falsely accused of pulling a prank on Easter; Mr. Burns tries to fulfill his dream of becoming a superhero.</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="486751" start="20260509193000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">Four in a Bed</title>
-    <desc>Toilet troubles, tossing and turning, and tears galore. It's a rip-roaring payment day on Four in a Bed. But who's won the week.</desc>
-    <date>2026-05-09</date>
-  </programme>
   <programme channel="486751" start="20260509200000 +0000" stop="20260509210000 +0000">
     <title lang="zh">24 Hours in A&amp;E</title>
     <desc>Lewis, who's 18, has come off his motorbike and collided with two cars. Sam, who's 27, fainted and cut his lip while smoking a Cuban cigar at a barbecue.</desc>
@@ -2811,10 +3140,10 @@
     <desc>The final visit is to the Bull Inn in Berkshire, where Ana and Dominic hope that their homely pub's quintessential character will charm the B&amp;Bers.</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="486755" start="20260509190000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">Catfish: Serial Offenders</title>
-    <desc>Nev and Max try to help Nick determine if the person he kissed during a mysterious blindfolded rendezvous is actually his online love, Jasmine, or someone entirely different altogether.</desc>
-    <date>2026-05-09</date>
+  <programme channel="486751" start="20260510192500 +0000" stop="20260510200000 +0000">
+    <title lang="zh">Four in a Bed</title>
+    <desc>Payment day's sure to be a spicy affair this time around, with high emotions, awkward exchanges and plenty of pernickety comments to unpick. When the dust settles, who'll win the week.</desc>
+    <date>2026-05-10</date>
   </programme>
   <programme channel="486755" start="20260509200000 +0000" stop="20260509210000 +0000">
     <title lang="zh">Bar Rescue</title>
@@ -2941,141 +3270,6 @@
     <desc>Hundra never planned on falling in love with a girl and is risking coming out on national tv to learn if her love is for real. Nev investigates to reveal a shocking Catfish.</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="465080" start="20260509193000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">The Big Bang Theory</title>
-    <desc>A paintball game leads to a fight between Sheldon and Penny, and romance for Leslie and Wolowitz.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465080" start="20260509200000 +0000" stop="20260509203000 +0000">
-    <title lang="zh">The Big Bang Theory</title>
-    <desc>Leonard, Sheldon and Wolowitz are ecstatic to learn that a famous science-fiction actress (Summer Glau) is aboard the train they are taking to San Francisco.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465080" start="20260509203000 +0000" stop="20260509210000 +0000">
-    <title lang="zh">The Big Bang Theory</title>
-    <desc>Penny's home business turns into a complete nightmare when Sheldon takes over.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465080" start="20260509210000 +0000" stop="20260509213000 +0000">
-    <title lang="zh">The Big Bang Theory</title>
-    <desc>Penny develops a rivalry with a sexy new female neighbor who threatens her position as queen bee of the building.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465080" start="20260509213000 +0000" stop="20260509220000 +0000">
-    <title lang="zh">The Big Bang Theory</title>
-    <desc>Wolowitz and Leonard decide to check out a local bar on Ladies' Night.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465080" start="20260509220000 +0000" stop="20260509223000 +0000">
-    <title lang="zh">The Big Bang Theory</title>
-    <desc>Koothrappali and Leonard take Wolowitz to Las Vegas; Sheldon is forced to bunk with Penny when he gets locked out of his apartment.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465080" start="20260509223000 +0000" stop="20260509230000 +0000">
-    <title lang="zh">The Big Bang Theory</title>
-    <desc>Penny makes a surprising revelation about Leonard while on her date with Stuart; Wolowitz finds a critical design flaw in his NASA project.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465080" start="20260509230000 +0000" stop="20260509233000 +0000">
-    <title lang="zh">The Office</title>
-    <desc>When the press learns that Sabre's printers catch on fire, Jo tries to find out who the whistle-blower is.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465080" start="20260509233000 +0000" stop="20260510000000 +0000">
-    <title lang="zh">The Office</title>
-    <desc>Michael refuses to fire the new office assistant (Evan Peters) when people complain about his bad attitude; Pam tries to impress Jim by pulling an office prank.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465080" start="20260510000000 +0000" stop="20260510003000 +0000">
-    <title lang="zh">The Office</title>
-    <desc>Corporate forces Michael into counseling with Toby; Dwight seeks revenge after a shop owner snubs him; Pam tries to change her job title.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465080" start="20260510003000 +0000" stop="20260510010000 +0000">
-    <title lang="zh">The Office</title>
-    <desc>Andy invites the office to a play he is in, hoping that Erin will attend; Jim and Pam struggle with their incompetent babysitter.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465080" start="20260510010000 +0000" stop="20260510013000 +0000">
-    <title lang="zh">The Office</title>
-    <desc>Thinking he has herpes, Michael contacts all his ex-girlfriends; Andy holds a sex education meeting for the office.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465080" start="20260510013000 +0000" stop="20260510020000 +0000">
-    <title lang="zh">The Office</title>
-    <desc>Michael, Dwight and Jim set up a sting after a competing sales associate steals a client; Andy starts a band.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465080" start="20260510020000 +0000" stop="20260510023000 +0000">
-    <title lang="zh">The Office</title>
-    <desc>Michael freaks out when Darryl goes over his head and takes an idea to corporate; a Halloween costume contest puts the office in a competitive mood.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465080" start="20260510023000 +0000" stop="20260510030000 +0000">
-    <title lang="zh">The Office</title>
-    <desc>Michael invites the entire office to celebrate the christening of Pam and Jim's baby.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465080" start="20260510030000 +0000" stop="20260510033000 +0000">
-    <title lang="zh">The Office</title>
-    <desc>Erin and Gabe host a "Glee" viewing party; Michael is upset when people refer to Gabe as his boss; Andy becomes increasingly jealous.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465080" start="20260510033000 +0000" stop="20260510040000 +0000">
-    <title lang="zh">The Office</title>
-    <desc>Michael helps convince people to invest in Ryan's Internet company; trying to capitalize on Thanksgiving, Dwight creates a hay festival in the parking lot; a new policy prevents Jim from earning commission.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465080" start="20260510040000 +0000" stop="20260510043000 +0000">
-    <title lang="zh">The Office</title>
-    <desc>Michael decides he must stop China before it takes over the United States; Pam threatens to move the company to a new building.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465080" start="20260510043000 +0000" stop="20260510050000 +0000">
-    <title lang="zh">The Office</title>
-    <desc>Michael is happy when Toby takes a leave of absence and corporate sends Holly Flax to fill in; Pam must plan a second Christmas party when Michael wants the party to be on the day of Holly's return to Scranton.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465080" start="20260510050000 +0000" stop="20260510053000 +0000">
-    <title lang="zh">Ridiculousness</title>
-    <desc>Rob Dyrdek, Steelo Brim and Lolo Wood explore the world of fire sports in Flame Gamin'; finding out just how dangerous doors can be in Totally Unhinged; getting taken by surprise.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465080" start="20260510053000 +0000" stop="20260510060000 +0000">
-    <title lang="zh">Ridiculousness</title>
-    <desc>Steelo and Karrueche Tran dish up some flexible fails in Kitchen Gymnasts, get served the most with Excessive Serving, and take part in extreme fathering with Daredevil Dads.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465080" start="20260510060000 +0000" stop="20260510063000 +0000">
-    <title lang="zh">Ridiculousness</title>
-    <desc>Singer, songwriter, producer, and actor Leon Thomas joins Rob, Chanel, and Steelo to treat a lady like royalty in "The Love Jones," meet wild women in "Blue Hairs Don't Care," and more.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465080" start="20260510063000 +0000" stop="20260510070000 +0000">
-    <title lang="zh">Ridiculousness</title>
-    <desc>Rob, Steelo and Nina Agdal don't want people taking video of them in "Cameras Down," run into "Dirty Ballers" at the court, and get so filthy that "Soap Isn't Enough.".</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465080" start="20260510070000 +0000" stop="20260510073000 +0000">
-    <title lang="zh">Ridiculousness</title>
-    <desc>Rob, Steelo and Chanel try to dry off some "Soggy Boys," hire the "Extrasterminators" and discover the power of "Druggernauts.".</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465080" start="20260510073000 +0000" stop="20260510080000 +0000">
-    <title lang="zh">Ridiculousness</title>
-    <desc>Rob, Steelo and Lolo experience the dangers of pressure cookers in Detonating Dinners, feel the pain of walking through windows in Gettin' Glassed and discover that pantsing really hurts.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465080" start="20260510080000 +0000" stop="20260510083000 +0000">
-    <title lang="zh">Ridiculousness</title>
-    <desc>Rob, Steelo and Lolo Wood welcome special guest Dee Snider to meet some rebels in "Not Gonna Take It"; witnessing struggling bands; experiencing the sadness of lost coffee.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="464825" start="20260509190000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">Epic.Awesome.Videos</title>
-    <desc>Features the hottest and most current music videos available.</desc>
-    <date>2026-05-09</date>
-  </programme>
   <programme channel="464825" start="20260509200000 +0000" stop="20260509210000 +0000">
     <title lang="zh">Epic.Awesome.Videos</title>
     <desc>Features the hottest and most current music videos available.</desc>
@@ -3201,15 +3395,130 @@
     <desc>Features the hottest and most current music videos available.</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="465113" start="20260509193000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">The Fresh Prince of Bel-Air</title>
-    <desc>A new student turns up the heat when she decides to put the moves on Will.</desc>
+  <programme channel="465080" start="20260509203000 +0000" stop="20260509210000 +0000">
+    <title lang="zh">The Big Bang Theory</title>
+    <desc>Penny's home business turns into a complete nightmare when Sheldon takes over.</desc>
     <date>2026-05-09</date>
   </programme>
-  <programme channel="465113" start="20260509200000 +0000" stop="20260509203000 +0000">
-    <title lang="zh">The Fresh Prince of Bel-Air</title>
-    <desc>Will reminisces about the women in his life when he is stranded in an elevator with Carlton and Jazz.</desc>
+  <programme channel="465080" start="20260509210000 +0000" stop="20260509213000 +0000">
+    <title lang="zh">The Big Bang Theory</title>
+    <desc>Penny develops a rivalry with a sexy new female neighbor who threatens her position as queen bee of the building.</desc>
     <date>2026-05-09</date>
+  </programme>
+  <programme channel="465080" start="20260509213000 +0000" stop="20260509220000 +0000">
+    <title lang="zh">The Big Bang Theory</title>
+    <desc>Wolowitz and Leonard decide to check out a local bar on Ladies' Night.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="465080" start="20260509220000 +0000" stop="20260509223000 +0000">
+    <title lang="zh">The Big Bang Theory</title>
+    <desc>Koothrappali and Leonard take Wolowitz to Las Vegas; Sheldon is forced to bunk with Penny when he gets locked out of his apartment.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="465080" start="20260509223000 +0000" stop="20260509230000 +0000">
+    <title lang="zh">The Big Bang Theory</title>
+    <desc>Penny makes a surprising revelation about Leonard while on her date with Stuart; Wolowitz finds a critical design flaw in his NASA project.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="465080" start="20260509230000 +0000" stop="20260509233000 +0000">
+    <title lang="zh">The Office</title>
+    <desc>When the press learns that Sabre's printers catch on fire, Jo tries to find out who the whistle-blower is.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="465080" start="20260509233000 +0000" stop="20260510000000 +0000">
+    <title lang="zh">The Office</title>
+    <desc>Michael refuses to fire the new office assistant (Evan Peters) when people complain about his bad attitude; Pam tries to impress Jim by pulling an office prank.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="465080" start="20260510000000 +0000" stop="20260510003000 +0000">
+    <title lang="zh">The Office</title>
+    <desc>Corporate forces Michael into counseling with Toby; Dwight seeks revenge after a shop owner snubs him; Pam tries to change her job title.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465080" start="20260510003000 +0000" stop="20260510010000 +0000">
+    <title lang="zh">The Office</title>
+    <desc>Andy invites the office to a play he is in, hoping that Erin will attend; Jim and Pam struggle with their incompetent babysitter.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465080" start="20260510010000 +0000" stop="20260510013000 +0000">
+    <title lang="zh">The Office</title>
+    <desc>Thinking he has herpes, Michael contacts all his ex-girlfriends; Andy holds a sex education meeting for the office.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465080" start="20260510013000 +0000" stop="20260510020000 +0000">
+    <title lang="zh">The Office</title>
+    <desc>Michael, Dwight and Jim set up a sting after a competing sales associate steals a client; Andy starts a band.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465080" start="20260510020000 +0000" stop="20260510023000 +0000">
+    <title lang="zh">The Office</title>
+    <desc>Michael freaks out when Darryl goes over his head and takes an idea to corporate; a Halloween costume contest puts the office in a competitive mood.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465080" start="20260510023000 +0000" stop="20260510030000 +0000">
+    <title lang="zh">The Office</title>
+    <desc>Michael invites the entire office to celebrate the christening of Pam and Jim's baby.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465080" start="20260510030000 +0000" stop="20260510033000 +0000">
+    <title lang="zh">The Office</title>
+    <desc>Erin and Gabe host a "Glee" viewing party; Michael is upset when people refer to Gabe as his boss; Andy becomes increasingly jealous.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465080" start="20260510033000 +0000" stop="20260510040000 +0000">
+    <title lang="zh">The Office</title>
+    <desc>Michael helps convince people to invest in Ryan's Internet company; trying to capitalize on Thanksgiving, Dwight creates a hay festival in the parking lot; a new policy prevents Jim from earning commission.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465080" start="20260510040000 +0000" stop="20260510043000 +0000">
+    <title lang="zh">The Office</title>
+    <desc>Michael decides he must stop China before it takes over the United States; Pam threatens to move the company to a new building.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465080" start="20260510043000 +0000" stop="20260510050000 +0000">
+    <title lang="zh">The Office</title>
+    <desc>Michael is happy when Toby takes a leave of absence and corporate sends Holly Flax to fill in; Pam must plan a second Christmas party when Michael wants the party to be on the day of Holly's return to Scranton.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465080" start="20260510050000 +0000" stop="20260510053000 +0000">
+    <title lang="zh">Ridiculousness</title>
+    <desc>Rob Dyrdek, Steelo Brim and Lolo Wood explore the world of fire sports in Flame Gamin'; finding out just how dangerous doors can be in Totally Unhinged; getting taken by surprise.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465080" start="20260510053000 +0000" stop="20260510060000 +0000">
+    <title lang="zh">Ridiculousness</title>
+    <desc>Steelo and Karrueche Tran dish up some flexible fails in Kitchen Gymnasts, get served the most with Excessive Serving, and take part in extreme fathering with Daredevil Dads.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465080" start="20260510060000 +0000" stop="20260510063000 +0000">
+    <title lang="zh">Ridiculousness</title>
+    <desc>Singer, songwriter, producer, and actor Leon Thomas joins Rob, Chanel, and Steelo to treat a lady like royalty in "The Love Jones," meet wild women in "Blue Hairs Don't Care," and more.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465080" start="20260510063000 +0000" stop="20260510070000 +0000">
+    <title lang="zh">Ridiculousness</title>
+    <desc>Rob, Steelo and Nina Agdal don't want people taking video of them in "Cameras Down," run into "Dirty Ballers" at the court, and get so filthy that "Soap Isn't Enough.".</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465080" start="20260510070000 +0000" stop="20260510073000 +0000">
+    <title lang="zh">Ridiculousness</title>
+    <desc>Rob, Steelo and Chanel try to dry off some "Soggy Boys," hire the "Extrasterminators" and discover the power of "Druggernauts.".</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465080" start="20260510073000 +0000" stop="20260510080000 +0000">
+    <title lang="zh">Ridiculousness</title>
+    <desc>Rob, Steelo and Lolo experience the dangers of pressure cookers in Detonating Dinners, feel the pain of walking through windows in Gettin' Glassed and discover that pantsing really hurts.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465080" start="20260510080000 +0000" stop="20260510083000 +0000">
+    <title lang="zh">Ridiculousness</title>
+    <desc>Rob, Steelo and Lolo Wood welcome special guest Dee Snider to meet some rebels in "Not Gonna Take It"; witnessing struggling bands; experiencing the sadness of lost coffee.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="465080" start="20260510083000 +0000" stop="20260510090000 +0000">
+    <title lang="zh">Ridiculousness</title>
+    <desc>Rob, Steelo and Lolo get blown hard into some Windy Whoopings, hit the streets without shoes and get intentionally hurled on by some Barf Bombers.</desc>
+    <date>2026-05-10</date>
   </programme>
   <programme channel="465113" start="20260509203000 +0000" stop="20260509210000 +0000">
     <title lang="zh">The Fresh Prince of Bel-Air</title>
@@ -3331,10 +3640,10 @@
     <desc>It's girl troubles for Shawn (Shawn Wayans) when his girlfriend decides Marlon (Marlon Wayans) is more her type.</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="465207" start="20260509190000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">Short &amp; Fresh</title>
-    <desc>Highlighting emerging filmmakers who influence culture through short films; featured works include "Hidden Note," "Liquor Bank" and "The Firm's New Vision.".</desc>
-    <date>2026-05-09</date>
+  <programme channel="465113" start="20260510083000 +0000" stop="20260510090000 +0000">
+    <title lang="zh">The Wayans Bros.</title>
+    <desc>Shawn sees a new side of himself as he discovers his street-self.</desc>
+    <date>2026-05-10</date>
   </programme>
   <programme channel="465207" start="20260509200000 +0000" stop="20260509210000 +0000">
     <title lang="zh">Short &amp; Fresh</title>
@@ -3586,11 +3895,6 @@
     <desc>Tre and Cierra Boston rebuild the Yett house in Austin, Texas, after it was damaged by the deep freeze of 2021; with only five days to pull it off, stress levels run high as they transform the property into a champion-themed home for the Yetts.</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="467402" start="20260510173000 +0000" stop="20260510183000 +0000">
-    <title lang="zh">SOS: How to Survive</title>
-    <desc>Gregg Hein's descent from 14,000-foot Mount Goddard becomes a nightmare struggle to survive when a boulder rolls into him and breaks his leg; nothing prepares him for a compound fracture that renders him immobile.</desc>
-    <date>2026-05-10</date>
-  </programme>
   <programme channel="469871" start="20260509190000 +0000" stop="20260509220000 +0000">
     <title lang="zh">Live: NBA Basketball</title>
     <desc>Eastern Conference Semifinal, Game 3.</desc>
@@ -3716,7 +4020,127 @@
     <desc>The latest local news, weather and investigative stories impacting the community.</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="469871" start="20260510150000 +0000" stop="20260510160000 +0000">
+  <programme channel="467015" start="20260509190000 +0000" stop="20260509220000 +0000">
+    <title lang="zh">Live: NBA Basketball</title>
+    <desc>Eastern Conference Semifinal, Game 3.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="467015" start="20260509220000 +0000" stop="20260509223000 +0000">
+    <title lang="zh">News 4 New York at 6 Weekend</title>
+    <desc>Stay informed with the latest breaking news and headlines.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="467015" start="20260509223000 +0000" stop="20260509230000 +0000">
+    <title lang="zh">NBC Nightly News With Tom Llamas</title>
+    <desc>Tom Llamas anchors the latest news, going beyond the headlines to see how lives are affected by the world around them.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="467015" start="20260509230000 +0000" stop="20260509233000 +0000">
+    <title lang="zh">George to the Rescue</title>
+    <desc>George Oliphant comes to the rescue of families in need of renovating their homes.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="467015" start="20260509233000 +0000" stop="20260510000000 +0000">
+    <title lang="zh">1st Look</title>
+    <desc>Lifestyle trends in food, night life, art, travel and entertainment.</desc>
+    <date>2026-05-09</date>
+  </programme>
+  <programme channel="467015" start="20260510000000 +0000" stop="20260510010000 +0000">
+    <title lang="zh">The Wall</title>
+    <desc>Married Navy veterans Vincent and Katy's lives changed forever when Vincent, a firefighter-paramedic, responded to a newborn surrendered at his station's safe haven box and later adopted her; now they're taking on the wall for a chance to win big.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510010000 +0000" stop="20260510020000 +0000">
+    <title lang="zh">Dateline NBC</title>
+    <desc>Anchored by Lester Holt, "Dateline" is NBC's signature newsmagazine, bringing viewers storytelling at its best by putting the pieces together to present the full picture of real-life events. NBC News correspondents cover compelling stories and issues of the day, ranging from mystery and crime to in-depth investigations and breaking-news events.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510020000 +0000" stop="20260510030000 +0000">
+    <title lang="zh">Saturday Night Live</title>
+    <desc>From March 11, 2023: Host Jenna Ortega; The 1975 performs.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510030000 +0000" stop="20260510032900 +0000">
+    <title lang="zh">Live: News 4 NY at 11</title>
+    <desc>Local and regional news.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510032900 +0000" stop="20260510050300 +0000">
+    <title lang="zh">Saturday Night Live</title>
+    <desc>Host Matt Damon; Noah Kahan performs.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510050300 +0000" stop="20260510053300 +0000">
+    <title lang="zh">1st Look</title>
+    <desc>Lifestyle trends in food, night life, art, travel and entertainment.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510053300 +0000" stop="20260510060300 +0000">
+    <title lang="zh">George to the Rescue</title>
+    <desc>George Oliphant comes to the rescue of families in need of renovating their homes.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510060300 +0000" stop="20260510063200 +0000">
+    <title lang="zh">1st Look</title>
+    <desc>Christian Crosby hosts a fast-paced tour through New York's iconic basketball scene, where style, street culture and the spirit of the city come together to define the game.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510063200 +0000" stop="20260510070200 +0000">
+    <title lang="zh">Open House NYC</title>
+    <desc>Space, style and surprises, including a towering apartment with jaw dropping views.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510070200 +0000" stop="20260510073000 +0000">
+    <title lang="zh">Open House NYC</title>
+    <desc>TV personality Dorinda Medley's famous estate Bluestone Manor in the Berkshires.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510073000 +0000" stop="20260510083000 +0000">
+    <title lang="zh">Access Hollywood</title>
+    <desc>Hosts Mario Lopez, Kit Hoover, Scott Evans and Zuri Hall take viewers behind the velvet ropes and onto the red carpet to deliver celebrity interviews and entertainment news stories in Hollywood.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510083000 +0000" stop="20260510090000 +0000">
+    <title lang="zh">Have Thinning Hair? Keranique Can Help Regrow Beautiful, Thicker Hair!</title>
+    <desc>If you have thinning hair or hair loss, Keranique can help regrow thicker, longer and fuller hair. Keranique is the number 1 hair regrowth system for women. Regain your confidence with beautiful, thicker and fuller hair in just 3 easy steps!</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510090000 +0000" stop="20260510093000 +0000">
+    <title lang="zh">1st Look</title>
+    <desc>Lifestyle trends in food, night life, art, travel and entertainment.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510093000 +0000" stop="20260510100000 +0000">
+    <title lang="zh">Sunday Today in New York</title>
+    <desc>Sunday New York news show.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510100000 +0000" stop="20260510110000 +0000">
+    <title lang="zh">Sunday Today in New York</title>
+    <desc>Sunday New York news show.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510110000 +0000" stop="20260510120000 +0000">
+    <title lang="zh">Sunday Today in New York</title>
+    <desc>Sunday New York news show.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510120000 +0000" stop="20260510130000 +0000">
+    <title lang="zh">Sunday Today With Willie Geist</title>
+    <desc>Sharp conversational coverage of the week's news, along with in-depth profiles of the people and personalities shaping American culture, assessing the highs and lows of the week and looking ahead to the next one.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510130000 +0000" stop="20260510133000 +0000">
+    <title lang="zh">Open House NYC</title>
+    <desc>Host Sara Gore presents a guide to upscale real estate in and around the Big Apple. In addition to a look at the hottest homes on the market, the show also provides interior design tips from specialists and a wealth of information on renovation and stylish living.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510133000 +0000" stop="20260510143000 +0000">
+    <title lang="zh">Sunday Today in New York</title>
+    <desc>Sunday New York news show.</desc>
+    <date>2026-05-10</date>
+  </programme>
+  <programme channel="467015" start="20260510143000 +0000" stop="20260510153000 +0000">
     <title lang="zh">Meet the Press</title>
     <desc>Interviews with public figures and those making news, setting the political agenda and spotlighting the impact Washington decision-making has on Americans.</desc>
     <date>2026-05-10</date>
@@ -3846,151 +4270,6 @@
     <desc>Interviews with public figures and those making news, setting the political agenda and spotlighting the impact Washington decision-making has on Americans.</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="468233" start="20260510153000 +0000" stop="20260510160000 +0000">
-    <title lang="zh">NBC10 AT ISSUE</title>
-    <desc>Discussions of local &amp; national politics and community affairs.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260509190000 +0000" stop="20260509220000 +0000">
-    <title lang="zh">Live: NBA Basketball</title>
-    <desc>Eastern Conference Semifinal, Game 3.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="467015" start="20260509220000 +0000" stop="20260509223000 +0000">
-    <title lang="zh">News 4 New York at 6 Weekend</title>
-    <desc>Stay informed with the latest breaking news and headlines.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="467015" start="20260509223000 +0000" stop="20260509230000 +0000">
-    <title lang="zh">NBC Nightly News With Tom Llamas</title>
-    <desc>Tom Llamas anchors the latest news, going beyond the headlines to see how lives are affected by the world around them.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="467015" start="20260509230000 +0000" stop="20260509233000 +0000">
-    <title lang="zh">George to the Rescue</title>
-    <desc>George Oliphant comes to the rescue of families in need of renovating their homes.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="467015" start="20260509233000 +0000" stop="20260510000000 +0000">
-    <title lang="zh">1st Look</title>
-    <desc>Lifestyle trends in food, night life, art, travel and entertainment.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="467015" start="20260510000000 +0000" stop="20260510010000 +0000">
-    <title lang="zh">The Wall</title>
-    <desc>Married Navy veterans Vincent and Katy's lives changed forever when Vincent, a firefighter-paramedic, responded to a newborn surrendered at his station's safe haven box and later adopted her; now they're taking on the wall for a chance to win big.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510010000 +0000" stop="20260510020000 +0000">
-    <title lang="zh">Dateline NBC</title>
-    <desc>Anchored by Lester Holt, "Dateline" is NBC's signature newsmagazine, bringing viewers storytelling at its best by putting the pieces together to present the full picture of real-life events. NBC News correspondents cover compelling stories and issues of the day, ranging from mystery and crime to in-depth investigations and breaking-news events.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510020000 +0000" stop="20260510030000 +0000">
-    <title lang="zh">Saturday Night Live</title>
-    <desc>From March 11, 2023: Host Jenna Ortega; The 1975 performs.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510030000 +0000" stop="20260510032900 +0000">
-    <title lang="zh">Live: News 4 NY at 11</title>
-    <desc>Local and regional news.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510032900 +0000" stop="20260510050300 +0000">
-    <title lang="zh">Saturday Night Live</title>
-    <desc>Host Matt Damon; Noah Kahan performs.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510050300 +0000" stop="20260510053300 +0000">
-    <title lang="zh">1st Look</title>
-    <desc>Lifestyle trends in food, night life, art, travel and entertainment.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510053300 +0000" stop="20260510060300 +0000">
-    <title lang="zh">George to the Rescue</title>
-    <desc>George Oliphant comes to the rescue of families in need of renovating their homes.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510060300 +0000" stop="20260510063200 +0000">
-    <title lang="zh">1st Look</title>
-    <desc>Christian Crosby hosts a fast-paced tour through New York's iconic basketball scene, where style, street culture and the spirit of the city come together to define the game.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510063200 +0000" stop="20260510070200 +0000">
-    <title lang="zh">Open House NYC</title>
-    <desc>Space, style and surprises, including a towering apartment with jaw dropping views.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510070200 +0000" stop="20260510073000 +0000">
-    <title lang="zh">Open House NYC</title>
-    <desc>TV personality Dorinda Medley's famous estate Bluestone Manor in the Berkshires.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510073000 +0000" stop="20260510083000 +0000">
-    <title lang="zh">Access Hollywood</title>
-    <desc>Hosts Mario Lopez, Kit Hoover, Scott Evans and Zuri Hall take viewers behind the velvet ropes and onto the red carpet to deliver celebrity interviews and entertainment news stories in Hollywood.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510083000 +0000" stop="20260510090000 +0000">
-    <title lang="zh">Have Thinning Hair? Keranique Can Help Regrow Beautiful, Thicker Hair!</title>
-    <desc>If you have thinning hair or hair loss, Keranique can help regrow thicker, longer and fuller hair. Keranique is the number 1 hair regrowth system for women. Regain your confidence with beautiful, thicker and fuller hair in just 3 easy steps!</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510090000 +0000" stop="20260510093000 +0000">
-    <title lang="zh">1st Look</title>
-    <desc>Lifestyle trends in food, night life, art, travel and entertainment.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510093000 +0000" stop="20260510100000 +0000">
-    <title lang="zh">Sunday Today in New York</title>
-    <desc>Sunday New York news show.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510100000 +0000" stop="20260510110000 +0000">
-    <title lang="zh">Sunday Today in New York</title>
-    <desc>Sunday New York news show.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510110000 +0000" stop="20260510120000 +0000">
-    <title lang="zh">Sunday Today in New York</title>
-    <desc>Sunday New York news show.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510120000 +0000" stop="20260510130000 +0000">
-    <title lang="zh">Sunday Today With Willie Geist</title>
-    <desc>Sharp conversational coverage of the week's news, along with in-depth profiles of the people and personalities shaping American culture, assessing the highs and lows of the week and looking ahead to the next one.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510130000 +0000" stop="20260510133000 +0000">
-    <title lang="zh">Open House NYC</title>
-    <desc>Host Sara Gore presents a guide to upscale real estate in and around the Big Apple. In addition to a look at the hottest homes on the market, the show also provides interior design tips from specialists and a wealth of information on renovation and stylish living.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510133000 +0000" stop="20260510143000 +0000">
-    <title lang="zh">Sunday Today in New York</title>
-    <desc>Sunday New York news show.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510143000 +0000" stop="20260510153000 +0000">
-    <title lang="zh">Meet the Press</title>
-    <desc>Interviews with public figures and those making news, setting the political agenda and spotlighting the impact Washington decision-making has on Americans.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="467015" start="20260510153000 +0000" stop="20260510160000 +0000">
-    <title lang="zh">Joel Osteen</title>
-    <desc>Author and evangelist Joel Osteen spreads his message of love and hope as he preaches at the 30,000-plus member Lakewood Church in Houston. The program can be seen in more than 100 countries. Osteen urges people to live at their full potential and form a close relationship with God.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470330" start="20260509193000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">BollyFit!</title>
-    <desc>Host Reshmi Chetram combines her love of Bollywood and fitness.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="470330" start="20260509200000 +0000" stop="20260509203000 +0000">
-    <title lang="zh">Padma Yoga: Blissful Living</title>
-    <desc>A series of yoga designed to calm the nerves and strengthen the spirit.</desc>
-    <date>2026-05-09</date>
-  </programme>
   <programme channel="470330" start="20260509203000 +0000" stop="20260509210000 +0000">
     <title lang="zh">Namaste</title>
     <desc>Encouraging confidence and relieving sluggishness.</desc>
@@ -4111,379 +4390,9 @@
     <desc>Experience moments of stillness and transformation.</desc>
     <date>2026-05-10</date>
   </programme>
-  <programme channel="470910" start="20260509190000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">Law &amp; Order</title>
-    <desc>A deadly subway shooting has Cosgrove and Shaw racing to find the culprit before another attack is orchestrated; Price and Maroun struggle to put their ethical principles aside when the U.S. Attorney's office pushes for the death penalty in the case.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="470910" start="20260509200000 +0000" stop="20260509210000 +0000">
-    <title lang="zh">Law &amp; Order: Special Victims Unit</title>
-    <desc>Benson and Carisi are baffled when a series of assaults have the same M.O. but different DNA at each crime scene; Muncy believes Elias Olsen has struck again and is determined to prove it.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="470910" start="20260509210000 +0000" stop="20260509220000 +0000">
-    <title lang="zh">Law &amp; Order</title>
-    <desc>A deadly subway shooting has Cosgrove and Shaw racing to find the culprit before another attack is orchestrated; Price and Maroun struggle to put their ethical principles aside when the U.S. Attorney's office pushes for the death penalty in the case.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="470910" start="20260509220000 +0000" stop="20260509230000 +0000">
-    <title lang="zh">Law &amp; Order: Special Victims Unit</title>
-    <desc>Benson and Carisi are baffled when a series of assaults have the same M.O. but different DNA at each crime scene; Muncy believes Elias Olsen has struck again and is determined to prove it.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="470910" start="20260509230000 +0000" stop="20260510000000 +0000">
-    <title lang="zh">Law &amp; Order</title>
-    <desc>Lives hang in the balance as detectives and prosecutors pursue justice in New York City. In cases ripped from the headlines, police investigate serious and often deadly crimes, weighing the evidence and questioning the suspects until someone is taken into custody. The district attorney's office then builds a case to convict the perpetrator by proving them guilty beyond a reasonable doubt. Working </desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="470910" start="20260510000000 +0000" stop="20260510010000 +0000">
-    <title lang="zh">Law &amp; Order: Special Victims Unit</title>
-    <desc>This groundbreaking series from executive producer Dick Wolf's "Law &amp; Order" franchise chronicles the ripped-from-the-headlines investigations of the NYPD's Special Victims Unit; led by courageous and compassionate Capt. Olivia Benson, this elite team includes Sgt. Odafin Tutuola, Detective Amanda Rollins, Officer Katriona Tamin and Deputy Chief Christian Garland, who focus on finding justice for </desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510010000 +0000" stop="20260510020000 +0000">
-    <title lang="zh">Chicago Med</title>
-    <desc>Members of the city's most highly skilled medical team save lives while navigating their unique interpersonal relationships. The Gaffney Chicago Medical Center's elite team of dedicated doctors, nurses and staff face challenges each day as they do what it takes to treat their patients, sometimes in surprisingly inventive ways. As the city's last line of defense, doctors Charles, Halstead, Marcel, </desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510020000 +0000" stop="20260510030000 +0000">
-    <title lang="zh">Chicago Fire</title>
-    <desc>As the firefighters, rescue squad and paramedics of Chicago Firehouse 51 forge headfirst into danger, the choices they make can mean the difference between life and death. But from the relentless pressure of saving lives, an extended family is forged. Led by Chief Wallace Boden, Matthew Casey, Kelly Severide, Gabriela Dawson and the others know -- when it's go time, Firehouse 51 lays it all on the</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510030000 +0000" stop="20260510040000 +0000">
-    <title lang="zh">Chicago P.D.</title>
-    <desc>Chicago P.D.'s Intelligence Unit, led by Sgt. Hank Voight, investigates the city's most formidable offenses -- drug trafficking, organized crime, high-profile murders and other large-scale felonies. The squad -- made up of Voight, Trudy Platt, Kim Burgess, Adam Ruzek, Kevin Atwater, Jay Halstead and Hailey Upton -- is committed to protecting the city and seeking truth, but in the midst of a changi</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510040000 +0000" stop="20260510050000 +0000">
-    <title lang="zh">Chicago Med</title>
-    <desc>Members of the city's most highly skilled medical team save lives while navigating their unique interpersonal relationships. The Gaffney Chicago Medical Center's elite team of dedicated doctors, nurses and staff face challenges each day as they do what it takes to treat their patients, sometimes in surprisingly inventive ways. As the city's last line of defense, doctors Charles, Halstead, Marcel, </desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510050000 +0000" stop="20260510060000 +0000">
-    <title lang="zh">Chicago Fire</title>
-    <desc>As the firefighters, rescue squad and paramedics of Chicago Firehouse 51 forge headfirst into danger, the choices they make can mean the difference between life and death. But from the relentless pressure of saving lives, an extended family is forged. Led by Chief Wallace Boden, Matthew Casey, Kelly Severide, Gabriela Dawson and the others know -- when it's go time, Firehouse 51 lays it all on the</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510060000 +0000" stop="20260510070000 +0000">
-    <title lang="zh">Chicago P.D.</title>
-    <desc>Chicago P.D.'s Intelligence Unit, led by Sgt. Hank Voight, investigates the city's most formidable offenses -- drug trafficking, organized crime, high-profile murders and other large-scale felonies. The squad -- made up of Voight, Trudy Platt, Kim Burgess, Adam Ruzek, Kevin Atwater, Jay Halstead and Hailey Upton -- is committed to protecting the city and seeking truth, but in the midst of a changi</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510070000 +0000" stop="20260510080000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>Rex is on trial after his DNA is discovered at the scene of the murder of Donovan's former police informant.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510080000 +0000" stop="20260510090000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>Charlie and Rex investigate a fairytale-turned-nightmare when a princess performer suspiciously dies at a child's birthday party.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510090000 +0000" stop="20260510100000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>Charlie and Rex are in grave danger as they find themselves captives of a kidnapper seeking vengeance.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510100000 +0000" stop="20260510110000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>An arsonist begins terrorizing a neighborhood with car bombs; Charlie and Rex race to find the next target before the case goes up in smoke.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510110000 +0000" stop="20260510120000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>When a murder appears to mimic an infamous crime spree from the past, Charlie and Rex rush to stop the culprit from continuing a serial killer's legacy.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510120000 +0000" stop="20260510130000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>Charlie lets Rex take the lead as they investigate a murder at a prestigious dog show.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510130000 +0000" stop="20260510140000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>Trapped in an isolated mansion during a storm, Charlie and Rex uncover a wannabe-killer after the hostess is drugged; Sarah fights to keep her alive.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510140000 +0000" stop="20260510150000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>Charlie and Rex are in grave danger as they find themselves captives of a kidnapper seeking vengeance.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510150000 +0000" stop="20260510160000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>An arsonist begins terrorizing a neighborhood with car bombs; Charlie and Rex race to find the next target before the case goes up in smoke.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510160000 +0000" stop="20260510170000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>When a murder appears to mimic an infamous crime spree from the past, Charlie and Rex rush to stop the culprit from continuing a serial killer's legacy.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510170000 +0000" stop="20260510180000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>Charlie lets Rex take the lead as they investigate a murder at a prestigious dog show.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510180000 +0000" stop="20260510190000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>Trapped in an isolated mansion during a storm, Charlie and Rex uncover a wannabe-killer after the hostess is drugged; Sarah fights to keep her alive.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510190000 +0000" stop="20260510200000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>Charlie and Rex are in grave danger as they find themselves captives of a kidnapper seeking vengeance.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="470910" start="20260510200000 +0000" stop="20260510210000 +0000">
-    <title lang="zh">Chicago Med</title>
-    <desc>Members of the city's most highly skilled medical team save lives while navigating their unique interpersonal relationships. The Gaffney Chicago Medical Center's elite team of dedicated doctors, nurses and staff face challenges each day as they do what it takes to treat their patients, sometimes in surprisingly inventive ways. As the city's last line of defense, doctors Charles, Halstead, Marcel, </desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260509183000 +0000" stop="20260509200000 +0000">
-    <title lang="zh">Stevie Nicks: Wild at Heart</title>
-    <desc>For decades, Stevie Nicks has fronted one of the most successful bands in history, resurrecting them from the ashes; even with the trials and tribulations of being a member of Fleetwood Mac, Stevie has remained a role model.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465105" start="20260509200000 +0000" stop="20260509210000 +0000">
-    <title lang="zh">The Myth of Marilyn Monroe</title>
-    <desc>A look at Marilyn Monroe as a defining icon of 1950s America and how, throughout the decade, the myth of Marilyn and the American dream seemed to crumble.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465105" start="20260509210000 +0000" stop="20260509220000 +0000">
-    <title lang="zh">Dolly Parton: Big Hair, Bigger Heart</title>
-    <desc>From humble roots to icon status, Dolly Parton has built a rich legacy in music and beyond. This is her story.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465105" start="20260509220000 +0000" stop="20260510000000 +0000">
-    <title lang="zh">The Luau</title>
-    <desc>A man who owes a large sum of cash throws a party that soon spirals out of control just to raise some money.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465105" start="20260510000000 +0000" stop="20260510020000 +0000">
-    <title lang="zh">Malibooty</title>
-    <desc>Three buddies (Brian Hooks, Sticky Fingaz, J.T. Jackson) leave their Arizona town and head to California for a wild beach party.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510020000 +0000" stop="20260510043000 +0000">
-    <title lang="zh">Bodied</title>
-    <desc>A progressive graduate student finds success and sparks outrage when his interest in battle rap as a thesis subject turns into a competitive obsession.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510043000 +0000" stop="20260510050000 +0000">
-    <title lang="zh">TallBoyz</title>
-    <desc>Matthew and Marilla get an orphan they didn't anticipate; wearing a muzzle greatly reduces the risk of transmission; a small scientific wonder baffles a high school teacher.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510050000 +0000" stop="20260510053000 +0000">
-    <title lang="zh">TallBoyz</title>
-    <desc>The Boyz navigate Guled's acceptance into the royal family; sexting gets competitive; babies can spit bars.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510053000 +0000" stop="20260510060000 +0000">
-    <title lang="zh">TallBoyz</title>
-    <desc>Two mobsters struggle to follow a lead; the body never forgets, even after death; there's a first time for everything in dating; a scientist has a stern warning for the universe.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510060000 +0000" stop="20260510063000 +0000">
-    <title lang="zh">TallBoyz</title>
-    <desc>Guled makes a special wish; the party theme is diversity; a father and son examine the wizarding world.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510063000 +0000" stop="20260510073000 +0000">
-    <title lang="zh">How To Have A Better Orgasm</title>
-    <desc>Women share how their experience of orgasms has improved thanks to better interpersonal communication, or just making time for themselves. Personal accounts reveal that, across the board, there's a turning point in learning how to have a better one.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510073000 +0000" stop="20260510080000 +0000">
-    <title lang="zh">My Big Boobs</title>
-    <desc>Podcaster and body confidence advocate Jackie Adedeji meets women with big breasts to explore the growing issue living with larger breasts and the increased demand for reduction surgery.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510080000 +0000" stop="20260510083000 +0000">
-    <title lang="zh">Sense Appeal</title>
-    <desc>Nonbinary filmmaker Jordan is looking for someone wild and squishy; they sense fancy sweat and barbecue sauce.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510083000 +0000" stop="20260510090000 +0000">
-    <title lang="zh">Sense Appeal</title>
-    <desc>Business student Amanda wants a beautiful boy for lifelong love; she senses sloppy kisses and the look of lust.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510090000 +0000" stop="20260510093000 +0000">
-    <title lang="zh">Sense Appeal</title>
-    <desc>Bartender Shenika wants a woman with the chemistry cocktail of spice, culture and perfect pheromones; she senses massages and mom voice.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510093000 +0000" stop="20260510100000 +0000">
-    <title lang="zh">Sense Appeal</title>
-    <desc>Rock star/cheerleader Kyle looks for a squad mate who is his kind of crazy; he senses sensual touches and confident kisses.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510100000 +0000" stop="20260510110000 +0000">
-    <title lang="zh">Unbreakable</title>
-    <desc>Jayden has the finish line in sight; AJ suffers a blow; meeting Ella, who wants to drive trucks.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510110000 +0000" stop="20260510120000 +0000">
-    <title lang="zh">Unbreakable</title>
-    <desc>Ming Ming goes on his first ever date; AJ makes a comeback; Ella has a change of heart.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510120000 +0000" stop="20260510123000 +0000">
-    <title lang="zh">Off the Map With Shannen and Holly</title>
-    <desc>Shannen learns to play the harmonica; the best ribs of the South.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510123000 +0000" stop="20260510130000 +0000">
-    <title lang="zh">Off the Map With Shannen and Holly</title>
-    <desc>The girls are pulled over; dirt track race.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510130000 +0000" stop="20260510133000 +0000">
-    <title lang="zh">Cheaters</title>
-    <desc>Kesha wants to find out what's going on with Duke.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510133000 +0000" stop="20260510140000 +0000">
-    <title lang="zh">Cheaters</title>
-    <desc>Larry wants to know why his wife is acting peculiar.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510140000 +0000" stop="20260510143000 +0000">
-    <title lang="zh">Cheaters</title>
-    <desc>Nicholas is worried about his relationship with Ava.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510143000 +0000" stop="20260510150000 +0000">
-    <title lang="zh">Cheaters</title>
-    <desc>Jill wants to know why Rose constantly wants alone time.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510150000 +0000" stop="20260510153000 +0000">
-    <title lang="zh">Cheaters</title>
-    <desc>Bridget risks breaking her heart to check up on Dwight.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465105" start="20260510153000 +0000" stop="20260510160000 +0000">
-    <title lang="zh">Cheaters</title>
-    <desc>Christian wants to discover why Celeste is so secretive.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260509194500 +0000" stop="20260509215500 +0000">
-    <title lang="zh">Frozen II</title>
-    <desc>Elsa the Snow Queen has an extraordinary gift -- the power to create ice and snow. But no matter how happy she is to be surrounded by the people of Arendelle, Elsa finds herself strangely unsettled. After hearing a mysterious voice call out to her, Elsa travels to the enchanted forests and dark seas beyond her kingdom -- an adventure that soon turns into a journey of self-discovery.</desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465331" start="20260509215500 +0000" stop="20260510000000 +0000">
-    <title lang="zh">Brave</title>
-    <desc>Merida (Kelly Macdonald), the impetuous but courageous daughter of Scottish King Fergus (Billy Connolly) and Queen Elinor (Emma Thompson), is a skilled archer who wants to carve out her own path in life. Her defiance of an age-old tradition angers the Highland lords and leads to chaos in the kingdom. Merida seeks help from an eccentric witch (Julie Walters), who grants her an ill-fated wish. Now, </desc>
-    <date>2026-05-09</date>
-  </programme>
-  <programme channel="465331" start="20260510000000 +0000" stop="20260510023000 +0000">
-    <title lang="zh">Moana</title>
-    <desc>An adventurous teenager sails out on a daring mission to save her people. During her journey, Moana meets the once-mighty demigod Maui, who guides her in her quest to become a master way-finder. Together they sail across the open ocean on an action-packed voyage, encountering enormous monsters and impossible odds. Along the way, Moana fulfills the ancient quest of her ancestors and discovers the o</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510023000 +0000" stop="20260510043000 +0000">
-    <title lang="zh">Lilo &amp; Stitch</title>
-    <desc>A tale of a young girl's close encounter with the galaxy's most wanted extraterrestrial. Lilo is a lonely Hawaiian girl who adopts a small ugly "dog," whom she names Stitch. Stitch would be the perfect pet if he weren't in reality a genetic experiment who has escaped from an alien planet and crash-landed on Earth. Through her love, faith and unwavering belief in ohana, the Hawaiian concept of fami</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510043000 +0000" stop="20260510060000 +0000">
-    <title lang="zh">Dumbo</title>
-    <desc>A young circus elephant is born with comically large ears and given the cruel nickname Dumbo. One day at a show, he is taunted by a group of kids, inciting his mother into a rage that gets her locked up. After Dumbo's ears cause an accident that injures many of the other elephants, he is made to dress like a clown and perform dangerous stunts. Everything changes when Dumbo discovers that his enorm</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510060000 +0000" stop="20260510063000 +0000">
-    <title lang="zh">NEW! Shark PowerDetect with DuoClean Detect Technology</title>
-    <desc>Meet the new Shark PowerDetect Upright Vacuum with features like DuoClean Detect Technology, self-cleaning brush roll and odor neutralizing and you will be cleaning faster, smarter and better!</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510063000 +0000" stop="20260510070000 +0000">
-    <title lang="zh">Joe Lando joins Jane Seymour - New Crepe Erase show with 3 FREE Gifts!</title>
-    <desc>TV stars Joe Lando and Jane Seymour reveal the secret to smoother, younger-looking skin with Crepe Erase. Plus, receive 3 FREE gifts with this limited-time offer.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510070000 +0000" stop="20260510073000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510073000 +0000" stop="20260510080000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510080000 +0000" stop="20260510083000 +0000">
-    <title lang="zh">NEW! Shark PowerDetect with DuoClean Detect Technology</title>
-    <desc>Meet the new Shark PowerDetect Upright Vacuum with features like DuoClean Detect Technology, self-cleaning brush roll and odor neutralizing and you will be cleaning faster, smarter and better!</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510083000 +0000" stop="20260510090000 +0000">
-    <title lang="zh">Best Mattress Topper Ever!</title>
-    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510090000 +0000" stop="20260510093000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510093000 +0000" stop="20260510100000 +0000">
-    <title lang="zh">Ready for a safer shower? Enjoy a one-day bath remodel with Jacuzzi.</title>
-    <desc>Trusted brand Jacuzzi Bath Remodel and interior designer Christina Hall share their secrets on how you can easily and affordably transform your bathroom into a gorgeous custom, safe, stylish space in 1 day! Call for a FREE quote &amp; installation.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510100000 +0000" stop="20260510103000 +0000">
-    <title lang="zh">Have Thinning Hair? Keranique Can Help Regrow Beautiful, Thicker Hair!</title>
-    <desc>If you have thinning hair or hair loss, Keranique can help regrow thicker, longer and fuller hair. Keranique is the number 1 hair regrowth system for women. Regain your confidence with beautiful, thicker and fuller hair in just 3 easy steps!</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510103000 +0000" stop="20260510110000 +0000">
-    <title lang="zh">NEW! Shark PowerDetect with DuoClean Detect Technology</title>
-    <desc>Meet the new Shark PowerDetect Upright Vacuum with features like DuoClean Detect Technology, self-cleaning brush roll and odor neutralizing and you will be cleaning faster, smarter and better!</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510110000 +0000" stop="20260510113000 +0000">
-    <title lang="zh">According to Jim</title>
-    <desc>Jim worries Cheryl will learn the truth about her engagement ring after she invites his old girlfriend (Crystal Bernard) to dinner.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510113000 +0000" stop="20260510120000 +0000">
-    <title lang="zh">According to Jim</title>
-    <desc>Jim goes into protective overdrive after Cheryl is mugged while shopping.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510120000 +0000" stop="20260510143000 +0000">
-    <title lang="zh">The Game Plan</title>
-    <desc>Bachelor football star Joe Kingman (Dwayne "The Rock" Johnson) seems to have it all. He is wealthy and carefree, and his team is on the way to capturing a championship. Suddenly, he is tackled by some unexpected news: He has a young daughter (Madison Pettis), the result of a last fling with his ex-wife. Joe must learn to balance his personal and professional lives with the needs of his child.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510143000 +0000" stop="20260510163500 +0000">
-    <title lang="zh">Maleficent</title>
-    <desc>As a beautiful young woman of pure heart, Maleficent (Angelina Jolie) has an idyllic life in a forest kingdom. When an invading army threatens the land, Maleficent rises up to become its fiercest protector. However, a terrible betrayal hardens her heart and twists her into a creature bent on revenge. She engages in an epic battle with the invading king's successor, then curses his newborn daughter</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510163500 +0000" stop="20260510191500 +0000">
-    <title lang="zh">Maleficent: Mistress of Evil</title>
-    <desc>Maleficent travels to a grand old castle to celebrate young Aurora's upcoming wedding to Prince Phillip. While there, she meets Aurora's future mother-in-law -- a conniving queen who hatches a devious plot to destroy the land's fairies. Hoping to stop her, Maleficent joins forces with a seasoned warrior and a group of outcasts to battle the queen and her powerful army.</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510191500 +0000" stop="20260510215000 +0000">
-    <title lang="zh">Cinderella</title>
-    <desc>After her father unexpectedly dies, young Ella (Lily James) finds herself at the mercy of her cruel stepmother (Cate Blanchett) and stepsisters, who reduce her to scullery maid. Despite her circumstances, she refuses to despair. An invitation to a palace ball gives Ella hope that she might reunite with the dashing stranger (Richard Madden) she met in the woods, but her stepmother prevents her from</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510215000 +0000" stop="20260510235500 +0000">
-    <title lang="zh">Freaky Friday</title>
-    <desc>Single mother Tess Coleman (Jamie Lee Curtis) and her teenage daughter Anna (Lindsay Lohan) couldn't be more different, and it is driving them both insane. After receiving cryptic fortunes at a Chinese restaurant, the two wake up the next day to discover that they have somehow switched bodies. Unable to switch back, they are forced to masquerade as one another until a solution can be found. In the</desc>
-    <date>2026-05-10</date>
-  </programme>
-  <programme channel="465331" start="20260510235500 +0000" stop="20260511000000 +0000">
-    <title lang="zh">The Parent Trap</title>
-    <desc>Twins Annie and Hallie are strangers until happenstance unites them. The preteen girls' divorced parents, Nick and Elizabeth are living on opposite sides of the Atlantic, each with one child. After meeting at camp, American Hallie and British-raised Annie engineer an identity swap, giving both the chance to spend time with the parent they've missed. If the scheme works, it might just make the fami</desc>
+  <programme channel="470330" start="20260510120000 +0000" stop="20260510123000 +0000">
+    <title lang="zh">Shimmy</title>
+    <desc>Belly dancing for a sensual body.</desc>
     <date>2026-05-10</date>
   </programme>
 </tv>
