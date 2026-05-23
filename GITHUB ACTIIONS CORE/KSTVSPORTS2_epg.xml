@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<tv date="20260523060351" generator-info-name="KSTV-Sports-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="KSTV-Sports-EPG">
+<tv date="20260523083317" generator-info-name="KSTV-Sports-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="KSTV-Sports-EPG">
   <channel id="465198">
     <display-name lang="US">ESPN HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465236">
+    <display-name lang="US">Tennis Channel HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="400478">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">TNT Sports 4 HD</display-name>
     <icon src="" />
   </channel>
   <channel id="465124">
@@ -16,52 +24,44 @@
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">TNT Sports 3 HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="400478">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">TNT Sports 4 HD</display-name>
-    <icon src="" />
-  </channel>
   <channel id="465108">
     <display-name lang="US">ESPNU HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465236">
-    <display-name lang="US">Tennis Channel HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="9175">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">Racing TV HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465288">
-    <display-name lang="US">Altitude Sports</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="9415">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">SkySpMainEvHD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="470732">
-    <display-name lang="Canada">Sportsnet (Pacific)</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="470811">
-    <display-name lang="Canada">Sportsnet World</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="464777">
-    <display-name lang="US">SNY SportsNet New York HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="470873">
-    <display-name lang="Canada">Sportsnet One</display-name>
     <icon src="" />
   </channel>
   <channel id="465358">
     <display-name lang="US">World Fishing Network HD (US)</display-name>
     <icon src="" />
   </channel>
+  <channel id="9415">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">SkySpMainEvHD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465288">
+    <display-name lang="US">Altitude Sports</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="9175">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">Racing TV HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="470732">
+    <display-name lang="Canada">Sportsnet (Pacific)</display-name>
+    <icon src="" />
+  </channel>
   <channel id="465264">
     <display-name lang="US">Sportsman Channel</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="470873">
+    <display-name lang="Canada">Sportsnet One</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="464777">
+    <display-name lang="US">SNY SportsNet New York HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="470811">
+    <display-name lang="Canada">Sportsnet World</display-name>
     <icon src="" />
   </channel>
   <programme channel="465198" start="20260523050000 +0000" stop="20260523110000 +0000">
@@ -144,20 +144,195 @@
     <desc>Western Conference Final Game 3.</desc>
     <date>2026-05-25</date>
   </programme>
-  <programme channel="465124" start="20260523040000 +0000" stop="20260523060000 +0000">
-    <title lang="zh">MLB Baseball</title>
-    <desc>The Toronto Blue Jays host the Pittsburgh Pirates in Game 1 of a three-game regular-season series. Starter Kevin Gausman pitches for Toronto against Bubba Chandler as Vladimir Guerrero Jr. leads the Blue Jays against Oneil Cruz at Rogers Centre.</desc>
+  <programme channel="465236" start="20260523013000 +0000" stop="20260523120000 +0000">
+    <title lang="zh">Courtside</title>
+    <desc>Tennis highlights from recent matches.</desc>
     <date>2026-05-23</date>
   </programme>
-  <programme channel="465124" start="20260523060000 +0000" stop="20260523063000 +0000">
-    <title lang="zh">Pirates Extra Innings Live</title>
-    <desc />
+  <programme channel="465236" start="20260523120000 +0000" stop="20260523150000 +0000">
+    <title lang="zh">Courtside - Live</title>
+    <desc>F. Cobolli vs. F. Auger-Aliassime OR A. Rublev; N. Djokovic vs. H. Hurkacz; E. Rybakina vs. L. Samsonova; J. Cristian vs. M. Joint.</desc>
     <date>2026-05-23</date>
   </programme>
-  <programme channel="465124" start="20260523063000 +0000" stop="20260523070000 +0000">
-    <title lang="zh">Pirates Final Live</title>
-    <desc />
+  <programme channel="465236" start="20260523150000 +0000" stop="20260523160000 +0000">
+    <title lang="zh">Tennis Channel Live</title>
+    <desc>Tennis stories of the day, detailed analysis and more.</desc>
     <date>2026-05-23</date>
+  </programme>
+  <programme channel="465236" start="20260523160000 +0000" stop="20260524000000 +0000">
+    <title lang="zh">Courtside</title>
+    <desc>Tennis highlights from recent matches.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="465236" start="20260524000000 +0000" stop="20260524010000 +0000">
+    <title lang="zh">Tennis Channel Live</title>
+    <desc>Tennis stories of the day, detailed analysis and more.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465236" start="20260524010000 +0000" stop="20260524040000 +0000">
+    <title lang="zh">Courtside</title>
+    <desc>Tennis highlights from recent matches.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465236" start="20260524040000 +0000" stop="20260524050000 +0000">
+    <title lang="zh">Tennis Channel Live</title>
+    <desc>Tennis stories of the day, detailed analysis and more.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465236" start="20260524050000 +0000" stop="20260524080000 +0000">
+    <title lang="zh">Courtside</title>
+    <desc>Tennis highlights from recent matches.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465236" start="20260524080000 +0000" stop="20260524090000 +0000">
+    <title lang="zh">Tennis Channel Live</title>
+    <desc>Tennis stories of the day, detailed analysis and more.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465236" start="20260524090000 +0000" stop="20260524120000 +0000">
+    <title lang="zh">Live: 2026 Roland-Garros Tennis</title>
+    <desc>From Roland Garros Stadium in Paris, France.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465236" start="20260524120000 +0000" stop="20260524160000 +0000">
+    <title lang="zh">Courtside</title>
+    <desc>Tennis highlights from recent matches.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465236" start="20260524160000 +0000" stop="20260524220000 +0000">
+    <title lang="zh">Live: Major League Pickleball</title>
+    <desc>Coverage of team pickleball events from different venues and locations.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465236" start="20260524220000 +0000" stop="20260525000000 +0000">
+    <title lang="zh">Courtside</title>
+    <desc>Tennis highlights from recent matches.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465236" start="20260525000000 +0000" stop="20260526000000 +0000">
+    <title lang="zh">Tennis Channel Live at Roland Garros</title>
+    <desc>Coverage from Paris.</desc>
+    <date>2026-05-25</date>
+  </programme>
+  <programme channel="400478" start="20260523060000 +0000" stop="20260523090000 +0000">
+    <title lang="zh">Live AFL</title>
+    <desc>Geelong Cats v Sydney Swans (Bounce-up 7.15am). Coverage of the match from GMHBA Stadium in Geelong.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="400478" start="20260523090000 +0000" stop="20260523093000 +0000">
+    <title lang="zh">TCR World Tour Review</title>
+    <desc>Action from rounds one and two of the season in Misano, Italy.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="400478" start="20260523093000 +0000" stop="20260523123000 +0000">
+    <title lang="zh">Live AFL</title>
+    <desc>Port Adelaide Power v Carlton Blues (Bounce-up 10.35am). Coverage of the match from Adelaide Oval.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="400478" start="20260523123000 +0000" stop="20260523140000 +0000">
+    <title lang="zh">Live: Women's Cycling World Tour</title>
+    <desc>Coverage of the third stage of the race, a 126km route from Busto de Bureba to Medina de Pomar.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="400478" start="20260523140000 +0000" stop="20260523151500 +0000">
+    <title lang="zh">Live: Men's Cycling Pro Series</title>
+    <desc>Coverage of the 2026 Veenendaal Classic.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="400478" start="20260523151500 +0000" stop="20260523154500 +0000">
+    <title lang="zh">TCR World Tour Review</title>
+    <desc>Action from rounds one and two of the season in Misano, Italy.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="400478" start="20260523154500 +0000" stop="20260523160000 +0000">
+    <title lang="zh">TNT Sports Reload</title>
+    <desc>The best bits from TNT Sports over the last week, including exclusive interviews, top action, and more.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="400478" start="20260523160000 +0000" stop="20260523180000 +0000">
+    <title lang="zh">Live: IFSC Climbing World Series</title>
+    <desc>Coverage of the women's bouldering final, which takes place in Bern, Switzerland.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="400478" start="20260523180000 +0000" stop="20260523193000 +0000">
+    <title lang="zh">AFL</title>
+    <desc>North Melbourne Kangaroos v Gold Coast Suns.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="400478" start="20260523193000 +0000" stop="20260523210000 +0000">
+    <title lang="zh">AFL</title>
+    <desc>Geelong Cats v Sydney Swans.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="400478" start="20260523210000 +0000" stop="20260523223000 +0000">
+    <title lang="zh">AFL</title>
+    <desc>Collingwood Magpies v West Coast Eagles.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="400478" start="20260523223000 +0000" stop="20260524000000 +0000">
+    <title lang="zh">AFL</title>
+    <desc>Port Adelaide Power v Carlton Blues.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="400478" start="20260524000000 +0000" stop="20260524010000 +0000">
+    <title lang="zh">Tennis</title>
+    <desc>A documentary that traces the rise of Carlos Alcaraz and Jannik Sinner, revealing how the two young stars are redefining the sport for a new generation.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="400478" start="20260524010000 +0000" stop="20260524033000 +0000">
+    <title lang="zh">UFC Reloaded</title>
+    <desc>A look back at UFC 204 from 2016 in Manchester, featuring the thrilling headline middleweight title bout between champion Michael Bisping and challenger Dan Henderson.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="400478" start="20260524033000 +0000" stop="20260524050000 +0000">
+    <title lang="zh">Ultimate Pool</title>
+    <desc>Action from Group 8 of the Pairs Cup.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="400478" start="20260524050000 +0000" stop="20260524053000 +0000">
+    <title lang="zh">UIM F1H2O World Championship Highlights</title>
+    <desc>A look ahead to the new season.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="400478" start="20260524053000 +0000" stop="20260524063000 +0000">
+    <title lang="zh">Cycling</title>
+    <desc>A review of the biggest stories from the 2026 Orlen Nations Grand Prix Under 23.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="400478" start="20260524063000 +0000" stop="20260524073000 +0000">
+    <title lang="zh">Giro d'Italia Men Highlights</title>
+    <desc>Action from the 14th stage of the race.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="400478" start="20260524073000 +0000" stop="20260524083000 +0000">
+    <title lang="zh">Alcaraz-Sinner: The New Dawn of Tennis</title>
+    <desc>A documentary that traces the rise of Carlos Alcaraz and Jannik Sinner, revealing how the two young stars are redefining the sport for a new generation.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="400478" start="20260524083000 +0000" stop="20260524090000 +0000">
+    <title lang="zh">Live: Roland Garros 360</title>
+    <desc>Coverage from around the courts on day one of the Grand Slam tournament, featuring first-round matches at Stade Roland Garros in Paris. America's Coco Gauff won the women's singles title a year ago thanks to a 7-6, 2-6, 4-6 victory over Belarus' Aryna Sabalenka in the final. Gauff beat the likes of Lois Boisson, Ekaterina Alexandrova and fellow American Madison Keys to reach the showpiece, while S</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="400478" start="20260524090000 +0000" stop="20260524190000 +0000">
+    <title lang="zh">Live: Roland Garros</title>
+    <desc>Further coverage of the first day of round one of the tournament, which takes place at Stade Roland Garros in Paris.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="400478" start="20260524190000 +0000" stop="20260524200000 +0000">
+    <title lang="zh">Giro d'Italia Men Highlights</title>
+    <desc>Action from the 15th stage of the race.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="400478" start="20260524200000 +0000" stop="20260524230000 +0000">
+    <title lang="zh">Live MLB</title>
+    <desc>San Diego Padres v Athletics (Start-time 9.10pm). Coverage of the inter-league match from Petco Park.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="400478" start="20260524230000 +0000" stop="20260525000000 +0000">
+    <title lang="zh">AFL</title>
+    <desc>GWS Giants v Brisbane Lions.</desc>
+    <date>2026-05-24</date>
   </programme>
   <programme channel="465124" start="20260523070000 +0000" stop="20260523090000 +0000">
     <title lang="zh">American Association of Professional Baseball</title>
@@ -369,16 +544,6 @@
     <desc>Action from high school football.</desc>
     <date>2026-05-24</date>
   </programme>
-  <programme channel="400480" start="20260523054500 +0000" stop="20260523070000 +0000">
-    <title lang="zh">Live: V8 Supercars Championship</title>
-    <desc>The Tyrepower Tasmania Super 440. Coverage of the 15th race from the fifth round of the season at Symmons Plains Raceway in Launceston, Tasmania.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="400480" start="20260523070000 +0000" stop="20260523080000 +0000">
-    <title lang="zh">Women's Cycling World Tour</title>
-    <desc>Action from the second stage of the Tour of Burgos.</desc>
-    <date>2026-05-23</date>
-  </programme>
   <programme channel="400480" start="20260523080000 +0000" stop="20260523103000 +0000">
     <title lang="zh">Live: Isuzu UTE A-League</title>
     <desc>Auckland FC v Sydney FC (Kick-off 9.10am). Coverage of the Grand Final at Go Media Stadium in Auckland.</desc>
@@ -544,16 +709,6 @@
     <desc>Los Angeles Angels v Texas Rangers (Start-time 12.20am). Coverage of the American League match from Angel Stadium of Anaheim.</desc>
     <date>2026-05-24</date>
   </programme>
-  <programme channel="400479" start="20260523053000 +0000" stop="20260523060000 +0000">
-    <title lang="zh">Premier League Preview</title>
-    <desc>A look ahead to final matchday of the 2025/26 season.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="400479" start="20260523060000 +0000" stop="20260523061500 +0000">
-    <title lang="zh">The Breakdown</title>
-    <desc>A look back at Pep Guardiola's 10 years at Manchester City.</desc>
-    <date>2026-05-23</date>
-  </programme>
   <programme channel="400479" start="20260523061500 +0000" stop="20260523093000 +0000">
     <title lang="zh">Live AFL</title>
     <desc>Collingwood Magpies v West Coast Eagles (Bounce-up 7.35am). Coverage of the match from Melbourne Cricket Ground.</desc>
@@ -714,136 +869,6 @@
     <desc>Action from the 15th stage of the race.</desc>
     <date>2026-05-24</date>
   </programme>
-  <programme channel="400478" start="20260523050000 +0000" stop="20260523060000 +0000">
-    <title lang="zh">Discovery Golf</title>
-    <desc>A weekly show featuring the latest news from the world of golf.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="400478" start="20260523060000 +0000" stop="20260523090000 +0000">
-    <title lang="zh">Live AFL</title>
-    <desc>Geelong Cats v Sydney Swans (Bounce-up 7.15am). Coverage of the match from GMHBA Stadium in Geelong.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="400478" start="20260523090000 +0000" stop="20260523093000 +0000">
-    <title lang="zh">TCR World Tour Review</title>
-    <desc>Action from rounds one and two of the season in Misano, Italy.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="400478" start="20260523093000 +0000" stop="20260523123000 +0000">
-    <title lang="zh">Live AFL</title>
-    <desc>Port Adelaide Power v Carlton Blues (Bounce-up 10.35am). Coverage of the match from Adelaide Oval.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="400478" start="20260523123000 +0000" stop="20260523140000 +0000">
-    <title lang="zh">Live: Women's Cycling World Tour</title>
-    <desc>Coverage of the third stage of the race, a 126km route from Busto de Bureba to Medina de Pomar.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="400478" start="20260523140000 +0000" stop="20260523151500 +0000">
-    <title lang="zh">Live: Men's Cycling Pro Series</title>
-    <desc>Coverage of the 2026 Veenendaal Classic.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="400478" start="20260523151500 +0000" stop="20260523154500 +0000">
-    <title lang="zh">TCR World Tour Review</title>
-    <desc>Action from rounds one and two of the season in Misano, Italy.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="400478" start="20260523154500 +0000" stop="20260523160000 +0000">
-    <title lang="zh">TNT Sports Reload</title>
-    <desc>The best bits from TNT Sports over the last week, including exclusive interviews, top action, and more.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="400478" start="20260523160000 +0000" stop="20260523180000 +0000">
-    <title lang="zh">Live: IFSC Climbing World Series</title>
-    <desc>Coverage of the women's bouldering final, which takes place in Bern, Switzerland.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="400478" start="20260523180000 +0000" stop="20260523193000 +0000">
-    <title lang="zh">AFL</title>
-    <desc>North Melbourne Kangaroos v Gold Coast Suns.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="400478" start="20260523193000 +0000" stop="20260523210000 +0000">
-    <title lang="zh">AFL</title>
-    <desc>Geelong Cats v Sydney Swans.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="400478" start="20260523210000 +0000" stop="20260523223000 +0000">
-    <title lang="zh">AFL</title>
-    <desc>Collingwood Magpies v West Coast Eagles.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="400478" start="20260523223000 +0000" stop="20260524000000 +0000">
-    <title lang="zh">AFL</title>
-    <desc>Port Adelaide Power v Carlton Blues.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="400478" start="20260524000000 +0000" stop="20260524010000 +0000">
-    <title lang="zh">Tennis</title>
-    <desc>A documentary that traces the rise of Carlos Alcaraz and Jannik Sinner, revealing how the two young stars are redefining the sport for a new generation.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="400478" start="20260524010000 +0000" stop="20260524033000 +0000">
-    <title lang="zh">UFC Reloaded</title>
-    <desc>A look back at UFC 204 from 2016 in Manchester, featuring the thrilling headline middleweight title bout between champion Michael Bisping and challenger Dan Henderson.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="400478" start="20260524033000 +0000" stop="20260524050000 +0000">
-    <title lang="zh">Ultimate Pool</title>
-    <desc>Action from Group 8 of the Pairs Cup.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="400478" start="20260524050000 +0000" stop="20260524053000 +0000">
-    <title lang="zh">UIM F1H2O World Championship Highlights</title>
-    <desc>A look ahead to the new season.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="400478" start="20260524053000 +0000" stop="20260524063000 +0000">
-    <title lang="zh">Cycling</title>
-    <desc>A review of the biggest stories from the 2026 Orlen Nations Grand Prix Under 23.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="400478" start="20260524063000 +0000" stop="20260524073000 +0000">
-    <title lang="zh">Giro d'Italia Men Highlights</title>
-    <desc>Action from the 14th stage of the race.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="400478" start="20260524073000 +0000" stop="20260524083000 +0000">
-    <title lang="zh">Alcaraz-Sinner: The New Dawn of Tennis</title>
-    <desc>A documentary that traces the rise of Carlos Alcaraz and Jannik Sinner, revealing how the two young stars are redefining the sport for a new generation.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="400478" start="20260524083000 +0000" stop="20260524090000 +0000">
-    <title lang="zh">Live: Roland Garros 360</title>
-    <desc>Coverage from around the courts on day one of the Grand Slam tournament, featuring first-round matches at Stade Roland Garros in Paris. America's Coco Gauff won the women's singles title a year ago thanks to a 7-6, 2-6, 4-6 victory over Belarus' Aryna Sabalenka in the final. Gauff beat the likes of Lois Boisson, Ekaterina Alexandrova and fellow American Madison Keys to reach the showpiece, while S</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="400478" start="20260524090000 +0000" stop="20260524190000 +0000">
-    <title lang="zh">Live: Roland Garros</title>
-    <desc>Further coverage of the first day of round one of the tournament, which takes place at Stade Roland Garros in Paris.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="400478" start="20260524190000 +0000" stop="20260524200000 +0000">
-    <title lang="zh">Giro d'Italia Men Highlights</title>
-    <desc>Action from the 15th stage of the race.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="400478" start="20260524200000 +0000" stop="20260524230000 +0000">
-    <title lang="zh">Live MLB</title>
-    <desc>San Diego Padres v Athletics (Start-time 9.10pm). Coverage of the inter-league match from Petco Park.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="400478" start="20260524230000 +0000" stop="20260525000000 +0000">
-    <title lang="zh">AFL</title>
-    <desc>GWS Giants v Brisbane Lions.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465108" start="20260523050000 +0000" stop="20260523070000 +0000">
-    <title lang="zh">Women's College Lacrosse</title>
-    <desc>First Semifinal.</desc>
-    <date>2026-05-23</date>
-  </programme>
   <programme channel="465108" start="20260523070000 +0000" stop="20260523090000 +0000">
     <title lang="zh">Women's College Lacrosse</title>
     <desc>Second Semifinal.</desc>
@@ -938,1451 +963,6 @@
     <title lang="zh">SEC Storied</title>
     <desc>At the 1983 College World Series, the championship culminated in a matchup between Roger Clemens' Texas Longhorns and the upstart Alabama Crimson Tide; a team of overachievers that included the best hitter in college baseball, Dave Magadan.</desc>
     <date>2026-05-24</date>
-  </programme>
-  <programme channel="465236" start="20260523013000 +0000" stop="20260523120000 +0000">
-    <title lang="zh">Courtside</title>
-    <desc>Tennis highlights from recent matches.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465236" start="20260523120000 +0000" stop="20260523150000 +0000">
-    <title lang="zh">Courtside - Live</title>
-    <desc>F. Cobolli vs. F. Auger-Aliassime OR A. Rublev; N. Djokovic vs. H. Hurkacz; E. Rybakina vs. L. Samsonova; J. Cristian vs. M. Joint.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465236" start="20260523150000 +0000" stop="20260523160000 +0000">
-    <title lang="zh">Tennis Channel Live</title>
-    <desc>Tennis stories of the day, detailed analysis and more.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465236" start="20260523160000 +0000" stop="20260524000000 +0000">
-    <title lang="zh">Courtside</title>
-    <desc>Tennis highlights from recent matches.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465236" start="20260524000000 +0000" stop="20260524010000 +0000">
-    <title lang="zh">Tennis Channel Live</title>
-    <desc>Tennis stories of the day, detailed analysis and more.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465236" start="20260524010000 +0000" stop="20260524040000 +0000">
-    <title lang="zh">Courtside</title>
-    <desc>Tennis highlights from recent matches.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465236" start="20260524040000 +0000" stop="20260524050000 +0000">
-    <title lang="zh">Tennis Channel Live</title>
-    <desc>Tennis stories of the day, detailed analysis and more.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465236" start="20260524050000 +0000" stop="20260524080000 +0000">
-    <title lang="zh">Courtside</title>
-    <desc>Tennis highlights from recent matches.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465236" start="20260524080000 +0000" stop="20260524090000 +0000">
-    <title lang="zh">Tennis Channel Live</title>
-    <desc>Tennis stories of the day, detailed analysis and more.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465236" start="20260524090000 +0000" stop="20260524120000 +0000">
-    <title lang="zh">Live: 2026 Roland-Garros Tennis</title>
-    <desc>From Roland Garros Stadium in Paris, France.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465236" start="20260524120000 +0000" stop="20260524160000 +0000">
-    <title lang="zh">Courtside</title>
-    <desc>Tennis highlights from recent matches.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465236" start="20260524160000 +0000" stop="20260524220000 +0000">
-    <title lang="zh">Live: Major League Pickleball</title>
-    <desc>Coverage of team pickleball events from different venues and locations.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465236" start="20260524220000 +0000" stop="20260525000000 +0000">
-    <title lang="zh">Courtside</title>
-    <desc>Tennis highlights from recent matches.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465236" start="20260525000000 +0000" stop="20260526000000 +0000">
-    <title lang="zh">Tennis Channel Live at Roland Garros</title>
-    <desc>Coverage from Paris.</desc>
-    <date>2026-05-25</date>
-  </programme>
-  <programme channel="9175" start="20260523051500 +0000" stop="20260523061500 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Downpatrick.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9175" start="20260523061500 +0000" stop="20260523074500 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Goodwood, Haydock Park and Pontefract.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9175" start="20260523074500 +0000" stop="20260523084500 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Downpatrick.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9175" start="20260523084500 +0000" stop="20260523101500 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Goodwood, Haydock Park and Pontefract.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9175" start="20260523101500 +0000" stop="20260523110000 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Downpatrick.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9175" start="20260523110000 +0000" stop="20260523120000 +0000">
-    <title lang="zh">The Full SP: Preview</title>
-    <desc>A preview of the day's racing with live news from the courses.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9175" start="20260523120000 +0000" stop="20260523203000 +0000">
-    <title lang="zh">The Full SP: Live Racing</title>
-    <desc>Today's live racing action from Haydock, York, Goodwood, Cartmel, Salisbury and the Curragh.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9175" start="20260523203000 +0000" stop="20260523230000 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch today's racing action from Haydock, York, Goodwood, Cartmel and Salisbury.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9175" start="20260523230000 +0000" stop="20260523234500 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from the Curragh.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9175" start="20260523234500 +0000" stop="20260524000000 +0000">
-    <title lang="zh">The Full SP: Review</title>
-    <desc>The Racing TV team reviews yesterday's action-packed day on the track.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9175" start="20260524003000 +0000" stop="20260524033000 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Haydock, York, Goodwood, Cartmel and Salisbury.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9175" start="20260524033000 +0000" stop="20260524041500 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from the Curragh.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9175" start="20260524041500 +0000" stop="20260524050000 +0000">
-    <title lang="zh">The Full SP: Review</title>
-    <desc>The Racing TV team reviews yesterday's action-packed day on the track.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9175" start="20260524050000 +0000" stop="20260524080000 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Haydock, York, Goodwood, Cartmel and Salisbury.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9175" start="20260524080000 +0000" stop="20260524103000 +0000">
-    <title lang="zh">Luck on Sunday</title>
-    <desc>Nick Luck has the best interviews from expert guests in our unmissable weekly show.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9175" start="20260524103000 +0000" stop="20260524120000 +0000">
-    <title lang="zh">Racing Greats: Mark Johnston</title>
-    <desc>In the latest episode of Racing Greats, Rishi Persad and Steve Mellish delve into the career of record-breaking trainer - Mark Johnston.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9175" start="20260524120000 +0000" stop="20260524123000 +0000">
-    <title lang="zh">Mark Your Card</title>
-    <desc>A preview of the day's racing with live news from the courses.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9175" start="20260524123000 +0000" stop="20260524171500 +0000">
-    <title lang="zh">Live Racing</title>
-    <desc>Today's live racing action from Kelso and the Curragh.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9175" start="20260524171500 +0000" stop="20260524180000 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch today's racing action from the Curragh.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9175" start="20260524180000 +0000" stop="20260524190000 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch today's racing action from Kelso.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9175" start="20260524190000 +0000" stop="20260524194500 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch today's racing action from the Curragh.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9175" start="20260524194500 +0000" stop="20260524204500 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch today's racing action from Kelso.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9175" start="20260524204500 +0000" stop="20260524213000 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch today's racing action from the Curragh.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9175" start="20260524213000 +0000" stop="20260524223000 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch today's racing action from Kelso.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9175" start="20260524223000 +0000" stop="20260525000000 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch today's racing action from the Curragh.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260523050000 +0000" stop="20260523060000 +0000">
-    <title lang="zh">Avalanche Postgame Live</title>
-    <desc />
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523060000 +0000" stop="20260523063000 +0000">
-    <title lang="zh">Offroad Odyssey</title>
-    <desc>Adrenaline-pumping action, breathtaking scenery, and unforgettable encounter off-road.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523063000 +0000" stop="20260523070000 +0000">
-    <title lang="zh">Pure Outdoor</title>
-    <desc>Outdoor sports from all over the world, from freestyle ski jumping to airplane aerobatics.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523070000 +0000" stop="20260523090000 +0000">
-    <title lang="zh">World Class Championship Boxing</title>
-    <desc>Boxing action.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523090000 +0000" stop="20260523100000 +0000">
-    <title lang="zh">World Championship Kickboxing</title>
-    <desc>Highlights from some of the world's greatest kickboxing matches.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523100000 +0000" stop="20260523120000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523120000 +0000" stop="20260523130000 +0000">
-    <title lang="zh">Fairways of Life</title>
-    <desc>New York Times's Best Seller and Golf Channel Host Matt Adams provides unforgettable interviews with golf's legends and stars, as well as lively interactive discussions about the game, travel and the latest in golf equipment.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523130000 +0000" stop="20260523133000 +0000">
-    <title lang="zh">Golf Life</title>
-    <desc>Featuring the latest trends, tours of the finest courses and tips from golf experts.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523133000 +0000" stop="20260523140000 +0000">
-    <title lang="zh">Golfing the World</title>
-    <desc>Highlighting golf courses and private resorts from around the world.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523140000 +0000" stop="20260523143000 +0000">
-    <title lang="zh">Golf at Altitude</title>
-    <desc />
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523143000 +0000" stop="20260523150000 +0000">
-    <title lang="zh">Golf at Altitude</title>
-    <desc />
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523150000 +0000" stop="20260523153000 +0000">
-    <title lang="zh">Ready for a safer shower? Enjoy a one-day bath remodel with Jacuzzi.</title>
-    <desc>Trusted brand Jacuzzi Bath Remodel and interior designer Christina Hall share their secrets on how you can easily and affordably transform your bathroom into a gorgeous custom, safe, stylish space in 1 day! Call for a FREE quote &amp; installation.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523153000 +0000" stop="20260523160000 +0000">
-    <title lang="zh">Tired of Pain? Go Drug-Free</title>
-    <desc>See how a drug-free patch is helping people find relief-without medication.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523160000 +0000" stop="20260523183000 +0000">
-    <title lang="zh">NHL Hockey</title>
-    <desc>Western Conference Final Game 2.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523183000 +0000" stop="20260523193000 +0000">
-    <title lang="zh">Avalanche Postgame Live</title>
-    <desc />
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523193000 +0000" stop="20260523194500 +0000">
-    <title lang="zh">Altitude Extra</title>
-    <desc />
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523194500 +0000" stop="20260523200000 +0000">
-    <title lang="zh">Altitude Extra</title>
-    <desc />
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523200000 +0000" stop="20260523203000 +0000">
-    <title lang="zh">Behind The A</title>
-    <desc />
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523203000 +0000" stop="20260523210000 +0000">
-    <title lang="zh">Offroad Odyssey</title>
-    <desc>Adrenaline-pumping action, breathtaking scenery, and unforgettable encounter off-road.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523210000 +0000" stop="20260523230000 +0000">
-    <title lang="zh">Live: FanDuel Racing</title>
-    <desc>Live horse racing from around the country.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260523230000 +0000" stop="20260524000000 +0000">
-    <title lang="zh">Major League Fishing</title>
-    <desc>Four teams compete in elimination match 2 to advance to the Knockout Rounds. From Shreveport-Bossier City, La.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465288" start="20260524010000 +0000" stop="20260524013000 +0000">
-    <title lang="zh">A Fishing Story With Ronnie Green</title>
-    <desc>Bobby Bakewell is a Bassmaster Classic qualifier who honed his fishing skills through countless hours on the water with his father. He shares how his dad's guidance and passion for the sport shaped his journey and success as an angler.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524013000 +0000" stop="20260524020000 +0000">
-    <title lang="zh">Pure Outdoor</title>
-    <desc>Outdoor sports from all over the world, from freestyle ski jumping to airplane aerobatics.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524020000 +0000" stop="20260524023000 +0000">
-    <title lang="zh">Offroad Odyssey</title>
-    <desc>Adrenaline-pumping action, breathtaking scenery, and unforgettable encounter off-road.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524023000 +0000" stop="20260524030000 +0000">
-    <title lang="zh">The Short List</title>
-    <desc>The sports countdown, featuring iconic themes focused upon the memorable moments and individuals in sports; the 10 memorable debuts, the 10 revered innovators, the comebacks of all time and much more.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524030000 +0000" stop="20260524033000 +0000">
-    <title lang="zh">Invincible</title>
-    <desc>Periods of unrivaled domination in sport, including chapters from sport's greatest careers and iconic dynasties.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524033000 +0000" stop="20260524040000 +0000">
-    <title lang="zh">The Iconic</title>
-    <desc>Stories behind celebrated events, institutions, clubs, players, rivalries and moments in sport.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524040000 +0000" stop="20260524050000 +0000">
-    <title lang="zh">Poker Night</title>
-    <desc />
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524050000 +0000" stop="20260524060000 +0000">
-    <title lang="zh">World Poker Tour</title>
-    <desc>High-stakes tournament poker from some of the world's famous casinos and card rooms.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524060000 +0000" stop="20260524070000 +0000">
-    <title lang="zh">The Contenders 2026</title>
-    <desc>Previewing all the competing teams.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524070000 +0000" stop="20260524080000 +0000">
-    <title lang="zh">Fairways of Life</title>
-    <desc>New York Times's Best Seller and Golf Channel Host Matt Adams provides unforgettable interviews with golf's legends and stars, as well as lively interactive discussions about the game, travel and the latest in golf equipment.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524080000 +0000" stop="20260524083000 +0000">
-    <title lang="zh">Golf Life</title>
-    <desc>Featuring the latest trends, tours of the finest courses and tips from golf experts.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524083000 +0000" stop="20260524090000 +0000">
-    <title lang="zh">Swing Clinic With Jimmy Hanlin</title>
-    <desc>Golf tips, strategy and review of products.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524090000 +0000" stop="20260524110000 +0000">
-    <title lang="zh">World Class Championship Boxing</title>
-    <desc>Boxing action.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524110000 +0000" stop="20260524120000 +0000">
-    <title lang="zh">Fight Sports: World Championship Kickboxing</title>
-    <desc>Competitions in kickboxing and Muay Thai.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524120000 +0000" stop="20260524140000 +0000">
-    <title lang="zh">Major League Fishing</title>
-    <desc>Four teams compete in elimination match 3 to advance to the Knockout Rounds. From Shreveport-Bossier City, La.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524140000 +0000" stop="20260524143000 +0000">
-    <title lang="zh">A Fishing Story With Ronnie Green</title>
-    <desc>Ninkia Green is a restaurant owner whose influence extends far beyond her delicious cuisine. She shares her inspiring journey of growth, passion, and purpose as a dedicated community leader making a lasting impact.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524143000 +0000" stop="20260524144500 +0000">
-    <title lang="zh">Altitude Extra</title>
-    <desc />
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524144500 +0000" stop="20260524150000 +0000">
-    <title lang="zh">Altitude Extra</title>
-    <desc />
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524150000 +0000" stop="20260524153000 +0000">
-    <title lang="zh">Ready for a safer shower? Enjoy a one-day bath remodel with Jacuzzi.</title>
-    <desc>Trusted brand Jacuzzi Bath Remodel and interior designer Christina Hall share their secrets on how you can easily and affordably transform your bathroom into a gorgeous custom, safe, stylish space in 1 day! Call for a FREE quote &amp; installation.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524153000 +0000" stop="20260524160000 +0000">
-    <title lang="zh">Tired of Pain? Go Drug-Free</title>
-    <desc>See how a drug-free patch is helping people find relief-without medication.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524160000 +0000" stop="20260524163000 +0000">
-    <title lang="zh">Pain Relief Revealed</title>
-    <desc>Discover the hidden story of OmegaXL with John Walsh. He dives deep into the groundbreaking supplement that promises hope and relief for millions battling joint pain and inflammation.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524163000 +0000" stop="20260524170000 +0000">
-    <title lang="zh">RateEscape: Stop Overpaying For Cellular</title>
-    <desc>Cut up to half the cost of your monthly cell phone bill; same towers, same coverage, but a lot less money; it sounds great but is it too good to be true?; join myth-busting legend Kari Byron as she takes on Big Wireless to save you money.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524170000 +0000" stop="20260524173000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524173000 +0000" stop="20260524180000 +0000">
-    <title lang="zh">Joint Relief Revolution</title>
-    <desc>Join Connie Craig-Carroll and health visionary Ken Meares as they uncover OmegaXL, the groundbreaking natural supplement transforming lives by tackling joint pain and inflammation.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524180000 +0000" stop="20260524183000 +0000">
-    <title lang="zh">Golf at Altitude</title>
-    <desc />
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524183000 +0000" stop="20260524190000 +0000">
-    <title lang="zh">Golf at Altitude</title>
-    <desc />
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524190000 +0000" stop="20260524200000 +0000">
-    <title lang="zh">Fairways of Life</title>
-    <desc>New York Times's Best Seller and Golf Channel Host Matt Adams provides unforgettable interviews with golf's legends and stars, as well as lively interactive discussions about the game, travel and the latest in golf equipment.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524200000 +0000" stop="20260524203000 +0000">
-    <title lang="zh">Swing Clinic With Jimmy Hanlin</title>
-    <desc>Golf tips, strategy and review of products.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524203000 +0000" stop="20260524210000 +0000">
-    <title lang="zh">Golf Life</title>
-    <desc>Featuring the latest trends, tours of the finest courses and tips from golf experts.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524210000 +0000" stop="20260524220000 +0000">
-    <title lang="zh">The Contenders 2026</title>
-    <desc>Previewing all the competing teams.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524220000 +0000" stop="20260524223000 +0000">
-    <title lang="zh">She's in the Game</title>
-    <desc>Meet the next generation of superstar female athletes around the country as we go behind the scenes to shine the light on them and their interests off the field, along with catching up with the female legends who paved the way for all this growth.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524223000 +0000" stop="20260524230000 +0000">
-    <title lang="zh">Behind The A</title>
-    <desc />
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260524230000 +0000" stop="20260525000000 +0000">
-    <title lang="zh">Avalanche Live!</title>
-    <desc />
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="465288" start="20260525000000 +0000" stop="20260526000000 +0000">
-    <title lang="zh">World Poker Tour</title>
-    <desc>Professional poker action from a series of international tournaments.</desc>
-    <date>2026-05-25</date>
-  </programme>
-  <programme channel="9415" start="20260523033000 +0000" stop="20260523060000 +0000">
-    <title lang="zh">Sky Sports News</title>
-    <desc>Round-up of the sports news with live analysis and comments, plus extended interviews with the headline makers.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9415" start="20260523060000 +0000" stop="20260523090000 +0000">
-    <title lang="zh">Sky Sports Breakfast</title>
-    <desc>Stay across the biggest sports stories this morning with a wrap-up of the headlines.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9415" start="20260523090000 +0000" stop="20260523110000 +0000">
-    <title lang="zh">Sky Sports News</title>
-    <desc>Round-up of the sports news with live analysis and comments, plus extended interviews with the headline makers.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9415" start="20260523110000 +0000" stop="20260523133000 +0000">
-    <title lang="zh">Live WSL: Charlton v Leicester</title>
-    <desc>The 2025-26 Barclays Women's Super League relegation play-off between the WSL 2's Charlton Athletic and top-flight Leicester City.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9415" start="20260523133000 +0000" stop="20260523173000 +0000">
-    <title lang="zh">Live EFL P/O Final: Hull v M'boro</title>
-    <desc>The last remaining spot in next season's Premier League is decided at Wembley as Hull City and Middlesbrough contest one of football's richest games - the Championship play-off final.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9415" start="20260523173000 +0000" stop="20260523180000 +0000">
-    <title lang="zh">Live Ted's Sprint Notebook: Canada</title>
-    <desc>Ted Kravitz is in the paddock as he reviews all the biggest stories from the third F1 Sprint of the 2026 season in Montreal.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9415" start="20260523180000 +0000" stop="20260523191000 +0000">
-    <title lang="zh">Live F2 Canada: Sprint</title>
-    <desc>The third FIA F2 Sprint Race of the season gets underway in Montreal, Canada.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9415" start="20260523191000 +0000" stop="20260523220000 +0000">
-    <title lang="zh">Live Canadian F1 GP: Qualifying</title>
-    <desc>The grid for Sunday's Canadian Grand Prix is set with Formula 1 qualifying at Circuit Gilles Villeneuve as the drivers look to battle their way through to Q3 for a shot at pole.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9415" start="20260523220000 +0000" stop="20260523224500 +0000">
-    <title lang="zh">Live F1 Academy: Race 2</title>
-    <desc>Round two of the 2026 F1 Academy continues with a reverse-grid race at Circuit Gilles Villeneuve in Montreal.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9415" start="20260523224500 +0000" stop="20260523231500 +0000">
-    <title lang="zh">Live Ted's Quali Notebook: Canada</title>
-    <desc>Ted Kravitz is live as he gathers reaction from inside the paddock and reviews all the biggest stories from qualifying at the Canadian Grand Prix.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9415" start="20260523231500 +0000" stop="20260523233000 +0000">
-    <title lang="zh">Golf with Sergio Perez</title>
-    <desc>Sky F1's Simon Lazenby caddies for Formula 1 star Sergio Perez at the Cadillac Open.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9415" start="20260523233000 +0000" stop="20260524060000 +0000">
-    <title lang="zh">Sky Sports Catch-Up</title>
-    <desc>Take a moment to catch-up with the all biggest sports stories hitting the headlines.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="9415" start="20260524060000 +0000" stop="20260524083000 +0000">
-    <title lang="zh">Sky Sports Breakfast</title>
-    <desc>Stay across the biggest sports stories this morning with a wrap-up of the headlines.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9415" start="20260524083000 +0000" stop="20260524090000 +0000">
-    <title lang="zh">Fantasy Football Countdown</title>
-    <desc>Join the Fantasy Premier League experts for tips and last-minute advice on which top-flight stars to pick ahead of each gameweek deadline.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9415" start="20260524090000 +0000" stop="20260524110000 +0000">
-    <title lang="zh">Sunday Supplement</title>
-    <desc>The UK's top sports journalists dissect the stories in the Sunday newspapers, offering insight, opinion and in-depth analysis. Essential viewing for fans who want more than just the score.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9415" start="20260524110000 +0000" stop="20260524140000 +0000">
-    <title lang="zh">Live EFL P/O: Bolton v Stockport</title>
-    <desc>In the Sky Bet League One play-off final, Bolton Wanderers and Stockport County compete under the Wembley arch for a place in the second tier next season.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9415" start="20260524140000 +0000" stop="20260524190000 +0000">
-    <title lang="zh">Live PL Final Day: Spurs v Everton</title>
-    <desc>Tottenham's fight to avoid the drop goes down to the final day. At home to impressive away performers Everton, Spurs hold a two-point advantage over relegation rivals West Ham.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9415" start="20260524190000 +0000" stop="20260524195500 +0000">
-    <title lang="zh">Live Grand Prix Sunday: Canada</title>
-    <desc>Join Sky Sports F1 on the grid ahead of the start of the race at the Canadian Grand Prix.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9415" start="20260524195500 +0000" stop="20260524220000 +0000">
-    <title lang="zh">Live Canadian F1 Grand Prix</title>
-    <desc>It's lights out in Montreal for the 2026 Canadian Grand Prix at Circuit Gilles Villeneuve. George Russell prevailed last year, winning a race that saw the two McLarens come to blows.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="9415" start="20260524220000 +0000" stop="20260525000000 +0000">
-    <title lang="zh">Live Chequered Flag: Canada</title>
-    <desc>As the chequered flag comes down on the Canadian Grand Prix, join Sky Sports F1 for all the reaction and analysis.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470732" start="20260523053000 +0000" stop="20260523160000 +0000">
-    <title lang="zh">Sportsnet Central</title>
-    <desc>Canada's premier destination for sports and analysis.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470732" start="20260523160000 +0000" stop="20260523180000 +0000">
-    <title lang="zh">Stanley Cup Playoffs Rewind</title>
-    <desc>Game 2, from May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470732" start="20260523180000 +0000" stop="20260523183000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470732" start="20260523183000 +0000" stop="20260523190000 +0000">
-    <title lang="zh">Live: Blue Jays Central</title>
-    <desc>Toronto Blue Jays pregame show hosted by Jamie Campbell.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470732" start="20260523190000 +0000" stop="20260523220000 +0000">
-    <title lang="zh">Live: MLB Baseball</title>
-    <desc>The Toronto Blue Jays host the Pittsburgh Pirates in Game 2 of a three-game series. Left-handed pitcher Patrick Corbin starts for Toronto against right-handed pitcher Paul Skenes as the interleague rivals clash again at Rogers Centre.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470732" start="20260523220000 +0000" stop="20260523223000 +0000">
-    <title lang="zh">MLB Plays of the Week</title>
-    <desc>A look at the top plays and moments from the past week in baseball.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470732" start="20260523223000 +0000" stop="20260523230000 +0000">
-    <title lang="zh">Live: Hockey Central Saturday</title>
-    <desc>Coverage of hockey's biggest night with the latest news and analysis. Hosted by Ron MacLean.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470732" start="20260523230000 +0000" stop="20260524000000 +0000">
-    <title lang="zh">Live: NHL Hockey</title>
-    <desc>Eastern Conference Final, Game 2.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470732" start="20260524013000 +0000" stop="20260524030000 +0000">
-    <title lang="zh">Live: Sportsnet Central</title>
-    <desc>Canada's premier destination for sports and analysis.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470732" start="20260524030000 +0000" stop="20260524033000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470732" start="20260524033000 +0000" stop="20260524040000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470732" start="20260524040000 +0000" stop="20260524043000 +0000">
-    <title lang="zh">Misplays of the Month</title>
-    <desc>A look at the month's top bloopers.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470732" start="20260524043000 +0000" stop="20260524050000 +0000">
-    <title lang="zh">NHL's Best Goals of the Season</title>
-    <desc>Highlights of the league's top scoring plays.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470732" start="20260524050000 +0000" stop="20260524053000 +0000">
-    <title lang="zh">Live: Sportsnet Central</title>
-    <desc>Canada's premier destination for sports and analysis.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470732" start="20260524053000 +0000" stop="20260524153000 +0000">
-    <title lang="zh">Sportsnet Central</title>
-    <desc>Canada's premier destination for sports and analysis.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470732" start="20260524153000 +0000" stop="20260524160000 +0000">
-    <title lang="zh">Live: Blue Jays Central</title>
-    <desc>Toronto Blue Jays pregame show hosted by Jamie Campbell.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470732" start="20260524160000 +0000" stop="20260524190000 +0000">
-    <title lang="zh">Live: MLB Baseball</title>
-    <desc>The Toronto Blue Jays host the Pittsburgh Pirates in Game 3 of a three-game baseball series. Right-handed pitcher Dylan Cease starts for Toronto against right-handed pitcher Mitch Keller as the interleague clubs square off at Rogers Centre.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470732" start="20260524190000 +0000" stop="20260524203000 +0000">
-    <title lang="zh">Live: MLB Baseball</title>
-    <desc>The New York Yankees host the Tampa Bay Rays in Game 3 of a three-game regular-season series. Right-handed pitcher Will Warren starts for New York against left-handed pitcher Shane McClanahan as the AL East rivals battle at Yankee Stadium.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470732" start="20260524203000 +0000" stop="20260524210000 +0000">
-    <title lang="zh">MLB Plays of the Week</title>
-    <desc>A look at the top plays and moments from the past week in baseball.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470732" start="20260524210000 +0000" stop="20260524213000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 24, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470732" start="20260524213000 +0000" stop="20260524220000 +0000">
-    <title lang="zh">Misplays of the Month</title>
-    <desc>A look at the month's top bloopers.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470732" start="20260524220000 +0000" stop="20260524223000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470732" start="20260524223000 +0000" stop="20260524230000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 1, from May 20, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470732" start="20260524230000 +0000" stop="20260524233000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 22, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470732" start="20260524233000 +0000" stop="20260525000000 +0000">
-    <title lang="zh">Live: Hockey Central</title>
-    <desc>Breaking news, analysis and debate from around the NHL.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470732" start="20260525000000 +0000" stop="20260526000000 +0000">
-    <title lang="zh">Live: NHL Hockey</title>
-    <desc>Western Conference Final Game 3.</desc>
-    <date>2026-05-25</date>
-  </programme>
-  <programme channel="470811" start="20260523053000 +0000" stop="20260523060000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>1999 FA Cup.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470811" start="20260523060000 +0000" stop="20260523080000 +0000">
-    <title lang="zh">Premiership Rugby</title>
-    <desc>From Recreation Ground in Bath, Bath and North East Somerset, United Kingdom.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470811" start="20260523080000 +0000" stop="20260523110000 +0000">
-    <title lang="zh">Sportsnet World Highlights</title>
-    <desc>A look at the best stories from around the world of sports.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470811" start="20260523110000 +0000" stop="20260523113000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>From Oct. 3, 1999.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470811" start="20260523113000 +0000" stop="20260523133000 +0000">
-    <title lang="zh">Live: FA Women's Super League</title>
-    <desc>From The Valley in London.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470811" start="20260523133000 +0000" stop="20260523140000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>From April 14, 1999.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470811" start="20260523140000 +0000" stop="20260523160000 +0000">
-    <title lang="zh">Live: Rugby Super League</title>
-    <desc>From The OneBore Stadium in Castleford, England, United Kingdom.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470811" start="20260523160000 +0000" stop="20260523163000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>From May 17, 1998.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470811" start="20260523163000 +0000" stop="20260523170000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>From April 1, 1999.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470811" start="20260523170000 +0000" stop="20260523190000 +0000">
-    <title lang="zh">Live: Rugby Super League</title>
-    <desc>From Ernest-Wallon Stadium in Toulouse, Haute-Garonne, France.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470811" start="20260523190000 +0000" stop="20260523210000 +0000">
-    <title lang="zh">Live: Rugby Super League</title>
-    <desc>From LNER Community Stadium in York, England, United Kingdom.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470811" start="20260523210000 +0000" stop="20260523230000 +0000">
-    <title lang="zh">NRL Rugby</title>
-    <desc>From 4 Pines Park in Brookvale, New South Wales, Australia.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470811" start="20260523230000 +0000" stop="20260523233000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>From Oct. 3, 1999.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470811" start="20260523233000 +0000" stop="20260524000000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>From April 14, 1999.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470811" start="20260524000000 +0000" stop="20260524020000 +0000">
-    <title lang="zh">FA Women's Super League</title>
-    <desc>From The Valley in London.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260524020000 +0000" stop="20260524023000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>From May 17, 1998.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260524023000 +0000" stop="20260524030000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>From April 1, 1999.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260524030000 +0000" stop="20260524050000 +0000">
-    <title lang="zh">Rugby Super League</title>
-    <desc>From Ernest-Wallon Stadium in Toulouse, Haute-Garonne, France.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260524050000 +0000" stop="20260524053000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>From Oct. 3, 1999.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260524053000 +0000" stop="20260524060000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>From April 14, 1999.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260524060000 +0000" stop="20260524080000 +0000">
-    <title lang="zh">Rugby Super League</title>
-    <desc>From LNER Community Stadium in York, England, United Kingdom.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260524080000 +0000" stop="20260524110000 +0000">
-    <title lang="zh">Sportsnet World Highlights</title>
-    <desc>A look at the best stories from around the world of sports.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260524110000 +0000" stop="20260524113000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>From May 22, 1999.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260524113000 +0000" stop="20260524120000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>1999 FA Cup.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260524120000 +0000" stop="20260524140000 +0000">
-    <title lang="zh">NRL Rugby</title>
-    <desc>From Queensland Country Bank Stadium in Townsville, Queensland, Australia.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260524140000 +0000" stop="20260524160000 +0000">
-    <title lang="zh">Live: Rugby Super League</title>
-    <desc>From The Halliwell Jones Stadium in Warrington, England, England.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260524160000 +0000" stop="20260524180000 +0000">
-    <title lang="zh">Live: Eredivisie Soccer</title>
-    <desc>Conference League playoff - Second Round.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260524180000 +0000" stop="20260524183000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>From Jan. 23, 1999.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260524183000 +0000" stop="20260524190000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>From Jan. 24, 1999. Fourth round.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260524190000 +0000" stop="20260524210000 +0000">
-    <title lang="zh">NRL Rugby</title>
-    <desc>From Queensland Country Bank Stadium in Townsville, Queensland, Australia.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260524210000 +0000" stop="20260524230000 +0000">
-    <title lang="zh">Rugby Super League</title>
-    <desc>From The Halliwell Jones Stadium in Warrington, England, England.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260524230000 +0000" stop="20260524233000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>From May 22, 1999.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260524233000 +0000" stop="20260525000000 +0000">
-    <title lang="zh">FA Cup Classics</title>
-    <desc>1999 FA Cup.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470811" start="20260525000000 +0000" stop="20260526000000 +0000">
-    <title lang="zh">Eredivisie Soccer</title>
-    <desc>Conference League playoff - Second Round.</desc>
-    <date>2026-05-25</date>
-  </programme>
-  <programme channel="464777" start="20260523023000 +0000" stop="20260523060000 +0000">
-    <title lang="zh">Live: SportsNite</title>
-    <desc>SportsNite takes viewers inside all things New York sports by discussing the latest sports news of the night.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523060000 +0000" stop="20260523063000 +0000">
-    <title lang="zh">Hope for Pain Sufferers</title>
-    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523063000 +0000" stop="20260523070000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523070000 +0000" stop="20260523073000 +0000">
-    <title lang="zh">Hope for Pain Sufferers</title>
-    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523073000 +0000" stop="20260523080000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523080000 +0000" stop="20260523083000 +0000">
-    <title lang="zh">Hope for Pain Sufferers</title>
-    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523083000 +0000" stop="20260523090000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523090000 +0000" stop="20260523093000 +0000">
-    <title lang="zh">Hope for Pain Sufferers</title>
-    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523093000 +0000" stop="20260523100000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523100000 +0000" stop="20260523110000 +0000">
-    <title lang="zh">Mets Fast Forward</title>
-    <desc>From May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523110000 +0000" stop="20260523130000 +0000">
-    <title lang="zh">SportsNite</title>
-    <desc>SportsNite takes viewers inside all things New York sports by discussing the latest sports news of the night.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523130000 +0000" stop="20260523133000 +0000">
-    <title lang="zh">Hope for Pain Sufferers</title>
-    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523133000 +0000" stop="20260523140000 +0000">
-    <title lang="zh">Best Mattress Topper Ever!</title>
-    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523140000 +0000" stop="20260523143000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523143000 +0000" stop="20260523150000 +0000">
-    <title lang="zh">Hope for Pain Sufferers</title>
-    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523150000 +0000" stop="20260523160000 +0000">
-    <title lang="zh">Mets Fast Forward</title>
-    <desc>From May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523160000 +0000" stop="20260523190000 +0000">
-    <title lang="zh">MLB Baseball</title>
-    <desc>From loanDepot Park in Miami.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523190000 +0000" stop="20260523193000 +0000">
-    <title lang="zh">Doc 16</title>
-    <desc>SNYs coverage of the Mets jersey retirement ceremony for Dwight "Doc" Gooden. The ceremony took place on April 14th, 2024 at Citi Field, celebrating his 11-year career with the Mets.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523193000 +0000" stop="20260523200000 +0000">
-    <title lang="zh">Live: Mets Pregame</title>
-    <desc>Analyst Gary Apple along with special guests preview the upcoming New York Mets game and series, as well as recapping past performances.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523200000 +0000" stop="20260523230000 +0000">
-    <title lang="zh">Live: MLB Baseball</title>
-    <desc>From loanDepot Park in Miami.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523230000 +0000" stop="20260523233000 +0000">
-    <title lang="zh">Live: Mets Postgame</title>
-    <desc>Analyst Gary Apple along with special guests review highlights from the previous New York Mets game, as well as giving extended commentary and in-depth insight to the team's overall performance.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260523233000 +0000" stop="20260524000000 +0000">
-    <title lang="zh">Mets Hall of Fame: Class of 2026</title>
-    <desc />
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="464777" start="20260524003000 +0000" stop="20260524030000 +0000">
-    <title lang="zh">MLB Baseball</title>
-    <desc>From loanDepot Park in Miami.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524030000 +0000" stop="20260524060000 +0000">
-    <title lang="zh">Live: SportsNite</title>
-    <desc>SportsNite takes viewers inside all things New York sports by discussing the latest sports news of the night.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524060000 +0000" stop="20260524063000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524063000 +0000" stop="20260524070000 +0000">
-    <title lang="zh">Hope for Pain Sufferers</title>
-    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524070000 +0000" stop="20260524073000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524073000 +0000" stop="20260524080000 +0000">
-    <title lang="zh">Hope for Pain Sufferers</title>
-    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524080000 +0000" stop="20260524083000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524083000 +0000" stop="20260524090000 +0000">
-    <title lang="zh">Hope for Pain Sufferers</title>
-    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524090000 +0000" stop="20260524093000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524093000 +0000" stop="20260524100000 +0000">
-    <title lang="zh">Best Mattress Topper Ever!</title>
-    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524100000 +0000" stop="20260524110000 +0000">
-    <title lang="zh">Mets Fast Forward</title>
-    <desc>From May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524110000 +0000" stop="20260524130000 +0000">
-    <title lang="zh">SportsNite</title>
-    <desc>SportsNite takes viewers inside all things New York sports by discussing the latest sports news of the night.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524130000 +0000" stop="20260524140000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524140000 +0000" stop="20260524143000 +0000">
-    <title lang="zh">Best Mattress Topper Ever!</title>
-    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524143000 +0000" stop="20260524150000 +0000">
-    <title lang="zh">Hope for Pain Sufferers</title>
-    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524150000 +0000" stop="20260524160000 +0000">
-    <title lang="zh">Mets Fast Forward</title>
-    <desc>From May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524160000 +0000" stop="20260524170000 +0000">
-    <title lang="zh">SportsNite</title>
-    <desc>SportsNite takes viewers inside all things New York sports by discussing the latest sports news of the night.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524170000 +0000" stop="20260524173000 +0000">
-    <title lang="zh">Live: Mets Pregame</title>
-    <desc>Analyst Gary Apple along with special guests preview the upcoming New York Mets game and series, as well as recapping past performances.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524173000 +0000" stop="20260524203000 +0000">
-    <title lang="zh">Live: MLB Baseball</title>
-    <desc>From loanDepot Park in Miami.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524203000 +0000" stop="20260524210000 +0000">
-    <title lang="zh">Live: Mets Postgame</title>
-    <desc>Analyst Gary Apple along with special guests review highlights from the previous New York Mets game, as well as giving extended commentary and in-depth insight to the team's overall performance.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524210000 +0000" stop="20260524220000 +0000">
-    <title lang="zh">Gary, Keith &amp; Ron 18</title>
-    <desc>A deeper look into Gary, Keith, and Ron's friendship and time together in the booth for the past 18 years.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524220000 +0000" stop="20260524223000 +0000">
-    <title lang="zh">Oh Yeah ...</title>
-    <desc>A look back at the obscure, oddball, and twisted stories in New York Sports from 1972.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524223000 +0000" stop="20260524230000 +0000">
-    <title lang="zh">Oh Yeah ...</title>
-    <desc>A look back at the obscure, oddball, and twisted stories in New York Sports from 1983.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524230000 +0000" stop="20260524233000 +0000">
-    <title lang="zh">Oh Yeah ...</title>
-    <desc>Stories in New York sports from 2004.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260524233000 +0000" stop="20260525000000 +0000">
-    <title lang="zh">Oh Yeah ...</title>
-    <desc>Stories in New York sports from 2005.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="464777" start="20260525000000 +0000" stop="20260526000000 +0000">
-    <title lang="zh">Broadway Boxing</title>
-    <desc>Boxing action featuring up-and-coming fighters and promising contenders.</desc>
-    <date>2026-05-25</date>
-  </programme>
-  <programme channel="470873" start="20260523053000 +0000" stop="20260523060000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523060000 +0000" stop="20260523063000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523063000 +0000" stop="20260523070000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523070000 +0000" stop="20260523073000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523073000 +0000" stop="20260523080000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523080000 +0000" stop="20260523083000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523083000 +0000" stop="20260523090000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523090000 +0000" stop="20260523093000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523093000 +0000" stop="20260523100000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523100000 +0000" stop="20260523103000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523103000 +0000" stop="20260523110000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523110000 +0000" stop="20260523113000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523113000 +0000" stop="20260523120000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523120000 +0000" stop="20260523123000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523123000 +0000" stop="20260523130000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523130000 +0000" stop="20260523133000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523133000 +0000" stop="20260523140000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523140000 +0000" stop="20260523143000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523143000 +0000" stop="20260523150000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523150000 +0000" stop="20260523153000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523153000 +0000" stop="20260523160000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523160000 +0000" stop="20260523163000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523163000 +0000" stop="20260523170000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523170000 +0000" stop="20260523173000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523173000 +0000" stop="20260523180000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523180000 +0000" stop="20260523183000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 22, 2026.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523183000 +0000" stop="20260523190000 +0000">
-    <title lang="zh">Live: Blue Jays Central</title>
-    <desc>Toronto Blue Jays pregame show hosted by Jamie Campbell.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523190000 +0000" stop="20260523220000 +0000">
-    <title lang="zh">Live: MLB Baseball</title>
-    <desc>The Toronto Blue Jays host the Pittsburgh Pirates in Game 2 of a three-game series. Left-handed pitcher Patrick Corbin starts for Toronto against right-handed pitcher Paul Skenes as the interleague rivals clash again at Rogers Centre.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523220000 +0000" stop="20260523223000 +0000">
-    <title lang="zh">MLB Plays of the Week</title>
-    <desc>A look at the top plays and moments from the past week in baseball.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523223000 +0000" stop="20260523230000 +0000">
-    <title lang="zh">Misplays of the Month</title>
-    <desc>A look at the month's top bloopers.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260523230000 +0000" stop="20260524000000 +0000">
-    <title lang="zh">MLB Baseball</title>
-    <desc>The Toronto Blue Jays host the Pittsburgh Pirates in Game 2 of a three-game series. Left-handed pitcher Patrick Corbin starts for Toronto against right-handed pitcher Paul Skenes as the interleague rivals clash again at Rogers Centre.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="470873" start="20260524020000 +0000" stop="20260524043000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524043000 +0000" stop="20260524050000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524050000 +0000" stop="20260524053000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524053000 +0000" stop="20260524060000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524060000 +0000" stop="20260524063000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524063000 +0000" stop="20260524070000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524070000 +0000" stop="20260524073000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524073000 +0000" stop="20260524080000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524080000 +0000" stop="20260524083000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524083000 +0000" stop="20260524090000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524090000 +0000" stop="20260524093000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524093000 +0000" stop="20260524100000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524100000 +0000" stop="20260524103000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524103000 +0000" stop="20260524110000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524110000 +0000" stop="20260524113000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524113000 +0000" stop="20260524120000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524120000 +0000" stop="20260524123000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524123000 +0000" stop="20260524130000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524130000 +0000" stop="20260524133000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524133000 +0000" stop="20260524140000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524140000 +0000" stop="20260524143000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524143000 +0000" stop="20260524150000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524150000 +0000" stop="20260524153000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524153000 +0000" stop="20260524160000 +0000">
-    <title lang="zh">NHL in 30</title>
-    <desc>Game 2, from May 23, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524160000 +0000" stop="20260524163000 +0000">
-    <title lang="zh">NHL's Best Goals of the Season</title>
-    <desc>Highlights of the league's top scoring plays.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524163000 +0000" stop="20260524170000 +0000">
-    <title lang="zh">NHL's Best Saves of the Season</title>
-    <desc>Recap of the top saves of the NHL season.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524170000 +0000" stop="20260524173000 +0000">
-    <title lang="zh">Misplays of the Month</title>
-    <desc>A look at the month's top bloopers.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524173000 +0000" stop="20260524203000 +0000">
-    <title lang="zh">Live: MLB Baseball</title>
-    <desc>The New York Yankees host the Tampa Bay Rays in Game 3 of a three-game regular-season series. Right-handed pitcher Will Warren starts for New York against left-handed pitcher Shane McClanahan as the AL East rivals battle at Yankee Stadium.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524203000 +0000" stop="20260524210000 +0000">
-    <title lang="zh">MLB Plays of the Week</title>
-    <desc>A look at the top plays and moments from the past week in baseball.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260524210000 +0000" stop="20260525000000 +0000">
-    <title lang="zh">Blue Jays in 30</title>
-    <desc>From May 24, 2026.</desc>
-    <date>2026-05-24</date>
-  </programme>
-  <programme channel="470873" start="20260525000000 +0000" stop="20260526000000 +0000">
-    <title lang="zh">Live: NBA Basketball</title>
-    <desc>Western Conference Finals, Game 4.</desc>
-    <date>2026-05-25</date>
-  </programme>
-  <programme channel="465358" start="20260523053000 +0000" stop="20260523060000 +0000">
-    <title lang="zh">Fishing the Wild West</title>
-    <desc>Wes looks back over 10 years of fishing in the province of Manitoba.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465358" start="20260523060000 +0000" stop="20260523063000 +0000">
-    <title lang="zh">Lisa Roper Outdoors</title>
-    <desc>Welcome to Lisa Roper Outdoors, where every episode is a journey into the heart of outdoor adventure; from breathtaking landscapes to mouthwatering shore lunches, Lisa Roper brings you along as she connects with nature in a way that stirs the soul.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465358" start="20260523063000 +0000" stop="20260523070000 +0000">
-    <title lang="zh">The New Fly Fisher</title>
-    <desc>Guests of the series will instruct viewers in something new and interesting about fly-fishing.</desc>
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465358" start="20260523070000 +0000" stop="20260523073000 +0000">
-    <title lang="zh">Connect Fishing Experiences</title>
-    <desc />
-    <date>2026-05-23</date>
-  </programme>
-  <programme channel="465358" start="20260523073000 +0000" stop="20260523080000 +0000">
-    <title lang="zh">Extreme Angler TV</title>
-    <desc>Showcasing the incredible walleye and bass fishing opportunities across Northern Ontario, the lakes, lures and lodges.</desc>
-    <date>2026-05-23</date>
   </programme>
   <programme channel="465358" start="20260523080000 +0000" stop="20260523083000 +0000">
     <title lang="zh">The Fish'n Canada Show</title>
@@ -2699,30 +1279,605 @@
     <desc>On the edge of the Arctic Circle is the land of fire and ice. Wildfly leads an expedition in pursuit of prehistoric trout, Atlantic salmon and the Arctic char.</desc>
     <date>2026-05-25</date>
   </programme>
-  <programme channel="465264" start="20260523053000 +0000" stop="20260523060000 +0000">
+  <programme channel="9415" start="20260523060000 +0000" stop="20260523090000 +0000">
+    <title lang="zh">Sky Sports Breakfast</title>
+    <desc>Stay across the biggest sports stories this morning with a wrap-up of the headlines.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="9415" start="20260523090000 +0000" stop="20260523110000 +0000">
+    <title lang="zh">Sky Sports News</title>
+    <desc>Round-up of the sports news with live analysis and comments, plus extended interviews with the headline makers.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="9415" start="20260523110000 +0000" stop="20260523133000 +0000">
+    <title lang="zh">Live WSL: Charlton v Leicester</title>
+    <desc>The 2025-26 Barclays Women's Super League relegation play-off between the WSL 2's Charlton Athletic and top-flight Leicester City.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="9415" start="20260523133000 +0000" stop="20260523173000 +0000">
+    <title lang="zh">Live EFL P/O Final: Hull v M'boro</title>
+    <desc>The last remaining spot in next season's Premier League is decided at Wembley as Hull City and Middlesbrough contest one of football's richest games - the Championship play-off final.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="9415" start="20260523173000 +0000" stop="20260523180000 +0000">
+    <title lang="zh">Live Ted's Sprint Notebook: Canada</title>
+    <desc>Ted Kravitz is in the paddock as he reviews all the biggest stories from the third F1 Sprint of the 2026 season in Montreal.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="9415" start="20260523180000 +0000" stop="20260523191000 +0000">
+    <title lang="zh">Live F2 Canada: Sprint</title>
+    <desc>The third FIA F2 Sprint Race of the season gets underway in Montreal, Canada.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="9415" start="20260523191000 +0000" stop="20260523220000 +0000">
+    <title lang="zh">Live Canadian F1 GP: Qualifying</title>
+    <desc>The grid for Sunday's Canadian Grand Prix is set with Formula 1 qualifying at Circuit Gilles Villeneuve as the drivers look to battle their way through to Q3 for a shot at pole.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="9415" start="20260523220000 +0000" stop="20260523224500 +0000">
+    <title lang="zh">Live F1 Academy: Race 2</title>
+    <desc>Round two of the 2026 F1 Academy continues with a reverse-grid race at Circuit Gilles Villeneuve in Montreal.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="9415" start="20260523224500 +0000" stop="20260523231500 +0000">
+    <title lang="zh">Live Ted's Quali Notebook: Canada</title>
+    <desc>Ted Kravitz is live as he gathers reaction from inside the paddock and reviews all the biggest stories from qualifying at the Canadian Grand Prix.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="9415" start="20260523231500 +0000" stop="20260523233000 +0000">
+    <title lang="zh">Golf with Sergio Perez</title>
+    <desc>Sky F1's Simon Lazenby caddies for Formula 1 star Sergio Perez at the Cadillac Open.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="9415" start="20260523233000 +0000" stop="20260524060000 +0000">
+    <title lang="zh">Sky Sports Catch-Up</title>
+    <desc>Take a moment to catch-up with the all biggest sports stories hitting the headlines.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="9415" start="20260524060000 +0000" stop="20260524083000 +0000">
+    <title lang="zh">Sky Sports Breakfast</title>
+    <desc>Stay across the biggest sports stories this morning with a wrap-up of the headlines.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9415" start="20260524083000 +0000" stop="20260524090000 +0000">
+    <title lang="zh">Fantasy Football Countdown</title>
+    <desc>Join the Fantasy Premier League experts for tips and last-minute advice on which top-flight stars to pick ahead of each gameweek deadline.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9415" start="20260524090000 +0000" stop="20260524110000 +0000">
+    <title lang="zh">Sunday Supplement</title>
+    <desc>The UK's top sports journalists dissect the stories in the Sunday newspapers, offering insight, opinion and in-depth analysis. Essential viewing for fans who want more than just the score.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9415" start="20260524110000 +0000" stop="20260524140000 +0000">
+    <title lang="zh">Live EFL P/O: Bolton v Stockport</title>
+    <desc>In the Sky Bet League One play-off final, Bolton Wanderers and Stockport County compete under the Wembley arch for a place in the second tier next season.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9415" start="20260524140000 +0000" stop="20260524190000 +0000">
+    <title lang="zh">Live PL Final Day: Spurs v Everton</title>
+    <desc>Tottenham's fight to avoid the drop goes down to the final day. At home to impressive away performers Everton, Spurs hold a two-point advantage over relegation rivals West Ham.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9415" start="20260524190000 +0000" stop="20260524195500 +0000">
+    <title lang="zh">Live Grand Prix Sunday: Canada</title>
+    <desc>Join Sky Sports F1 on the grid ahead of the start of the race at the Canadian Grand Prix.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9415" start="20260524195500 +0000" stop="20260524220000 +0000">
+    <title lang="zh">Live Canadian F1 Grand Prix</title>
+    <desc>It's lights out in Montreal for the 2026 Canadian Grand Prix at Circuit Gilles Villeneuve. George Russell prevailed last year, winning a race that saw the two McLarens come to blows.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9415" start="20260524220000 +0000" stop="20260525000000 +0000">
+    <title lang="zh">Live Chequered Flag: Canada</title>
+    <desc>As the chequered flag comes down on the Canadian Grand Prix, join Sky Sports F1 for all the reaction and analysis.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260523070000 +0000" stop="20260523090000 +0000">
+    <title lang="zh">World Class Championship Boxing</title>
+    <desc>Boxing action.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="465288" start="20260523090000 +0000" stop="20260523100000 +0000">
+    <title lang="zh">World Championship Kickboxing</title>
+    <desc>Highlights from some of the world's greatest kickboxing matches.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="465288" start="20260523100000 +0000" stop="20260523120000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="465288" start="20260523120000 +0000" stop="20260523130000 +0000">
+    <title lang="zh">Fairways of Life</title>
+    <desc>New York Times's Best Seller and Golf Channel Host Matt Adams provides unforgettable interviews with golf's legends and stars, as well as lively interactive discussions about the game, travel and the latest in golf equipment.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="465288" start="20260523130000 +0000" stop="20260523133000 +0000">
+    <title lang="zh">Golf Life</title>
+    <desc>Featuring the latest trends, tours of the finest courses and tips from golf experts.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="465288" start="20260523133000 +0000" stop="20260523140000 +0000">
+    <title lang="zh">Golfing the World</title>
+    <desc>Highlighting golf courses and private resorts from around the world.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="465288" start="20260523140000 +0000" stop="20260523143000 +0000">
+    <title lang="zh">Golf at Altitude</title>
+    <desc />
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="465288" start="20260523143000 +0000" stop="20260523150000 +0000">
+    <title lang="zh">Golf at Altitude</title>
+    <desc />
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="465288" start="20260523150000 +0000" stop="20260523153000 +0000">
+    <title lang="zh">Ready for a safer shower? Enjoy a one-day bath remodel with Jacuzzi.</title>
+    <desc>Trusted brand Jacuzzi Bath Remodel and interior designer Christina Hall share their secrets on how you can easily and affordably transform your bathroom into a gorgeous custom, safe, stylish space in 1 day! Call for a FREE quote &amp; installation.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="465288" start="20260523153000 +0000" stop="20260523160000 +0000">
+    <title lang="zh">Tired of Pain? Go Drug-Free</title>
+    <desc>See how a drug-free patch is helping people find relief-without medication.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="465288" start="20260523160000 +0000" stop="20260523183000 +0000">
+    <title lang="zh">NHL Hockey</title>
+    <desc>Western Conference Final Game 2.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="465288" start="20260523183000 +0000" stop="20260523193000 +0000">
+    <title lang="zh">Avalanche Postgame Live</title>
+    <desc />
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="465288" start="20260523193000 +0000" stop="20260523194500 +0000">
+    <title lang="zh">Altitude Extra</title>
+    <desc />
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="465288" start="20260523194500 +0000" stop="20260523200000 +0000">
+    <title lang="zh">Altitude Extra</title>
+    <desc />
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="465288" start="20260523200000 +0000" stop="20260523203000 +0000">
+    <title lang="zh">Behind The A</title>
+    <desc />
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="465288" start="20260523203000 +0000" stop="20260523210000 +0000">
     <title lang="zh">Offroad Odyssey</title>
     <desc>Adrenaline-pumping action, breathtaking scenery, and unforgettable encounter off-road.</desc>
     <date>2026-05-23</date>
   </programme>
-  <programme channel="465264" start="20260523060000 +0000" stop="20260523063000 +0000">
-    <title lang="zh">This Is Africa</title>
-    <desc>Andy Buchanan and his team embark on adrenaline-fueled hunting adventures across Africa, showcasing the continent's most sought-after trophies while delving into the crucial role of hunters in wildlife conservation. Amidst epic hunts and breathtaking scenery, they address misconceptions about hunting and highlight the collaborative efforts of local communities, governments, and hunters to protect </desc>
+  <programme channel="465288" start="20260523210000 +0000" stop="20260523230000 +0000">
+    <title lang="zh">Live: FanDuel Racing</title>
+    <desc>Live horse racing from around the country.</desc>
     <date>2026-05-23</date>
   </programme>
-  <programme channel="465264" start="20260523063000 +0000" stop="20260523070000 +0000">
-    <title lang="zh">Roger Raglin Outdoors</title>
-    <desc>Roger returns to Rancho Cuevas in Mexico to hunt for trophy whitetail bucks.</desc>
+  <programme channel="465288" start="20260523230000 +0000" stop="20260524000000 +0000">
+    <title lang="zh">Major League Fishing</title>
+    <desc>Four teams compete in elimination match 2 to advance to the Knockout Rounds. From Shreveport-Bossier City, La.</desc>
     <date>2026-05-23</date>
   </programme>
-  <programme channel="465264" start="20260523070000 +0000" stop="20260523073000 +0000">
-    <title lang="zh">Winchester &amp; Drury's Natural Born</title>
-    <desc>The Drury Outdoors Team hunts game and offers tips.</desc>
+  <programme channel="465288" start="20260524010000 +0000" stop="20260524013000 +0000">
+    <title lang="zh">A Fishing Story With Ronnie Green</title>
+    <desc>Bobby Bakewell is a Bassmaster Classic qualifier who honed his fishing skills through countless hours on the water with his father. He shares how his dad's guidance and passion for the sport shaped his journey and success as an angler.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524013000 +0000" stop="20260524020000 +0000">
+    <title lang="zh">Pure Outdoor</title>
+    <desc>Outdoor sports from all over the world, from freestyle ski jumping to airplane aerobatics.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524020000 +0000" stop="20260524023000 +0000">
+    <title lang="zh">Offroad Odyssey</title>
+    <desc>Adrenaline-pumping action, breathtaking scenery, and unforgettable encounter off-road.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524023000 +0000" stop="20260524030000 +0000">
+    <title lang="zh">The Short List</title>
+    <desc>The sports countdown, featuring iconic themes focused upon the memorable moments and individuals in sports; the 10 memorable debuts, the 10 revered innovators, the comebacks of all time and much more.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524030000 +0000" stop="20260524033000 +0000">
+    <title lang="zh">Invincible</title>
+    <desc>Periods of unrivaled domination in sport, including chapters from sport's greatest careers and iconic dynasties.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524033000 +0000" stop="20260524040000 +0000">
+    <title lang="zh">The Iconic</title>
+    <desc>Stories behind celebrated events, institutions, clubs, players, rivalries and moments in sport.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524040000 +0000" stop="20260524050000 +0000">
+    <title lang="zh">Poker Night</title>
+    <desc />
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524050000 +0000" stop="20260524060000 +0000">
+    <title lang="zh">World Poker Tour</title>
+    <desc>High-stakes tournament poker from some of the world's famous casinos and card rooms.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524060000 +0000" stop="20260524070000 +0000">
+    <title lang="zh">The Contenders 2026</title>
+    <desc>Previewing all the competing teams.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524070000 +0000" stop="20260524080000 +0000">
+    <title lang="zh">Fairways of Life</title>
+    <desc>New York Times's Best Seller and Golf Channel Host Matt Adams provides unforgettable interviews with golf's legends and stars, as well as lively interactive discussions about the game, travel and the latest in golf equipment.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524080000 +0000" stop="20260524083000 +0000">
+    <title lang="zh">Golf Life</title>
+    <desc>Featuring the latest trends, tours of the finest courses and tips from golf experts.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524083000 +0000" stop="20260524090000 +0000">
+    <title lang="zh">Swing Clinic With Jimmy Hanlin</title>
+    <desc>Golf tips, strategy and review of products.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524090000 +0000" stop="20260524110000 +0000">
+    <title lang="zh">World Class Championship Boxing</title>
+    <desc>Boxing action.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524110000 +0000" stop="20260524120000 +0000">
+    <title lang="zh">Fight Sports: World Championship Kickboxing</title>
+    <desc>Competitions in kickboxing and Muay Thai.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524120000 +0000" stop="20260524140000 +0000">
+    <title lang="zh">Major League Fishing</title>
+    <desc>Four teams compete in elimination match 3 to advance to the Knockout Rounds. From Shreveport-Bossier City, La.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524140000 +0000" stop="20260524143000 +0000">
+    <title lang="zh">A Fishing Story With Ronnie Green</title>
+    <desc>Ninkia Green is a restaurant owner whose influence extends far beyond her delicious cuisine. She shares her inspiring journey of growth, passion, and purpose as a dedicated community leader making a lasting impact.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524143000 +0000" stop="20260524144500 +0000">
+    <title lang="zh">Altitude Extra</title>
+    <desc />
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524144500 +0000" stop="20260524150000 +0000">
+    <title lang="zh">Altitude Extra</title>
+    <desc />
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524150000 +0000" stop="20260524153000 +0000">
+    <title lang="zh">Ready for a safer shower? Enjoy a one-day bath remodel with Jacuzzi.</title>
+    <desc>Trusted brand Jacuzzi Bath Remodel and interior designer Christina Hall share their secrets on how you can easily and affordably transform your bathroom into a gorgeous custom, safe, stylish space in 1 day! Call for a FREE quote &amp; installation.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524153000 +0000" stop="20260524160000 +0000">
+    <title lang="zh">Tired of Pain? Go Drug-Free</title>
+    <desc>See how a drug-free patch is helping people find relief-without medication.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524160000 +0000" stop="20260524163000 +0000">
+    <title lang="zh">Pain Relief Revealed</title>
+    <desc>Discover the hidden story of OmegaXL with John Walsh. He dives deep into the groundbreaking supplement that promises hope and relief for millions battling joint pain and inflammation.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524163000 +0000" stop="20260524170000 +0000">
+    <title lang="zh">RateEscape: Stop Overpaying For Cellular</title>
+    <desc>Cut up to half the cost of your monthly cell phone bill; same towers, same coverage, but a lot less money; it sounds great but is it too good to be true?; join myth-busting legend Kari Byron as she takes on Big Wireless to save you money.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524170000 +0000" stop="20260524173000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524173000 +0000" stop="20260524180000 +0000">
+    <title lang="zh">Joint Relief Revolution</title>
+    <desc>Join Connie Craig-Carroll and health visionary Ken Meares as they uncover OmegaXL, the groundbreaking natural supplement transforming lives by tackling joint pain and inflammation.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524180000 +0000" stop="20260524183000 +0000">
+    <title lang="zh">Golf at Altitude</title>
+    <desc />
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524183000 +0000" stop="20260524190000 +0000">
+    <title lang="zh">Golf at Altitude</title>
+    <desc />
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524190000 +0000" stop="20260524200000 +0000">
+    <title lang="zh">Fairways of Life</title>
+    <desc>New York Times's Best Seller and Golf Channel Host Matt Adams provides unforgettable interviews with golf's legends and stars, as well as lively interactive discussions about the game, travel and the latest in golf equipment.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524200000 +0000" stop="20260524203000 +0000">
+    <title lang="zh">Swing Clinic With Jimmy Hanlin</title>
+    <desc>Golf tips, strategy and review of products.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524203000 +0000" stop="20260524210000 +0000">
+    <title lang="zh">Golf Life</title>
+    <desc>Featuring the latest trends, tours of the finest courses and tips from golf experts.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524210000 +0000" stop="20260524220000 +0000">
+    <title lang="zh">The Contenders 2026</title>
+    <desc>Previewing all the competing teams.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524220000 +0000" stop="20260524223000 +0000">
+    <title lang="zh">She's in the Game</title>
+    <desc>Meet the next generation of superstar female athletes around the country as we go behind the scenes to shine the light on them and their interests off the field, along with catching up with the female legends who paved the way for all this growth.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524223000 +0000" stop="20260524230000 +0000">
+    <title lang="zh">Behind The A</title>
+    <desc />
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260524230000 +0000" stop="20260525000000 +0000">
+    <title lang="zh">Avalanche Live!</title>
+    <desc />
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="465288" start="20260525000000 +0000" stop="20260526000000 +0000">
+    <title lang="zh">World Poker Tour</title>
+    <desc>Professional poker action from a series of international tournaments.</desc>
+    <date>2026-05-25</date>
+  </programme>
+  <programme channel="9175" start="20260523074500 +0000" stop="20260523084500 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Downpatrick.</desc>
     <date>2026-05-23</date>
   </programme>
-  <programme channel="465264" start="20260523073000 +0000" stop="20260523080000 +0000">
-    <title lang="zh">Ducks Unlimited</title>
-    <desc>Doug Larsen joins his longtime friend and hunting partner Pat Pitt for a multi-generational adventure in the heart of the water-fowling mecca of Arkansas.</desc>
+  <programme channel="9175" start="20260523084500 +0000" stop="20260523101500 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Goodwood, Haydock Park and Pontefract.</desc>
     <date>2026-05-23</date>
+  </programme>
+  <programme channel="9175" start="20260523101500 +0000" stop="20260523110000 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Downpatrick.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="9175" start="20260523110000 +0000" stop="20260523120000 +0000">
+    <title lang="zh">The Full SP: Preview</title>
+    <desc>A preview of the day's racing with live news from the courses.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="9175" start="20260523120000 +0000" stop="20260523203000 +0000">
+    <title lang="zh">The Full SP: Live Racing</title>
+    <desc>Today's live racing action from Haydock, York, Goodwood, Cartmel, Salisbury and the Curragh.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="9175" start="20260523203000 +0000" stop="20260523230000 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch today's racing action from Haydock, York, Goodwood, Cartmel and Salisbury.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="9175" start="20260523230000 +0000" stop="20260523234500 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from the Curragh.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="9175" start="20260523234500 +0000" stop="20260524000000 +0000">
+    <title lang="zh">The Full SP: Review</title>
+    <desc>The Racing TV team reviews yesterday's action-packed day on the track.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="9175" start="20260524003000 +0000" stop="20260524033000 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Haydock, York, Goodwood, Cartmel and Salisbury.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9175" start="20260524033000 +0000" stop="20260524041500 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from the Curragh.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9175" start="20260524041500 +0000" stop="20260524050000 +0000">
+    <title lang="zh">The Full SP: Review</title>
+    <desc>The Racing TV team reviews yesterday's action-packed day on the track.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9175" start="20260524050000 +0000" stop="20260524080000 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Haydock, York, Goodwood, Cartmel and Salisbury.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9175" start="20260524080000 +0000" stop="20260524103000 +0000">
+    <title lang="zh">Luck on Sunday</title>
+    <desc>Nick Luck has the best interviews from expert guests in our unmissable weekly show.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9175" start="20260524103000 +0000" stop="20260524120000 +0000">
+    <title lang="zh">Racing Greats: Mark Johnston</title>
+    <desc>In the latest episode of Racing Greats, Rishi Persad and Steve Mellish delve into the career of record-breaking trainer - Mark Johnston.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9175" start="20260524120000 +0000" stop="20260524123000 +0000">
+    <title lang="zh">Mark Your Card</title>
+    <desc>A preview of the day's racing with live news from the courses.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9175" start="20260524123000 +0000" stop="20260524171500 +0000">
+    <title lang="zh">Live Racing</title>
+    <desc>Today's live racing action from Kelso and the Curragh.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9175" start="20260524171500 +0000" stop="20260524180000 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch today's racing action from the Curragh.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9175" start="20260524180000 +0000" stop="20260524190000 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch today's racing action from Kelso.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9175" start="20260524190000 +0000" stop="20260524194500 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch today's racing action from the Curragh.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9175" start="20260524194500 +0000" stop="20260524204500 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch today's racing action from Kelso.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9175" start="20260524204500 +0000" stop="20260524213000 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch today's racing action from the Curragh.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9175" start="20260524213000 +0000" stop="20260524223000 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch today's racing action from Kelso.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="9175" start="20260524223000 +0000" stop="20260525000000 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch today's racing action from the Curragh.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470732" start="20260523053000 +0000" stop="20260523160000 +0000">
+    <title lang="zh">Sportsnet Central</title>
+    <desc>Canada's premier destination for sports and analysis.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470732" start="20260523160000 +0000" stop="20260523180000 +0000">
+    <title lang="zh">Stanley Cup Playoffs Rewind</title>
+    <desc>Game 2, from May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470732" start="20260523180000 +0000" stop="20260523183000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470732" start="20260523183000 +0000" stop="20260523190000 +0000">
+    <title lang="zh">Live: Blue Jays Central</title>
+    <desc>Toronto Blue Jays pregame show hosted by Jamie Campbell.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470732" start="20260523190000 +0000" stop="20260523220000 +0000">
+    <title lang="zh">Live: MLB Baseball</title>
+    <desc>The Toronto Blue Jays host the Pittsburgh Pirates in Game 2 of a three-game series. Left-handed pitcher Patrick Corbin starts for Toronto against right-handed pitcher Paul Skenes as the interleague rivals clash again at Rogers Centre.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470732" start="20260523220000 +0000" stop="20260523223000 +0000">
+    <title lang="zh">MLB Plays of the Week</title>
+    <desc>A look at the top plays and moments from the past week in baseball.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470732" start="20260523223000 +0000" stop="20260523230000 +0000">
+    <title lang="zh">Live: Hockey Central Saturday</title>
+    <desc>Coverage of hockey's biggest night with the latest news and analysis. Hosted by Ron MacLean.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470732" start="20260523230000 +0000" stop="20260524000000 +0000">
+    <title lang="zh">Live: NHL Hockey</title>
+    <desc>Eastern Conference Final, Game 2.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470732" start="20260524013000 +0000" stop="20260524030000 +0000">
+    <title lang="zh">Live: Sportsnet Central</title>
+    <desc>Canada's premier destination for sports and analysis.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470732" start="20260524030000 +0000" stop="20260524033000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470732" start="20260524033000 +0000" stop="20260524040000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470732" start="20260524040000 +0000" stop="20260524043000 +0000">
+    <title lang="zh">Misplays of the Month</title>
+    <desc>A look at the month's top bloopers.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470732" start="20260524043000 +0000" stop="20260524050000 +0000">
+    <title lang="zh">NHL's Best Goals of the Season</title>
+    <desc>Highlights of the league's top scoring plays.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470732" start="20260524050000 +0000" stop="20260524053000 +0000">
+    <title lang="zh">Live: Sportsnet Central</title>
+    <desc>Canada's premier destination for sports and analysis.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470732" start="20260524053000 +0000" stop="20260524153000 +0000">
+    <title lang="zh">Sportsnet Central</title>
+    <desc>Canada's premier destination for sports and analysis.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470732" start="20260524153000 +0000" stop="20260524160000 +0000">
+    <title lang="zh">Live: Blue Jays Central</title>
+    <desc>Toronto Blue Jays pregame show hosted by Jamie Campbell.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470732" start="20260524160000 +0000" stop="20260524190000 +0000">
+    <title lang="zh">Live: MLB Baseball</title>
+    <desc>The Toronto Blue Jays host the Pittsburgh Pirates in Game 3 of a three-game baseball series. Right-handed pitcher Dylan Cease starts for Toronto against right-handed pitcher Mitch Keller as the interleague clubs square off at Rogers Centre.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470732" start="20260524190000 +0000" stop="20260524203000 +0000">
+    <title lang="zh">Live: MLB Baseball</title>
+    <desc>The New York Yankees host the Tampa Bay Rays in Game 3 of a three-game regular-season series. Right-handed pitcher Will Warren starts for New York against left-handed pitcher Shane McClanahan as the AL East rivals battle at Yankee Stadium.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470732" start="20260524203000 +0000" stop="20260524210000 +0000">
+    <title lang="zh">MLB Plays of the Week</title>
+    <desc>A look at the top plays and moments from the past week in baseball.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470732" start="20260524210000 +0000" stop="20260524213000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 24, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470732" start="20260524213000 +0000" stop="20260524220000 +0000">
+    <title lang="zh">Misplays of the Month</title>
+    <desc>A look at the month's top bloopers.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470732" start="20260524220000 +0000" stop="20260524223000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470732" start="20260524223000 +0000" stop="20260524230000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 1, from May 20, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470732" start="20260524230000 +0000" stop="20260524233000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 22, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470732" start="20260524233000 +0000" stop="20260525000000 +0000">
+    <title lang="zh">Live: Hockey Central</title>
+    <desc>Breaking news, analysis and debate from around the NHL.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470732" start="20260525000000 +0000" stop="20260526000000 +0000">
+    <title lang="zh">Live: NHL Hockey</title>
+    <desc>Western Conference Final Game 3.</desc>
+    <date>2026-05-25</date>
   </programme>
   <programme channel="465264" start="20260523080000 +0000" stop="20260523083000 +0000">
     <title lang="zh">Adrenaline</title>
@@ -3122,6 +2277,666 @@
   <programme channel="465264" start="20260525000000 +0000" stop="20260526000000 +0000">
     <title lang="zh">Realtree's Monster Bucks</title>
     <desc>David Blanton explains how and why hunting with a muzzleloader is a great way to hunt.</desc>
+    <date>2026-05-25</date>
+  </programme>
+  <programme channel="470873" start="20260523080000 +0000" stop="20260523083000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523083000 +0000" stop="20260523090000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523090000 +0000" stop="20260523093000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523093000 +0000" stop="20260523100000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523100000 +0000" stop="20260523103000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523103000 +0000" stop="20260523110000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523110000 +0000" stop="20260523113000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523113000 +0000" stop="20260523120000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523120000 +0000" stop="20260523123000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523123000 +0000" stop="20260523130000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523130000 +0000" stop="20260523133000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523133000 +0000" stop="20260523140000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523140000 +0000" stop="20260523143000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523143000 +0000" stop="20260523150000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523150000 +0000" stop="20260523153000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523153000 +0000" stop="20260523160000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523160000 +0000" stop="20260523163000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523163000 +0000" stop="20260523170000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523170000 +0000" stop="20260523173000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523173000 +0000" stop="20260523180000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523180000 +0000" stop="20260523183000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523183000 +0000" stop="20260523190000 +0000">
+    <title lang="zh">Live: Blue Jays Central</title>
+    <desc>Toronto Blue Jays pregame show hosted by Jamie Campbell.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523190000 +0000" stop="20260523220000 +0000">
+    <title lang="zh">Live: MLB Baseball</title>
+    <desc>The Toronto Blue Jays host the Pittsburgh Pirates in Game 2 of a three-game series. Left-handed pitcher Patrick Corbin starts for Toronto against right-handed pitcher Paul Skenes as the interleague rivals clash again at Rogers Centre.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523220000 +0000" stop="20260523223000 +0000">
+    <title lang="zh">MLB Plays of the Week</title>
+    <desc>A look at the top plays and moments from the past week in baseball.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523223000 +0000" stop="20260523230000 +0000">
+    <title lang="zh">Misplays of the Month</title>
+    <desc>A look at the month's top bloopers.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260523230000 +0000" stop="20260524000000 +0000">
+    <title lang="zh">MLB Baseball</title>
+    <desc>The Toronto Blue Jays host the Pittsburgh Pirates in Game 2 of a three-game series. Left-handed pitcher Patrick Corbin starts for Toronto against right-handed pitcher Paul Skenes as the interleague rivals clash again at Rogers Centre.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470873" start="20260524020000 +0000" stop="20260524043000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524043000 +0000" stop="20260524050000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524050000 +0000" stop="20260524053000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524053000 +0000" stop="20260524060000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524060000 +0000" stop="20260524063000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524063000 +0000" stop="20260524070000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524070000 +0000" stop="20260524073000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524073000 +0000" stop="20260524080000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524080000 +0000" stop="20260524083000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524083000 +0000" stop="20260524090000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524090000 +0000" stop="20260524093000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524093000 +0000" stop="20260524100000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524100000 +0000" stop="20260524103000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524103000 +0000" stop="20260524110000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524110000 +0000" stop="20260524113000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524113000 +0000" stop="20260524120000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524120000 +0000" stop="20260524123000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524123000 +0000" stop="20260524130000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524130000 +0000" stop="20260524133000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524133000 +0000" stop="20260524140000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524140000 +0000" stop="20260524143000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524143000 +0000" stop="20260524150000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524150000 +0000" stop="20260524153000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524153000 +0000" stop="20260524160000 +0000">
+    <title lang="zh">NHL in 30</title>
+    <desc>Game 2, from May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524160000 +0000" stop="20260524163000 +0000">
+    <title lang="zh">NHL's Best Goals of the Season</title>
+    <desc>Highlights of the league's top scoring plays.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524163000 +0000" stop="20260524170000 +0000">
+    <title lang="zh">NHL's Best Saves of the Season</title>
+    <desc>Recap of the top saves of the NHL season.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524170000 +0000" stop="20260524173000 +0000">
+    <title lang="zh">Misplays of the Month</title>
+    <desc>A look at the month's top bloopers.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524173000 +0000" stop="20260524203000 +0000">
+    <title lang="zh">Live: MLB Baseball</title>
+    <desc>The New York Yankees host the Tampa Bay Rays in Game 3 of a three-game regular-season series. Right-handed pitcher Will Warren starts for New York against left-handed pitcher Shane McClanahan as the AL East rivals battle at Yankee Stadium.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524203000 +0000" stop="20260524210000 +0000">
+    <title lang="zh">MLB Plays of the Week</title>
+    <desc>A look at the top plays and moments from the past week in baseball.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260524210000 +0000" stop="20260525000000 +0000">
+    <title lang="zh">Blue Jays in 30</title>
+    <desc>From May 24, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470873" start="20260525000000 +0000" stop="20260526000000 +0000">
+    <title lang="zh">Live: NBA Basketball</title>
+    <desc>Western Conference Finals, Game 4.</desc>
+    <date>2026-05-25</date>
+  </programme>
+  <programme channel="464777" start="20260523080000 +0000" stop="20260523083000 +0000">
+    <title lang="zh">Hope for Pain Sufferers</title>
+    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="464777" start="20260523083000 +0000" stop="20260523090000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="464777" start="20260523090000 +0000" stop="20260523093000 +0000">
+    <title lang="zh">Hope for Pain Sufferers</title>
+    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="464777" start="20260523093000 +0000" stop="20260523100000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="464777" start="20260523100000 +0000" stop="20260523110000 +0000">
+    <title lang="zh">Mets Fast Forward</title>
+    <desc>From May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="464777" start="20260523110000 +0000" stop="20260523130000 +0000">
+    <title lang="zh">SportsNite</title>
+    <desc>SportsNite takes viewers inside all things New York sports by discussing the latest sports news of the night.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="464777" start="20260523130000 +0000" stop="20260523133000 +0000">
+    <title lang="zh">Hope for Pain Sufferers</title>
+    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="464777" start="20260523133000 +0000" stop="20260523140000 +0000">
+    <title lang="zh">Best Mattress Topper Ever!</title>
+    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="464777" start="20260523140000 +0000" stop="20260523143000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="464777" start="20260523143000 +0000" stop="20260523150000 +0000">
+    <title lang="zh">Hope for Pain Sufferers</title>
+    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="464777" start="20260523150000 +0000" stop="20260523160000 +0000">
+    <title lang="zh">Mets Fast Forward</title>
+    <desc>From May 22, 2026.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="464777" start="20260523160000 +0000" stop="20260523190000 +0000">
+    <title lang="zh">MLB Baseball</title>
+    <desc>From loanDepot Park in Miami.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="464777" start="20260523190000 +0000" stop="20260523193000 +0000">
+    <title lang="zh">Doc 16</title>
+    <desc>SNYs coverage of the Mets jersey retirement ceremony for Dwight "Doc" Gooden. The ceremony took place on April 14th, 2024 at Citi Field, celebrating his 11-year career with the Mets.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="464777" start="20260523193000 +0000" stop="20260523200000 +0000">
+    <title lang="zh">Live: Mets Pregame</title>
+    <desc>Analyst Gary Apple along with special guests preview the upcoming New York Mets game and series, as well as recapping past performances.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="464777" start="20260523200000 +0000" stop="20260523230000 +0000">
+    <title lang="zh">Live: MLB Baseball</title>
+    <desc>From loanDepot Park in Miami.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="464777" start="20260523230000 +0000" stop="20260523233000 +0000">
+    <title lang="zh">Live: Mets Postgame</title>
+    <desc>Analyst Gary Apple along with special guests review highlights from the previous New York Mets game, as well as giving extended commentary and in-depth insight to the team's overall performance.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="464777" start="20260523233000 +0000" stop="20260524000000 +0000">
+    <title lang="zh">Mets Hall of Fame: Class of 2026</title>
+    <desc />
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="464777" start="20260524003000 +0000" stop="20260524030000 +0000">
+    <title lang="zh">MLB Baseball</title>
+    <desc>From loanDepot Park in Miami.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524030000 +0000" stop="20260524060000 +0000">
+    <title lang="zh">Live: SportsNite</title>
+    <desc>SportsNite takes viewers inside all things New York sports by discussing the latest sports news of the night.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524060000 +0000" stop="20260524063000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524063000 +0000" stop="20260524070000 +0000">
+    <title lang="zh">Hope for Pain Sufferers</title>
+    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524070000 +0000" stop="20260524073000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524073000 +0000" stop="20260524080000 +0000">
+    <title lang="zh">Hope for Pain Sufferers</title>
+    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524080000 +0000" stop="20260524083000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524083000 +0000" stop="20260524090000 +0000">
+    <title lang="zh">Hope for Pain Sufferers</title>
+    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524090000 +0000" stop="20260524093000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524093000 +0000" stop="20260524100000 +0000">
+    <title lang="zh">Best Mattress Topper Ever!</title>
+    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524100000 +0000" stop="20260524110000 +0000">
+    <title lang="zh">Mets Fast Forward</title>
+    <desc>From May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524110000 +0000" stop="20260524130000 +0000">
+    <title lang="zh">SportsNite</title>
+    <desc>SportsNite takes viewers inside all things New York sports by discussing the latest sports news of the night.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524130000 +0000" stop="20260524140000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524140000 +0000" stop="20260524143000 +0000">
+    <title lang="zh">Best Mattress Topper Ever!</title>
+    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524143000 +0000" stop="20260524150000 +0000">
+    <title lang="zh">Hope for Pain Sufferers</title>
+    <desc>In this compelling investigation, John Walsh delves into OmegaXL and its natural origins; discover how this innovative supplement can provide relief from joint pain and improve your quality of life, all grounded in extensive research.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524150000 +0000" stop="20260524160000 +0000">
+    <title lang="zh">Mets Fast Forward</title>
+    <desc>From May 23, 2026.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524160000 +0000" stop="20260524170000 +0000">
+    <title lang="zh">SportsNite</title>
+    <desc>SportsNite takes viewers inside all things New York sports by discussing the latest sports news of the night.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524170000 +0000" stop="20260524173000 +0000">
+    <title lang="zh">Live: Mets Pregame</title>
+    <desc>Analyst Gary Apple along with special guests preview the upcoming New York Mets game and series, as well as recapping past performances.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524173000 +0000" stop="20260524203000 +0000">
+    <title lang="zh">Live: MLB Baseball</title>
+    <desc>From loanDepot Park in Miami.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524203000 +0000" stop="20260524210000 +0000">
+    <title lang="zh">Live: Mets Postgame</title>
+    <desc>Analyst Gary Apple along with special guests review highlights from the previous New York Mets game, as well as giving extended commentary and in-depth insight to the team's overall performance.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524210000 +0000" stop="20260524220000 +0000">
+    <title lang="zh">Gary, Keith &amp; Ron 18</title>
+    <desc>A deeper look into Gary, Keith, and Ron's friendship and time together in the booth for the past 18 years.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524220000 +0000" stop="20260524223000 +0000">
+    <title lang="zh">Oh Yeah ...</title>
+    <desc>A look back at the obscure, oddball, and twisted stories in New York Sports from 1972.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524223000 +0000" stop="20260524230000 +0000">
+    <title lang="zh">Oh Yeah ...</title>
+    <desc>A look back at the obscure, oddball, and twisted stories in New York Sports from 1983.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524230000 +0000" stop="20260524233000 +0000">
+    <title lang="zh">Oh Yeah ...</title>
+    <desc>Stories in New York sports from 2004.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260524233000 +0000" stop="20260525000000 +0000">
+    <title lang="zh">Oh Yeah ...</title>
+    <desc>Stories in New York sports from 2005.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="464777" start="20260525000000 +0000" stop="20260526000000 +0000">
+    <title lang="zh">Broadway Boxing</title>
+    <desc>Boxing action featuring up-and-coming fighters and promising contenders.</desc>
+    <date>2026-05-25</date>
+  </programme>
+  <programme channel="470811" start="20260523080000 +0000" stop="20260523110000 +0000">
+    <title lang="zh">Sportsnet World Highlights</title>
+    <desc>A look at the best stories from around the world of sports.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470811" start="20260523110000 +0000" stop="20260523113000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>From Oct. 3, 1999.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470811" start="20260523113000 +0000" stop="20260523133000 +0000">
+    <title lang="zh">Live: FA Women's Super League</title>
+    <desc>From The Valley in London.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470811" start="20260523133000 +0000" stop="20260523140000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>From April 14, 1999.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470811" start="20260523140000 +0000" stop="20260523160000 +0000">
+    <title lang="zh">Live: Rugby Super League</title>
+    <desc>From The OneBore Stadium in Castleford, England, United Kingdom.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470811" start="20260523160000 +0000" stop="20260523163000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>From May 17, 1998.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470811" start="20260523163000 +0000" stop="20260523170000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>From April 1, 1999.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470811" start="20260523170000 +0000" stop="20260523190000 +0000">
+    <title lang="zh">Live: Rugby Super League</title>
+    <desc>From Ernest-Wallon Stadium in Toulouse, Haute-Garonne, France.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470811" start="20260523190000 +0000" stop="20260523210000 +0000">
+    <title lang="zh">Live: Rugby Super League</title>
+    <desc>From LNER Community Stadium in York, England, United Kingdom.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470811" start="20260523210000 +0000" stop="20260523230000 +0000">
+    <title lang="zh">NRL Rugby</title>
+    <desc>From 4 Pines Park in Brookvale, New South Wales, Australia.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470811" start="20260523230000 +0000" stop="20260523233000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>From Oct. 3, 1999.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470811" start="20260523233000 +0000" stop="20260524000000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>From April 14, 1999.</desc>
+    <date>2026-05-23</date>
+  </programme>
+  <programme channel="470811" start="20260524000000 +0000" stop="20260524020000 +0000">
+    <title lang="zh">FA Women's Super League</title>
+    <desc>From The Valley in London.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260524020000 +0000" stop="20260524023000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>From May 17, 1998.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260524023000 +0000" stop="20260524030000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>From April 1, 1999.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260524030000 +0000" stop="20260524050000 +0000">
+    <title lang="zh">Rugby Super League</title>
+    <desc>From Ernest-Wallon Stadium in Toulouse, Haute-Garonne, France.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260524050000 +0000" stop="20260524053000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>From Oct. 3, 1999.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260524053000 +0000" stop="20260524060000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>From April 14, 1999.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260524060000 +0000" stop="20260524080000 +0000">
+    <title lang="zh">Rugby Super League</title>
+    <desc>From LNER Community Stadium in York, England, United Kingdom.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260524080000 +0000" stop="20260524110000 +0000">
+    <title lang="zh">Sportsnet World Highlights</title>
+    <desc>A look at the best stories from around the world of sports.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260524110000 +0000" stop="20260524113000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>From May 22, 1999.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260524113000 +0000" stop="20260524120000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>1999 FA Cup.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260524120000 +0000" stop="20260524140000 +0000">
+    <title lang="zh">NRL Rugby</title>
+    <desc>From Queensland Country Bank Stadium in Townsville, Queensland, Australia.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260524140000 +0000" stop="20260524160000 +0000">
+    <title lang="zh">Live: Rugby Super League</title>
+    <desc>From The Halliwell Jones Stadium in Warrington, England, England.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260524160000 +0000" stop="20260524180000 +0000">
+    <title lang="zh">Live: Eredivisie Soccer</title>
+    <desc>Conference League playoff - Second Round.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260524180000 +0000" stop="20260524183000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>From Jan. 23, 1999.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260524183000 +0000" stop="20260524190000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>From Jan. 24, 1999. Fourth round.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260524190000 +0000" stop="20260524210000 +0000">
+    <title lang="zh">NRL Rugby</title>
+    <desc>From Queensland Country Bank Stadium in Townsville, Queensland, Australia.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260524210000 +0000" stop="20260524230000 +0000">
+    <title lang="zh">Rugby Super League</title>
+    <desc>From The Halliwell Jones Stadium in Warrington, England, England.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260524230000 +0000" stop="20260524233000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>From May 22, 1999.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260524233000 +0000" stop="20260525000000 +0000">
+    <title lang="zh">FA Cup Classics</title>
+    <desc>1999 FA Cup.</desc>
+    <date>2026-05-24</date>
+  </programme>
+  <programme channel="470811" start="20260525000000 +0000" stop="20260526000000 +0000">
+    <title lang="zh">Eredivisie Soccer</title>
+    <desc>Conference League playoff - Second Round.</desc>
     <date>2026-05-25</date>
   </programme>
 </tv>
