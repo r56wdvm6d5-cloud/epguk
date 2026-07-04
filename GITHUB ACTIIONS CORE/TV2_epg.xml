@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<tv date="20260704175245 " generator-info-name="TV2-Multi-XML-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="TV2-Source-EPG">
+<tv date="20260704184828 " generator-info-name="TV2-Multi-XML-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="TV2-Source-EPG">
   <channel id="FX.us">
     <display-name>US | FX East</display-name>
     <icon src="https://tlgrm.re/images/fx-us.png" />
+  </channel>
+  <channel id="465331">
+    <display-name lang="US">Freeform HD</display-name>
+    <icon src="" />
   </channel>
   <channel id="470820">
     <display-name lang="Canada">FXX Canada</display-name>
     <icon src="" />
   </channel>
+  <channel id="465105">
+    <display-name lang="US">Fuse HD</display-name>
+    <icon src="" />
+  </channel>
   <channel id="464897">
     <display-name lang="US">Hallmark Family</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="464774">
+    <display-name lang="US">FYI Channel HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="470910">
+    <display-name lang="Canada">FX HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465357">
+    <display-name lang="US">FXX HD</display-name>
     <icon src="" />
   </channel>
   <channel id="470299">
@@ -18,26 +38,6 @@
   </channel>
   <channel id="470509">
     <display-name lang="Canada">CTV LIFE CHANNEL</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465331">
-    <display-name lang="US">Freeform HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="464774">
-    <display-name lang="US">FYI Channel HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465357">
-    <display-name lang="US">FXX HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="470910">
-    <display-name lang="Canada">FX HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465105">
-    <display-name lang="US">Fuse HD</display-name>
     <icon src="" />
   </channel>
   <channel id="465241">
@@ -56,16 +56,16 @@
     <display-name lang="US">ION Mystery</display-name>
     <icon src="" />
   </channel>
-  <channel id="486672">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">ITV1 HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465354">
-    <display-name lang="US">ION Television HD</display-name>
+  <channel id="486726">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">ITV3 HD</display-name>
     <icon src="" />
   </channel>
   <channel id="486720">
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">ITV2 HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="486672">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">ITV1 HD</display-name>
     <icon src="" />
   </channel>
   <channel id="486821">
@@ -74,10 +74,6 @@
   </channel>
   <channel id="486853">
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">ITV4 HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="486726">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">ITV3 HD</display-name>
     <icon src="" />
   </channel>
   <channel id="465290">
@@ -96,6 +92,14 @@
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">More4 HD</display-name>
     <icon src="" />
   </channel>
+  <channel id="464825">
+    <display-name lang="US">MTVLIVE</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465113">
+    <display-name lang="US">MTV2: Music Television HD</display-name>
+    <icon src="" />
+  </channel>
   <channel id="486755">
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">MTV HD</display-name>
     <icon src="" />
@@ -104,20 +108,12 @@
     <display-name lang="Canada">Much Music HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="464825">
-    <display-name lang="US">MTVLIVE</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465080">
-    <display-name lang="US">MTV - Music Television HD</display-name>
-    <icon src="" />
-  </channel>
   <channel id="465207">
     <display-name lang="US">Revolt HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="465113">
-    <display-name lang="US">MTV2: Music Television HD</display-name>
+  <channel id="465080">
+    <display-name lang="US">MTV - Music Television HD</display-name>
     <icon src="" />
   </channel>
   <channel id="467402">
@@ -138,6 +134,10 @@
   </channel>
   <channel id="470330">
     <display-name lang="Canada">ONETV</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465354">
+    <display-name lang="US">ION Television HD</display-name>
     <icon src="" />
   </channel>
   <programme start="20260704130000 -0400" stop="20260704150000 -0400" channel="FX.us">
@@ -214,6 +214,21 @@
     <desc>Miranda Chester has happily relocated to the Northeast, where she has established her interior design business. She splits her time between Boston and Carlton Heath, a picturesque Vermont town where her fiancé, Ian McAndrick, lives.</desc>
     <date>2026-07-04</date>
   </programme>
+  <programme channel="464774" start="20260704000000 +0000" stop="20260705000000 +0000">
+    <title lang="zh">Storage Wars</title>
+    <desc>The buyers scour a hippie town for 1970s memorabilia; Barry uncovers a relic from his past; Darrell finds a medical device with profit potential.</desc>
+    <date>2026-07-04</date>
+  </programme>
+  <programme channel="470910" start="20260704000000 +0000" stop="20260705000000 +0000">
+    <title lang="zh">Law &amp; Order: Special Victims Unit</title>
+    <desc>When Chief McGrath's daughter discloses a sexual assault, Benson must balance the intricacies of the investigation with McGrath's impulsive actions.</desc>
+    <date>2026-07-04</date>
+  </programme>
+  <programme channel="465357" start="20260704000000 +0000" stop="20260705000000 +0000">
+    <title lang="zh">Family Guy</title>
+    <desc>After Stewie is banished from his grandparents' house, Brian takes a trip to retrieve the terrible tyke.</desc>
+    <date>2026-07-04</date>
+  </programme>
   <programme channel="470299" start="20260704000000 +0000" stop="20260705000000 +0000">
     <title lang="zh">Sheriff Country</title>
     <desc>Sheriff Mickey Fox aids a federal investigation into a high-stakes case involving alleged interstate crime and a web of local land deals.</desc>
@@ -222,21 +237,6 @@
   <programme channel="470509" start="20260704000000 +0000" stop="20260705000000 +0000">
     <title lang="zh">MasterChef</title>
     <desc>Standout home cooks from the audition rounds face off in a World Cup-inspired challenge to create elevated versions of classic stadium foods infused with their own cultural flair.</desc>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="464774" start="20260704000000 +0000" stop="20260705000000 +0000">
-    <title lang="zh">Storage Wars</title>
-    <desc>The buyers scour a hippie town for 1970s memorabilia; Barry uncovers a relic from his past; Darrell finds a medical device with profit potential.</desc>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="465357" start="20260704000000 +0000" stop="20260705000000 +0000">
-    <title lang="zh">Family Guy</title>
-    <desc>After Stewie is banished from his grandparents' house, Brian takes a trip to retrieve the terrible tyke.</desc>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="470910" start="20260704000000 +0000" stop="20260705000000 +0000">
-    <title lang="zh">Law &amp; Order: Special Victims Unit</title>
-    <desc>When Chief McGrath's daughter discloses a sexual assault, Benson must balance the intricacies of the investigation with McGrath's impulsive actions.</desc>
     <date>2026-07-04</date>
   </programme>
   <programme channel="465241" start="20260704000000 +0000" stop="20260705000000 +0000">
@@ -264,24 +264,24 @@
     <desc>Part 1/2. Gordon, Gino and Fred take a trip down memory lane to relive their epic road trips across Mexico, the USA and Morocco, revealing the funniest unseen bits and chaotic bloopers.</desc>
     <date>2026-07-04</date>
   </programme>
-  <programme channel="470474" start="20260704000000 +0000" stop="20260705000000 +0000">
-    <title lang="zh">Seinfeld</title>
-    <desc>Jerry's purchase of a new sofa helps Elaine land a new romantic interest when she begins dating the man who delivered it (David James Elliott).</desc>
-    <date>2026-07-04</date>
-  </programme>
   <programme channel="464825" start="20260704000000 +0000" stop="20260705000000 +0000">
     <title lang="zh">PUSH Showcase: Damiano David</title>
     <desc />
     <date>2026-07-04</date>
   </programme>
-  <programme channel="465207" start="20260704000000 +0000" stop="20260705000000 +0000">
-    <title lang="zh">Short &amp; Fresh</title>
-    <desc>Rising filmmakers push the culture forward through their short works.</desc>
-    <date>2026-07-04</date>
-  </programme>
   <programme channel="465113" start="20260704000000 +0000" stop="20260705000000 +0000">
     <title lang="zh">Ridiculousness</title>
     <desc>Rob, Chanel, and Steelo find out why boats are "meant for the water," look for fire in "got a light?" and get soaked in "water wasted.".</desc>
+    <date>2026-07-04</date>
+  </programme>
+  <programme channel="470474" start="20260704000000 +0000" stop="20260705000000 +0000">
+    <title lang="zh">Seinfeld</title>
+    <desc>Jerry's purchase of a new sofa helps Elaine land a new romantic interest when she begins dating the man who delivered it (David James Elliott).</desc>
+    <date>2026-07-04</date>
+  </programme>
+  <programme channel="465207" start="20260704000000 +0000" stop="20260705000000 +0000">
+    <title lang="zh">Short &amp; Fresh</title>
+    <desc>Rising filmmakers push the culture forward through their short works.</desc>
     <date>2026-07-04</date>
   </programme>
   <programme channel="467402" start="20260704000000 +0000" stop="20260705000000 +0000">
