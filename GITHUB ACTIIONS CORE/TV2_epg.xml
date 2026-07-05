@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<tv date="20260705105541 " generator-info-name="TV2-Multi-XML-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="TV2-Source-EPG">
+<tv date="20260705120722 " generator-info-name="TV2-Multi-XML-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="TV2-Source-EPG">
   <channel id="FX.us">
     <display-name>US | FX East</display-name>
     <icon src="https://tlgrm.re/images/fx-us.png" />
@@ -12,6 +12,10 @@
     <display-name lang="US">Freeform HD</display-name>
     <icon src="" />
   </channel>
+  <channel id="470820">
+    <display-name lang="Canada">FXX Canada</display-name>
+    <icon src="" />
+  </channel>
   <channel id="465105">
     <display-name lang="US">Fuse HD</display-name>
     <icon src="" />
@@ -22,10 +26,6 @@
   </channel>
   <channel id="465241">
     <display-name lang="US">Hallmark Channel HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="470820">
-    <display-name lang="Canada">FXX Canada</display-name>
     <icon src="" />
   </channel>
   <channel id="465357">
@@ -48,16 +48,12 @@
     <display-name lang="US">Hallmark Mystery HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="481954">
-    <display-name lang="US">Haunt TV</display-name>
-    <icon src="" />
-  </channel>
   <channel id="465354">
     <display-name lang="US">ION Television HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="492942">
-    <display-name lang="US">ION Mystery</display-name>
+  <channel id="481954">
+    <display-name lang="US">Haunt TV</display-name>
     <icon src="" />
   </channel>
   <channel id="486720">
@@ -68,16 +64,20 @@
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">ITV1 HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="486853">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">ITV4 HD</display-name>
+  <channel id="492942">
+    <display-name lang="US">ION Mystery</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="486726">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">ITV3 HD</display-name>
     <icon src="" />
   </channel>
   <channel id="486821">
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">ITV Quiz</display-name>
     <icon src="" />
   </channel>
-  <channel id="486726">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">ITV3 HD</display-name>
+  <channel id="486853">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">ITV4 HD</display-name>
     <icon src="" />
   </channel>
   <channel id="465290">
@@ -140,10 +140,6 @@
     <display-name lang="Canada">ONETV</display-name>
     <icon src="" />
   </channel>
-  <programme start="20260705063000 -0400" stop="20260705070000 -0400" channel="FX.us">
-    <title>Paid Programming</title>
-    <desc>Paid programming.</desc>
-  </programme>
   <programme start="20260705070000 -0400" stop="20260705090000 -0400" channel="FX.us">
     <title>The Darkest Minds</title>
     <desc>When teens mysteriously develop powerful new abilities, they are declared a threat by the government and detained. One of the most powerful young people, Ruby, escapes from her camp and joins a group of runaways who are seeking a safe haven. Betrayed by the adults in power, this newfound family soon realizes that running is not enough -- they must use their collective powers to wage a resistance and take back their future.</desc>
