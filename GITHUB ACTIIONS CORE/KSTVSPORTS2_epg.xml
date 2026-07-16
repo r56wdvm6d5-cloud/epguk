@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<tv date="20260716074457" generator-info-name="KSTV-Sports-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="KSTV-Sports-EPG">
+<tv date="20260716102426" generator-info-name="KSTV-Sports-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="KSTV-Sports-EPG">
   <channel id="465198">
     <display-name lang="US">ESPN HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465108">
-    <display-name lang="US">ESPNU HD</display-name>
     <icon src="" />
   </channel>
   <channel id="465236">
     <display-name lang="US">Tennis Channel HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="400480">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">TNT Sports 2 HD</display-name>
+  <channel id="465108">
+    <display-name lang="US">ESPNU HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="400478">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">TNT Sports 4 HD</display-name>
     <icon src="" />
   </channel>
   <channel id="400479">
@@ -24,8 +24,24 @@
     <display-name lang="US">SNY SportsNet New York HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="400478">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">TNT Sports 4 HD</display-name>
+  <channel id="400480">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">TNT Sports 2 HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="470732">
+    <display-name lang="Canada">Sportsnet (Pacific)</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465288">
+    <display-name lang="US">Altitude Sports</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="9415">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">SkySpMainEvHD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465264">
+    <display-name lang="US">Sportsman Channel</display-name>
     <icon src="" />
   </channel>
   <channel id="465124">
@@ -34,18 +50,6 @@
   </channel>
   <channel id="9175">
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">Racing TV HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="470732">
-    <display-name lang="Canada">Sportsnet (Pacific)</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465264">
-    <display-name lang="US">Sportsman Channel</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="9415">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">SkySpMainEvHD</display-name>
     <icon src="" />
   </channel>
   <channel id="470873">
@@ -60,15 +64,6 @@
     <display-name lang="US">World Fishing Network HD (US)</display-name>
     <icon src="" />
   </channel>
-  <channel id="465288">
-    <display-name lang="US">Altitude Sports</display-name>
-    <icon src="" />
-  </channel>
-  <programme channel="465198" start="20260716070000 +0000" stop="20260716100000 +0000">
-    <title lang="zh">The 2026 ESPYS</title>
-    <desc>Top celebrities from sports and entertainment come together to commemorate the past year by recognizing major athletic achievements, reliving unforgettable moments, and saluting the leading performers and performances; Marcello Hernández hosts.</desc>
-    <date>2026-07-16</date>
-  </programme>
   <programme channel="465198" start="20260716100000 +0000" stop="20260716110000 +0000">
     <title lang="zh">SportsCenter</title>
     <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
@@ -194,10 +189,30 @@
     <desc>Basketball action from the NBA Summer League.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="465108" start="20260716070000 +0000" stop="20260716100000 +0000">
-    <title lang="zh">College Football</title>
-    <desc>The No. 9 Longhorns (3-1, 0-0 SEC) visit the Gators (1-3, 0-1). Last season, Texas smashed Florida in the schools' first meeting since 1940, as Jerrick Gibson burned his hometown school for 100 rushing yards and a TD to lead the Horns' 49-17 victory.</desc>
+  <programme channel="465236" start="20260716073000 +0000" stop="20260716210000 +0000">
+    <title lang="zh">Courtside - Live</title>
+    <desc>Coverage of professional tennis matches.</desc>
     <date>2026-07-16</date>
+  </programme>
+  <programme channel="465236" start="20260716210000 +0000" stop="20260717000000 +0000">
+    <title lang="zh">Courtside</title>
+    <desc>Tennis highlights from recent matches.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465236" start="20260717050000 +0000" stop="20260717083000 +0000">
+    <title lang="zh">Courtside</title>
+    <desc>Tennis highlights from recent matches.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465236" start="20260717083000 +0000" stop="20260717210000 +0000">
+    <title lang="zh">Courtside - Live</title>
+    <desc>Coverage of professional tennis matches.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465236" start="20260717210000 +0000" stop="20260718000000 +0000">
+    <title lang="zh">Courtside</title>
+    <desc>Tennis highlights from recent matches.</desc>
+    <date>2026-07-17</date>
   </programme>
   <programme channel="465108" start="20260716100000 +0000" stop="20260716140000 +0000">
     <title lang="zh">Live: Unsportsmanlike with Evan, Canty and Michelle</title>
@@ -279,235 +294,175 @@
     <desc>The Cardinal clash with the Cougars from Provo, Utah. Stanford has been off since Aug. 23, when it lost its season opener 23-20 to Hawaii on a last-second field goal. BYU smoked Portland State 69-0 on Aug. 30. BYU took down Stanford 35-26 in 2022.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="465236" start="20260716073000 +0000" stop="20260716210000 +0000">
-    <title lang="zh">Courtside - Live</title>
-    <desc>Coverage of professional tennis matches.</desc>
+  <programme channel="400478" start="20260716100000 +0000" stop="20260716110000 +0000">
+    <title lang="zh">The Gallagher PREM</title>
+    <desc>Bristol Bears v Bath Rugby.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="465236" start="20260716210000 +0000" stop="20260717000000 +0000">
-    <title lang="zh">Courtside</title>
-    <desc>Tennis highlights from recent matches.</desc>
+  <programme channel="400478" start="20260716110000 +0000" stop="20260716120000 +0000">
+    <title lang="zh">The Gallagher PREM</title>
+    <desc>Saracens v Harlequins.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="465236" start="20260717050000 +0000" stop="20260717083000 +0000">
-    <title lang="zh">Courtside</title>
-    <desc>Tennis highlights from recent matches.</desc>
-    <date>2026-07-17</date>
+  <programme channel="400478" start="20260716120000 +0000" stop="20260716130000 +0000">
+    <title lang="zh">The Gallagher PREM</title>
+    <desc>Northampton Saints v Gloucester Rugby.</desc>
+    <date>2026-07-16</date>
   </programme>
-  <programme channel="465236" start="20260717083000 +0000" stop="20260717210000 +0000">
-    <title lang="zh">Courtside - Live</title>
-    <desc>Coverage of professional tennis matches.</desc>
-    <date>2026-07-17</date>
+  <programme channel="400478" start="20260716130000 +0000" stop="20260716140000 +0000">
+    <title lang="zh">The Gallagher PREM</title>
+    <desc>Newcastle Red Bulls v Sale Sharks.</desc>
+    <date>2026-07-16</date>
   </programme>
-  <programme channel="465236" start="20260717210000 +0000" stop="20260718000000 +0000">
-    <title lang="zh">Courtside</title>
-    <desc>Tennis highlights from recent matches.</desc>
-    <date>2026-07-17</date>
+  <programme channel="400478" start="20260716140000 +0000" stop="20260716150000 +0000">
+    <title lang="zh">The Gallagher PREM</title>
+    <desc>Leicester Tigers v Exeter Chiefs.</desc>
+    <date>2026-07-16</date>
   </programme>
-  <programme channel="400480" start="20260716073000 +0000" stop="20260716083000 +0000">
+  <programme channel="400478" start="20260716150000 +0000" stop="20260716160000 +0000">
+    <title lang="zh">MotoGP Highlights</title>
+    <desc>Action from the 2026 MotoGP Grand Prix of Germany.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="400478" start="20260716160000 +0000" stop="20260716170000 +0000">
     <title lang="zh">FIM Speedway Grand Prix Highlights</title>
     <desc>Action from the sixth round of the season in Malilla, Sweden.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="400480" start="20260716083000 +0000" stop="20260716090000 +0000">
-    <title lang="zh">The WRC Magazine</title>
-    <desc>Action from Rally Estonia.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260716090000 +0000" stop="20260716091500 +0000">
-    <title lang="zh">MotoGP Rewind</title>
-    <desc>A look back at the best of the action from the 2026 MotoGP Grand Prix of Germany.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260716091500 +0000" stop="20260716123000 +0000">
-    <title lang="zh">Live AFL</title>
-    <desc>Geelong Cats v St Kilda Saints (Bounce-up 10.30am). Coverage of the match from GMHBA Stadium in Geelong.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260716123000 +0000" stop="20260716133000 +0000">
-    <title lang="zh">One Day International Cricket</title>
-    <desc>West Indies v New Zealand. Action from the second ODI in the five-match series from Providence Cricket Stadium in Guyana.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260716133000 +0000" stop="20260716140000 +0000">
-    <title lang="zh">Spirit of Yachting</title>
-    <desc>A special look at the Rolex TP52 World Championship.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260716140000 +0000" stop="20260716143000 +0000">
-    <title lang="zh">UCI Mountain Bike World Series Review</title>
-    <desc>Action from the 2026 La Thuile Enduro in Italy.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260716143000 +0000" stop="20260716150000 +0000">
-    <title lang="zh">The WRC Magazine</title>
-    <desc>Action from Rally Estonia.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260716150000 +0000" stop="20260716160000 +0000">
-    <title lang="zh">NWSL</title>
-    <desc>Utah Royals FC v Gotham FC.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260716160000 +0000" stop="20260716170000 +0000">
-    <title lang="zh">NWSL</title>
-    <desc>Seattle Reign v Portland Thorns.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260716170000 +0000" stop="20260716173000 +0000">
-    <title lang="zh">UCI Mountain Bike World Series Women</title>
-    <desc>Action from the women's elite cross country olympic race in Pal Arinsal, Andorra.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260716173000 +0000" stop="20260716180000 +0000">
-    <title lang="zh">UCI Mountain Bike World Series Men</title>
-    <desc>Action from the men's elite cross country olympic race in Pal Arinsal, Andorra.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260716180000 +0000" stop="20260716183000 +0000">
-    <title lang="zh">UCI Mountain Bike World Series Review</title>
-    <desc>Action from the 2026 La Thuile Enduro in Italy.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260716183000 +0000" stop="20260716184500 +0000">
-    <title lang="zh">TNT Sports Reload</title>
-    <desc>The best bits from TNT Sports over the last week, including exclusive interviews, top action, and more.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260716184500 +0000" stop="20260716190000 +0000">
-    <title lang="zh">The Gruppetto</title>
-    <desc>Rob Hatch presents news from the world of cycling.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260716190000 +0000" stop="20260716200000 +0000">
-    <title lang="zh">Tour de France Men Highlights</title>
-    <desc>Action from the 12th stage of the race.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260716200000 +0000" stop="20260716213000 +0000">
-    <title lang="zh">AFL</title>
-    <desc>Geelong Cats v St Kilda Saints.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260716213000 +0000" stop="20260716223000 +0000">
-    <title lang="zh">FIM Speedway Grand Prix Highlights</title>
-    <desc>Action from the sixth round of the season in Malilla, Sweden.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260716223000 +0000" stop="20260716230000 +0000">
-    <title lang="zh">MLB Plays of the Week</title>
-    <desc>A look at the most exciting plays from the past week's matches.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260716230000 +0000" stop="20260717000000 +0000">
-    <title lang="zh">Live MLB</title>
-    <desc>Philadelphia Phillies v New York Mets (Start-time 12.10am). Coverage of the National League match from Citizens Bank Park, as both sides play their first game back after the All-Star game break. This is the first match in a three-game series and the first meeting between these teams since another three-match contest in New York towards the end of June.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400480" start="20260717020000 +0000" stop="20260717023000 +0000">
-    <title lang="zh">MLB Plays of the Week</title>
-    <desc>A look at the most exciting plays from the past week's matches.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400480" start="20260717023000 +0000" stop="20260717030000 +0000">
-    <title lang="zh">TNT Sports Reload</title>
-    <desc>The best bits from TNT Sports over the last week, including exclusive interviews, top action, and more.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400480" start="20260717030000 +0000" stop="20260717050000 +0000">
+  <programme channel="400478" start="20260716170000 +0000" stop="20260716190000 +0000">
     <title lang="zh">MLB</title>
     <desc>Action from the 2026 Home Run Derby.</desc>
-    <date>2026-07-17</date>
+    <date>2026-07-16</date>
   </programme>
-  <programme channel="400480" start="20260717050000 +0000" stop="20260717080000 +0000">
+  <programme channel="400478" start="20260716190000 +0000" stop="20260716220000 +0000">
     <title lang="zh">MLB</title>
     <desc>Action from the 2026 All Star Game.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="400478" start="20260716220000 +0000" stop="20260717000000 +0000">
+    <title lang="zh">UFC</title>
+    <desc>Conor McGregor v Max Holloway. Action from the welterweight bout at T-Mobile Arena in Las Vegas, Nevada, plus the undercard for UFC 329.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="400478" start="20260717010000 +0000" stop="20260717024500 +0000">
+    <title lang="zh">UFC Reloaded</title>
+    <desc>We revisit UFC 110 from February 2010 in Sydney, featuring the captivating headline bout between Minotauro Nogueira and Cain Velasquez.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="400480" start="20260717080000 +0000" stop="20260717083000 +0000">
-    <title lang="zh">TNT Sports Reload</title>
-    <desc>The best bits from TNT Sports over the last week, including exclusive interviews, top action, and more.</desc>
+  <programme channel="400478" start="20260717024500 +0000" stop="20260717043000 +0000">
+    <title lang="zh">UFC Reloaded</title>
+    <desc>A look back at the thrilling welterweight clash between Gunnar Nelson and Rick Story at UFC Fight Night in Stockholm, from October 2014.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="400480" start="20260717083000 +0000" stop="20260717093000 +0000">
-    <title lang="zh">WRC Review</title>
-    <desc>A look back at Rally Estonia, which served as the eighth round of the season.</desc>
+  <programme channel="400478" start="20260717043000 +0000" stop="20260717050000 +0000">
+    <title lang="zh">Formula E Flashback</title>
+    <desc>A look back at a thrilling 2015 race at Battersea Park Street Circuit in London. Nelson Piquet Jr. had an opportunity to claim his first Formula E title.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="400480" start="20260717093000 +0000" stop="20260717123000 +0000">
-    <title lang="zh">Live World Rally Championship</title>
-    <desc>The Rally Estonia. Coverage from special stages one, two and three of the ninth round of the season, which takes place in Tartu County.</desc>
+  <programme channel="400478" start="20260717050000 +0000" stop="20260717060000 +0000">
+    <title lang="zh">The Gallagher PREM</title>
+    <desc>Exeter Chiefs v Saracens.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="400480" start="20260717123000 +0000" stop="20260717131500 +0000">
-    <title lang="zh">WRC: More Than Machine</title>
-    <desc>Champion Thierry Neuville faces crisis while new Hyundai signee Adrien Fourmaux delivers a stunning performance, setting the stage for Gregoire Munster's emotional comeback.</desc>
+  <programme channel="400478" start="20260717060000 +0000" stop="20260717070000 +0000">
+    <title lang="zh">The Gallagher PREM</title>
+    <desc>Bath v Leicester Tigers.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="400480" start="20260717131500 +0000" stop="20260717161500 +0000">
-    <title lang="zh">Live World Rally Championship</title>
-    <desc>The Rally Estonia. Coverage from special stages four, five and six of the ninth round of the season, which takes place in Tartu County.</desc>
+  <programme channel="400478" start="20260717070000 +0000" stop="20260717080000 +0000">
+    <title lang="zh">The Gallagher PREM</title>
+    <desc>Sale Sharks v Bristol Bears.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="400480" start="20260717161500 +0000" stop="20260717163000 +0000">
-    <title lang="zh">MotoGP Rewind</title>
-    <desc>A look back at the best of the action from the 2026 MotoGP Grand Prix of Germany.</desc>
+  <programme channel="400478" start="20260717080000 +0000" stop="20260717090000 +0000">
+    <title lang="zh">The Gallagher PREM</title>
+    <desc>Harlequins v Northampton Saints.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="400480" start="20260717163000 +0000" stop="20260717183000 +0000">
-    <title lang="zh">Live World Rally Championship</title>
-    <desc>The Rally Estonia. Coverage from special stage seven of the ninth round of the season, which takes place in Tartu County.</desc>
+  <programme channel="400478" start="20260717090000 +0000" stop="20260717100000 +0000">
+    <title lang="zh">The Gallagher PREM</title>
+    <desc>Gloucester v Newcastle Red Bulls.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="400480" start="20260717183000 +0000" stop="20260717190000 +0000">
-    <title lang="zh">TCR World Tour Review</title>
-    <desc>Action from rounds six and seven at Circuit Paul Ricard in Le Castellet.</desc>
+  <programme channel="400478" start="20260717100000 +0000" stop="20260717110000 +0000">
+    <title lang="zh">The Gallagher PREM</title>
+    <desc>Northampton Saints v Leicester Tigers. Action from the semi-final match at cinch Stadium at Franklin's Gardens.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="400480" start="20260717190000 +0000" stop="20260717203000 +0000">
-    <title lang="zh">AFL</title>
-    <desc>Sydney Swans v Adelaide Crows.</desc>
+  <programme channel="400478" start="20260717110000 +0000" stop="20260717120000 +0000">
+    <title lang="zh">The Gallagher PREM</title>
+    <desc>Bath Rugby v Exeter Chiefs. Action from the semi-final at The Recreation Ground.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="400480" start="20260717203000 +0000" stop="20260717220000 +0000">
+  <programme channel="400478" start="20260717120000 +0000" stop="20260717133000 +0000">
+    <title lang="zh">The Gallagher PREM</title>
+    <desc>Northampton Saints v Exeter Chiefs. Action from the final at Allianz Stadium Twickenham.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400478" start="20260717133000 +0000" stop="20260717143000 +0000">
+    <title lang="zh">FIM Speedway Grand Prix Highlights</title>
+    <desc>Action from the sixth round of the season in Malilla, Sweden.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400478" start="20260717143000 +0000" stop="20260717153000 +0000">
+    <title lang="zh">MotoGP Highlights</title>
+    <desc>Action from the 2026 MotoGP Grand Prix of Germany.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400478" start="20260717153000 +0000" stop="20260717154500 +0000">
+    <title lang="zh">World Superbike Rewind</title>
+    <desc>The most exciting moments from the eighth round of the season at Donington Park Circuit in the United Kingdom.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400478" start="20260717154500 +0000" stop="20260717160000 +0000">
+    <title lang="zh">British Superbikes Rewind</title>
+    <desc>A look back at the best action from the fourth round of the season at Snetterton Circuit.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400478" start="20260717160000 +0000" stop="20260717173000 +0000">
     <title lang="zh">Ultimate Pool</title>
     <desc>Action from the Group 5 matches in the Champions League tournament, as four players competed in a series of round-robin matches to earn a place in the Super 8's.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="400480" start="20260717220000 +0000" stop="20260717223000 +0000">
-    <title lang="zh">The Muddy Roots of Football - Part 1</title>
-    <desc>Following a football team in the highlands of Ireland made of members of the same family who speak a language that none of their opponents understand.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400480" start="20260717223000 +0000" stop="20260717230000 +0000">
-    <title lang="zh">The Muddy Roots of Football - Part 2</title>
-    <desc>In Copsa Mica, the pollution created by industrial activity has impacted the health of the local team and forced them to transplant a football pitch from a nearby village.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400480" start="20260717230000 +0000" stop="20260717233000 +0000">
-    <title lang="zh">The Muddy Roots of Football - Part 3</title>
-    <desc>With a cemetery behind one of the goals, this is where players of Vilar de Barrio play. The clay pitch is described as the 'worst in Spain' and the coach is running for mayor.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400480" start="20260717233000 +0000" stop="20260718000000 +0000">
-    <title lang="zh">The Muddy Roots of Football - Part 4</title>
-    <desc>In Ireland, a home captain recounts the previous night's Christmas party, and a tight and terrible game ends with the captain getting told off by his mother.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400480" start="20260718000000 +0000" stop="20260719000000 +0000">
-    <title lang="zh">The Muddy Roots of Football - Part 5</title>
-    <desc>Witness the remarkable journey of the one-armed goalkeeper who has defied all odds and refuses to give up.</desc>
-    <date>2026-07-18</date>
-  </programme>
-  <programme channel="400479" start="20260716070000 +0000" stop="20260716080000 +0000">
-    <title lang="zh">Sign Up - Into Football</title>
-    <desc>Damaris Cooke and Rolf Choutan go behind the scenes at Premier League clubs. Watch our favourite interviews and moments from last season, all featuring BSL and subtitles.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400479" start="20260716080000 +0000" stop="20260716100000 +0000">
+  <programme channel="400478" start="20260717173000 +0000" stop="20260717203000 +0000">
     <title lang="zh">MLB</title>
-    <desc>Action from the 2026 Home Run Derby.</desc>
-    <date>2026-07-16</date>
+    <desc>Action from the 2026 All Star Game.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400478" start="20260717203000 +0000" stop="20260717210000 +0000">
+    <title lang="zh">MLB Plays of the Week</title>
+    <desc>A look at the most exciting plays from the past week's matches.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400478" start="20260717210000 +0000" stop="20260717220000 +0000">
+    <title lang="zh">IFSC Climbing World Series Highlights</title>
+    <desc>Action from the latest round of the season in Chamonix, France.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400478" start="20260717220000 +0000" stop="20260717223000 +0000">
+    <title lang="zh">The Football Archives: UEFA Champions League</title>
+    <desc>This episode of The Football Archives takes a look at the 1992/93 UEFA Champions League season.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400478" start="20260717223000 +0000" stop="20260717230000 +0000">
+    <title lang="zh">The Football Archives: UEFA Champions League</title>
+    <desc>This episode of The Football Archives takes a look at the 1993/94 UEFA Champions League season.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400478" start="20260717230000 +0000" stop="20260717233000 +0000">
+    <title lang="zh">The Football Archives: UEFA Champions League</title>
+    <desc>This episode of The Football Archives takes a look at the 1994/95 UEFA Champions League season.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400478" start="20260717233000 +0000" stop="20260718000000 +0000">
+    <title lang="zh">The Football Archives: UEFA Champions League</title>
+    <desc>A look at the 1996/97 UEFA Champions League season.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400478" start="20260718000000 +0000" stop="20260719000000 +0000">
+    <title lang="zh">World Rally Championship</title>
+    <desc>Action from the first day of the Rally Estonia.</desc>
+    <date>2026-07-18</date>
   </programme>
   <programme channel="400479" start="20260716100000 +0000" stop="20260716130000 +0000">
     <title lang="zh">MLB</title>
@@ -678,26 +633,6 @@
     <title lang="zh">UFC: The Ultimate Fighter</title>
     <desc>MMA fighters train and compete against each other for a contract with the UFC, coached by Daniel Cormier and Michael Bisping.</desc>
     <date>2026-07-17</date>
-  </programme>
-  <programme channel="464777" start="20260716073000 +0000" stop="20260716080000 +0000">
-    <title lang="zh">Bathroom Makeover</title>
-    <desc>Transform your bath affordably in just one day!</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="464777" start="20260716080000 +0000" stop="20260716083000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="464777" start="20260716083000 +0000" stop="20260716093000 +0000">
-    <title lang="zh">Bathroom Makeover</title>
-    <desc>Transform your bath affordably in just one day!</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="464777" start="20260716093000 +0000" stop="20260716100000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-07-16</date>
   </programme>
   <programme channel="464777" start="20260716100000 +0000" stop="20260716130000 +0000">
     <title lang="zh">SportsNite</title>
@@ -884,525 +819,185 @@
     <desc>From NBT Bank Stadium in Syracuse, N.Y.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="400478" start="20260716070000 +0000" stop="20260716080000 +0000">
-    <title lang="zh">The Gallagher PREM</title>
-    <desc>Harlequins v Exeter Chiefs.</desc>
+  <programme channel="400480" start="20260716091500 +0000" stop="20260716123000 +0000">
+    <title lang="zh">Live AFL</title>
+    <desc>Geelong Cats v St Kilda Saints (Bounce-up 10.30am). Coverage of the match from GMHBA Stadium in Geelong.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="400478" start="20260716080000 +0000" stop="20260716090000 +0000">
-    <title lang="zh">The Gallagher PREM</title>
-    <desc>Saracens v Gloucester Rugby.</desc>
+  <programme channel="400480" start="20260716123000 +0000" stop="20260716133000 +0000">
+    <title lang="zh">One Day International Cricket</title>
+    <desc>West Indies v New Zealand. Action from the second ODI in the five-match series from Providence Cricket Stadium in Guyana.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="400478" start="20260716090000 +0000" stop="20260716100000 +0000">
-    <title lang="zh">The Gallagher PREM</title>
-    <desc>Sale Sharks v Leicester Tigers.</desc>
+  <programme channel="400480" start="20260716133000 +0000" stop="20260716140000 +0000">
+    <title lang="zh">Spirit of Yachting</title>
+    <desc>A special look at the Rolex TP52 World Championship.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="400478" start="20260716100000 +0000" stop="20260716110000 +0000">
-    <title lang="zh">The Gallagher PREM</title>
-    <desc>Bristol Bears v Bath Rugby.</desc>
+  <programme channel="400480" start="20260716140000 +0000" stop="20260716143000 +0000">
+    <title lang="zh">UCI Mountain Bike World Series Review</title>
+    <desc>Action from the 2026 La Thuile Enduro in Italy.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="400478" start="20260716110000 +0000" stop="20260716120000 +0000">
-    <title lang="zh">The Gallagher PREM</title>
-    <desc>Saracens v Harlequins.</desc>
+  <programme channel="400480" start="20260716143000 +0000" stop="20260716150000 +0000">
+    <title lang="zh">The WRC Magazine</title>
+    <desc>Action from Rally Estonia.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="400478" start="20260716120000 +0000" stop="20260716130000 +0000">
-    <title lang="zh">The Gallagher PREM</title>
-    <desc>Northampton Saints v Gloucester Rugby.</desc>
+  <programme channel="400480" start="20260716150000 +0000" stop="20260716160000 +0000">
+    <title lang="zh">NWSL</title>
+    <desc>Utah Royals FC v Gotham FC.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="400478" start="20260716130000 +0000" stop="20260716140000 +0000">
-    <title lang="zh">The Gallagher PREM</title>
-    <desc>Newcastle Red Bulls v Sale Sharks.</desc>
+  <programme channel="400480" start="20260716160000 +0000" stop="20260716170000 +0000">
+    <title lang="zh">NWSL</title>
+    <desc>Seattle Reign v Portland Thorns.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="400478" start="20260716140000 +0000" stop="20260716150000 +0000">
-    <title lang="zh">The Gallagher PREM</title>
-    <desc>Leicester Tigers v Exeter Chiefs.</desc>
+  <programme channel="400480" start="20260716170000 +0000" stop="20260716173000 +0000">
+    <title lang="zh">UCI Mountain Bike World Series Women</title>
+    <desc>Action from the women's elite cross country olympic race in Pal Arinsal, Andorra.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="400478" start="20260716150000 +0000" stop="20260716160000 +0000">
-    <title lang="zh">MotoGP Highlights</title>
-    <desc>Action from the 2026 MotoGP Grand Prix of Germany.</desc>
+  <programme channel="400480" start="20260716173000 +0000" stop="20260716180000 +0000">
+    <title lang="zh">UCI Mountain Bike World Series Men</title>
+    <desc>Action from the men's elite cross country olympic race in Pal Arinsal, Andorra.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="400478" start="20260716160000 +0000" stop="20260716170000 +0000">
+  <programme channel="400480" start="20260716180000 +0000" stop="20260716183000 +0000">
+    <title lang="zh">UCI Mountain Bike World Series Review</title>
+    <desc>Action from the 2026 La Thuile Enduro in Italy.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="400480" start="20260716183000 +0000" stop="20260716184500 +0000">
+    <title lang="zh">TNT Sports Reload</title>
+    <desc>The best bits from TNT Sports over the last week, including exclusive interviews, top action, and more.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="400480" start="20260716184500 +0000" stop="20260716190000 +0000">
+    <title lang="zh">The Gruppetto</title>
+    <desc>Rob Hatch presents news from the world of cycling.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="400480" start="20260716190000 +0000" stop="20260716200000 +0000">
+    <title lang="zh">Tour de France Men Highlights</title>
+    <desc>Action from the 12th stage of the race.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="400480" start="20260716200000 +0000" stop="20260716213000 +0000">
+    <title lang="zh">AFL</title>
+    <desc>Geelong Cats v St Kilda Saints.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="400480" start="20260716213000 +0000" stop="20260716223000 +0000">
     <title lang="zh">FIM Speedway Grand Prix Highlights</title>
     <desc>Action from the sixth round of the season in Malilla, Sweden.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="400478" start="20260716170000 +0000" stop="20260716190000 +0000">
-    <title lang="zh">MLB</title>
-    <desc>Action from the 2026 Home Run Derby.</desc>
+  <programme channel="400480" start="20260716223000 +0000" stop="20260716230000 +0000">
+    <title lang="zh">MLB Plays of the Week</title>
+    <desc>A look at the most exciting plays from the past week's matches.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="400478" start="20260716190000 +0000" stop="20260716220000 +0000">
-    <title lang="zh">MLB</title>
-    <desc>Action from the 2026 All Star Game.</desc>
+  <programme channel="400480" start="20260716230000 +0000" stop="20260717000000 +0000">
+    <title lang="zh">Live MLB</title>
+    <desc>Philadelphia Phillies v New York Mets (Start-time 12.10am). Coverage of the National League match from Citizens Bank Park, as both sides play their first game back after the All-Star game break. This is the first match in a three-game series and the first meeting between these teams since another three-match contest in New York towards the end of June.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="400478" start="20260716220000 +0000" stop="20260717000000 +0000">
-    <title lang="zh">UFC</title>
-    <desc>Conor McGregor v Max Holloway. Action from the welterweight bout at T-Mobile Arena in Las Vegas, Nevada, plus the undercard for UFC 329.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="400478" start="20260717010000 +0000" stop="20260717024500 +0000">
-    <title lang="zh">UFC Reloaded</title>
-    <desc>We revisit UFC 110 from February 2010 in Sydney, featuring the captivating headline bout between Minotauro Nogueira and Cain Velasquez.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400478" start="20260717024500 +0000" stop="20260717043000 +0000">
-    <title lang="zh">UFC Reloaded</title>
-    <desc>A look back at the thrilling welterweight clash between Gunnar Nelson and Rick Story at UFC Fight Night in Stockholm, from October 2014.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400478" start="20260717043000 +0000" stop="20260717050000 +0000">
-    <title lang="zh">Formula E Flashback</title>
-    <desc>A look back at a thrilling 2015 race at Battersea Park Street Circuit in London. Nelson Piquet Jr. had an opportunity to claim his first Formula E title.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400478" start="20260717050000 +0000" stop="20260717060000 +0000">
-    <title lang="zh">The Gallagher PREM</title>
-    <desc>Exeter Chiefs v Saracens.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400478" start="20260717060000 +0000" stop="20260717070000 +0000">
-    <title lang="zh">The Gallagher PREM</title>
-    <desc>Bath v Leicester Tigers.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400478" start="20260717070000 +0000" stop="20260717080000 +0000">
-    <title lang="zh">The Gallagher PREM</title>
-    <desc>Sale Sharks v Bristol Bears.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400478" start="20260717080000 +0000" stop="20260717090000 +0000">
-    <title lang="zh">The Gallagher PREM</title>
-    <desc>Harlequins v Northampton Saints.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400478" start="20260717090000 +0000" stop="20260717100000 +0000">
-    <title lang="zh">The Gallagher PREM</title>
-    <desc>Gloucester v Newcastle Red Bulls.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400478" start="20260717100000 +0000" stop="20260717110000 +0000">
-    <title lang="zh">The Gallagher PREM</title>
-    <desc>Northampton Saints v Leicester Tigers. Action from the semi-final match at cinch Stadium at Franklin's Gardens.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400478" start="20260717110000 +0000" stop="20260717120000 +0000">
-    <title lang="zh">The Gallagher PREM</title>
-    <desc>Bath Rugby v Exeter Chiefs. Action from the semi-final at The Recreation Ground.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400478" start="20260717120000 +0000" stop="20260717133000 +0000">
-    <title lang="zh">The Gallagher PREM</title>
-    <desc>Northampton Saints v Exeter Chiefs. Action from the final at Allianz Stadium Twickenham.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400478" start="20260717133000 +0000" stop="20260717143000 +0000">
-    <title lang="zh">FIM Speedway Grand Prix Highlights</title>
-    <desc>Action from the sixth round of the season in Malilla, Sweden.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400478" start="20260717143000 +0000" stop="20260717153000 +0000">
-    <title lang="zh">MotoGP Highlights</title>
-    <desc>Action from the 2026 MotoGP Grand Prix of Germany.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400478" start="20260717153000 +0000" stop="20260717154500 +0000">
-    <title lang="zh">World Superbike Rewind</title>
-    <desc>The most exciting moments from the eighth round of the season at Donington Park Circuit in the United Kingdom.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400478" start="20260717154500 +0000" stop="20260717160000 +0000">
-    <title lang="zh">British Superbikes Rewind</title>
-    <desc>A look back at the best action from the fourth round of the season at Snetterton Circuit.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400478" start="20260717160000 +0000" stop="20260717173000 +0000">
-    <title lang="zh">Ultimate Pool</title>
-    <desc>Action from the Group 5 matches in the Champions League tournament, as four players competed in a series of round-robin matches to earn a place in the Super 8's.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400478" start="20260717173000 +0000" stop="20260717203000 +0000">
-    <title lang="zh">MLB</title>
-    <desc>Action from the 2026 All Star Game.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="400478" start="20260717203000 +0000" stop="20260717210000 +0000">
+  <programme channel="400480" start="20260717020000 +0000" stop="20260717023000 +0000">
     <title lang="zh">MLB Plays of the Week</title>
     <desc>A look at the most exciting plays from the past week's matches.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="400478" start="20260717210000 +0000" stop="20260717220000 +0000">
-    <title lang="zh">IFSC Climbing World Series Highlights</title>
-    <desc>Action from the latest round of the season in Chamonix, France.</desc>
+  <programme channel="400480" start="20260717023000 +0000" stop="20260717030000 +0000">
+    <title lang="zh">TNT Sports Reload</title>
+    <desc>The best bits from TNT Sports over the last week, including exclusive interviews, top action, and more.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="400478" start="20260717220000 +0000" stop="20260717223000 +0000">
-    <title lang="zh">The Football Archives: UEFA Champions League</title>
-    <desc>This episode of The Football Archives takes a look at the 1992/93 UEFA Champions League season.</desc>
+  <programme channel="400480" start="20260717030000 +0000" stop="20260717050000 +0000">
+    <title lang="zh">MLB</title>
+    <desc>Action from the 2026 Home Run Derby.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="400478" start="20260717223000 +0000" stop="20260717230000 +0000">
-    <title lang="zh">The Football Archives: UEFA Champions League</title>
-    <desc>This episode of The Football Archives takes a look at the 1993/94 UEFA Champions League season.</desc>
+  <programme channel="400480" start="20260717050000 +0000" stop="20260717080000 +0000">
+    <title lang="zh">MLB</title>
+    <desc>Action from the 2026 All Star Game.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="400478" start="20260717230000 +0000" stop="20260717233000 +0000">
-    <title lang="zh">The Football Archives: UEFA Champions League</title>
-    <desc>This episode of The Football Archives takes a look at the 1994/95 UEFA Champions League season.</desc>
+  <programme channel="400480" start="20260717080000 +0000" stop="20260717083000 +0000">
+    <title lang="zh">TNT Sports Reload</title>
+    <desc>The best bits from TNT Sports over the last week, including exclusive interviews, top action, and more.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="400478" start="20260717233000 +0000" stop="20260718000000 +0000">
-    <title lang="zh">The Football Archives: UEFA Champions League</title>
-    <desc>A look at the 1996/97 UEFA Champions League season.</desc>
+  <programme channel="400480" start="20260717083000 +0000" stop="20260717093000 +0000">
+    <title lang="zh">WRC Review</title>
+    <desc>A look back at Rally Estonia, which served as the eighth round of the season.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="400478" start="20260718000000 +0000" stop="20260719000000 +0000">
-    <title lang="zh">World Rally Championship</title>
-    <desc>Action from the first day of the Rally Estonia.</desc>
+  <programme channel="400480" start="20260717093000 +0000" stop="20260717123000 +0000">
+    <title lang="zh">Live World Rally Championship</title>
+    <desc>The Rally Estonia. Coverage from special stages one, two and three of the ninth round of the season, which takes place in Tartu County.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400480" start="20260717123000 +0000" stop="20260717131500 +0000">
+    <title lang="zh">WRC: More Than Machine</title>
+    <desc>Champion Thierry Neuville faces crisis while new Hyundai signee Adrien Fourmaux delivers a stunning performance, setting the stage for Gregoire Munster's emotional comeback.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400480" start="20260717131500 +0000" stop="20260717161500 +0000">
+    <title lang="zh">Live World Rally Championship</title>
+    <desc>The Rally Estonia. Coverage from special stages four, five and six of the ninth round of the season, which takes place in Tartu County.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400480" start="20260717161500 +0000" stop="20260717163000 +0000">
+    <title lang="zh">MotoGP Rewind</title>
+    <desc>A look back at the best of the action from the 2026 MotoGP Grand Prix of Germany.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400480" start="20260717163000 +0000" stop="20260717183000 +0000">
+    <title lang="zh">Live World Rally Championship</title>
+    <desc>The Rally Estonia. Coverage from special stage seven of the ninth round of the season, which takes place in Tartu County.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400480" start="20260717183000 +0000" stop="20260717190000 +0000">
+    <title lang="zh">TCR World Tour Review</title>
+    <desc>Action from rounds six and seven at Circuit Paul Ricard in Le Castellet.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400480" start="20260717190000 +0000" stop="20260717203000 +0000">
+    <title lang="zh">AFL</title>
+    <desc>Sydney Swans v Adelaide Crows.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400480" start="20260717203000 +0000" stop="20260717220000 +0000">
+    <title lang="zh">Ultimate Pool</title>
+    <desc>Action from the Group 5 matches in the Champions League tournament, as four players competed in a series of round-robin matches to earn a place in the Super 8's.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400480" start="20260717220000 +0000" stop="20260717223000 +0000">
+    <title lang="zh">The Muddy Roots of Football - Part 1</title>
+    <desc>Following a football team in the highlands of Ireland made of members of the same family who speak a language that none of their opponents understand.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400480" start="20260717223000 +0000" stop="20260717230000 +0000">
+    <title lang="zh">The Muddy Roots of Football - Part 2</title>
+    <desc>In Copsa Mica, the pollution created by industrial activity has impacted the health of the local team and forced them to transplant a football pitch from a nearby village.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400480" start="20260717230000 +0000" stop="20260717233000 +0000">
+    <title lang="zh">The Muddy Roots of Football - Part 3</title>
+    <desc>With a cemetery behind one of the goals, this is where players of Vilar de Barrio play. The clay pitch is described as the 'worst in Spain' and the coach is running for mayor.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400480" start="20260717233000 +0000" stop="20260718000000 +0000">
+    <title lang="zh">The Muddy Roots of Football - Part 4</title>
+    <desc>In Ireland, a home captain recounts the previous night's Christmas party, and a tight and terrible game ends with the captain getting told off by his mother.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="400480" start="20260718000000 +0000" stop="20260719000000 +0000">
+    <title lang="zh">The Muddy Roots of Football - Part 5</title>
+    <desc>Witness the remarkable journey of the one-armed goalkeeper who has defied all odds and refuses to give up.</desc>
     <date>2026-07-18</date>
-  </programme>
-  <programme channel="465124" start="20260716070000 +0000" stop="20260716090000 +0000">
-    <title lang="zh">MLB Games of the Year</title>
-    <desc>Paul Skenes makes his MLB debut and the Pirates rally to notch a 10-9 win over the Cubs.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465124" start="20260716090000 +0000" stop="20260716100000 +0000">
-    <title lang="zh">World Tennis With Harry Cicma</title>
-    <desc>Featuring exclusive interviews and features with the biggest names in tennis.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465124" start="20260716100000 +0000" stop="20260716120000 +0000">
-    <title lang="zh">Pirates Classics</title>
-    <desc>From Sept. 06, 2009.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465124" start="20260716120000 +0000" stop="20260716123000 +0000">
-    <title lang="zh">Best Mattress Topper Ever!</title>
-    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465124" start="20260716123000 +0000" stop="20260716130000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465124" start="20260716130000 +0000" stop="20260716133000 +0000">
-    <title lang="zh">Best Mattress Topper Ever!</title>
-    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465124" start="20260716133000 +0000" stop="20260716140000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465124" start="20260716140000 +0000" stop="20260716143000 +0000">
-    <title lang="zh">Best Mattress Topper Ever!</title>
-    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465124" start="20260716143000 +0000" stop="20260716150000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465124" start="20260716150000 +0000" stop="20260716170000 +0000">
-    <title lang="zh">Pirates Classics</title>
-    <desc>From September 3. 2007.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465124" start="20260716170000 +0000" stop="20260716190000 +0000">
-    <title lang="zh">Pirates Classics</title>
-    <desc>From September 2, 1997.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465124" start="20260716190000 +0000" stop="20260716210000 +0000">
-    <title lang="zh">Pirates Classics</title>
-    <desc>Dave Parker comes up huge early against future Hall of Famer Bert Blyleven, in a Bucs victory at Three Rivers Stadium against the Expos. April 29, 1980.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465124" start="20260716210000 +0000" stop="20260716213000 +0000">
-    <title lang="zh">Get Me the Brandy</title>
-    <desc />
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465124" start="20260716213000 +0000" stop="20260716233000 +0000">
-    <title lang="zh">Pirates Classics</title>
-    <desc>July 27, 1982.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465124" start="20260716233000 +0000" stop="20260717000000 +0000">
-    <title lang="zh">Pirates Classics</title>
-    <desc>World Series, Game 7. From Oct. 17, 1971.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465124" start="20260717020000 +0000" stop="20260717023000 +0000">
-    <title lang="zh">Get Me the Brandy</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717023000 +0000" stop="20260717030000 +0000">
-    <title lang="zh">Get Me the Brandy</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717030000 +0000" stop="20260717050000 +0000">
-    <title lang="zh">Pirates Classics</title>
-    <desc>Paul Skenes pitches six shutout innings while sitting down nine Reds batters, in a victory for the Pirates. August 22, 2024.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717050000 +0000" stop="20260717070000 +0000">
-    <title lang="zh">Pirates Classics</title>
-    <desc>Paul Skenes remains dominant, striking out nine batters in a Pirates shutout effort over the Diamondbacks. July 27, 2025.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717070000 +0000" stop="20260717090000 +0000">
-    <title lang="zh">Pirates Classics</title>
-    <desc>Paul Skenes strikes out eight while surrendering only two hits over 6 innings in a dominant effort over the Los Angeles Dodgers, to earn his 10th win of the season. September 4, 2025.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717090000 +0000" stop="20260717093000 +0000">
-    <title lang="zh">18 Holes With Natalie Gulbis and Jimmy Hanlin</title>
-    <desc>Jimmy Hanlin and Natalie Gulbis showcase some of the best golf destinations.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717093000 +0000" stop="20260717100000 +0000">
-    <title lang="zh">Swing Clinic With Jimmy Hanlin</title>
-    <desc>Golf tips, strategy and review of products.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717100000 +0000" stop="20260717120000 +0000">
-    <title lang="zh">Pirates Classics</title>
-    <desc>Cutch gets clutch against the Diamondbacks. June 8, 2011.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717120000 +0000" stop="20260717123000 +0000">
-    <title lang="zh">Best Mattress Topper Ever!</title>
-    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717123000 +0000" stop="20260717130000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717130000 +0000" stop="20260717133000 +0000">
-    <title lang="zh">Best Mattress Topper Ever!</title>
-    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717133000 +0000" stop="20260717140000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717140000 +0000" stop="20260717143000 +0000">
-    <title lang="zh">Best Mattress Topper Ever!</title>
-    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717143000 +0000" stop="20260717150000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717150000 +0000" stop="20260717170000 +0000">
-    <title lang="zh">Pirates Classics</title>
-    <desc>From May 09, 2008.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717170000 +0000" stop="20260717190000 +0000">
-    <title lang="zh">Pirates Classics</title>
-    <desc>The Pirates and Astros battle it out in an early-season marathon. April 25, 2007.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717190000 +0000" stop="20260717210000 +0000">
-    <title lang="zh">Pirates Classics</title>
-    <desc>The Pittsburgh Pirates defeat the New York Mets in a pitching duel between John Candelaria and Hall of Famer Tom Seaver.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717210000 +0000" stop="20260717213000 +0000">
-    <title lang="zh">Fair Territory with Ken Rosenthal</title>
-    <desc>MLB insider Ken Rosenthal covers baseball's latest news and pressing issues.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717213000 +0000" stop="20260717220000 +0000">
-    <title lang="zh">Bucs Bounty</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717220000 +0000" stop="20260717223000 +0000">
-    <title lang="zh">Pirates First Pitch Live</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717223000 +0000" stop="20260717230000 +0000">
-    <title lang="zh">Pirates Game Day Live</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465124" start="20260717230000 +0000" stop="20260718000000 +0000">
-    <title lang="zh">Live: MLB Baseball</title>
-    <desc>The Pirates play the Guardians in Game 1 of a three-game series at Progressive Field. Pittsburgh are fresh off a series sweep against Milwaukee while Cleveland swept the series against Miami. Brandon Lowe leads Pittsburgh with 21 home runs.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="9175" start="20260716071500 +0000" stop="20260716074500 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Killarney.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="9175" start="20260716074500 +0000" stop="20260716081500 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Catterick.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="9175" start="20260716081500 +0000" stop="20260716084500 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Killarney.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="9175" start="20260716084500 +0000" stop="20260716091500 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Catterick.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="9175" start="20260716091500 +0000" stop="20260716094500 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Killarney.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="9175" start="20260716094500 +0000" stop="20260716101500 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Catterick.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="9175" start="20260716101500 +0000" stop="20260716104500 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Killarney.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="9175" start="20260716104500 +0000" stop="20260716111500 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Catterick.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="9175" start="20260716111500 +0000" stop="20260716113000 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Killarney.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="9175" start="20260716113000 +0000" stop="20260716120000 +0000">
-    <title lang="zh">This Racing Life</title>
-    <desc>Ella McNeill travels to Ireland to visit Pat Flynn and Andrew Slattery, gets the latest on Tipperary's redevelopment and tries her hand at hurling!</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="9175" start="20260716120000 +0000" stop="20260716123000 +0000">
-    <title lang="zh">Mark Your Card</title>
-    <desc>A preview of the day's racing with live news from the courses.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="9175" start="20260716123000 +0000" stop="20260716200000 +0000">
-    <title lang="zh">Live Racing</title>
-    <desc>Today's live racing action from Hamilton, Thirsk, Epsom, Leopardstown and Killarney.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="9175" start="20260716200000 +0000" stop="20260716203000 +0000">
-    <title lang="zh">This Racing Life</title>
-    <desc>Ella McNeill travels to Ireland to visit Pat Flynn and Andrew Slattery, gets the latest on Tipperary's redevelopment and tries her hand at hurling!</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="9175" start="20260716203000 +0000" stop="20260716220000 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch today's racing action from Hamilton, Thirsk and Epsom.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="9175" start="20260716220000 +0000" stop="20260716224500 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch today's racing action from Leopardstown and Killarney.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="9175" start="20260716224500 +0000" stop="20260717000000 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch today's racing action from Hamilton, Thirsk and Epsom.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="9175" start="20260717001500 +0000" stop="20260717014500 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Leopardstown and Killarney.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="9175" start="20260717014500 +0000" stop="20260717031500 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Hamilton, Thirsk and Epsom.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="9175" start="20260717031500 +0000" stop="20260717044500 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Leopardstown and Killarney.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="9175" start="20260717044500 +0000" stop="20260717061500 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Hamilton, Thirsk and Epsom.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="9175" start="20260717061500 +0000" stop="20260717074500 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Leopardstown and Killarney.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="9175" start="20260717074500 +0000" stop="20260717091500 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Hamilton, Thirsk and Epsom.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="9175" start="20260717091500 +0000" stop="20260717104500 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Leopardstown and Killarney.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="9175" start="20260717104500 +0000" stop="20260717114500 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch yesterday's racing action from Hamilton, Thirsk and Epsom.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="9175" start="20260717114500 +0000" stop="20260717121500 +0000">
-    <title lang="zh">This Racing Life</title>
-    <desc>Ella McNeill travels to Ireland to visit Pat Flynn and Andrew Slattery, gets the latest on Tipperary's redevelopment and tries her hand at hurling!</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="9175" start="20260717121500 +0000" stop="20260717124500 +0000">
-    <title lang="zh">Mark Your Card</title>
-    <desc>A preview of the day's racing with live news from the courses.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="9175" start="20260717124500 +0000" stop="20260717201500 +0000">
-    <title lang="zh">Live Racing</title>
-    <desc>Today's live racing action from Nottingham, Hamilton Park, Newmarket, Pontefract, Killarney and Down Royal.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="9175" start="20260717201500 +0000" stop="20260717204500 +0000">
-    <title lang="zh">This Racing Life</title>
-    <desc>Ella McNeill travels to Ireland to visit Pat Flynn and Andrew Slattery, gets the latest on Tipperary's redevelopment and tries her hand at hurling!</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="9175" start="20260717204500 +0000" stop="20260717221500 +0000">
-    <title lang="zh">Racing Replay</title>
-    <desc>Another chance to watch today's racing action from Nottingham, Hamilton Park, Newmarket and Pontefract.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="9175" start="20260717221500 +0000" stop="20260718000000 +0000">
-    <title lang="zh">Irish Racing Replay</title>
-    <desc>Another chance to watch today's racing action from Killarney and Down Royal.</desc>
-    <date>2026-07-17</date>
   </programme>
   <programme channel="470732" start="20260716053000 +0000" stop="20260716180000 +0000">
     <title lang="zh">Sportsnet Central</title>
@@ -1494,30 +1089,280 @@
     <desc>The Los Angeles Dodgers meet the New York Yankees at Yankee Stadium to open a three-game series. Shohei Ohtani leads the Dodgers in home runs and batting average, while Ben Rice leads the Yankees in home runs, batting average and runs batted in.</desc>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="465264" start="20260716073000 +0000" stop="20260716080000 +0000">
-    <title lang="zh">Hollywood Weapons</title>
-    <desc>In a classic western, Clint Eastwood -- aka Blondie -- saves Eli Wallach from the hangman's noose three separate times by shooting and severing the rope that he hangs from; recreating each scene and testing the reality of those shots.</desc>
+  <programme channel="465288" start="20260716100000 +0000" stop="20260716103000 +0000">
+    <title lang="zh">1916 Gold Rarity</title>
+    <desc>Own the first-ever Gold issue of the legendary 1916 Mercury Dime today. This special 2026 Gold Mercury Dime comes with a bonus Silver Medal, both dated 1916 in tribute to the classic coin and graded Perfect 70 condition in exclusive holders!</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="465264" start="20260716080000 +0000" stop="20260716083000 +0000">
-    <title lang="zh">Chasing the 29</title>
-    <desc>Follow Chase Anthony as he travels across North America pursuing one of the continent's greatest hunting challenges - the North American 29. From remote mountains to unforgiving backcountry, every hunt pushes physical limits, patience and determination. Along the way, the series captures the adventure, wildlife, landscapes and stories that come with a life dedicated to the outdoors.</desc>
+  <programme channel="465288" start="20260716103000 +0000" stop="20260716110000 +0000">
+    <title lang="zh">Tired of Pain? Go Drug-Free</title>
+    <desc>See how a drug-free patch is helping people find relief-without medication.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="465264" start="20260716083000 +0000" stop="20260716090000 +0000">
-    <title lang="zh">The Most Wanted List</title>
-    <desc>This isn't a highlight reel—it's the real deal. The Most Wanted List takes you into raw, unpredictable hunts where nothing goes as planned and every opportunity is earned. Misses, miles and moments that matter... this is what chasing the most wanted is all about.</desc>
+  <programme channel="465288" start="20260716110000 +0000" stop="20260716113000 +0000">
+    <title lang="zh">1916 Gold Rarity</title>
+    <desc>Own the first-ever Gold issue of the legendary 1916 Mercury Dime today. This special 2026 Gold Mercury Dime comes with a bonus Silver Medal, both dated 1916 in tribute to the classic coin and graded Perfect 70 condition in exclusive holders!</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="465264" start="20260716090000 +0000" stop="20260716093000 +0000">
-    <title lang="zh">Roger Raglin Outdoors</title>
-    <desc>Join host Roger Raglin for one exciting whitetail adventure after another. Roger Raglin Outdoors features all big game but is predominantly whitetail hunting utilizing a variety of hunting methods: bow, rifle and black powder. As a true outdoorsman and an exceptional big game hunter, Roger shares a lifetime of tricks and techniques to help you in your quest for big game.</desc>
+  <programme channel="465288" start="20260716113000 +0000" stop="20260716120000 +0000">
+    <title lang="zh">Tired of Pain? Go Drug-Free</title>
+    <desc>See how a drug-free patch is helping people find relief-without medication.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="465264" start="20260716093000 +0000" stop="20260716100000 +0000">
-    <title lang="zh">Bowhunter TV</title>
-    <desc>Curt Wells and 9/11 survivor Will Jimeno chase elk in the Colorado mountains, where close encounters and missed chances turn the focus to the experience and meaning of the hunt.</desc>
+  <programme channel="465288" start="20260716120000 +0000" stop="20260716123000 +0000">
+    <title lang="zh">1916 Gold Rarity</title>
+    <desc>Own the first-ever Gold issue of the legendary 1916 Mercury Dime today. This special 2026 Gold Mercury Dime comes with a bonus Silver Medal, both dated 1916 in tribute to the classic coin and graded Perfect 70 condition in exclusive holders!</desc>
     <date>2026-07-16</date>
+  </programme>
+  <programme channel="465288" start="20260716123000 +0000" stop="20260716130000 +0000">
+    <title lang="zh">Tired of Pain? Go Drug-Free</title>
+    <desc>See how a drug-free patch is helping people find relief-without medication.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465288" start="20260716130000 +0000" stop="20260716140000 +0000">
+    <title lang="zh">Live: Moser, Lombardi &amp; Kane on Altitude Radio 92.5</title>
+    <desc />
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465288" start="20260716140000 +0000" stop="20260716150000 +0000">
+    <title lang="zh">Live: Moser, Lombardi &amp; Kane on Altitude Radio 92.5</title>
+    <desc />
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465288" start="20260716150000 +0000" stop="20260716160000 +0000">
+    <title lang="zh">Live: Moser, Lombardi &amp; Kane on Altitude Radio 92.5</title>
+    <desc />
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465288" start="20260716160000 +0000" stop="20260716180000 +0000">
+    <title lang="zh">Tennis</title>
+    <desc>Coverage from the world of tennis.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465288" start="20260716180000 +0000" stop="20260716190000 +0000">
+    <title lang="zh">Moser, Lombardi &amp; Kane on Altitude Radio 92.5</title>
+    <desc />
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465288" start="20260716190000 +0000" stop="20260716193000 +0000">
+    <title lang="zh">Golf at Altitude</title>
+    <desc />
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465288" start="20260716193000 +0000" stop="20260716200000 +0000">
+    <title lang="zh">Golf at Altitude</title>
+    <desc>Green Valley Ranch Golf Club hosts the Colorado Open Championships and features a full range practice facility in addition to its courses.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465288" start="20260716200000 +0000" stop="20260716203000 +0000">
+    <title lang="zh">Sports Stars of Tomorrow</title>
+    <desc>Profiles of the top rookie, college and high-school talent in sports; current athletes share their experiences, advice and personal impressions of the road to stardom.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465288" start="20260716203000 +0000" stop="20260716210000 +0000">
+    <title lang="zh">She's in the Game</title>
+    <desc>Meet the next generation of superstar female athletes around the country as we go behind the scenes to shine the light on them and their interests off the field, along with catching up with the female legends who paved the way for all this growth.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465288" start="20260716210000 +0000" stop="20260716213000 +0000">
+    <title lang="zh">Pure Outdoor</title>
+    <desc>Outdoor sports from all over the world, from freestyle ski jumping to airplane aerobatics.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465288" start="20260716213000 +0000" stop="20260716220000 +0000">
+    <title lang="zh">Offroad Odyssey</title>
+    <desc>Adrenaline-pumping action, breathtaking scenery, and unforgettable encounter off-road.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465288" start="20260716220000 +0000" stop="20260716223000 +0000">
+    <title lang="zh">18 Holes With Natalie Gulbis and Jimmy Hanlin</title>
+    <desc>Jimmy Hanlin and Natalie Gulbis showcase some of the best golf destinations.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465288" start="20260716223000 +0000" stop="20260716230000 +0000">
+    <title lang="zh">Golfing the World</title>
+    <desc>Highlighting golf courses and private resorts from around the world.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465288" start="20260716230000 +0000" stop="20260717000000 +0000">
+    <title lang="zh">Tennis</title>
+    <desc>Coverage from the world of tennis.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465288" start="20260717010000 +0000" stop="20260717013000 +0000">
+    <title lang="zh">Golf at Altitude</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717013000 +0000" stop="20260717020000 +0000">
+    <title lang="zh">Nuggets Live!</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717020000 +0000" stop="20260717040000 +0000">
+    <title lang="zh">Live: NBA Summer League Basketball</title>
+    <desc>From Thomas &amp; Mack Center in Las Vegas.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717040000 +0000" stop="20260717043000 +0000">
+    <title lang="zh">Nuggets Postgame Live</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717043000 +0000" stop="20260717050000 +0000">
+    <title lang="zh">Golf at Altitude</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717050000 +0000" stop="20260717053000 +0000">
+    <title lang="zh">Golf at Altitude</title>
+    <desc>Green Valley Ranch Golf Club hosts the Colorado Open Championships and features a full range practice facility in addition to its courses.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717053000 +0000" stop="20260717073000 +0000">
+    <title lang="zh">NBA Summer League Basketball</title>
+    <desc>From Thomas &amp; Mack Center in Las Vegas.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717073000 +0000" stop="20260717080000 +0000">
+    <title lang="zh">Nuggets Postgame Live</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717080000 +0000" stop="20260717090000 +0000">
+    <title lang="zh">Poker Night</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717090000 +0000" stop="20260717100000 +0000">
+    <title lang="zh">World Poker Tour</title>
+    <desc>High-stakes tournament poker from some of the world's famous casinos and card rooms.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717100000 +0000" stop="20260717103000 +0000">
+    <title lang="zh">1916 Gold Rarity</title>
+    <desc>Own the first-ever Gold issue of the legendary 1916 Mercury Dime today. This special 2026 Gold Mercury Dime comes with a bonus Silver Medal, both dated 1916 in tribute to the classic coin and graded Perfect 70 condition in exclusive holders!</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717103000 +0000" stop="20260717110000 +0000">
+    <title lang="zh">Tired of Pain? Go Drug-Free</title>
+    <desc>See how a drug-free patch is helping people find relief-without medication.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717110000 +0000" stop="20260717113000 +0000">
+    <title lang="zh">1916 Gold Rarity</title>
+    <desc>Own the first-ever Gold issue of the legendary 1916 Mercury Dime today. This special 2026 Gold Mercury Dime comes with a bonus Silver Medal, both dated 1916 in tribute to the classic coin and graded Perfect 70 condition in exclusive holders!</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717113000 +0000" stop="20260717120000 +0000">
+    <title lang="zh">Tired of Pain? Go Drug-Free</title>
+    <desc>See how a drug-free patch is helping people find relief-without medication.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717120000 +0000" stop="20260717123000 +0000">
+    <title lang="zh">Ready for a safer shower? Enjoy a one-day bath remodel with Jacuzzi.</title>
+    <desc>Trusted brand Jacuzzi Bath Remodel and interior designer Christina Hall share their secrets on how you can easily and affordably transform your bathroom into a gorgeous custom, safe, stylish space in 1 day! Call for a FREE quote &amp; installation.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717123000 +0000" stop="20260717130000 +0000">
+    <title lang="zh">Tired of Pain? Go Drug-Free</title>
+    <desc>See how a drug-free patch is helping people find relief-without medication.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717130000 +0000" stop="20260717133000 +0000">
+    <title lang="zh">Off the Court</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717133000 +0000" stop="20260717140000 +0000">
+    <title lang="zh">Off the Court</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717140000 +0000" stop="20260717143000 +0000">
+    <title lang="zh">Off the Court</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717143000 +0000" stop="20260717150000 +0000">
+    <title lang="zh">Off the Court</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717150000 +0000" stop="20260717153000 +0000">
+    <title lang="zh">Off the Court</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717153000 +0000" stop="20260717154500 +0000">
+    <title lang="zh">Altitude Extra</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717154500 +0000" stop="20260717160000 +0000">
+    <title lang="zh">Altitude Extra</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717160000 +0000" stop="20260717180000 +0000">
+    <title lang="zh">NBA Summer League Basketball</title>
+    <desc>From Thomas &amp; Mack Center in Las Vegas.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717180000 +0000" stop="20260717183000 +0000">
+    <title lang="zh">Nuggets Postgame Live</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717183000 +0000" stop="20260717184500 +0000">
+    <title lang="zh">Altitude Extra</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717184500 +0000" stop="20260717190000 +0000">
+    <title lang="zh">Altitude Extra</title>
+    <desc>Vic Lombardi sat down with Denver Nuggets legend Dan Issel to discuss his basketball career, his involvement with horse racing and his evaluation of Nikola Jokić.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717190000 +0000" stop="20260717200000 +0000">
+    <title lang="zh">Poker Night</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717200000 +0000" stop="20260717210000 +0000">
+    <title lang="zh">World Poker Tour</title>
+    <desc>Professional poker action from a series of international tournaments.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717210000 +0000" stop="20260717230000 +0000">
+    <title lang="zh">INTENNSE Pro Tennis</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465288" start="20260717230000 +0000" stop="20260718000000 +0000">
+    <title lang="zh">INTENNSE Pro Tennis</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="9415" start="20260716053000 +0000" stop="20260716203000 +0000">
+    <title lang="zh">Live The Open: Round 1</title>
+    <desc>The opening round of the 154th Open Championship, staged at Royal Birkdale. A year on from Scottie Scheffler's Portrush masterclass, the Claret Jug is up for grabs once more.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="9415" start="20260716203000 +0000" stop="20260717053000 +0000">
+    <title lang="zh">World Cup Report</title>
+    <desc>A comprehensive round-up of all the day's World Cup news.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="9415" start="20260717053000 +0000" stop="20260717211500 +0000">
+    <title lang="zh">Live The Open: Round 2</title>
+    <desc>The second round of the 154th Open Championship, staged at Royal Birkdale.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="9415" start="20260717211500 +0000" stop="20260718000000 +0000">
+    <title lang="zh">World Cup Report</title>
+    <desc>A comprehensive round-up of all the day's World Cup news.</desc>
+    <date>2026-07-17</date>
   </programme>
   <programme channel="465264" start="20260716100000 +0000" stop="20260716103000 +0000">
     <title lang="zh">Winchester &amp; Drury's Natural Born</title>
@@ -1899,50 +1744,300 @@
     <desc>Tim Wells hosts episode after episode featuring incredible shots on everything from hogs to frogs.</desc>
     <date>2026-07-18</date>
   </programme>
-  <programme channel="9415" start="20260716053000 +0000" stop="20260716203000 +0000">
-    <title lang="zh">Live The Open: Round 1</title>
-    <desc>The opening round of the 154th Open Championship, staged at Royal Birkdale. A year on from Scottie Scheffler's Portrush masterclass, the Claret Jug is up for grabs once more.</desc>
+  <programme channel="465124" start="20260716100000 +0000" stop="20260716120000 +0000">
+    <title lang="zh">Pirates Classics</title>
+    <desc>From Sept. 06, 2009.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="9415" start="20260716203000 +0000" stop="20260717053000 +0000">
-    <title lang="zh">World Cup Report</title>
-    <desc>A comprehensive round-up of all the day's World Cup news.</desc>
+  <programme channel="465124" start="20260716120000 +0000" stop="20260716123000 +0000">
+    <title lang="zh">Best Mattress Topper Ever!</title>
+    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="9415" start="20260717053000 +0000" stop="20260717211500 +0000">
-    <title lang="zh">Live The Open: Round 2</title>
-    <desc>The second round of the 154th Open Championship, staged at Royal Birkdale.</desc>
+  <programme channel="465124" start="20260716123000 +0000" stop="20260716130000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465124" start="20260716130000 +0000" stop="20260716133000 +0000">
+    <title lang="zh">Best Mattress Topper Ever!</title>
+    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465124" start="20260716133000 +0000" stop="20260716140000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465124" start="20260716140000 +0000" stop="20260716143000 +0000">
+    <title lang="zh">Best Mattress Topper Ever!</title>
+    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465124" start="20260716143000 +0000" stop="20260716150000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465124" start="20260716150000 +0000" stop="20260716170000 +0000">
+    <title lang="zh">Pirates Classics</title>
+    <desc>From September 3. 2007.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465124" start="20260716170000 +0000" stop="20260716190000 +0000">
+    <title lang="zh">Pirates Classics</title>
+    <desc>From September 2, 1997.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465124" start="20260716190000 +0000" stop="20260716210000 +0000">
+    <title lang="zh">Pirates Classics</title>
+    <desc>Dave Parker comes up huge early against future Hall of Famer Bert Blyleven, in a Bucs victory at Three Rivers Stadium against the Expos. April 29, 1980.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465124" start="20260716210000 +0000" stop="20260716213000 +0000">
+    <title lang="zh">Get Me the Brandy</title>
+    <desc />
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465124" start="20260716213000 +0000" stop="20260716233000 +0000">
+    <title lang="zh">Pirates Classics</title>
+    <desc>July 27, 1982.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465124" start="20260716233000 +0000" stop="20260717000000 +0000">
+    <title lang="zh">Pirates Classics</title>
+    <desc>World Series, Game 7. From Oct. 17, 1971.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="465124" start="20260717020000 +0000" stop="20260717023000 +0000">
+    <title lang="zh">Get Me the Brandy</title>
+    <desc />
     <date>2026-07-17</date>
   </programme>
-  <programme channel="9415" start="20260717211500 +0000" stop="20260718000000 +0000">
-    <title lang="zh">World Cup Report</title>
-    <desc>A comprehensive round-up of all the day's World Cup news.</desc>
+  <programme channel="465124" start="20260717023000 +0000" stop="20260717030000 +0000">
+    <title lang="zh">Get Me the Brandy</title>
+    <desc />
     <date>2026-07-17</date>
   </programme>
-  <programme channel="470873" start="20260716073000 +0000" stop="20260716080000 +0000">
-    <title lang="zh">Misplays of the Month</title>
-    <desc>A look at the month's top bloopers.</desc>
+  <programme channel="465124" start="20260717030000 +0000" stop="20260717050000 +0000">
+    <title lang="zh">Pirates Classics</title>
+    <desc>Paul Skenes pitches six shutout innings while sitting down nine Reds batters, in a victory for the Pirates. August 22, 2024.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717050000 +0000" stop="20260717070000 +0000">
+    <title lang="zh">Pirates Classics</title>
+    <desc>Paul Skenes remains dominant, striking out nine batters in a Pirates shutout effort over the Diamondbacks. July 27, 2025.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717070000 +0000" stop="20260717090000 +0000">
+    <title lang="zh">Pirates Classics</title>
+    <desc>Paul Skenes strikes out eight while surrendering only two hits over 6 innings in a dominant effort over the Los Angeles Dodgers, to earn his 10th win of the season. September 4, 2025.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717090000 +0000" stop="20260717093000 +0000">
+    <title lang="zh">18 Holes With Natalie Gulbis and Jimmy Hanlin</title>
+    <desc>Jimmy Hanlin and Natalie Gulbis showcase some of the best golf destinations.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717093000 +0000" stop="20260717100000 +0000">
+    <title lang="zh">Swing Clinic With Jimmy Hanlin</title>
+    <desc>Golf tips, strategy and review of products.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717100000 +0000" stop="20260717120000 +0000">
+    <title lang="zh">Pirates Classics</title>
+    <desc>Cutch gets clutch against the Diamondbacks. June 8, 2011.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717120000 +0000" stop="20260717123000 +0000">
+    <title lang="zh">Best Mattress Topper Ever!</title>
+    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717123000 +0000" stop="20260717130000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717130000 +0000" stop="20260717133000 +0000">
+    <title lang="zh">Best Mattress Topper Ever!</title>
+    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717133000 +0000" stop="20260717140000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717140000 +0000" stop="20260717143000 +0000">
+    <title lang="zh">Best Mattress Topper Ever!</title>
+    <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717143000 +0000" stop="20260717150000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717150000 +0000" stop="20260717170000 +0000">
+    <title lang="zh">Pirates Classics</title>
+    <desc>From May 09, 2008.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717170000 +0000" stop="20260717190000 +0000">
+    <title lang="zh">Pirates Classics</title>
+    <desc>The Pirates and Astros battle it out in an early-season marathon. April 25, 2007.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717190000 +0000" stop="20260717210000 +0000">
+    <title lang="zh">Pirates Classics</title>
+    <desc>The Pittsburgh Pirates defeat the New York Mets in a pitching duel between John Candelaria and Hall of Famer Tom Seaver.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717210000 +0000" stop="20260717213000 +0000">
+    <title lang="zh">Fair Territory with Ken Rosenthal</title>
+    <desc>MLB insider Ken Rosenthal covers baseball's latest news and pressing issues.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717213000 +0000" stop="20260717220000 +0000">
+    <title lang="zh">Bucs Bounty</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717220000 +0000" stop="20260717223000 +0000">
+    <title lang="zh">Pirates First Pitch Live</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717223000 +0000" stop="20260717230000 +0000">
+    <title lang="zh">Pirates Game Day Live</title>
+    <desc />
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="465124" start="20260717230000 +0000" stop="20260718000000 +0000">
+    <title lang="zh">Live: MLB Baseball</title>
+    <desc>The Pirates play the Guardians in Game 1 of a three-game series at Progressive Field. Pittsburgh are fresh off a series sweep against Milwaukee while Cleveland swept the series against Miami. Brandon Lowe leads Pittsburgh with 21 home runs.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="9175" start="20260716101500 +0000" stop="20260716104500 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Killarney.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="470873" start="20260716080000 +0000" stop="20260716083000 +0000">
-    <title lang="zh">MLB's Top 100</title>
-    <desc>Counting down the top 100 plays from the past year in the MLB.</desc>
+  <programme channel="9175" start="20260716104500 +0000" stop="20260716111500 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Catterick.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="470873" start="20260716083000 +0000" stop="20260716090000 +0000">
-    <title lang="zh">Misplays of the Month</title>
-    <desc>A look at the month's top bloopers.</desc>
+  <programme channel="9175" start="20260716111500 +0000" stop="20260716113000 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Killarney.</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="470873" start="20260716090000 +0000" stop="20260716093000 +0000">
-    <title lang="zh">MLB's Top 100</title>
-    <desc>Counting down the top 100 plays from the past year in the MLB.</desc>
+  <programme channel="9175" start="20260716113000 +0000" stop="20260716120000 +0000">
+    <title lang="zh">This Racing Life</title>
+    <desc>Ella McNeill travels to Ireland to visit Pat Flynn and Andrew Slattery, gets the latest on Tipperary's redevelopment and tries her hand at hurling!</desc>
     <date>2026-07-16</date>
   </programme>
-  <programme channel="470873" start="20260716093000 +0000" stop="20260716100000 +0000">
-    <title lang="zh">Misplays of the Month</title>
-    <desc>A look at the month's top bloopers.</desc>
+  <programme channel="9175" start="20260716120000 +0000" stop="20260716123000 +0000">
+    <title lang="zh">Mark Your Card</title>
+    <desc>A preview of the day's racing with live news from the courses.</desc>
     <date>2026-07-16</date>
+  </programme>
+  <programme channel="9175" start="20260716123000 +0000" stop="20260716200000 +0000">
+    <title lang="zh">Live Racing</title>
+    <desc>Today's live racing action from Hamilton, Thirsk, Epsom, Leopardstown and Killarney.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="9175" start="20260716200000 +0000" stop="20260716203000 +0000">
+    <title lang="zh">This Racing Life</title>
+    <desc>Ella McNeill travels to Ireland to visit Pat Flynn and Andrew Slattery, gets the latest on Tipperary's redevelopment and tries her hand at hurling!</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="9175" start="20260716203000 +0000" stop="20260716220000 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch today's racing action from Hamilton, Thirsk and Epsom.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="9175" start="20260716220000 +0000" stop="20260716224500 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch today's racing action from Leopardstown and Killarney.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="9175" start="20260716224500 +0000" stop="20260717000000 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch today's racing action from Hamilton, Thirsk and Epsom.</desc>
+    <date>2026-07-16</date>
+  </programme>
+  <programme channel="9175" start="20260717001500 +0000" stop="20260717014500 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Leopardstown and Killarney.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="9175" start="20260717014500 +0000" stop="20260717031500 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Hamilton, Thirsk and Epsom.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="9175" start="20260717031500 +0000" stop="20260717044500 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Leopardstown and Killarney.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="9175" start="20260717044500 +0000" stop="20260717061500 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Hamilton, Thirsk and Epsom.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="9175" start="20260717061500 +0000" stop="20260717074500 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Leopardstown and Killarney.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="9175" start="20260717074500 +0000" stop="20260717091500 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Hamilton, Thirsk and Epsom.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="9175" start="20260717091500 +0000" stop="20260717104500 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Leopardstown and Killarney.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="9175" start="20260717104500 +0000" stop="20260717114500 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch yesterday's racing action from Hamilton, Thirsk and Epsom.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="9175" start="20260717114500 +0000" stop="20260717121500 +0000">
+    <title lang="zh">This Racing Life</title>
+    <desc>Ella McNeill travels to Ireland to visit Pat Flynn and Andrew Slattery, gets the latest on Tipperary's redevelopment and tries her hand at hurling!</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="9175" start="20260717121500 +0000" stop="20260717124500 +0000">
+    <title lang="zh">Mark Your Card</title>
+    <desc>A preview of the day's racing with live news from the courses.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="9175" start="20260717124500 +0000" stop="20260717201500 +0000">
+    <title lang="zh">Live Racing</title>
+    <desc>Today's live racing action from Nottingham, Hamilton Park, Newmarket, Pontefract, Killarney and Down Royal.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="9175" start="20260717201500 +0000" stop="20260717204500 +0000">
+    <title lang="zh">This Racing Life</title>
+    <desc>Ella McNeill travels to Ireland to visit Pat Flynn and Andrew Slattery, gets the latest on Tipperary's redevelopment and tries her hand at hurling!</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="9175" start="20260717204500 +0000" stop="20260717221500 +0000">
+    <title lang="zh">Racing Replay</title>
+    <desc>Another chance to watch today's racing action from Nottingham, Hamilton Park, Newmarket and Pontefract.</desc>
+    <date>2026-07-17</date>
+  </programme>
+  <programme channel="9175" start="20260717221500 +0000" stop="20260718000000 +0000">
+    <title lang="zh">Irish Racing Replay</title>
+    <desc>Another chance to watch today's racing action from Killarney and Down Royal.</desc>
+    <date>2026-07-17</date>
   </programme>
   <programme channel="470873" start="20260716100000 +0000" stop="20260716103000 +0000">
     <title lang="zh">MLB's Top 100</title>
@@ -2164,11 +2259,6 @@
     <desc>The Orioles take on the Astros at Daikin Park in Game 1 of a three-game series. Baltimore swept Kansas City while Houston enters this match up only one win against Texas in a three-game series. Yordan Alvarez leads the Astros with 31 home runs.</desc>
     <date>2026-07-18</date>
   </programme>
-  <programme channel="470811" start="20260716060000 +0000" stop="20260716080000 +0000">
-    <title lang="zh">Rugby Super League</title>
-    <desc>From Stade Gilbert Brutus in Perpignan, Pyrénées-Orientales, France.</desc>
-    <date>2026-07-16</date>
-  </programme>
   <programme channel="470811" start="20260716080000 +0000" stop="20260716120000 +0000">
     <title lang="zh">Sportsnet World Highlights</title>
     <desc>A look at the best stories from around the world of sports.</desc>
@@ -2313,31 +2403,6 @@
     <title lang="zh">NRL Rugby</title>
     <desc>From Allianz Stadium in Sydney.</desc>
     <date>2026-07-18</date>
-  </programme>
-  <programme channel="465358" start="20260716073000 +0000" stop="20260716080000 +0000">
-    <title lang="zh">Bill Dance Saltwater</title>
-    <desc>Come along on this fun fishing adventure with Bill and country singer-songwriter Stephanie Quayle.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465358" start="20260716080000 +0000" stop="20260716083000 +0000">
-    <title lang="zh">Bill Dance Outdoors</title>
-    <desc>Jump in with Bill and his guest, Rex Nelson from KastKing as they search for lunkers in some very clear water.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465358" start="20260716083000 +0000" stop="20260716090000 +0000">
-    <title lang="zh">Fishing With Roland Martin</title>
-    <desc>Roland and Barry Maner crawl Spro frogs across the grass mats of Lake Guntersville for big bass on a rainy day in October.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465358" start="20260716090000 +0000" stop="20260716093000 +0000">
-    <title lang="zh">Jimmy Houston Outdoors</title>
-    <desc>Jimmy goes fishing with Twin Brothers in MO.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465358" start="20260716093000 +0000" stop="20260716100000 +0000">
-    <title lang="zh">Lake Commandos</title>
-    <desc>Host Mark Courts joins guest Mitch Anderson on a mission to find fall, shallow-water walleyes on jerkbaits.</desc>
-    <date>2026-07-16</date>
   </programme>
   <programme channel="465358" start="20260716100000 +0000" stop="20260716103000 +0000">
     <title lang="zh">Reel Animals</title>
@@ -2723,270 +2788,5 @@
     <title lang="zh">Gary Cooper's Fishing Diary</title>
     <desc>Celebrating Canada Day fishing at Port Eliza Lodge.</desc>
     <date>2026-07-18</date>
-  </programme>
-  <programme channel="465288" start="20260716070000 +0000" stop="20260716090000 +0000">
-    <title lang="zh">World Class Championship Boxing</title>
-    <desc>Boxing action.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716090000 +0000" stop="20260716100000 +0000">
-    <title lang="zh">Fight Sports WCK</title>
-    <desc>From explosive knockouts and technical battles to the electrifying atmosphere that has made Muay Thai one of the fastest-growing combat sports in the world, every bout delivers the excitement of world-class kickboxing.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716100000 +0000" stop="20260716103000 +0000">
-    <title lang="zh">1916 Gold Rarity</title>
-    <desc>Own the first-ever Gold issue of the legendary 1916 Mercury Dime today. This special 2026 Gold Mercury Dime comes with a bonus Silver Medal, both dated 1916 in tribute to the classic coin and graded Perfect 70 condition in exclusive holders!</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716103000 +0000" stop="20260716110000 +0000">
-    <title lang="zh">Tired of Pain? Go Drug-Free</title>
-    <desc>See how a drug-free patch is helping people find relief-without medication.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716110000 +0000" stop="20260716113000 +0000">
-    <title lang="zh">1916 Gold Rarity</title>
-    <desc>Own the first-ever Gold issue of the legendary 1916 Mercury Dime today. This special 2026 Gold Mercury Dime comes with a bonus Silver Medal, both dated 1916 in tribute to the classic coin and graded Perfect 70 condition in exclusive holders!</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716113000 +0000" stop="20260716120000 +0000">
-    <title lang="zh">Tired of Pain? Go Drug-Free</title>
-    <desc>See how a drug-free patch is helping people find relief-without medication.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716120000 +0000" stop="20260716123000 +0000">
-    <title lang="zh">1916 Gold Rarity</title>
-    <desc>Own the first-ever Gold issue of the legendary 1916 Mercury Dime today. This special 2026 Gold Mercury Dime comes with a bonus Silver Medal, both dated 1916 in tribute to the classic coin and graded Perfect 70 condition in exclusive holders!</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716123000 +0000" stop="20260716130000 +0000">
-    <title lang="zh">Tired of Pain? Go Drug-Free</title>
-    <desc>See how a drug-free patch is helping people find relief-without medication.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716130000 +0000" stop="20260716140000 +0000">
-    <title lang="zh">Live: Moser, Lombardi &amp; Kane on Altitude Radio 92.5</title>
-    <desc />
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716140000 +0000" stop="20260716150000 +0000">
-    <title lang="zh">Live: Moser, Lombardi &amp; Kane on Altitude Radio 92.5</title>
-    <desc />
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716150000 +0000" stop="20260716160000 +0000">
-    <title lang="zh">Live: Moser, Lombardi &amp; Kane on Altitude Radio 92.5</title>
-    <desc />
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716160000 +0000" stop="20260716180000 +0000">
-    <title lang="zh">Tennis</title>
-    <desc>Coverage from the world of tennis.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716180000 +0000" stop="20260716190000 +0000">
-    <title lang="zh">Moser, Lombardi &amp; Kane on Altitude Radio 92.5</title>
-    <desc />
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716190000 +0000" stop="20260716193000 +0000">
-    <title lang="zh">Golf at Altitude</title>
-    <desc />
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716193000 +0000" stop="20260716200000 +0000">
-    <title lang="zh">Golf at Altitude</title>
-    <desc>Green Valley Ranch Golf Club hosts the Colorado Open Championships and features a full range practice facility in addition to its courses.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716200000 +0000" stop="20260716203000 +0000">
-    <title lang="zh">Sports Stars of Tomorrow</title>
-    <desc>Profiles of the top rookie, college and high-school talent in sports; current athletes share their experiences, advice and personal impressions of the road to stardom.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716203000 +0000" stop="20260716210000 +0000">
-    <title lang="zh">She's in the Game</title>
-    <desc>Meet the next generation of superstar female athletes around the country as we go behind the scenes to shine the light on them and their interests off the field, along with catching up with the female legends who paved the way for all this growth.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716210000 +0000" stop="20260716213000 +0000">
-    <title lang="zh">Pure Outdoor</title>
-    <desc>Outdoor sports from all over the world, from freestyle ski jumping to airplane aerobatics.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716213000 +0000" stop="20260716220000 +0000">
-    <title lang="zh">Offroad Odyssey</title>
-    <desc>Adrenaline-pumping action, breathtaking scenery, and unforgettable encounter off-road.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716220000 +0000" stop="20260716223000 +0000">
-    <title lang="zh">18 Holes With Natalie Gulbis and Jimmy Hanlin</title>
-    <desc>Jimmy Hanlin and Natalie Gulbis showcase some of the best golf destinations.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716223000 +0000" stop="20260716230000 +0000">
-    <title lang="zh">Golfing the World</title>
-    <desc>Highlighting golf courses and private resorts from around the world.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260716230000 +0000" stop="20260717000000 +0000">
-    <title lang="zh">Tennis</title>
-    <desc>Coverage from the world of tennis.</desc>
-    <date>2026-07-16</date>
-  </programme>
-  <programme channel="465288" start="20260717010000 +0000" stop="20260717013000 +0000">
-    <title lang="zh">Golf at Altitude</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717013000 +0000" stop="20260717020000 +0000">
-    <title lang="zh">Nuggets Live!</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717020000 +0000" stop="20260717040000 +0000">
-    <title lang="zh">Live: NBA Summer League Basketball</title>
-    <desc>From Thomas &amp; Mack Center in Las Vegas.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717040000 +0000" stop="20260717043000 +0000">
-    <title lang="zh">Nuggets Postgame Live</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717043000 +0000" stop="20260717050000 +0000">
-    <title lang="zh">Golf at Altitude</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717050000 +0000" stop="20260717053000 +0000">
-    <title lang="zh">Golf at Altitude</title>
-    <desc>Green Valley Ranch Golf Club hosts the Colorado Open Championships and features a full range practice facility in addition to its courses.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717053000 +0000" stop="20260717073000 +0000">
-    <title lang="zh">NBA Summer League Basketball</title>
-    <desc>From Thomas &amp; Mack Center in Las Vegas.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717073000 +0000" stop="20260717080000 +0000">
-    <title lang="zh">Nuggets Postgame Live</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717080000 +0000" stop="20260717090000 +0000">
-    <title lang="zh">Poker Night</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717090000 +0000" stop="20260717100000 +0000">
-    <title lang="zh">World Poker Tour</title>
-    <desc>High-stakes tournament poker from some of the world's famous casinos and card rooms.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717100000 +0000" stop="20260717103000 +0000">
-    <title lang="zh">1916 Gold Rarity</title>
-    <desc>Own the first-ever Gold issue of the legendary 1916 Mercury Dime today. This special 2026 Gold Mercury Dime comes with a bonus Silver Medal, both dated 1916 in tribute to the classic coin and graded Perfect 70 condition in exclusive holders!</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717103000 +0000" stop="20260717110000 +0000">
-    <title lang="zh">Tired of Pain? Go Drug-Free</title>
-    <desc>See how a drug-free patch is helping people find relief-without medication.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717110000 +0000" stop="20260717113000 +0000">
-    <title lang="zh">1916 Gold Rarity</title>
-    <desc>Own the first-ever Gold issue of the legendary 1916 Mercury Dime today. This special 2026 Gold Mercury Dime comes with a bonus Silver Medal, both dated 1916 in tribute to the classic coin and graded Perfect 70 condition in exclusive holders!</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717113000 +0000" stop="20260717120000 +0000">
-    <title lang="zh">Tired of Pain? Go Drug-Free</title>
-    <desc>See how a drug-free patch is helping people find relief-without medication.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717120000 +0000" stop="20260717123000 +0000">
-    <title lang="zh">Ready for a safer shower? Enjoy a one-day bath remodel with Jacuzzi.</title>
-    <desc>Trusted brand Jacuzzi Bath Remodel and interior designer Christina Hall share their secrets on how you can easily and affordably transform your bathroom into a gorgeous custom, safe, stylish space in 1 day! Call for a FREE quote &amp; installation.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717123000 +0000" stop="20260717130000 +0000">
-    <title lang="zh">Tired of Pain? Go Drug-Free</title>
-    <desc>See how a drug-free patch is helping people find relief-without medication.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717130000 +0000" stop="20260717133000 +0000">
-    <title lang="zh">Off the Court</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717133000 +0000" stop="20260717140000 +0000">
-    <title lang="zh">Off the Court</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717140000 +0000" stop="20260717143000 +0000">
-    <title lang="zh">Off the Court</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717143000 +0000" stop="20260717150000 +0000">
-    <title lang="zh">Off the Court</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717150000 +0000" stop="20260717153000 +0000">
-    <title lang="zh">Off the Court</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717153000 +0000" stop="20260717154500 +0000">
-    <title lang="zh">Altitude Extra</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717154500 +0000" stop="20260717160000 +0000">
-    <title lang="zh">Altitude Extra</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717160000 +0000" stop="20260717180000 +0000">
-    <title lang="zh">NBA Summer League Basketball</title>
-    <desc>From Thomas &amp; Mack Center in Las Vegas.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717180000 +0000" stop="20260717183000 +0000">
-    <title lang="zh">Nuggets Postgame Live</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717183000 +0000" stop="20260717184500 +0000">
-    <title lang="zh">Altitude Extra</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717184500 +0000" stop="20260717190000 +0000">
-    <title lang="zh">Altitude Extra</title>
-    <desc>Vic Lombardi sat down with Denver Nuggets legend Dan Issel to discuss his basketball career, his involvement with horse racing and his evaluation of Nikola Jokić.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717190000 +0000" stop="20260717200000 +0000">
-    <title lang="zh">Poker Night</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717200000 +0000" stop="20260717210000 +0000">
-    <title lang="zh">World Poker Tour</title>
-    <desc>Professional poker action from a series of international tournaments.</desc>
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717210000 +0000" stop="20260717230000 +0000">
-    <title lang="zh">INTENNSE Pro Tennis</title>
-    <desc />
-    <date>2026-07-17</date>
-  </programme>
-  <programme channel="465288" start="20260717230000 +0000" stop="20260718000000 +0000">
-    <title lang="zh">INTENNSE Pro Tennis</title>
-    <desc />
-    <date>2026-07-17</date>
   </programme>
 </tv>
