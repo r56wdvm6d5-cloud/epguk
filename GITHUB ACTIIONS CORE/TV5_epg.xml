@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<tv date="20260801201230 " generator-info-name="TV4-Multi-XML-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="TV4-Source-EPG">
+<tv date="20260801215325 " generator-info-name="TV4-Multi-XML-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="TV4-Source-EPG">
   <channel id="B4UKadak.in">
     <display-name>B4U Kadak</display-name>
     <icon src="https://iptv-epg.org/images/XNJhV9LFBuanzBmKvg26ZIL1RJk-RyxEbiWHl8VbL2FTWz5hsQz91WQ943oCCZVPSg36MDgS6eazEceSXit0UdYKnZ9pErSnBFkAA82XMjw" />
@@ -68,6 +68,10 @@
     <display-name>CTV MONTREAL</display-name>
     <icon src="https://iptv-epg.org/images/eece20uChelHQBbw9nJvp56Z1smNfd7rcDyWTvuosAsxQEkN6cmc9UjQch6Hvh5fwC50vHscoktby1tqmWw_fHjCr1IuguwsMP-uUZv8e6VxinS0bvsPBoI" />
   </channel>
+  <channel id="CTVNature.ca">
+    <display-name>CTV Nature</display-name>
+    <icon src="https://iptv-epg.org/images/xVOtmOjRl9zKV4LoLG5SSq58MFL9u35yEbNtgB3qf2I6A3-3_xw-OP1U08_cdJjq6vaPv0Ogunwm8Ze5076eTFtzkjbvZT85SmMAZ37khgjwGQ" />
+  </channel>
   <channel id="CTVOttawa-CJOH.ca">
     <display-name>CTV OTTAWA</display-name>
     <icon src="https://iptv-epg.org/images/eNAtss8B0OQlDTDA7dh6MjlRGmdtxWDQ9SDxQkCFibDRPcd6_wXk0UCoUgYU7gGwX3yQhAtQNxJMdRFBlZnKvLIfz5k_yjJLb9ewk667X5bCHuVkLan_" />
@@ -83,10 +87,6 @@
   <channel id="Gusto.ca">
     <display-name>Gusto</display-name>
     <icon src="https://iptv-epg.org/images/zZFsViJH_YzJhybnnNZQBzSIETGxH-OxVZs_aYn_WZc5v5XNJK8tgla0Z6oVU4C_kRNzPR2K8arcpFUNtFAmYQjYvNbZYrwRrDYuOlST" />
-  </channel>
-  <channel id="MagnoliaNetwork.ca">
-    <display-name>Magnolia Network</display-name>
-    <icon src="https://iptv-epg.org/images/tMTQcyCN6NJMnahYIE2RV0andZFEL3ztqc5Vg3TGmHclSb9zOo_JMysySHy4C0BbLN01o9-R6ETGHFSNywNHMF3MIfWzS0seXOHkDOExu9gEJZBZeOECjw" />
   </channel>
   <channel id="NationalGeographicWild.ca">
     <display-name>NAT GEO WILD</display-name>
@@ -104,13 +104,10 @@
     <display-name>TVNZ DUKE</display-name>
     <icon src="https://iptv-epg.org/images/qds2zaN302vn2dUFiJVpEJdSbUzJ_rDNGdqBSPnVWBW3pX10CDvJdrbKRAK4VEGT3Ec4jy_aWXjAd47hcYIMPvoP91qfIh3_IL7SJbXRz8coPhmM_gs" />
   </channel>
-  <programme start="20260801183000 +0000" stop="20260801213000 +0000" channel="B4UKadak.in">
-    <category lang="en">TV Show</category>
-    <category lang="en">Entertainment</category>
-    <desc lang="en">Bringing the best in television.</desc>
-    <icon src="https://iptv-epg.org/images/AMG1CSBNz8zqSawV3gEWP8IWhWD00eOgKk7P44YN55swTqmLqW3IZSqObiV61cKPuNxrmeMZGRq_kpiQ1I06KwUVdBwrg1lZ3pjUEx1_3fdFrDou2rvephB-XBY" />
-    <title lang="en">Movie</title>
-  </programme>
+  <channel id="470440">
+    <display-name lang="Canada">Magnolia Network</display-name>
+    <icon src="" />
+  </channel>
   <programme start="20260801213000 +0000" stop="20260802003000 +0000" channel="B4UKadak.in">
     <category lang="en">TV Show</category>
     <category lang="en">Entertainment</category>
@@ -348,44 +345,6 @@
     <desc lang="en">Bringing the best in television.</desc>
     <icon src="https://iptv-epg.org/images/AMG1CSBNz8zqSawV3gEWP8IWhWD00eOgKk7P44YN55swTqmLqW3IZSqObiV61cKPuNxrmeMZGRq_kpiQ1I06KwUVdBwrg1lZ3pjUEx1_3fdFrDou2rvephB-XBY" />
     <title lang="en">Movie</title>
-  </programme>
-  <programme start="20260801201000 +0000" stop="20260801205000 +0000" channel="SET.in">
-    <category lang="en">Documentary</category>
-    <category lang="en">Others</category>
-    <credits>
-      <actor>Karan Sharma</actor>
-      <producer>Anup Soni</producer>
-      <producer>Shamael Khan</producer>
-    </credits>
-    <desc lang="en">S1 E192
-When Aditi goes missing, her father does not want to call the police and make a scene. Later, Aditi's mother decides to file a missing persons report to find her daughter.</desc>
-    <episode-num>S1 E192</episode-num>
-    <icon src="https://iptv-epg.org/images/zbE4o1PBGkuznVEmYG_9W2X0FDPf1CTpLJIZNRHJdAlAiULwmh1TaCAnYi-o4vOSyNKsB8Vufi2si8ZffNDRLDqa3oNb5aHAVdODQ1KJJiZ2ZSxDdr8M0SYipPJAoQ" />
-    <title lang="en">Crime Patrol 2.0</title>
-  </programme>
-  <programme start="20260801205000 +0000" stop="20260801213000 +0000" channel="SET.in">
-    <category lang="en">Documentary</category>
-    <category lang="en">Others</category>
-    <credits>
-      <director>Subramanian S. Iyer</director>
-      <director>Darshan Raj</director>
-      <actor>Anup Soni</actor>
-      <actor>Saakshi Tanwar</actor>
-      <actor>Sanjeev Tyagi</actor>
-      <actor>Nissar Khan</actor>
-      <actor>Ujjwal Chopra</actor>
-      <actor>Rajendra Sishatkar</actor>
-      <producer>Anirban Bhattacharyya</producer>
-      <producer>Prem Krishen Malhotra</producer>
-      <producer>Sunil Mehta</producer>
-      <producer>Vipul D. Shah</producer>
-      <producer>Rabindra Choubey</producer>
-    </credits>
-    <desc lang="en">S1 E378
-A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.</desc>
-    <episode-num>S1 E378</episode-num>
-    <icon src="https://iptv-epg.org/images/gk4o7DQ2Gq6kRQaCaLK_80J3WrpeyyckQCcs3UdjdUQKIPU3ClJCb2N3mxtVNrco-BJ-0-slqQFG7p_kdAyC5aHyMsuSnbTgrMqTunQSq4jJgUYQKVBd-n7msLC_Tg" />
-    <title lang="en">Best of Crime Patrol</title>
   </programme>
   <programme start="20260801213000 +0000" stop="20260801221000 +0000" channel="SET.in">
     <category lang="en">Documentary</category>
@@ -936,116 +895,24 @@ A compilation of the best moments from the Kapil Sharma Show features the renown
     <icon src="https://iptv-epg.org/images/MAWZcQgP0GVp4_VLZVJRXaDPu6up82c9PCyXqOlce3LOzfLcsF58kLCd3kxZpIMrAFTL-9tf6W81WG6JxvHrXrmnUL0z6xw4kStzH0rrr_mo8KPjAMvv9FPR6ygkyg" />
     <title lang="en">Best of the Kapil Sharma Show</title>
   </programme>
-  <programme start="20260801200000 +0000" stop="20260801203000 +0000" channel="SONYSAB.in">
+  <programme start="20260803034000 +0000" stop="20260803050000 +0000" channel="SET.in">
     <category lang="en">TV Show</category>
-    <category lang="en">Sitcom</category>
+    <category lang="en">Comedy</category>
     <credits>
-      <director>Dharmesh Mehta</director>
-      <director>Harshad Joshi</director>
-      <actor>Dilip Joshi</actor>
-      <actor>Nitish Bhaluni</actor>
-      <actor>Amit Bhatt</actor>
-      <actor>Sachin Shroff</actor>
-      <actor>Sunayana Fozdar</actor>
-      <actor>Tanuj Mahashabde</actor>
-      <actor>Munmun Dutta</actor>
-      <actor>Mandar Chandwadkar</actor>
-      <actor>Sonalika Joshi</actor>
-      <actor>Palak Sindhwani</actor>
-      <actor>Nirmal Soni</actor>
-      <actor>Ambika Ranjankar</actor>
-      <actor>Kush Shah</actor>
-      <actor>Balwinder Singh Suri</actor>
-      <actor>Monaz Mevawalla</actor>
-      <actor>Samay Shah</actor>
-      <actor>Azhar Shaikh</actor>
-      <actor>Shyam Pathak</actor>
-      <actor>Navina Wadekar</actor>
-      <actor>Sharad Sankla</actor>
-      <actor>Tanmay Vekaria</actor>
-      <actor>Daya Shankar Pandey</actor>
-      <producer>Asit Kumarr Modi</producer>
-      <producer>Neela Asit Modi</producer>
+      <director>Bharat Kukreti</director>
+      <actor>Kapil Sharma</actor>
+      <actor>Navjot Singh Sidhu</actor>
+      <actor>Sunil Grover</actor>
+      <actor>Ali Asgar</actor>
+      <actor>Kiku Sharda</actor>
+      <actor>Bharti Singh</actor>
+      <producer>Kapil Sharma</producer>
     </credits>
-    <desc lang="en">S1 E1392
-Daya desperately tries to warn her neighbours at Gokuldham society about her dreams, but they dismiss her fears.</desc>
-    <episode-num>S1 E1392</episode-num>
-    <icon src="https://iptv-epg.org/images/s7SrcZiOMq1KPKnnzYgBEJVB0BcSPjW7OHL3RSsl6PUfxsy-SLd-8b3N1SG3bgLsfwrbKopLHNVJNMS9GGAb0ikx--4-csF6ZSghyEo3xggAKYbMywaviOPEeAc" />
-    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
-  </programme>
-  <programme start="20260801203000 +0000" stop="20260801210000 +0000" channel="SONYSAB.in">
-    <category lang="en">TV Show</category>
-    <category lang="en">Sitcom</category>
-    <credits>
-      <director>Dharmesh Mehta</director>
-      <director>Harshad Joshi</director>
-      <actor>Dilip Joshi</actor>
-      <actor>Nitish Bhaluni</actor>
-      <actor>Amit Bhatt</actor>
-      <actor>Sachin Shroff</actor>
-      <actor>Sunayana Fozdar</actor>
-      <actor>Tanuj Mahashabde</actor>
-      <actor>Munmun Dutta</actor>
-      <actor>Mandar Chandwadkar</actor>
-      <actor>Sonalika Joshi</actor>
-      <actor>Palak Sindhwani</actor>
-      <actor>Nirmal Soni</actor>
-      <actor>Ambika Ranjankar</actor>
-      <actor>Kush Shah</actor>
-      <actor>Balwinder Singh Suri</actor>
-      <actor>Monaz Mevawalla</actor>
-      <actor>Samay Shah</actor>
-      <actor>Azhar Shaikh</actor>
-      <actor>Shyam Pathak</actor>
-      <actor>Navina Wadekar</actor>
-      <actor>Sharad Sankla</actor>
-      <actor>Tanmay Vekaria</actor>
-      <actor>Daya Shankar Pandey</actor>
-      <producer>Asit Kumarr Modi</producer>
-      <producer>Neela Asit Modi</producer>
-    </credits>
-    <desc lang="en">S1 E1393
-Daya pledges that if her wish is granted, Jethalal will climb a tree and pluck eleven coconuts. Everyone gets busy finding a coconut tree so that Jethalal can fulfil Daya's oath.</desc>
-    <episode-num>S1 E1393</episode-num>
-    <icon src="https://iptv-epg.org/images/s7SrcZiOMq1KPKnnzYgBEJVB0BcSPjW7OHL3RSsl6PUfxsy-SLd-8b3N1SG3bgLsfwrbKopLHNVJNMS9GGAb0ikx--4-csF6ZSghyEo3xggAKYbMywaviOPEeAc" />
-    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
-  </programme>
-  <programme start="20260801210000 +0000" stop="20260801213000 +0000" channel="SONYSAB.in">
-    <category lang="en">TV Show</category>
-    <category lang="en">Sitcom</category>
-    <credits>
-      <director>Dharmesh Mehta</director>
-      <director>Harshad Joshi</director>
-      <actor>Dilip Joshi</actor>
-      <actor>Nitish Bhaluni</actor>
-      <actor>Amit Bhatt</actor>
-      <actor>Sachin Shroff</actor>
-      <actor>Sunayana Fozdar</actor>
-      <actor>Tanuj Mahashabde</actor>
-      <actor>Munmun Dutta</actor>
-      <actor>Mandar Chandwadkar</actor>
-      <actor>Sonalika Joshi</actor>
-      <actor>Palak Sindhwani</actor>
-      <actor>Nirmal Soni</actor>
-      <actor>Ambika Ranjankar</actor>
-      <actor>Kush Shah</actor>
-      <actor>Balwinder Singh Suri</actor>
-      <actor>Monaz Mevawalla</actor>
-      <actor>Samay Shah</actor>
-      <actor>Azhar Shaikh</actor>
-      <actor>Shyam Pathak</actor>
-      <actor>Navina Wadekar</actor>
-      <actor>Sharad Sankla</actor>
-      <actor>Tanmay Vekaria</actor>
-      <actor>Daya Shankar Pandey</actor>
-      <producer>Asit Kumarr Modi</producer>
-      <producer>Neela Asit Modi</producer>
-    </credits>
-    <desc lang="en">S1 E1394
-Jethalal is very upset with Daya as he now has to do the impossible. He learns how to climb a tree with the help of others.</desc>
-    <episode-num>S1 E1394</episode-num>
-    <icon src="https://iptv-epg.org/images/s7SrcZiOMq1KPKnnzYgBEJVB0BcSPjW7OHL3RSsl6PUfxsy-SLd-8b3N1SG3bgLsfwrbKopLHNVJNMS9GGAb0ikx--4-csF6ZSghyEo3xggAKYbMywaviOPEeAc" />
-    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">S1 E19
+A compilation of the best moments from the Kapil Sharma Show features the renowned comedian Kapil Sharma entertaining the audience with hilarious skits and interactions.</desc>
+    <episode-num>S1 E19</episode-num>
+    <icon src="https://iptv-epg.org/images/MD4-2353vflz0Un_k7EeWA2vh-GBgjp-3Okytbynudkm8orrglk2iUZfHDbiO9AARplJ6ZLCcQ5q0YyOTdt3tMqjxBY65URcyPSScj1HWjH8vVTdQOzXXrkv_R_D" />
+    <title lang="en">Best of the Kapil Sharma Show</title>
   </programme>
   <programme start="20260801213000 +0000" stop="20260801220000 +0000" channel="SONYSAB.in">
     <category lang="en">TV Show</category>
@@ -2231,14 +2098,79 @@ Sharman Joshi and Boman Irani are still searching for the scooter. Bhide finds A
     <icon src="https://iptv-epg.org/images/s7SrcZiOMq1KPKnnzYgBEJVB0BcSPjW7OHL3RSsl6PUfxsy-SLd-8b3N1SG3bgLsfwrbKopLHNVJNMS9GGAb0ikx--4-csF6ZSghyEo3xggAKYbMywaviOPEeAc" />
     <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
   </programme>
-  <programme start="20260801200000 +0000" stop="20260801203000 +0000" channel="SonySportsTEN1.in">
-    <category lang="en">Sports</category>
-    <category lang="en">Cricket</category>
-    <desc lang="en">S2 E3
-This is Sport - Cricket Category.</desc>
-    <episode-num>S2 E3</episode-num>
-    <icon src="https://iptv-epg.org/images/QAKRM9Bx1mU8egbVnW-AlDs6QovYHxbgnlZyccoAECUg1RHsX_TqfDJw5eo7kNONhyBtLVgijiVZ2Vpuevj0bXnG-Qu0xujdriSaE0C0rYeq_RC_QkROSucH1WzNZw" />
-    <title lang="en">Hurricane Harman; Cricket's Wonder Women</title>
+  <programme start="20260802133000 +0000" stop="20260802140000 +0000" channel="SONYSAB.in">
+    <category lang="en">TV Show</category>
+    <category lang="en">Sitcom</category>
+    <credits>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <actor>Sachin Shroff</actor>
+      <actor>Sunayana Fozdar</actor>
+      <actor>Tanuj Mahashabde</actor>
+      <actor>Munmun Dutta</actor>
+      <actor>Mandar Chandwadkar</actor>
+      <actor>Sonalika Joshi</actor>
+      <actor>Palak Sindhwani</actor>
+      <actor>Nirmal Soni</actor>
+      <actor>Ambika Ranjankar</actor>
+      <actor>Kush Shah</actor>
+      <actor>Balwinder Singh Suri</actor>
+      <actor>Monaz Mevawalla</actor>
+      <actor>Samay Shah</actor>
+      <actor>Azhar Shaikh</actor>
+      <actor>Shyam Pathak</actor>
+      <actor>Navina Wadekar</actor>
+      <actor>Sharad Sankla</actor>
+      <actor>Tanmay Vekaria</actor>
+      <actor>Daya Shankar Pandey</actor>
+      <producer>Asit Kumarr Modi</producer>
+      <producer>Neela Asit Modi</producer>
+    </credits>
+    <desc lang="en">S1 E896
+Bhide takes his scooter out for a ride and gets into an accident. Everyone tries to talk him out of using the scooter.</desc>
+    <episode-num>S1 E896</episode-num>
+    <icon src="https://iptv-epg.org/images/s7SrcZiOMq1KPKnnzYgBEJVB0BcSPjW7OHL3RSsl6PUfxsy-SLd-8b3N1SG3bgLsfwrbKopLHNVJNMS9GGAb0ikx--4-csF6ZSghyEo3xggAKYbMywaviOPEeAc" />
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+  </programme>
+  <programme start="20260802140000 +0000" stop="20260802143000 +0000" channel="SONYSAB.in">
+    <category lang="en">TV Show</category>
+    <category lang="en">Sitcom</category>
+    <credits>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <actor>Sachin Shroff</actor>
+      <actor>Sunayana Fozdar</actor>
+      <actor>Tanuj Mahashabde</actor>
+      <actor>Munmun Dutta</actor>
+      <actor>Mandar Chandwadkar</actor>
+      <actor>Sonalika Joshi</actor>
+      <actor>Palak Sindhwani</actor>
+      <actor>Nirmal Soni</actor>
+      <actor>Ambika Ranjankar</actor>
+      <actor>Kush Shah</actor>
+      <actor>Balwinder Singh Suri</actor>
+      <actor>Monaz Mevawalla</actor>
+      <actor>Samay Shah</actor>
+      <actor>Azhar Shaikh</actor>
+      <actor>Shyam Pathak</actor>
+      <actor>Navina Wadekar</actor>
+      <actor>Sharad Sankla</actor>
+      <actor>Tanmay Vekaria</actor>
+      <actor>Daya Shankar Pandey</actor>
+      <producer>Asit Kumarr Modi</producer>
+      <producer>Neela Asit Modi</producer>
+    </credits>
+    <desc lang="en">S1 E202
+As the festival of Raksha Bandhan approaches, the ladies of Gokuldham Society get unique rakhis to celebrate. On the other hand, Jethalal's business flourishes in the festive season.</desc>
+    <episode-num>S1 E202</episode-num>
+    <icon src="https://iptv-epg.org/images/s7SrcZiOMq1KPKnnzYgBEJVB0BcSPjW7OHL3RSsl6PUfxsy-SLd-8b3N1SG3bgLsfwrbKopLHNVJNMS9GGAb0ikx--4-csF6ZSghyEo3xggAKYbMywaviOPEeAc" />
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
   </programme>
   <programme start="20260801203000 +0000" stop="20260801223000 +0000" channel="SonySportsTEN1.in">
     <category lang="en">Sports</category>
@@ -2490,14 +2422,6 @@ This is Sport - Cricket Category.</desc>
     <icon src="https://iptv-epg.org/images/bTebzHdTTB8TuwamaV3wQhct-KMcE9Xjz0JPfIE3C78XD5EhJW6uDHAlL4p_opy8jK9q_VxlZd_OZCVo4ttIfS6GCcB_QERF2-pGI3d_MOaAr8JPdsZae_SWSPL2" />
     <title lang="en">Commonwealth Games 2026</title>
   </programme>
-  <programme start="20260801183000 +0000" stop="20260801210000 +0000" channel="SonySportsTEN2.in">
-    <category lang="en">Sports</category>
-    <category lang="en">Multi-Sports Event</category>
-    <desc lang="en">This is Sport - Multi-Sport Event Category.</desc>
-    <icon src="https://iptv-epg.org/images/QlOjjtrlX-HZEnS8hHx8mkMyuiQGslDMedhR5aGEpepBBIaoRMXgcI0Fx-2fkXXpfXVI6IFq99sCVtDbhYmVJNyxHjeJDHGA9MESmA_WojvgUtp-W9KXZIRGszaU" />
-    <title lang="en">2026 Commonwealth Games</title>
-    <live />
-  </programme>
   <programme start="20260801210000 +0000" stop="20260801220000 +0000" channel="SonySportsTEN2.in">
     <category lang="en">Sports</category>
     <category lang="en">Multi-Sports Event</category>
@@ -2743,28 +2667,6 @@ The host and a panel of sports experts analyse and discuss the performance of re
     <icon src="https://iptv-epg.org/images/SRgtIm2B5eu_54zBqS0vekkCNS6w5G63pOQxzThFA2Oh41LD8hFsTItpzNrYMaqLr1N1j8hsGIItvq8dvI9HP5qk24Bh05qk_SUSmnkMgqgBwZ7QDoO_LgIiUtn5" />
     <title lang="en">The Outdoor Sports Show</title>
   </programme>
-  <programme start="20260801183000 +0000" stop="20260801203000 +0000" channel="SonySportsTEN3.in">
-    <category lang="en">Sports</category>
-    <category lang="en">Multi-Sports Event</category>
-    <desc lang="en">This is Sport - Multi-Sport Event Category.</desc>
-    <icon src="https://iptv-epg.org/images/QlOjjtrlX-HZEnS8hHx8mkMyuiQGslDMedhR5aGEpepBBIaoRMXgcI0Fx-2fkXXpfXVI6IFq99sCVtDbhYmVJNyxHjeJDHGA9MESmA_WojvgUtp-W9KXZIRGszaU" />
-    <title lang="en">2026 Commonwealth Games</title>
-    <live />
-  </programme>
-  <programme start="20260801203000 +0000" stop="20260801210000 +0000" channel="SonySportsTEN3.in">
-    <category lang="en">Sports</category>
-    <category lang="en">Talk Show</category>
-    <desc lang="en">A compilation of some of the most iconic innings played by players from all around the world at the Lord's Cricket Ground, England.</desc>
-    <icon src="https://iptv-epg.org/images/tXUV9FxUttUQCBxeZ-OD_4NuEEh96W235TggHxdxZIbwBRQOkcjb6x0Cb4pIxcsDgSVljRYuSf4EBdPzSeNZgmGctUDxjVNA_XZVgQlyPbwZ7fkK0KqmE3O6lQMdGQ" />
-    <title lang="en">Hitman's England; Lords Of England</title>
-  </programme>
-  <programme start="20260801210000 +0000" stop="20260801213000 +0000" channel="SonySportsTEN3.in">
-    <category lang="en">Sports</category>
-    <category lang="en">Talk Show</category>
-    <desc lang="en">A compilation of some of the most iconic innings played by players from all around the world at the Lord's Cricket Ground, England.</desc>
-    <icon src="https://iptv-epg.org/images/tXUV9FxUttUQCBxeZ-OD_4NuEEh96W235TggHxdxZIbwBRQOkcjb6x0Cb4pIxcsDgSVljRYuSf4EBdPzSeNZgmGctUDxjVNA_XZVgQlyPbwZ7fkK0KqmE3O6lQMdGQ" />
-    <title lang="en">Hundred Club; Lords Of England</title>
-  </programme>
   <programme start="20260801213000 +0000" stop="20260801223000 +0000" channel="SonySportsTEN3.in">
     <category lang="en">Sports</category>
     <category lang="en">Multi-Sports Event</category>
@@ -2992,20 +2894,19 @@ The host and a panel of sports experts analyse and discuss the performance of re
     <icon src="https://iptv-epg.org/images/bTebzHdTTB8TuwamaV3wQhct-KMcE9Xjz0JPfIE3C78XD5EhJW6uDHAlL4p_opy8jK9q_VxlZd_OZCVo4ttIfS6GCcB_QERF2-pGI3d_MOaAr8JPdsZae_SWSPL2" />
     <title lang="en">Commonwealth Games 2026</title>
   </programme>
-  <programme start="20260801163000 +0000" stop="20260801210000 +0000" channel="SonySportsTEN4.in">
-    <category lang="en">Sports</category>
-    <category lang="en">Multi-Sports Event</category>
-    <desc lang="en">This is Sport - Multi-Sport Event Category.</desc>
-    <icon src="https://iptv-epg.org/images/QlOjjtrlX-HZEnS8hHx8mkMyuiQGslDMedhR5aGEpepBBIaoRMXgcI0Fx-2fkXXpfXVI6IFq99sCVtDbhYmVJNyxHjeJDHGA9MESmA_WojvgUtp-W9KXZIRGszaU" />
-    <title lang="en">2026 Commonwealth Games</title>
-    <live />
-  </programme>
-  <programme start="20260801210000 +0000" stop="20260801213000 +0000" channel="SonySportsTEN4.in">
+  <programme start="20260803070000 +0000" stop="20260803073000 +0000" channel="SonySportsTEN3.in">
     <category lang="en">Sports</category>
     <category lang="en">Cricket</category>
-    <desc lang="en">A comprehensive compilation of some of the best One Day International matches played between the world's top cricket teams.</desc>
-    <icon src="https://iptv-epg.org/images/dhdWeeYImfVkZqUrzsNkIjAR9yaLge9k_feo_DsMmJm96j7ENKLBEW9Mk7xYE3_86kHiZXCJLxI6iG7atOhVvZJP4KX4L8P2bXQ9MKfIbNxX5t859X-vprhpdQwdpg" />
-    <title lang="en">England vs India 2026; Best of the ODIs</title>
+    <desc lang="en">Professional players from different cricketing teams play in the Twenty20 format, competing against each other to win the match.</desc>
+    <icon src="https://iptv-epg.org/images/0OaELpD5Egoh4u3jNfywNAv_5sL45cxdex_4irEUGJjpUILXL_loanwbCsO6cr9_VoeSMsPerAWS3KfK8S4jV1xAmUL9X2aXNPFDGPgYLrUCA6kBmBM9l3krxXL0" />
+    <title lang="en">2nd T20: England vs. India; T20 Cricket</title>
+  </programme>
+  <programme start="20260803073000 +0000" stop="20260803123000 +0000" channel="SonySportsTEN3.in">
+    <category lang="en">Sports</category>
+    <category lang="en">Cricket</category>
+    <desc lang="en">Professional players from different cricketing teams play in the Twenty20 format, competing against each other to win the match.</desc>
+    <icon src="https://iptv-epg.org/images/0OaELpD5Egoh4u3jNfywNAv_5sL45cxdex_4irEUGJjpUILXL_loanwbCsO6cr9_VoeSMsPerAWS3KfK8S4jV1xAmUL9X2aXNPFDGPgYLrUCA6kBmBM9l3krxXL0" />
+    <title lang="en">3rd T20: England vs. India; T20 Cricket</title>
   </programme>
   <programme start="20260801213000 +0000" stop="20260801223000 +0000" channel="SonySportsTEN4.in">
     <category lang="en">Sports</category>
@@ -3241,12 +3142,12 @@ The host and a panel of sports experts analyse and discuss the performance of re
     <icon src="https://iptv-epg.org/images/lvby3bBxgqGLP62-SubfPvpNwKBelJ7WcfU66ij85Sn9kPax-JbO-0xtVHlUpNw0tMV0vpDoAVREY9lW6V3z4s1dToQJqkNSRDoKko0IwIqzITUonjVsmiTf7SbRjw" />
     <title lang="en">UFC Fight Night: Kape vs. Horiguchi</title>
   </programme>
-  <programme start="20260801193000 +0000" stop="20260801203000 +0000" channel="SONYSPORTSTEN5.in">
+  <programme start="20260804003000 +0000" stop="20260804013000 +0000" channel="SonySportsTEN4.in">
     <category lang="en">Sports</category>
-    <category lang="en">Talk Show</category>
-    <desc lang="en">Highlights from the Super Four match between India and Sri Lanka in the 2025 Asia Cup, where the two professional cricket teams compete against each other for victory.</desc>
-    <icon src="https://iptv-epg.org/images/dOms45ZXgEvzrH2cqx-ANbsw-QbPoX8g5v696h7JxZLLoNxieCmKyoD90ZQr60yDpBzpwl1f3JXIzW1rj8-FpUNLxXUH_fR7OeBvqjDXzBBpfGr_49UF7sgx2sH2jg" />
-    <title lang="en">2025: Super Four: India vs. Sri Lanka; Asia Cup Highlights</title>
+    <category lang="en">Cricket</category>
+    <desc lang="en">Professional players from different cricketing teams play in the Twenty20 format, competing against each other to win the match.</desc>
+    <icon src="https://iptv-epg.org/images/0OaELpD5Egoh4u3jNfywNAv_5sL45cxdex_4irEUGJjpUILXL_loanwbCsO6cr9_VoeSMsPerAWS3KfK8S4jV1xAmUL9X2aXNPFDGPgYLrUCA6kBmBM9l3krxXL0" />
+    <title lang="en">2nd T20: Ireland vs. India; T20 Cricket</title>
   </programme>
   <programme start="20260801203000 +0000" stop="20260801223000 +0000" channel="SONYSPORTSTEN5.in">
     <category lang="en">Sports</category>
@@ -3487,31 +3388,6 @@ The host and a panel of sports experts analyse and discuss the performance of re
     <desc lang="en">A comprehensive compilation of some of the best One Day International matches played between the world's top cricket teams.</desc>
     <icon src="https://iptv-epg.org/images/7R8MvabL9cud1Fdws6dBhhWnqMjHMFGvINTXtZiwCIeAG7p9iPFgZvZjtDz6AVQgTh4-qc1THypnrx-7pz6fgmWlK4_znauxRARYG35EE6f_2xoB9LFh97__RukvMg" />
     <title lang="en">England vs India 2026; Best of the ODIs</title>
-  </programme>
-  <programme start="20260801193000 +0000" stop="20260801203000 +0000" channel="STARPLUS.in">
-    <category lang="en">TV Show</category>
-    <category lang="en">Drama</category>
-    <credits>
-      <director>Lalit Mohan</director>
-      <director>Nissar Parvez</director>
-      <actor>Gurmeet Choudhary</actor>
-      <actor>Drashti Dhami</actor>
-      <actor>Nikunj Malik</actor>
-      <actor>Melanie Pais</actor>
-      <actor>Praneet Bhat</actor>
-      <actor>Kanika Maheshwari</actor>
-      <actor>Perneet Chauhan</actor>
-      <actor>Jaanvi Sangwan</actor>
-      <actor>Prashant Chawla</actor>
-      <actor>Ahwaan Kumar</actor>
-      <producer>Sanket M. Vanzara</producer>
-      <producer>Gul Khan</producer>
-    </credits>
-    <desc lang="en">S1 E26
-The life of Geet, a village girl, takes a tragic turn when her NRI husband abandons her. Subsequently, she travels to the city and takes up a job.</desc>
-    <episode-num>S1 E26</episode-num>
-    <icon src="https://iptv-epg.org/images/KQTybtyGbSKTiBfFtkGAVgEdO6AXOTMMyFIKqmZiEiu10Sd22cI_f86n25F1PPSc6qe7RztsIjbvv_7lU1ZzgS77QW_YK-YHq-7G6FNOF_x5EBfcFknDkKQK9l1I" />
-    <title lang="en">Geet-Hui Sabse Parayi</title>
   </programme>
   <programme start="20260801203000 +0000" stop="20260802003000 +0000" channel="STARPLUS.in">
     <category lang="en">TV Show</category>
@@ -4220,27 +4096,6 @@ Tulsi brings Karan and Gautam together to preserve family unity, assigning Karan
     <icon src="https://iptv-epg.org/images/tPxPH8qcXHPzcmmRkP1g4Us1ZOBeM64jos6_sY1UlYJaGVUehFzdE4AO75f8xLbXz74Z5JIkS6iowZ7N_XYhWL1q73-G3Ruh6nafI0tow6DicQ0y5-oq3qkgW8Dl" />
     <title lang="en">Kyunki Saas Bhi Kabhi Bahu Thi</title>
   </programme>
-  <programme start="20260801200000 +0000" stop="20260801203000 +0000" channel="StarSports1.in">
-    <category lang="en">Sports</category>
-    <category lang="en">Cricket</category>
-    <desc lang="en">Highlights of the matches played during the ICC Cricket World Cup, a quadrennial ODI tournament, wherein international teams compete to win.</desc>
-    <icon src="https://iptv-epg.org/images/q5berXhXwMMyetHKk01z7mxjNGDgGAvfOasyUcv2O85NjfiU3r85565JeEqSIwpmA9_FZMzoqZwFk6njkmy2NY4Ym0noPnJfldCCsF87pXq_ybL6a4wcNM-ghvd6" />
-    <title lang="en">ICC CWC Highlights</title>
-  </programme>
-  <programme start="20260801203000 +0000" stop="20260801210000 +0000" channel="StarSports1.in">
-    <category lang="en">Sports</category>
-    <category lang="en">Cricket</category>
-    <desc lang="en">Highlights of all the action from the matches played in the ICC Champions Trophy, a cricket tournament wherein several international teams compete for glory.</desc>
-    <icon src="https://iptv-epg.org/images/1eBhJTgp7vGzl4007G7xPGA6-B0z_mOEFtcBYO17C5Hl6-W7RMInCKiPq6ZMt00vfHWtd_jF4P477QVQZCAIm3lWglZWB3UotK6iEk1qp095Nt2WR2rPS1rFC5E" />
-    <title lang="en">ICC Champions Trophy Highlights</title>
-  </programme>
-  <programme start="20260801210000 +0000" stop="20260801213000 +0000" channel="StarSports1.in">
-    <category lang="en">Sports</category>
-    <category lang="en">Cricket</category>
-    <desc lang="en">An extensive and thorough coverage of one-day cricket matches contested by various international teams from across the globe.</desc>
-    <icon src="https://iptv-epg.org/images/ZgS534CJGl4gT03--DFZDM_J7YaQhncUgzSpLlJDuWPccJ75nNUcVkbyYm55bIAORHzwh5ggbe184AZRoXNl14jk41o6Ze5f8wb1mFunJ7GGgiOBZ379twqxoHs" />
-    <title lang="en">Australia v India: 2nd ODI; One-Day International Cricket</title>
-  </programme>
   <programme start="20260801213000 +0000" stop="20260801220000 +0000" channel="StarSports1.in">
     <category lang="en">Sports</category>
     <category lang="en">Cricket</category>
@@ -4467,19 +4322,11 @@ This is Sport - Cricket Category.</desc>
     <icon src="https://iptv-epg.org/images/1dzS3Yph5HHJhLVUnpKOMYCUFOUF0Ccrm-d_nxQTF9SfkgjPD3IzLtsJekaIcovObkmaCtdL2NVjOTOGlW6fryyUkAa1M6Zsb6-AF8PGgtygGlniYjuBXFd4wrtMlw" />
     <title lang="en">Guyana Amazon Warriors vs Saint Lucia Kings, 29th Match; CPL T20 Highlights</title>
   </programme>
-  <programme start="20260801200000 +0000" stop="20260801203000 +0000" channel="StarSports2.in">
+  <programme start="20260802131500 +0000" stop="20260802132000 +0000" channel="StarSports1.in">
     <category lang="en">Sports</category>
-    <category lang="en">Cricket</category>
-    <desc lang="en">Highlighting the major moments from the ICC T20 world cup. The presenter covers everything from the soaring sixes to game changing wickets.</desc>
-    <icon src="https://iptv-epg.org/images/y4otBdfqpmlnYaKm5TZH1K_mgrvNPBMdyG27LS-TuRJnh4cC6Zamim0igK9EbzOwrbHM52cGAaW_YFJGmHdZfdrmA4YbkkYNFTj1rA0P3F_q1Vb6fvKhWEtY6KrUMQ" />
-    <title lang="en">ICC World T20 Highlights</title>
-  </programme>
-  <programme start="20260801203000 +0000" stop="20260801213000 +0000" channel="StarSports2.in">
-    <category lang="en">Sports</category>
-    <category lang="en">Cricket</category>
-    <desc lang="en">Sports experts, players and commentators discuss and analyse some of the greatest ICC Men's Cricket World Cup matches in history.</desc>
-    <icon src="https://iptv-epg.org/images/7wyaSL9ylqBqAwBxeO60M9rwj-vUuZaH_jQ4wk4DlGTGzO4ehT6WT9KI0xYeaNuOG9sAD0v-c5VmlKqilUanwx_RQ12vHMmE1e7OqZTBahnZ_0m90F4PEzCELPAFsw" />
-    <title lang="en">ICC Men's CWC Greatest Matches</title>
+    <desc lang="en">This is Sport - Sport Category.</desc>
+    <icon src="https://iptv-epg.org/images/6yMiHfRJ_I0EJMcfz6anghGhPiMR0DTyKO3kiaSoetf6j00K0KGIt3idbbnf0XNqLD1OGnnmMgdaLvj4WNPOHQSHZNa5FbExG16g0aXffUUUAvScDJsG92qD-JP44g" />
+    <title lang="en">Follow the Blues Filler</title>
   </programme>
   <programme start="20260801213000 +0000" stop="20260801220000 +0000" channel="StarSports2.in">
     <category lang="en">Sports</category>
@@ -4718,27 +4565,6 @@ A countdown of some of the best moments from various professional cricket matche
     <title lang="en">Trent Rockets vs. Sunrisers Leeds; Men's The Hundred</title>
     <live />
   </programme>
-  <programme start="20260801200000 +0000" stop="20260801203000 +0000" channel="StarSports3.in">
-    <category lang="en">Sports</category>
-    <category lang="en">Cricket</category>
-    <desc lang="en">An extensive and thorough coverage of one-day cricket matches contested by various international teams from across the globe.</desc>
-    <icon src="https://iptv-epg.org/images/ZgS534CJGl4gT03--DFZDM_J7YaQhncUgzSpLlJDuWPccJ75nNUcVkbyYm55bIAORHzwh5ggbe184AZRoXNl14jk41o6Ze5f8wb1mFunJ7GGgiOBZ379twqxoHs" />
-    <title lang="en">ICC CWC 2023 India vs New Zealand, 21st Match; One-Day International Cricket</title>
-  </programme>
-  <programme start="20260801203000 +0000" stop="20260801210000 +0000" channel="StarSports3.in">
-    <category lang="en">Sports</category>
-    <category lang="en">Cricket</category>
-    <desc lang="en">Highlights of a cricket match wherein teams compete against each other in order to emerge victorious and win the coveted title.</desc>
-    <icon src="https://iptv-epg.org/images/g26kLOucpBqPPkF-jcHVC4XqnSOsIKfb2j2-3IWtEcKRJ_izn7gtrOsdKZuyEBX1zZJNLHFLg6gZ-sJ98S8N6cVgCFSn7oMJMY0V1XLU69L5UZQrh86TOOj6xkw" />
-    <title lang="en">Icc CWC 2023: South Africa vs Netherlands - 15th Match; Cricket Highlights</title>
-  </programme>
-  <programme start="20260801210000 +0000" stop="20260801213000 +0000" channel="StarSports3.in">
-    <category lang="en">Sports</category>
-    <category lang="en">Cricket</category>
-    <desc lang="en">Highlights of the 2026 ICC Men's T20 World Cup, wherein India and Pakistan vie.</desc>
-    <icon src="https://iptv-epg.org/images/zZokLVcSGUP-wFMO9ZEgPQaQytUZwapsCViZH-rbZVGVYnKSB3bGqY6UQyQ63MAkmP8MzyPNWwVNfY5e9GrEs5ka40WHel3xP96K5zi_qgykGxk8Xf8B-SqsYs8Y" />
-    <title lang="en">2026: India vs Pakistan; ICC Men's T20 Cricket World Cup Highlights</title>
-  </programme>
   <programme start="20260801213000 +0000" stop="20260801220000 +0000" channel="StarSports3.in">
     <category lang="en">Sports</category>
     <category lang="en">Cricket</category>
@@ -4965,76 +4791,12 @@ This is Sport - Cricket Category.</desc>
     <icon src="https://iptv-epg.org/images/1dzS3Yph5HHJhLVUnpKOMYCUFOUF0Ccrm-d_nxQTF9SfkgjPD3IzLtsJekaIcovObkmaCtdL2NVjOTOGlW6fryyUkAa1M6Zsb6-AF8PGgtygGlniYjuBXFd4wrtMlw" />
     <title lang="en">Saint Lucia Kings vs Antigua &amp; Barbuda Falcons, 18th Match; CPL T20 Highlights</title>
   </programme>
-  <programme start="20260801200000 +0000" stop="20260801203000 +0000" channel="ZeeTV.in">
-    <category lang="en">TV Show</category>
-    <category lang="en">Drama</category>
-    <credits>
-      <actor>Priya Thakur</actor>
-      <actor>Nausheen Ali Sardar</actor>
-      <actor>Abhishek Sharma</actor>
-      <actor>Pratiksha Rai</actor>
-      <actor>Poonam Dwivedi</actor>
-      <producer>Arvind Babbal</producer>
-    </credits>
-    <desc lang="en">S1 E515
-Karishma endures grueling chores to maintain her facade while Santosh uses her illness to force a marriage with Devansh. However, Vasudha calls the police just as the engagement begins.</desc>
-    <episode-num>S1 E515</episode-num>
-    <icon src="https://iptv-epg.org/images/nwjDptrbwDMVpdWq-o-aGqD1YfySnN2cJReIgoxWipM7pj-yGg-u2sH0YQI3GWfCKDxREPgejdbps3sClXko77RNShw3AKfgQpwFur_cFVnolXB6s2edXLBhWVsXig" />
-    <title lang="en">Vasudha</title>
-  </programme>
-  <programme start="20260801203000 +0000" stop="20260801204500 +0000" channel="ZeeTV.in">
-    <category lang="en">TV Show</category>
-    <category lang="en">Drama</category>
-    <credits>
-      <director>Ankur Bhatia</director>
-      <director>Uttam Ahlawat</director>
-      <actor>Amandeep Sidhu</actor>
-      <actor>Sheezan Khan</actor>
-      <producer>Ravi Dubey</producer>
-      <producer>Sargun Mehta</producer>
-    </credits>
-    <desc lang="en">S1 E309
-After her husband abandons her for not giving birth to a son, a resilient Ganga Mai dedicates herself to raising her three daughters with unwavering strength, grace, and affection.</desc>
-    <episode-num>S1 E309</episode-num>
-    <icon src="https://iptv-epg.org/images/Fz2yhNphadMh5_ZsoOqhCPPGYS-dNxVayV0Kdd9MTf5bHv8_nPQtBKZMI9m9AOAOc6xrPElVIDfe-RZBEjm5rwknZB6v21vGeixioEsv00KeeND2C7dgiIwM83q6" />
-    <title lang="en">Ganga Mai Ki Betiyaan</title>
-  </programme>
-  <programme start="20260801204500 +0000" stop="20260801210000 +0000" channel="ZeeTV.in">
-    <category lang="en">TV Show</category>
-    <category lang="en">Drama</category>
-    <credits>
-      <actor>Priya Thakur</actor>
-      <actor>Nausheen Ali Sardar</actor>
-      <actor>Abhishek Sharma</actor>
-      <actor>Pratiksha Rai</actor>
-      <actor>Poonam Dwivedi</actor>
-      <producer>Arvind Babbal</producer>
-    </credits>
-    <desc lang="en">S1 E639
-Though they have different perspectives, the amiable and endearing Vasudha works as a housekeeper in Chandrika, a business tycoon's house.</desc>
-    <episode-num>S1 E639</episode-num>
-    <icon src="https://iptv-epg.org/images/nwjDptrbwDMVpdWq-o-aGqD1YfySnN2cJReIgoxWipM7pj-yGg-u2sH0YQI3GWfCKDxREPgejdbps3sClXko77RNShw3AKfgQpwFur_cFVnolXB6s2edXLBhWVsXig" />
-    <title lang="en">Vasudha</title>
-  </programme>
-  <programme start="20260801210000 +0000" stop="20260801213000 +0000" channel="ZeeTV.in">
-    <category lang="en">TV Show</category>
-    <category lang="en">Drama</category>
-    <credits>
-      <actor>Sonakshi Batra</actor>
-      <actor>Farman Haider</actor>
-      <actor>Sayantani Ghosh</actor>
-      <actor>Vaishnavi Ganatra</actor>
-      <actor>Ajay Chaudhary</actor>
-      <actor>Ayush Shrivastava</actor>
-      <actor>Smita Sinkar Shah</actor>
-      <actor>Jonas Khan</actor>
-      <producer>Rahul Kumar Tewary</producer>
-    </credits>
-    <desc lang="en">S1 E263
-Unbeknownst to her family, a young woman leads a double life as an undercover intelligence officer, determined to clear her mother's name.</desc>
-    <episode-num>S1 E263</episode-num>
-    <icon src="https://iptv-epg.org/images/TFa5I9k2ex2GX2cXJsilp8a5vnm-ag9-xwsSk_0Gi5YYFmeSdtjEq4iXCGSbe15M1n_rSXRbMP_ImeOm12mgpSljKx7ntWCV_D7OflgTQSwD_ruGVbi-2PMAx0fS1Q" />
-    <title lang="en">Jagadhatri</title>
+  <programme start="20260802113000 +0000" stop="20260802123000 +0000" channel="StarSports3.in">
+    <category lang="en">Sports</category>
+    <category lang="en">Cricket</category>
+    <desc lang="en">This is Sport - Cricket Category.</desc>
+    <icon src="https://iptv-epg.org/images/Rb2rZ11FEmF-PckDUYDea0TZbUGtCReZpaZdGxIcZ6JXuXrpXiAR74YEgyOCKuXGfeu4CCsyze-iXKFH2z8rc4xaniZAxpd2T1OqLb4wDChlOs5xWd95BOiznM2X8-a4ofqZRxTcHIRIulGLYw9A1eWqNYgkwerdZHQOV09fFHt4ibKvGrLukghEI5msAHeqfafwgw" />
+    <title lang="en">ICC Men's Cricket World Cup 2027 Launch Show</title>
   </programme>
   <programme start="20260801213000 +0000" stop="20260801220000 +0000" channel="ZeeTV.in">
     <category lang="en">TV Show</category>
@@ -5569,36 +5331,42 @@ Deeming it a lucky charm, Vrinda marries Sanjay, who loves Divya. Serving as a c
     <icon src="https://iptv-epg.org/images/39n4b32WwYyEU8pHNtMfwCsepQhC5ZRARxMnGGAjTFUSwEcU4OMtGsj1n3YKOGwt8hLgQ7NG9EcHr34DwVGmfonutDWeG68Xxk6H_ZfRciXRLzVBVC0R_ntGAO-j4Q" />
     <title lang="en">Tu Hi Re Dil Mein</title>
   </programme>
-  <programme start="20260801200000 +0000" stop="20260801203000 +0000" channel="HGTV.us">
-    <category lang="en">House/garden</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S271 E15 — Loving Real Estate in Lake Elsinore, California
-After relocating their business, real estate professionals search for a new home in Lake Elsinore, Calif.; they're looking for an active lifestyle and waterfront views; but finding a place that's best for both work and family may be a challenge.</desc>
-    <episode-num>S271 E15</episode-num>
-    <icon src="https://iptv-epg.org/images/48xiD2dQGYeySyfRNUfnI0TInQ_vGZGPmvYTsb1b8J_YZL_iL5vn1zDn9Uz2RiIP3K5VQSnX7_nZaJvYxDp9WwOWDrZpcc137AFCFNQEdEU" />
-    <previously-shown />
-    <title lang="en">House Hunters</title>
+  <programme start="20260802140000 +0000" stop="20260802150000 +0000" channel="ZeeTV.in">
+    <category lang="en">TV Show</category>
+    <category lang="en">Drama</category>
+    <credits>
+      <director>Jaladh. K. Sharma</director>
+      <director>Pawan Kumar Marut</director>
+      <actor>Rajendra Chawla</actor>
+      <actor>Riya Munjal</actor>
+      <actor>Akshita Mudgal</actor>
+      <actor>Priom Gujjar</actor>
+      <actor>Raghav Tiwari</actor>
+      <actor>Manasi Joshi Roy</actor>
+    </credits>
+    <desc lang="en">S1 E201
+Lakshmi, a determined woman, tackles the ups and downs of life in a traditional joint family, supporting her husband Shriniwas as he works tirelessly to create their dream home.</desc>
+    <episode-num>S1 E201</episode-num>
+    <icon src="https://iptv-epg.org/images/WSKNI3rghpGOzuuGYxL_3B1V39mjO1RzYivg983BnnyFj8xfcAkyGfWEtdavuro5OgW1H1y6x-3TPd6PzN2OmcyAR46ZKATxU3lsGNdLhD3lC4mSvl2msDADs5XRXg" />
+    <title lang="en">Lakshmi Nivas</title>
   </programme>
-  <programme start="20260801203000 +0000" stop="20260801210000 +0000" channel="HGTV.us">
-    <category lang="en">House/garden</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Series</category>
-    <desc lang="en">Beach vs. Bay in Panama City
-Individuals, couples and families as they search for the amazing waterfront home of their dreams; whether it's a nostalgic Gulf Coast location or a big move to the Caribbean, these buyers have their hearts set on having it all.</desc>
-    <icon src="https://iptv-epg.org/images/48xiD2dQGYeySyfRNUfnI0TInQ_vGZGPmvYTsb1b8J_YZL_iL5vn1zDn9Uz2RiIP3K5VQSnX7_nZaJvYxDp9WwOWDrZpcc137AFCFNQEdEU" />
-    <previously-shown />
-    <title lang="en">House Hunters</title>
-  </programme>
-  <programme start="20260801210000 +0000" stop="20260801213000 +0000" channel="HGTV.us">
-    <category lang="en">House/garden</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Series</category>
-    <desc lang="en">Sisters Settle in Gulf Shores
-Sisters look to relocate from Kentucky and purchase a two-family home in Gulf Shores, Ala.; they're looking for a place where they vacationed growing up; one wants something turnkey while the other is focused on staying within their budget.</desc>
-    <icon src="https://iptv-epg.org/images/48xiD2dQGYeySyfRNUfnI0TInQ_vGZGPmvYTsb1b8J_YZL_iL5vn1zDn9Uz2RiIP3K5VQSnX7_nZaJvYxDp9WwOWDrZpcc137AFCFNQEdEU" />
-    <previously-shown />
-    <title lang="en">House Hunters</title>
+  <programme start="20260802150000 +0000" stop="20260802153000 +0000" channel="ZeeTV.in">
+    <category lang="en">TV Show</category>
+    <category lang="en">Drama</category>
+    <credits>
+      <actor>Niharika Chouksey</actor>
+      <actor>Sharad Kelkar</actor>
+      <actor>Dolly Chawla</actor>
+      <actor>Sameer Patil</actor>
+      <actor>Manraj Singh</actor>
+      <actor>Vandana Pathak</actor>
+      <producer>Prateek Sharma</producer>
+    </credits>
+    <desc lang="en">S1 E389
+A young woman's unexpected bond with a much older businessman brings emotional twists while challenging societal expectations and family ideals.</desc>
+    <episode-num>S1 E389</episode-num>
+    <icon src="https://iptv-epg.org/images/6EkGfkl6LJcPM8xdumzQmDC5LEKomsu_gOQZ9Cq4FbR0esJm7FA4aRed2dJd9d9UkmrneSj53Yz3PPW9cmmvPss4A1R2eCPR7od2vsmuYEQTIoTS4_wCNB6-amxXUg" />
+    <title lang="en">Tum Se Tum Tak</title>
   </programme>
   <programme start="20260801213000 +0000" stop="20260801220000 +0000" channel="HGTV.us">
     <category lang="en">House/garden</category>
@@ -6006,19 +5774,24 @@ Two Californians search for a vacation home in Pleasure Island, N.C., after visi
     <previously-shown />
     <title lang="en">Beachfront Bargain Hunt</title>
   </programme>
-  <programme start="20260801193000 +0000" stop="20260801210000 +0000" channel="LifetimePacific.us">
-    <category lang="en">Thriller</category>
-    <category lang="en">Movie</category>
+  <programme start="20260802143000 +0000" stop="20260802150000 +0000" channel="HGTV.us">
+    <category lang="en">Documentary</category>
+    <category lang="en">House/garden</category>
+    <category lang="en">Reality</category>
+    <category lang="en">Series</category>
     <credits>
-      <director>David Mewa</director>
-      <actor>Letoya Luckett</actor>
-      <actor>Rainbow Francks</actor>
-      <actor>Amanda Thamage</actor>
+      <director>Beth Shuman</director>
+      <director>Ellen Lowrey</director>
+      <producer>Jeff Smadbeck</producer>
+      <producer>Sophie Erickson</producer>
     </credits>
-    <date>2026</date>
-    <desc lang="en">A prosecutor testifies against her husband, sending him to death row. However, when she finds out that the real murderer is still at large, she must unravel the mystery, outwit a killer and save her daughter before it's too late.</desc>
-    <icon src="https://iptv-epg.org/images/X6Ni9C6TREHM1Mlb41LpivThAviLLTgFylWQH6TIyCSh3P6rU_cFrJF1Eq3l2bklY6xpRo7PG5oj2sPyZ6Zik3J5CxycKYlWTqwtT9T-m6E" />
-    <title lang="en">The Millwood Murders: Buried Truth</title>
+    <date>2020</date>
+    <desc lang="en">S25 E13 — Girls Just Want a Beach House
+A mother-daughter duo looks to find their family a vacation home in the picturesque town of Cocoa Beach, Florida; their challenge is finding an affordable property with enough space.</desc>
+    <episode-num>S25 E13</episode-num>
+    <icon src="https://iptv-epg.org/images/asiGuetLBkoxklw61rWs9wsLvMqaDWQNmroh-XgQowXQW_IxztGHA-H49hadneHqdqEGU86ZRO9ovadXmoKFKmeWsiwjyto6RJTLNjK4zTs" />
+    <previously-shown />
+    <title lang="en">Beachfront Bargain Hunt</title>
   </programme>
   <programme start="20260801210000 +0000" stop="20260801230000 +0000" channel="LifetimePacific.us">
     <category lang="en">Docudrama</category>
@@ -6435,26 +6208,6 @@ Did God create a devil? Lucifer was a perfect angel. Yet he became self-obsessed
     <icon src="https://iptv-epg.org/images/MiKDleUNtsEk40avu6-udnGUJaCoA1jppu8ULLvYlPVhmJx9RW6_jNwIITg74nMvx1XuQx84rAywMMJcJw-QKmJick3iDMN_5ZiCL6d6i4g" />
     <title lang="en">Creflo Dollar</title>
   </programme>
-  <programme start="20260803133000 +0000" stop="20260803140000 +0000" channel="LifetimePacific.us">
-    <category lang="en">Religious</category>
-    <category lang="en">Talk</category>
-    <date>1996</date>
-    <desc lang="en">James Robison was a former preacher who changed directions in his life and began hosting this television show alongside his wife, Betty, in order to reach out to help more people.</desc>
-    <icon src="https://iptv-epg.org/images/oQfZgCIa12uE4FN4YKehdipkAniKISyL0L7H3Zxuf8XI2oW9m2tzJNjLF0peCuZVT_3OgqsglUvx-CvsQpb4uBpMYbtxZt8cElP1Bv6v3A0" />
-    <title lang="en">Life Today</title>
-  </programme>
-  <programme start="20260801200000 +0000" stop="20260801210000 +0000" channel="Oxygen.us">
-    <category lang="en">Crime</category>
-    <category lang="en">Documentary</category>
-    <category lang="en">Series</category>
-    <date>2026</date>
-    <desc lang="en">S36 E05 — Samantha Rabon
-After South Carolina authorities locate a burned and abandoned vehicle, they are led to a crime scene at a local church leader's home; their small community is divided when an unforeseen perpetrator is found responsible.</desc>
-    <episode-num>S36 E05</episode-num>
-    <icon src="https://iptv-epg.org/images/NeO4o4Lq2BV8x9XxYXDSUgDybclVi5IyuykMyPkdJ3hf-hpyZOQ-_WnbkkgBmG3lXq3sZSxdMvNC8uQQHPvvGPXc7VxRzpq4bE2BJIPuAoc" />
-    <previously-shown />
-    <title lang="en">Snapped</title>
-  </programme>
   <programme start="20260801210000 +0000" stop="20260801220000 +0000" channel="Oxygen.us">
     <category lang="en">Crime</category>
     <category lang="en">Series</category>
@@ -6836,18 +6589,6 @@ A 62-year-old man bails his stepdaughter out of jail for attempted murder and is
     <desc lang="en">S03 E53 — One Moment
 As a murder victim's sisters dedicate themselves to finding the killer, an unexpected source turns the case upside down.</desc>
     <episode-num>S03 E53</episode-num>
-    <icon src="https://iptv-epg.org/images/-jiXc8lK4hstOSFf5KkpAgaGp0E5kuNAHUUFqjiP5Bo2qGEawbAapLJnoiFZEC0HJCG8vFPpf5DhqNP0Skk1vtc8ydIulwKRFpjMzwS1w_Q" />
-    <previously-shown />
-    <title lang="en">Dateline</title>
-  </programme>
-  <programme start="20260803080000 +0000" stop="20260803090000 +0000" channel="Oxygen.us">
-    <category lang="en">Documentary</category>
-    <category lang="en">Newsmagazine</category>
-    <category lang="en">News</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S03 E54 — One Moment
-As a murder victim's sisters dedicate themselves to finding the killer, an unexpected source turns the case upside down.</desc>
-    <episode-num>S03 E54</episode-num>
     <icon src="https://iptv-epg.org/images/-jiXc8lK4hstOSFf5KkpAgaGp0E5kuNAHUUFqjiP5Bo2qGEawbAapLJnoiFZEC0HJCG8vFPpf5DhqNP0Skk1vtc8ydIulwKRFpjMzwS1w_Q" />
     <previously-shown />
     <title lang="en">Dateline</title>
@@ -7300,17 +7041,484 @@ Penny and Leonard try to recover from an awkward hookup; Howard and Sheldon make
     <title lang="en">CTV News Montreal</title>
     <live />
   </programme>
-  <programme start="20260802230000 +0000" stop="20260803000000 +0000" channel="CTVMontreal-CFCF.ca">
-    <category lang="en">Adventure</category>
-    <category lang="en">Competition reality</category>
-    <category lang="en">Travel</category>
+  <programme start="20260801210000 +0000" stop="20260801220000 +0000" channel="CTVNature.ca">
+    <category lang="en">Science</category>
     <category lang="en">Series</category>
-    <desc lang="en">S12 E04 — Our Taxi Left Us
-In Montréal and Laval, Quebec, teams face a game-changing Roadblock that introduces The Intersection, forcing two teams to work together.</desc>
-    <episode-num>S12 E04</episode-num>
-    <icon src="https://iptv-epg.org/images/iz31FYyQVZssmYqpp3MoZ77gw0lo3kM5Y3WhWdV-EfN1c-fbasctyDh4qAhu9YNHWGlDbVUc77uyfWtLYt23yTaKUUJOW6NWigXUqH5PMFs" />
+    <desc lang="en">S02 E12 — Concert Hall
+Diving into the science of sound to learn how a room's size, shape, and materials interact to create perfect pitch and exploring whether the cutting edge of audio technology could allow any room to put on a good show.</desc>
+    <episode-num>S02 E12</episode-num>
+    <icon src="https://iptv-epg.org/images/0otrEGkJ7RC1mAZXmDbCoYeLQI9pY3wV21dpxgoJxqZB1FfEkr31PqLS-1ryrX--kFdHmzrV7BM-IRTKPE9g0hi8q_dv8ZRCxLHWljmx8xc" />
     <previously-shown />
-    <title lang="en">The Amazing Race Canada</title>
+    <title lang="en">If We Built It Today</title>
+  </programme>
+  <programme start="20260801220000 +0000" stop="20260801230000 +0000" channel="CTVNature.ca">
+    <category lang="en">Science</category>
+    <desc lang="en">Talking to architects, historians, engineers and builders to find out if modern-day innovations could be used to re-create masterpieces, or if fundamental techniques have been lost to time.</desc>
+    <icon src="https://iptv-epg.org/images/0otrEGkJ7RC1mAZXmDbCoYeLQI9pY3wV21dpxgoJxqZB1FfEkr31PqLS-1ryrX--kFdHmzrV7BM-IRTKPE9g0hi8q_dv8ZRCxLHWljmx8xc" />
+    <title lang="en">If We Built It Today</title>
+    <new />
+  </programme>
+  <programme start="20260801230000 +0000" stop="20260802000000 +0000" channel="CTVNature.ca">
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <desc lang="en">Washington DC: How to Build a City Part 2
+Washington, DC was built as the capital city of a new, revolutionary country, and it's home to some of America's greatest wonders; now, experts use cutting-edge engineering to reimagine what this place would look like if we had to build it again.</desc>
+    <icon src="https://iptv-epg.org/images/0otrEGkJ7RC1mAZXmDbCoYeLQI9pY3wV21dpxgoJxqZB1FfEkr31PqLS-1ryrX--kFdHmzrV7BM-IRTKPE9g0hi8q_dv8ZRCxLHWljmx8xc" />
+    <previously-shown />
+    <title lang="en">If We Built It Today</title>
+  </programme>
+  <programme start="20260802000000 +0000" stop="20260802010000 +0000" channel="CTVNature.ca">
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <desc lang="en">S02 E12 — Concert Hall
+Diving into the science of sound to learn how a room's size, shape, and materials interact to create perfect pitch and exploring whether the cutting edge of audio technology could allow any room to put on a good show.</desc>
+    <episode-num>S02 E12</episode-num>
+    <icon src="https://iptv-epg.org/images/0otrEGkJ7RC1mAZXmDbCoYeLQI9pY3wV21dpxgoJxqZB1FfEkr31PqLS-1ryrX--kFdHmzrV7BM-IRTKPE9g0hi8q_dv8ZRCxLHWljmx8xc" />
+    <previously-shown />
+    <title lang="en">If We Built It Today</title>
+  </programme>
+  <programme start="20260802010000 +0000" stop="20260802020000 +0000" channel="CTVNature.ca">
+    <category lang="en">Science</category>
+    <desc lang="en">Talking to architects, historians, engineers and builders to find out if modern-day innovations could be used to re-create masterpieces, or if fundamental techniques have been lost to time.</desc>
+    <icon src="https://iptv-epg.org/images/0otrEGkJ7RC1mAZXmDbCoYeLQI9pY3wV21dpxgoJxqZB1FfEkr31PqLS-1ryrX--kFdHmzrV7BM-IRTKPE9g0hi8q_dv8ZRCxLHWljmx8xc" />
+    <title lang="en">If We Built It Today</title>
+  </programme>
+  <programme start="20260802020000 +0000" stop="20260802030000 +0000" channel="CTVNature.ca">
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <desc lang="en">Washington DC: How to Build a City Part 2
+Washington, DC was built as the capital city of a new, revolutionary country, and it's home to some of America's greatest wonders; now, experts use cutting-edge engineering to reimagine what this place would look like if we had to build it again.</desc>
+    <icon src="https://iptv-epg.org/images/0otrEGkJ7RC1mAZXmDbCoYeLQI9pY3wV21dpxgoJxqZB1FfEkr31PqLS-1ryrX--kFdHmzrV7BM-IRTKPE9g0hi8q_dv8ZRCxLHWljmx8xc" />
+    <previously-shown />
+    <title lang="en">If We Built It Today</title>
+  </programme>
+  <programme start="20260802030000 +0000" stop="20260802040000 +0000" channel="CTVNature.ca">
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <desc lang="en">S01 E06 — Resolute
+The Tyco Resolute is needed for burying high-tech fiber optic cables across oceans, using an immense underwater plow.</desc>
+    <episode-num>S01 E06</episode-num>
+    <icon src="https://iptv-epg.org/images/PwSGX-WnkKPLqwLMUZPYnXpMMPky3_-zkC2fkdMyRJ89Yv4eSKzytGhCiH6vToPPidZkqgiTaAXG3rst2SBPuVjAWbJtyHGQObCg2RSXVnk" />
+    <previously-shown />
+    <title lang="en">Mighty Ships</title>
+  </programme>
+  <programme start="20260802040000 +0000" stop="20260802050000 +0000" channel="CTVNature.ca">
+    <category lang="en">Special</category>
+    <date>2008</date>
+    <desc lang="en">An in-depth look inside the Queen Mary 2; meet some of the people working on the ship; the bridge, the galley, lower decks and engine rooms.</desc>
+    <icon src="https://iptv-epg.org/images/uw5bsrjvYbxLso6cmxCZjsHAnsWgG0TXxSMR9lWIithR7LrnRS3qAZ8UE4ihhZBpmO-ka8kWThEPQoimZT46avqsnyUcrQ8sqKxS1K1sdzk" />
+    <title lang="en">Inside Queen Mary 2</title>
+  </programme>
+  <programme start="20260802050000 +0000" stop="20260802060000 +0000" channel="CTVNature.ca">
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <desc lang="en">S02 E02 — MV Fairplayer
+The Jumbo Fairplayer represents the biggest and strongest mega ships built to transport super-sized equipment.</desc>
+    <episode-num>S02 E02</episode-num>
+    <icon src="https://iptv-epg.org/images/PwSGX-WnkKPLqwLMUZPYnXpMMPky3_-zkC2fkdMyRJ89Yv4eSKzytGhCiH6vToPPidZkqgiTaAXG3rst2SBPuVjAWbJtyHGQObCg2RSXVnk" />
+    <previously-shown />
+    <title lang="en">Mighty Ships</title>
+  </programme>
+  <programme start="20260802060000 +0000" stop="20260802070000 +0000" channel="CTVNature.ca">
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <desc lang="en">S02 E01 — HDMS Absalon
+A new breed of warship, the HDMS Absalon patrols the Gulf of Aden and other dangerous shipping routes.</desc>
+    <episode-num>S02 E01</episode-num>
+    <icon src="https://iptv-epg.org/images/PwSGX-WnkKPLqwLMUZPYnXpMMPky3_-zkC2fkdMyRJ89Yv4eSKzytGhCiH6vToPPidZkqgiTaAXG3rst2SBPuVjAWbJtyHGQObCg2RSXVnk" />
+    <previously-shown />
+    <title lang="en">Mighty Ships</title>
+  </programme>
+  <programme start="20260802070000 +0000" stop="20260802080000 +0000" channel="CTVNature.ca">
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <desc lang="en">S02 E03 — Akamalik
+The Akamalik is the star of Royal Greenland's shrimp trawling fleet and plays a critical role in the country's economy.</desc>
+    <episode-num>S02 E03</episode-num>
+    <icon src="https://iptv-epg.org/images/PwSGX-WnkKPLqwLMUZPYnXpMMPky3_-zkC2fkdMyRJ89Yv4eSKzytGhCiH6vToPPidZkqgiTaAXG3rst2SBPuVjAWbJtyHGQObCg2RSXVnk" />
+    <previously-shown />
+    <title lang="en">Mighty Ships</title>
+  </programme>
+  <programme start="20260802080000 +0000" stop="20260802090000 +0000" channel="CTVNature.ca">
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <desc lang="en">S02 E04 — MV Resolution
+The MV Resolution, a self-elevating support system ship, is designed to install gigantic wind turbines on the bottom of the sea.</desc>
+    <episode-num>S02 E04</episode-num>
+    <icon src="https://iptv-epg.org/images/PwSGX-WnkKPLqwLMUZPYnXpMMPky3_-zkC2fkdMyRJ89Yv4eSKzytGhCiH6vToPPidZkqgiTaAXG3rst2SBPuVjAWbJtyHGQObCg2RSXVnk" />
+    <previously-shown />
+    <title lang="en">Mighty Ships</title>
+  </programme>
+  <programme start="20260802090000 +0000" stop="20260802100000 +0000" channel="CTVNature.ca">
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <desc lang="en">S02 E05 — U.S.S. Nimitz
+The world's largest nuclear-powered aircraft carrier, the U.S.S. Nimitz has a crew of more than 3,000 as well as an air wing with more than 2,000 personnel.</desc>
+    <episode-num>S02 E05</episode-num>
+    <icon src="https://iptv-epg.org/images/PwSGX-WnkKPLqwLMUZPYnXpMMPky3_-zkC2fkdMyRJ89Yv4eSKzytGhCiH6vToPPidZkqgiTaAXG3rst2SBPuVjAWbJtyHGQObCg2RSXVnk" />
+    <previously-shown />
+    <title lang="en">Mighty Ships</title>
+  </programme>
+  <programme start="20260802100000 +0000" stop="20260802103000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S29 E10 — Berets; Pastis; Stationary Bikes
+How berets, pastis and stationary bikes are made.</desc>
+    <episode-num>S29 E10</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802103000 +0000" stop="20260802110000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S29 E11 — Bistro Sets, Letterpress Printing, Bamboo Lights and Asphalt Compactors
+An insight into how steel bistro furniture, letterpress printing, bamboo ceramic lights and asphalt compactors are made.</desc>
+    <episode-num>S29 E11</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802110000 +0000" stop="20260802113000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S29 E12 — Technological Corks; Zinc Gutters; Traditional Ham
+Technological corks; zinc gutters; traditional ham; chisteras.</desc>
+    <episode-num>S29 E12</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802113000 +0000" stop="20260802120000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S29 E13 — Petanque Balls; Biologic Medicines; Asphalt Pavers
+Exploring the production processes of pétanque balls, biologic medicines, asphalt pavers and Basque espadrilles.</desc>
+    <episode-num>S29 E13</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802120000 +0000" stop="20260802123000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S27 E13 — Coconut Shell Charcoal; Dial Indicators; Wet Downdraft Tables
+Find out how items such as coconut charcoal, dial indicators, wet downdraft tables and bassoon reeds are made.</desc>
+    <episode-num>S27 E13</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802123000 +0000" stop="20260802130000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <date>2016</date>
+    <desc lang="en">S28 E02 — Pasta Dies; Blueberries; Composting Toilets
+Exploring how everyday items like pasta dies, blueberries, composting toilets and surge arresters are made.</desc>
+    <episode-num>S28 E02</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802130000 +0000" stop="20260802133000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S28 E03 — Angle Grinders; Berry Baskets; Omnidirectional Speakers
+Exploring how everyday items such as angle grinders, berry baskets and omnidirectional speakers are made.</desc>
+    <episode-num>S28 E03</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802133000 +0000" stop="20260802140000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S28 E04 — Cartridge Blades; Chocolate Banana Loaves; Vending Machines
+Cartridge blades; chocolate banana loaves; vending machines; dive computers.</desc>
+    <episode-num>S28 E04</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802140000 +0000" stop="20260802143000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S28 E05 — Ultra-Thin Glass; Pallet Dismantlers; Cupcakes
+How ultra-thin glass, pallet dismantling machines, cupcakes and seamless stainless steel tubes are made.</desc>
+    <episode-num>S28 E05</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802143000 +0000" stop="20260802150000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S28 E06 — Potash; Leather Bracelets; Wild Rice
+Learning how handcrafted and factory items such as potash, leather bracelets, wild rice, and hex key L-Wrenches are made.</desc>
+    <episode-num>S28 E06</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802150000 +0000" stop="20260802153000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S28 E07 — Metal Nail Files; Birch Bark Canoes; Cruiser Boat Hardtops
+Learning how metal nail files, birchbark canoes, cruiser boat hardtops and high-voltage circuit breakers are made.</desc>
+    <episode-num>S28 E07</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802153000 +0000" stop="20260802160000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S28 E08 — Macarons; Pine Needle Baskets; Micrometers
+Learning how macarons, pine needle baskets and micrometers are made.</desc>
+    <episode-num>S28 E08</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802160000 +0000" stop="20260802163000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S28 E09 — Endoscopes; Megaphones; Uranium
+An examination of the ins and outs of the manufacturing processes for endoscopes, megaphones and uranium.</desc>
+    <episode-num>S28 E09</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802163000 +0000" stop="20260802170000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S28 E10 — Hollow Disk Pumps; Palm Sugar; Yachts
+How hollow disk pumps, palm sugar, and yachts are made.</desc>
+    <episode-num>S28 E10</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802170000 +0000" stop="20260802173000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S28 E11 — Abalone Collagen, CD planers, Embossed Wood Moldings
+Learning how collagen, digital-to-analog converters, wood moldings and plier staplers are made.</desc>
+    <episode-num>S28 E11</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802173000 +0000" stop="20260802180000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S29 E10 — Berets; Pastis; Stationary Bikes
+How berets, pastis and stationary bikes are made.</desc>
+    <episode-num>S29 E10</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802180000 +0000" stop="20260802183000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S29 E11 — Bistro Sets, Letterpress Printing, Bamboo Lights and Asphalt Compactors
+An insight into how steel bistro furniture, letterpress printing, bamboo ceramic lights and asphalt compactors are made.</desc>
+    <episode-num>S29 E11</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802183000 +0000" stop="20260802190000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S29 E12 — Technological Corks; Zinc Gutters; Traditional Ham
+Technological corks; zinc gutters; traditional ham; chisteras.</desc>
+    <episode-num>S29 E12</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802190000 +0000" stop="20260802193000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S29 E13 — Petanque Balls; Biologic Medicines; Asphalt Pavers
+Exploring the production processes of pétanque balls, biologic medicines, asphalt pavers and Basque espadrilles.</desc>
+    <episode-num>S29 E13</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
+  </programme>
+  <programme start="20260802193000 +0000" stop="20260802200000 +0000" channel="CTVNature.ca">
+    <category lang="en">Documentary</category>
+    <category lang="en">How-to</category>
+    <category lang="en">Science</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Gabriel Hoss</director>
+      <director>Yves Allard</director>
+      <producer>André Douillard</producer>
+      <producer>Jean-Marc St-Pierre</producer>
+    </credits>
+    <desc lang="en">S27 E13 — Coconut Shell Charcoal; Dial Indicators; Wet Downdraft Tables
+Find out how items such as coconut charcoal, dial indicators, wet downdraft tables and bassoon reeds are made.</desc>
+    <episode-num>S27 E13</episode-num>
+    <icon src="https://iptv-epg.org/images/8RTkdnEfo2gNeSeenoiRauxYJJQyNP3UqDAqaf_cRaO4H6liHc1YzXXo_ZY9Y2wJ28Cs1vLek9TiuAJdIqQmvKfS3Y_XHqEzabengoAxvI8" />
+    <previously-shown />
+    <title lang="en">How It's Made</title>
   </programme>
   <programme start="20260801190000 +0000" stop="20260801220000 +0000" channel="CTVOttawa-CJOH.ca">
     <category lang="en">Sports</category>
@@ -7765,34 +7973,6 @@ Penny and Leonard try to recover from an awkward hookup; Howard and Sheldon make
     <title lang="en">CTV News Ottawa</title>
     <live />
   </programme>
-  <programme start="20260802230000 +0000" stop="20260803000000 +0000" channel="CTVOttawa-CJOH.ca">
-    <category lang="en">Adventure</category>
-    <category lang="en">Competition reality</category>
-    <category lang="en">Travel</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S12 E04 — Our Taxi Left Us
-In Montréal and Laval, Quebec, teams face a game-changing Roadblock that introduces The Intersection, forcing two teams to work together.</desc>
-    <episode-num>S12 E04</episode-num>
-    <icon src="https://iptv-epg.org/images/iz31FYyQVZssmYqpp3MoZ77gw0lo3kM5Y3WhWdV-EfN1c-fbasctyDh4qAhu9YNHWGlDbVUc77uyfWtLYt23yTaKUUJOW6NWigXUqH5PMFs" />
-    <previously-shown />
-    <title lang="en">The Amazing Race Canada</title>
-  </programme>
-  <programme start="20260801200000 +0000" stop="20260801210000 +0000" channel="CTVWild.ca">
-    <category lang="en">Animals</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Series</category>
-    <credits>
-      <director>David Grusovin</director>
-      <producer>Simon Steel</producer>
-    </credits>
-    <date>2022</date>
-    <desc lang="en">S03 E01 — Lion Cubs
-A historic moment for Taronga as lioness Maya gives birth; Jilly the tammar wallaby delivers her second joey.</desc>
-    <episode-num>S03 E01</episode-num>
-    <icon src="https://iptv-epg.org/images/v4KutRU5U2252SqAvskjwLiENmKGkjjsr7Glc5pgmZTLcNfnBmoHTrvfKD4aRZOX5XKWrwgdoT-qAeIMa8ruR09tUdFDNhXOXIoXOWmrpfM" />
-    <previously-shown />
-    <title lang="en">Inside Taronga Zoo</title>
-  </programme>
   <programme start="20260801210000 +0000" stop="20260801220000 +0000" channel="CTVWild.ca">
     <category lang="en">Animals</category>
     <category lang="en">Reality</category>
@@ -8223,14 +8403,6 @@ Dr. Keri and her crew head north to save the lives of some family pets.</desc>
     <previously-shown />
     <title lang="en">Dr. Keri: Prairie Vet</title>
   </programme>
-  <programme start="20260801200000 +0000" stop="20260801203000 +0000" channel="GlobalBC-CHAN.ca">
-    <category lang="en">Law</category>
-    <date>2025</date>
-    <desc lang="en">Explaining rights for individuals who are denied their long-term disability.</desc>
-    <icon src="https://iptv-epg.org/images/rZLSXBxCkPXtF9dqWv00uSUlVkFO8Q_jK3K2uJ8PB6_k1W6hQtDZ-bj2YrOWIcvu_YF1K9oF5fcBt0h6SN2q_0pGwn8HFj4wLqfwL-IGxu4" />
-    <title lang="en">Disability Law Show</title>
-    <new />
-  </programme>
   <programme start="20260801203000 +0000" stop="20260801223000 +0000" channel="GlobalBC-CHAN.ca">
     <category lang="en">Mystery</category>
     <category lang="en">Movie</category>
@@ -8612,37 +8784,6 @@ In the relationship between an Oscar-winner's son and his fashion designer girlf
     <previously-shown />
     <title lang="en">48 Hours</title>
   </programme>
-  <programme start="20260801200000 +0000" stop="20260801203000 +0000" channel="Gusto.ca">
-    <category lang="en">Cooking</category>
-    <category lang="en">Series</category>
-    <date>2018</date>
-    <desc lang="en">S01 E04 — A Barbeque Classic: Ribs
-Spencer demonstrates four classic ways to barbecue ribs.</desc>
-    <episode-num>S01 E04</episode-num>
-    <icon src="https://iptv-epg.org/images/13zMVoVcuOAQ9MRIPfAryI3vxmNRSbmYZ9dkCFbjSkuK0Jy8LMAaGb6SX0Yu3RWcZSDk4ikUIlYes555aFX1KYN50wL6n1RFKaSruRjDtO0" />
-    <previously-shown />
-    <title lang="en">Watts on the Grill</title>
-  </programme>
-  <programme start="20260801203000 +0000" stop="20260801210000 +0000" channel="Gusto.ca">
-    <category lang="en">Cooking</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S01 E07 — Bananas for Barbeque
-Spencer offers tips and tricks for preparing barbecue treats.</desc>
-    <episode-num>S01 E07</episode-num>
-    <icon src="https://iptv-epg.org/images/13zMVoVcuOAQ9MRIPfAryI3vxmNRSbmYZ9dkCFbjSkuK0Jy8LMAaGb6SX0Yu3RWcZSDk4ikUIlYes555aFX1KYN50wL6n1RFKaSruRjDtO0" />
-    <previously-shown />
-    <title lang="en">Watts on the Grill</title>
-  </programme>
-  <programme start="20260801210000 +0000" stop="20260801213000 +0000" channel="Gusto.ca">
-    <category lang="en">Cooking</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S01 E09 — Fish on the Grill
-Spencer shares fish recipes.</desc>
-    <episode-num>S01 E09</episode-num>
-    <icon src="https://iptv-epg.org/images/13zMVoVcuOAQ9MRIPfAryI3vxmNRSbmYZ9dkCFbjSkuK0Jy8LMAaGb6SX0Yu3RWcZSDk4ikUIlYes555aFX1KYN50wL6n1RFKaSruRjDtO0" />
-    <previously-shown />
-    <title lang="en">Watts on the Grill</title>
-  </programme>
   <programme start="20260801213000 +0000" stop="20260801220000 +0000" channel="Gusto.ca">
     <category lang="en">Cooking</category>
     <category lang="en">Series</category>
@@ -8971,402 +9112,25 @@ Spencer offers tips and tricks for preparing barbecue treats.</desc>
     <previously-shown />
     <title lang="en">Watts on the Grill</title>
   </programme>
-  <programme start="20260801200000 +0000" stop="20260801210000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Home improvement</category>
-    <category lang="en">House/garden</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S04 E02 — Space to Thrive
-Chip and Jo work their magic for a family with two recently adopted girls.</desc>
-    <episode-num>S04 E02</episode-num>
-    <icon src="https://iptv-epg.org/images/jD6iAWQ_kDEQCD1jzg29hIcOd95etnuYAlTr9V-WapGvE1EX3nEHm2CupRO759V9LLc0-oblrETYYXLJACEh3wTB27vh11PZdpbE2yYUu1g" />
-    <previously-shown />
-    <title lang="en">Fixer Upper</title>
-  </programme>
-  <programme start="20260801210000 +0000" stop="20260801220000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Home improvement</category>
-    <category lang="en">House/garden</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S04 E05 — Retiring to the Country
-With their children grown, a couple agrees it's time to downsize their home as they enter retirement; priorities include a large kitchen, a nice living space and the right location.</desc>
-    <episode-num>S04 E05</episode-num>
-    <icon src="https://iptv-epg.org/images/jD6iAWQ_kDEQCD1jzg29hIcOd95etnuYAlTr9V-WapGvE1EX3nEHm2CupRO759V9LLc0-oblrETYYXLJACEh3wTB27vh11PZdpbE2yYUu1g" />
-    <previously-shown />
-    <title lang="en">Fixer Upper</title>
-  </programme>
-  <programme start="20260801220000 +0000" stop="20260801230000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Home improvement</category>
-    <category lang="en">House/garden</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S04 E01 — The Dog-Loving Dream House
-Andrew and Brittany are first-time buyers; they're looking for a home with plenty of space for their beloved pooches.</desc>
-    <episode-num>S04 E01</episode-num>
-    <icon src="https://iptv-epg.org/images/jD6iAWQ_kDEQCD1jzg29hIcOd95etnuYAlTr9V-WapGvE1EX3nEHm2CupRO759V9LLc0-oblrETYYXLJACEh3wTB27vh11PZdpbE2yYUu1g" />
-    <previously-shown />
-    <title lang="en">Fixer Upper</title>
-  </programme>
-  <programme start="20260801230000 +0000" stop="20260802000000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Home improvement</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S06 E03 — The Old Deatsville Inn
-Will and Alicia Hardy are a husband-and-wife team with 15 years of experience renovating homes; the two take on a new challenge, venturing to Will's hometown in the heart of bourbon country to turn an 1890s inn into a dear friend's dream home.</desc>
-    <episode-num>S06 E03</episode-num>
-    <icon src="https://iptv-epg.org/images/Kl39Ty8VUSn4pT04uIvONJr2zGI2x3CkIusM4FHyuiMqe0GSvgMyegYJ9HaoGZh3l4fJhh3j0qqiTbYfJsjwbi_PA7HtsBgAm3VL66mhhpM" />
-    <previously-shown />
-    <title lang="en">In With the Old</title>
-  </programme>
-  <programme start="20260802000000 +0000" stop="20260802010000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Home improvement</category>
-    <category lang="en">House/garden</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Series</category>
-    <credits>
-      <producer>Dean Bushala</producer>
-    </credits>
-    <desc lang="en">S11 E08 — A Serene Couples Retreat in Myrtle Beach, SC
-A hardworking couple dreams of escaping Colorado's cold to find the perfect beachfront condominium; they use their real estate and remodeling skills to secure their own slice of paradise.</desc>
-    <episode-num>S11 E08</episode-num>
-    <icon src="https://iptv-epg.org/images/dfTiwD2iWGyyMkPoyxL6AvoderemJsZ9vNuqy_btKTI3JxGF_BC2k30ZXluzkTtzTDiRqHe4gMzvhQ4ks3pisAontAUx15ZZme8dCVtZRo4" />
-    <previously-shown />
-    <title lang="en">Beachfront Bargain Hunt: Renovation</title>
-  </programme>
-  <programme start="20260802010000 +0000" stop="20260802020000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Home improvement</category>
-    <category lang="en">House/garden</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Series</category>
-    <credits>
-      <producer>Dean Bushala</producer>
-    </credits>
-    <desc lang="en">S11 E09 — Busy Parents Find Their Seaside Sanctuary in Murrells Inlet, SC
-A Pennsylvania couple pursues their dream of owning a condominium on the beach; with two young daughters growing up quickly, they hope to provide them with lasting childhood memories by renovating an older unit with potential.</desc>
-    <episode-num>S11 E09</episode-num>
-    <icon src="https://iptv-epg.org/images/dfTiwD2iWGyyMkPoyxL6AvoderemJsZ9vNuqy_btKTI3JxGF_BC2k30ZXluzkTtzTDiRqHe4gMzvhQ4ks3pisAontAUx15ZZme8dCVtZRo4" />
-    <previously-shown />
-    <title lang="en">Beachfront Bargain Hunt: Renovation</title>
-  </programme>
-  <programme start="20260802020000 +0000" stop="20260802030000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Home improvement</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S06 E04 — Mystic 1745 Woodbridge Tavern
-Designer Rebecca Lineberry helps a homeowner restore the historic 1745 Dudley Woodridge Tavern in the charming seaside town of Mystic, Conn.</desc>
-    <episode-num>S06 E04</episode-num>
-    <icon src="https://iptv-epg.org/images/Kl39Ty8VUSn4pT04uIvONJr2zGI2x3CkIusM4FHyuiMqe0GSvgMyegYJ9HaoGZh3l4fJhh3j0qqiTbYfJsjwbi_PA7HtsBgAm3VL66mhhpM" />
-    <previously-shown />
-    <title lang="en">In With the Old</title>
-  </programme>
-  <programme start="20260802030000 +0000" stop="20260802040000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Home improvement</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S06 E03 — The Old Deatsville Inn
-Will and Alicia Hardy are a husband-and-wife team with 15 years of experience renovating homes; the two take on a new challenge, venturing to Will's hometown in the heart of bourbon country to turn an 1890s inn into a dear friend's dream home.</desc>
-    <episode-num>S06 E03</episode-num>
-    <icon src="https://iptv-epg.org/images/Kl39Ty8VUSn4pT04uIvONJr2zGI2x3CkIusM4FHyuiMqe0GSvgMyegYJ9HaoGZh3l4fJhh3j0qqiTbYfJsjwbi_PA7HtsBgAm3VL66mhhpM" />
-    <previously-shown />
-    <title lang="en">In With the Old</title>
-  </programme>
-  <programme start="20260802040000 +0000" stop="20260802050000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Home improvement</category>
-    <category lang="en">House/garden</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Series</category>
-    <credits>
-      <producer>Dean Bushala</producer>
-    </credits>
-    <desc lang="en">S11 E09 — Busy Parents Find Their Seaside Sanctuary in Murrells Inlet, SC
-A Pennsylvania couple pursues their dream of owning a condominium on the beach; with two young daughters growing up quickly, they hope to provide them with lasting childhood memories by renovating an older unit with potential.</desc>
-    <episode-num>S11 E09</episode-num>
-    <icon src="https://iptv-epg.org/images/dfTiwD2iWGyyMkPoyxL6AvoderemJsZ9vNuqy_btKTI3JxGF_BC2k30ZXluzkTtzTDiRqHe4gMzvhQ4ks3pisAontAUx15ZZme8dCVtZRo4" />
-    <previously-shown />
-    <title lang="en">Beachfront Bargain Hunt: Renovation</title>
-  </programme>
-  <programme start="20260802050000 +0000" stop="20260802060000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Home improvement</category>
-    <category lang="en">House/garden</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S05 E15 — A Downtown Loft Challenge for Chip and Jo
-Chip and Jo meet up with a friend who hopes to buy a modern-industrial-style loft with a guest bedroom and an office in downtown Waco; after finding the perfect spot, Chip and Jo get to work tackling their first downtown loft apartment.</desc>
-    <episode-num>S05 E15</episode-num>
-    <icon src="https://iptv-epg.org/images/jD6iAWQ_kDEQCD1jzg29hIcOd95etnuYAlTr9V-WapGvE1EX3nEHm2CupRO759V9LLc0-oblrETYYXLJACEh3wTB27vh11PZdpbE2yYUu1g" />
-    <previously-shown />
-    <title lang="en">Fixer Upper</title>
-  </programme>
-  <programme start="20260802060000 +0000" stop="20260802070000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Home improvement</category>
-    <category lang="en">House/garden</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S05 E13 — Dream Home With a View
-Chip and Jo's clients are looking for a house with a view and plenty of room for their grandchildren; after a frustrating house hunt, Chip and Jo come to the rescue with a creative plan that'll give them the home of their dreams and incredible views.</desc>
-    <episode-num>S05 E13</episode-num>
-    <icon src="https://iptv-epg.org/images/jD6iAWQ_kDEQCD1jzg29hIcOd95etnuYAlTr9V-WapGvE1EX3nEHm2CupRO759V9LLc0-oblrETYYXLJACEh3wTB27vh11PZdpbE2yYUu1g" />
-    <previously-shown />
-    <title lang="en">Fixer Upper</title>
-  </programme>
-  <programme start="20260802070000 +0000" stop="20260802080000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Home improvement</category>
-    <category lang="en">House/garden</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S05 E14 — All-American Farmhouse
-A wounded veteran and his girlfriend call on Chip and Jo to help them convert their house in Waco into a dreamy farmhouse; while the land is beautiful and majestic, the house is small and built inside an existing barn.</desc>
-    <episode-num>S05 E14</episode-num>
-    <icon src="https://iptv-epg.org/images/jD6iAWQ_kDEQCD1jzg29hIcOd95etnuYAlTr9V-WapGvE1EX3nEHm2CupRO759V9LLc0-oblrETYYXLJACEh3wTB27vh11PZdpbE2yYUu1g" />
-    <previously-shown />
-    <title lang="en">Fixer Upper</title>
-  </programme>
-  <programme start="20260802080000 +0000" stop="20260802090000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Home improvement</category>
-    <category lang="en">House/garden</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S04 E03 — First Home With Timeless Class
-Chip and Jo add a fresh, functional design to a dated ranch home in Waco.</desc>
-    <episode-num>S04 E03</episode-num>
-    <icon src="https://iptv-epg.org/images/jD6iAWQ_kDEQCD1jzg29hIcOd95etnuYAlTr9V-WapGvE1EX3nEHm2CupRO759V9LLc0-oblrETYYXLJACEh3wTB27vh11PZdpbE2yYUu1g" />
-    <previously-shown />
-    <title lang="en">Fixer Upper</title>
-  </programme>
-  <programme start="20260802090000 +0000" stop="20260802100000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Home improvement</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S06 E03 — The Old Deatsville Inn
-Will and Alicia Hardy are a husband-and-wife team with 15 years of experience renovating homes; the two take on a new challenge, venturing to Will's hometown in the heart of bourbon country to turn an 1890s inn into a dear friend's dream home.</desc>
-    <episode-num>S06 E03</episode-num>
-    <icon src="https://iptv-epg.org/images/Kl39Ty8VUSn4pT04uIvONJr2zGI2x3CkIusM4FHyuiMqe0GSvgMyegYJ9HaoGZh3l4fJhh3j0qqiTbYfJsjwbi_PA7HtsBgAm3VL66mhhpM" />
-    <previously-shown />
-    <title lang="en">In With the Old</title>
-  </programme>
-  <programme start="20260802100000 +0000" stop="20260802103000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Entertainment</category>
-    <category lang="en">Home improvement</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S03 E04 — Manscaping
-The biggest fault with the cottage, is that there was never a clear view to the lake. Colin and Justin's cottage needs a Brazilian.</desc>
-    <episode-num>S03 E04</episode-num>
-    <icon src="https://iptv-epg.org/images/j22Ce7wcmsbuPL4h3Jg-d3RdFV5gTCE7lSsHmtiMVtXuWQvX3G2IDUWt4qPdFn8A5MnX3lzBi3bsmBvXcgkJmWAagjLKrET_qWu6qc_vapw" />
-    <previously-shown />
-    <title lang="en">Colin and Justin's Cabin Pressure</title>
-  </programme>
-  <programme start="20260802103000 +0000" stop="20260802110000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Entertainment</category>
-    <category lang="en">Home improvement</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S03 E05 — Dueling Bedrooms
-Randy suggests Colin and Justin each design their own bedroom to save time and money; Colin's room progresses smoothly, while Justin's room encounters numerous difficulties.</desc>
-    <episode-num>S03 E05</episode-num>
-    <icon src="https://iptv-epg.org/images/j22Ce7wcmsbuPL4h3Jg-d3RdFV5gTCE7lSsHmtiMVtXuWQvX3G2IDUWt4qPdFn8A5MnX3lzBi3bsmBvXcgkJmWAagjLKrET_qWu6qc_vapw" />
-    <previously-shown />
-    <title lang="en">Colin and Justin's Cabin Pressure</title>
-  </programme>
-  <programme start="20260802110000 +0000" stop="20260802113000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Entertainment</category>
-    <category lang="en">Home improvement</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S03 E06 — DI Why?
-Colin and Justin attempt to save money by learning to install a toilet themselves; they visit a local plumber who is working on an elderly woman's bathroom to observe proper installation techniques.</desc>
-    <episode-num>S03 E06</episode-num>
-    <icon src="https://iptv-epg.org/images/j22Ce7wcmsbuPL4h3Jg-d3RdFV5gTCE7lSsHmtiMVtXuWQvX3G2IDUWt4qPdFn8A5MnX3lzBi3bsmBvXcgkJmWAagjLKrET_qWu6qc_vapw" />
-    <previously-shown />
-    <title lang="en">Colin and Justin's Cabin Pressure</title>
-  </programme>
-  <programme start="20260802113000 +0000" stop="20260802120000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Entertainment</category>
-    <category lang="en">Home improvement</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S03 E07 — Keep Them Guesting
-It's time to create a beautiful master guest suite - complete with en suite. But with water and electrical issues, the costs are anything but relaxing.</desc>
-    <episode-num>S03 E07</episode-num>
-    <icon src="https://iptv-epg.org/images/j22Ce7wcmsbuPL4h3Jg-d3RdFV5gTCE7lSsHmtiMVtXuWQvX3G2IDUWt4qPdFn8A5MnX3lzBi3bsmBvXcgkJmWAagjLKrET_qWu6qc_vapw" />
-    <previously-shown />
-    <title lang="en">Colin and Justin's Cabin Pressure</title>
-  </programme>
-  <programme start="20260802120000 +0000" stop="20260802123000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Entertainment</category>
-    <category lang="en">Home improvement</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S03 E04 — Manscaping
-The biggest fault with the cottage, is that there was never a clear view to the lake. Colin and Justin's cottage needs a Brazilian.</desc>
-    <episode-num>S03 E04</episode-num>
-    <icon src="https://iptv-epg.org/images/j22Ce7wcmsbuPL4h3Jg-d3RdFV5gTCE7lSsHmtiMVtXuWQvX3G2IDUWt4qPdFn8A5MnX3lzBi3bsmBvXcgkJmWAagjLKrET_qWu6qc_vapw" />
-    <previously-shown />
-    <title lang="en">Colin and Justin's Cabin Pressure</title>
-  </programme>
-  <programme start="20260802123000 +0000" stop="20260802130000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Entertainment</category>
-    <category lang="en">Home improvement</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S03 E05 — Dueling Bedrooms
-Randy suggests Colin and Justin each design their own bedroom to save time and money; Colin's room progresses smoothly, while Justin's room encounters numerous difficulties.</desc>
-    <episode-num>S03 E05</episode-num>
-    <icon src="https://iptv-epg.org/images/j22Ce7wcmsbuPL4h3Jg-d3RdFV5gTCE7lSsHmtiMVtXuWQvX3G2IDUWt4qPdFn8A5MnX3lzBi3bsmBvXcgkJmWAagjLKrET_qWu6qc_vapw" />
-    <previously-shown />
-    <title lang="en">Colin and Justin's Cabin Pressure</title>
-  </programme>
-  <programme start="20260802130000 +0000" stop="20260802133000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Entertainment</category>
-    <category lang="en">Home improvement</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S03 E06 — DI Why?
-Colin and Justin attempt to save money by learning to install a toilet themselves; they visit a local plumber who is working on an elderly woman's bathroom to observe proper installation techniques.</desc>
-    <episode-num>S03 E06</episode-num>
-    <icon src="https://iptv-epg.org/images/j22Ce7wcmsbuPL4h3Jg-d3RdFV5gTCE7lSsHmtiMVtXuWQvX3G2IDUWt4qPdFn8A5MnX3lzBi3bsmBvXcgkJmWAagjLKrET_qWu6qc_vapw" />
-    <previously-shown />
-    <title lang="en">Colin and Justin's Cabin Pressure</title>
-  </programme>
-  <programme start="20260802133000 +0000" stop="20260802140000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Entertainment</category>
-    <category lang="en">Home improvement</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S03 E07 — Keep Them Guesting
-It's time to create a beautiful master guest suite - complete with en suite. But with water and electrical issues, the costs are anything but relaxing.</desc>
-    <episode-num>S03 E07</episode-num>
-    <icon src="https://iptv-epg.org/images/j22Ce7wcmsbuPL4h3Jg-d3RdFV5gTCE7lSsHmtiMVtXuWQvX3G2IDUWt4qPdFn8A5MnX3lzBi3bsmBvXcgkJmWAagjLKrET_qWu6qc_vapw" />
-    <previously-shown />
-    <title lang="en">Colin and Justin's Cabin Pressure</title>
-  </programme>
-  <programme start="20260802140000 +0000" stop="20260802143000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Entertainment</category>
-    <category lang="en">Home improvement</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S03 E04 — Manscaping
-The biggest fault with the cottage, is that there was never a clear view to the lake. Colin and Justin's cottage needs a Brazilian.</desc>
-    <episode-num>S03 E04</episode-num>
-    <icon src="https://iptv-epg.org/images/j22Ce7wcmsbuPL4h3Jg-d3RdFV5gTCE7lSsHmtiMVtXuWQvX3G2IDUWt4qPdFn8A5MnX3lzBi3bsmBvXcgkJmWAagjLKrET_qWu6qc_vapw" />
-    <previously-shown />
-    <title lang="en">Colin and Justin's Cabin Pressure</title>
-  </programme>
-  <programme start="20260802143000 +0000" stop="20260802150000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Entertainment</category>
-    <category lang="en">Home improvement</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S03 E05 — Dueling Bedrooms
-Randy suggests Colin and Justin each design their own bedroom to save time and money; Colin's room progresses smoothly, while Justin's room encounters numerous difficulties.</desc>
-    <episode-num>S03 E05</episode-num>
-    <icon src="https://iptv-epg.org/images/j22Ce7wcmsbuPL4h3Jg-d3RdFV5gTCE7lSsHmtiMVtXuWQvX3G2IDUWt4qPdFn8A5MnX3lzBi3bsmBvXcgkJmWAagjLKrET_qWu6qc_vapw" />
-    <previously-shown />
-    <title lang="en">Colin and Justin's Cabin Pressure</title>
-  </programme>
-  <programme start="20260802150000 +0000" stop="20260802153000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Entertainment</category>
-    <category lang="en">Home improvement</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S03 E06 — DI Why?
-Colin and Justin attempt to save money by learning to install a toilet themselves; they visit a local plumber who is working on an elderly woman's bathroom to observe proper installation techniques.</desc>
-    <episode-num>S03 E06</episode-num>
-    <icon src="https://iptv-epg.org/images/j22Ce7wcmsbuPL4h3Jg-d3RdFV5gTCE7lSsHmtiMVtXuWQvX3G2IDUWt4qPdFn8A5MnX3lzBi3bsmBvXcgkJmWAagjLKrET_qWu6qc_vapw" />
-    <previously-shown />
-    <title lang="en">Colin and Justin's Cabin Pressure</title>
-  </programme>
-  <programme start="20260802153000 +0000" stop="20260802160000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Entertainment</category>
-    <category lang="en">Home improvement</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S03 E07 — Keep Them Guesting
-It's time to create a beautiful master guest suite - complete with en suite. But with water and electrical issues, the costs are anything but relaxing.</desc>
-    <episode-num>S03 E07</episode-num>
-    <icon src="https://iptv-epg.org/images/j22Ce7wcmsbuPL4h3Jg-d3RdFV5gTCE7lSsHmtiMVtXuWQvX3G2IDUWt4qPdFn8A5MnX3lzBi3bsmBvXcgkJmWAagjLKrET_qWu6qc_vapw" />
-    <previously-shown />
-    <title lang="en">Colin and Justin's Cabin Pressure</title>
-  </programme>
-  <programme start="20260802160000 +0000" stop="20260802170000 +0000" channel="MagnoliaNetwork.ca">
+  <programme start="20260802130000 +0000" stop="20260802133000 +0000" channel="Gusto.ca">
     <category lang="en">Cooking</category>
     <category lang="en">Series</category>
-    <date>2021</date>
-    <desc lang="en">S01 E05 — A Kitchen Built on Details
-Paul and Helen create a kitchen for a family with a minimalist lifestyle.</desc>
+    <desc lang="en">S01 E09 — Fish on the Grill
+Spencer shares fish recipes.</desc>
+    <episode-num>S01 E09</episode-num>
+    <icon src="https://iptv-epg.org/images/13zMVoVcuOAQ9MRIPfAryI3vxmNRSbmYZ9dkCFbjSkuK0Jy8LMAaGb6SX0Yu3RWcZSDk4ikUIlYes555aFX1KYN50wL6n1RFKaSruRjDtO0" />
+    <previously-shown />
+    <title lang="en">Watts on the Grill</title>
+  </programme>
+  <programme start="20260802133000 +0000" stop="20260802140000 +0000" channel="Gusto.ca">
+    <category lang="en">Cooking</category>
+    <category lang="en">Series</category>
+    <desc lang="en">S01 E05 — Delicious Grilled Shellfish
+Spencer grills up four easy shellfish dishes.</desc>
     <episode-num>S01 E05</episode-num>
-    <icon src="https://iptv-epg.org/images/rgq5ISWjKIJIswDuptw2YSY_fasg8l9QJ4fh3SL2Xd-DO9POxuexJYursZ64ThtyGKXiDY2OsB-zai9huhIXa1m4CBMvleWTE_Cm4hNXTcU" />
+    <icon src="https://iptv-epg.org/images/13zMVoVcuOAQ9MRIPfAryI3vxmNRSbmYZ9dkCFbjSkuK0Jy8LMAaGb6SX0Yu3RWcZSDk4ikUIlYes555aFX1KYN50wL6n1RFKaSruRjDtO0" />
     <previously-shown />
-    <title lang="en">For the Love of Kitchens</title>
-  </programme>
-  <programme start="20260802170000 +0000" stop="20260802180000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Cooking</category>
-    <category lang="en">Series</category>
-    <date>2021</date>
-    <desc lang="en">S01 E01 — A Kitchen Fit for a Castle
-Paul and Helen design a kitchen in a home on castle grounds.</desc>
-    <episode-num>S01 E01</episode-num>
-    <icon src="https://iptv-epg.org/images/rgq5ISWjKIJIswDuptw2YSY_fasg8l9QJ4fh3SL2Xd-DO9POxuexJYursZ64ThtyGKXiDY2OsB-zai9huhIXa1m4CBMvleWTE_Cm4hNXTcU" />
-    <previously-shown />
-    <title lang="en">For the Love of Kitchens</title>
-  </programme>
-  <programme start="20260802180000 +0000" stop="20260802190000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Cooking</category>
-    <category lang="en">Series</category>
-    <date>2021</date>
-    <desc lang="en">S01 E04 — Paul's Kitchen
-Paul creates a kitchen for his seaside vacation cottage.</desc>
-    <episode-num>S01 E04</episode-num>
-    <icon src="https://iptv-epg.org/images/rgq5ISWjKIJIswDuptw2YSY_fasg8l9QJ4fh3SL2Xd-DO9POxuexJYursZ64ThtyGKXiDY2OsB-zai9huhIXa1m4CBMvleWTE_Cm4hNXTcU" />
-    <previously-shown />
-    <title lang="en">For the Love of Kitchens</title>
-  </programme>
-  <programme start="20260802190000 +0000" stop="20260802200000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Cooking</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S01 E08 — A Chef's Kitchen
-Paul and Helen create a working kitchen for a chef's home.</desc>
-    <episode-num>S01 E08</episode-num>
-    <icon src="https://iptv-epg.org/images/rgq5ISWjKIJIswDuptw2YSY_fasg8l9QJ4fh3SL2Xd-DO9POxuexJYursZ64ThtyGKXiDY2OsB-zai9huhIXa1m4CBMvleWTE_Cm4hNXTcU" />
-    <previously-shown />
-    <title lang="en">For the Love of Kitchens</title>
-  </programme>
-  <programme start="20260802200000 +0000" stop="20260802210000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Cooking</category>
-    <category lang="en">Series</category>
-    <date>2022</date>
-    <desc lang="en">S02 E02 — A Kitchen Where Old Meets New
-Paul and Helen make a kitchen that integrates new units with antiques.</desc>
-    <episode-num>S02 E02</episode-num>
-    <icon src="https://iptv-epg.org/images/rgq5ISWjKIJIswDuptw2YSY_fasg8l9QJ4fh3SL2Xd-DO9POxuexJYursZ64ThtyGKXiDY2OsB-zai9huhIXa1m4CBMvleWTE_Cm4hNXTcU" />
-    <previously-shown />
-    <title lang="en">For the Love of Kitchens</title>
-  </programme>
-  <programme start="20260802210000 +0000" stop="20260802220000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Home improvement</category>
-    <category lang="en">Series</category>
-    <date>2024</date>
-    <desc lang="en">S02 E04 — Hope Springs Eternal
-In Eureka Springs, Ark., a mother and son are out of ideas and almost out of hope; Lindsey needs to teach them to embrace modern business practices and a smart new design or their mountain town motel won't make it.</desc>
-    <episode-num>S02 E04</episode-num>
-    <icon src="https://iptv-epg.org/images/oxFrxMYMaj36I4a0xklbChBU4S5zW5tgLVZ2wh6KNtPaRUIN_8neSBPq4ODdsFxraVylKuIvijDJdIJAREp-LusnpXrxzPBmJdqYGjG5Iyc" />
-    <previously-shown />
-    <title lang="en">Motel Rescue</title>
-  </programme>
-  <programme start="20260802220000 +0000" stop="20260802230000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Home improvement</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S02 E03 — Tropical Trouble
-In the Florida Keys, major competition and an impending change in ownership mean the pressure is on for Lindsey; she needs creative solutions for a host of problems to make sure the family-owned motel thrives for a long time to come.</desc>
-    <episode-num>S02 E03</episode-num>
-    <icon src="https://iptv-epg.org/images/oxFrxMYMaj36I4a0xklbChBU4S5zW5tgLVZ2wh6KNtPaRUIN_8neSBPq4ODdsFxraVylKuIvijDJdIJAREp-LusnpXrxzPBmJdqYGjG5Iyc" />
-    <previously-shown />
-    <title lang="en">Motel Rescue</title>
-  </programme>
-  <programme start="20260802230000 +0000" stop="20260803000000 +0000" channel="MagnoliaNetwork.ca">
-    <category lang="en">Home improvement</category>
-    <category lang="en">House/garden</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S05 E10 — Longtime Friends Give a Lake House New Life in South Carolina
-A decades long friendship explores uncharted waters when an agent helps her longtime friend buy and renovate a lake home; they've made countless memories on Lake Hartwell, so it's only fitting that's where he's looking to find his forever home.</desc>
-    <episode-num>S05 E10</episode-num>
-    <icon src="https://iptv-epg.org/images/hankYvRg8pId26HnLDNaw4O48vwqiEtxzE8IH5klPr6--c8uigOZxjb5IDx89XHQ1MBFxAL-S0isRqnELC6dvbYALZhl2-Kzl7VmnEVcI3o" />
-    <previously-shown />
-    <title lang="en">Lakefront Bargain Hunt: Renovation</title>
-  </programme>
-  <programme start="20260801200000 +0000" stop="20260801210000 +0000" channel="NationalGeographicWild.ca">
-    <category lang="en">Series</category>
-    <date>2026</date>
-    <desc lang="en">S01 E01 — Swallowed Alive
-Prepare to witness natural selection; plunging into some examples of strange evolution; from bizarre anatomical transformations to survival strategies and deep, dark lairs, these creatures defy the norms and rewrite rules of existence.</desc>
-    <episode-num>S01 E01</episode-num>
-    <icon src="https://iptv-epg.org/images/GKlTjsvaXi4xWNMqkNYuZTwDmuzgTrqURaOvh44G6mnHIpDcp1seWETsGCh9Ok3GuTKmAzJ7e8uD6HkFvjjEZNoBW-yChvrzWxSbeHMiYHI" />
-    <previously-shown />
-    <title lang="en">Strangest Nature</title>
+    <title lang="en">Watts on the Grill</title>
   </programme>
   <programme start="20260801210000 +0000" stop="20260801220000 +0000" channel="NationalGeographicWild.ca">
     <category lang="en">Series</category>
@@ -9796,19 +9560,6 @@ Fueled by fear, two brothers turn against each other in deadly attacks.</desc>
     <icon src="https://iptv-epg.org/images/zCU8Yj2lyNtSvB3_snTeNRXEfIaCgylHmUoYCQUnN3XCxZdSCaKPG9rzoV58v63LGtD73--7C2U-MW9BbcwJA1XcsFIfzt13gW0kUWGi5NE" />
     <previously-shown />
     <title lang="en">Cesar Millan: Better Human Better Dog</title>
-  </programme>
-  <programme start="20260801200000 +0000" stop="20260801210000 +0000" channel="OxygenTrueCrime.ca">
-    <category lang="en">Crime</category>
-    <category lang="en">Docudrama</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Series</category>
-    <date>2019</date>
-    <desc lang="en">S01 E01 — An Ex-Wife's Revenge
-After a bitter divorce, an addiction therapist blackmails her patient into helping her find a hitman to kill her ex-husband; but what she doesn't know is the patient enlists the help of an undercover officer to try to prevent a cold-blooded murder.</desc>
-    <episode-num>S01 E01</episode-num>
-    <icon src="https://iptv-epg.org/images/sHMvOokHX4gI2rnNtHI-db2dCLg68mxrXfMoN48OcGFTIumJewrneIWbxy9UU2RNW9mBHbXubFWHFpeK9_ePCCeYwolI1AoFsI27tOfncUQ" />
-    <previously-shown />
-    <title lang="en">Murder for Hire</title>
   </programme>
   <programme start="20260801210000 +0000" stop="20260801220000 +0000" channel="OxygenTrueCrime.ca">
     <category lang="en">Crime</category>
@@ -10246,17 +9997,6 @@ The paranoid delusions of one young man compel him to conspire against the unwit
     <icon src="https://iptv-epg.org/images/pRWG9W3BwQh7kWGAnx6etFu3fx1fHfvai6OuBY5Avtb0okaYfbg-Bxc4yU4GN5AaV7iWzvUMs4yLJCAzJZdC4ud5CRo9ZhCZum95LaseU0o" />
     <previously-shown />
     <title lang="en">Fear Thy Neighbor</title>
-  </programme>
-  <programme start="20260801200000 +0000" stop="20260801210000 +0000" channel="T+E.ca">
-    <category lang="en">Documentary</category>
-    <category lang="en">Paranormal</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S10 E04 — Penitentiary Phantoms in Tennessee and More
-Three investigators brave an abandoned penitentiary with a violent past in Tennessee; a piano-playing ghost entertains guests in an Upstate New York house rental; a mysterious figure looms over a coal mine in Mexico.</desc>
-    <episode-num>S10 E04</episode-num>
-    <icon src="https://iptv-epg.org/images/llTy0fhDMnEOZvDarXn1UecQ5up5F5yU10ZDXS8jyeQJvEqfImVEawC4IaTZYrMukkRtFITxmfpnVVC67_MMThELlrBjPCQDhLJ7MO-Eulw" />
-    <previously-shown />
-    <title lang="en">Paranormal Caught on Camera</title>
   </programme>
   <programme start="20260801210000 +0000" stop="20260801220000 +0000" channel="T+E.ca">
     <category lang="en">Documentary</category>
@@ -10897,10 +10637,169 @@ The ghosts treat Alison to a wonderfully festive Christmas present and Pat faces
     <desc lang="en">A group of single men and women live together in a Fiji villa to find their chance at love!</desc>
     <title lang="en">New: Love Island USA</title>
   </programme>
-  <programme start="20260803114000 +0000" stop="20260803124000 +0000" channel="TVNZDUKE.nz">
-    <category lang="en">Series</category>
-    <category lang="en">Episode</category>
-    <desc lang="en">Dwight and Bodhi explore a new investment opportunity. S2 E4.</desc>
-    <title lang="en">Tulsa King</title>
+  <programme channel="470440" start="20260801210000 +0000" stop="20260801220000 +0000">
+    <title lang="zh">Fixer Upper</title>
+    <desc>With their children grown, a couple agrees it's time to downsize their home as they enter retirement; priorities include a large kitchen, a nice living space and the right location.</desc>
+    <date>2026-08-01</date>
+  </programme>
+  <programme channel="470440" start="20260801220000 +0000" stop="20260801230000 +0000">
+    <title lang="zh">Fixer Upper</title>
+    <desc>Andrew and Brittany are first-time buyers; they're looking for a home with plenty of space for their beloved pooches.</desc>
+    <date>2026-08-01</date>
+  </programme>
+  <programme channel="470440" start="20260801230000 +0000" stop="20260802000000 +0000">
+    <title lang="zh">In With the Old</title>
+    <desc>Will and Alicia Hardy are a husband-and-wife team with 15 years of experience renovating homes; the two take on a new challenge, venturing to Will's hometown in the heart of bourbon country to turn an 1890s inn into a dear friend's dream home.</desc>
+    <date>2026-08-01</date>
+  </programme>
+  <programme channel="470440" start="20260802000000 +0000" stop="20260802010000 +0000">
+    <title lang="zh">Beachfront Bargain Hunt: Renovation</title>
+    <desc>A hardworking couple dreams of escaping Colorado's cold to find the perfect beachfront condominium; they use their real estate and remodeling skills to secure their own slice of paradise.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802010000 +0000" stop="20260802020000 +0000">
+    <title lang="zh">Beachfront Bargain Hunt: Renovation</title>
+    <desc>A Pennsylvania couple pursues their dream of owning a condominium on the beach; with two young daughters growing up quickly, they hope to provide them with lasting childhood memories by renovating an older unit with potential.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802020000 +0000" stop="20260802030000 +0000">
+    <title lang="zh">In With the Old</title>
+    <desc>Designer Rebecca Lineberry helps a homeowner restore the historic 1745 Dudley Woodridge Tavern in the charming seaside town of Mystic, Conn.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802030000 +0000" stop="20260802040000 +0000">
+    <title lang="zh">In With the Old</title>
+    <desc>Will and Alicia Hardy are a husband-and-wife team with 15 years of experience renovating homes; the two take on a new challenge, venturing to Will's hometown in the heart of bourbon country to turn an 1890s inn into a dear friend's dream home.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802040000 +0000" stop="20260802050000 +0000">
+    <title lang="zh">Beachfront Bargain Hunt: Renovation</title>
+    <desc>A Pennsylvania couple pursues their dream of owning a condominium on the beach; with two young daughters growing up quickly, they hope to provide them with lasting childhood memories by renovating an older unit with potential.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802050000 +0000" stop="20260802060000 +0000">
+    <title lang="zh">Fixer Upper</title>
+    <desc>Chip and Jo meet up with a friend who hopes to buy a modern-industrial-style loft with a guest bedroom and an office in downtown Waco; after finding the perfect spot, Chip and Jo get to work tackling their first downtown loft apartment.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802060000 +0000" stop="20260802070000 +0000">
+    <title lang="zh">Fixer Upper</title>
+    <desc>Chip and Jo's clients are looking for a house with a view and plenty of room for their grandchildren; after a frustrating house hunt, Chip and Jo come to the rescue with a creative plan that'll give them the home of their dreams and incredible views.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802070000 +0000" stop="20260802080000 +0000">
+    <title lang="zh">Fixer Upper</title>
+    <desc>A wounded veteran and his girlfriend call on Chip and Jo to help them convert their house in Waco into a dreamy farmhouse; while the land is beautiful and majestic, the house is small and built inside an existing barn.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802080000 +0000" stop="20260802090000 +0000">
+    <title lang="zh">Fixer Upper</title>
+    <desc>Chip and Jo add a fresh, functional design to a dated ranch home in Waco.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802090000 +0000" stop="20260802100000 +0000">
+    <title lang="zh">In With the Old</title>
+    <desc>Will and Alicia Hardy are a husband-and-wife team with 15 years of experience renovating homes; the two take on a new challenge, venturing to Will's hometown in the heart of bourbon country to turn an 1890s inn into a dear friend's dream home.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802100000 +0000" stop="20260802103000 +0000">
+    <title lang="zh">Colin and Justin's Cabin Pressure</title>
+    <desc>Colin and Justin hire arborists and landscapers to clear the view to the lake and improve the outdoor space with walkways, pruning and fire pits; they also plan an outdoor spa with a hot tub and sauna, attempting to persuade Randy's crew to participate in the project.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802103000 +0000" stop="20260802110000 +0000">
+    <title lang="zh">Colin and Justin's Cabin Pressure</title>
+    <desc>Randy suggests Colin and Justin each design their own bedroom to save time and money; Colin's room progresses smoothly, while Justin's room encounters numerous difficulties.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802110000 +0000" stop="20260802113000 +0000">
+    <title lang="zh">Colin and Justin's Cabin Pressure</title>
+    <desc>Colin and Justin attempt to save money by learning to install a toilet themselves, visiting a local plumber for guidance as he works on a sweet old lady's bathroom; expanding their do-it-yourself efforts, they also learn soap-making from a local woman to provide amenities for their guests.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802113000 +0000" stop="20260802120000 +0000">
+    <title lang="zh">Colin and Justin's Cabin Pressure</title>
+    <desc>Colin and Justin face costly electrical and water issues while creating a master guest suite with an en suite bathroom; the electrician reveals the need for complete rewiring, and Randy informs them that all drywall must be replaced due to water damage, significantly increasing the project's expenses.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802120000 +0000" stop="20260802123000 +0000">
+    <title lang="zh">Colin and Justin's Cabin Pressure</title>
+    <desc>Colin and Justin hire arborists and landscapers to clear the view to the lake and improve the outdoor space with walkways, pruning and fire pits; they also plan an outdoor spa with a hot tub and sauna, attempting to persuade Randy's crew to participate in the project.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802123000 +0000" stop="20260802130000 +0000">
+    <title lang="zh">Colin and Justin's Cabin Pressure</title>
+    <desc>Randy suggests Colin and Justin each design their own bedroom to save time and money; Colin's room progresses smoothly, while Justin's room encounters numerous difficulties.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802130000 +0000" stop="20260802133000 +0000">
+    <title lang="zh">Colin and Justin's Cabin Pressure</title>
+    <desc>Colin and Justin attempt to save money by learning to install a toilet themselves, visiting a local plumber for guidance as he works on a sweet old lady's bathroom; expanding their do-it-yourself efforts, they also learn soap-making from a local woman to provide amenities for their guests.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802133000 +0000" stop="20260802140000 +0000">
+    <title lang="zh">Colin and Justin's Cabin Pressure</title>
+    <desc>Colin and Justin face costly electrical and water issues while creating a master guest suite with an en suite bathroom; the electrician reveals the need for complete rewiring, and Randy informs them that all drywall must be replaced due to water damage, significantly increasing the project's expenses.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802140000 +0000" stop="20260802143000 +0000">
+    <title lang="zh">Colin and Justin's Cabin Pressure</title>
+    <desc>Colin and Justin hire arborists and landscapers to clear the view to the lake and improve the outdoor space with walkways, pruning and fire pits; they also plan an outdoor spa with a hot tub and sauna, attempting to persuade Randy's crew to participate in the project.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802143000 +0000" stop="20260802150000 +0000">
+    <title lang="zh">Colin and Justin's Cabin Pressure</title>
+    <desc>Randy suggests Colin and Justin each design their own bedroom to save time and money; Colin's room progresses smoothly, while Justin's room encounters numerous difficulties.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802150000 +0000" stop="20260802153000 +0000">
+    <title lang="zh">Colin and Justin's Cabin Pressure</title>
+    <desc>Colin and Justin attempt to save money by learning to install a toilet themselves, visiting a local plumber for guidance as he works on a sweet old lady's bathroom; expanding their do-it-yourself efforts, they also learn soap-making from a local woman to provide amenities for their guests.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802153000 +0000" stop="20260802160000 +0000">
+    <title lang="zh">Colin and Justin's Cabin Pressure</title>
+    <desc>Colin and Justin face costly electrical and water issues while creating a master guest suite with an en suite bathroom; the electrician reveals the need for complete rewiring, and Randy informs them that all drywall must be replaced due to water damage, significantly increasing the project's expenses.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802160000 +0000" stop="20260802170000 +0000">
+    <title lang="zh">For the Love of Kitchens</title>
+    <desc>Paul and Helen create a kitchen for a family with a minimalist lifestyle.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802170000 +0000" stop="20260802180000 +0000">
+    <title lang="zh">For the Love of Kitchens</title>
+    <desc>Paul and Helen design a kitchen in a home on castle grounds.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802180000 +0000" stop="20260802190000 +0000">
+    <title lang="zh">For the Love of Kitchens</title>
+    <desc>Paul creates a kitchen for his seaside vacation cottage.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802190000 +0000" stop="20260802200000 +0000">
+    <title lang="zh">For the Love of Kitchens</title>
+    <desc>Paul and Helen create a working kitchen for a chef's home.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802200000 +0000" stop="20260802210000 +0000">
+    <title lang="zh">For the Love of Kitchens</title>
+    <desc>Paul and Helen make a kitchen that integrates new units with antiques.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802210000 +0000" stop="20260802220000 +0000">
+    <title lang="zh">Motel Rescue</title>
+    <desc>In Eureka Springs, Ark., a mother and son are out of ideas and almost out of hope; Lindsey needs to teach them to embrace modern business practices and a smart new design or their mountain town motel won't make it.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802220000 +0000" stop="20260802230000 +0000">
+    <title lang="zh">Motel Rescue</title>
+    <desc>In the Florida Keys, major competition and an impending change in ownership mean the pressure is on for Lindsey; she needs creative solutions for a host of problems to make sure the family-owned motel thrives for a long time to come.</desc>
+    <date>2026-08-02</date>
+  </programme>
+  <programme channel="470440" start="20260802230000 +0000" stop="20260803000000 +0000">
+    <title lang="zh">Lakefront Bargain Hunt: Renovation</title>
+    <desc>A decades long friendship explores uncharted waters when an agent helps her longtime friend buy and renovate a lake home; they've made countless memories on Lake Hartwell, so it's only fitting that's where he's looking to find his forever home.</desc>
+    <date>2026-08-02</date>
   </programme>
 </tv>
