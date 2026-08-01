@@ -1,8 +1,49 @@
 #!/usr/bin/env python3
 """
-TV2 Multi-XML Processor with Auto-Date Update
+General Multi-XML Processor Template with Auto-Date Update
 Fetches and combines multiple XML sources into one EPG file
-Supports dual sources: KSTV bulk XML (fetched once + cached) and epg.pw per-channel
+
+TO CREATE A NEW BRANDED VERSION (e.g. "TV6"): edit the single LABEL
+constant right after the imports below. Every title string, the default
+config filename, and every cache filename are derived from it — nothing
+else in this file needs to change.
+
+Supports four source types:
+  1. KSTV bulk XML        — fetched once, cached, filtered by channel ID
+  2. epg.pw per-channel   — one HTTP request per channel (parallel)
+  3. iptv-epg.org bulk    — fetched once per country URL, cached, filtered by channel ID
+     Supported URLs:
+       https://iptv-epg.org/files/epg-in.xml     (India)
+       https://iptv-epg.org/files/epg-gb.xml     (UK)
+       https://iptv-epg.org/files/epg-us.xml     (USA)
+       https://iptv-epg.org/files/epg-au.xml     (Australia)
+       https://iptv-epg.org/files/epg-nz.xml     (New Zealand)
+       https://iptv-epg.org/files/epg-ca.xml     (Canada)
+  4. open-epg.com bulk    — fetched once per country URL, cached, filtered by channel ID
+     Supported URLs:
+       https://www.open-epg.com/files/india3.xml  (India)
+
+Config file format (CHANNEL_ID|URL|DISPLAY_NAME):
+  # KSTV source
+  SomeID|http://kstv.us:8080/xmltv.php?type=xml|Channel Name
+
+  # epg.pw per-channel source
+  463922|https://epg.pw/api/epg.xml?channel_id=463922|SONY SAB
+
+  # iptv-epg.org bulk source  (channel ID must match the id= in the XML)
+  SONYSAB.in|https://iptv-epg.org/files/epg-in.xml|SONY SAB
+  BBC1.gb|https://iptv-epg.org/files/epg-gb.xml|BBC One
+  NBC.us|https://iptv-epg.org/files/epg-us.xml|NBC
+  ABC.au|https://iptv-epg.org/files/epg-au.xml|ABC Australia
+  TVNZ1.nz|https://iptv-epg.org/files/epg-nz.xml|TVNZ 1
+  CBC.ca|https://iptv-epg.org/files/epg-ca.xml|CBC (Canada)
+
+  # open-epg.com bulk source  (channel ID must match the id= in the XML)
+  STARPLUS.in|https://www.open-epg.com/files/india1.xml|STAR PLUS
+  ZeeTV.in|https://www.open-epg.com/files/india1.xml|ZEE TV
+  SONY_SAB.in|https://www.open-epg.com/files/india1.xml|SONY SAB
+  B4U_KADAK.in|https://www.open-epg.com/files/india1.xml|B4U KADAK
+  B4U_MOVIES.in|https://www.open-epg.com/files/india1.xml|B4U MOVIES
 """
 
 import argparse
@@ -10,6 +51,7 @@ import xml.etree.ElementTree as ET
 import requests
 import requests.adapters
 import re
+import gzip
 from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import os
@@ -21,11 +63,66 @@ import time
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+# =============================================================================
+# ONE PLACE TO CUSTOMIZE — change this single value to brand a new numbered
+# version (e.g. "TV6", "TV7"). Every title, cache filename, and default
+# config filename below is derived from it — nothing else needs editing.
+# =============================================================================
+LABEL = "TV3"
+
 KSTV_EPG_URL = "http://kstv.us:8080/xmltv.php?type=xml"
 
-class TV2MultiXMLProcessor:
+# All supported iptv-epg.org bulk feed URLs
+IPTV_EPG_ORG_URLS = {
+    'epg-in.xml': 'https://iptv-epg.org/files/epg-in.xml',
+    'epg-gb.xml': 'https://iptv-epg.org/files/epg-gb.xml',
+    'epg-us.xml': 'https://iptv-epg.org/files/epg-us.xml',
+    'epg-au.xml': 'https://iptv-epg.org/files/epg-au.xml',
+    'epg-nz.xml': 'https://iptv-epg.org/files/epg-nz.xml',
+    'epg-ca.xml': 'https://iptv-epg.org/files/epg-ca.xml',
+}
+
+# Cache file names for iptv-epg.org feeds
+IPTV_EPG_ORG_CACHE_FILES = {
+    'https://iptv-epg.org/files/epg-in.xml': f'{LABEL.lower()}_iptv_epg_in_cache.xml',
+    'https://iptv-epg.org/files/epg-gb.xml': f'{LABEL.lower()}_iptv_epg_gb_cache.xml',
+    'https://iptv-epg.org/files/epg-us.xml': f'{LABEL.lower()}_iptv_epg_us_cache.xml',
+    'https://iptv-epg.org/files/epg-au.xml': f'{LABEL.lower()}_iptv_epg_au_cache.xml',
+    'https://iptv-epg.org/files/epg-nz.xml': f'{LABEL.lower()}_iptv_epg_nz_cache.xml',
+    'https://iptv-epg.org/files/epg-ca.xml': f'{LABEL.lower()}_iptv_epg_ca_cache.xml',
+}
+
+# All supported open-epg.com bulk feed URLs
+OPEN_EPG_URLS = {
+    'india1.xml': 'https://www.open-epg.com/files/india1.xml',
+    'india3.xml': 'https://www.open-epg.com/files/india3.xml',
+}
+
+# Cache file names for open-epg.com feeds
+OPEN_EPG_CACHE_FILES = {
+    'https://www.open-epg.com/files/india1.xml': f'{LABEL.lower()}_open_epg_india1_cache.xml',
+    'https://www.open-epg.com/files/india3.xml': f'{LABEL.lower()}_open_epg_india3_cache.xml',
+}
+
+def is_iptv_epg_org_url(url: str) -> bool:
+    """Return True if the URL is an iptv-epg.org bulk feed."""
+    return 'iptv-epg.org/files/' in url
+
+def is_open_epg_url(url: str) -> bool:
+    """Return True if the URL is an open-epg.com bulk feed."""
+    return 'open-epg.com/files/' in url
+
+
+class TVMultiXMLProcessor:
     """Process multiple XML sources and combine them into one EPG file.
-    Supports KSTV bulk XML (fetched once, cached) and epg.pw per-channel sources.
+
+    Supports:
+      - KSTV bulk XML (fetched once, cached)
+      - epg.pw per-channel sources (parallel fetches)
+      - iptv-epg.org bulk XMLs: epg-in, epg-gb, epg-us, epg-au, epg-nz
+        (each fetched once and cached separately)
+      - open-epg.com bulk XMLs: india3
+        (each fetched once and cached separately)
     """
 
     def __init__(self):
@@ -45,17 +142,24 @@ class TV2MultiXMLProcessor:
         self.session.mount('https://', adapter)
 
     # -------------------------------------------------------------------------
-    # Config loading — detects kstv vs epg.pw sources automatically
+    # Config loading — detects kstv / epg.pw / iptv-epg.org / open-epg.com sources
     # -------------------------------------------------------------------------
 
-    def load_config(self, config_file: str) -> Tuple[Dict[str, str], List[Dict[str, str]]]:
+    def load_config(self, config_file: str) -> Tuple[Dict, List, Dict, Dict]:
         """Load configuration from file.
+
         Returns:
-            kstv_channels : dict  {channel_id: display_name}  for kstv.us sources
-            epgpw_sources : list  [{channel_id, url, display_name}] for epg.pw sources
+            kstv_channels    : dict  {channel_id: display_name}
+            epgpw_sources    : list  [{channel_id, url, display_name}]
+            iptvepg_sources  : dict  {bulk_url: {channel_id: display_name}}
+                               Channels grouped by their iptv-epg.org feed URL
+            open_epg_sources : dict  {bulk_url: {channel_id: display_name}}
+                               Channels grouped by their open-epg.com feed URL
         """
-        kstv_channels = {}
-        epgpw_sources = []
+        kstv_channels   = {}
+        epgpw_sources   = []
+        iptvepg_sources = {}   # url -> {channel_id: display_name}
+        open_epg_sources = {}   # url -> {channel_id: display_name}
 
         try:
             with open(config_file, 'r') as f:
@@ -63,7 +167,6 @@ class TV2MultiXMLProcessor:
                     line = line.strip()
                     if not line or line.startswith('#') or line.startswith('='):
                         continue
-                    # Split on first 2 pipes — display name may contain pipes
                     parts = line.split('|', 2)
                     if len(parts) < 3:
                         continue
@@ -71,13 +174,22 @@ class TV2MultiXMLProcessor:
                     url          = parts[1].strip()
                     display_name = parts[2].strip()
 
-                    # Detect source type:
-                    # - kstv.us in URL               -> kstv bulk source
-                    # - numeric ID or epg.pw in URL  -> epg.pw per-channel source
-                    # - anything else                -> treat as epg.pw per-channel
                     if 'kstv.us' in url:
-                        if channel_id not in kstv_channels:  # first display name wins
+                        if channel_id not in kstv_channels:
                             kstv_channels[channel_id] = display_name
+
+                    elif is_iptv_epg_org_url(url):
+                        # Group by the bulk feed URL
+                        if url not in iptvepg_sources:
+                            iptvepg_sources[url] = {}
+                        iptvepg_sources[url][channel_id] = display_name
+
+                    elif is_open_epg_url(url):
+                        # Group by the bulk feed URL
+                        if url not in open_epg_sources:
+                            open_epg_sources[url] = {}
+                        open_epg_sources[url][channel_id] = display_name
+
                     elif channel_id.isdigit() or 'epg.pw' in url:
                         epgpw_sources.append({
                             'channel_id':   channel_id,
@@ -94,39 +206,70 @@ class TV2MultiXMLProcessor:
         except FileNotFoundError:
             logger.error(f"Config file not found: {config_file}")
 
-        logger.info(f"Loaded {len(kstv_channels)} KSTV channels, {len(epgpw_sources)} epg.pw channels")
-        return kstv_channels, epgpw_sources
+        total_iptvepg = sum(len(v) for v in iptvepg_sources.values())
+        total_open_epg = sum(len(v) for v in open_epg_sources.values())
+        logger.info(
+            f"Loaded {len(kstv_channels)} KSTV channels, "
+            f"{len(epgpw_sources)} epg.pw channels, "
+            f"{total_iptvepg} iptv-epg.org channels "
+            f"({len(iptvepg_sources)} feed(s)), "
+            f"{total_open_epg} open-epg.com channels "
+            f"({len(open_epg_sources)} feed(s))"
+        )
+        return kstv_channels, epgpw_sources, iptvepg_sources, open_epg_sources
 
     # -------------------------------------------------------------------------
     # KSTV bulk XML — fetch once, cache, filter by channel ID
     # -------------------------------------------------------------------------
 
-    def fetch_full_kstv_epg(self, cache_file: str = 'tv2_kstv_cache.xml', cache_hours: float = 6) -> ET.Element:
-        """Fetch the full KSTV EPG XML once, cache it locally."""
+    def fetch_bulk_xml(self, url: str, cache_file: str, cache_hours: float = 6,
+                       label: str = 'bulk') -> ET.Element:
+        """Generic: fetch a bulk XML feed once, cache it, return root element."""
         if os.path.exists(cache_file):
             age_hours = (time.time() - os.path.getmtime(cache_file)) / 3600
             if age_hours < cache_hours:
-                logger.info(f"Using cached KSTV EPG ({age_hours:.1f}h old, limit {cache_hours}h)")
+                logger.info(f"Using cached {label} ({age_hours:.1f}h old, limit {cache_hours}h)")
                 try:
                     tree = ET.parse(cache_file)
                     return tree.getroot()
                 except Exception as e:
-                    logger.warning(f"Cache read failed: {e} — re-fetching")
+                    logger.warning(f"Cache read failed for {label}: {e} — re-fetching")
 
-        logger.info(f"Fetching full KSTV EPG from {KSTV_EPG_URL} ...")
+        logger.info(f"Fetching {label} from {url} ...")
         try:
-            response = self.session.get(KSTV_EPG_URL, timeout=120)
+            response = self.session.get(url, timeout=120)
             response.raise_for_status()
+            content = response.content
+
+            # Transparently decompress gzip feeds, if a source ever ships one.
+            # Detect via URL suffix or gzip magic bytes, in case a server
+            # sends a .gz payload without the extension in the URL.
+            if url.endswith('.gz') or content[:2] == b'\x1f\x8b':
+                try:
+                    content = gzip.decompress(content)
+                except Exception as e:
+                    logger.error(f"Failed to decompress {label}: {e}")
+                    if os.path.exists(cache_file):
+                        logger.warning(f"Using stale cache for {label} as fallback")
+                        try:
+                            tree = ET.parse(cache_file)
+                            return tree.getroot()
+                        except Exception:
+                            pass
+                    return None
+
+            # Cache is always stored as plain (decompressed) XML so re-reads
+            # via ET.parse(cache_file) work regardless of source format.
             with open(cache_file, 'wb') as f:
-                f.write(response.content)
-            logger.info(f"KSTV EPG cached to {cache_file}")
-            root = ET.fromstring(response.content)
-            logger.info("Successfully fetched full KSTV EPG")
+                f.write(content)
+            logger.info(f"{label} cached to {cache_file}")
+            root = ET.fromstring(content)
+            logger.info(f"Successfully fetched {label}")
             return root
         except Exception as e:
-            logger.error(f"Failed to fetch KSTV EPG: {e}")
+            logger.error(f"Failed to fetch {label}: {e}")
             if os.path.exists(cache_file):
-                logger.warning("Using stale KSTV cache as fallback")
+                logger.warning(f"Using stale cache for {label} as fallback")
                 try:
                     tree = ET.parse(cache_file)
                     return tree.getroot()
@@ -134,9 +277,16 @@ class TV2MultiXMLProcessor:
                     pass
             return None
 
-    def filter_kstv_channels(self, root: ET.Element, wanted_channels: Dict[str, str]) -> Tuple[Dict, List]:
-        """Filter only wanted channels and their programmes from the full KSTV EPG."""
-        out_channels = {}
+    def fetch_full_kstv_epg(self, cache_file: str = 'tv_kstv_cache.xml',
+                             cache_hours: float = 6) -> ET.Element:
+        """Fetch the full KSTV EPG XML once, cache it locally."""
+        return self.fetch_bulk_xml(KSTV_EPG_URL, cache_file, cache_hours, label='KSTV EPG')
+
+    def filter_bulk_channels(self, root: ET.Element,
+                              wanted_channels: Dict[str, str],
+                              source_label: str = 'bulk') -> Tuple[Dict, List]:
+        """Filter wanted channels and programmes from any bulk EPG XML root."""
+        out_channels   = {}
         out_programmes = []
 
         for channel in root.findall('.//channel'):
@@ -162,8 +312,123 @@ class TV2MultiXMLProcessor:
                     seen_keys.add(key)
                     out_programmes.append(programme)
 
-        logger.info(f"KSTV filter: {len(out_channels)} channels, {len(out_programmes)} programmes (deduplicated)")
+        logger.info(
+            f"{source_label} filter: {len(out_channels)} channels, "
+            f"{len(out_programmes)} programmes (deduplicated)"
+        )
         return out_channels, out_programmes
+
+    # -------------------------------------------------------------------------
+    # iptv-epg.org bulk feeds — one fetch+cache per URL
+    # -------------------------------------------------------------------------
+
+    def process_iptvepg_sources(self, iptvepg_sources: Dict[str, Dict[str, str]],
+                                 cache_hours: float = 6) -> Tuple[Dict, List]:
+        """Fetch each iptv-epg.org feed once, cache it, filter wanted channels.
+
+        Args:
+            iptvepg_sources : {feed_url: {channel_id: display_name}}
+            cache_hours     : cache TTL in hours
+
+        Returns:
+            all_channels   : {channel_id: ET.Element}
+            all_programmes : [ET.Element]
+        """
+        all_channels   = {}
+        all_programmes = []
+
+        for feed_url, wanted_channels in iptvepg_sources.items():
+            # Determine cache file name
+            cache_file = IPTV_EPG_ORG_CACHE_FILES.get(feed_url)
+            if not cache_file:
+                # Derive from URL if unknown (future-proofing)
+                slug = feed_url.split('/')[-1]
+                for ext in ('.xml.gz', '.xml'):
+                    if slug.endswith(ext):
+                        slug = slug[:-len(ext)]
+                        break
+                cache_file = f'tv_iptv_epg_{slug}_cache.xml'
+
+            # Determine a human-readable label
+            feed_name = feed_url.split('/')[-1]   # e.g. epg-in.xml
+            label = f'iptv-epg.org/{feed_name} ({len(wanted_channels)} channels)'
+
+            root = self.fetch_bulk_xml(feed_url, cache_file, cache_hours, label=label)
+            if root is None:
+                logger.warning(f"Skipping {feed_url} — fetch failed")
+                continue
+
+            channels, programmes = self.filter_bulk_channels(root, wanted_channels,
+                                                              source_label=feed_name)
+            all_channels.update(channels)
+            all_programmes.extend(programmes)
+            logger.info(f"{feed_name}: added {len(channels)} channels, {len(programmes)} programmes")
+
+            # Warn about channels not found in feed
+            missing = set(wanted_channels.keys()) - set(channels.keys())
+            if missing:
+                logger.warning(
+                    f"{feed_name}: {len(missing)} channel(s) not found in feed: "
+                    + ', '.join(sorted(missing))
+                )
+
+        return all_channels, all_programmes
+
+    # -------------------------------------------------------------------------
+    # open-epg.com bulk feeds — one fetch+cache per URL
+    # -------------------------------------------------------------------------
+
+    def process_open_epg_sources(self, open_epg_sources: Dict[str, Dict[str, str]],
+                                 cache_hours: float = 6) -> Tuple[Dict, List]:
+        """Fetch each open-epg.com feed once, cache it, filter wanted channels.
+
+        Args:
+            open_epg_sources : {feed_url: {channel_id: display_name}}
+            cache_hours       : cache TTL in hours
+
+        Returns:
+            all_channels   : {channel_id: ET.Element}
+            all_programmes : [ET.Element]
+        """
+        all_channels   = {}
+        all_programmes = []
+
+        for feed_url, wanted_channels in open_epg_sources.items():
+            # Determine cache file name
+            cache_file = OPEN_EPG_CACHE_FILES.get(feed_url)
+            if not cache_file:
+                # Derive from URL if unknown (future-proofing)
+                slug = feed_url.split('/')[-1]
+                for ext in ('.xml.gz', '.xml'):
+                    if slug.endswith(ext):
+                        slug = slug[:-len(ext)]
+                        break
+                cache_file = f'tv_open_epg_{slug}_cache.xml'
+
+            # Determine a human-readable label
+            feed_name = feed_url.split('/')[-1]   # e.g. india3.xml
+            label = f'open-epg.com/{feed_name} ({len(wanted_channels)} channels)'
+
+            root = self.fetch_bulk_xml(feed_url, cache_file, cache_hours, label=label)
+            if root is None:
+                logger.warning(f"Skipping {feed_url} — fetch failed")
+                continue
+
+            channels, programmes = self.filter_bulk_channels(root, wanted_channels,
+                                                              source_label=feed_name)
+            all_channels.update(channels)
+            all_programmes.extend(programmes)
+            logger.info(f"{feed_name}: added {len(channels)} channels, {len(programmes)} programmes")
+
+            # Warn about channels not found in feed
+            missing = set(wanted_channels.keys()) - set(channels.keys())
+            if missing:
+                logger.warning(
+                    f"{feed_name}: {len(missing)} channel(s) not found in feed: "
+                    + ', '.join(sorted(missing))
+                )
+
+        return all_channels, all_programmes
 
     # -------------------------------------------------------------------------
     # epg.pw per-channel fetch (parallel)
@@ -226,7 +491,10 @@ class TV2MultiXMLProcessor:
         original_count = len(programmes)
         kept = []
 
-        logger.info(f"Time filter: keeping programmes at/after {self.current_time.strftime('%Y-%m-%d %H:%M:%S UTC')} or currently airing")
+        logger.info(
+            f"Time filter: keeping programmes at/after "
+            f"{self.current_time.strftime('%Y-%m-%d %H:%M:%S UTC')} or currently airing"
+        )
 
         for program in programmes:
             start_str = program.get('start')
@@ -251,7 +519,10 @@ class TV2MultiXMLProcessor:
 
             kept.append(program)
 
-        logger.info(f"Time filter: {original_count} -> {len(kept)} programmes (removed {original_count - len(kept)} past)")
+        logger.info(
+            f"Time filter: {original_count} -> {len(kept)} programmes "
+            f"(removed {original_count - len(kept)} past)"
+        )
         return kept
 
     # -------------------------------------------------------------------------
@@ -278,12 +549,18 @@ class TV2MultiXMLProcessor:
     def limit_programs_equally(self, programmes: List[ET.Element], num_channels: int) -> List[ET.Element]:
         """Global 900 cap distributed equally across channels."""
         if len(programmes) <= self.max_programs:
-            logger.info(f"Total programmes ({len(programmes)}) under global cap ({self.max_programs}), no limiting needed")
+            logger.info(
+                f"Total programmes ({len(programmes)}) under global cap "
+                f"({self.max_programs}), no limiting needed"
+            )
             return programmes
 
         programs_per_channel = self.max_programs // num_channels
         remaining = self.max_programs % num_channels
-        logger.info(f"Global cap: {len(programmes)} -> {self.max_programs} (~{programs_per_channel} per channel)")
+        logger.info(
+            f"Global cap: {len(programmes)} -> {self.max_programs} "
+            f"(~{programs_per_channel} per channel)"
+        )
 
         channel_programs: Dict[str, list] = {}
         for prog in programmes:
@@ -310,9 +587,9 @@ class TV2MultiXMLProcessor:
         """Build combined XML output."""
         root = ET.Element("tv")
         root.set('date', datetime.now().strftime("%Y%m%d%H%M%S %z"))
-        root.set('generator-info-name', 'TV2-Multi-XML-Processor')
+        root.set('generator-info-name', f'{LABEL}-Multi-XML-Processor')
         root.set('generator-info-url', 'https://github.com/r56wdvm6d5-cloud/epguk')
-        root.set('source-info-name', 'TV2-Source-EPG')
+        root.set('source-info-name', f'{LABEL}-Source-EPG')
 
         for channel in channels.values():
             if isinstance(channel, ET.Element):
@@ -323,15 +600,8 @@ class TV2MultiXMLProcessor:
         return root
 
     def format_xml_output(self, root: ET.Element, pretty: bool = True) -> str:
-        """Format XML output — always consistent indentation + XML declaration.
-
-        Both KSTV and epg.pw elements are re-serialised from the in-memory tree,
-        so the output is uniform regardless of the original source formatting.
-        The 'pretty' flag controls indentation (default True for readability).
-        """
+        """Format XML output — always consistent indentation + XML declaration."""
         if pretty:
-            # ET.indent requires Python 3.9+ — strips any pre-existing tail whitespace
-            # then re-indents the whole tree uniformly
             ET.indent(root, space="  ")
 
         xml_body = ET.tostring(root, encoding='unicode', method='xml')
@@ -342,37 +612,71 @@ class TV2MultiXMLProcessor:
     # -------------------------------------------------------------------------
 
     def process_multiple_sources(self, config_file: str, output_file: str,
-                                  cache_file: str = 'tv2_kstv_cache.xml',
+                                  cache_file: str = f'{LABEL.lower()}_kstv_cache.xml',
                                   cache_hours: float = 6) -> bool:
-        """Main processing — handles both KSTV bulk XML and epg.pw per-channel sources."""
+        """Main processing — handles KSTV, epg.pw, iptv-epg.org, and open-epg.com sources."""
         try:
-            kstv_channels, epgpw_sources = self.load_config(config_file)
+            kstv_channels, epgpw_sources, iptvepg_sources, open_epg_sources = self.load_config(config_file)
 
-            if not kstv_channels and not epgpw_sources:
+            if not kstv_channels and not epgpw_sources and not iptvepg_sources and not open_epg_sources:
                 logger.error("No valid sources found in configuration")
                 return False
 
             all_channels: Dict   = {}
             all_programmes: List = []
 
-            # --- KSTV: fetch once, filter by channel ID ---
+            # --- 1. KSTV: fetch once, filter by channel ID ---
             if kstv_channels:
                 logger.info(f"Processing {len(kstv_channels)} KSTV channels (single fetch + cache)...")
                 kstv_root = self.fetch_full_kstv_epg(cache_file, cache_hours)
                 if kstv_root is not None:
-                    channels, programmes = self.filter_kstv_channels(kstv_root, kstv_channels)
+                    channels, programmes = self.filter_bulk_channels(
+                        kstv_root, kstv_channels, source_label='KSTV'
+                    )
                     all_channels.update(channels)
                     all_programmes.extend(programmes)
                     logger.info(f"KSTV: added {len(channels)} channels, {len(programmes)} programmes")
                 else:
                     logger.warning("KSTV EPG fetch failed — skipping KSTV channels")
 
-            # --- epg.pw: fetch each channel in parallel ---
+            # --- 2. iptv-epg.org: fetch each feed once, filter by channel ID ---
+            if iptvepg_sources:
+                total = sum(len(v) for v in iptvepg_sources.values())
+                logger.info(
+                    f"Processing {total} iptv-epg.org channels "
+                    f"across {len(iptvepg_sources)} feed(s)..."
+                )
+                channels, programmes = self.process_iptvepg_sources(iptvepg_sources, cache_hours)
+                all_channels.update(channels)
+                all_programmes.extend(programmes)
+                logger.info(
+                    f"iptv-epg.org total: {len(channels)} channels, {len(programmes)} programmes"
+                )
+
+            # --- 3. open-epg.com: fetch each feed once, filter by channel ID ---
+            if open_epg_sources:
+                total = sum(len(v) for v in open_epg_sources.values())
+                logger.info(
+                    f"Processing {total} open-epg.com channels "
+                    f"across {len(open_epg_sources)} feed(s)..."
+                )
+                channels, programmes = self.process_open_epg_sources(open_epg_sources, cache_hours)
+                all_channels.update(channels)
+                all_programmes.extend(programmes)
+                logger.info(
+                    f"open-epg.com total: {len(channels)} channels, {len(programmes)} programmes"
+                )
+
+            # --- 4. epg.pw: fetch each channel in parallel ---
             if epgpw_sources:
                 max_workers = min(10, len(epgpw_sources))
-                logger.info(f"Fetching {len(epgpw_sources)} epg.pw channels in parallel (workers={max_workers})")
+                logger.info(
+                    f"Fetching {len(epgpw_sources)} epg.pw channels in parallel "
+                    f"(workers={max_workers})"
+                )
                 with ThreadPoolExecutor(max_workers=max_workers) as executor:
-                    futures = {executor.submit(self.fetch_epgpw_source, src): src for src in epgpw_sources}
+                    futures = {executor.submit(self.fetch_epgpw_source, src): src
+                               for src in epgpw_sources}
                     for future in as_completed(futures):
                         src = futures[future]
                         try:
@@ -387,7 +691,10 @@ class TV2MultiXMLProcessor:
                 logger.warning("No matching channels found!")
                 return False
 
-            logger.info(f"Before filtering: {len(all_channels)} channels, {len(all_programmes)} programmes")
+            logger.info(
+                f"Before filtering: {len(all_channels)} channels, "
+                f"{len(all_programmes)} programmes"
+            )
             logger.info(f"Current UTC time: {self.current_time.strftime('%Y-%m-%d %H:%M:%S UTC')}")
 
             # Filter past programmes
@@ -419,16 +726,20 @@ class TV2MultiXMLProcessor:
 def main():
     """Main function."""
     parser = argparse.ArgumentParser(
-        description='TV2 Multi-XML Processor — KSTV bulk XML + epg.pw per-channel with auto-date update'
+        description=(
+            f'{LABEL} Multi-XML Processor — '
+            'KSTV bulk XML + epg.pw per-channel + iptv-epg.org bulk feeds '
+            '(IN/GB/US/AU/NZ/CA) + open-epg.com bulk feeds (India) with auto-date update'
+        )
     )
-    parser.add_argument('--config', '-c', default='TV2_multi_xml_config.txt',
+    parser.add_argument('--config', '-c', default=f'{LABEL}_multi_xml_config.txt',
                         help='Configuration file with XML sources')
     parser.add_argument('--output', '-o', required=True,
                         help='Output EPG XML file path')
-    parser.add_argument('--cache', default='tv2_kstv_cache.xml',
-                        help='KSTV cache file path (default: tv2_kstv_cache.xml)')
+    parser.add_argument('--cache', default=f'{LABEL.lower()}_kstv_cache.xml',
+                        help=f'KSTV cache file path (default: {LABEL.lower()}_kstv_cache.xml)')
     parser.add_argument('--cache-hours', type=float, default=6,
-                        help='KSTV cache expiry in hours (default: 6)')
+                        help='Cache expiry in hours for all bulk feeds (default: 6)')
     parser.add_argument('--verbose', '-v', action='store_true',
                         help='Enable verbose logging')
 
@@ -441,7 +752,7 @@ def main():
         logger.error(f"Configuration file not found: {args.config}")
         return 1
 
-    processor = TV2MultiXMLProcessor()
+    processor = TVMultiXMLProcessor()
     success = processor.process_multiple_sources(
         args.config, args.output, args.cache, args.cache_hours
     )
@@ -450,3 +761,4 @@ def main():
 
 if __name__ == "__main__":
     exit(main())
+
