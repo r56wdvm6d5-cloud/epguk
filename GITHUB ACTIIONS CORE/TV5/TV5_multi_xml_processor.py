@@ -1,18 +1,24 @@
 #!/usr/bin/env python3
 """
-TV4 Multi-XML Processor with Auto-Date Update
+General Multi-XML Processor Template with Auto-Date Update
 Fetches and combines multiple XML sources into one EPG file
+
+TO CREATE A NEW BRANDED VERSION (e.g. "TV6"): edit the single LABEL
+constant right after the imports below. Every title string, the default
+config filename, and every cache filename are derived from it — nothing
+else in this file needs to change.
 
 Supports four source types:
   1. KSTV bulk XML        — fetched once, cached, filtered by channel ID
   2. epg.pw per-channel   — one HTTP request per channel (parallel)
   3. iptv-epg.org bulk    — fetched once per country URL, cached, filtered by channel ID
      Supported URLs:
-       https://iptv-epg.org/files/epg-in.xml  (India)
-       https://iptv-epg.org/files/epg-gb.xml  (UK)
-       https://iptv-epg.org/files/epg-us.xml  (USA)
-       https://iptv-epg.org/files/epg-au.xml  (Australia)
-       https://iptv-epg.org/files/epg-nz.xml  (New Zealand)
+       https://iptv-epg.org/files/epg-in.xml     (India)
+       https://iptv-epg.org/files/epg-gb.xml     (UK)
+       https://iptv-epg.org/files/epg-us.xml     (USA)
+       https://iptv-epg.org/files/epg-au.xml     (Australia)
+       https://iptv-epg.org/files/epg-nz.xml     (New Zealand)
+       https://iptv-epg.org/files/epg-ca.xml     (Canada)
   4. open-epg.com bulk    — fetched once per country URL, cached, filtered by channel ID
      Supported URLs:
        https://www.open-epg.com/files/india3.xml  (India)
@@ -30,6 +36,7 @@ Config file format (CHANNEL_ID|URL|DISPLAY_NAME):
   NBC.us|https://iptv-epg.org/files/epg-us.xml|NBC
   ABC.au|https://iptv-epg.org/files/epg-au.xml|ABC Australia
   TVNZ1.nz|https://iptv-epg.org/files/epg-nz.xml|TVNZ 1
+  CBC.ca|https://iptv-epg.org/files/epg-ca.xml|CBC (Canada)
 
   # open-epg.com bulk source  (channel ID must match the id= in the XML)
   STARPLUS.in|https://www.open-epg.com/files/india1.xml|STAR PLUS
@@ -44,6 +51,7 @@ import xml.etree.ElementTree as ET
 import requests
 import requests.adapters
 import re
+import gzip
 from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import os
@@ -55,6 +63,13 @@ import time
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+# =============================================================================
+# ONE PLACE TO CUSTOMIZE — change this single value to brand a new numbered
+# version (e.g. "TV6", "TV7"). Every title, cache filename, and default
+# config filename below is derived from it — nothing else needs editing.
+# =============================================================================
+LABEL = "TV5"
+
 KSTV_EPG_URL = "http://kstv.us:8080/xmltv.php?type=xml"
 
 # All supported iptv-epg.org bulk feed URLs
@@ -64,15 +79,17 @@ IPTV_EPG_ORG_URLS = {
     'epg-us.xml': 'https://iptv-epg.org/files/epg-us.xml',
     'epg-au.xml': 'https://iptv-epg.org/files/epg-au.xml',
     'epg-nz.xml': 'https://iptv-epg.org/files/epg-nz.xml',
+    'epg-ca.xml': 'https://iptv-epg.org/files/epg-ca.xml',
 }
 
 # Cache file names for iptv-epg.org feeds
 IPTV_EPG_ORG_CACHE_FILES = {
-    'https://iptv-epg.org/files/epg-in.xml': 'tv4_iptv_epg_in_cache.xml',
-    'https://iptv-epg.org/files/epg-gb.xml': 'tv4_iptv_epg_gb_cache.xml',
-    'https://iptv-epg.org/files/epg-us.xml': 'tv4_iptv_epg_us_cache.xml',
-    'https://iptv-epg.org/files/epg-au.xml': 'tv4_iptv_epg_au_cache.xml',
-    'https://iptv-epg.org/files/epg-nz.xml': 'tv4_iptv_epg_nz_cache.xml',
+    'https://iptv-epg.org/files/epg-in.xml': f'{LABEL.lower()}_iptv_epg_in_cache.xml',
+    'https://iptv-epg.org/files/epg-gb.xml': f'{LABEL.lower()}_iptv_epg_gb_cache.xml',
+    'https://iptv-epg.org/files/epg-us.xml': f'{LABEL.lower()}_iptv_epg_us_cache.xml',
+    'https://iptv-epg.org/files/epg-au.xml': f'{LABEL.lower()}_iptv_epg_au_cache.xml',
+    'https://iptv-epg.org/files/epg-nz.xml': f'{LABEL.lower()}_iptv_epg_nz_cache.xml',
+    'https://iptv-epg.org/files/epg-ca.xml': f'{LABEL.lower()}_iptv_epg_ca_cache.xml',
 }
 
 # All supported open-epg.com bulk feed URLs
@@ -83,8 +100,8 @@ OPEN_EPG_URLS = {
 
 # Cache file names for open-epg.com feeds
 OPEN_EPG_CACHE_FILES = {
-    'https://www.open-epg.com/files/india1.xml': 'tv4_open_epg_india1_cache.xml',
-    'https://www.open-epg.com/files/india3.xml': 'tv4_open_epg_india3_cache.xml',
+    'https://www.open-epg.com/files/india1.xml': f'{LABEL.lower()}_open_epg_india1_cache.xml',
+    'https://www.open-epg.com/files/india3.xml': f'{LABEL.lower()}_open_epg_india3_cache.xml',
 }
 
 def is_iptv_epg_org_url(url: str) -> bool:
@@ -96,7 +113,7 @@ def is_open_epg_url(url: str) -> bool:
     return 'open-epg.com/files/' in url
 
 
-class TV4MultiXMLProcessor:
+class TVMultiXMLProcessor:
     """Process multiple XML sources and combine them into one EPG file.
 
     Supports:
@@ -222,10 +239,31 @@ class TV4MultiXMLProcessor:
         try:
             response = self.session.get(url, timeout=120)
             response.raise_for_status()
+            content = response.content
+
+            # Transparently decompress gzip feeds, if a source ever ships one.
+            # Detect via URL suffix or gzip magic bytes, in case a server
+            # sends a .gz payload without the extension in the URL.
+            if url.endswith('.gz') or content[:2] == b'\x1f\x8b':
+                try:
+                    content = gzip.decompress(content)
+                except Exception as e:
+                    logger.error(f"Failed to decompress {label}: {e}")
+                    if os.path.exists(cache_file):
+                        logger.warning(f"Using stale cache for {label} as fallback")
+                        try:
+                            tree = ET.parse(cache_file)
+                            return tree.getroot()
+                        except Exception:
+                            pass
+                    return None
+
+            # Cache is always stored as plain (decompressed) XML so re-reads
+            # via ET.parse(cache_file) work regardless of source format.
             with open(cache_file, 'wb') as f:
-                f.write(response.content)
+                f.write(content)
             logger.info(f"{label} cached to {cache_file}")
-            root = ET.fromstring(response.content)
+            root = ET.fromstring(content)
             logger.info(f"Successfully fetched {label}")
             return root
         except Exception as e:
@@ -239,7 +277,7 @@ class TV4MultiXMLProcessor:
                     pass
             return None
 
-    def fetch_full_kstv_epg(self, cache_file: str = 'tv4_kstv_cache.xml',
+    def fetch_full_kstv_epg(self, cache_file: str = 'tv_kstv_cache.xml',
                              cache_hours: float = 6) -> ET.Element:
         """Fetch the full KSTV EPG XML once, cache it locally."""
         return self.fetch_bulk_xml(KSTV_EPG_URL, cache_file, cache_hours, label='KSTV EPG')
@@ -304,8 +342,12 @@ class TV4MultiXMLProcessor:
             cache_file = IPTV_EPG_ORG_CACHE_FILES.get(feed_url)
             if not cache_file:
                 # Derive from URL if unknown (future-proofing)
-                slug = feed_url.split('/')[-1].replace('.xml', '')
-                cache_file = f'tv4_iptv_epg_{slug}_cache.xml'
+                slug = feed_url.split('/')[-1]
+                for ext in ('.xml.gz', '.xml'):
+                    if slug.endswith(ext):
+                        slug = slug[:-len(ext)]
+                        break
+                cache_file = f'tv_iptv_epg_{slug}_cache.xml'
 
             # Determine a human-readable label
             feed_name = feed_url.split('/')[-1]   # e.g. epg-in.xml
@@ -356,8 +398,12 @@ class TV4MultiXMLProcessor:
             cache_file = OPEN_EPG_CACHE_FILES.get(feed_url)
             if not cache_file:
                 # Derive from URL if unknown (future-proofing)
-                slug = feed_url.split('/')[-1].replace('.xml', '')
-                cache_file = f'tv4_open_epg_{slug}_cache.xml'
+                slug = feed_url.split('/')[-1]
+                for ext in ('.xml.gz', '.xml'):
+                    if slug.endswith(ext):
+                        slug = slug[:-len(ext)]
+                        break
+                cache_file = f'tv_open_epg_{slug}_cache.xml'
 
             # Determine a human-readable label
             feed_name = feed_url.split('/')[-1]   # e.g. india3.xml
@@ -541,9 +587,9 @@ class TV4MultiXMLProcessor:
         """Build combined XML output."""
         root = ET.Element("tv")
         root.set('date', datetime.now().strftime("%Y%m%d%H%M%S %z"))
-        root.set('generator-info-name', 'TV4-Multi-XML-Processor')
+        root.set('generator-info-name', f'{LABEL}-Multi-XML-Processor')
         root.set('generator-info-url', 'https://github.com/r56wdvm6d5-cloud/epguk')
-        root.set('source-info-name', 'TV4-Source-EPG')
+        root.set('source-info-name', f'{LABEL}-Source-EPG')
 
         for channel in channels.values():
             if isinstance(channel, ET.Element):
@@ -566,7 +612,7 @@ class TV4MultiXMLProcessor:
     # -------------------------------------------------------------------------
 
     def process_multiple_sources(self, config_file: str, output_file: str,
-                                  cache_file: str = 'tv4_kstv_cache.xml',
+                                  cache_file: str = f'{LABEL.lower()}_kstv_cache.xml',
                                   cache_hours: float = 6) -> bool:
         """Main processing — handles KSTV, epg.pw, iptv-epg.org, and open-epg.com sources."""
         try:
@@ -681,17 +727,17 @@ def main():
     """Main function."""
     parser = argparse.ArgumentParser(
         description=(
-            'TV4 Multi-XML Processor — '
+            f'{LABEL} Multi-XML Processor — '
             'KSTV bulk XML + epg.pw per-channel + iptv-epg.org bulk feeds '
-            '(IN/GB/US/AU/NZ) + open-epg.com bulk feeds (India) with auto-date update'
+            '(IN/GB/US/AU/NZ/CA) + open-epg.com bulk feeds (India) with auto-date update'
         )
     )
-    parser.add_argument('--config', '-c', default='TV4_multi_xml_config.txt',
+    parser.add_argument('--config', '-c', default=f'{LABEL}_multi_xml_config.txt',
                         help='Configuration file with XML sources')
     parser.add_argument('--output', '-o', required=True,
                         help='Output EPG XML file path')
-    parser.add_argument('--cache', default='tv4_kstv_cache.xml',
-                        help='KSTV cache file path (default: tv4_kstv_cache.xml)')
+    parser.add_argument('--cache', default=f'{LABEL.lower()}_kstv_cache.xml',
+                        help=f'KSTV cache file path (default: {LABEL.lower()}_kstv_cache.xml)')
     parser.add_argument('--cache-hours', type=float, default=6,
                         help='Cache expiry in hours for all bulk feeds (default: 6)')
     parser.add_argument('--verbose', '-v', action='store_true',
@@ -706,7 +752,7 @@ def main():
         logger.error(f"Configuration file not found: {args.config}")
         return 1
 
-    processor = TV4MultiXMLProcessor()
+    processor = TVMultiXMLProcessor()
     success = processor.process_multiple_sources(
         args.config, args.output, args.cache, args.cache_hours
     )
