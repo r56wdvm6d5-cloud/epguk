@@ -282,6 +282,19 @@ class TVMultiXMLProcessor:
         """Fetch the full KSTV EPG XML once, cache it locally."""
         return self.fetch_bulk_xml(KSTV_EPG_URL, cache_file, cache_hours, label='KSTV EPG')
 
+    def merge_channels(self, all_channels: Dict, new_channels: Dict, source_label: str) -> None:
+        """Merge new_channels into all_channels in place, warning on any
+        channel_id collision (same ID already claimed by an earlier source/feed).
+        Last write still wins — this only makes the overwrite visible."""
+        for ch_id, channel in new_channels.items():
+            if ch_id in all_channels and all_channels[ch_id] is not channel:
+                logger.warning(
+                    f"Channel ID collision: '{ch_id}' already present "
+                    f"(now being overwritten by {source_label}) — "
+                    f"check for duplicate channel_id across feeds/sources"
+                )
+            all_channels[ch_id] = channel
+
     def filter_bulk_channels(self, root: ET.Element,
                               wanted_channels: Dict[str, str],
                               source_label: str = 'bulk') -> Tuple[Dict, List]:
@@ -360,7 +373,7 @@ class TVMultiXMLProcessor:
 
             channels, programmes = self.filter_bulk_channels(root, wanted_channels,
                                                               source_label=feed_name)
-            all_channels.update(channels)
+            self.merge_channels(all_channels, channels, source_label=f'iptv-epg.org/{feed_name}')
             all_programmes.extend(programmes)
             logger.info(f"{feed_name}: added {len(channels)} channels, {len(programmes)} programmes")
 
@@ -416,7 +429,7 @@ class TVMultiXMLProcessor:
 
             channels, programmes = self.filter_bulk_channels(root, wanted_channels,
                                                               source_label=feed_name)
-            all_channels.update(channels)
+            self.merge_channels(all_channels, channels, source_label=f'open-epg.com/{feed_name}')
             all_programmes.extend(programmes)
             logger.info(f"{feed_name}: added {len(channels)} channels, {len(programmes)} programmes")
 
@@ -586,7 +599,7 @@ class TVMultiXMLProcessor:
     def create_combined_xml(self, channels: Dict, programmes: List[ET.Element]) -> ET.Element:
         """Build combined XML output."""
         root = ET.Element("tv")
-        root.set('date', datetime.now().strftime("%Y%m%d%H%M%S %z"))
+        root.set('date', self.current_time.strftime("%Y%m%d%H%M%S %z"))
         root.set('generator-info-name', f'{LABEL}-Multi-XML-Processor')
         root.set('generator-info-url', 'https://github.com/r56wdvm6d5-cloud/epguk')
         root.set('source-info-name', f'{LABEL}-Source-EPG')
@@ -633,7 +646,7 @@ class TVMultiXMLProcessor:
                     channels, programmes = self.filter_bulk_channels(
                         kstv_root, kstv_channels, source_label='KSTV'
                     )
-                    all_channels.update(channels)
+                    self.merge_channels(all_channels, channels, source_label='KSTV')
                     all_programmes.extend(programmes)
                     logger.info(f"KSTV: added {len(channels)} channels, {len(programmes)} programmes")
                 else:
@@ -647,7 +660,7 @@ class TVMultiXMLProcessor:
                     f"across {len(iptvepg_sources)} feed(s)..."
                 )
                 channels, programmes = self.process_iptvepg_sources(iptvepg_sources, cache_hours)
-                all_channels.update(channels)
+                self.merge_channels(all_channels, channels, source_label='iptv-epg.org')
                 all_programmes.extend(programmes)
                 logger.info(
                     f"iptv-epg.org total: {len(channels)} channels, {len(programmes)} programmes"
@@ -661,7 +674,7 @@ class TVMultiXMLProcessor:
                     f"across {len(open_epg_sources)} feed(s)..."
                 )
                 channels, programmes = self.process_open_epg_sources(open_epg_sources, cache_hours)
-                all_channels.update(channels)
+                self.merge_channels(all_channels, channels, source_label='open-epg.com')
                 all_programmes.extend(programmes)
                 logger.info(
                     f"open-epg.com total: {len(channels)} channels, {len(programmes)} programmes"
@@ -682,7 +695,10 @@ class TVMultiXMLProcessor:
                         try:
                             channel, programmes = future.result()
                             if channel is not None:
-                                all_channels[src['channel_id']] = channel
+                                self.merge_channels(
+                                    all_channels, {src['channel_id']: channel},
+                                    source_label=f"epg.pw/{src['display_name']}"
+                                )
                                 all_programmes.extend(programmes)
                         except Exception as e:
                             logger.error(f"Failed: {src['display_name']}: {e}")
