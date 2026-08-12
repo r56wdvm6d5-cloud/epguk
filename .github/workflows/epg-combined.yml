@@ -1,0 +1,69 @@
+name: EPG Combined Processor
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:  # Manual trigger
+
+concurrency:
+  group: epg-combined-processor
+  cancel-in-progress: false
+
+jobs:
+  process-combined-epg:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Set at workflow level
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Install Python dependencies
+        run: |
+          python3 -m pip install requests
+
+      - name: Configure Git identity
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
+      - name: Debug - Show working directory
+        run: |
+          echo "=== Current working directory ==="
+          pwd
+          echo "=== Listing GITHUB ACTIIONS CORE directory ==="
+          ls -la "GITHUB ACTIIONS CORE/"
+          echo "=== Listing A-Z EPG directory ==="
+          ls -la "GITHUB ACTIIONS CORE/A-Z EPG/"
+
+      - name: Process Combined (A-Z EPG) source
+        run: |
+          cd "GITHUB ACTIIONS CORE/A-Z EPG"
+          echo "=== Running COMBINEDEPG.py from ==="
+          pwd
+          python3 COMBINEDEPG.py \
+            --config "COMBINED-EPG.txt" \
+            --output "$GITHUB_WORKSPACE/GITHUB ACTIIONS CORE/COMBINED-EPG_epg.xml" \
+            || echo "Script failed with exit code $?"
+
+      - name: Commit and push Combined EPG file
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          git fetch origin main
+          git add "GITHUB ACTIIONS CORE/COMBINED-EPG_epg.xml" || true
+          git commit -m "Auto update Combined EPG file - $(date '+%Y-%m-%d %H:%M:%S')" || echo "Nothing to commit"
+          git push origin HEAD:main
