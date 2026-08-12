@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<tv date="20260812071027 " generator-info-name="KSTVSPORTS1-Multi-XML-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="KSTVSPORTS1-Source-EPG">
+<tv date="20260812072257 " generator-info-name="KSTVSPORTS1-Multi-XML-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="KSTVSPORTS1-Source-EPG">
   <channel id="beINSports.us">
     <display-name>beIN SPORTS USA</display-name>
     <icon src="https://iptv-epg.org/images/UWm_2QAR9H6A5DPSDgGEcjV0e-0MCJFVDrKfn0R-K9JlYFvqkYqJAiE2nfdl6nLrtsSnXQGJatGPRjGoGSXaEmLs2ynei6rqoUwqeEJIjxs" />
@@ -120,10 +120,6 @@
     <display-name>Sky Sport 5</display-name>
     <icon src="https://iptv-epg.org/images/qt-7uBhgADDMnPuvG9sz4KM42KFOtmO4oCOqHno6PcKyCqzmpLaPBWMlLSdAEYmhTJXf_4wN0cNPyJIIUh--v4MGPUzjCg1WWtyfRWIVHZNgbgKuzG0_" />
   </channel>
-  <channel id="464912">
-    <display-name lang="US">NBA TV HD</display-name>
-    <icon src="" />
-  </channel>
   <channel id="558120">
     <display-name lang="US">Willow 2 Xtra</display-name>
     <icon src="" />
@@ -132,32 +128,36 @@
     <display-name lang="US">ESPNEWS HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="465348">
-    <display-name lang="US">NHL Network HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="464905">
-    <display-name lang="US">MSG Plus</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465010">
-    <display-name lang="US">Willow Cricket HD</display-name>
-    <icon src="" />
-  </channel>
   <channel id="219104">
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">Premier Sports 2 HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="465033">
-    <display-name lang="US">MSG National</display-name>
+  <channel id="465348">
+    <display-name lang="US">NHL Network HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="464912">
+    <display-name lang="US">NBA TV HD</display-name>
     <icon src="" />
   </channel>
   <channel id="219100">
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">Premier Sports 1 HD</display-name>
     <icon src="" />
   </channel>
+  <channel id="465033">
+    <display-name lang="US">MSG National</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465010">
+    <display-name lang="US">Willow Cricket HD</display-name>
+    <icon src="" />
+  </channel>
   <channel id="465225">
     <display-name lang="US">New England Sports Network HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="464905">
+    <display-name lang="US">MSG Plus</display-name>
     <icon src="" />
   </channel>
   <channel id="486728">
@@ -176,16 +176,16 @@
     <display-name lang="US">CHSN Chicago Sports Network</display-name>
     <icon src="" />
   </channel>
-  <channel id="464810">
-    <display-name lang="US">Game Show Network HD</display-name>
-    <icon src="" />
-  </channel>
   <channel id="465073">
     <display-name lang="US">Big Ten Network HD</display-name>
     <icon src="" />
   </channel>
   <channel id="464879">
     <display-name lang="US">ACC Network</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="464810">
+    <display-name lang="US">Game Show Network HD</display-name>
     <icon src="" />
   </channel>
   <channel id="222007">
@@ -4759,13 +4759,6 @@ Event Highlights of the PGA Tour: Wyndham Championship held at Sedgefield Countr
     <desc lang="en">TUE 11 AUG Not your typical rugby show as Sean, Morgs and Hoilesy return with sharp analysis, big stories and plenty of banter as they break down each weekend’s rugby action, joined by special guests for insights on and off the field.</desc>
     <title lang="en">Between Two Posts</title>
   </programme>
-  <programme start="20260812061500 +0000" stop="20260812071500 +0000" channel="SkySport3.nz">
-    <category lang="en">Sports</category>
-    <category lang="en">Episode</category>
-    <desc lang="en">Indycar: Portland GP Hls
-Highlights of the INDYCAR series, Bitnile.com Grand Prix Of Portland, Warm up. From Mid-Ohio, Lexington, Ohio.</desc>
-    <title lang="en">Indycar</title>
-  </programme>
   <programme start="20260812071500 +0000" stop="20260812073000 +0000" channel="SkySport3.nz">
     <category lang="en">Sports</category>
     <category lang="en">Episode</category>
@@ -4879,6 +4872,13 @@ Highlights from the Women's Hundred between the Trent Rockets and Southern Brave
     <desc lang="en">Hundred W: Super Giants v Sunrisers Hls
 Highlights from the Women's Hundred between the Manchester Super Giants and Sunrisers Leeds at Emirates Old Trafford, Manchester.</desc>
     <title lang="en">Cricket: The Hundred - Women's</title>
+  </programme>
+  <programme start="20260812230000 +0000" stop="20260812231500 +0000" channel="SkySport3.nz">
+    <category lang="en">Sports</category>
+    <category lang="en">Episode</category>
+    <desc lang="en">Hundred: Rockets v Brave Hls
+Highlights from the Men's Hundred between the Trent Rockets and Southern Brave at Trent Bridge, Nottingham.</desc>
+    <title lang="en">Cricket: The Hundred - Men's</title>
   </programme>
   <programme start="20260812053000 +0000" stop="20260812080000 +0000" channel="SkySport4.nz">
     <category lang="en">Sports</category>
@@ -5118,96 +5118,6 @@ After four long Offroad-Days in the Romanian mountains and the In-City Prolog in
     <desc lang="en">Tue 11 Aug - Some further analysis of this AFL season with AFL Midweek Tackle.</desc>
     <title lang="en">AFL First Crack Preview</title>
   </programme>
-  <programme channel="464912" start="20260812063000 +0000" stop="20260812083000 +0000">
-    <title lang="zh">Hardwood Classics</title>
-    <desc>Game 4.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464912" start="20260812083000 +0000" stop="20260812100000 +0000">
-    <title lang="zh">WNBA Playback</title>
-    <desc>Replay action from a WNBA matchup.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464912" start="20260812100000 +0000" stop="20260812120000 +0000">
-    <title lang="zh">WNBA Shot Clock: Games of the Week</title>
-    <desc>The best WNBA games of the week in a condensed format.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464912" start="20260812120000 +0000" stop="20260812140000 +0000">
-    <title lang="zh">NBA Playback</title>
-    <desc>From April 6, 2026. Brunson's 17 points in the 4th quarter lead the Knicks.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464912" start="20260812140000 +0000" stop="20260812160000 +0000">
-    <title lang="zh">NBA Playback</title>
-    <desc>From Feb. 1, 2026.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464912" start="20260812160000 +0000" stop="20260812173000 +0000">
-    <title lang="zh">WNBA Playback</title>
-    <desc>Replay action from a WNBA matchup.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464912" start="20260812173000 +0000" stop="20260812183000 +0000">
-    <title lang="zh">WNBA Shot Clock: Games of the Night</title>
-    <desc>Live coverage and highlights from the day's most exciting WNBA games.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464912" start="20260812183000 +0000" stop="20260812200000 +0000">
-    <title lang="zh">Hardwood Classics</title>
-    <desc>Candace Parker leads the Sparks.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464912" start="20260812200000 +0000" stop="20260812210000 +0000">
-    <title lang="zh">Enjoy the NBA Trivia Show: NBA Finals Edition</title>
-    <desc>Host Kenny Beecham faces off against two of his colleagues, Darrick Miller and Mike Heard, in a rare 2v1 showdown. Themed around the NBA Finals, the trio digs into the series' history as the 2026 Finals approaches.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464912" start="20260812210000 +0000" stop="20260812223000 +0000">
-    <title lang="zh">WNBA Playback</title>
-    <desc>Replay action from a WNBA matchup.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464912" start="20260812223000 +0000" stop="20260813000000 +0000">
-    <title lang="zh">Hardwood Classics</title>
-    <desc>Amar'e Stoudemire leads with 41 points. From Feb. 6, 2011.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464912" start="20260813003000 +0000" stop="20260813020000 +0000">
-    <title lang="zh">Hardwood Classics</title>
-    <desc>Candace Parker leads the Sparks.</desc>
-    <date>2026-08-13</date>
-  </programme>
-  <programme channel="464912" start="20260813020000 +0000" stop="20260813040000 +0000">
-    <title lang="zh">Live: The Association</title>
-    <desc>The Association will celebrate the game, players and the culture of the NBA; inform and entertain viewers with league news, analysis and storylines; and guide fans to the must-watch action across the league in real time.</desc>
-    <date>2026-08-13</date>
-  </programme>
-  <programme channel="464912" start="20260813040000 +0000" stop="20260813060000 +0000">
-    <title lang="zh">The Association</title>
-    <desc>The Association will celebrate the game, players and the culture of the NBA; inform and entertain viewers with league news, analysis and storylines; and guide fans to the must-watch action across the league in real time.</desc>
-    <date>2026-08-13</date>
-  </programme>
-  <programme channel="464912" start="20260813060000 +0000" stop="20260813070000 +0000">
-    <title lang="zh">WNBA Shot Clock: Games of the Night</title>
-    <desc>Live coverage and highlights from the day's most exciting WNBA games.</desc>
-    <date>2026-08-13</date>
-  </programme>
-  <programme channel="464912" start="20260813070000 +0000" stop="20260813090000 +0000">
-    <title lang="zh">NBA Playback</title>
-    <desc>From Feb. 1, 2026.</desc>
-    <date>2026-08-13</date>
-  </programme>
-  <programme channel="464912" start="20260813090000 +0000" stop="20260813100000 +0000">
-    <title lang="zh">WNBA Shot Clock: Games of the Night</title>
-    <desc>Live coverage and highlights from the day's most exciting WNBA games.</desc>
-    <date>2026-08-13</date>
-  </programme>
-  <programme channel="464912" start="20260813100000 +0000" stop="20260813120000 +0000">
-    <title lang="zh">The Association</title>
-    <desc>The Association will celebrate the game, players and the culture of the NBA; inform and entertain viewers with league news, analysis and storylines; and guide fans to the must-watch action across the league in real time.</desc>
-    <date>2026-08-13</date>
-  </programme>
   <programme channel="558120" start="20260812070000 +0000" stop="20260812080000 +0000">
     <title lang="zh">Cricket Highlights</title>
     <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
@@ -5388,6 +5298,96 @@ After four long Offroad-Days in the Romanian mountains and the In-City Prolog in
     <desc>Field Yates hosts ESPN's top Fantasy Football experts for a daily discussion of rankings, injuries and game previews and debate how the biggest NFL stories impact Fantasy Football.</desc>
     <date>2026-08-13</date>
   </programme>
+  <programme channel="219104" start="20260812070000 +0000" stop="20260812090000 +0000">
+    <title lang="zh">Rugby Junior World Championships</title>
+    <desc>Georgia v Fiji in the 11th place play-off.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="219104" start="20260812090000 +0000" stop="20260812110000 +0000">
+    <title lang="zh">Rugby Junior World Championships</title>
+    <desc>Italy v Ireland in the ninth place play-off.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="219104" start="20260812110000 +0000" stop="20260812144500 +0000">
+    <title lang="zh">EUT20 Belgium</title>
+    <desc>Ghent v Antwerp. Action from the final of the T20 cricket competition from Stars Arena in Hofstade, Belgium.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="219104" start="20260812144500 +0000" stop="20260812151500 +0000">
+    <title lang="zh">Temples of Sport</title>
+    <desc>Iconic sporting venues from around the globe.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="219104" start="20260812151500 +0000" stop="20260812154500 +0000">
+    <title lang="zh">Football's Greatest</title>
+    <desc>The finest players in history discuss their careers.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="219104" start="20260812154500 +0000" stop="20260812161500 +0000">
+    <title lang="zh">Football's Greatest</title>
+    <desc>The finest players in history discuss their careers.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="219104" start="20260812161500 +0000" stop="20260812181500 +0000">
+    <title lang="zh">Football</title>
+    <desc>Arsenal v Real Betis.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="219104" start="20260812181500 +0000" stop="20260812210000 +0000">
+    <title lang="zh">Live Football</title>
+    <desc>Manchester United v Leeds United (Kick-off 7.30pm). Coverage of the pre-season friendly at Croke Park in Dublin.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="219104" start="20260812210000 +0000" stop="20260812213000 +0000">
+    <title lang="zh">Football's Greatest</title>
+    <desc>The finest players in history discuss their careers.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="219104" start="20260812213000 +0000" stop="20260812223000 +0000">
+    <title lang="zh">Mass Participation</title>
+    <desc>Action from the 2026 Le Marathon des Sables.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="219104" start="20260812223000 +0000" stop="20260813000000 +0000">
+    <title lang="zh">Argentine Primera</title>
+    <desc>Boca Juniors v Velez Sarsfield.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="219104" start="20260813003000 +0000" stop="20260813033000 +0000">
+    <title lang="zh">NASCAR O'Reilly Series</title>
+    <desc>The Hy-Vee PERKS 250. Action from the 23rd round of the season at Iowa Speedway Newton, Iowa.</desc>
+    <date>2026-08-13</date>
+  </programme>
+  <programme channel="219104" start="20260813033000 +0000" stop="20260813040000 +0000">
+    <title lang="zh">Temples of Sport</title>
+    <desc>Iconic sporting venues.</desc>
+    <date>2026-08-13</date>
+  </programme>
+  <programme channel="219104" start="20260813040000 +0000" stop="20260813050000 +0000">
+    <title lang="zh">MotorSport</title>
+    <desc />
+    <date>2026-08-13</date>
+  </programme>
+  <programme channel="219104" start="20260813050000 +0000" stop="20260813065000 +0000">
+    <title lang="zh">Rugby Junior World Championships</title>
+    <desc>Action from Argentina v Australia in the fifteenth-place play-off.</desc>
+    <date>2026-08-13</date>
+  </programme>
+  <programme channel="219104" start="20260813065000 +0000" stop="20260813085500 +0000">
+    <title lang="zh">Rugby Junior World Championships</title>
+    <desc>Action from Scotland v Wales in the fifteenth-place play-off.</desc>
+    <date>2026-08-13</date>
+  </programme>
+  <programme channel="219104" start="20260813085500 +0000" stop="20260813110000 +0000">
+    <title lang="zh">Rugby Junior World Championships</title>
+    <desc>Action from New Zealand v England in the third/fourth place play-off.</desc>
+    <date>2026-08-13</date>
+  </programme>
+  <programme channel="219104" start="20260813110000 +0000" stop="20260813113000 +0000">
+    <title lang="zh">Temples of Sport</title>
+    <desc>Iconic sporting venues from around the globe.</desc>
+    <date>2026-08-13</date>
+  </programme>
   <programme channel="465348" start="20260812060000 +0000" stop="20260812080000 +0000">
     <title lang="zh">NHL Hockey</title>
     <desc>Superstar Summer: Paul Coffey - 1985 Campbell Conference Final Game 5. From May 14, 1985.</desc>
@@ -5473,259 +5473,174 @@ After four long Offroad-Days in the Romanian mountains and the In-City Prolog in
     <desc>Top defensemen in hockey.</desc>
     <date>2026-08-13</date>
   </programme>
-  <programme channel="464905" start="20260812070000 +0000" stop="20260812080000 +0000">
-    <title lang="zh">Poker</title>
-    <desc>Poker action from tournaments around the world.</desc>
+  <programme channel="464912" start="20260812063000 +0000" stop="20260812083000 +0000">
+    <title lang="zh">Hardwood Classics</title>
+    <desc>Game 4.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="464905" start="20260812080000 +0000" stop="20260812090000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
+  <programme channel="464912" start="20260812083000 +0000" stop="20260812100000 +0000">
+    <title lang="zh">WNBA Playback</title>
+    <desc>Replay action from a WNBA matchup.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="464905" start="20260812090000 +0000" stop="20260812100000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
+  <programme channel="464912" start="20260812100000 +0000" stop="20260812120000 +0000">
+    <title lang="zh">WNBA Shot Clock: Games of the Week</title>
+    <desc>The best WNBA games of the week in a condensed format.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="464905" start="20260812100000 +0000" stop="20260812110000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
+  <programme channel="464912" start="20260812120000 +0000" stop="20260812140000 +0000">
+    <title lang="zh">NBA Playback</title>
+    <desc>From April 6, 2026. Brunson's 17 points in the 4th quarter lead the Knicks.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="464905" start="20260812110000 +0000" stop="20260812120000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
+  <programme channel="464912" start="20260812140000 +0000" stop="20260812160000 +0000">
+    <title lang="zh">NBA Playback</title>
+    <desc>From Feb. 1, 2026.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="464905" start="20260812120000 +0000" stop="20260812130000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
+  <programme channel="464912" start="20260812160000 +0000" stop="20260812173000 +0000">
+    <title lang="zh">WNBA Playback</title>
+    <desc>Replay action from a WNBA matchup.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="464905" start="20260812130000 +0000" stop="20260812133000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
+  <programme channel="464912" start="20260812173000 +0000" stop="20260812183000 +0000">
+    <title lang="zh">WNBA Shot Clock: Games of the Night</title>
+    <desc>Live coverage and highlights from the day's most exciting WNBA games.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="464905" start="20260812133000 +0000" stop="20260812140000 +0000">
-    <title lang="zh">Giants Access Blue</title>
-    <desc>Everything you need to know about your NY Giants.</desc>
+  <programme channel="464912" start="20260812183000 +0000" stop="20260812200000 +0000">
+    <title lang="zh">Hardwood Classics</title>
+    <desc>Candace Parker leads the Sparks.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="464905" start="20260812140000 +0000" stop="20260812160000 +0000">
-    <title lang="zh">Best of Devils</title>
-    <desc>From Nov. 8, 2025.</desc>
+  <programme channel="464912" start="20260812200000 +0000" stop="20260812210000 +0000">
+    <title lang="zh">Enjoy the NBA Trivia Show: NBA Finals Edition</title>
+    <desc>Host Kenny Beecham faces off against two of his colleagues, Darrick Miller and Mike Heard, in a rare 2v1 showdown. Themed around the NBA Finals, the trio digs into the series' history as the 2026 Finals approaches.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="464905" start="20260812160000 +0000" stop="20260812170000 +0000">
-    <title lang="zh">United Fight Alliance</title>
-    <desc>United Fight Alliance features top-ranked fighters, up-and-coming fighters, action and footage from some of the biggest names in combat sports; check out content spanning MMA, boxing, kickboxing, bare-knuckle boxing, Muay Thai and more.</desc>
+  <programme channel="464912" start="20260812210000 +0000" stop="20260812223000 +0000">
+    <title lang="zh">WNBA Playback</title>
+    <desc>Replay action from a WNBA matchup.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="464905" start="20260812170000 +0000" stop="20260812180000 +0000">
-    <title lang="zh">United Fight Alliance</title>
-    <desc>United Fight Alliance features top-ranked fighters, up-and-coming fighters, action and footage from some of the biggest names in combat sports; check out content spanning MMA, boxing, kickboxing, bare-knuckle boxing, Muay Thai and more.</desc>
+  <programme channel="464912" start="20260812223000 +0000" stop="20260813000000 +0000">
+    <title lang="zh">Hardwood Classics</title>
+    <desc>Amar'e Stoudemire leads with 41 points. From Feb. 6, 2011.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="464905" start="20260812180000 +0000" stop="20260812190000 +0000">
-    <title lang="zh">United Fight Alliance</title>
-    <desc>United Fight Alliance features top-ranked fighters, up-and-coming fighters, action and footage from some of the biggest names in combat sports; check out content spanning MMA, boxing, kickboxing, bare-knuckle boxing, Muay Thai and more.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464905" start="20260812190000 +0000" stop="20260812200000 +0000">
-    <title lang="zh">Poker</title>
-    <desc>Poker action from tournaments around the world.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464905" start="20260812200000 +0000" stop="20260812210000 +0000">
-    <title lang="zh">Poker</title>
-    <desc>Poker action from tournaments around the world.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464905" start="20260812210000 +0000" stop="20260812230000 +0000">
-    <title lang="zh">Best of Devils</title>
-    <desc>From Nov. 15, 2025.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464905" start="20260812230000 +0000" stop="20260813000000 +0000">
-    <title lang="zh">TBL Team Boxing League</title>
-    <desc>From 2300 Arena in Philadelphia, Pa.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464905" start="20260813013000 +0000" stop="20260813040000 +0000">
-    <title lang="zh">TBL Team Boxing League</title>
-    <desc>From 2300 Arena in Philadelphia, Pa.</desc>
+  <programme channel="464912" start="20260813003000 +0000" stop="20260813020000 +0000">
+    <title lang="zh">Hardwood Classics</title>
+    <desc>Candace Parker leads the Sparks.</desc>
     <date>2026-08-13</date>
   </programme>
-  <programme channel="465010" start="20260812070000 +0000" stop="20260812080000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="464912" start="20260813020000 +0000" stop="20260813040000 +0000">
+    <title lang="zh">Live: The Association</title>
+    <desc>The Association will celebrate the game, players and the culture of the NBA; inform and entertain viewers with league news, analysis and storylines; and guide fans to the must-watch action across the league in real time.</desc>
+    <date>2026-08-13</date>
+  </programme>
+  <programme channel="464912" start="20260813040000 +0000" stop="20260813060000 +0000">
+    <title lang="zh">The Association</title>
+    <desc>The Association will celebrate the game, players and the culture of the NBA; inform and entertain viewers with league news, analysis and storylines; and guide fans to the must-watch action across the league in real time.</desc>
+    <date>2026-08-13</date>
+  </programme>
+  <programme channel="464912" start="20260813060000 +0000" stop="20260813070000 +0000">
+    <title lang="zh">WNBA Shot Clock: Games of the Night</title>
+    <desc>Live coverage and highlights from the day's most exciting WNBA games.</desc>
+    <date>2026-08-13</date>
+  </programme>
+  <programme channel="464912" start="20260813070000 +0000" stop="20260813090000 +0000">
+    <title lang="zh">NBA Playback</title>
+    <desc>From Feb. 1, 2026.</desc>
+    <date>2026-08-13</date>
+  </programme>
+  <programme channel="464912" start="20260813090000 +0000" stop="20260813100000 +0000">
+    <title lang="zh">WNBA Shot Clock: Games of the Night</title>
+    <desc>Live coverage and highlights from the day's most exciting WNBA games.</desc>
+    <date>2026-08-13</date>
+  </programme>
+  <programme channel="219100" start="20260812070000 +0000" stop="20260812090000 +0000">
+    <title lang="zh">Swedish Speedway</title>
+    <desc>Action from a high-profile Elitserien meeting.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="465010" start="20260812080000 +0000" stop="20260812090000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="219100" start="20260812090000 +0000" stop="20260812093000 +0000">
+    <title lang="zh">FIM Quadcross Championship</title>
+    <desc>Action from the Grand Prix of Lithuania.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="465010" start="20260812090000 +0000" stop="20260812100000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="219100" start="20260812093000 +0000" stop="20260812103000 +0000">
+    <title lang="zh">NASCAR</title>
+    <desc>The Iowa Corn 350. Another chance to see the 23rd round of the season, which took place at Iowa Speedway in Newton, Iowa.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="465010" start="20260812100000 +0000" stop="20260812102000 +0000">
-    <title lang="zh">Cricket Filler</title>
-    <desc>Filler cricket programming.</desc>
+  <programme channel="219100" start="20260812103000 +0000" stop="20260812120000 +0000">
+    <title lang="zh">FIM Sidecarcross Championship</title>
+    <desc>Action from the Grand Prix of Lithuania.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="465010" start="20260812102000 +0000" stop="20260812103000 +0000">
-    <title lang="zh">Live: Cricket Preview</title>
-    <desc>A preview of a cricket match.</desc>
+  <programme channel="219100" start="20260812120000 +0000" stop="20260812133000 +0000">
+    <title lang="zh">German Cup</title>
+    <desc>Action from Bayern Munich v VfB Stuttgart in the 2026 final.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="465010" start="20260812103000 +0000" stop="20260812130000 +0000">
-    <title lang="zh">Live: Women's The Hundred</title>
-    <desc>From Sophia Gardens in Cardiff, Wales, United Kingdom.</desc>
+  <programme channel="219100" start="20260812133000 +0000" stop="20260812153000 +0000">
+    <title lang="zh">Swedish Speedway</title>
+    <desc>Action from a high-profile Elitserien meeting.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="465010" start="20260812130000 +0000" stop="20260812133000 +0000">
-    <title lang="zh">Live: Cricket Review</title>
-    <desc>Action from cricket matches around the world.</desc>
+  <programme channel="219100" start="20260812153000 +0000" stop="20260812154500 +0000">
+    <title lang="zh">Africa Eco Race</title>
+    <desc>The latest motorsport highlights from the Africa Eco race.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="465010" start="20260812133000 +0000" stop="20260812135000 +0000">
-    <title lang="zh">Cricket Filler</title>
-    <desc>Filler cricket programming.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="465010" start="20260812135000 +0000" stop="20260812140000 +0000">
-    <title lang="zh">Live: Cricket Preview</title>
-    <desc>A preview of a cricket match.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="465010" start="20260812140000 +0000" stop="20260812163000 +0000">
-    <title lang="zh">Live: Men's The Hundred</title>
-    <desc>From Sophia Gardens in Cardiff, Wales, United Kingdom.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="465010" start="20260812163000 +0000" stop="20260812170000 +0000">
-    <title lang="zh">Live: Cricket Review</title>
-    <desc>Action from cricket matches around the world.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="465010" start="20260812170000 +0000" stop="20260812172000 +0000">
-    <title lang="zh">Cricket Filler</title>
-    <desc>Filler cricket programming.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="465010" start="20260812172000 +0000" stop="20260812173000 +0000">
-    <title lang="zh">Live: Cricket Preview</title>
-    <desc>A preview of a cricket match.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="465010" start="20260812173000 +0000" stop="20260812200000 +0000">
-    <title lang="zh">Live: Men's The Hundred</title>
-    <desc>From Edgbaston Cricket Ground in Birmingham, England, United Kingdom.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="465010" start="20260812200000 +0000" stop="20260812203000 +0000">
-    <title lang="zh">Live: Cricket Review</title>
-    <desc>Action from cricket matches around the world.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="465010" start="20260812203000 +0000" stop="20260812210000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="465010" start="20260812210000 +0000" stop="20260812213000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="219104" start="20260812070000 +0000" stop="20260812090000 +0000">
-    <title lang="zh">Rugby Junior World Championships</title>
-    <desc>Georgia v Fiji in the 11th place play-off.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="219104" start="20260812090000 +0000" stop="20260812110000 +0000">
-    <title lang="zh">Rugby Junior World Championships</title>
-    <desc>Italy v Ireland in the ninth place play-off.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="219104" start="20260812110000 +0000" stop="20260812144500 +0000">
-    <title lang="zh">EUT20 Belgium</title>
-    <desc>Ghent v Antwerp. Action from the final of the T20 cricket competition from Stars Arena in Hofstade, Belgium.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="219104" start="20260812144500 +0000" stop="20260812151500 +0000">
-    <title lang="zh">Temples of Sport</title>
-    <desc>Iconic sporting venues from around the globe.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="219104" start="20260812151500 +0000" stop="20260812154500 +0000">
-    <title lang="zh">Football's Greatest</title>
-    <desc>The finest players in history discuss their careers.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="219104" start="20260812154500 +0000" stop="20260812161500 +0000">
-    <title lang="zh">Football's Greatest</title>
-    <desc>The finest players in history discuss their careers.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="219104" start="20260812161500 +0000" stop="20260812181500 +0000">
-    <title lang="zh">Football</title>
-    <desc>Arsenal v Real Betis.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="219104" start="20260812181500 +0000" stop="20260812210000 +0000">
+  <programme channel="219100" start="20260812154500 +0000" stop="20260812181500 +0000">
     <title lang="zh">Live Football</title>
-    <desc>Manchester United v Leeds United (Kick-off 7.30pm). Coverage of the pre-season friendly at Croke Park in Dublin.</desc>
+    <desc>Everton v Newcastle United (Kick-off 5.15pm). Coverage of the pre-season friendly at Scottish Gas Murrayfield Stadium in Edinburgh.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219104" start="20260812210000 +0000" stop="20260812213000 +0000">
+  <programme channel="219100" start="20260812181500 +0000" stop="20260812183000 +0000">
+    <title lang="zh">LaLiga Match Highlights</title>
+    <desc>Real Madrid v Real Oviedo.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="219100" start="20260812183000 +0000" stop="20260812203000 +0000">
+    <title lang="zh">Brasileiro Serie A</title>
+    <desc>Red Bull Bragantino v Corinthians.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="219100" start="20260812203000 +0000" stop="20260812210000 +0000">
     <title lang="zh">Football's Greatest</title>
     <desc>The finest players in history discuss their careers.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219104" start="20260812213000 +0000" stop="20260812223000 +0000">
-    <title lang="zh">Mass Participation</title>
-    <desc>Action from the 2026 Le Marathon des Sables.</desc>
+  <programme channel="219100" start="20260812210000 +0000" stop="20260812213000 +0000">
+    <title lang="zh">KOTV Weekly</title>
+    <desc>All the latest news from the world of boxing.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219104" start="20260812223000 +0000" stop="20260813000000 +0000">
-    <title lang="zh">Argentine Primera</title>
-    <desc>Boca Juniors v Velez Sarsfield.</desc>
+  <programme channel="219100" start="20260812213000 +0000" stop="20260812233000 +0000">
+    <title lang="zh">LaLiga</title>
+    <desc>Real Madrid v Barcelona from 2023/24.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219104" start="20260813003000 +0000" stop="20260813033000 +0000">
-    <title lang="zh">NASCAR O'Reilly Series</title>
-    <desc>The Hy-Vee PERKS 250. Action from the 23rd round of the season at Iowa Speedway Newton, Iowa.</desc>
+  <programme channel="219100" start="20260812233000 +0000" stop="20260813000000 +0000">
+    <title lang="zh">Sporting Greats</title>
+    <desc>Sporting figures discuss their careers.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="219100" start="20260813000000 +0000" stop="20260813030000 +0000">
+    <title lang="zh">3Ice Hockey</title>
+    <desc>Action from the three-on-three ice hockey league based in the United States.</desc>
     <date>2026-08-13</date>
   </programme>
-  <programme channel="219104" start="20260813033000 +0000" stop="20260813040000 +0000">
-    <title lang="zh">Temples of Sport</title>
-    <desc>Iconic sporting venues.</desc>
+  <programme channel="219100" start="20260813030000 +0000" stop="20260813033000 +0000">
+    <title lang="zh">Sporting Greats</title>
+    <desc>Legendary sporting figures discuss their careers.</desc>
     <date>2026-08-13</date>
   </programme>
-  <programme channel="219104" start="20260813040000 +0000" stop="20260813050000 +0000">
-    <title lang="zh">MotorSport</title>
-    <desc />
-    <date>2026-08-13</date>
-  </programme>
-  <programme channel="219104" start="20260813050000 +0000" stop="20260813065000 +0000">
-    <title lang="zh">Rugby Junior World Championships</title>
-    <desc>Action from Argentina v Australia in the fifteenth-place play-off.</desc>
-    <date>2026-08-13</date>
-  </programme>
-  <programme channel="219104" start="20260813065000 +0000" stop="20260813085500 +0000">
-    <title lang="zh">Rugby Junior World Championships</title>
-    <desc>Action from Scotland v Wales in the fifteenth-place play-off.</desc>
-    <date>2026-08-13</date>
-  </programme>
-  <programme channel="219104" start="20260813085500 +0000" stop="20260813110000 +0000">
-    <title lang="zh">Rugby Junior World Championships</title>
-    <desc>Action from New Zealand v England in the third/fourth place play-off.</desc>
+  <programme channel="219100" start="20260813033000 +0000" stop="20260813040000 +0000">
+    <title lang="zh">Sporting Greats</title>
+    <desc>Legendary sporting figures discuss their careers.</desc>
     <date>2026-08-13</date>
   </programme>
   <programme channel="465033" start="20260812070000 +0000" stop="20260812073000 +0000">
@@ -5813,90 +5728,90 @@ After four long Offroad-Days in the Romanian mountains and the In-City Prolog in
     <desc>From March 3, 2026.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219100" start="20260812070000 +0000" stop="20260812090000 +0000">
-    <title lang="zh">Swedish Speedway</title>
-    <desc>Action from a high-profile Elitserien meeting.</desc>
+  <programme channel="465010" start="20260812070000 +0000" stop="20260812080000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219100" start="20260812090000 +0000" stop="20260812093000 +0000">
-    <title lang="zh">FIM Quadcross Championship</title>
-    <desc>Action from the Grand Prix of Lithuania.</desc>
+  <programme channel="465010" start="20260812080000 +0000" stop="20260812090000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219100" start="20260812093000 +0000" stop="20260812103000 +0000">
-    <title lang="zh">NASCAR</title>
-    <desc>The Iowa Corn 350. Another chance to see the 23rd round of the season, which took place at Iowa Speedway in Newton, Iowa.</desc>
+  <programme channel="465010" start="20260812090000 +0000" stop="20260812100000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219100" start="20260812103000 +0000" stop="20260812120000 +0000">
-    <title lang="zh">FIM Sidecarcross Championship</title>
-    <desc>Action from the Grand Prix of Lithuania.</desc>
+  <programme channel="465010" start="20260812100000 +0000" stop="20260812102000 +0000">
+    <title lang="zh">Cricket Filler</title>
+    <desc>Filler cricket programming.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219100" start="20260812120000 +0000" stop="20260812133000 +0000">
-    <title lang="zh">German Cup</title>
-    <desc>Action from Bayern Munich v VfB Stuttgart in the 2026 final.</desc>
+  <programme channel="465010" start="20260812102000 +0000" stop="20260812103000 +0000">
+    <title lang="zh">Live: Cricket Preview</title>
+    <desc>A preview of a cricket match.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219100" start="20260812133000 +0000" stop="20260812153000 +0000">
-    <title lang="zh">Swedish Speedway</title>
-    <desc>Action from a high-profile Elitserien meeting.</desc>
+  <programme channel="465010" start="20260812103000 +0000" stop="20260812130000 +0000">
+    <title lang="zh">Live: Women's The Hundred</title>
+    <desc>From Sophia Gardens in Cardiff, Wales, United Kingdom.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219100" start="20260812153000 +0000" stop="20260812154500 +0000">
-    <title lang="zh">Africa Eco Race</title>
-    <desc>The latest motorsport highlights from the Africa Eco race.</desc>
+  <programme channel="465010" start="20260812130000 +0000" stop="20260812133000 +0000">
+    <title lang="zh">Live: Cricket Review</title>
+    <desc>Action from cricket matches around the world.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219100" start="20260812154500 +0000" stop="20260812181500 +0000">
-    <title lang="zh">Live Football</title>
-    <desc>Everton v Newcastle United (Kick-off 5.15pm). Coverage of the pre-season friendly at Scottish Gas Murrayfield Stadium in Edinburgh.</desc>
+  <programme channel="465010" start="20260812133000 +0000" stop="20260812135000 +0000">
+    <title lang="zh">Cricket Filler</title>
+    <desc>Filler cricket programming.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219100" start="20260812181500 +0000" stop="20260812183000 +0000">
-    <title lang="zh">LaLiga Match Highlights</title>
-    <desc>Real Madrid v Real Oviedo.</desc>
+  <programme channel="465010" start="20260812135000 +0000" stop="20260812140000 +0000">
+    <title lang="zh">Live: Cricket Preview</title>
+    <desc>A preview of a cricket match.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219100" start="20260812183000 +0000" stop="20260812203000 +0000">
-    <title lang="zh">Brasileiro Serie A</title>
-    <desc>Red Bull Bragantino v Corinthians.</desc>
+  <programme channel="465010" start="20260812140000 +0000" stop="20260812163000 +0000">
+    <title lang="zh">Live: Men's The Hundred</title>
+    <desc>From Sophia Gardens in Cardiff, Wales, United Kingdom.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219100" start="20260812203000 +0000" stop="20260812210000 +0000">
-    <title lang="zh">Football's Greatest</title>
-    <desc>The finest players in history discuss their careers.</desc>
+  <programme channel="465010" start="20260812163000 +0000" stop="20260812170000 +0000">
+    <title lang="zh">Live: Cricket Review</title>
+    <desc>Action from cricket matches around the world.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219100" start="20260812210000 +0000" stop="20260812213000 +0000">
-    <title lang="zh">KOTV Weekly</title>
-    <desc>All the latest news from the world of boxing.</desc>
+  <programme channel="465010" start="20260812170000 +0000" stop="20260812172000 +0000">
+    <title lang="zh">Cricket Filler</title>
+    <desc>Filler cricket programming.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219100" start="20260812213000 +0000" stop="20260812233000 +0000">
-    <title lang="zh">LaLiga</title>
-    <desc>Real Madrid v Barcelona from 2023/24.</desc>
+  <programme channel="465010" start="20260812172000 +0000" stop="20260812173000 +0000">
+    <title lang="zh">Live: Cricket Preview</title>
+    <desc>A preview of a cricket match.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219100" start="20260812233000 +0000" stop="20260813000000 +0000">
-    <title lang="zh">Sporting Greats</title>
-    <desc>Sporting figures discuss their careers.</desc>
+  <programme channel="465010" start="20260812173000 +0000" stop="20260812200000 +0000">
+    <title lang="zh">Live: Men's The Hundred</title>
+    <desc>From Edgbaston Cricket Ground in Birmingham, England, United Kingdom.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="219100" start="20260813000000 +0000" stop="20260813030000 +0000">
-    <title lang="zh">3Ice Hockey</title>
-    <desc>Action from the three-on-three ice hockey league based in the United States.</desc>
-    <date>2026-08-13</date>
+  <programme channel="465010" start="20260812200000 +0000" stop="20260812203000 +0000">
+    <title lang="zh">Live: Cricket Review</title>
+    <desc>Action from cricket matches around the world.</desc>
+    <date>2026-08-12</date>
   </programme>
-  <programme channel="219100" start="20260813030000 +0000" stop="20260813033000 +0000">
-    <title lang="zh">Sporting Greats</title>
-    <desc>Legendary sporting figures discuss their careers.</desc>
-    <date>2026-08-13</date>
+  <programme channel="465010" start="20260812203000 +0000" stop="20260812210000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-12</date>
   </programme>
-  <programme channel="219100" start="20260813033000 +0000" stop="20260813040000 +0000">
-    <title lang="zh">Sporting Greats</title>
-    <desc>Legendary sporting figures discuss their careers.</desc>
-    <date>2026-08-13</date>
+  <programme channel="465010" start="20260812210000 +0000" stop="20260812213000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-12</date>
   </programme>
   <programme channel="465225" start="20260812070000 +0000" stop="20260812073000 +0000">
     <title lang="zh">Red Sox Final</title>
@@ -5983,10 +5898,90 @@ After four long Offroad-Days in the Romanian mountains and the In-City Prolog in
     <desc>A preview of the upcoming game and news and analysis from industry insiders.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="486728" start="20260812063000 +0000" stop="20260812071500 +0000">
-    <title lang="zh">Press Box</title>
-    <desc>Members of the local press pack discuss all things LFC and debate some of the current wider issues in football.</desc>
+  <programme channel="464905" start="20260812070000 +0000" stop="20260812080000 +0000">
+    <title lang="zh">Poker</title>
+    <desc>Poker action from tournaments around the world.</desc>
     <date>2026-08-12</date>
+  </programme>
+  <programme channel="464905" start="20260812080000 +0000" stop="20260812090000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464905" start="20260812090000 +0000" stop="20260812100000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464905" start="20260812100000 +0000" stop="20260812110000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464905" start="20260812110000 +0000" stop="20260812120000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464905" start="20260812120000 +0000" stop="20260812130000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464905" start="20260812130000 +0000" stop="20260812133000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464905" start="20260812133000 +0000" stop="20260812140000 +0000">
+    <title lang="zh">Giants Access Blue</title>
+    <desc>Everything you need to know about your NY Giants.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464905" start="20260812140000 +0000" stop="20260812160000 +0000">
+    <title lang="zh">Best of Devils</title>
+    <desc>From Nov. 8, 2025.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464905" start="20260812160000 +0000" stop="20260812170000 +0000">
+    <title lang="zh">United Fight Alliance</title>
+    <desc>United Fight Alliance features top-ranked fighters, up-and-coming fighters, action and footage from some of the biggest names in combat sports; check out content spanning MMA, boxing, kickboxing, bare-knuckle boxing, Muay Thai and more.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464905" start="20260812170000 +0000" stop="20260812180000 +0000">
+    <title lang="zh">United Fight Alliance</title>
+    <desc>United Fight Alliance features top-ranked fighters, up-and-coming fighters, action and footage from some of the biggest names in combat sports; check out content spanning MMA, boxing, kickboxing, bare-knuckle boxing, Muay Thai and more.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464905" start="20260812180000 +0000" stop="20260812190000 +0000">
+    <title lang="zh">United Fight Alliance</title>
+    <desc>United Fight Alliance features top-ranked fighters, up-and-coming fighters, action and footage from some of the biggest names in combat sports; check out content spanning MMA, boxing, kickboxing, bare-knuckle boxing, Muay Thai and more.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464905" start="20260812190000 +0000" stop="20260812200000 +0000">
+    <title lang="zh">Poker</title>
+    <desc>Poker action from tournaments around the world.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464905" start="20260812200000 +0000" stop="20260812210000 +0000">
+    <title lang="zh">Poker</title>
+    <desc>Poker action from tournaments around the world.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464905" start="20260812210000 +0000" stop="20260812230000 +0000">
+    <title lang="zh">Best of Devils</title>
+    <desc>From Nov. 15, 2025.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464905" start="20260812230000 +0000" stop="20260813000000 +0000">
+    <title lang="zh">TBL Team Boxing League</title>
+    <desc>From 2300 Arena in Philadelphia, Pa.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464905" start="20260813013000 +0000" stop="20260813040000 +0000">
+    <title lang="zh">TBL Team Boxing League</title>
+    <desc>From 2300 Arena in Philadelphia, Pa.</desc>
+    <date>2026-08-13</date>
   </programme>
   <programme channel="486728" start="20260812071500 +0000" stop="20260812091500 +0000">
     <title lang="zh">The Match</title>
@@ -6066,6 +6061,11 @@ After four long Offroad-Days in the Romanian mountains and the In-City Prolog in
   <programme channel="486728" start="20260812190000 +0000" stop="20260812194500 +0000">
     <title lang="zh">Press Box</title>
     <desc>Members of the local press pack discuss all things LFC and debate some of the current wider issues in football.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="486728" start="20260812194500 +0000" stop="20260812200000 +0000">
+    <title lang="zh">Liverpool FC Women</title>
+    <desc>The best of the action as Liverpool Women take on Sheffield United.</desc>
     <date>2026-08-12</date>
   </programme>
   <programme channel="470741" start="20260812070000 +0000" stop="20260812080000 +0000">
@@ -6323,91 +6323,6 @@ After four long Offroad-Days in the Romanian mountains and the In-City Prolog in
     <desc>The best coverage in the NFL means fantasy football tips, rumors, buzz, predictions, NFL debates and the best NFL Draft coverage in the business.</desc>
     <date>2026-08-12</date>
   </programme>
-  <programme channel="464810" start="20260812070000 +0000" stop="20260812073000 +0000">
-    <title lang="zh">Family Feud</title>
-    <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464810" start="20260812073000 +0000" stop="20260812080000 +0000">
-    <title lang="zh">Family Feud</title>
-    <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464810" start="20260812080000 +0000" stop="20260812083000 +0000">
-    <title lang="zh">Paid Programming</title>
-    <desc>Paid programming.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464810" start="20260812083000 +0000" stop="20260812090000 +0000">
-    <title lang="zh">Secret to More Energy, Better Focus &amp; Restful Sleep</title>
-    <desc>MyMagnesiumTM ProClinical delivers 350 mg of highly absorbable magnesium plus clinically studied Shoden® Ashwagandha, vitamin D, Zinc, Boron, and antioxidant-rich organic blueberries—designed to support calm focus, steady energy, and deeper sleep.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464810" start="20260812090000 +0000" stop="20260812093000 +0000">
-    <title lang="zh">Inogen Portable Oxygen - No More Tanks!</title>
-    <desc>Regain independence and enjoy greater mobility with the compact design and long-lasting battery of portable oxygen.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464810" start="20260812093000 +0000" stop="20260812100000 +0000">
-    <title lang="zh">Pain Relief with Dr. Ho: Discover the Power of Passive Motion Exercise</title>
-    <desc>Dr. Ho explains how passive motion exercise is helping people worldwide with muscle pain, stiff &amp; achy joints, and poor circulation.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464810" start="20260812100000 +0000" stop="20260812103000 +0000">
-    <title lang="zh">Match Game</title>
-    <desc>Gene Rayburn hosts this comedy-game show hybrid in which contestants try to match answers given by celebrities to humorous, and often risque, fill-in-the-blank questions. The contestant with the most points at the end of the game advances to play the bonus round, in which the contestant has a chance to win thousands of dollars, with the actual amount dependent on the rules in place at the time of </desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464810" start="20260812103000 +0000" stop="20260812110000 +0000">
-    <title lang="zh">Match Game</title>
-    <desc>Gene Rayburn hosts this comedy-game show hybrid in which contestants try to match answers given by celebrities to humorous, and often risque, fill-in-the-blank questions. The contestant with the most points at the end of the game advances to play the bonus round, in which the contestant has a chance to win thousands of dollars, with the actual amount dependent on the rules in place at the time of </desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464810" start="20260812110000 +0000" stop="20260812113000 +0000">
-    <title lang="zh">Chain Reaction</title>
-    <desc>Two teams of three compete to complete a chain of words after the first and last words in the chain are revealed.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464810" start="20260812113000 +0000" stop="20260812120000 +0000">
-    <title lang="zh">Chain Reaction</title>
-    <desc>Two teams of three compete to complete a chain of words after the first and last words in the chain are revealed.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464810" start="20260812120000 +0000" stop="20260812123000 +0000">
-    <title lang="zh">Catch 21</title>
-    <desc>Aces For Everyone; players add cards by answering pop trivia questions and try to build the closest hand to 21 without busting in this fast-action game of knowledge and strategy.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464810" start="20260812123000 +0000" stop="20260812130000 +0000">
-    <title lang="zh">Catch 21</title>
-    <desc>Aces For Everyone; players add cards by answering pop trivia questions and try to build the closest hand to 21 without busting in this fast-action game of knowledge and strategy.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464810" start="20260812130000 +0000" stop="20260812133000 +0000">
-    <title lang="zh">Cash Cab</title>
-    <desc>Unsuspecting taxi cab passengers answer trivia questions posed by host Ben Bailey; the passengers may reach their destination with cold hard cash or walk away empty-handed.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464810" start="20260812133000 +0000" stop="20260812140000 +0000">
-    <title lang="zh">Wheel of Fortune</title>
-    <desc>In a classic game-show version of "Hangman," contestants solve word puzzles for cash and prizes.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464810" start="20260812140000 +0000" stop="20260812150000 +0000">
-    <title lang="zh">The $100,000 Pyramid</title>
-    <desc>Celebrity battles featuring Kyle Busch, Lara Spencer, Ice-T and Peri Gilpin.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464810" start="20260812150000 +0000" stop="20260812160000 +0000">
-    <title lang="zh">Deal or No Deal</title>
-    <desc>Contestants get a chance to win money, from a penny up to $1 million.</desc>
-    <date>2026-08-12</date>
-  </programme>
-  <programme channel="464810" start="20260812160000 +0000" stop="20260812170000 +0000">
-    <title lang="zh">Deal or No Deal</title>
-    <desc>Contestants get a chance to win money, from a penny up to $1 million.</desc>
-    <date>2026-08-12</date>
-  </programme>
   <programme channel="465073" start="20260812070000 +0000" stop="20260812080000 +0000">
     <title lang="zh">B1G Football Training Camp</title>
     <desc>Reports from around the Big 10 football training camps.</desc>
@@ -6577,6 +6492,91 @@ After four long Offroad-Days in the Romanian mountains and the In-City Prolog in
     <title lang="zh">ACC Football Road Trip</title>
     <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
     <date>2026-08-13</date>
+  </programme>
+  <programme channel="464810" start="20260812070000 +0000" stop="20260812073000 +0000">
+    <title lang="zh">Family Feud</title>
+    <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464810" start="20260812073000 +0000" stop="20260812080000 +0000">
+    <title lang="zh">Family Feud</title>
+    <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464810" start="20260812080000 +0000" stop="20260812083000 +0000">
+    <title lang="zh">Paid Programming</title>
+    <desc>Paid programming.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464810" start="20260812083000 +0000" stop="20260812090000 +0000">
+    <title lang="zh">Secret to More Energy, Better Focus &amp; Restful Sleep</title>
+    <desc>MyMagnesiumTM ProClinical delivers 350 mg of highly absorbable magnesium plus clinically studied Shoden® Ashwagandha, vitamin D, Zinc, Boron, and antioxidant-rich organic blueberries—designed to support calm focus, steady energy, and deeper sleep.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464810" start="20260812090000 +0000" stop="20260812093000 +0000">
+    <title lang="zh">Inogen Portable Oxygen - No More Tanks!</title>
+    <desc>Regain independence and enjoy greater mobility with the compact design and long-lasting battery of portable oxygen.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464810" start="20260812093000 +0000" stop="20260812100000 +0000">
+    <title lang="zh">Pain Relief with Dr. Ho: Discover the Power of Passive Motion Exercise</title>
+    <desc>Dr. Ho explains how passive motion exercise is helping people worldwide with muscle pain, stiff &amp; achy joints, and poor circulation.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464810" start="20260812100000 +0000" stop="20260812103000 +0000">
+    <title lang="zh">Match Game</title>
+    <desc>Gene Rayburn hosts this comedy-game show hybrid in which contestants try to match answers given by celebrities to humorous, and often risque, fill-in-the-blank questions. The contestant with the most points at the end of the game advances to play the bonus round, in which the contestant has a chance to win thousands of dollars, with the actual amount dependent on the rules in place at the time of </desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464810" start="20260812103000 +0000" stop="20260812110000 +0000">
+    <title lang="zh">Match Game</title>
+    <desc>Gene Rayburn hosts this comedy-game show hybrid in which contestants try to match answers given by celebrities to humorous, and often risque, fill-in-the-blank questions. The contestant with the most points at the end of the game advances to play the bonus round, in which the contestant has a chance to win thousands of dollars, with the actual amount dependent on the rules in place at the time of </desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464810" start="20260812110000 +0000" stop="20260812113000 +0000">
+    <title lang="zh">Chain Reaction</title>
+    <desc>Two teams of three compete to complete a chain of words after the first and last words in the chain are revealed.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464810" start="20260812113000 +0000" stop="20260812120000 +0000">
+    <title lang="zh">Chain Reaction</title>
+    <desc>Two teams of three compete to complete a chain of words after the first and last words in the chain are revealed.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464810" start="20260812120000 +0000" stop="20260812123000 +0000">
+    <title lang="zh">Catch 21</title>
+    <desc>Aces For Everyone; players add cards by answering pop trivia questions and try to build the closest hand to 21 without busting in this fast-action game of knowledge and strategy.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464810" start="20260812123000 +0000" stop="20260812130000 +0000">
+    <title lang="zh">Catch 21</title>
+    <desc>Aces For Everyone; players add cards by answering pop trivia questions and try to build the closest hand to 21 without busting in this fast-action game of knowledge and strategy.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464810" start="20260812130000 +0000" stop="20260812133000 +0000">
+    <title lang="zh">Cash Cab</title>
+    <desc>Unsuspecting taxi cab passengers answer trivia questions posed by host Ben Bailey; the passengers may reach their destination with cold hard cash or walk away empty-handed.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464810" start="20260812133000 +0000" stop="20260812140000 +0000">
+    <title lang="zh">Wheel of Fortune</title>
+    <desc>In a classic game-show version of "Hangman," contestants solve word puzzles for cash and prizes.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464810" start="20260812140000 +0000" stop="20260812150000 +0000">
+    <title lang="zh">The $100,000 Pyramid</title>
+    <desc>Celebrity battles featuring Kyle Busch, Lara Spencer, Ice-T and Peri Gilpin.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464810" start="20260812150000 +0000" stop="20260812160000 +0000">
+    <title lang="zh">Deal or No Deal</title>
+    <desc>Contestants get a chance to win money, from a penny up to $1 million.</desc>
+    <date>2026-08-12</date>
+  </programme>
+  <programme channel="464810" start="20260812160000 +0000" stop="20260812170000 +0000">
+    <title lang="zh">Deal or No Deal</title>
+    <desc>Contestants get a chance to win money, from a penny up to $1 million.</desc>
+    <date>2026-08-12</date>
   </programme>
   <programme channel="222007" start="20260812070000 +0000" stop="20260812083000 +0000">
     <title lang="zh">Tennis Highlights</title>
