@@ -126,7 +126,7 @@ class TVMultiXMLProcessor:
     """
 
     def __init__(self):
-        self.max_programs = 900                 # Global programme cap
+        self.max_programs = 10000               # Global programme cap
         self.max_programs_per_channel = 100     # Per-channel early limit
         self.current_time = datetime.now(timezone.utc)
 
@@ -761,4 +761,3 @@ def main():
 
 if __name__ == "__main__":
     exit(main())
-
