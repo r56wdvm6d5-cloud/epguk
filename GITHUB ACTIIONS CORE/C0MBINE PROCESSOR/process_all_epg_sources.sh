@@ -39,6 +39,10 @@ NEWS_PROCESSOR_DIR="GITHUB ACTIIONS CORE/News"
 NEWS_CONFIG="GITHUB ACTIIONS CORE/News/NEWS.txt"
 NEWS_OUTPUT="GITHUB ACTIIONS CORE/News_epg.xml"
 
+COMBINEDEPG_PROCESSOR_DIR="GITHUB ACTIIONS CORE/A-Z EPG"
+COMBINEDEPG_CONFIG="GITHUB ACTIIONS CORE/A-Z EPG/COMBINED-EPG.txt"
+COMBINEDEPG_OUTPUT="GITHUB ACTIIONS CORE/COMBINED-EPG_epg.xml"
+
 KSTVSPORTS1_PROCESSOR_DIR="GITHUB ACTIIONS CORE/KSTVSPORTS1"
 KSTVSPORTS1_CONFIG="GITHUB ACTIIONS CORE/KSTVSPORTS1/KSTVSPORTS1.txt"
 KSTVSPORTS1_OUTPUT="GITHUB ACTIIONS CORE/KSTVSPORTS1_epg.xml"
@@ -109,7 +113,7 @@ process_xml_source() {
 }
 
 # Start unified processing
-print_status "Starting unified EPG processing for all 8 sources..."
+print_status "Starting unified EPG processing for all 9 sources..."
 
 process_xml_source "$MULTI_PROCESSOR_DIR"  "$MULTI_CONFIG"  "$MULTI_OUTPUT"  "Multi-XML Combined" "multi_xml_processor.py"              || exit 1
 process_xml_source "$DOC2_PROCESSOR_DIR"   "$DOC2_CONFIG"   "$DOC2_OUTPUT"   "Doc2"               "Doc2_multi_xml_processor.py"     || exit 1
@@ -119,7 +123,8 @@ process_xml_source "$TV3_PROCESSOR_DIR"    "$TV3_CONFIG"    "$TV3_OUTPUT"    "TV
 process_xml_source "$TV4_PROCESSOR_DIR"    "$TV4_CONFIG"    "$TV4_OUTPUT"    "TV4"                "TV4_multi_xml_processor.py"          || exit 1
 process_xml_source "$TV5_PROCESSOR_DIR"    "$TV5_CONFIG"    "$TV5_OUTPUT"    "TV5"                "TV5_multi_xml_processor.py"          || exit 1
 process_xml_source "$NEWS_PROCESSOR_DIR"   "$NEWS_CONFIG"   "$NEWS_OUTPUT"   "News"               "News.py"                              || exit 1
+process_xml_source "$COMBINEDEPG_PROCESSOR_DIR"    "$COMBINEDEPG_CONFIG"    "$COMBINEDEPG_OUTPUT"    "COMBINED-EPG"          "COMBINEDEPG.py"          || exit 1
 process_xml_source "$KSTVSPORTS1_PROCESSOR_DIR"    "$KSTVSPORTS1_CONFIG"    "$KSTVSPORTS1_OUTPUT"    "KSTVSPORTS1"                "KSTVSPORTS1_multi_xml_processor.py"          || exit 1
 process_xml_source "$KSTVSPORTS2_PROCESSOR_DIR"    "$KSTVSPORTS2_CONFIG"    "$KSTVSPORTS2_OUTPUT"    "KSTVSPORTS2"                "KSTVSPORTS2_multi_xml_processor.py"          || exit 1
 process_xml_source "$KSTVMOVIES_PROCESSOR_DIR"    "$KSTVMOVIES_CONFIG"    "$KSTVMOVIES_OUTPUT"    "KSTVMOVIES"                "KSTVMOVIES_multi_xml_processor.py"          || exit 1
-print_success "All 8 EPG sources processed successfully! Git handled by epg.yml"
+print_success "All 9 EPG sources processed successfully! Git handled by epg.yml"
