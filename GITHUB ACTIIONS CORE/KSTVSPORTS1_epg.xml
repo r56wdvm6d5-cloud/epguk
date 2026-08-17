@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<tv date="20260817192809 " generator-info-name="KSTVSPORTS1-Multi-XML-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="KSTVSPORTS1-Source-EPG">
+<tv date="20260817202022 " generator-info-name="KSTVSPORTS1-Multi-XML-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="KSTVSPORTS1-Source-EPG">
   <channel id="beINSports.us">
     <display-name>beIN SPORTS USA</display-name>
     <icon src="https://iptv-epg.org/images/UWm_2QAR9H6A5DPSDgGEcjV0e-0MCJFVDrKfn0R-K9JlYFvqkYqJAiE2nfdl6nLrtsSnXQGJatGPRjGoGSXaEmLs2ynei6rqoUwqeEJIjxs" />
@@ -120,6 +120,10 @@
     <display-name>Sky Sport 5</display-name>
     <icon src="https://iptv-epg.org/images/qt-7uBhgADDMnPuvG9sz4KM42KFOtmO4oCOqHno6PcKyCqzmpLaPBWMlLSdAEYmhTJXf_4wN0cNPyJIIUh--v4MGPUzjCg1WWtyfRWIVHZNgbgKuzG0_" />
   </channel>
+  <channel id="558120">
+    <display-name lang="US">Willow 2 Xtra</display-name>
+    <icon src="" />
+  </channel>
   <channel id="465410">
     <display-name lang="US">ESPNEWS HD</display-name>
     <icon src="" />
@@ -132,8 +136,24 @@
     <display-name lang="US">MSG Plus</display-name>
     <icon src="" />
   </channel>
-  <channel id="558120">
-    <display-name lang="US">Willow 2 Xtra</display-name>
+  <channel id="219104">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">Premier Sports 2 HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465225">
+    <display-name lang="US">New England Sports Network HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="219100">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">Premier Sports 1 HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465348">
+    <display-name lang="US">NHL Network HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465033">
+    <display-name lang="US">MSG National</display-name>
     <icon src="" />
   </channel>
   <channel id="464912">
@@ -144,48 +164,12 @@
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">LFCTV HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="465033">
-    <display-name lang="US">MSG National</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465225">
-    <display-name lang="US">New England Sports Network HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="222007">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">SkySp Tennis HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="5816">
-    <display-name lang="Russian Federation">Super-Tennis</display-name>
-    <icon src="https://epg.pw/media/images/epg/2024/06/08/20240608020844818469_35.png" />
-  </channel>
-  <channel id="465239">
-    <display-name lang="US">MLB Network HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="470638">
-    <display-name lang="Canada">Game Show Network</display-name>
-    <icon src="" />
-  </channel>
   <channel id="470741">
     <display-name lang="Canada">Golf Channel</display-name>
     <icon src="" />
   </channel>
-  <channel id="465348">
-    <display-name lang="US">NHL Network HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="465073">
-    <display-name lang="US">Big Ten Network HD</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="464879">
-    <display-name lang="US">ACC Network</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="470443">
-    <display-name lang="Canada">Sportsnet West HD</display-name>
+  <channel id="470638">
+    <display-name lang="Canada">Game Show Network</display-name>
     <icon src="" />
   </channel>
   <channel id="465058">
@@ -196,12 +180,28 @@
     <display-name lang="US">Game Show Network HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="219104">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">Premier Sports 2 HD</display-name>
+  <channel id="465073">
+    <display-name lang="US">Big Ten Network HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="219100">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">Premier Sports 1 HD</display-name>
+  <channel id="5816">
+    <display-name lang="Russian Federation">Super-Tennis</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/08/20240608020844818469_35.png" />
+  </channel>
+  <channel id="464879">
+    <display-name lang="US">ACC Network</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="465239">
+    <display-name lang="US">MLB Network HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="222007">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">SkySp Tennis HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="470443">
+    <display-name lang="Canada">Sportsnet West HD</display-name>
     <icon src="" />
   </channel>
   <programme start="20260817191000 +0000" stop="20260817211500 +0000" channel="beINSports.us">
@@ -543,15 +543,6 @@ Coverage of the Grand Prix of Riesenbeck in Germany, the tenth leg of the Longin
     <previously-shown />
     <title lang="en">Global Champions Tour</title>
   </programme>
-  <programme start="20260817180000 +0000" stop="20260817200000 +0000" channel="CBSSportsNetwork.us">
-    <category lang="en">Sports talk</category>
-    <category>Sports</category>
-    <date>2023</date>
-    <desc lang="en">Sports news and highlights.</desc>
-    <icon src="https://iptv-epg.org/images/ddb4SfYOOX4wGEA1mHOS0YwNRUl0l5h3dbWrFS9sRuN8hcTkf97gyES2gigKmwE2Ay5N0jAZyram47-VJFtscxPg4lM8sBrbDL5NTBjTG90" />
-    <title lang="en">CBS Sports HQ Spotlight</title>
-    <new />
-  </programme>
   <programme start="20260817200000 +0000" stop="20260817220000 +0000" channel="CBSSportsNetwork.us">
     <category lang="en">Sports talk</category>
     <category>Sports</category>
@@ -721,23 +712,13 @@ Relive one of the classic events from years gone by on the PGA Tour.</desc>
     <title lang="en">CBS Sports HQ Spotlight</title>
     <new />
   </programme>
-  <programme start="20260817190000 +0000" stop="20260817193000 +0000" channel="ESPN2.us">
-    <category lang="en">News</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Football</category>
-    <desc lang="en">ESPN's daily college football show sharing reactions to the day's biggest stories and previews of each week's most important matchups. Kelsey Riggs and Jen Lada host alongside contributors Desmond Howard, Sam Acho, Greg McElroy and Pete Thamel.</desc>
-    <icon src="https://iptv-epg.org/images/DNXJyE0KaqSoBROjOTDssvWdpGLxKmCnSojbZ0ABwutgV83yxo0YubagDLx-0DzlXnUjY3g7TG5mAzzIcEMiSiP8tHFnmdT7tY0jaPNNSBk" />
-    <title lang="en">College Football Live</title>
-    <live />
-  </programme>
-  <programme start="20260817193000 +0000" stop="20260817200000 +0000" channel="ESPN2.us">
-    <category lang="en">News</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Football</category>
-    <desc lang="en">ESPN's daily college football show sharing reactions to the day's biggest stories and previews of each week's most important matchups. Kelsey Riggs and Jen Lada host alongside contributors Desmond Howard, Sam Acho, Greg McElroy and Pete Thamel.</desc>
-    <icon src="https://iptv-epg.org/images/DNXJyE0KaqSoBROjOTDssvWdpGLxKmCnSojbZ0ABwutgV83yxo0YubagDLx-0DzlXnUjY3g7TG5mAzzIcEMiSiP8tHFnmdT7tY0jaPNNSBk" />
-    <title lang="en">College Football Live</title>
-    <new />
+  <programme start="20260818200000 +0000" stop="20260818220000 +0000" channel="CBSSportsNetwork.us">
+    <category lang="en">Sports talk</category>
+    <category>Sports</category>
+    <date>2023</date>
+    <desc lang="en">Sports news and highlights.</desc>
+    <icon src="https://iptv-epg.org/images/ddb4SfYOOX4wGEA1mHOS0YwNRUl0l5h3dbWrFS9sRuN8hcTkf97gyES2gigKmwE2Ay5N0jAZyram47-VJFtscxPg4lM8sBrbDL5NTBjTG90" />
+    <title lang="en">CBS Sports HQ Spotlight</title>
   </programme>
   <programme start="20260817200000 +0000" stop="20260817203000 +0000" channel="ESPN2.us">
     <category lang="en">Football</category>
@@ -921,15 +902,22 @@ Covering topics in women's sports; expert insights and insider coverage of the w
     <previously-shown />
     <title lang="en">Women's Sports Now</title>
   </programme>
-  <programme start="20260817170000 +0000" stop="20260817200000 +0000" channel="ESPNU.us">
+  <programme start="20260818060000 +0000" stop="20260818063000 +0000" channel="ESPN2.us">
+    <category lang="en">Football</category>
+    <category lang="en">Sports talk</category>
+    <category>Sports</category>
+    <date>2024</date>
+    <desc lang="en">Rece Davis and Pete Thamel chat about the top stories in college football.</desc>
+    <icon src="https://iptv-epg.org/images/3zFGBx-QZmlTzdA7NvOFryTaL7LS8gmBb-n6lTsgX4OGBaw3fcyCVB1HVyCxdkJt520jEZ7WSg1IGzZJ05UQdJ4X3XeGGZeb-bstChzg3Bw" />
+    <title lang="en">College Gameday Podcast</title>
+  </programme>
+  <programme start="20260818063000 +0000" stop="20260818070000 +0000" channel="ESPN2.us">
+    <category lang="en">News</category>
     <category lang="en">Sports</category>
     <category lang="en">Football</category>
-    <category lang="en">Series</category>
-    <desc lang="en">Georgia at Tennessee
-A heavyweight bout in the SEC sees the No. 15 Volunteers (2-0) hosting the No. 6 Bulldogs (2-0). Georgia's 31-17 victory last season was its eighth in a row over Tennessee. Bulldogs tight end Oscar Delp had a pair of TD catches in the 2024 win.</desc>
-    <icon src="https://iptv-epg.org/images/4S04Qk_bopm6zKr4IrlIPmEwrhn8oUmUvCTzCo00PuXl0VbztB555YZr0SnyHJ5fPPeq1EqhGQDH-Iw3Mk7muD_3hAk4NCeOFPrBJol0N0Y" />
-    <previously-shown />
-    <title lang="en">College Football</title>
+    <desc lang="en">ESPN's daily college football show sharing reactions to the day's biggest stories and previews of each week's most important matchups. Kelsey Riggs and Jen Lada host alongside contributors Desmond Howard, Sam Acho, Greg McElroy and Pete Thamel.</desc>
+    <icon src="https://iptv-epg.org/images/DNXJyE0KaqSoBROjOTDssvWdpGLxKmCnSojbZ0ABwutgV83yxo0YubagDLx-0DzlXnUjY3g7TG5mAzzIcEMiSiP8tHFnmdT7tY0jaPNNSBk" />
+    <title lang="en">College Football Live</title>
   </programme>
   <programme start="20260817200000 +0000" stop="20260817223000 +0000" channel="ESPNU.us">
     <category lang="en">Sports</category>
@@ -1077,16 +1065,15 @@ The No. 12 Utes (8-2, 5-2 Big 12) face the Wildcats (5-5, 4-3) for the first tim
     <title lang="en">College Football Live</title>
     <new />
   </programme>
-  <programme start="20260817180000 +0000" stop="20260817200000 +0000" channel="FoxSoccerPlus.us">
-    <category lang="en">Rugby</category>
-    <category lang="en">Rugby league</category>
+  <programme start="20260818220000 +0000" stop="20260819003000 +0000" channel="ESPNU.us">
     <category lang="en">Sports</category>
+    <category lang="en">Baseball</category>
     <category lang="en">Series</category>
-    <desc lang="en">Hull FC vs. Castleford Tigers
-From MKM Stadium in Hull, England, United Kingdom.</desc>
-    <icon src="https://iptv-epg.org/images/8MAom-LbTBRoV8Kl_odEggy1djYdKOHy9w8d3POzMRKe6E7QVkwXEbZBijDyEbIi7IBD95kQ4fUYadFfp4smGciuU1FC1onJeFeYVRrW4UY" />
-    <title lang="en">Rugby Super League</title>
-    <new />
+    <desc lang="en">World Series, Championship Game: Teams TBA
+From Keeter Stadium in Shelby, N.C.</desc>
+    <icon src="https://iptv-epg.org/images/LWupul3Afu52wrrw-VKojc75EZlBNY5DDuyPP83ggRyYPCcfo3fVCWBeJBZyxLBF_17VOKEdBhG3b-7a5YjJvM_CoCj4K4tdduPwWAZmJ68" />
+    <title lang="en">American Legion Baseball</title>
+    <live />
   </programme>
   <programme start="20260817200000 +0000" stop="20260817220000 +0000" channel="FoxSoccerPlus.us">
     <category lang="en">Rugby</category>
@@ -1249,6 +1236,16 @@ From Sewell Group Craven Park Stadium in Hull, England, United Kingdom.</desc>
     <desc lang="en">GWS GIANTS vs. West Coast Eagles
 Coverage of women's Australian rules football.</desc>
     <icon src="https://iptv-epg.org/images/IuBNFlZzRMFVHm-QxBf6u0OSYCNZfkJZ4viRTox56cNNs0PjtPsfegYC8sHABSqH-mWJqq6R-iJ_pMB3Db0KP-eViY9Aep3SUCkRwazrWdo" />
+    <title lang="en">AFL Women's Premiership Football</title>
+    <new />
+  </programme>
+  <programme start="20260818230000 +0000" stop="20260819010000 +0000" channel="FoxSoccerPlus.us">
+    <category lang="en">Sports</category>
+    <category lang="en">Football</category>
+    <category lang="en">Series</category>
+    <desc lang="en">Adelaide Crows vs. Sydney Swans
+From Thomas Farms Oval in Unley, South Australia, Australia.</desc>
+    <icon src="https://iptv-epg.org/images/8EpihhRed-QGBQkstLt0jFbc9oC88yfxRoHu6zTJS9kov3L9zX6PNBWyIENGgNYjFfNggmZTZsSWOQmNsIo6HNeh-x-KvhayxCsgwT3M0Ds" />
     <title lang="en">AFL Women's Premiership Football</title>
     <new />
   </programme>
@@ -1421,15 +1418,6 @@ From Arlington, Texas.</desc>
     <title lang="en">First Things First: OT</title>
     <new />
   </programme>
-  <programme start="20260817180000 +0000" stop="20260817200000 +0000" channel="FoxSports2.us">
-    <category lang="en">Sports</category>
-    <category lang="en">Series</category>
-    <desc lang="en">Black's Tire 250 presented by BTS Rewards
-The high-octane Nascar Craftsman Series Black's Tire 250 gets underway at Richmond Raceway. Corey Heim defends his title against Tanner Gray, Tristan Mckee and Gavan Boschele who take on the 187.5 miles, D-shaped asphalt oval for 250 laps.</desc>
-    <icon src="https://iptv-epg.org/images/nWEDwpKN6HvAC37yTL5NOFHw4KcXulu25FVTY_I4JAnIUAm0rIEcbc6BTP1e8fc-E9EOA6tNTG6488A8YMriuYHwymLo374Cwl29fSQ6-4U" />
-    <previously-shown />
-    <title lang="en">NASCAR Craftsman Truck Series</title>
-  </programme>
   <programme start="20260817200000 +0000" stop="20260817210000 +0000" channel="FoxSports2.us">
     <category lang="en">Motorcycle</category>
     <category lang="en">Series</category>
@@ -1592,16 +1580,15 @@ The UFL Playoffs have it all: QB rivals from the same high school, dueling 4-poi
     <previously-shown />
     <title lang="en">UFL: 4th &amp; Goal</title>
   </programme>
-  <programme start="20260817190000 +0000" stop="20260817200000 +0000" channel="fuboSportsNetwork.us">
-    <category lang="en">Boxing</category>
+  <programme start="20260818220000 +0000" stop="20260818223000 +0000" channel="FoxSports2.us">
+    <category lang="en">Rodeo</category>
     <category lang="en">Series</category>
-    <category>Sports</category>
-    <desc lang="en">S08 E07 — Austin Trout vs Luis Palomino &amp; More
-Bryan Duran battles Louie Lopez, followed by Bryce Henry vs Robbie Peralta and wraps up with a fight between Austin Trout and Luis Palomino.</desc>
-    <episode-num>S08 E07</episode-num>
-    <icon src="https://iptv-epg.org/images/4B4OhWgB1Gl3JXFc_ZBgUVSJuL96A5RykHnVWoFrBh2Bm1eTVyOdQ1UC-gw-pSjwhLthNJuOXly0W8nqS9BUH3adgTpRGlruzOQVhWQqQP4" />
+    <date>2026</date>
+    <desc lang="en">First Nations Rodeo &amp; Relay Races
+The first stop on the worldwide western journey is the First Nations Rodeo and Relay Races from the world-famous Calgary Stampede grounds in Alberta, Canada.</desc>
+    <icon src="https://iptv-epg.org/images/Qy7pGshcrBmCTZu0Vbmhb-23Ro9i6bMbqb25c0dPpYB_SDE-GdjdfzINTB1A0guQ8OUvf589bh5YFcOxiYwGpsbfAt1ObT_gYn3_TE2Mwn4" />
     <previously-shown />
-    <title lang="en">BKFC: Knuckle Up</title>
+    <title lang="en">Wild World of Western Sports</title>
   </programme>
   <programme start="20260817200000 +0000" stop="20260817210000 +0000" channel="fuboSportsNetwork.us">
     <category lang="en">Boxing</category>
@@ -1787,13 +1774,16 @@ Week 6 action featuring Tri State vs. Triplets and Enemies vs. 3 Headed Monsters
     <previously-shown />
     <title lang="en">BIG3 Basketball</title>
   </programme>
-  <programme start="20260817180000 +0000" stop="20260817200000 +0000" channel="GolfChannel.us">
-    <category lang="en">Golf</category>
-    <category lang="en">Sports</category>
-    <date>2003</date>
-    <desc lang="en">Damon Hack, Anna Jackson and Eamon Lynch lead and shape the daily conversation throughout the golf world.</desc>
-    <icon src="https://iptv-epg.org/images/XFr4t8lJqVuQ_ZniYp5Mya_IY5fwVoXczlT-3UZekwqECD_ioxgv5Zor5AiY1mLZSS29bSFbRJXJgFoMRDZgV9cVcdxQb3JzHFk4zud4AnI" />
-    <title lang="en">Golf Today</title>
+  <programme start="20260818140000 +0000" stop="20260818150000 +0000" channel="fuboSportsNetwork.us">
+    <category lang="en">Football</category>
+    <category lang="en">Series</category>
+    <category>Sports</category>
+    <desc lang="en">S03 E19
+Join Ian Hartitz, Dwain McFarland and guests as they break down the world of fantasy football with sharp analysis, data-driven insights, and engaging discussions. From player rankings to weekly matchups, Ian and Dwain provide the necessary tools.</desc>
+    <episode-num>S03 E19</episode-num>
+    <icon src="https://iptv-epg.org/images/kxzaDWHv77ct8g1FTd5cAsFqigKoeLBJdAY-TXGBsgWPdiSSpiPCbroi9YFDQrXhR8mSYaWkAhoA5z9eOt7lvxKhMtQITv0XCnqMh5zuHik" />
+    <title lang="en">The Fantasy Life Show</title>
+    <new />
   </programme>
   <programme start="20260817200000 +0000" stop="20260817210000 +0000" channel="GolfChannel.us">
     <category lang="en">Golf</category>
@@ -1965,12 +1955,14 @@ Highlights of the 2026 Farmfoods Scottish Challenge, where athletes compete to e
     <previously-shown />
     <title lang="en">PGA TOUR -- The Drop</title>
   </programme>
-  <programme start="20260817190000 +0000" stop="20260817193000 +0000" channel="MarqueeSports.us">
-    <category lang="en">Sports</category>
+  <programme start="20260818213000 +0000" stop="20260818220000 +0000" channel="GolfChannel.us">
     <category lang="en">Golf</category>
-    <desc lang="en">Dan Roan hosts the award-winning golf show that covers local area courses, new equipment, travel destinations, and game-improving instructions.</desc>
-    <icon src="https://iptv-epg.org/images/QPCWgqy31dKz55wQF9ozV21eWldOC-6vkseAxtKktRQMwM2rhMJQX6IBD7xkNCSX3NBexKcvheCjPEW45M5CZQkdY1rlTOies-_XDWhagF0" />
-    <title lang="en">Golf 360</title>
+    <category lang="en">Sports</category>
+    <category lang="en">Series</category>
+    <desc lang="en">Tips and tricks from the legends of the game.</desc>
+    <icon src="https://iptv-epg.org/images/A69bpi5iOxAYQOD0SKszZ0G1WXZT_Hb8SjePcY0mN7P6Rkd-6_Aybu6mrVEK5kvje0Oqo5J4btkgrywO3YvWoX_N3vVGts2mFtjxtuxoPcQ" />
+    <previously-shown />
+    <title lang="en">PGA TOUR Champions Learning Center</title>
   </programme>
   <programme start="20260817193000 +0000" stop="20260817203000 +0000" channel="MarqueeSports.us">
     <category lang="en">Baseball</category>
@@ -2122,15 +2114,13 @@ The Cubs host the White Sox in Game 1 of their regular-season series at Wrigley 
     <icon src="https://iptv-epg.org/images/zOWPpwYEjYPvoT1s0wTf3KjxYAReEt2RCJMXzJDWBW6FARgAtWAyFXsJraTWw6pTwkT6dugzq0HwA0aTGd5xVjZL7B9Vn1_HiTlwXNBAr7U" />
     <title lang="en">Cubs In 15</title>
   </programme>
-  <programme start="20260817180000 +0000" stop="20260817200000 +0000" channel="MonumentalSportsNetwork.us">
-    <category lang="en">Sports</category>
-    <category lang="en">Basketball</category>
-    <category lang="en">Series</category>
-    <desc lang="en">Los Angeles Sparks at Washington Mystics
-From CareFirst Arena in Washington, D.C.</desc>
-    <icon src="https://iptv-epg.org/images/VmV6wokt8v_Ppj5asiDMLGkVzkd6EMkL1FeG7RFqd5NunayjyKyJpa4nJu2mF0ckR23z156auK_Sx7sbEmNnA-HA06C1gd-a03Z987URVuU" />
-    <previously-shown />
-    <title lang="en">WNBA Basketball</title>
+  <programme start="20260818193000 +0000" stop="20260818200000 +0000" channel="MarqueeSports.us">
+    <category lang="en">Soccer</category>
+    <category>Sports</category>
+    <date>2025</date>
+    <desc lang="en">An exclusive look at Chicago Fire FC including game recaps, analysis, and coach and player interviews.</desc>
+    <icon src="https://iptv-epg.org/images/nzqZon5w1jdJuYU0doiETM6G5dmhoT63mIbTVj5L_umZjRLYWU3Ry6H7zD31AyHdMjqQf5wFlX850HZtGaKINmpGhvE2RaTh-2L8-ll1xxk" />
+    <title lang="en">Inside The Fire</title>
   </programme>
   <programme start="20260817200000 +0000" stop="20260817203000 +0000" channel="MonumentalSportsNetwork.us">
     <category lang="en">Hockey</category>
@@ -2283,6 +2273,14 @@ From CareFirst Arena in Washington, D.C.</desc>
     <icon src="https://iptv-epg.org/images/l94SjPcRIYJoiCooeiuJ5OEF2D-vKypyantKVvBqCdCZP1bTHxkzIP6knENKzfJtois3t9ITpMtFVo6_sN2NtFkdNxN06lpAntGm27jcm64" />
     <title lang="en">Paid Programming</title>
   </programme>
+  <programme start="20260818090000 +0000" stop="20260818093000 +0000" channel="MonumentalSportsNetwork.us">
+    <category lang="en">Consumer</category>
+    <category lang="en">Shopping</category>
+    <category lang="en">Variety</category>
+    <desc lang="en">Paid programming.</desc>
+    <icon src="https://iptv-epg.org/images/l94SjPcRIYJoiCooeiuJ5OEF2D-vKypyantKVvBqCdCZP1bTHxkzIP6knENKzfJtois3t9ITpMtFVo6_sN2NtFkdNxN06lpAntGm27jcm64" />
+    <title lang="en">Paid Programming</title>
+  </programme>
   <programme start="20260817180000 +0000" stop="20260818020000 +0000" channel="MSG2.us">
     <category lang="en">Entertainment</category>
     <category lang="en">Special</category>
@@ -2426,15 +2424,6 @@ From CareFirst Arena in Washington, D.C.</desc>
     <desc lang="en">Sign off.</desc>
     <icon src="https://iptv-epg.org/images/gJStwgQ29iOJa0EbAiG_dfz2dxmhtN0-DWOzqc1XLjyV96HmokwkZwjkxWojf5SPW6Kc8EjenXv9b63NXOGmPlnjAit2VGCHR90aHQKrSTU" />
     <title lang="en">SIGN OFF</title>
-  </programme>
-  <programme start="20260817120000 +0000" stop="20260817200000 +0000" channel="NFLRedZone.us">
-    <category lang="en">Football</category>
-    <category lang="en">Special</category>
-    <category>Sports</category>
-    <date>2023</date>
-    <desc lang="en">Follow every NFL football game as teams enter the RedZone.</desc>
-    <icon src="https://iptv-epg.org/images/dYbxf2fkhRYa3oF0SlsbBReWT_Zr-NWzksD6Xx5NcWj09jjqQq_JkCFP_995b2yaclTLXH-7QW4Z4WxXPYNvZdY2ycyXpeTEAx8zr4-fBNc" />
-    <title lang="en">Every Sunday Afternoon</title>
   </programme>
   <programme start="20260817200000 +0000" stop="20260818040000 +0000" channel="NFLRedZone.us">
     <category lang="en">Football</category>
@@ -2581,6 +2570,15 @@ From CareFirst Arena in Washington, D.C.</desc>
     <title lang="en">Every Sunday Afternoon</title>
   </programme>
   <programme start="20260823020000 +0000" stop="20260823120000 +0000" channel="NFLRedZone.us">
+    <category lang="en">Football</category>
+    <category lang="en">Special</category>
+    <category>Sports</category>
+    <date>2023</date>
+    <desc lang="en">Follow every NFL football game as teams enter the RedZone.</desc>
+    <icon src="https://iptv-epg.org/images/dYbxf2fkhRYa3oF0SlsbBReWT_Zr-NWzksD6Xx5NcWj09jjqQq_JkCFP_995b2yaclTLXH-7QW4Z4WxXPYNvZdY2ycyXpeTEAx8zr4-fBNc" />
+    <title lang="en">Every Sunday Afternoon</title>
+  </programme>
+  <programme start="20260823120000 +0000" stop="20260823200000 +0000" channel="NFLRedZone.us">
     <category lang="en">Football</category>
     <category lang="en">Special</category>
     <category>Sports</category>
@@ -2932,15 +2930,6 @@ ATP Challenger</desc>
     <title lang="en">ATP Challenger</title>
     <live />
   </programme>
-  <programme start="20260817181900 +0000" stop="20260817193000 +0000" channel="FightNetwork.us">
-    <category lang="en">Pro wrestling</category>
-    <category lang="en">Series</category>
-    <desc lang="en">Best of Moose
-Reliving battles featuring former NFL player Moose.</desc>
-    <icon src="https://iptv-epg.org/images/FYMrRkZvgBGjn_okYG3zsnAKLt9uoJiyYjcRy1blFPZiXCfwwP3Q3EL982ur8mxP0K9LQmGzukY3nTWQ72umLeoPcDB_vAJpCfl4en5Dayc" />
-    <previously-shown />
-    <title lang="en">IMPACT in 60</title>
-  </programme>
   <programme start="20260817193000 +0000" stop="20260817202600 +0000" channel="FightNetwork.us">
     <category lang="en">Pro wrestling</category>
     <desc lang="en">Ohio Valley Wrestling has produced more internationally acclaimed superstars than any other wrestling promotion in the world.</desc>
@@ -3066,15 +3055,14 @@ A look back at several Match of the Year candidates involving former World Champ
     <previously-shown />
     <title lang="en">IMPACT in 60</title>
   </programme>
-  <programme start="20260817190000 +0000" stop="20260817200000 +0000" channel="WillowSports.us">
-    <category lang="en">Cricket</category>
+  <programme start="20260818182700 +0000" stop="20260818193000 +0000" channel="FightNetwork.us">
+    <category lang="en">Pro wrestling</category>
     <category lang="en">Series</category>
-    <category>Sports</category>
-    <desc lang="en">MLC 2026: Unicorns vs Knight Riders - Qualifier
-Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
-    <icon src="https://iptv-epg.org/images/hk4j4pBFSU5U06Ck4vlSBYOp97MpW8cNKzh5--Je622cf-2DsmyOG5sR6qBLVmAZAU5fp-4L1RwDJGU84atP-FjW9XJm683NRR8lBr4IcRA" />
+    <desc lang="en">Desmond Wolfe
+The technical master classes of Desmond Wolfe.</desc>
+    <icon src="https://iptv-epg.org/images/FYMrRkZvgBGjn_okYG3zsnAKLt9uoJiyYjcRy1blFPZiXCfwwP3Q3EL982ur8mxP0K9LQmGzukY3nTWQ72umLeoPcDB_vAJpCfl4en5Dayc" />
     <previously-shown />
-    <title lang="en">Cricket Highlights</title>
+    <title lang="en">IMPACT in 60</title>
   </programme>
   <programme start="20260817200000 +0000" stop="20260817210000 +0000" channel="WillowSports.us">
     <category lang="en">Cricket</category>
@@ -3246,16 +3234,15 @@ Highlights of all the action from international cricket tournaments, where teams
     <previously-shown />
     <title lang="en">Cricket Highlights</title>
   </programme>
-  <programme start="20260817180000 +0000" stop="20260817200000 +0000" channel="WorldPokerTour.us">
-    <category lang="en">Card games</category>
-    <category lang="en">Poker</category>
+  <programme start="20260818120000 +0000" stop="20260818130000 +0000" channel="WillowSports.us">
+    <category lang="en">Cricket</category>
     <category lang="en">Series</category>
     <category>Sports</category>
-    <desc lang="en">Bellagio: Fourth Quarter Action
-Professional Poker Tour</desc>
-    <icon src="https://iptv-epg.org/images/UGueZwNYC9_0GVgiExuMccN1T-GSQfuAkYYikMma000pvvAY4vbYbqZ1krt1pSlZ8ig6mWv2uJ8Q06C6YWziudGt5cX1_INGIeVvf-BHOKs" />
+    <desc lang="en">The Hundred 2026: Brave vs Phoenix - 13th Match
+Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <icon src="https://iptv-epg.org/images/hk4j4pBFSU5U06Ck4vlSBYOp97MpW8cNKzh5--Je622cf-2DsmyOG5sR6qBLVmAZAU5fp-4L1RwDJGU84atP-FjW9XJm683NRR8lBr4IcRA" />
     <previously-shown />
-    <title lang="en">Professional Poker Tour</title>
+    <title lang="en">Cricket Highlights</title>
   </programme>
   <programme start="20260817200000 +0000" stop="20260817220000 +0000" channel="WorldPokerTour.us">
     <category lang="en">Card games</category>
@@ -3444,23 +3431,16 @@ World Poker Tour: Season 8</desc>
     <previously-shown />
     <title lang="en">World Poker Tour: Season 8</title>
   </programme>
-  <programme start="20260817190000 +0000" stop="20260817194500 +0000" channel="SkySportsCricket.uk">
-    <category lang="en">Sports</category>
-    <category lang="en">Cricket</category>
-    <date>2026</date>
-    <desc lang="en">Series Preview: England v Pakistan
-Coverage from a Test match, a contest between two international teams played over five days.</desc>
-    <icon src="https://iptv-epg.org/images/-0l5pV2i4hKAnPRvwT4YGDL3-wa-taFMEcDPUpX_sdzMPt7ml8p4gkQVw6YxtOiHa4YtWyCRbLCq428we__lfPnT_wG9LbSv5NpHZi7KMOkS04k2YSzt1LfmEGlEWKyvbY8tykUDRPxJyUXe98FigdAatimKwUfwhTQkehDt8C2A33Um5zcNzBLieWZBRQTC32IutyojD4BoeEjfj1xZTmn7nVAzGBSVxWjJOkT5wtWXkGqVQ4-WJ86atOeQju193ls6ao9AwIStILwlQe395Am01nHH2UnyGurUhl3O5CXy7oUEE5uoq_mf3jSU3pJl58hUPpCT" />
-    <title lang="en">Test Cricket</title>
-  </programme>
-  <programme start="20260817194500 +0000" stop="20260817200000 +0000" channel="SkySportsCricket.uk">
-    <category lang="en">Sports</category>
-    <category lang="en">Cricket</category>
-    <date>2026</date>
-    <desc lang="en">Women's Final: Trent Rockets v Sunrisers Leeds
-The winners of the 2026 Women's Hundred are crowned in the final at Lord's as SunRisers Leeds, this year's defending champions, take on the table-topping Trent Rockets.</desc>
-    <icon src="https://iptv-epg.org/images/bUjFkZjLk4PNfi-BbtZ96b1xtW9wq8fPht98LrWzQn_1EnpD3h5speMU5YT8lJ40UbJWkVmB2eEVH45f5PtfVOXWa26jXj50-pMay3eHjiLl964XMNaMTmluNQ4Q94tYvJWCVJzWlYffG-YyY2E_uQoNqp6kSOzex3OmNTJM7Rld3AuSdXVHwpbbTbuqauHbWzQoA1WglBX8gmc7UpLHVWCI8WfocEexcmsWRSKvp5GZMs42bPz_kDq4lGnh6yaQdsZ8CeJFNF8lF7-dlsFvCPOpSCO9Veliaw9QYDCUNYrnG7P9kFSI6VfqT2xWQkDL7YCT6znh" />
-    <title lang="en">The Hundred</title>
+  <programme start="20260818150000 +0000" stop="20260818160000 +0000" channel="WorldPokerTour.us">
+    <category lang="en">Card games</category>
+    <category lang="en">Poker</category>
+    <category lang="en">Series</category>
+    <category>Sports</category>
+    <desc lang="en">Borgata Poker Open
+World Poker Tour: Season 8</desc>
+    <icon src="https://iptv-epg.org/images/2gmNlUaPVqPuHTYR-zz2nm0D3TG4FidP3VSepRDAGMyTbALRA72AaHIhE-RlsXQtS0FHxQhP_xWjVgdzXfioz3P5ObKrteAEuPoDo30VDQY" />
+    <previously-shown />
+    <title lang="en">World Poker Tour: Season 8</title>
   </programme>
   <programme start="20260817200000 +0000" stop="20260817210000 +0000" channel="SkySportsCricket.uk">
     <category lang="en">Sports</category>
@@ -3600,26 +3580,20 @@ England attempts to round off an emphatic series win over India in the fifth and
     <icon src="https://iptv-epg.org/images/sHzluVTtjE2qTPabbJn0fJUMF1Bse6E1lLI99ogBTpSk7g6Md9hiM-ne0-VtCC3r9pinq5DRWmXIKZiDaSKu-_StPGPFKinzOenWNfMCxA0ku4Dr7SumFM0H6YpN49M5kGbqYwO7V2EDiJKNIdUFF1sGoWO9JyAGkQxTWefgI-gciJqAjfczUYS70opGH_jUFQvlugNV3iUB6uJ6C2HHUTUY-luCBVoWedQYqv0truaySj6zwHHZUk6cs_xComLOOMK475i679LS-pixI-rIRjV13spcztp3bntFk_9W0sxtxhuqBiSL9b_GfPtymBL7ruk9URXM" />
     <title lang="en">International T20 Cricket</title>
   </programme>
-  <programme start="20260817190000 +0000" stop="20260817193000 +0000" channel="SkySportsPremierLeague.uk">
-    <category lang="en">Documentary</category>
-    <category lang="en">Football</category>
-    <category>Sports</category>
-    <date>2026</date>
-    <desc lang="en">S6 E11 — The Tigers Return
-Hull City's return to the Premier League is the latest chapter in a story built on resilience, ambition and belief. We look back on the club's previous adventures in the top-flight, reliving the moments that shaped its identity before looking ahead to an exciting new era. Joining the Tigers at their pre-season training camp in Slovenia, we go behind the scenes to discover how the club is preparing for the challenges ahead.</desc>
-    <episode-num>S6 E11</episode-num>
-    <icon src="https://iptv-epg.org/images/FFmkKqUybP9PlIwtYqTAC7UDbbfWUQlLrmHMzkClII4TQhMzOn58eot_hedG1c8lM8OtH5bvj_p_ZtQOLXhNmc896woIksPB68vJvHpwGcpqeMJ2z6WLFT3fHBKUrbZmip6LqJmkD3J_qCeFnMquvtp29NJ6vfYPx2yN5Cgq40Z7eIZRzqOpopw_j-LB5nOus_DC7dZmQdZvYm3UBxeL-JWvwJyw904f5EhJ7Tpyq9DaRNk1j5duRnb1DgloTmEIT5y61V4G8uyYx3k16V91s0B6BSbKRaG-7BKNAlcAIEQka81B1PPzKE7NmfdgN3C1pfDqmpKB" />
-    <title lang="en">Premier League Stories</title>
-  </programme>
-  <programme start="20260817193000 +0000" stop="20260817200000 +0000" channel="SkySportsPremierLeague.uk">
+  <programme start="20260818053000 +0000" stop="20260818060000 +0000" channel="SkySportsCricket.uk">
     <category lang="en">Sports</category>
-    <category lang="en">Football</category>
-    <date>2025</date>
-    <desc lang="en">E1 — Yakubu
-Yakubu Ayegbeni tells his story from playing football barefoot in the streets of Nigeria growing up to shining in the Premier League.</desc>
-    <episode-num>E1</episode-num>
-    <icon src="https://iptv-epg.org/images/duxX_S70tCHrOX-l2moyFICa5-y9RXq7WZd08rbHDbKpSOtQX-Qq-iEIwxtFPiKtCgisp70tcO_TDGgEq7I9-hlexEEa4i-XlmXu-oQjrkHNNXWBqOAlskEeI75S9wUbgvHnKjWVpXwCzIC9xwY3LuALvJnbt7QzfMMLNf52u6OwxOk43RQfbyNFk0fpMXSSzMdrFE7w3fhEjqiAdzlotdfzL593NYRMxvqsPdebEv2TUyYfY6fCfusYLrRkRkosOkZZtN8i-acp3cYhJU9OAhQ3U7znYfopCBn92ScGwxmnn3M6jF4LuWlci36IgEy5eWU5wscS" />
-    <title lang="en">Premier League Cult Heroes</title>
+    <category lang="en">Cricket</category>
+    <icon src="https://iptv-epg.org/images/IE90iAHnuGwp3lWBBG4aFsSfhCECGdtuxX004CtW6DODHo4Q1WlR2frC9998LbreF8phlVwge9HRi41p8o0k9Vdn2UcVTROFT_9bl9HEOE4WS5YCnJyMvMZCj1aQLDN_ISVkQCyZRO2sehgyNrcM_CQLWutgmR4j7G0P503wJDC6iGTgkb0BuMtauqOMqpzVpf9JBoGFgl74rS4L6FDP_TxmflmdzmqUtDqBo9fyaAaDEj8mwp861ZA8cz_a6C6vm4Sp4kSWwfv3kffVipbVNxtHxpEmaVc_isdAz9hsUSeVZbHkmO2NMCzYaklv_qMyOMJQ2wKb691JxEoBi5gJjKI" />
+    <title lang="en">Nepal Climbing Cricket's Mountain</title>
+  </programme>
+  <programme start="20260818060000 +0000" stop="20260818070000 +0000" channel="SkySportsCricket.uk">
+    <category lang="en">Sports</category>
+    <category lang="en">Cricket</category>
+    <date>2026</date>
+    <desc lang="en">1st ODI: England v India
+India's white-ball tour of England continues at Edgbaston with the opening ODI in a three-match series.</desc>
+    <icon src="https://iptv-epg.org/images/-XL2pjl8GQQWgGf6dZxc7QoVVY_oZxyBXkTcJC4tjcstkRL-TWxBFB1LajLkIeEZnpdE9pML6aECW5JqYwsWNJkSI9A8dp8S7TRojYxcC5lJ3ymRq23bJOScTuZnviMXTMc4iGAwPVSgIGijfa2-Pngv1wOEk_P3ZUX6SGerkNxKvmeSSMQbSxkkW27U_45d2SPW37ho2gMBVFAh3r2IR-Ap76OvGTi-Xtnqv8bZ0GwZktIR3hAQqYiSxer7cKAWRGZSoFjncBDE1iLHglL99P-Gd6v_7t_i-NAjW1GHCU10H8zPBgaIikZUY6Ndnj21krvi3zCN" />
+    <title lang="en">One-Day International Cricket</title>
   </programme>
   <programme start="20260817200000 +0000" stop="20260817203000 +0000" channel="SkySportsPremierLeague.uk">
     <category lang="en">Sports</category>
@@ -3772,15 +3746,23 @@ Liverpool meet Manchester United at Anfield in 1997, in a match that had a happy
     <icon src="https://iptv-epg.org/images/clX1bT1535KbYBqLlzNKvVjy2HWWs4EkpHQckr83RVpryGdNKexxtZ9wF0_tEXX9kAnXbsFzVk-ihTrRdDvINm2Kxb5eGPspB_4BOpYJulAmt6TTIhaprkJYr9P6QmqaSLWPfm3FsK5FwkUf0GHuhtil8Gg0kbU-NntwTKy39XMTxul1gVFkcoyp-wn0iBjynwtP-XBmJIsnr5fZPIfYfvZJECHCPnKClWDVqtgS5QMhH_3OAv8aJTL6whYJ-I5Qn7mIqwb1_vzRbxeunUL4rtJ7LsU1odaDd93e5IGhWeiZ-hx9zon65p0zXzOi9W17Raq4V1fD" />
     <title lang="en">The Premier League's Greatest Games</title>
   </programme>
-  <programme start="20260817190000 +0000" stop="20260817200000 +0000" channel="TheFightNetwork.ca">
-    <category lang="en">Martial arts</category>
-    <category lang="en">Series</category>
-    <category>Sports</category>
-    <desc lang="en">Jorina Baars
-A look at the rise of Dutch kickboxer Jorina Baars, including her clash with Cristiane Justino for the inaugural Lion Fight Women's World Welterweight Championship.</desc>
-    <icon src="https://iptv-epg.org/images/dMO8VfyYrYKPt7Ca9v2cVgYxfACbHJMayp31dX9Z7FwWKdkOeHL-D78POW9Fn_bohE5RdBkPdzCd6V0Wg82GuLhcngMwbCGON55zMxQNUuc" />
-    <previously-shown />
-    <title lang="en">Fight Network Recharged</title>
+  <programme start="20260818060000 +0000" stop="20260818070000 +0000" channel="SkySportsPremierLeague.uk">
+    <category lang="en">Sports</category>
+    <category lang="en">Football</category>
+    <date>2022</date>
+    <desc lang="en">1997/98
+Relive some of the best goals in years gone by from the Premier League. Here, the finest strikes from the 97-98 campaign, a year in which Arsenal took their first Premier League crown.</desc>
+    <icon src="https://iptv-epg.org/images/_ocJqI3UhjJX6xGyyUhjpnFf5SsYn7kCFQ1JSfN78iS3JUe8sbpqm7aqYCTPYg9wK6aPBwJCTKbHUpL0gTjdpEh5ukRU-cJqcI8xhHMM1jCji484dDI6SqRYdCGyh_eP3EdqBHHRojdeIOjcdFuLrhjRhxB31faJQyhCIQdhs8h_zNiq9Mzg76Cq3fclv4891HKjBDDt6KpzUcHnygIxVgPI1l7vznqU26-u1hK5vO-2t9eELtV5tTcINBRFkJ3BFjTQrw4NGQgJKG3YCG5-QtQ2JTUKm9LKjzWk9nWJMSv_O1L5-BKQP3VF3Jas32J62TToi8rA" />
+    <title lang="en">Best Premier League Goals</title>
+  </programme>
+  <programme start="20260818070000 +0000" stop="20260818073000 +0000" channel="SkySportsPremierLeague.uk">
+    <category lang="en">Sports</category>
+    <category lang="en">Football</category>
+    <date>2025</date>
+    <desc lang="en">Erling Haaland
+As the unstoppable Erling Haaland storms his way into the Premier League's 100 Club, celebrate City's Norwegian goalscoring powerhouse that shows no signs of slowing down.</desc>
+    <icon src="https://iptv-epg.org/images/96gKz34k1JbA-QEeUfEVID5DpmRp_I82xgbpz1POlCvwUZE1NAFHy_JsILXLa37HQ1wSDi9oJLIu-Qb4crQfB7nzQwRHYp4T5sTtj9iKMkS-bAputAVEsFQSsJIbEicQ9qefRMKoEd2asC1xmp9NoTfwPjIxnkiTJ81Hj-1-iLbcJQ6PhyWTBNM1i7r4_eOg6NYSRVyTXXI8rdZIFU7WcLtWHVqaBckoM2Fv9EdWKOmlPaIAEVid5h20Cy4MJaCUOBkLOF1g7S2X5NohY3uc383i5eb93FLhBlDlXwG0Yd4ViwCtT1DTA5Iyt574yKDf3bm1mNGP" />
+    <title lang="en">Premier League 100 Club</title>
   </programme>
   <programme start="20260817200000 +0000" stop="20260817210000 +0000" channel="TheFightNetwork.ca">
     <category lang="en">Martial arts</category>
@@ -3941,19 +3923,15 @@ An exclusive tell-all interview with GLORY Kickboxing legend "Bazooka" Joe Valte
     <previously-shown />
     <title lang="en">Retrospective</title>
   </programme>
-  <programme start="20260817190000 +0000" stop="20260817193000 +0000" channel="GameTVCanada.ca">
-    <category lang="en">Game show</category>
-    <date>1973</date>
-    <desc lang="en">Gene Rayburn hosts this comedy-game show hybrid in which contestants try to match answers given by celebrities to humorous, and often risqué, fill-in-the-blank questions.</desc>
-    <icon src="https://iptv-epg.org/images/slOnajJsTsnVURecihJFNWpezzdQrG_G9Bi0hk1xxl6LPHX051i1TEjIX1FAH8cjWGHrU9OerOSFoTbr9_6XeHidSp01Wee54YekPMnRd2I" />
-    <title lang="en">Match Game</title>
-  </programme>
-  <programme start="20260817193000 +0000" stop="20260817200000 +0000" channel="GameTVCanada.ca">
-    <category lang="en">Game show</category>
-    <date>1980</date>
-    <desc lang="en">Chain Reaction</desc>
-    <icon src="https://iptv-epg.org/images/vKT2GKkpXShZ-96K85OEdz-_5S8NEr4KovvizQeaGgXTvDoqUU-GOzWk1uvC4iDOShsBB4u5uiJo7It2rnTdH2PSPjZfIJC6JT3RzfJ-JJU" />
-    <title lang="en">Chain Reaction</title>
+  <programme start="20260818123000 +0000" stop="20260818130000 +0000" channel="TheFightNetwork.ca">
+    <category lang="en">Martial arts</category>
+    <category lang="en">Series</category>
+    <category>Sports</category>
+    <desc lang="en">KC Navarro: Worth the Fight
+After a major injury and surgery, KC Navarro fights his way back to TNA with something to prove; bullied as a child for loving wrestling and doubted for being too small to make it, KC reflects on the sacrifices and setbacks.</desc>
+    <icon src="https://iptv-epg.org/images/XXwzEOQSET7JPPCDLMX5vSGpKPOMrsYJ-sbyjebf4By7e9yF7DkSWN9Ep0HW5FGtsQ81kOQKEpqRJyGjGfT4M1CWrXCjLnUIKvlvX9Q1ncE" />
+    <previously-shown />
+    <title lang="en">Immersed</title>
   </programme>
   <programme start="20260817200000 +0000" stop="20260817203000 +0000" channel="GameTVCanada.ca">
     <category lang="en">Game show</category>
@@ -4123,15 +4101,26 @@ Contestants dressed in outrageous costumes trade items for either more valuable 
     <icon src="https://iptv-epg.org/images/oZoJPUzbd8nD4jeU1GvUQZ3FsSR2JLdH5skDpRgfJ7-l0V36ZczdkXQR7XLsPoOSrs6BH2ZnRB-9gHQGZUeAAKvI1r4oPWdyqDNlzTq8Q8U" />
     <title lang="en">Hollywood Squares</title>
   </programme>
-  <programme start="20260817190000 +0000" stop="20260817200000 +0000" channel="NBATV.ca">
-    <category lang="en">Basketball</category>
-    <category lang="en">Sports talk</category>
-    <category>Sports</category>
+  <programme start="20260818080000 +0000" stop="20260818083000 +0000" channel="GameTVCanada.ca">
+    <category lang="en">Game show</category>
+    <category lang="en">Series</category>
+    <desc lang="en">S04 E72
+Two families compete to guess the most popular answers to family-friendly survey questions, with a Canadian twist.</desc>
+    <episode-num>S04 E72</episode-num>
+    <icon src="https://iptv-epg.org/images/HqmeeV_Js6PVkdYGCp9qYhWQW6Zs-ISbGsZVDvnnDmn2ceL2yoT-j-eCNKEpYaw-zBvU90pY5Ob56RqNnH-q6-Rgaqwes_hhoJRJOljTSZY" />
+    <previously-shown />
+    <title lang="en">Family Feud Canada</title>
+  </programme>
+  <programme start="20260818083000 +0000" stop="20260818090000 +0000" channel="GameTVCanada.ca">
+    <category lang="en">Game show</category>
+    <category lang="en">Series</category>
     <date>2022</date>
-    <desc lang="en">Michelle Beadle, Chandler Parsons and Lou Williams discuss the biggest NBA games, matchups and storylines from around the league.</desc>
-    <icon src="https://iptv-epg.org/images/2HPvMdYSpLbpuMIwumtnz55l-JUETBqVMdQpCQndgIj6E2Vckt8f60Wm20BKmWMfqqVMAqVZ0GNo7XeqMe5sgvjcowK7hvnv_k5Z-i83z08" />
-    <title lang="en">Run It Back</title>
-    <new />
+    <desc lang="en">S23 E116
+Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
+    <episode-num>S23 E116</episode-num>
+    <icon src="https://iptv-epg.org/images/zV9LJ6T6tfJaHB6S9y7Q4z_ASaZ5M_Coou9aN_964J-TWZ2B334-A0EdAi7vlgH44vpq2Qrw8KbMPe4o0EFLMeauGtMBLdcD4DAifKZqAPg" />
+    <previously-shown />
+    <title lang="en">Family Feud</title>
   </programme>
   <programme start="20260817200000 +0000" stop="20260817230000 +0000" channel="NBATV.ca">
     <category lang="en">Sports</category>
@@ -4267,6 +4256,15 @@ Contestants dressed in outrageous costumes trade items for either more valuable 
     <desc lang="en">Adam Silver outlines the NBA's future, with expansion timelines, NBA Europe momentum and possible changes to the NBA Cup; we run the NBA Hater Report on Orlando, Golden State and Cleveland, then play Hammer It or Not as trades are debated.</desc>
     <icon src="https://iptv-epg.org/images/JN6iU0iwsPk5hhmnC5stWCTTQ3a99P51-8b24vYB34Yxpnyt6Y9IAMotO2RInI-tJPZTgDYnWazQvg0FD0pF8e50v6zEBtrEO78iNYkV33U" />
     <title lang="en">Basketball Past, Present and Future</title>
+  </programme>
+  <programme start="20260818143000 +0000" stop="20260818150000 +0000" channel="NBATV.ca">
+    <category lang="en">Basketball</category>
+    <category lang="en">Special</category>
+    <category>Sports</category>
+    <date>2025</date>
+    <desc lang="en">Countdown of the top 60 dunks from the 2024-25 NBA season.</desc>
+    <icon src="https://iptv-epg.org/images/44ydVbhReqzY5rvBH_0XGKSUa7cOE8kJGJ6ysvH9TMr2PZmek3o3ZucvHzzzNbMXLis07akhGCcc2oZ0dzGw1QrosktNxsxooQrk-qCihNg" />
+    <title lang="en">Top 60 Dunks from 2024-2025 Season</title>
   </programme>
   <programme start="20260817183000 +0000" stop="20260817210000 +0000" channel="NFLNetwork.ca">
     <category lang="en">Sports</category>
@@ -4544,19 +4542,6 @@ TUE 18 AUG - Corey Parker sits down with an all-star panel to break down breakin
     <desc lang="en">Tue 18 Aug - Missed the latest NRL action? Lara Pitt showcases the best tries from the latest round of the NRL Telstra Premiership in a jam-packed hour.</desc>
     <title lang="en">NRL Try Time</title>
   </programme>
-  <programme start="20260817190000 +0000" stop="20260817193000 +0000" channel="SkySport2.nz">
-    <category lang="en">Sports</category>
-    <category lang="en">Episode</category>
-    <desc lang="en">World Series Darts: New Zealand Hls
-Highlights of World Series Darts: New Zealand Darts Masters. Eight of the biggest names in world darts compete against eight Oceanic representatives at the premier Darts event held at the Spark Arena, Auckland.</desc>
-    <title lang="en">World Series Darts</title>
-  </programme>
-  <programme start="20260817193000 +0000" stop="20260817200000 +0000" channel="SkySport2.nz">
-    <category lang="en">Sports</category>
-    <category lang="en">Episode</category>
-    <desc lang="en">Mon 17 Aug -Shaun Johnson like you've never seen before! Join SJ and his mates in the Ford League Lounge for expert analysis, player insights, and everything Warriors and Rugby League—the league show Kiwis have been dreaming about.</desc>
-    <title lang="en">League Lounge With Shaun Johnson</title>
-  </programme>
   <programme start="20260817200000 +0000" stop="20260817220000 +0000" channel="SkySport2.nz">
     <category lang="en">Sports</category>
     <category lang="en">Episode</category>
@@ -4667,18 +4652,17 @@ Extended highlights from match 9 of the Caribbean Premier League between the St 
 Highlights of the PFL Charlotte event showcase elite MMA action, explosive finishes and high-stakes matchups as world-class fighters compete under the lights in a thrilling night of combat sports.</desc>
     <title lang="en">PFL</title>
   </programme>
-  <programme start="20260817190000 +0000" stop="20260817193000 +0000" channel="SkySport3.nz">
+  <programme start="20260818180000 +0000" stop="20260818190000 +0000" channel="SkySport2.nz">
     <category lang="en">Sports</category>
     <category lang="en">Episode</category>
-    <desc lang="en">MON 17 AUG-  Join the team for an alternative dose of sports news, delivering the best (and worst) sporting moments the only way they know how, with a little cheek!</desc>
-    <title lang="en">The Crowd Goes Wild</title>
+    <desc lang="en">TUE 18 AUG Braith Anasta &amp; Gorden Tallis set the agenda during 2026, with breaking news &amp; opinions. Plus journalists, players &amp; coaches with views on what’s topical.</desc>
+    <title lang="en">NRL 360</title>
   </programme>
-  <programme start="20260817193000 +0000" stop="20260817200000 +0000" channel="SkySport3.nz">
+  <programme start="20260818190000 +0000" stop="20260818193000 +0000" channel="SkySport2.nz">
     <category lang="en">Sports</category>
     <category lang="en">Episode</category>
-    <desc lang="en">PGA Tour: Round 4 Hls
-Highlights of Round 4 of the PGA Tour: Fedex St. Jude Championship held at TPC Southwind, Memphis, Tennessee.</desc>
-    <title lang="en">PGA Tour</title>
+    <desc lang="en">Tue 18 Aug - Yvonne Sampson and Jake Duke sit down with rugby league's biggest names for revealing conversations that uncover the game's driving stories.</desc>
+    <title lang="en">Rugby League: Face To Face On Fox</title>
   </programme>
   <programme start="20260817200000 +0000" stop="20260817221500 +0000" channel="SkySport3.nz">
     <category lang="en">Sports</category>
@@ -4790,12 +4774,18 @@ Wrap of the first Test match between Australia and Bangladesh at Marrara Stadium
 Highlights of the INDYCAR series, Markham from Streets of Markham, Ontario.</desc>
     <title lang="en">Indycar</title>
   </programme>
-  <programme start="20260817180000 +0000" stop="20260817200000 +0000" channel="SkySport4.nz">
+  <programme start="20260818101500 +0000" stop="20260818111500 +0000" channel="SkySport3.nz">
     <category lang="en">Sports</category>
     <category lang="en">Episode</category>
-    <desc lang="en">NRL: Panthers v Roosters
-Coverage of the NRL 2026 Round 24 game between the Penrith Panthers and the Sydney Roosters at CommBank Stadium, Sydney.</desc>
-    <title lang="en">NRL Premiership</title>
+    <desc lang="en">The Agenda Setter: Rugby League
+TUE 18 AUG - Corey Parker sits down with an all-star panel to break down breaking news and the latest Rugby League matches.</desc>
+    <title lang="en">The Agenda Setters</title>
+  </programme>
+  <programme start="20260818111500 +0000" stop="20260818121500 +0000" channel="SkySport3.nz">
+    <category lang="en">Sports</category>
+    <category lang="en">Episode</category>
+    <desc lang="en">TUE 18 AUG Braith Anasta &amp; Gorden Tallis set the agenda during 2026, with breaking news &amp; opinions. Plus journalists, players &amp; coaches with views on what’s topical.</desc>
+    <title lang="en">NRL 360</title>
   </programme>
   <programme start="20260817200000 +0000" stop="20260817220000 +0000" channel="SkySport4.nz">
     <category lang="en">Sports</category>
@@ -4912,6 +4902,13 @@ Wrap of the first Test match between Australia and Bangladesh at Marrara Stadium
     <desc lang="en">LPGA: Event Hls
 Event Highlights of The Standard Portland Classic from Columbia Edgewater Country Club in Portland, Oregon.</desc>
     <title lang="en">LPGA</title>
+  </programme>
+  <programme start="20260818164500 +0000" stop="20260818170000 +0000" channel="SkySport4.nz">
+    <category lang="en">Sports</category>
+    <category lang="en">Episode</category>
+    <desc lang="en">INDYCAR: Markham Hls
+Highlights of the INDYCAR series, Markham from Streets of Markham, Ontario.</desc>
+    <title lang="en">Indycar</title>
   </programme>
   <programme start="20260817180000 +0000" stop="20260817203000 +0000" channel="SkySport5.nz">
     <category lang="en">Sports</category>
@@ -5038,6 +5035,96 @@ Coverage from Round 5 of the Currie Cup between Suzuki Griquas and Hollywoodbets
 Coverage from Round 5 of the Currie Cup between the Airlink Pumas and DHL Stormers XXIII at Mbombela Stadium, Nelspruit.</desc>
     <title lang="en">Currie Cup</title>
   </programme>
+  <programme channel="558120" start="20260817200000 +0000" stop="20260817210000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="558120" start="20260817210000 +0000" stop="20260817220000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="558120" start="20260817220000 +0000" stop="20260817223000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="558120" start="20260817223000 +0000" stop="20260817230000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="558120" start="20260817230000 +0000" stop="20260818000000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="558120" start="20260818000000 +0000" stop="20260818010000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="558120" start="20260818010000 +0000" stop="20260818020000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="558120" start="20260818020000 +0000" stop="20260818030000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="558120" start="20260818030000 +0000" stop="20260818040000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="558120" start="20260818040000 +0000" stop="20260818050000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="558120" start="20260818050000 +0000" stop="20260818060000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="558120" start="20260818060000 +0000" stop="20260818070000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="558120" start="20260818070000 +0000" stop="20260818080000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="558120" start="20260818080000 +0000" stop="20260818090000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="558120" start="20260818090000 +0000" stop="20260818100000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="558120" start="20260818100000 +0000" stop="20260818110000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="558120" start="20260818110000 +0000" stop="20260818120000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="558120" start="20260818120000 +0000" stop="20260818130000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-18</date>
+  </programme>
   <programme channel="465410" start="20260818010000 +0500" stop="20260818020000 +0500">
     <title lang="zh">The Domonique Foxworth Show</title>
     <desc>Domonique Foxworth shares his take on current sports events and participants.</desc>
@@ -5128,11 +5215,6 @@ Coverage from Round 5 of the Currie Cup between the Airlink Pumas and DHL Storme
     <desc>Corgis from throughout the Pacific Northwest will be at Emerald Downs Racetrack in Auburn, Wash., for the annual Corgi Races. There will be six heats with the top two finishers in each heat qualifying for the Championship race.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="465010" start="20260817190000 +0000" stop="20260817200000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
-    <date>2026-08-17</date>
-  </programme>
   <programme channel="465010" start="20260817200000 +0000" stop="20260817210000 +0000">
     <title lang="zh">Cricket Highlights</title>
     <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
@@ -5218,10 +5300,10 @@ Coverage from Round 5 of the Currie Cup between the Airlink Pumas and DHL Storme
     <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="464905" start="20260817180000 +0000" stop="20260817200000 +0000">
-    <title lang="zh">Best of Islanders</title>
-    <desc>From Nov. 23, 2025.</desc>
-    <date>2026-08-17</date>
+  <programme channel="465010" start="20260818150000 +0000" stop="20260818160000 +0000">
+    <title lang="zh">Cricket Highlights</title>
+    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+    <date>2026-08-18</date>
   </programme>
   <programme channel="464905" start="20260817200000 +0000" stop="20260817210000 +0000">
     <title lang="zh">Poker</title>
@@ -5308,89 +5390,429 @@ Coverage from Round 5 of the Currie Cup between the Airlink Pumas and DHL Storme
     <desc>Back Pain? Hip? Sleep well thanks to this cooling topper!</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="558120" start="20260817190000 +0000" stop="20260817200000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="219104" start="20260817191000 +0000" stop="20260817213000 +0000">
+    <title lang="zh">Live Coppa Italia</title>
+    <desc>Palermo v Lecce (Kick-off 8.15pm). Coverage of the second-round tie at Stadio Renzo Barbera.</desc>
     <date>2026-08-17</date>
   </programme>
-  <programme channel="558120" start="20260817200000 +0000" stop="20260817210000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="219104" start="20260817213000 +0000" stop="20260817220000 +0000">
+    <title lang="zh">Football's Greatest</title>
+    <desc>The finest players in history discuss their careers.</desc>
     <date>2026-08-17</date>
   </programme>
-  <programme channel="558120" start="20260817210000 +0000" stop="20260817220000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="219104" start="20260817220000 +0000" stop="20260817223000 +0000">
+    <title lang="zh">Football's Greatest</title>
+    <desc>The finest players in history discuss their careers.</desc>
     <date>2026-08-17</date>
   </programme>
-  <programme channel="558120" start="20260817220000 +0000" stop="20260817223000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="219104" start="20260817223000 +0000" stop="20260818000000 +0000">
+    <title lang="zh">Coppa Italia</title>
+    <desc>Cremonese v Sampdoria.</desc>
     <date>2026-08-17</date>
   </programme>
-  <programme channel="558120" start="20260817223000 +0000" stop="20260817230000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="219104" start="20260818003000 +0000" stop="20260818043000 +0000">
+    <title lang="zh">NASCAR</title>
+    <desc>A chance to see the Cookout 400.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219104" start="20260818043000 +0000" stop="20260818050000 +0000">
+    <title lang="zh">Football's Greatest</title>
+    <desc>The finest players in history discuss their careers.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219104" start="20260818050000 +0000" stop="20260818053000 +0000">
+    <title lang="zh">Football's Greatest</title>
+    <desc>The finest players in history discuss their careers.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219104" start="20260818053000 +0000" stop="20260818060000 +0000">
+    <title lang="zh">Football's Greatest</title>
+    <desc>The finest players in history discuss their careers.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219104" start="20260818060000 +0000" stop="20260818090000 +0000">
+    <title lang="zh">NASCAR Trucks</title>
+    <desc>Action from Richmond Raceway.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219104" start="20260818090000 +0000" stop="20260818093000 +0000">
+    <title lang="zh">Bike World</title>
+    <desc>The latest news and reports from two-wheel competitions.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219104" start="20260818093000 +0000" stop="20260818113000 +0000">
+    <title lang="zh">Coppa Italia</title>
+    <desc>Palermo v Lecce.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219104" start="20260818113000 +0000" stop="20260818120000 +0000">
+    <title lang="zh">Temples of Sport</title>
+    <desc>Iconic sporting venues from around the globe.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219104" start="20260818120000 +0000" stop="20260818123000 +0000">
+    <title lang="zh">Temples of Sport</title>
+    <desc>Iconic sporting venues from around the globe.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219104" start="20260818123000 +0000" stop="20260818143000 +0000">
+    <title lang="zh">Coppa Italia</title>
+    <desc>Cremonese v Sampdoria.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219104" start="20260818143000 +0000" stop="20260818150000 +0000">
+    <title lang="zh">Temples of Sport</title>
+    <desc>Iconic sporting venues from around the globe.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219104" start="20260818150000 +0000" stop="20260818170000 +0000">
+    <title lang="zh">Brasileiro Serie A</title>
+    <desc>Mirassol v Flamengo.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219104" start="20260818170000 +0000" stop="20260818190000 +0000">
+    <title lang="zh">Argentine Primera</title>
+    <desc>River Plate v Argentinos Juniors.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465225" start="20260817100000 +0000" stop="20260817220000 +0000">
+    <title lang="zh">Live: WEEI/NESN Jimmy Fund Telethon</title>
+    <desc />
     <date>2026-08-17</date>
   </programme>
-  <programme channel="558120" start="20260817230000 +0000" stop="20260818000000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="465225" start="20260817220000 +0000" stop="20260817223000 +0000">
+    <title lang="zh">Live: Red Sox First Pitch</title>
+    <desc>A preview of the upcoming game and news and analysis from industry insiders.</desc>
     <date>2026-08-17</date>
   </programme>
-  <programme channel="558120" start="20260818000000 +0000" stop="20260818010000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="465225" start="20260817223000 +0000" stop="20260817230000 +0000">
+    <title lang="zh">Red Sox GameDay Live</title>
+    <desc>The latest pregame news and commentary about the Red Sox, plus exclusive features and analysis with former players and writers.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="465225" start="20260817230000 +0000" stop="20260818000000 +0000">
+    <title lang="zh">Live: MLB Baseball</title>
+    <desc>From Fenway Park in Boston.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="465225" start="20260818020000 +0000" stop="20260818023000 +0000">
+    <title lang="zh">Red Sox Extra Innings Live</title>
+    <desc>A complete breakdown of the game, postgame reaction from the players, and highlights from around the league.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="558120" start="20260818010000 +0000" stop="20260818020000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="465225" start="20260818023000 +0000" stop="20260818030000 +0000">
+    <title lang="zh">Live: Red Sox Final</title>
+    <desc>A complete breakdown of the game, postgame reaction from the players and highlights from around the league.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="558120" start="20260818020000 +0000" stop="20260818030000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="465225" start="20260818030000 +0000" stop="20260818040000 +0000">
+    <title lang="zh">Live: WEEI/NESN Jimmy Fund Telethon</title>
+    <desc />
     <date>2026-08-18</date>
   </programme>
-  <programme channel="558120" start="20260818030000 +0000" stop="20260818040000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="465225" start="20260818040000 +0000" stop="20260818050000 +0000">
+    <title lang="zh">The Varsity With John Ourand</title>
+    <desc>Journalist John Ourand and industry experts report on executive decisions, team ownership, and media deals across the sports industry.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="558120" start="20260818040000 +0000" stop="20260818050000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="465225" start="20260818050000 +0000" stop="20260818070000 +0000">
+    <title lang="zh">MLB Baseball</title>
+    <desc>From Fenway Park in Boston.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="558120" start="20260818050000 +0000" stop="20260818060000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="465225" start="20260818070000 +0000" stop="20260818073000 +0000">
+    <title lang="zh">Red Sox Extra Innings Live</title>
+    <desc>A complete breakdown of the game, postgame reaction from the players, and highlights from around the league.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="558120" start="20260818060000 +0000" stop="20260818070000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="465225" start="20260818073000 +0000" stop="20260818080000 +0000">
+    <title lang="zh">Red Sox Final</title>
+    <desc>A complete breakdown of the game, postgame reaction from the players and highlights from around the league.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="558120" start="20260818070000 +0000" stop="20260818080000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="465225" start="20260818080000 +0000" stop="20260818083000 +0000">
+    <title lang="zh">Fight Sports: Grand Sumo</title>
+    <desc>Show 1 featuring Kakuryu, Ikioi, Endo and Yutakayama from the Aki basho, 2018.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="558120" start="20260818080000 +0000" stop="20260818090000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="465225" start="20260818083000 +0000" stop="20260818090000 +0000">
+    <title lang="zh">Fight Sports: Grand Sumo</title>
+    <desc>Show 2 featuring Chiyonokuni, Tamawashi, Takayasu and Chiyotairyu from the Aki basho, 2018.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="558120" start="20260818090000 +0000" stop="20260818100000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="465225" start="20260818090000 +0000" stop="20260818093000 +0000">
+    <title lang="zh">Red Sox Extra Innings Live</title>
+    <desc>A complete breakdown of the game, postgame reaction from the players, and highlights from around the league.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="558120" start="20260818100000 +0000" stop="20260818110000 +0000">
-    <title lang="zh">Cricket Highlights</title>
-    <desc>Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
+  <programme channel="465225" start="20260818093000 +0000" stop="20260818100000 +0000">
+    <title lang="zh">Red Sox Final</title>
+    <desc>A complete breakdown of the game, postgame reaction from the players and highlights from around the league.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465225" start="20260818100000 +0000" stop="20260818220000 +0000">
+    <title lang="zh">Live: WEEI/NESN Jimmy Fund Telethon</title>
+    <desc />
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465225" start="20260818220000 +0000" stop="20260818223000 +0000">
+    <title lang="zh">Live: Red Sox First Pitch</title>
+    <desc>A preview of the upcoming game and news and analysis from industry insiders.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219100" start="20260817185500 +0000" stop="20260817210000 +0000">
+    <title lang="zh">Live LaLiga</title>
+    <desc>Deportivo La Coruna v Elche (Kick-off 8.00pm). Coverage of the match at Estadio Abanca-Riazor.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="219100" start="20260817210000 +0000" stop="20260817213000 +0000">
+    <title lang="zh">Sporting Greats</title>
+    <desc>Legendary sporting figures discuss their careers.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="219100" start="20260817213000 +0000" stop="20260817220000 +0000">
+    <title lang="zh">Sporting Countdowns</title>
+    <desc>Focusing on some of the most memorable moments in sports history.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="219100" start="20260817220000 +0000" stop="20260818000000 +0000">
+    <title lang="zh">Coppa Italia</title>
+    <desc>Sassuolo v Cesena.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="219100" start="20260818000000 +0000" stop="20260818020000 +0000">
+    <title lang="zh">LaLiga</title>
+    <desc>Alaves v Getafe.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219100" start="20260818020000 +0000" stop="20260818023000 +0000">
+    <title lang="zh">Sporting Greats</title>
+    <desc>Legendary sporting figures discuss their careers.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219100" start="20260818023000 +0000" stop="20260818024500 +0000">
+    <title lang="zh">Africa Eco Race</title>
+    <desc>The latest motorsport highlights from the Africa Eco race.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219100" start="20260818024500 +0000" stop="20260818050000 +0000">
+    <title lang="zh">NHL Ice Hockey</title>
+    <desc>Carolina Hurricanes v Vegas Golden Knights in game one of the Stanley Cup finals.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219100" start="20260818050000 +0000" stop="20260818053000 +0000">
+    <title lang="zh">Sporting Countdowns</title>
+    <desc>Focusing on some of the most memorable moments in sports history.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219100" start="20260818053000 +0000" stop="20260818060000 +0000">
+    <title lang="zh">Sporting Countdowns</title>
+    <desc>Focusing on some of the most memorable moments in sports history.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219100" start="20260818060000 +0000" stop="20260818080000 +0000">
+    <title lang="zh">LaLiga</title>
+    <desc>Deportivo La Coruna v Elche.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219100" start="20260818080000 +0000" stop="20260818090000 +0000">
+    <title lang="zh">NASCAR Highlights</title>
+    <desc>Action from the Cook Out 400.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219100" start="20260818090000 +0000" stop="20260818091000 +0000">
+    <title lang="zh">LaLiga Match Highlights</title>
+    <desc>Alaves v Getafe.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219100" start="20260818091000 +0000" stop="20260818092000 +0000">
+    <title lang="zh">LaLiga Match Highlights</title>
+    <desc>Racing Santander v Villarreal.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219100" start="20260818092000 +0000" stop="20260818093000 +0000">
+    <title lang="zh">LaLiga Match Highlights</title>
+    <desc>Espanyol v Levante.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219100" start="20260818093000 +0000" stop="20260818094000 +0000">
+    <title lang="zh">LaLiga Match Highlights</title>
+    <desc>Celta Vigo v Osasuna.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="219100" start="20260818094000 +0000" stop="20260818095500 +0000">
+    <title lang="zh">LaLiga Match Highlights</title>
+    <desc>Deportivo La Coruna v Elche.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465348" start="20260817190000 +0000" stop="20260817203000 +0000">
+    <title lang="zh">NHL Hockey</title>
+    <desc>The Carolina Hurricanes and the Montreal Canadiens play Game 4 of the Eastern Conference Finals at Bell Centre. Carolina currently leads the series 2-1. Nick Suzuki scored 101 points for Montreal, while Sebastian Aho leads Carolina with 80 points.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="465348" start="20260817203000 +0000" stop="20260817220000 +0000">
+    <title lang="zh">NHL Hockey</title>
+    <desc>The Carolina Hurricanes and the Montreal Canadiens play Game 5 of the Eastern Conference Finals at Lenovo Center. Carolina currently leads the series 3-1. Cole Caufield leads Montreal with 51 goals, while Seth Jarvis leads Carolina with 32 goals.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="465348" start="20260817220000 +0000" stop="20260818000000 +0000">
+    <title lang="zh">3ICE</title>
+    <desc>3ICE is a three-on-three professional ice hockey league designed to give fans the on-ice speed, skill, and excitement they love at an unprecedented pace.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="465348" start="20260818010000 +0000" stop="20260818050000 +0000">
+    <title lang="zh">2026 NHL Draft</title>
+    <desc>From the KeyBank Center in Buffalo, New York, USA.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465348" start="20260818050000 +0000" stop="20260818060000 +0000">
+    <title lang="zh">Top 20 Defensemen Right Now</title>
+    <desc>Top defensemen in hockey.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465348" start="20260818060000 +0000" stop="20260818070000 +0000">
+    <title lang="zh">Top 20 Wings Right Now</title>
+    <desc>Top 20 wings in the NHL.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465348" start="20260818070000 +0000" stop="20260818080000 +0000">
+    <title lang="zh">Top 10 Goalies Right Now</title>
+    <desc>Top goalies in hockey.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465348" start="20260818080000 +0000" stop="20260818090000 +0000">
+    <title lang="zh">Top 20 Defensemen Right Now</title>
+    <desc>Top defensemen in hockey.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465348" start="20260818090000 +0000" stop="20260818100000 +0000">
+    <title lang="zh">Top 20 Wings Right Now</title>
+    <desc>Top 20 wings in the NHL.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465348" start="20260818100000 +0000" stop="20260818110000 +0000">
+    <title lang="zh">Top 10 Goalies Right Now</title>
+    <desc>Top goalies in hockey.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465348" start="20260818110000 +0000" stop="20260818140000 +0000">
+    <title lang="zh">3ICE</title>
+    <desc>3ICE is a three-on-three professional ice hockey league designed to give fans the on-ice speed, skill, and excitement they love at an unprecedented pace.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465348" start="20260818140000 +0000" stop="20260818160000 +0000">
+    <title lang="zh">NHL Hockey</title>
+    <desc>Game 7 of the Eastern Conference Finals. From May 26, 2000.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465348" start="20260818160000 +0000" stop="20260818180000 +0000">
+    <title lang="zh">NHL Hockey</title>
+    <desc>Game 7 of the 2003 Stanley Cup Finals, from June 9, 2003.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465348" start="20260818180000 +0000" stop="20260818200000 +0000">
+    <title lang="zh">NHL Hockey</title>
+    <desc>Martin Brodeur's 104th Career Shutout. From Dec. 21, 2009.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465348" start="20260818200000 +0000" stop="20260818220000 +0000">
+    <title lang="zh">NHL Hockey</title>
+    <desc>Martin Brodeur becomes the all-time wins leader. From March 17, 2009.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465348" start="20260818220000 +0000" stop="20260818230000 +0000">
+    <title lang="zh">Live: NHL Tonight</title>
+    <desc>Whip around through live look-ins, real-time scores, breaking news and expert analysis with the studio hosts and seasoned NHL veterans. Stay on top of all the action around the league with NHL Tonight.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465348" start="20260818230000 +0000" stop="20260819000000 +0000">
+    <title lang="zh">NHL Tonight</title>
+    <desc>Whip around through live look-ins, real-time scores, breaking news and expert analysis with the studio hosts and seasoned NHL veterans. Stay on top of all the action around the league with NHL Tonight.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465033" start="20260817200000 +0000" stop="20260817210000 +0000">
+    <title lang="zh">A New York Knicks Podcast: Garden Party</title>
+    <desc />
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="465033" start="20260817210000 +0000" stop="20260818000000 +0000">
+    <title lang="zh">Major League Pickleball</title>
+    <desc>Coverage of team pickleball events from different venues and locations.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="465033" start="20260818010000 +0000" stop="20260818013000 +0000">
+    <title lang="zh">The Wager</title>
+    <desc>Jason and Wes challenge Shawn Johnson and her husband Andrew East.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465033" start="20260818013000 +0000" stop="20260818020000 +0000">
+    <title lang="zh">The Wager</title>
+    <desc>Jason Kennedy and Wes Burrows challenge Austin North and Doug Ellin.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465033" start="20260818020000 +0000" stop="20260818040000 +0000">
+    <title lang="zh">Best of the Knicks</title>
+    <desc>From Nov. 26, 2025.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465033" start="20260818040000 +0000" stop="20260818060000 +0000">
+    <title lang="zh">Best of the Knicks</title>
+    <desc>From Nov. 30, 2025.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465033" start="20260818060000 +0000" stop="20260818063000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465033" start="20260818063000 +0000" stop="20260818070000 +0000">
+    <title lang="zh">The Aging Brain</title>
+    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465033" start="20260818070000 +0000" stop="20260818073000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465033" start="20260818073000 +0000" stop="20260818080000 +0000">
+    <title lang="zh">The Aging Brain</title>
+    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465033" start="20260818080000 +0000" stop="20260818083000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465033" start="20260818083000 +0000" stop="20260818090000 +0000">
+    <title lang="zh">The Aging Brain</title>
+    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465033" start="20260818090000 +0000" stop="20260818093000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465033" start="20260818093000 +0000" stop="20260818100000 +0000">
+    <title lang="zh">The Aging Brain</title>
+    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465033" start="20260818100000 +0000" stop="20260818103000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465033" start="20260818103000 +0000" stop="20260818110000 +0000">
+    <title lang="zh">The Aging Brain</title>
+    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465033" start="20260818110000 +0000" stop="20260818113000 +0000">
+    <title lang="zh">DraftKings Casino Report</title>
+    <desc>DraftKings Casino, a top-rated casino app!</desc>
     <date>2026-08-18</date>
   </programme>
   <programme channel="464912" start="20260817190000 +0000" stop="20260817203000 +0000">
@@ -5563,516 +5985,6 @@ Coverage from Round 5 of the Currie Cup between the Airlink Pumas and DHL Storme
     <desc>The winner of our Liverpools Greatest poll is revealed. See who is crowned the Reds' best men's player of all time, after a huge vote with the views of fans, former players, journalists and more.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="465033" start="20260817190000 +0000" stop="20260817200000 +0000">
-    <title lang="zh">A New York Knicks Podcast: Garden Party</title>
-    <desc />
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="465033" start="20260817200000 +0000" stop="20260817210000 +0000">
-    <title lang="zh">A New York Knicks Podcast: Garden Party</title>
-    <desc />
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="465033" start="20260817210000 +0000" stop="20260818000000 +0000">
-    <title lang="zh">Major League Pickleball</title>
-    <desc>Coverage of team pickleball events from different venues and locations.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="465033" start="20260818010000 +0000" stop="20260818013000 +0000">
-    <title lang="zh">The Wager</title>
-    <desc>Jason and Wes challenge Shawn Johnson and her husband Andrew East.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465033" start="20260818013000 +0000" stop="20260818020000 +0000">
-    <title lang="zh">The Wager</title>
-    <desc>Jason Kennedy and Wes Burrows challenge Austin North and Doug Ellin.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465033" start="20260818020000 +0000" stop="20260818040000 +0000">
-    <title lang="zh">Best of the Knicks</title>
-    <desc>From Nov. 26, 2025.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465033" start="20260818040000 +0000" stop="20260818060000 +0000">
-    <title lang="zh">Best of the Knicks</title>
-    <desc>From Nov. 30, 2025.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465033" start="20260818060000 +0000" stop="20260818063000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465033" start="20260818063000 +0000" stop="20260818070000 +0000">
-    <title lang="zh">The Aging Brain</title>
-    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465033" start="20260818070000 +0000" stop="20260818073000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465033" start="20260818073000 +0000" stop="20260818080000 +0000">
-    <title lang="zh">The Aging Brain</title>
-    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465033" start="20260818080000 +0000" stop="20260818083000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465033" start="20260818083000 +0000" stop="20260818090000 +0000">
-    <title lang="zh">The Aging Brain</title>
-    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465033" start="20260818090000 +0000" stop="20260818093000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465033" start="20260818093000 +0000" stop="20260818100000 +0000">
-    <title lang="zh">The Aging Brain</title>
-    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465033" start="20260818100000 +0000" stop="20260818103000 +0000">
-    <title lang="zh">DraftKings Casino Report</title>
-    <desc>DraftKings Casino, a top-rated casino app!</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465033" start="20260818103000 +0000" stop="20260818110000 +0000">
-    <title lang="zh">The Aging Brain</title>
-    <desc>Learn what's behind mental decline with age, and how to improve memory, focus and concentration with NeuroQ's Darrin Peterson and Dale Bredesen MD.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465225" start="20260817100000 +0000" stop="20260817220000 +0000">
-    <title lang="zh">Live: WEEI/NESN Jimmy Fund Telethon</title>
-    <desc />
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="465225" start="20260817220000 +0000" stop="20260817223000 +0000">
-    <title lang="zh">Live: Red Sox First Pitch</title>
-    <desc>A preview of the upcoming game and news and analysis from industry insiders.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="465225" start="20260817223000 +0000" stop="20260817230000 +0000">
-    <title lang="zh">Red Sox GameDay Live</title>
-    <desc>The latest pregame news and commentary about the Red Sox, plus exclusive features and analysis with former players and writers.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="465225" start="20260817230000 +0000" stop="20260818000000 +0000">
-    <title lang="zh">Live: MLB Baseball</title>
-    <desc>From Fenway Park in Boston.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="465225" start="20260818020000 +0000" stop="20260818023000 +0000">
-    <title lang="zh">Red Sox Extra Innings Live</title>
-    <desc>A complete breakdown of the game, postgame reaction from the players, and highlights from around the league.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465225" start="20260818023000 +0000" stop="20260818030000 +0000">
-    <title lang="zh">Live: Red Sox Final</title>
-    <desc>A complete breakdown of the game, postgame reaction from the players and highlights from around the league.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465225" start="20260818030000 +0000" stop="20260818040000 +0000">
-    <title lang="zh">Live: WEEI/NESN Jimmy Fund Telethon</title>
-    <desc />
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465225" start="20260818040000 +0000" stop="20260818050000 +0000">
-    <title lang="zh">The Varsity With John Ourand</title>
-    <desc>Journalist John Ourand and industry experts report on executive decisions, team ownership, and media deals across the sports industry.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465225" start="20260818050000 +0000" stop="20260818070000 +0000">
-    <title lang="zh">MLB Baseball</title>
-    <desc>From Fenway Park in Boston.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465225" start="20260818070000 +0000" stop="20260818073000 +0000">
-    <title lang="zh">Red Sox Extra Innings Live</title>
-    <desc>A complete breakdown of the game, postgame reaction from the players, and highlights from around the league.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465225" start="20260818073000 +0000" stop="20260818080000 +0000">
-    <title lang="zh">Red Sox Final</title>
-    <desc>A complete breakdown of the game, postgame reaction from the players and highlights from around the league.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465225" start="20260818080000 +0000" stop="20260818083000 +0000">
-    <title lang="zh">Fight Sports: Grand Sumo</title>
-    <desc>Show 1 featuring Kakuryu, Ikioi, Endo and Yutakayama from the Aki basho, 2018.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465225" start="20260818083000 +0000" stop="20260818090000 +0000">
-    <title lang="zh">Fight Sports: Grand Sumo</title>
-    <desc>Show 2 featuring Chiyonokuni, Tamawashi, Takayasu and Chiyotairyu from the Aki basho, 2018.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465225" start="20260818090000 +0000" stop="20260818093000 +0000">
-    <title lang="zh">Red Sox Extra Innings Live</title>
-    <desc>A complete breakdown of the game, postgame reaction from the players, and highlights from around the league.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465225" start="20260818093000 +0000" stop="20260818100000 +0000">
-    <title lang="zh">Red Sox Final</title>
-    <desc>A complete breakdown of the game, postgame reaction from the players and highlights from around the league.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465225" start="20260818100000 +0000" stop="20260818220000 +0000">
-    <title lang="zh">Live: WEEI/NESN Jimmy Fund Telethon</title>
-    <desc />
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465225" start="20260818220000 +0000" stop="20260818223000 +0000">
-    <title lang="zh">Live: Red Sox First Pitch</title>
-    <desc>A preview of the upcoming game and news and analysis from industry insiders.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="222007" start="20260817150000 +0000" stop="20260817230000 +0000">
-    <title lang="zh">Live: ATP/WTA Cincinnati</title>
-    <desc>Enjoy live action from the ATP and WTA Tours.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="222007" start="20260817230000 +0000" stop="20260818000000 +0000">
-    <title lang="zh">Live: ATP/WTA Cincinnati</title>
-    <desc>Enjoy live action from the ATP and WTA Tours.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="222007" start="20260818030000 +0000" stop="20260818031500 +0000">
-    <title lang="zh">WTA Final: Madrid</title>
-    <desc>Mirra Andreeva, entering her third WTA 1000 final at 19, competes in the Madrid Open showpiece against Marta Kostyuk, with the Ukrainian targeting the biggest title of her career. (02.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="222007" start="20260818031500 +0000" stop="20260818033000 +0000">
-    <title lang="zh">WTA Final: Rome</title>
-    <desc>Coco Gauff and Elina Svitolina go toe to toe with the Rome title on the line. Gauff eyes redemption after defeat in last year's final, while Svitolina seeks her third triumph here. (16.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="222007" start="20260818033000 +0000" stop="20260818034500 +0000">
-    <title lang="zh">WTA Final: Toronto</title>
-    <desc>A women's singles champion is crowned in the Toronto final.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="222007" start="20260818034500 +0000" stop="20260818040000 +0000">
-    <title lang="zh">ATP Final: Montreal</title>
-    <desc>A men's singles champion is crowned in the Montreal final.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="222007" start="20260818040000 +0000" stop="20260818050000 +0000">
-    <title lang="zh">ATP Final: Miami</title>
-    <desc>Jannik Sinner's chance to join an exclusive list of Sunshine Double winners arrives as the Italian world number two faces the explosive Czech Jiri Lehecka in the Miami Open final. (29.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="222007" start="20260818050000 +0000" stop="20260818060000 +0000">
-    <title lang="zh">WTA Final: Indian Wells</title>
-    <desc>World number one Aryna Sabalenka and two-time Grand Slam winner Elena Rybakina meet in a rematch of the 2026 Australian Open and the 2023 Indian Wells finals - both won by Rybakina. (15.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="222007" start="20260818060000 +0000" stop="20260818070000 +0000">
-    <title lang="zh">ATP Final: Indian Wells</title>
-    <desc>Jannik Sinner competes in his first Indian Wells final as the world number two goes up against re-emerging force Daniil Medvedev, who stunned Carlos Alcaraz in the last four. (15.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="222007" start="20260818070000 +0000" stop="20260818083000 +0000">
-    <title lang="zh">Tennis Highlights</title>
-    <desc>Revisit a standout match from yesterday's action on the ATP and WTA Tours.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="222007" start="20260818083000 +0000" stop="20260818100000 +0000">
-    <title lang="zh">Tennis Highlights</title>
-    <desc>Revisit a standout match from yesterday's action on the ATP and WTA Tours.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="222007" start="20260818100000 +0000" stop="20260818110000 +0000">
-    <title lang="zh">WTA Final: Linz</title>
-    <desc>Closing in on her second title of the year, Mirra Andreeva goes up against returning Linz finalist Anastasia Potapova. Andreeva holds a 2-1 lead in the pair's head-to-head record. (12.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="222007" start="20260818110000 +0000" stop="20260818120000 +0000">
-    <title lang="zh">WTA Final: Stuttgart</title>
-    <desc>A women's singles champion is crowned as 2024 champion and top seed Elena Rybakina returns to the Stuttgart final, where she faces world number 12 Karolina Muchova.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="222007" start="20260818120000 +0000" stop="20260818133000 +0000">
-    <title lang="zh">Tennis Highlights</title>
-    <desc>Revisit a standout match from yesterday's action on the ATP and WTA Tours.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="222007" start="20260818133000 +0000" stop="20260818150000 +0000">
-    <title lang="zh">Tennis Highlights</title>
-    <desc>Revisit a standout match from yesterday's action on the ATP and WTA Tours.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="222007" start="20260818150000 +0000" stop="20260819000000 +0000">
-    <title lang="zh">Live: ATP/WTA Cincinnati</title>
-    <desc>Enjoy live action from the ATP and WTA Tours.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="5816" start="20260817190000 +0000" stop="20260817193000 +0000">
-    <title lang="zh">⋗ WTA 1000 Cincinnati. Emma NAVARRO (USA) vs Jessica PEGULA (USA)</title>
-    <desc />
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="5816" start="20260817193000 +0000" stop="20260817210000 +0000">
-    <title lang="zh">⋗ WTA 1000 Cincinnati. Mirra ANDREEVA/Sorana CIRSTEA (ROU) vs Sara ERRANI (ITA)/Leylah FERNANDEZ (CA</title>
-    <desc />
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="5816" start="20260817210000 +0000" stop="20260817230000 +0000">
-    <title lang="zh">WTA 1000 Cincinnati. Sorana CIRSTEA (ROU) vs Anna KALINSKAYA</title>
-    <desc />
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="5816" start="20260817230000 +0000" stop="20260818000000 +0000">
-    <title lang="zh">⋗ WTA 1000 Cincinnati. KOSTYUK / STEARNS vs V. WILLIAMS vs S. WILLIAMS</title>
-    <desc />
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="5816" start="20260818003000 +0000" stop="20260818030000 +0000">
-    <title lang="zh">⋗ WTA 1000 Cincinnati. Alexandra EALA (PHI) vs Amanda ANISIMOVA (USA)</title>
-    <desc />
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="5816" start="20260818030000 +0000" stop="20260818050000 +0000">
-    <title lang="zh">WTA 1000 Cincinnati. Diane PARRY (FRA) vs Lois BOISSON (FRA)</title>
-    <desc />
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="5816" start="20260818050000 +0000" stop="20260818064500 +0000">
-    <title lang="zh">WTA 1000 Cincinnati. Diana SHNAIDER vs Maja CHWALINSKA (POL)</title>
-    <desc />
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="5816" start="20260818064500 +0000" stop="20260818070000 +0000">
-    <title lang="zh">New York Stories. Pete Sampras, l’ultimo ballo a New York</title>
-    <desc />
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="5816" start="20260818070000 +0000" stop="20260818083000 +0000">
-    <title lang="zh">Us Open 2025. Musetti vs Mpetshi Perricard</title>
-    <desc />
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="5816" start="20260818083000 +0000" stop="20260818100000 +0000">
-    <title lang="zh">WTA 1000 Cincinnati. Iga SWIATEK (POL) vs Maria SAKKARI (GRE)</title>
-    <desc />
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="5816" start="20260818100000 +0000" stop="20260818113000 +0000">
-    <title lang="zh">WTA 1000 Cincinnati. Magdalena FRECH (POL) vs Elena RYBAKINA (KAZ)</title>
-    <desc />
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="5816" start="20260818113000 +0000" stop="20260818114500 +0000">
-    <title lang="zh">Supertennis TG</title>
-    <desc />
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="5816" start="20260818114500 +0000" stop="20260818131500 +0000">
-    <title lang="zh">WTA 1000 Cincinnati</title>
-    <desc />
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="5816" start="20260818131500 +0000" stop="20260818150000 +0000">
-    <title lang="zh">WTA 1000 Cincinnati</title>
-    <desc />
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="5816" start="20260818150000 +0000" stop="20260818164500 +0000">
-    <title lang="zh">⋗ WTA 1000 Cincinnati</title>
-    <desc />
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="5816" start="20260818164500 +0000" stop="20260818170000 +0000">
-    <title lang="zh">Supertennis TG</title>
-    <desc />
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="5816" start="20260818170000 +0000" stop="20260818184500 +0000">
-    <title lang="zh">⋗ WTA 1000 Cincinnati</title>
-    <desc />
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465239" start="20260817190000 +0000" stop="20260817200000 +0000">
-    <title lang="zh">MLB Now</title>
-    <desc>The hourlong weekday afternoon "MLB Now" presents the day's top stories in baseball by spanning the sport's cultural divide. Host Brian Kenny discusses the issues and provides analysis, with a bent toward modern analytics to prove his points. The series also features interviews with personalities throughout the game, and viewer opinions are welcome as well via social media polls.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="465239" start="20260817200000 +0000" stop="20260817210000 +0000">
-    <title lang="zh">Live: Intentional Talk</title>
-    <desc>MLB Network's first-ever talk show is an open forum that features some talk and a lot of banter each weekday for host Kevin Millar, who discusses with special guests what's hot and what's not in and around the national pastime. He also runs out of the baseline at times by welcoming guests from the worlds of entertainment and pop culture to talk about trending topics in those arenas. Millar gained </desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="465239" start="20260817210000 +0000" stop="20260817230000 +0000">
-    <title lang="zh">Live: MLB Tonight</title>
-    <desc>Featuring live look-ins, updates, highlights, reporting, interviews and analysis by MLB Network's experts.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="465239" start="20260817230000 +0000" stop="20260818000000 +0000">
-    <title lang="zh">Live: MLB Big Inning</title>
-    <desc>Get live look-ins, breaking highlights and big moments on MLB's Big Inning.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="465239" start="20260818020000 +0000" stop="20260818030000 +0000">
-    <title lang="zh">Live: MLB Tonight</title>
-    <desc>MLB Network's signature show featuring live look-ins, updates, highlights, reporting and analysis - 8/17/2026.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465239" start="20260818030000 +0000" stop="20260818040000 +0000">
-    <title lang="zh">Live: Quick Pitch</title>
-    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465239" start="20260818040000 +0000" stop="20260818050000 +0000">
-    <title lang="zh">Quick Pitch</title>
-    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465239" start="20260818050000 +0000" stop="20260818060000 +0000">
-    <title lang="zh">Quick Pitch</title>
-    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465239" start="20260818060000 +0000" stop="20260818070000 +0000">
-    <title lang="zh">Quick Pitch</title>
-    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465239" start="20260818070000 +0000" stop="20260818080000 +0000">
-    <title lang="zh">Quick Pitch</title>
-    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465239" start="20260818080000 +0000" stop="20260818090000 +0000">
-    <title lang="zh">Quick Pitch</title>
-    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465239" start="20260818090000 +0000" stop="20260818100000 +0000">
-    <title lang="zh">Quick Pitch</title>
-    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465239" start="20260818100000 +0000" stop="20260818110000 +0000">
-    <title lang="zh">Quick Pitch</title>
-    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465239" start="20260818110000 +0000" stop="20260818120000 +0000">
-    <title lang="zh">Quick Pitch</title>
-    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465239" start="20260818120000 +0000" stop="20260818130000 +0000">
-    <title lang="zh">Quick Pitch</title>
-    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465239" start="20260818130000 +0000" stop="20260818140000 +0000">
-    <title lang="zh">Live: The Leadoff Spot</title>
-    <desc>Co-hosted by a combination of veteran baseball analysts - Steve Phillips, Xavier Scruggs and Eduardo Pérez - the program will deliver expert commentary, plus interviews with baseball newsmakers and club personnel.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465239" start="20260818140000 +0000" stop="20260818160000 +0000">
-    <title lang="zh">Live: MLB Central</title>
-    <desc>MLB Network's first-ever regular-season morning show features hosts Robert Flores, Mark DeRosa and Lauren Shehadi reporting from Studio 21, named in honor of Hall of Famer and humanitarian Roberto Clemente. Updates and context on the latest news, extensive on-field highlights, and long-form conversations with guests, celebrities and insiders from around baseball are presented each weekday morning.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470638" start="20260817190000 +0000" stop="20260817193000 +0000">
-    <title lang="zh">Jeopardy!</title>
-    <desc>James Holzhauer's down-to-the-final contest against Emma Boettcher.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="470638" start="20260817193000 +0000" stop="20260817200000 +0000">
-    <title lang="zh">Jeopardy!</title>
-    <desc>James Holzhauer's finals contest against Emma Boettcher.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="470638" start="20260817200000 +0000" stop="20260817203000 +0000">
-    <title lang="zh">Master Minds</title>
-    <desc>Three challengers take on some of the great minds in trivia in a showdown of smarts and strategy; the last contestant standing will face off against the highest scoring Master Mind in a head-to-head battle.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="470638" start="20260817203000 +0000" stop="20260817210000 +0000">
-    <title lang="zh">The Perfect Line</title>
-    <desc>Veronica, Brady, Diane and Kathleen compete.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="470638" start="20260817210000 +0000" stop="20260817213000 +0000">
-    <title lang="zh">Flip Side</title>
-    <desc>Cute siblings Greg and Bianca go after sweet mom and daughter Jillian and Sam.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="470638" start="20260817213000 +0000" stop="20260817220000 +0000">
-    <title lang="zh">Chain Reaction</title>
-    <desc>"Chain Reaction" is back with fan-favorite Dylan Lane returning as host of the popular word puzzle game in which players compete to form chains composed of two-word phrases.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="470638" start="20260817220000 +0000" stop="20260817223000 +0000">
-    <title lang="zh">America Says</title>
-    <desc>John Michael Higgins hosts as two teams of friends race against a clock to guess how America filled in the blanks on a series of survey questions covering every topic under the sun.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="470638" start="20260817223000 +0000" stop="20260817230000 +0000">
-    <title lang="zh">America Says</title>
-    <desc>Gott Family vs. College Pals race against the clock to guess how America filled in the blanks on a series of survey questions covering every topic under the sun.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="470638" start="20260817230000 +0000" stop="20260818000000 +0000">
-    <title lang="zh">The Chase</title>
-    <desc>Mark "The Beast" Labbett returns as the chaser as another three contestants face off against him in a race against the clock.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="470638" start="20260818000000 +0000" stop="20260818010000 +0000">
-    <title lang="zh">The Wall</title>
-    <desc>Debbie, a retired police officer, and Ghadir, a student, are a grandmother and granddaughter duo from Baltimore, Md.; with millions of dollars just a drop away, there is no stopping how far this duo will go.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470638" start="20260818010000 +0000" stop="20260818020000 +0000">
-    <title lang="zh">Press Your Luck</title>
-    <desc>Contestants from Wisconsin and California compete.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470638" start="20260818020000 +0000" stop="20260818023000 +0000">
-    <title lang="zh">Family Feud</title>
-    <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470638" start="20260818023000 +0000" stop="20260818030000 +0000">
-    <title lang="zh">Family Feud</title>
-    <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470638" start="20260818030000 +0000" stop="20260818033000 +0000">
-    <title lang="zh">Family Feud</title>
-    <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470638" start="20260818033000 +0000" stop="20260818040000 +0000">
-    <title lang="zh">Family Feud</title>
-    <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470638" start="20260818040000 +0000" stop="20260818043000 +0000">
-    <title lang="zh">Family Feud</title>
-    <desc>'Dallis Family vs. Cannon Family': Steve Harvey hosts this long-running classic.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470638" start="20260818043000 +0000" stop="20260818050000 +0000">
-    <title lang="zh">Family Feud</title>
-    <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470741" start="20260817180000 +0000" stop="20260817200000 +0000">
-    <title lang="zh">Golf Today</title>
-    <desc>Damon Hack, Anna Jackson and Eamon Lynch lead and shape the daily conversation throughout the golf world.</desc>
-    <date>2026-08-17</date>
-  </programme>
   <programme channel="470741" start="20260817200000 +0000" stop="20260817210000 +0000">
     <title lang="zh">Live: Golf Central</title>
     <desc>Golf Channel's flagship news program, the nightly "Golf Central" presents highlights from the major golf tours and world events, plus reports and features from tournament sites.</desc>
@@ -6153,344 +6065,94 @@ Coverage from Round 5 of the Currie Cup between the Airlink Pumas and DHL Storme
     <desc>Golf Channel's flagship news program, the nightly "Golf Central" presents highlights from the major golf tours and world events, plus reports and features from tournament sites.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="465348" start="20260817190000 +0000" stop="20260817203000 +0000">
-    <title lang="zh">NHL Hockey</title>
-    <desc>The Carolina Hurricanes and the Montreal Canadiens play Game 4 of the Eastern Conference Finals at Bell Centre. Carolina currently leads the series 2-1. Nick Suzuki scored 101 points for Montreal, while Sebastian Aho leads Carolina with 80 points.</desc>
+  <programme channel="470741" start="20260818210000 +0000" stop="20260818213000 +0000">
+    <title lang="zh">PGA TOUR -- The Drop</title>
+    <desc>Diving into the intensity of tournament play, previewing what's ahead and recapping storylines; giving fans a unique look at the players on and off the course.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="470638" start="20260817200000 +0000" stop="20260817203000 +0000">
+    <title lang="zh">Master Minds</title>
+    <desc>Three challengers take on some of the great minds in trivia in a showdown of smarts and strategy; the last contestant standing will face off against the highest scoring Master Mind in a head-to-head battle.</desc>
     <date>2026-08-17</date>
   </programme>
-  <programme channel="465348" start="20260817203000 +0000" stop="20260817220000 +0000">
-    <title lang="zh">NHL Hockey</title>
-    <desc>The Carolina Hurricanes and the Montreal Canadiens play Game 5 of the Eastern Conference Finals at Lenovo Center. Carolina currently leads the series 3-1. Cole Caufield leads Montreal with 51 goals, while Seth Jarvis leads Carolina with 32 goals.</desc>
+  <programme channel="470638" start="20260817203000 +0000" stop="20260817210000 +0000">
+    <title lang="zh">The Perfect Line</title>
+    <desc>Veronica, Brady, Diane and Kathleen compete.</desc>
     <date>2026-08-17</date>
   </programme>
-  <programme channel="465348" start="20260817220000 +0000" stop="20260818000000 +0000">
-    <title lang="zh">3ICE</title>
-    <desc>3ICE is a three-on-three professional ice hockey league designed to give fans the on-ice speed, skill, and excitement they love at an unprecedented pace.</desc>
+  <programme channel="470638" start="20260817210000 +0000" stop="20260817213000 +0000">
+    <title lang="zh">Flip Side</title>
+    <desc>Cute siblings Greg and Bianca go after sweet mom and daughter Jillian and Sam.</desc>
     <date>2026-08-17</date>
   </programme>
-  <programme channel="465348" start="20260818010000 +0000" stop="20260818050000 +0000">
-    <title lang="zh">2026 NHL Draft</title>
-    <desc>From the KeyBank Center in Buffalo, New York, USA.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465348" start="20260818050000 +0000" stop="20260818060000 +0000">
-    <title lang="zh">Top 20 Defensemen Right Now</title>
-    <desc>Top defensemen in hockey.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465348" start="20260818060000 +0000" stop="20260818070000 +0000">
-    <title lang="zh">Top 20 Wings Right Now</title>
-    <desc>Top 20 wings in the NHL.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465348" start="20260818070000 +0000" stop="20260818080000 +0000">
-    <title lang="zh">Top 10 Goalies Right Now</title>
-    <desc>Top goalies in hockey.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465348" start="20260818080000 +0000" stop="20260818090000 +0000">
-    <title lang="zh">Top 20 Defensemen Right Now</title>
-    <desc>Top defensemen in hockey.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465348" start="20260818090000 +0000" stop="20260818100000 +0000">
-    <title lang="zh">Top 20 Wings Right Now</title>
-    <desc>Top 20 wings in the NHL.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465348" start="20260818100000 +0000" stop="20260818110000 +0000">
-    <title lang="zh">Top 10 Goalies Right Now</title>
-    <desc>Top goalies in hockey.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465348" start="20260818110000 +0000" stop="20260818140000 +0000">
-    <title lang="zh">3ICE</title>
-    <desc>3ICE is a three-on-three professional ice hockey league designed to give fans the on-ice speed, skill, and excitement they love at an unprecedented pace.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465348" start="20260818140000 +0000" stop="20260818160000 +0000">
-    <title lang="zh">NHL Hockey</title>
-    <desc>Game 7 of the Eastern Conference Finals. From May 26, 2000.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465348" start="20260818160000 +0000" stop="20260818180000 +0000">
-    <title lang="zh">NHL Hockey</title>
-    <desc>Game 7 of the 2003 Stanley Cup Finals, from June 9, 2003.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465348" start="20260818180000 +0000" stop="20260818200000 +0000">
-    <title lang="zh">NHL Hockey</title>
-    <desc>Martin Brodeur's 104th Career Shutout. From Dec. 21, 2009.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465348" start="20260818200000 +0000" stop="20260818220000 +0000">
-    <title lang="zh">NHL Hockey</title>
-    <desc>Martin Brodeur becomes the all-time wins leader. From March 17, 2009.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465348" start="20260818220000 +0000" stop="20260818230000 +0000">
-    <title lang="zh">Live: NHL Tonight</title>
-    <desc>Whip around through live look-ins, real-time scores, breaking news and expert analysis with the studio hosts and seasoned NHL veterans. Stay on top of all the action around the league with NHL Tonight.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465348" start="20260818230000 +0000" stop="20260819000000 +0000">
-    <title lang="zh">NHL Tonight</title>
-    <desc>Whip around through live look-ins, real-time scores, breaking news and expert analysis with the studio hosts and seasoned NHL veterans. Stay on top of all the action around the league with NHL Tonight.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="465073" start="20260817183000 +0000" stop="20260817193000 +0000">
-    <title lang="zh">B1G Football Training Camp</title>
-    <desc>Reports from around the Big 10 football training camps.</desc>
+  <programme channel="470638" start="20260817213000 +0000" stop="20260817220000 +0000">
+    <title lang="zh">Chain Reaction</title>
+    <desc>"Chain Reaction" is back with fan-favorite Dylan Lane returning as host of the popular word puzzle game in which players compete to form chains composed of two-word phrases.</desc>
     <date>2026-08-17</date>
   </programme>
-  <programme channel="465073" start="20260817193000 +0000" stop="20260817200000 +0000">
-    <title lang="zh">B1G Today</title>
-    <desc>Dave Revsine breaks down the biggest stories of the day from around the Big Ten. Hear from B1G analysts, coaches, players and more as they discuss a range of sports topics.</desc>
+  <programme channel="470638" start="20260817220000 +0000" stop="20260817223000 +0000">
+    <title lang="zh">America Says</title>
+    <desc>John Michael Higgins hosts as two teams of friends race against a clock to guess how America filled in the blanks on a series of survey questions covering every topic under the sun.</desc>
     <date>2026-08-17</date>
   </programme>
-  <programme channel="465073" start="20260817200000 +0000" stop="20260817210000 +0000">
-    <title lang="zh">B1G Football Training Camp</title>
-    <desc>Reports from around the Big 10 football training camps.</desc>
+  <programme channel="470638" start="20260817223000 +0000" stop="20260817230000 +0000">
+    <title lang="zh">America Says</title>
+    <desc>Gott Family vs. College Pals race against the clock to guess how America filled in the blanks on a series of survey questions covering every topic under the sun.</desc>
     <date>2026-08-17</date>
   </programme>
-  <programme channel="465073" start="20260817210000 +0000" stop="20260817213000 +0000">
-    <title lang="zh">B1G Today</title>
-    <desc>Dave Revsine breaks down the biggest stories of the day from around the Big Ten. Hear from B1G analysts, coaches, players and more as they discuss a range of sports topics.</desc>
+  <programme channel="470638" start="20260817230000 +0000" stop="20260818000000 +0000">
+    <title lang="zh">The Chase</title>
+    <desc>Mark "The Beast" Labbett returns as the chaser as another three contestants face off against him in a race against the clock.</desc>
     <date>2026-08-17</date>
   </programme>
-  <programme channel="465073" start="20260817213000 +0000" stop="20260817220000 +0000">
-    <title lang="zh">B1G Today</title>
-    <desc>Dave Revsine breaks down the biggest stories of the day from around the Big Ten. Hear from B1G analysts, coaches, players and more as they discuss a range of sports topics.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="465073" start="20260817220000 +0000" stop="20260817230000 +0000">
-    <title lang="zh">B1G Football Training Camp</title>
-    <desc>Reports from around the Big 10 football training camps.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="465073" start="20260817230000 +0000" stop="20260818000000 +0000">
-    <title lang="zh">B1G Football Training Camp</title>
-    <desc>Reports from around the Big 10 football training camps.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="465073" start="20260818000000 +0000" stop="20260818003000 +0000">
-    <title lang="zh">B1G Today</title>
-    <desc>Dave Revsine breaks down the biggest stories of the day from around the Big Ten. Hear from B1G analysts, coaches, players and more as they discuss a range of sports topics.</desc>
+  <programme channel="470638" start="20260818000000 +0000" stop="20260818010000 +0000">
+    <title lang="zh">The Wall</title>
+    <desc>Debbie, a retired police officer, and Ghadir, a student, are a grandmother and granddaughter duo from Baltimore, Md.; with millions of dollars just a drop away, there is no stopping how far this duo will go.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="465073" start="20260818003000 +0000" stop="20260818013000 +0000">
-    <title lang="zh">B1G Football Training Camp</title>
-    <desc>Reports from around the Big 10 football training camps.</desc>
+  <programme channel="470638" start="20260818010000 +0000" stop="20260818020000 +0000">
+    <title lang="zh">Press Your Luck</title>
+    <desc>Contestants from Wisconsin and California compete.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="465073" start="20260818013000 +0000" stop="20260818020000 +0000">
-    <title lang="zh">B1G Today</title>
-    <desc>Dave Revsine breaks down the biggest stories of the day from around the Big Ten. Hear from B1G analysts, coaches, players and more as they discuss a range of sports topics.</desc>
+  <programme channel="470638" start="20260818020000 +0000" stop="20260818023000 +0000">
+    <title lang="zh">Family Feud</title>
+    <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="465073" start="20260818020000 +0000" stop="20260818030000 +0000">
-    <title lang="zh">B1G Football Training Camp</title>
-    <desc>Reports from around the Big 10 football training camps.</desc>
+  <programme channel="470638" start="20260818023000 +0000" stop="20260818030000 +0000">
+    <title lang="zh">Family Feud</title>
+    <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="465073" start="20260818030000 +0000" stop="20260818040000 +0000">
-    <title lang="zh">B1G Football Training Camp</title>
-    <desc>Reports from around the Big 10 football training camps.</desc>
+  <programme channel="470638" start="20260818030000 +0000" stop="20260818033000 +0000">
+    <title lang="zh">Family Feud</title>
+    <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="465073" start="20260818040000 +0000" stop="20260818043000 +0000">
-    <title lang="zh">B1G Today</title>
-    <desc>Dave Revsine breaks down the biggest stories of the day from around the Big Ten. Hear from B1G analysts, coaches, players and more as they discuss a range of sports topics.</desc>
+  <programme channel="470638" start="20260818033000 +0000" stop="20260818040000 +0000">
+    <title lang="zh">Family Feud</title>
+    <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="465073" start="20260818043000 +0000" stop="20260818053000 +0000">
-    <title lang="zh">B1G Football Training Camp</title>
-    <desc>Reports from around the Big 10 football training camps.</desc>
+  <programme channel="470638" start="20260818040000 +0000" stop="20260818043000 +0000">
+    <title lang="zh">Family Feud</title>
+    <desc>'Dallis Family vs. Cannon Family': Steve Harvey hosts this long-running classic.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="465073" start="20260818053000 +0000" stop="20260818063000 +0000">
-    <title lang="zh">B1G Football Training Camp</title>
-    <desc>Reports from around the Big 10 football training camps.</desc>
+  <programme channel="470638" start="20260818043000 +0000" stop="20260818050000 +0000">
+    <title lang="zh">Family Feud</title>
+    <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="465073" start="20260818063000 +0000" stop="20260818070000 +0000">
-    <title lang="zh">B1G Today</title>
-    <desc>Dave Revsine breaks down the biggest stories of the day from around the Big Ten. Hear from B1G analysts, coaches, players and more as they discuss a range of sports topics.</desc>
+  <programme channel="470638" start="20260818050000 +0000" stop="20260818053000 +0000">
+    <title lang="zh">Flip Side</title>
+    <desc>Roomies battle: Jarred and Nigel take on Paula and Vanessa.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="465073" start="20260818070000 +0000" stop="20260818080000 +0000">
-    <title lang="zh">B1G Football Training Camp</title>
-    <desc>Reports from around the Big 10 football training camps.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="464879" start="20260817183000 +0000" stop="20260817193000 +0000">
-    <title lang="zh">Authentic ACC</title>
-    <desc>In this edition of the series produced by Wake Forest Athletics, get an inside look at Spring Football for the 2025 Wake Forest Demon Deacons.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="464879" start="20260817193000 +0000" stop="20260817200000 +0000">
-    <title lang="zh">ACC Huddle</title>
-    <desc>ACC Huddle, ACCN's signature football show, airs on Saturday mornings this fall. Host Kelsey Riggs and analysts Eric Mac Lain, EJ Manuel, Mark Richt, and Eddie Royal go on the road to preview the weekend's slate of ACC football games.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="464879" start="20260817200000 +0000" stop="20260817230000 +0000">
-    <title lang="zh">College Football</title>
-    <desc>The Demon Deacons enjoy home state advantage when they face the Bulldogs in the Duke's Mayo Bowl. Wake Forest is 11-6 all-time in bowl games, but lost in this contest in 2020. Mississippi State is 15-11 in the postseason, and won this event in 2015.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="464879" start="20260817230000 +0000" stop="20260818000000 +0000">
-    <title lang="zh">ACC Football Road Trip</title>
-    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="464879" start="20260818000000 +0000" stop="20260818010000 +0000">
-    <title lang="zh">ACC Football Road Trip</title>
-    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="464879" start="20260818010000 +0000" stop="20260818020000 +0000">
-    <title lang="zh">ACC Football Road Trip</title>
-    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="464879" start="20260818020000 +0000" stop="20260818030000 +0000">
-    <title lang="zh">ACC Football Road Trip</title>
-    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="464879" start="20260818030000 +0000" stop="20260818040000 +0000">
-    <title lang="zh">ACC Football Road Trip</title>
-    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="464879" start="20260818040000 +0000" stop="20260818050000 +0000">
-    <title lang="zh">ACC Football Road Trip</title>
-    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="464879" start="20260818050000 +0000" stop="20260818060000 +0000">
-    <title lang="zh">ACC Football Road Trip</title>
-    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="464879" start="20260818060000 +0000" stop="20260818070000 +0000">
-    <title lang="zh">ACC Football Road Trip</title>
-    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="464879" start="20260818070000 +0000" stop="20260818100000 +0000">
-    <title lang="zh">College Football</title>
-    <desc>The Demon Deacons enjoy home state advantage when they face the Bulldogs in the Duke's Mayo Bowl. Wake Forest is 11-6 all-time in bowl games, but lost in this contest in 2020. Mississippi State is 15-11 in the postseason, and won this event in 2015.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="464879" start="20260818100000 +0000" stop="20260818110000 +0000">
-    <title lang="zh">ACC Football Road Trip</title>
-    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="464879" start="20260818110000 +0000" stop="20260818120000 +0000">
-    <title lang="zh">ACC Football Road Trip</title>
-    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="464879" start="20260818120000 +0000" stop="20260818130000 +0000">
-    <title lang="zh">ACC Football Road Trip</title>
-    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="464879" start="20260818130000 +0000" stop="20260818140000 +0000">
-    <title lang="zh">Authentic ACC</title>
-    <desc>Original content and storytelling that focuses on student-athlete features from a variety of the conference's 27 varsity sports.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="464879" start="20260818140000 +0000" stop="20260818143000 +0000">
-    <title lang="zh">ACC Huddle</title>
-    <desc>ACC Huddle, ACCN's signature football show, airs on Saturday mornings this fall. Host Kelsey Riggs and analysts Eric Mac Lain, EJ Manuel, Mark Richt, and Eddie Royal go on the road to preview the weekend's slate of ACC football games.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470443" start="20260817190000 +0000" stop="20260817200000 +0000">
-    <title lang="zh">World Poker Tour</title>
-    <desc>Tune-in to daily episodes of The World Poker Tour to catch exciting real poker action brought to you by PartyPoker.net and WPT. PartyPoker.net transports you to exotic destinations all over the world.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="470443" start="20260817200000 +0000" stop="20260817210000 +0000">
-    <title lang="zh">World Poker Tour</title>
-    <desc>A $2 million prize pool builds in Oklahoma and a final table is ready to get started.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="470443" start="20260817210000 +0000" stop="20260817220000 +0000">
-    <title lang="zh">Live: Blair &amp; Barker</title>
-    <desc>Jeff Blair and Kevin Barker talk all things Blue Jays, and Major League Baseball.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="470443" start="20260817220000 +0000" stop="20260818000000 +0000">
-    <title lang="zh">Live: MLB Baseball</title>
-    <desc>From Tropicana Field in St. Petersburg, Fla.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="470443" start="20260818010000 +0000" stop="20260818030000 +0000">
-    <title lang="zh">Live: MLB Baseball</title>
-    <desc>From Wrigley Field in Chicago.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470443" start="20260818030000 +0000" stop="20260818040000 +0000">
-    <title lang="zh">Live: Sportsnet Central</title>
-    <desc>Canada's premier destination for sports and analysis.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470443" start="20260818040000 +0000" stop="20260818043000 +0000">
-    <title lang="zh">Misplays of the Month</title>
-    <desc>A look at the month's top bloopers.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470443" start="20260818043000 +0000" stop="20260818050000 +0000">
-    <title lang="zh">Plays of the Month - Highlights</title>
-    <desc>Highlighting the past month's best in daily sports moments.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470443" start="20260818050000 +0000" stop="20260818053000 +0000">
-    <title lang="zh">Live: Sportsnet Central</title>
-    <desc>Canada's premier destination for sports and analysis.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470443" start="20260818053000 +0000" stop="20260818060000 +0000">
-    <title lang="zh">Sportsnet Central</title>
-    <desc>Canada's premier destination for sports and analysis.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470443" start="20260818060000 +0000" stop="20260818070000 +0000">
-    <title lang="zh">Sportsnet Central</title>
-    <desc>Canada's premier destination for sports and analysis.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470443" start="20260818070000 +0000" stop="20260818080000 +0000">
-    <title lang="zh">Sportsnet Central</title>
-    <desc>Canada's premier destination for sports and analysis.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470443" start="20260818080000 +0000" stop="20260818090000 +0000">
-    <title lang="zh">Sportsnet Central</title>
-    <desc>Canada's premier destination for sports and analysis.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470443" start="20260818090000 +0000" stop="20260818100000 +0000">
-    <title lang="zh">Sportsnet Central</title>
-    <desc>Canada's premier destination for sports and analysis.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470443" start="20260818100000 +0000" stop="20260818110000 +0000">
-    <title lang="zh">Sportsnet Central</title>
-    <desc>Canada's premier destination for sports and analysis.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470443" start="20260818110000 +0000" stop="20260818120000 +0000">
-    <title lang="zh">Sportsnet Central</title>
-    <desc>Canada's premier destination for sports and analysis.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="470443" start="20260818120000 +0000" stop="20260818130000 +0000">
-    <title lang="zh">Sportsnet Central</title>
-    <desc>Canada's premier destination for sports and analysis.</desc>
+  <programme channel="470638" start="20260818053000 +0000" stop="20260818060000 +0000">
+    <title lang="zh">The Perfect Line</title>
+    <desc>Players Kat, Curtis, Jeremy and Ben.</desc>
     <date>2026-08-18</date>
   </programme>
   <programme channel="465058" start="20260817180000 +0000" stop="20260817203000 +0000">
@@ -6578,16 +6240,6 @@ Coverage from Round 5 of the Currie Cup between the Airlink Pumas and DHL Storme
     <desc>Prosvent is a doctor-formulated blend of rejuvenating herbs and nutrients that help protect overall prostate health.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="464810" start="20260817190000 +0000" stop="20260817193000 +0000">
-    <title lang="zh">Jeopardy!</title>
-    <desc>James Holzhauer's down-to-the-final contest against Emma Boettcher.</desc>
-    <date>2026-08-17</date>
-  </programme>
-  <programme channel="464810" start="20260817193000 +0000" stop="20260817200000 +0000">
-    <title lang="zh">Jeopardy!</title>
-    <desc>James Holzhauer's finals contest against Emma Boettcher.</desc>
-    <date>2026-08-17</date>
-  </programme>
   <programme channel="464810" start="20260817200000 +0000" stop="20260817203000 +0000">
     <title lang="zh">Master Minds</title>
     <desc>Three challengers take on some of the great minds in trivia in a showdown of smarts and strategy; the last contestant standing will face off against the highest scoring Master Mind in a head-to-head battle.</desc>
@@ -6663,174 +6315,519 @@ Coverage from Round 5 of the Currie Cup between the Airlink Pumas and DHL Storme
     <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
     <date>2026-08-18</date>
   </programme>
-  <programme channel="219104" start="20260817191000 +0000" stop="20260817213000 +0000">
-    <title lang="zh">Live Coppa Italia</title>
-    <desc>Palermo v Lecce (Kick-off 8.15pm). Coverage of the second-round tie at Stadio Renzo Barbera.</desc>
+  <programme channel="464810" start="20260818050000 +0000" stop="20260818053000 +0000">
+    <title lang="zh">Flip Side</title>
+    <desc>Roomies battle: Jarred and Nigel take on Paula and Vanessa.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="464810" start="20260818053000 +0000" stop="20260818060000 +0000">
+    <title lang="zh">The Perfect Line</title>
+    <desc>Players Kat, Curtis, Jeremy and Ben.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465073" start="20260817200000 +0000" stop="20260817210000 +0000">
+    <title lang="zh">B1G Football Training Camp</title>
+    <desc>Reports from around the Big 10 football training camps.</desc>
     <date>2026-08-17</date>
   </programme>
-  <programme channel="219104" start="20260817213000 +0000" stop="20260817220000 +0000">
-    <title lang="zh">Football's Greatest</title>
-    <desc>The finest players in history discuss their careers.</desc>
+  <programme channel="465073" start="20260817210000 +0000" stop="20260817213000 +0000">
+    <title lang="zh">B1G Today</title>
+    <desc>Dave Revsine breaks down the biggest stories of the day from around the Big Ten. Hear from B1G analysts, coaches, players and more as they discuss a range of sports topics.</desc>
     <date>2026-08-17</date>
   </programme>
-  <programme channel="219104" start="20260817220000 +0000" stop="20260817223000 +0000">
-    <title lang="zh">Football's Greatest</title>
-    <desc>The finest players in history discuss their careers.</desc>
+  <programme channel="465073" start="20260817213000 +0000" stop="20260817220000 +0000">
+    <title lang="zh">B1G Today</title>
+    <desc>Dave Revsine breaks down the biggest stories of the day from around the Big Ten. Hear from B1G analysts, coaches, players and more as they discuss a range of sports topics.</desc>
     <date>2026-08-17</date>
   </programme>
-  <programme channel="219104" start="20260817223000 +0000" stop="20260818000000 +0000">
-    <title lang="zh">Coppa Italia</title>
-    <desc>Cremonese v Sampdoria.</desc>
+  <programme channel="465073" start="20260817220000 +0000" stop="20260817230000 +0000">
+    <title lang="zh">B1G Football Training Camp</title>
+    <desc>Reports from around the Big 10 football training camps.</desc>
     <date>2026-08-17</date>
   </programme>
-  <programme channel="219104" start="20260818003000 +0000" stop="20260818043000 +0000">
-    <title lang="zh">NASCAR</title>
-    <desc>A chance to see the Cookout 400.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="219104" start="20260818043000 +0000" stop="20260818050000 +0000">
-    <title lang="zh">Football's Greatest</title>
-    <desc>The finest players in history discuss their careers.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="219104" start="20260818050000 +0000" stop="20260818053000 +0000">
-    <title lang="zh">Football's Greatest</title>
-    <desc>The finest players in history discuss their careers.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="219104" start="20260818053000 +0000" stop="20260818060000 +0000">
-    <title lang="zh">Football's Greatest</title>
-    <desc>The finest players in history discuss their careers.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="219104" start="20260818060000 +0000" stop="20260818090000 +0000">
-    <title lang="zh">NASCAR Trucks</title>
-    <desc>Action from Richmond Raceway.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="219104" start="20260818090000 +0000" stop="20260818093000 +0000">
-    <title lang="zh">Bike World</title>
-    <desc>The latest news and reports from two-wheel competitions.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="219104" start="20260818093000 +0000" stop="20260818113000 +0000">
-    <title lang="zh">Coppa Italia</title>
-    <desc>Palermo v Lecce.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="219104" start="20260818113000 +0000" stop="20260818120000 +0000">
-    <title lang="zh">Temples of Sport</title>
-    <desc>Iconic sporting venues from around the globe.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="219104" start="20260818120000 +0000" stop="20260818123000 +0000">
-    <title lang="zh">Temples of Sport</title>
-    <desc>Iconic sporting venues from around the globe.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="219104" start="20260818123000 +0000" stop="20260818143000 +0000">
-    <title lang="zh">Coppa Italia</title>
-    <desc>Cremonese v Sampdoria.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="219104" start="20260818143000 +0000" stop="20260818150000 +0000">
-    <title lang="zh">Temples of Sport</title>
-    <desc>Iconic sporting venues from around the globe.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="219104" start="20260818150000 +0000" stop="20260818170000 +0000">
-    <title lang="zh">Brasileiro Serie A</title>
-    <desc>Mirassol v Flamengo.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="219104" start="20260818170000 +0000" stop="20260818190000 +0000">
-    <title lang="zh">Argentine Primera</title>
-    <desc>River Plate v Argentinos Juniors.</desc>
-    <date>2026-08-18</date>
-  </programme>
-  <programme channel="219100" start="20260817185500 +0000" stop="20260817210000 +0000">
-    <title lang="zh">Live LaLiga</title>
-    <desc>Deportivo La Coruna v Elche (Kick-off 8.00pm). Coverage of the match at Estadio Abanca-Riazor.</desc>
+  <programme channel="465073" start="20260817230000 +0000" stop="20260818000000 +0000">
+    <title lang="zh">B1G Football Training Camp</title>
+    <desc>Reports from around the Big 10 football training camps.</desc>
     <date>2026-08-17</date>
   </programme>
-  <programme channel="219100" start="20260817210000 +0000" stop="20260817213000 +0000">
-    <title lang="zh">Sporting Greats</title>
-    <desc>Legendary sporting figures discuss their careers.</desc>
+  <programme channel="465073" start="20260818000000 +0000" stop="20260818003000 +0000">
+    <title lang="zh">B1G Today</title>
+    <desc>Dave Revsine breaks down the biggest stories of the day from around the Big Ten. Hear from B1G analysts, coaches, players and more as they discuss a range of sports topics.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465073" start="20260818003000 +0000" stop="20260818013000 +0000">
+    <title lang="zh">B1G Football Training Camp</title>
+    <desc>Reports from around the Big 10 football training camps.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465073" start="20260818013000 +0000" stop="20260818020000 +0000">
+    <title lang="zh">B1G Today</title>
+    <desc>Dave Revsine breaks down the biggest stories of the day from around the Big Ten. Hear from B1G analysts, coaches, players and more as they discuss a range of sports topics.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465073" start="20260818020000 +0000" stop="20260818030000 +0000">
+    <title lang="zh">B1G Football Training Camp</title>
+    <desc>Reports from around the Big 10 football training camps.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465073" start="20260818030000 +0000" stop="20260818040000 +0000">
+    <title lang="zh">B1G Football Training Camp</title>
+    <desc>Reports from around the Big 10 football training camps.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465073" start="20260818040000 +0000" stop="20260818043000 +0000">
+    <title lang="zh">B1G Today</title>
+    <desc>Dave Revsine breaks down the biggest stories of the day from around the Big Ten. Hear from B1G analysts, coaches, players and more as they discuss a range of sports topics.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465073" start="20260818043000 +0000" stop="20260818053000 +0000">
+    <title lang="zh">B1G Football Training Camp</title>
+    <desc>Reports from around the Big 10 football training camps.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465073" start="20260818053000 +0000" stop="20260818063000 +0000">
+    <title lang="zh">B1G Football Training Camp</title>
+    <desc>Reports from around the Big 10 football training camps.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465073" start="20260818063000 +0000" stop="20260818070000 +0000">
+    <title lang="zh">B1G Today</title>
+    <desc>Dave Revsine breaks down the biggest stories of the day from around the Big Ten. Hear from B1G analysts, coaches, players and more as they discuss a range of sports topics.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465073" start="20260818070000 +0000" stop="20260818080000 +0000">
+    <title lang="zh">B1G Football Training Camp</title>
+    <desc>Reports from around the Big 10 football training camps.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465073" start="20260818080000 +0000" stop="20260818090000 +0000">
+    <title lang="zh">B1G Football Training Camp</title>
+    <desc>Reports from around the Big 10 football training camps.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465073" start="20260818090000 +0000" stop="20260818100000 +0000">
+    <title lang="zh">B1G Football Training Camp</title>
+    <desc>Reports from around the Big 10 football training camps.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="5816" start="20260817193000 +0000" stop="20260817210000 +0000">
+    <title lang="zh">⋗ WTA 1000 Cincinnati. Mirra ANDREEVA/Sorana CIRSTEA (ROU) vs Sara ERRANI (ITA)/Leylah FERNANDEZ (CA</title>
+    <desc />
     <date>2026-08-17</date>
   </programme>
-  <programme channel="219100" start="20260817213000 +0000" stop="20260817220000 +0000">
-    <title lang="zh">Sporting Countdowns</title>
-    <desc>Focusing on some of the most memorable moments in sports history.</desc>
+  <programme channel="5816" start="20260817210000 +0000" stop="20260817230000 +0000">
+    <title lang="zh">WTA 1000 Cincinnati. Sorana CIRSTEA (ROU) vs Anna KALINSKAYA</title>
+    <desc />
     <date>2026-08-17</date>
   </programme>
-  <programme channel="219100" start="20260817220000 +0000" stop="20260818000000 +0000">
-    <title lang="zh">Coppa Italia</title>
-    <desc>Sassuolo v Cesena.</desc>
+  <programme channel="5816" start="20260817230000 +0000" stop="20260818000000 +0000">
+    <title lang="zh">⋗ WTA 1000 Cincinnati. KOSTYUK / STEARNS vs V. WILLIAMS vs S. WILLIAMS</title>
+    <desc />
     <date>2026-08-17</date>
   </programme>
-  <programme channel="219100" start="20260818000000 +0000" stop="20260818020000 +0000">
-    <title lang="zh">LaLiga</title>
-    <desc>Alaves v Getafe.</desc>
+  <programme channel="5816" start="20260818003000 +0000" stop="20260818030000 +0000">
+    <title lang="zh">⋗ WTA 1000 Cincinnati. Alexandra EALA (PHI) vs Amanda ANISIMOVA (USA)</title>
+    <desc />
     <date>2026-08-18</date>
   </programme>
-  <programme channel="219100" start="20260818020000 +0000" stop="20260818023000 +0000">
-    <title lang="zh">Sporting Greats</title>
-    <desc>Legendary sporting figures discuss their careers.</desc>
+  <programme channel="5816" start="20260818030000 +0000" stop="20260818050000 +0000">
+    <title lang="zh">WTA 1000 Cincinnati. Diane PARRY (FRA) vs Lois BOISSON (FRA)</title>
+    <desc />
     <date>2026-08-18</date>
   </programme>
-  <programme channel="219100" start="20260818023000 +0000" stop="20260818024500 +0000">
-    <title lang="zh">Africa Eco Race</title>
-    <desc>The latest motorsport highlights from the Africa Eco race.</desc>
+  <programme channel="5816" start="20260818050000 +0000" stop="20260818064500 +0000">
+    <title lang="zh">WTA 1000 Cincinnati. Diana SHNAIDER vs Maja CHWALINSKA (POL)</title>
+    <desc />
     <date>2026-08-18</date>
   </programme>
-  <programme channel="219100" start="20260818024500 +0000" stop="20260818050000 +0000">
-    <title lang="zh">NHL Ice Hockey</title>
-    <desc>Carolina Hurricanes v Vegas Golden Knights in game one of the Stanley Cup finals.</desc>
+  <programme channel="5816" start="20260818064500 +0000" stop="20260818070000 +0000">
+    <title lang="zh">New York Stories. Pete Sampras, l’ultimo ballo a New York</title>
+    <desc />
     <date>2026-08-18</date>
   </programme>
-  <programme channel="219100" start="20260818050000 +0000" stop="20260818053000 +0000">
-    <title lang="zh">Sporting Countdowns</title>
-    <desc>Focusing on some of the most memorable moments in sports history.</desc>
+  <programme channel="5816" start="20260818070000 +0000" stop="20260818083000 +0000">
+    <title lang="zh">Us Open 2025. Musetti vs Mpetshi Perricard</title>
+    <desc />
     <date>2026-08-18</date>
   </programme>
-  <programme channel="219100" start="20260818053000 +0000" stop="20260818060000 +0000">
-    <title lang="zh">Sporting Countdowns</title>
-    <desc>Focusing on some of the most memorable moments in sports history.</desc>
+  <programme channel="5816" start="20260818083000 +0000" stop="20260818100000 +0000">
+    <title lang="zh">WTA 1000 Cincinnati. Iga SWIATEK (POL) vs Maria SAKKARI (GRE)</title>
+    <desc />
     <date>2026-08-18</date>
   </programme>
-  <programme channel="219100" start="20260818060000 +0000" stop="20260818080000 +0000">
-    <title lang="zh">LaLiga</title>
-    <desc>Deportivo La Coruna v Elche.</desc>
+  <programme channel="5816" start="20260818100000 +0000" stop="20260818113000 +0000">
+    <title lang="zh">WTA 1000 Cincinnati. Magdalena FRECH (POL) vs Elena RYBAKINA (KAZ)</title>
+    <desc />
     <date>2026-08-18</date>
   </programme>
-  <programme channel="219100" start="20260818080000 +0000" stop="20260818090000 +0000">
-    <title lang="zh">NASCAR Highlights</title>
-    <desc>Action from the Cook Out 400.</desc>
+  <programme channel="5816" start="20260818113000 +0000" stop="20260818114500 +0000">
+    <title lang="zh">Supertennis TG</title>
+    <desc />
     <date>2026-08-18</date>
   </programme>
-  <programme channel="219100" start="20260818090000 +0000" stop="20260818091000 +0000">
-    <title lang="zh">LaLiga Match Highlights</title>
-    <desc>Alaves v Getafe.</desc>
+  <programme channel="5816" start="20260818114500 +0000" stop="20260818131500 +0000">
+    <title lang="zh">WTA 1000 Cincinnati</title>
+    <desc />
     <date>2026-08-18</date>
   </programme>
-  <programme channel="219100" start="20260818091000 +0000" stop="20260818092000 +0000">
-    <title lang="zh">LaLiga Match Highlights</title>
-    <desc>Racing Santander v Villarreal.</desc>
+  <programme channel="5816" start="20260818131500 +0000" stop="20260818150000 +0000">
+    <title lang="zh">WTA 1000 Cincinnati</title>
+    <desc />
     <date>2026-08-18</date>
   </programme>
-  <programme channel="219100" start="20260818092000 +0000" stop="20260818093000 +0000">
-    <title lang="zh">LaLiga Match Highlights</title>
-    <desc>Espanyol v Levante.</desc>
+  <programme channel="5816" start="20260818150000 +0000" stop="20260818164500 +0000">
+    <title lang="zh">⋗ WTA 1000 Cincinnati</title>
+    <desc />
     <date>2026-08-18</date>
   </programme>
-  <programme channel="219100" start="20260818093000 +0000" stop="20260818094000 +0000">
-    <title lang="zh">LaLiga Match Highlights</title>
-    <desc>Celta Vigo v Osasuna.</desc>
+  <programme channel="5816" start="20260818164500 +0000" stop="20260818170000 +0000">
+    <title lang="zh">Supertennis TG</title>
+    <desc />
     <date>2026-08-18</date>
   </programme>
-  <programme channel="219100" start="20260818094000 +0000" stop="20260818095500 +0000">
-    <title lang="zh">LaLiga Match Highlights</title>
-    <desc>Deportivo La Coruna v Elche.</desc>
+  <programme channel="5816" start="20260818170000 +0000" stop="20260818184500 +0000">
+    <title lang="zh">⋗ WTA 1000 Cincinnati</title>
+    <desc />
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="5816" start="20260818184500 +0000" stop="20260818190000 +0000">
+    <title lang="zh">Tie Book. Storie di tennis di Martini e Francesconi</title>
+    <desc />
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="464879" start="20260817200000 +0000" stop="20260817230000 +0000">
+    <title lang="zh">College Football</title>
+    <desc>The Demon Deacons enjoy home state advantage when they face the Bulldogs in the Duke's Mayo Bowl. Wake Forest is 11-6 all-time in bowl games, but lost in this contest in 2020. Mississippi State is 15-11 in the postseason, and won this event in 2015.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="464879" start="20260817230000 +0000" stop="20260818000000 +0000">
+    <title lang="zh">ACC Football Road Trip</title>
+    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="464879" start="20260818000000 +0000" stop="20260818010000 +0000">
+    <title lang="zh">ACC Football Road Trip</title>
+    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="464879" start="20260818010000 +0000" stop="20260818020000 +0000">
+    <title lang="zh">ACC Football Road Trip</title>
+    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="464879" start="20260818020000 +0000" stop="20260818030000 +0000">
+    <title lang="zh">ACC Football Road Trip</title>
+    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="464879" start="20260818030000 +0000" stop="20260818040000 +0000">
+    <title lang="zh">ACC Football Road Trip</title>
+    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="464879" start="20260818040000 +0000" stop="20260818050000 +0000">
+    <title lang="zh">ACC Football Road Trip</title>
+    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="464879" start="20260818050000 +0000" stop="20260818060000 +0000">
+    <title lang="zh">ACC Football Road Trip</title>
+    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="464879" start="20260818060000 +0000" stop="20260818070000 +0000">
+    <title lang="zh">ACC Football Road Trip</title>
+    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="464879" start="20260818070000 +0000" stop="20260818100000 +0000">
+    <title lang="zh">College Football</title>
+    <desc>The Demon Deacons enjoy home state advantage when they face the Bulldogs in the Duke's Mayo Bowl. Wake Forest is 11-6 all-time in bowl games, but lost in this contest in 2020. Mississippi State is 15-11 in the postseason, and won this event in 2015.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="464879" start="20260818100000 +0000" stop="20260818110000 +0000">
+    <title lang="zh">ACC Football Road Trip</title>
+    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="464879" start="20260818110000 +0000" stop="20260818120000 +0000">
+    <title lang="zh">ACC Football Road Trip</title>
+    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="464879" start="20260818120000 +0000" stop="20260818130000 +0000">
+    <title lang="zh">ACC Football Road Trip</title>
+    <desc>A 17-school preseason road trip to preview each team's upcoming season and include exclusive interviews with head coaches and student-athletes, showcasing unique aspects of those 17 football campuses.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="464879" start="20260818130000 +0000" stop="20260818140000 +0000">
+    <title lang="zh">Authentic ACC</title>
+    <desc>Original content and storytelling that focuses on student-athlete features from a variety of the conference's 27 varsity sports.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="464879" start="20260818140000 +0000" stop="20260818143000 +0000">
+    <title lang="zh">ACC Huddle</title>
+    <desc>ACC Huddle, ACCN's signature football show, airs on Saturday mornings this fall. Host Kelsey Riggs and analysts Eric Mac Lain, EJ Manuel, Mark Richt, and Eddie Royal go on the road to preview the weekend's slate of ACC football games.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="464879" start="20260818143000 +0000" stop="20260818153000 +0000">
+    <title lang="zh">Authentic ACC</title>
+    <desc>Original content and storytelling that focuses on student-athlete features from a variety of the conference's 27 varsity sports.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="464879" start="20260818153000 +0000" stop="20260818183000 +0000">
+    <title lang="zh">College Football</title>
+    <desc>The Orange (3-8, 1-6 ACC) and Eagles (1-10, 0-7) close out the 2025 campaign with this tilt. Boston College has won two straight meetings, and four of its last five visits to Syracuse. The programs have lost a combined 17 consecutive outings.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465239" start="20260817200000 +0000" stop="20260817210000 +0000">
+    <title lang="zh">Live: Intentional Talk</title>
+    <desc>MLB Network's first-ever talk show is an open forum that features some talk and a lot of banter each weekday for host Kevin Millar, who discusses with special guests what's hot and what's not in and around the national pastime. He also runs out of the baseline at times by welcoming guests from the worlds of entertainment and pop culture to talk about trending topics in those arenas. Millar gained </desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="465239" start="20260817210000 +0000" stop="20260817230000 +0000">
+    <title lang="zh">Live: MLB Tonight</title>
+    <desc>Featuring live look-ins, updates, highlights, reporting, interviews and analysis by MLB Network's experts.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="465239" start="20260817230000 +0000" stop="20260818000000 +0000">
+    <title lang="zh">Live: MLB Big Inning</title>
+    <desc>Get live look-ins, breaking highlights and big moments on MLB's Big Inning.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="465239" start="20260818020000 +0000" stop="20260818030000 +0000">
+    <title lang="zh">Live: MLB Tonight</title>
+    <desc>MLB Network's signature show featuring live look-ins, updates, highlights, reporting and analysis - 8/17/2026.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465239" start="20260818030000 +0000" stop="20260818040000 +0000">
+    <title lang="zh">Live: Quick Pitch</title>
+    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465239" start="20260818040000 +0000" stop="20260818050000 +0000">
+    <title lang="zh">Quick Pitch</title>
+    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465239" start="20260818050000 +0000" stop="20260818060000 +0000">
+    <title lang="zh">Quick Pitch</title>
+    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465239" start="20260818060000 +0000" stop="20260818070000 +0000">
+    <title lang="zh">Quick Pitch</title>
+    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465239" start="20260818070000 +0000" stop="20260818080000 +0000">
+    <title lang="zh">Quick Pitch</title>
+    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465239" start="20260818080000 +0000" stop="20260818090000 +0000">
+    <title lang="zh">Quick Pitch</title>
+    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465239" start="20260818090000 +0000" stop="20260818100000 +0000">
+    <title lang="zh">Quick Pitch</title>
+    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465239" start="20260818100000 +0000" stop="20260818110000 +0000">
+    <title lang="zh">Quick Pitch</title>
+    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465239" start="20260818110000 +0000" stop="20260818120000 +0000">
+    <title lang="zh">Quick Pitch</title>
+    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465239" start="20260818120000 +0000" stop="20260818130000 +0000">
+    <title lang="zh">Quick Pitch</title>
+    <desc>Sometimes, fans of America's national pastime might miss a day or two of their favorite sport due to pesky things like work, a wedding anniversary, or a child's high-school graduation ceremony. Rest easy, devotees of the diamond -- MLB Network has you covered. "Quick Pitch" not only provides complete highlights of each game from the previous day, but also presents a glimpse at upcoming contests, i</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465239" start="20260818130000 +0000" stop="20260818140000 +0000">
+    <title lang="zh">Live: The Leadoff Spot</title>
+    <desc>Co-hosted by a combination of veteran baseball analysts - Steve Phillips, Xavier Scruggs and Eduardo Pérez - the program will deliver expert commentary, plus interviews with baseball newsmakers and club personnel.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465239" start="20260818140000 +0000" stop="20260818160000 +0000">
+    <title lang="zh">Live: MLB Central</title>
+    <desc>MLB Network's first-ever regular-season morning show features hosts Robert Flores, Mark DeRosa and Lauren Shehadi reporting from Studio 21, named in honor of Hall of Famer and humanitarian Roberto Clemente. Updates and context on the latest news, extensive on-field highlights, and long-form conversations with guests, celebrities and insiders from around baseball are presented each weekday morning.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="465239" start="20260818160000 +0000" stop="20260818170000 +0000">
+    <title lang="zh">Live: MLB Now</title>
+    <desc>The hourlong weekday afternoon "MLB Now" presents the day's top stories in baseball by spanning the sport's cultural divide. Host Brian Kenny discusses the issues and provides analysis, with a bent toward modern analytics to prove his points. The series also features interviews with personalities throughout the game, and viewer opinions are welcome as well via social media polls.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="222007" start="20260817150000 +0000" stop="20260817230000 +0000">
+    <title lang="zh">Live: ATP/WTA Cincinnati</title>
+    <desc>Enjoy live action from the ATP and WTA Tours.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="222007" start="20260817230000 +0000" stop="20260818000000 +0000">
+    <title lang="zh">Live: ATP/WTA Cincinnati</title>
+    <desc>Enjoy live action from the ATP and WTA Tours.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="222007" start="20260818030000 +0000" stop="20260818031500 +0000">
+    <title lang="zh">WTA Final: Madrid</title>
+    <desc>Mirra Andreeva, entering her third WTA 1000 final at 19, competes in the Madrid Open showpiece against Marta Kostyuk, with the Ukrainian targeting the biggest title of her career. (02.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="222007" start="20260818031500 +0000" stop="20260818033000 +0000">
+    <title lang="zh">WTA Final: Rome</title>
+    <desc>Coco Gauff and Elina Svitolina go toe to toe with the Rome title on the line. Gauff eyes redemption after defeat in last year's final, while Svitolina seeks her third triumph here. (16.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="222007" start="20260818033000 +0000" stop="20260818034500 +0000">
+    <title lang="zh">WTA Final: Toronto</title>
+    <desc>A women's singles champion is crowned in the Toronto final.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="222007" start="20260818034500 +0000" stop="20260818040000 +0000">
+    <title lang="zh">ATP Final: Montreal</title>
+    <desc>A men's singles champion is crowned in the Montreal final.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="222007" start="20260818040000 +0000" stop="20260818050000 +0000">
+    <title lang="zh">ATP Final: Miami</title>
+    <desc>Jannik Sinner's chance to join an exclusive list of Sunshine Double winners arrives as the Italian world number two faces the explosive Czech Jiri Lehecka in the Miami Open final. (29.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="222007" start="20260818050000 +0000" stop="20260818060000 +0000">
+    <title lang="zh">WTA Final: Indian Wells</title>
+    <desc>World number one Aryna Sabalenka and two-time Grand Slam winner Elena Rybakina meet in a rematch of the 2026 Australian Open and the 2023 Indian Wells finals - both won by Rybakina. (15.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="222007" start="20260818060000 +0000" stop="20260818070000 +0000">
+    <title lang="zh">ATP Final: Indian Wells</title>
+    <desc>Jannik Sinner competes in his first Indian Wells final as the world number two goes up against re-emerging force Daniil Medvedev, who stunned Carlos Alcaraz in the last four. (15.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="222007" start="20260818070000 +0000" stop="20260818083000 +0000">
+    <title lang="zh">Tennis Highlights</title>
+    <desc>Revisit a standout match from yesterday's action on the ATP and WTA Tours.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="222007" start="20260818083000 +0000" stop="20260818100000 +0000">
+    <title lang="zh">Tennis Highlights</title>
+    <desc>Revisit a standout match from yesterday's action on the ATP and WTA Tours.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="222007" start="20260818100000 +0000" stop="20260818110000 +0000">
+    <title lang="zh">WTA Final: Linz</title>
+    <desc>Closing in on her second title of the year, Mirra Andreeva goes up against returning Linz finalist Anastasia Potapova. Andreeva holds a 2-1 lead in the pair's head-to-head record. (12.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="222007" start="20260818110000 +0000" stop="20260818120000 +0000">
+    <title lang="zh">WTA Final: Stuttgart</title>
+    <desc>A women's singles champion is crowned as 2024 champion and top seed Elena Rybakina returns to the Stuttgart final, where she faces world number 12 Karolina Muchova.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="222007" start="20260818120000 +0000" stop="20260818133000 +0000">
+    <title lang="zh">Tennis Highlights</title>
+    <desc>Revisit a standout match from yesterday's action on the ATP and WTA Tours.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="222007" start="20260818133000 +0000" stop="20260818150000 +0000">
+    <title lang="zh">Tennis Highlights</title>
+    <desc>Revisit a standout match from yesterday's action on the ATP and WTA Tours.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="222007" start="20260818150000 +0000" stop="20260819000000 +0000">
+    <title lang="zh">Live: ATP/WTA Cincinnati</title>
+    <desc>Enjoy live action from the ATP and WTA Tours.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="470443" start="20260817200000 +0000" stop="20260817210000 +0000">
+    <title lang="zh">World Poker Tour</title>
+    <desc>A $2 million prize pool builds in Oklahoma and a final table is ready to get started.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="470443" start="20260817210000 +0000" stop="20260817220000 +0000">
+    <title lang="zh">Live: Blair &amp; Barker</title>
+    <desc>Jeff Blair and Kevin Barker talk all things Blue Jays, and Major League Baseball.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="470443" start="20260817220000 +0000" stop="20260818000000 +0000">
+    <title lang="zh">Live: MLB Baseball</title>
+    <desc>From Tropicana Field in St. Petersburg, Fla.</desc>
+    <date>2026-08-17</date>
+  </programme>
+  <programme channel="470443" start="20260818010000 +0000" stop="20260818030000 +0000">
+    <title lang="zh">Live: MLB Baseball</title>
+    <desc>From Wrigley Field in Chicago.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="470443" start="20260818030000 +0000" stop="20260818040000 +0000">
+    <title lang="zh">Live: Sportsnet Central</title>
+    <desc>Canada's premier destination for sports and analysis.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="470443" start="20260818040000 +0000" stop="20260818043000 +0000">
+    <title lang="zh">Misplays of the Month</title>
+    <desc>A look at the month's top bloopers.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="470443" start="20260818043000 +0000" stop="20260818050000 +0000">
+    <title lang="zh">Plays of the Month - Highlights</title>
+    <desc>Highlighting the past month's best in daily sports moments.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="470443" start="20260818050000 +0000" stop="20260818053000 +0000">
+    <title lang="zh">Live: Sportsnet Central</title>
+    <desc>Canada's premier destination for sports and analysis.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="470443" start="20260818053000 +0000" stop="20260818060000 +0000">
+    <title lang="zh">Sportsnet Central</title>
+    <desc>Canada's premier destination for sports and analysis.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="470443" start="20260818060000 +0000" stop="20260818070000 +0000">
+    <title lang="zh">Sportsnet Central</title>
+    <desc>Canada's premier destination for sports and analysis.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="470443" start="20260818070000 +0000" stop="20260818080000 +0000">
+    <title lang="zh">Sportsnet Central</title>
+    <desc>Canada's premier destination for sports and analysis.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="470443" start="20260818080000 +0000" stop="20260818090000 +0000">
+    <title lang="zh">Sportsnet Central</title>
+    <desc>Canada's premier destination for sports and analysis.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="470443" start="20260818090000 +0000" stop="20260818100000 +0000">
+    <title lang="zh">Sportsnet Central</title>
+    <desc>Canada's premier destination for sports and analysis.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="470443" start="20260818100000 +0000" stop="20260818110000 +0000">
+    <title lang="zh">Sportsnet Central</title>
+    <desc>Canada's premier destination for sports and analysis.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="470443" start="20260818110000 +0000" stop="20260818120000 +0000">
+    <title lang="zh">Sportsnet Central</title>
+    <desc>Canada's premier destination for sports and analysis.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="470443" start="20260818120000 +0000" stop="20260818130000 +0000">
+    <title lang="zh">Sportsnet Central</title>
+    <desc>Canada's premier destination for sports and analysis.</desc>
+    <date>2026-08-18</date>
+  </programme>
+  <programme channel="470443" start="20260818130000 +0000" stop="20260818140000 +0000">
+    <title lang="zh">Sportsnet Central</title>
+    <desc>Canada's premier destination for sports and analysis.</desc>
     <date>2026-08-18</date>
   </programme>
 </tv>
