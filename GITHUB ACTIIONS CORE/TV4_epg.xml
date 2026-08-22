@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<tv date="20260822051933 " generator-info-name="TV4-Multi-XML-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="TV4-Source-EPG">
+<tv date="20260822062122 " generator-info-name="TV4-Multi-XML-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="TV4-Source-EPG">
   <channel id="VirginOne.ie">
     <display-name>Virgin Media One</display-name>
     <icon src="https://iptv-epg.org/images/ODiSy4StxCWka8dHSPJ_5c6h20hiJlb4ayvEsOKi7yESm_XqK4iKQUK69lMtLwyDCADX5bftMbWdAXVq5OevbKZafmxMIH24tnpV060k" />
@@ -92,6 +92,10 @@
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">U and YESTERDAY</display-name>
     <icon src="" />
   </channel>
+  <channel id="464753">
+    <display-name lang="US">Bravo HD</display-name>
+    <icon src="" />
+  </channel>
   <channel id="486671">
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">alibi+1</display-name>
     <icon src="" />
@@ -100,46 +104,22 @@
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">U and Eden+1</display-name>
     <icon src="" />
   </channel>
-  <channel id="2638">
-    <display-name lang="New Zealand">TVNZ 1</display-name>
-    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609082516361447_66.png" />
-  </channel>
   <channel id="543450">
     <display-name lang="India">STAR SPORTS SELECT 2</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="543263">
+    <display-name lang="India">STAR SPORTS SELECT 1</display-name>
     <icon src="" />
   </channel>
   <channel id="2390">
     <display-name lang="New Zealand">TVNZ 2</display-name>
     <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609082329098980_43.png" />
   </channel>
-  <channel id="543263">
-    <display-name lang="India">STAR SPORTS SELECT 1</display-name>
-    <icon src="" />
+  <channel id="2638">
+    <display-name lang="New Zealand">TVNZ 1</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609082516361447_66.png" />
   </channel>
-  <channel id="464753">
-    <display-name lang="US">Bravo HD</display-name>
-    <icon src="" />
-  </channel>
-  <programme start="20260822010000 +0000" stop="20260822053000 +0000" channel="VirginOne.ie">
-    <desc lang="en">Bringing the best in television.</desc>
-    <icon src="https://iptv-epg.org/images/Sil0FfSONOl15sJ-ndNGWgLZ19JoW6oA0DOKCsTXByo7UedsxAtKSjyEtC0lTJRbPQ2-3jWV6BsjsM6z3b8mKsv_M6dOMp2FjB7l74ee5y1nOnsuACdeVuTZVgc_XRHLBHKba04d9kgmV7gNvwZM3mhErylSNY2zlqVI1zwZg-OZ3DpyWCpz8Gd-OSww-2ek39Nmv5MQkk48Gfa0YHSSr4T73FawxUvakbOU0CtZlfJhSrcDFcrajLqtX-ZgFXSEzBnWA6eqks5ExdTfxNJKGsPfbSIt5-pv4JImjO7932d_3mSnXSdBp_c_K70tlTnGPNY-wA" />
-    <title lang="en">Channel Off Air</title>
-  </programme>
-  <programme start="20260822053000 +0000" stop="20260822062000 +0000" channel="VirginOne.ie">
-    <category lang="en">Game Show</category>
-    <credits>
-      <director>Derek Hallworth</director>
-      <actor>Jason Manford</actor>
-      <producer>Zoe Tait</producer>
-      <producer>Glenn Hugill</producer>
-    </credits>
-    <date>2022</date>
-    <desc lang="en">S2 E18 — Episode 18
-Jason Manford hosts the quiz show where players face a question and pick from a board of six rankable answers. Some answers are good, but only one is unbeatable.</desc>
-    <episode-num>S2 E18</episode-num>
-    <icon src="https://iptv-epg.org/images/-zygkzbov5k0V9uYTCsZSLbqHaP6J6jMEZrLYqtVH7iCS-B5QdYjh-eYcRZjd4aS7S_KOe4eq_uhXvl7tvCHf6PAzfTUzus3dAZJ2OAC3xmD-jvUr6oZUbtEZFThjDy15WuhlURHJRzPRfgv3KKbybDHslUBD8sL1Zd08_kLfAKX_hKKjDY65viF3q8gpUCyJNS3L9BVi1nKUYC47mIcE1xhzdz0jN6c8VuAwuU716Joa2-dQsyEYCK72AWT2Xe6eWHMAEcizD-vlr2QVdp7tU9kzucOJv3p2Io4VF_87oiKakyUvIU2qHToAq0" />
-    <title lang="en">Unbeatable</title>
-  </programme>
   <programme start="20260822062000 +0000" stop="20260822064500 +0000" channel="VirginOne.ie">
     <category lang="en">Documentary</category>
     <category lang="en">History</category>
@@ -517,10 +497,28 @@ Olly Murs, Sir Tom Jones and will.i.am are joined in their iconic red chairs by 
     <icon src="https://iptv-epg.org/images/1j6_tP-c9aRJrtOeTYGJ1riJP_A5OqpoeZGt22aSDfLMRU5WrdQ87Lc9MvzoJNPwwte_cWQHMcbmG75e-7D_WIe8jcw6H_wVl87JTK971a-j5FHfTkfIwEzzmom3AXajCluc9wZd5J7AcTJw3K8tnBzQgarZ6QU7VlA3EniMYWH8os07sT4bpKyGOaGQCr2qx6HbdhD7-fbTjMkmx0mH2MskOmyDa2MPcvodcVKH_uka-EGO3AZOiliG45ELmZoMG9nOa224QAr3BTjbOeEgwC0td3jWv7TqjvFn-Vb7Bj2_b9d2sVF57-sWb7w" />
     <title lang="en">The Voice UK</title>
   </programme>
-  <programme start="20260822010200 +0000" stop="20260822055500 +0000" channel="VirginThree.ie">
-    <desc lang="en">Bringing the best in television.</desc>
-    <icon src="https://iptv-epg.org/images/BTqq2WjzQMrou8V15rnxPExomSHMB8gMPbHm5RbAQiqM4f3luq8VgInmodAPQzMsgYDg8GpPB7PV_DU9AThMSuwGsB1gzuY63Kg8T2bs692uCHVxvJNM4idDy1auMs9CHOdXA_xjXTB5V6YLusuXax7u9gxbrhInOzpJ1EjEEpyfpTmk4OHxI3cetryi8s-RGfqHD-QgAjNxVXaIaT_zR1Z1MAk-O0prM50JfcxM5QAOJq5kC6lFqtSC8eIiUJTrvXlAb4QDTypqyjQh7oiqFC7pzApQcICKTxEPmVIaogEc4G-Mz4nHEvI3hhPK7Mg8mtFDXA" />
-    <title lang="en">Channel Off Air</title>
+  <programme start="20260823163000 +0000" stop="20260823170000 +0000" channel="VirginOne.ie">
+    <category lang="en">News</category>
+    <credits>
+      <actor>Colette Fitzpatrick</actor>
+    </credits>
+    <desc lang="en">The latest national and international news stories from the Virgin Media news team. Followed by sport and weather.</desc>
+    <icon src="https://iptv-epg.org/images/kchi7J25YqE9urZ9ryefYNiUfy7zl2cIjcVmTfna4U3HzhJ_LF3nk56fhmc0vEA1e5YKJQMeQ3iOKUnWKVmDBWhdbWv6TAv9tOtA6SYe65Jp_7vHhYHKp8suEP9BqSvpT01A572mvc7jU2GmTs3pf811QIuNTUfHGu8cbxvIAFMhSlV6H0L2XMXC0I1x_HzgQbx6i3_hHfFl_XEaYLMPjCBVXy6J6QCtYXGuVR40387rIzg3pMlgoCpCFee23p0wf8N488zct7NDv00zUOuRgLObympy5jqJFcHAgPeF4GikvEn0MeyQnB0KxGf19TXkl-rM1kzbHS8O" />
+    <title lang="en">News at 5:30</title>
+  </programme>
+  <programme start="20260823170000 +0000" stop="20260823180000 +0000" channel="VirginOne.ie">
+    <category lang="en">Documentary</category>
+    <category lang="en">Natural World</category>
+    <credits>
+      <director>Joe Hope</director>
+      <producer>Joe Hope</producer>
+    </credits>
+    <date>2026</date>
+    <desc lang="en">S1 E4 — Melting Worlds
+Cold-adapted animals must change their behaviour as their world melts. High in the peaks of the Indian Himalayas, a snow leopard is forced from his home by a rival male. And a young Arctic fox in Svalbard must face her first winter alone.</desc>
+    <episode-num>S1 E4</episode-num>
+    <icon src="https://iptv-epg.org/images/r3qgrzOw1FKn3yZOIvrg3754fyY-wcQ67VJJYKYZpSha5ms4LJljQCrQuIxzm-XAJsSSY7_7IXD5lX519KZsCMIetlLolp-L3sp4kShoaYdAlVIv7fPO4mX-RBEKavyyKsG9xNoXmUchVOVsZadsUnWCs8XBI2rDTzCiqDqCI3tTiv4xOUYu4WoMLKjPH_vbWNQOxThr1xXLWEAW0wdXVAJibH0O_Tkrh7wDIALGSYlXLQ_0dVmrLdg8ptSZjr26mPgLvD5mjJLkKk-PTmpzKbOcCvPJCxbytjyDNewtsetekOsUP4XaxjHivq4" />
+    <title lang="en">Force of Nature</title>
   </programme>
   <programme start="20260822055500 +0000" stop="20260822064500 +0000" channel="VirginThree.ie">
     <category lang="en">Crime Drama</category>
@@ -1136,10 +1134,29 @@ Sarah refuses to use her contacts to help another prisoner, Lily offers an olive
     <icon src="https://iptv-epg.org/images/zaUZyhl3M8u-BCG_KvMDCmhM6S7NC3M_Vah91iKkQfzqI7u8bQU2PcKd7Dk6mYSvQRKnm6x3ob_0aKzjoOoS_gf99bTGKNMHfnUYON3cNUEap7gDr1fVwXZftN9FTDGy9gOt0hKcLJA9yOR3QNzwL0KMNH1vmwwu3AQSpCgfzuqzyIhghrAXP1lUTjgSOsGS2CJI6p2bhckleV_bt7padAlDW-AniXOO8l8Vu15a76L1sF7S2r4GrYa3Qzn0toBOqitFhp9fuJHU3N4HXSQS96LS6nNjzMr5ne55NRNbnaKijgWXZ8sWxDkO1Fs" />
     <title lang="en">Coronation Street</title>
   </programme>
-  <programme start="20260822014200 +0000" stop="20260822055000 +0000" channel="VirginTwo.ie">
-    <desc lang="en">Bringing the best in television.</desc>
-    <icon src="https://iptv-epg.org/images/hFPtQfWYdlGHTMZyfIugWCLc9aI1hCuoUT4ElJ3I3vsV7EcPGv50xXjMcuUqyLYi-7HTVTUP_UGmaSnL36L5FzNwus1fvacqwdahMgekLlrGdYkyMTcXnGPF-BPNxSrvMu7Xb0MEHbc_ZCdAI81aguTrsJV8Kk4VFlwxB826jzDrJyZIfn1KgApwJPbafYSCF8JpBfT5zcZ0-cF8tXb_x9KVjx2HB26PAk53e9eIGKGdip4Avwe7Y65xsJFz4A-zqGdLF-kRecxjeD0XpwCWaBe5NxWaLP6ZN2EYP3bzUlI34aA_9x_4EICMJ06WnmajTYrDFw" />
-    <title lang="en">Channel Off Air</title>
+  <programme start="20260823122000 +0000" stop="20260823125000 +0000" channel="VirginThree.ie">
+    <category lang="en">Drama Series</category>
+    <category lang="en">Soap</category>
+    <credits>
+      <director>Neil Alderton</director>
+      <actor>Sam Robertson</actor>
+      <actor>Sair Khan</actor>
+      <actor>Sean Croke</actor>
+      <actor>Tanisha Gorey</actor>
+      <actor>Aaron McCusker</actor>
+      <actor>Jane Hazlegrove</actor>
+      <actor>Lucy Fallon</actor>
+      <actor>Peter Gunn</actor>
+      <actor>Ryan Mulvey</actor>
+      <actor>Frances Barber</actor>
+      <producer>Kate Brooks</producer>
+    </credits>
+    <date>2026</date>
+    <desc lang="en">E162 — Episode 162
+Kit leaves Sarah to deal with Kacey's threat, Lucy resents being unable to visit her dad, Idris hatches a plan to meet Alya's price, and Adam volunteers to have Harry for the rest of the holidays.</desc>
+    <episode-num>E162</episode-num>
+    <icon src="https://iptv-epg.org/images/DgXyOvsS2zeiXXL5lRxQ9dkNLqwjLFo0mGz7-MiMNm49wNqKmo5ZjIHxpGI0Yu0HYcIMWqEWT9PdVutjbw73DAxYADK5xfCncg-Zrm6gyAuzh_NvapobTLoNjqIrRBnhi73T1ssCO1S1aOsaArWhCFuq9Um28KRJiKDyIkPzSqOWD-Te8qQW-F1mEDw55JevD06kX9wbWrsVKQdG0u_9mp1pWjjV8CwE_wUYBEqAe5LmubWqJ47dVjcPUqq2uo_kA9ndFVnTrBhBjzwNxSVkAAAmjjtOvqWXZyuMwOvZgjAIoR_bCbHIPCp004c" />
+    <title lang="en">Coronation Street</title>
   </programme>
   <programme start="20260822055000 +0000" stop="20260822065000 +0000" channel="VirginTwo.ie">
     <category lang="en">Sport</category>
@@ -1581,6 +1598,22 @@ Week In Review looks back at the main local, national and international stories 
     <episode-num>S1 E24</episode-num>
     <icon src="https://iptv-epg.org/images/5c9dWOEqJ_u9ZfiG0rKrWhJzQ-sUZM6ToxdAiuMLkuxDu3_tVDELJctunhtx9154UD1PTVIOGwGtvNk-aQcCdL-fs7wA9TUOZL3IR3M92H6fyTYc4PyukQ-DFu6T9KsHYiZ1ORChFPUOj094MaYG1wUkwGZM7XKvbSLVrGta6d0fns-SLx6mC5DZCcAFLMXpP17ztgrBVLOtk95p_rCefM8iZuuSTTJyJLqCX2-psF2b5EVcQdQI_8nVEue8GojzIYYFx_AeAVP6jFbcyxllbNn1O8aShppTkKHzH7umdqWlCOUKTP7vUsAtAGA" />
     <title lang="en">Week In Review</title>
+  </programme>
+  <programme start="20260823083000 +0000" stop="20260823093000 +0000" channel="VirginTwo.ie">
+    <category lang="en">Game Show</category>
+    <credits>
+      <director>Richard van't Riet</director>
+      <actor>Ben Shephard</actor>
+      <producer>Hugh Rycroft</producer>
+      <producer>Kate Lownds</producer>
+      <producer>Sara Doyle</producer>
+    </credits>
+    <date>2021</date>
+    <desc lang="en">S12 E86 — Episode 86
+Contestants play a large coin-drop machine, provided they answer questions correctly. Answer incorrectly and the players could be eliminated. The last contestant standing has an opportunity to win the machine's £10,000 jackpot.</desc>
+    <episode-num>S12 E86</episode-num>
+    <icon src="https://iptv-epg.org/images/BbL7lDOxEIlGzbWZSFirNrp4j-qdJVndOF88wmldKTNkAgYdimAgyHlp3nSt1YLV6oTIASFDhKBCgpL0XUGs0PXNIeEYhaSLSiOdE5gO-aBOqhRks5boZwIhtRrPoiIsttt3NehSkP1AYGwKJZ1u0zuFlgbcFYGEJFVga4bqDlggsXCS4GR5HGVmvyJsVoYiF0BTug9T8J2dPGzkLpIuGjHERRnaFoyHBHncxo5rxQ2nlAs-507ecsNj6xmETvEaVtAMQYSeOgHKzXobwgPwnP6DeZ5c6wBI3k4RYZjN1tZ6DluwfRIt-eHhezY" />
+    <title lang="en">Tipping Point</title>
   </programme>
   <programme start="20260822044500 +0000" stop="20260822065600 +0000" channel="SONYMAX.uk">
     <category lang="en">Drama</category>
@@ -2190,48 +2223,6 @@ Real life icons Manoj Kumar Sharma and Shraddha Joshi Sharma candidly share thei
     <icon src="https://iptv-epg.org/images/nyd8YZeJreuYnMR0Vj6C6nxrY10nHnRZ0cHF9YFwUjXFHSL94oXCNY232z9EUKljwHSKzs6W3QeXRZIo2q2b0gUg5u_qc7gYq_ztx9bJ5DB_hrcdSkCDVwtIACRya5HVhliMObZaDKgBSbKwIeXUNP0ieGY1jOS1QWYyE1uLLuVdIMCBc3ezV2faCk8VGr6BsHMAIUiLjwNTaMMC8-QGWqAvSGDN8PTl8eNLK3gRrrF-5il9Tfcr1l9MErDlPDmOEowUwAEf1ngxkmDpoS2c7A2fWhJjEWNLtZJXRq0lkDQ6H2AYJD2Fdfzamdb66aR8kyekjT7L" />
     <title lang="en">Kya Bolti Tu?</title>
   </programme>
-  <programme start="20260822050000 +0000" stop="20260822053000 +0000" channel="AntennaTV.us">
-    <category lang="en">Sitcom</category>
-    <category lang="en">Series</category>
-    <credits>
-      <actor>Tim Daly</actor>
-      <actor>Steven Weber</actor>
-      <actor>Crystal Bernard</actor>
-      <actor>David Schramm</actor>
-      <actor>Rebecca Schull</actor>
-      <actor>Thomas Church</actor>
-      <actor>Tony Shalhoub</actor>
-      <actor>Kelsey Grammer</actor>
-      <actor>Tyne Daly</actor>
-    </credits>
-    <desc lang="en">S02 E19 — All in the Family
-Brian dates an attractive traveler (Marie Marshall) whose identity surprises him; Helen steals Joe's address book.</desc>
-    <episode-num>S02 E19</episode-num>
-    <icon src="https://iptv-epg.org/images/rcyrKRv68jZZZ_KygKP8NIalco4EAWt-dU8zwSFyVlwM0GAzdXLw_GYp5B1LkD3P_A7UeEi6Vs-LOITXiAlM69xh0nUALswO7zsF00-CWeA" />
-    <previously-shown />
-    <title lang="en">Wings</title>
-  </programme>
-  <programme start="20260822053000 +0000" stop="20260822060000 +0000" channel="AntennaTV.us">
-    <category lang="en">Sitcom</category>
-    <category lang="en">Series</category>
-    <credits>
-      <actor>Tim Daly</actor>
-      <actor>Steven Weber</actor>
-      <actor>Crystal Bernard</actor>
-      <actor>David Schramm</actor>
-      <actor>Rebecca Schull</actor>
-      <actor>Thomas Church</actor>
-      <actor>Tony Shalhoub</actor>
-      <actor>Kelsey Grammer</actor>
-      <actor>Tyne Daly</actor>
-    </credits>
-    <desc lang="en">S02 E18 — Love Means Never Having to Say Geronimo
-Brian makes weekend wedding plans with his adventurous new girlfriend (Lisa Darr).</desc>
-    <episode-num>S02 E18</episode-num>
-    <icon src="https://iptv-epg.org/images/rcyrKRv68jZZZ_KygKP8NIalco4EAWt-dU8zwSFyVlwM0GAzdXLw_GYp5B1LkD3P_A7UeEi6Vs-LOITXiAlM69xh0nUALswO7zsF00-CWeA" />
-    <previously-shown />
-    <title lang="en">Wings</title>
-  </programme>
   <programme start="20260822060000 +0000" stop="20260822063000 +0000" channel="AntennaTV.us">
     <category lang="en">Sitcom</category>
     <category lang="en">Series</category>
@@ -2820,59 +2811,53 @@ Uncle George dies, and Lamont will inherit $7,000 if he produces a son within th
     <previously-shown />
     <title lang="en">Sanford and Son</title>
   </programme>
-  <programme start="20260822050000 +0000" stop="20260822053000 +0000" channel="ASPiRE.us">
-    <category lang="en">Comedy</category>
-    <category lang="en">Family</category>
+  <programme start="20260822200000 +0000" stop="20260822203000 +0000" channel="AntennaTV.us">
     <category lang="en">Sitcom</category>
     <category lang="en">Series</category>
     <credits>
-      <director>Andy Cadiff</director>
-      <director>James Widdoes</director>
-      <producer>Julie Tsutsui</producer>
-      <producer>Adam Hamburger</producer>
-      <actor>Damon Wayans</actor>
-      <actor>Tisha Campbell-Martin</actor>
-      <actor>George Gore II</actor>
-      <actor>Jennifer Freeman</actor>
-      <actor>Parker Posey</actor>
-      <actor>Noah Gray-Cabey</actor>
-      <actor>Andrew McFarlane</actor>
-      <actor>Brooklyn Sudano</actor>
+      <actor>Bonnie Franklin</actor>
+      <actor>Valerie Bertinelli</actor>
+      <actor>Mackenzie Phillips</actor>
+      <actor>Pat Harrington</actor>
+      <actor>Nanette Fabray</actor>
+      <actor>Boyd Gaines</actor>
+      <actor>Howard Hesseman</actor>
+      <actor>Michael Lembeck</actor>
+      <actor>Richard Masur</actor>
+      <actor>Ron Rifkin</actor>
+      <actor>Glenn Scarpelli</actor>
+      <actor>Mary Louise Wilson</actor>
     </credits>
-    <date>2003</date>
-    <desc lang="en">S03 E17 — Jr.'s Risky Business
-Michael and Jay return home to find Jr. and his girlfriend (Meagan Good) fooling around in their bed.</desc>
-    <episode-num>S03 E17</episode-num>
-    <icon src="https://iptv-epg.org/images/PmwWLtDCmZeRaNfthDhOZ0DGjimTeXEU18wOmSjIoNkZnD9gG_piXwiIjN_cGS6Uc9Vf6R7eKQ8psCLFegmY3u0TG59_FjsZvbWz4Qh06Es" />
+    <desc lang="en">S04 E07 — Ann's Dating Game
+Ann tries to work up the nerve to ask a handsome business associate for a date.</desc>
+    <episode-num>S04 E07</episode-num>
+    <icon src="https://iptv-epg.org/images/8aeIEghFFdrLmnh31MeE9gVlPp3iS5xUW8H3oeDYdGC2U7GhouMXvqosC5QpduuHkwtkGPRGPC2r6Xc3XnIo_eO2ATiBL8hf43M3uh6YQzY" />
     <previously-shown />
-    <title lang="en">My Wife and Kids</title>
+    <title lang="en">One Day at a Time</title>
   </programme>
-  <programme start="20260822053000 +0000" stop="20260822060000 +0000" channel="ASPiRE.us">
-    <category lang="en">Comedy</category>
-    <category lang="en">Family</category>
+  <programme start="20260822203000 +0000" stop="20260822210000 +0000" channel="AntennaTV.us">
     <category lang="en">Sitcom</category>
     <category lang="en">Series</category>
     <credits>
-      <director>Andy Cadiff</director>
-      <director>James Widdoes</director>
-      <producer>Julie Tsutsui</producer>
-      <producer>Adam Hamburger</producer>
-      <actor>Damon Wayans</actor>
-      <actor>Tisha Campbell-Martin</actor>
-      <actor>George Gore II</actor>
-      <actor>Jennifer Freeman</actor>
-      <actor>Parker Posey</actor>
-      <actor>Noah Gray-Cabey</actor>
-      <actor>Andrew McFarlane</actor>
-      <actor>Brooklyn Sudano</actor>
+      <actor>Bonnie Franklin</actor>
+      <actor>Valerie Bertinelli</actor>
+      <actor>Mackenzie Phillips</actor>
+      <actor>Pat Harrington</actor>
+      <actor>Nanette Fabray</actor>
+      <actor>Boyd Gaines</actor>
+      <actor>Howard Hesseman</actor>
+      <actor>Michael Lembeck</actor>
+      <actor>Richard Masur</actor>
+      <actor>Ron Rifkin</actor>
+      <actor>Glenn Scarpelli</actor>
+      <actor>Mary Louise Wilson</actor>
     </credits>
-    <date>2003</date>
-    <desc lang="en">S03 E18 — Jr.'s Risky Business
-A furious Michael considers throwing Jr. out of the house after catching him in a compromising position with his girlfriend (Meagan Good).</desc>
-    <episode-num>S03 E18</episode-num>
-    <icon src="https://iptv-epg.org/images/PmwWLtDCmZeRaNfthDhOZ0DGjimTeXEU18wOmSjIoNkZnD9gG_piXwiIjN_cGS6Uc9Vf6R7eKQ8psCLFegmY3u0TG59_FjsZvbWz4Qh06Es" />
+    <desc lang="en">S04 E08 — Peabody's War
+Faced with eviction, an elderly neighbor takes a hostage in Ann's apartment.</desc>
+    <episode-num>S04 E08</episode-num>
+    <icon src="https://iptv-epg.org/images/8aeIEghFFdrLmnh31MeE9gVlPp3iS5xUW8H3oeDYdGC2U7GhouMXvqosC5QpduuHkwtkGPRGPC2r6Xc3XnIo_eO2ATiBL8hf43M3uh6YQzY" />
     <previously-shown />
-    <title lang="en">My Wife and Kids</title>
+    <title lang="en">One Day at a Time</title>
   </programme>
   <programme start="20260822060000 +0000" stop="20260822063000 +0000" channel="ASPiRE.us">
     <category lang="en">Consumer</category>
@@ -3332,32 +3317,45 @@ Steve refuses to allow Snoop Doggy Dogg and Sean "Puffy" Combs to use music from
     <previously-shown />
     <title lang="en">The Steve Harvey Show</title>
   </programme>
-  <programme start="20260822050000 +0000" stop="20260822060000 +0000" channel="BBCAmerica.us">
-    <category lang="en">Crime drama</category>
-    <category lang="en">Mystery</category>
-    <category lang="en">Thriller</category>
+  <programme start="20260822210000 +0000" stop="20260822213000 +0000" channel="ASPiRE.us">
+    <category lang="en">Sitcom</category>
     <category lang="en">Series</category>
     <credits>
-      <actor>Hugh Dancy</actor>
-      <actor>Odelya Halevi</actor>
-      <actor>Tony Goldwyn</actor>
-      <actor>Mehcad Brooks</actor>
-      <actor>Reid Scott</actor>
-      <actor>Linus Roache</actor>
-      <actor>Michael Moriarty</actor>
-      <actor>Carey Lowell</actor>
-      <actor>Fred Thompson</actor>
-      <actor>Elisabeth Röhm</actor>
-      <actor>S. Merkerson</actor>
-      <actor>Steven Hill</actor>
+      <actor>Steve Harvey</actor>
+      <actor>Cedric the Entertainer</actor>
+      <actor>Wendy Robinson</actor>
+      <actor>Merlin Santana</actor>
+      <actor>William Scott</actor>
+      <actor>Terri Vaughn</actor>
+      <actor>Lori Beth Denberg</actor>
     </credits>
-    <date>2004</date>
-    <desc lang="en">S15 E09 — All in the Family
-A philandering jeweler with ties to the Russian mob is one of four people shot to death on a sidewalk, and Fontana and Green learn the victim was cooperating with federal authorities until his murder.</desc>
-    <episode-num>S15 E09</episode-num>
-    <icon src="https://iptv-epg.org/images/ShjWEEsO3QOiIzhycCBp_O1KwydtO-0KKBSjFF73MpzMCQhFDGiT7mfiH5CKxGqoFiQaeg_E06RFBDATGnb4Obw66QSwddek1FlgRLuJeoI" />
+    <date>1997</date>
+    <desc lang="en">S01 E21 — Can't Buy Me Love
+A new student (Kenan Thompson) gives Regina (Wendy Raquel Robinson) an extravagant birthday gift, but Steve (Steve Harvey) pretends it is from him.</desc>
+    <episode-num>S01 E21</episode-num>
+    <icon src="https://iptv-epg.org/images/Bju5NMm9TB0Q3vZc8iph_pbuGW6jqzDcsTxhpurm-8F0vJJlCs_6YDz9oE8Lw51OAAfnAfhSynDBkf9n4IlOler8Vt4T1yC02SnnsftnD8s" />
     <previously-shown />
-    <title lang="en">Law &amp; Order</title>
+    <title lang="en">The Steve Harvey Show</title>
+  </programme>
+  <programme start="20260822213000 +0000" stop="20260822220000 +0000" channel="ASPiRE.us">
+    <category lang="en">Sitcom</category>
+    <category lang="en">Series</category>
+    <credits>
+      <actor>Steve Harvey</actor>
+      <actor>Cedric the Entertainer</actor>
+      <actor>Wendy Robinson</actor>
+      <actor>Merlin Santana</actor>
+      <actor>William Scott</actor>
+      <actor>Terri Vaughn</actor>
+      <actor>Lori Beth Denberg</actor>
+    </credits>
+    <date>1997</date>
+    <desc lang="en">S02 E01 — Whatever You Want
+Regina's (Wendy Raquel Robinson) new assistant (Terri J. Vaughn) falls in love with Cedric (Cedric the Entertainer); Romeo (Merlin Santana) befriends his formerly overweight neighbor (Ariyan Johnson).</desc>
+    <episode-num>S02 E01</episode-num>
+    <icon src="https://iptv-epg.org/images/Bju5NMm9TB0Q3vZc8iph_pbuGW6jqzDcsTxhpurm-8F0vJJlCs_6YDz9oE8Lw51OAAfnAfhSynDBkf9n4IlOler8Vt4T1yC02SnnsftnD8s" />
+    <previously-shown />
+    <title lang="en">The Steve Harvey Show</title>
   </programme>
   <programme start="20260822060000 +0000" stop="20260822070000 +0000" channel="BBCAmerica.us">
     <category lang="en">Crime drama</category>
@@ -3911,43 +3909,27 @@ From the jungles of Brazil to Costa Rica, animals face life in the most competit
     <icon src="https://iptv-epg.org/images/0w0O0bhXENKwCYpHmHy2aVIxA3yPqWK5Dn9ex1xnEzjn16dGW0WV5Leh5PP5VmMleQeedLMIWwRsVHzSRO9l94n3eZEzD8CqVlnRBkGE2jY" />
     <title lang="en">The Fifth Element</title>
   </programme>
-  <programme start="20260822050000 +0000" stop="20260822053000 +0000" channel="BET.us">
-    <category lang="en">Sitcom</category>
-    <category lang="en">Series</category>
+  <programme start="20260823230000 +0000" stop="20260824014500 +0000" channel="BBCAmerica.us">
+    <category lang="en">Action</category>
+    <category lang="en">Thriller</category>
+    <category lang="en">Movie</category>
     <credits>
-      <producer>Walter Barnett</producer>
-      <actor>Martin Lawrence</actor>
-      <actor>Tisha Campbell-Martin</actor>
-      <actor>Tichina Arnold</actor>
-      <actor>Tommy Ford</actor>
-      <actor>Carl Payne</actor>
-      <actor>Garrett Morris</actor>
+      <director>Kathryn Bigelow</director>
+      <producer>Peter Abrams</producer>
+      <producer>Robert Levy</producer>
+      <actor>Patrick Swayze</actor>
+      <actor>Keanu Reeves</actor>
+      <actor>Gary Busey</actor>
+      <actor>Lori Petty</actor>
+      <actor>John McGinley</actor>
+      <actor>James LeGros</actor>
+      <actor>John Philbin</actor>
+      <actor>Bojesse Christopher</actor>
     </credits>
-    <desc lang="en">S05 E18 — Auction
-Martin discards a bothersome cuckoo clock, only to frantically bid on it at a church auction after learning of its supposed value.</desc>
-    <episode-num>S05 E18</episode-num>
-    <icon src="https://iptv-epg.org/images/hnkGQ7m5LTYTIshi7HqF1pTEL5rpmE9lPIf6Q-VNidJuayrB_bnPirYTCI30ngSBEGDpzBgOKDXxqZoZhfhepV4F8JMTY8ZqiA9ntpfrDNo" />
-    <previously-shown />
-    <title lang="en">Martin</title>
-  </programme>
-  <programme start="20260822053000 +0000" stop="20260822060000 +0000" channel="BET.us">
-    <category lang="en">Sitcom</category>
-    <category lang="en">Series</category>
-    <credits>
-      <producer>Walter Barnett</producer>
-      <actor>Martin Lawrence</actor>
-      <actor>Tisha Campbell-Martin</actor>
-      <actor>Tichina Arnold</actor>
-      <actor>Tommy Ford</actor>
-      <actor>Carl Payne</actor>
-      <actor>Garrett Morris</actor>
-    </credits>
-    <desc lang="en">S05 E19 — Daddy Dearest
-Tommy Ford competes with his visiting military father; trouble follows after Martin Lawrence buys Nipsey's.</desc>
-    <episode-num>S05 E19</episode-num>
-    <icon src="https://iptv-epg.org/images/hnkGQ7m5LTYTIshi7HqF1pTEL5rpmE9lPIf6Q-VNidJuayrB_bnPirYTCI30ngSBEGDpzBgOKDXxqZoZhfhepV4F8JMTY8ZqiA9ntpfrDNo" />
-    <previously-shown />
-    <title lang="en">Martin</title>
+    <date>1991</date>
+    <desc lang="en">An FBI agent (Keanu Reeves) turns California surfer to nab bank robbers who wear rubber masks of four ex-presidents.</desc>
+    <icon src="https://iptv-epg.org/images/1iuIyDVSaM2jWLDIVcGhTiAV38JDZC9X1TVwV_rKBGxGPir4zCQ25yuI0ZTl05MT38Feee9nNn3dbRdSXtlJxx5LvoqZKimclPfG0QF2BnQ" />
+    <title lang="en">Point Break</title>
   </programme>
   <programme start="20260822060000 +0000" stop="20260822063000 +0000" channel="BET.us">
     <category lang="en">Sitcom</category>
@@ -4533,43 +4515,49 @@ Just as McCall considers quitting, she's pulled back in when she takes on Detect
     <previously-shown />
     <title lang="en">The Equalizer</title>
   </programme>
-  <programme start="20260822050000 +0000" stop="20260822053600 +0000" channel="BETHer.us">
-    <category lang="en">Sitcom</category>
+  <programme start="20260823000000 +0000" stop="20260823010000 +0000" channel="BET.us">
+    <category lang="en">Crime drama</category>
     <category lang="en">Series</category>
     <credits>
-      <actor>David Mann</actor>
-      <actor>Tamela Mann</actor>
-      <actor>J. Brown</actor>
-      <actor>Na'im Lynn</actor>
-      <actor>Courtney Nichole</actor>
-      <actor>Tayler Buck</actor>
-      <actor>Alex Henderson</actor>
+      <actor>Queen Latifah</actor>
+      <actor>Tory Kittles</actor>
+      <actor>Adam Goldberg</actor>
+      <actor>Liza Lapira</actor>
+      <actor>Laya Hayes</actor>
+      <actor>Lorraine Toussaint</actor>
+      <actor>Chris Noth</actor>
     </credits>
-    <desc lang="en">S01 E24 — A Dangerous Situation
-Cora tries to convince Mr. Brown to pitch in and help get Jeremy out of jail.</desc>
-    <episode-num>S01 E24</episode-num>
-    <icon src="https://iptv-epg.org/images/SPJCFGW7c2dcfKKbseCC0uH1TlwuLUMVEA9DhB-WfuMswEOqvcyBIoaNTvUvGdA6h5LYimfS7C7fnbZmqa3twaxapBB0X3EuFwn6DXP51UA" />
+    <date>2021</date>
+    <desc lang="en">S02 E02 — The Kingdom
+McCall is in the crosshairs of a foreign government's intelligence agency after a diplomat's daughter seeks her help to find her missing brother; Dante faces suspicion from a fellow detective tasked to find the vigilante known as the Equalizer.</desc>
+    <episode-num>S02 E02</episode-num>
+    <icon src="https://iptv-epg.org/images/rvSy0xk3g1hftejfZi5YfuqjftYnp71EucEFDeAHsrUFKQY_WWJZmpentuXUenMrU_Nc56Yfg3pQP7Ce6h2UtVqIJmVZAfPGk9ewvPwV_xI" />
     <previously-shown />
-    <title lang="en">Tyler Perry's Assisted Living</title>
+    <title lang="en">The Equalizer</title>
   </programme>
-  <programme start="20260822053600 +0000" stop="20260822061200 +0000" channel="BETHer.us">
-    <category lang="en">Sitcom</category>
-    <category lang="en">Series</category>
+  <programme start="20260823010000 +0000" stop="20260823040000 +0000" channel="BET.us">
+    <category lang="en">Romantic comedy</category>
+    <category lang="en">Movie</category>
     <credits>
-      <actor>David Mann</actor>
-      <actor>Tamela Mann</actor>
-      <actor>J. Brown</actor>
-      <actor>Na'im Lynn</actor>
-      <actor>Courtney Nichole</actor>
-      <actor>Tayler Buck</actor>
-      <actor>Alex Henderson</actor>
+      <director>John Singleton</director>
+      <producer>Steve Nicolaides</producer>
+      <producer>John Singleton</producer>
+      <actor>Janet Jackson</actor>
+      <actor>Tupac Shakur</actor>
+      <actor>Regina King</actor>
+      <actor>Joe Torry</actor>
+      <actor>Maya Angelou</actor>
+      <actor>Tyra Ferrell</actor>
+      <actor>Roger Smith</actor>
+      <actor>Q-Tip</actor>
+      <actor>Tone Loc</actor>
+      <actor>Billy Zane</actor>
+      <actor>Lori Petty</actor>
     </credits>
-    <desc lang="en">S01 E25 — The Dirty Denial
-Plans to open the living facility come to a halt when Vinny receives some news.</desc>
-    <episode-num>S01 E25</episode-num>
-    <icon src="https://iptv-epg.org/images/SPJCFGW7c2dcfKKbseCC0uH1TlwuLUMVEA9DhB-WfuMswEOqvcyBIoaNTvUvGdA6h5LYimfS7C7fnbZmqa3twaxapBB0X3EuFwn6DXP51UA" />
-    <previously-shown />
-    <title lang="en">Tyler Perry's Assisted Living</title>
+    <date>1993</date>
+    <desc lang="en">A beauty-salon worker (Janet Jackson) goes from South Central Los Angeles to Oakland in a mail truck with a guy (Tupac Shakur) she cannot stand.</desc>
+    <icon src="https://iptv-epg.org/images/bfe8HzAQeE45_oDQpPOSGvnk2OTNWrSwYiY65yQgpgLgdUWTKxpe7ds218pqReLm7SAW-l8JGx9ueBQni-2ODY9wG3mnrq4dbwl517hnQPw" />
+    <title lang="en">Poetic Justice</title>
   </programme>
   <programme start="20260822061200 +0000" stop="20260822064800 +0000" channel="BETHer.us">
     <category lang="en">Sitcom</category>
@@ -5006,12 +4994,39 @@ Judge Ms. Pat settles cases that include a hairy situation between salon owner a
     <previously-shown />
     <title lang="en">Ms. Pat Settles It</title>
   </programme>
-  <programme start="20260822050000 +0000" stop="20260822060000 +0000" channel="BETJams.us">
-    <category lang="en">Music</category>
-    <date>2015</date>
-    <desc lang="en">Rap, R&amp;B, hip-hop, and soul music.</desc>
-    <icon src="https://iptv-epg.org/images/VVpE0SD62NeKTCjvMtIYvDohsMe9chm11V2ZbPCiZz2AExCXcLACckFwspQ5nqdcvmxMtmi8IHCPGVa9yIuKCAxkeA8WiOXv7y6B5NNS-9Y" />
-    <title lang="en">Music Playlist</title>
+  <programme start="20260823150000 +0000" stop="20260823180000 +0000" channel="BETHer.us">
+    <category lang="en">Crime drama</category>
+    <category lang="en">Miniseries</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Jaira Thomas</director>
+      <actor>Taye Diggs</actor>
+      <actor>Keesha Sharp</actor>
+      <actor>Ciera Payton</actor>
+    </credits>
+    <date>2023</date>
+    <desc lang="en">Love &amp; Murder: Atlanta Playboy: Part One
+Lance Herndon is a womanizing local legend living life in the fast lane while trying to make his mark on the tech industry.</desc>
+    <icon src="https://iptv-epg.org/images/79uYhx3zw5EzfGCxl1h72JlyZ8bz0WxxvXjQG_jy9oIfO0NRC2-Rdl-09q69-IrE0AKGR0gijG5MOt-qoDo65kutFnPoJ-CwpkkdtJSj_wA" />
+    <previously-shown />
+    <title lang="en">Love &amp; Murder: Atlanta Playboy</title>
+  </programme>
+  <programme start="20260823180000 +0000" stop="20260823210000 +0000" channel="BETHer.us">
+    <category lang="en">Crime drama</category>
+    <category lang="en">Miniseries</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Jaira Thomas</director>
+      <actor>Taye Diggs</actor>
+      <actor>Keesha Sharp</actor>
+      <actor>Ciera Payton</actor>
+    </credits>
+    <date>2023</date>
+    <desc lang="en">Love &amp; Murder: Atlanta Playboy: Part Two
+Police find Lance Herndon brutally murdered in his home, leaving them to narrow down a long list of suspects.</desc>
+    <icon src="https://iptv-epg.org/images/79uYhx3zw5EzfGCxl1h72JlyZ8bz0WxxvXjQG_jy9oIfO0NRC2-Rdl-09q69-IrE0AKGR0gijG5MOt-qoDo65kutFnPoJ-CwpkkdtJSj_wA" />
+    <previously-shown />
+    <title lang="en">Love &amp; Murder: Atlanta Playboy</title>
   </programme>
   <programme start="20260822060000 +0000" stop="20260822070000 +0000" channel="BETJams.us">
     <category lang="en">Music</category>
@@ -5216,16 +5231,12 @@ Judge Ms. Pat settles cases that include a hairy situation between salon owner a
     <icon src="https://iptv-epg.org/images/VVpE0SD62NeKTCjvMtIYvDohsMe9chm11V2ZbPCiZz2AExCXcLACckFwspQ5nqdcvmxMtmi8IHCPGVa9yIuKCAxkeA8WiOXv7y6B5NNS-9Y" />
     <title lang="en">Music Playlist</title>
   </programme>
-  <programme start="20260822050000 +0000" stop="20260822060000 +0000" channel="DiscoveryChannel.us">
-    <category lang="en">Reality</category>
-    <category lang="en">Weather</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S04 E07 — Stranded in St. Louis
-In May 2025, eyewitnesses capture scenes of destruction as a mile-wide tornado tears through the city of St. Louis; when warning sirens fail, residents are caught off guard while visitors panic 630 feet above the ground inside the Gateway Arch.</desc>
-    <episode-num>S04 E07</episode-num>
-    <icon src="https://iptv-epg.org/images/X6qDibTdZJ7VcsmxCdC20mO7K4CL4ZpTySgQRMZFs-12ikMHxyh0CzrwKkUJHPTo6dgWnZ1T7vaZ60xkL_1cHwSNka26jo9uJev8OyuE0K4" />
-    <previously-shown />
-    <title lang="en">In the Eye of the Storm</title>
+  <programme start="20260823110000 +0000" stop="20260823120000 +0000" channel="BETJams.us">
+    <category lang="en">Music</category>
+    <date>2015</date>
+    <desc lang="en">Rap, R&amp;B, hip-hop, and soul music.</desc>
+    <icon src="https://iptv-epg.org/images/VVpE0SD62NeKTCjvMtIYvDohsMe9chm11V2ZbPCiZz2AExCXcLACckFwspQ5nqdcvmxMtmi8IHCPGVa9yIuKCAxkeA8WiOXv7y6B5NNS-9Y" />
+    <title lang="en">Music Playlist</title>
   </programme>
   <programme start="20260822060000 +0000" stop="20260822070000 +0000" channel="DiscoveryChannel.us">
     <category lang="en">Reality</category>
@@ -5602,33 +5613,22 @@ Josh searches for more than 1,000 POWs lost in the Pacific Theater; he dives to 
     <previously-shown />
     <title lang="en">Expedition Unknown</title>
   </programme>
-  <programme start="20260822050000 +0000" stop="20260822053000 +0000" channel="DiscoveryFamilyChannel.us">
-    <category lang="en">House/garden</category>
-    <category lang="en">Reality</category>
+  <programme start="20260823060000 +0000" stop="20260823070000 +0000" channel="DiscoveryChannel.us">
+    <category lang="en">Adventure</category>
+    <category lang="en">Documentary</category>
+    <category lang="en">History</category>
+    <category lang="en">Mystery</category>
+    <category lang="en">Travel</category>
     <category lang="en">Series</category>
     <credits>
-      <producer>Kevin Vargas</producer>
+      <producer>Emilie Dumay</producer>
     </credits>
-    <desc lang="en">S08 E10 — Bay Area to the Big Island
-A woman leaves stressful Silicon Valley for peace and calm in Kona.</desc>
-    <episode-num>S08 E10</episode-num>
-    <icon src="https://iptv-epg.org/images/w2wo_wLqM6MzCd_fnjEHbKOaZH8yUWx54WjT0uS2IdWJtDw9MpJlhj-QGbT-2c4BmiM83YwydIYBO6u1iP1rEzJA00IsCfVO3CeclIas1TA" />
+    <desc lang="en">S17 E02 — Finding World War II's Lost Prisoners
+A deep-water dive leads to the discovery of a lost WWII hell ship, where an estimated 1,000 soldiers made the ultimate sacrifice.</desc>
+    <episode-num>S17 E02</episode-num>
+    <icon src="https://iptv-epg.org/images/RtduIquTI9QECuc8tE2ag_J6Mt8WJhGcik0MFd04LuGJ_zMYYpg7yX8MxECbmzoOp9DTcr60NcU3FdRwK7XSTiyKw8EE1Xl3UalTnpVBJw4" />
     <previously-shown />
-    <title lang="en">Hawaii Life</title>
-  </programme>
-  <programme start="20260822053000 +0000" stop="20260822060000 +0000" channel="DiscoveryFamilyChannel.us">
-    <category lang="en">House/garden</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Series</category>
-    <credits>
-      <producer>Kevin Vargas</producer>
-    </credits>
-    <desc lang="en">S08 E16 — At Home on Oahu
-After many visits to sunny Oahu, Tony and Amor were enamored with the island vibe that made them feel like they were coming home; now they're looking for their perfect Hawaiian beachfront home.</desc>
-    <episode-num>S08 E16</episode-num>
-    <icon src="https://iptv-epg.org/images/w2wo_wLqM6MzCd_fnjEHbKOaZH8yUWx54WjT0uS2IdWJtDw9MpJlhj-QGbT-2c4BmiM83YwydIYBO6u1iP1rEzJA00IsCfVO3CeclIas1TA" />
-    <previously-shown />
-    <title lang="en">Hawaii Life</title>
+    <title lang="en">Expedition Unknown</title>
   </programme>
   <programme start="20260822060000 +0000" stop="20260822063000 +0000" channel="DiscoveryFamilyChannel.us">
     <category lang="en">House/garden</category>
@@ -6039,17 +6039,29 @@ A shy toyger kitten makes friends with a large housemate; British shorthairs aud
     <icon src="https://iptv-epg.org/images/ZKQYZiC5K3oBn9r8ZWKE9edU6JXRZjC0dT4kaYJq9uWyiB9SHR-9iX0kC-SSoFsHp0UL94CqXrQ1PPM7rctbQ6fpDCdzdsSs_67qh1XwxVQ" />
     <title lang="en">Great White Shark Babies</title>
   </programme>
-  <programme start="20260822040000 +0000" stop="20260822060000 +0000" channel="DiscoveryLifeChannel.us">
+  <programme start="20260822200000 +0000" stop="20260822210000 +0000" channel="DiscoveryFamilyChannel.us">
+    <category lang="en">Animals</category>
     <category lang="en">Documentary</category>
-    <category lang="en">Medical</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S10 E11 — Ontreon's Journey
-At 700 pounds, Ontreon has managed to keep going thanks to his faith in God, and he's training to become a minister; Ontreon is hopeful but has to believe in himself.</desc>
-    <episode-num>S10 E11</episode-num>
-    <icon src="https://iptv-epg.org/images/mHY9AGdeG47k7T7Uba6ayq2BuMMX5R5HK25YqT9tG5zmsUUHX4m5tMCNdUETzu3_p8B5TTKpSlYpgDJjAi_vdbTm35-DVQzKWWLjs8K3i5g" />
-    <previously-shown />
-    <title lang="en">My 600-Lb. Life</title>
+    <category lang="en">Special</category>
+    <credits>
+      <producer>Myke Clarkson</producer>
+    </credits>
+    <date>2016</date>
+    <desc lang="en">Using a self-propelled shark cage called The Explorer, marine biologists Mauricio Hoyos and Grant Johnson investigate great whites that move into shallow waters at night.</desc>
+    <icon src="https://iptv-epg.org/images/IKXreYNt1dInbGJpdKxxGevxzlocCVg7ODkN7Mp0XonhhBEG6qWgxlKct3GZlACMnUQccnVPBgY7UDctRzMJjl7oFG2Qelv7ooNmVGjkbmM" />
+    <title lang="en">Shallow Water Invasion</title>
+  </programme>
+  <programme start="20260822210000 +0000" stop="20260822220000 +0000" channel="DiscoveryFamilyChannel.us">
+    <category lang="en">Animals</category>
+    <category lang="en">Documentary</category>
+    <category lang="en">Special</category>
+    <credits>
+      <director>Brian Armstrong</director>
+    </credits>
+    <date>2014</date>
+    <desc lang="en">Eli Martinez explores the state of tonic immobility in sharks; predators using the process on white sharks.</desc>
+    <icon src="https://iptv-epg.org/images/MILSjzABqUHPzNKA-0K-XlrJpaBh_nxEvY9KcU5h19fxcNJBlukaLIL8hrCpEiHp8qOBy9Yh0dvvb5Rm-USjIg0a2M69KMW7U409fpf4hGc" />
+    <title lang="en">Zombie Sharks</title>
   </programme>
   <programme start="20260822060000 +0000" stop="20260822080000 +0000" channel="DiscoveryLifeChannel.us">
     <category lang="en">Documentary</category>
@@ -6458,21 +6470,21 @@ Chuck's second year of weight loss and a new relationship; Paula struggles with 
     <previously-shown />
     <title lang="en">My 600-Lb. Life: Where Are They Now?</title>
   </programme>
-  <programme start="20260822050000 +0000" stop="20260822060000 +0000" channel="ScienceChannel.us">
+  <programme start="20260823140000 +0000" stop="20260823160000 +0000" channel="DiscoveryLifeChannel.us">
     <category lang="en">Documentary</category>
-    <category lang="en">Science</category>
+    <category lang="en">Medical</category>
+    <category lang="en">Reality</category>
     <category lang="en">Series</category>
     <credits>
-      <director>Susanna Herbert</director>
-      <director>Bella Falk</director>
-      <producer>Bella Falk</producer>
+      <director>Jonathan Nowzaradan</director>
     </credits>
-    <desc lang="en">S05 E03 — Satan in Siberia
-A satanic symbol that points to an army of the dead in Siberia; a massive stone giant in a remote desert; evidence of a Russian doomsday device right on America's doorstep; cutting-edge technology helps experts answer sinister mysteries from space.</desc>
-    <episode-num>S05 E03</episode-num>
-    <icon src="https://iptv-epg.org/images/3PPPHU4VBa4EXAbqinT679KjHeFdsPAOWWE7EvHIJusXNWPY0jPRsvrRHH8vB3KdvSwzTX80aOcm3Inwfb-Ztx3gle_61JCyC5CM2zGJUiA" />
+    <date>2018</date>
+    <desc lang="en">S04 E01 — Steven and Justin Assanti
+Steven's dysfunction escalates, pushing his relationship with Dr. Nowzaradan; his brother Justin takes the leap to go to Houston to finally accept help.</desc>
+    <episode-num>S04 E01</episode-num>
+    <icon src="https://iptv-epg.org/images/LVZG777dRG3jc1ayU9_rbisLfJWwtQ4xR54gUBWf6oBThgzPgxpD0to3NuJDXiVthQlVSekvs5FkyaQ8-yNwRHX7v9nnktrCNPyksiu0xQQ" />
     <previously-shown />
-    <title lang="en">What on Earth?</title>
+    <title lang="en">My 600-Lb. Life: Where Are They Now?</title>
   </programme>
   <programme start="20260822060000 +0000" stop="20260822070000 +0000" channel="ScienceChannel.us">
     <category lang="en">Documentary</category>
@@ -6860,15 +6872,16 @@ Adam and Jamie test some flammable Hollywood fables; Kari, Grant and Tori break 
     <previously-shown />
     <title lang="en">MythBusters</title>
   </programme>
-  <programme start="20260822050000 +0000" stop="20260822060000 +0000" channel="FOXWeather.us">
-    <category lang="en">News</category>
-    <category lang="en">Weather</category>
+  <programme start="20260823110000 +0000" stop="20260823120000 +0000" channel="ScienceChannel.us">
+    <category lang="en">Documentary</category>
+    <category lang="en">Science</category>
     <category lang="en">Series</category>
-    <desc lang="en">Glacier; White Sands
-Visit Glacier and White Sands National Parks for an inside look at these natural wonders.</desc>
-    <icon src="https://iptv-epg.org/images/-XLjymTv4rle-v5XVsDshD-NHWgfVzqnmNnpGJ_8kCKEkUH0LGcaV0v_PssrMzqRll5TnJw4FNIjbzLrXielrCzCjuEj__sgT4sbowGKwZU" />
+    <desc lang="en">S05 E21 — Exploding Water Heater
+Testing if an ordinary water heater has the ability to fly like a rocket, right through your house; this is a tale of explosive transformation.</desc>
+    <episode-num>S05 E21</episode-num>
+    <icon src="https://iptv-epg.org/images/sAOgfWgpCRz_nVEGKtyHx2SV__sw--uzqMODGRodq40QqPKTot-_-mGmSKzBR_ZVDYak--HREvnIJxeBuuFkj_yxdgU4VcW4wo4KC1UrVn8" />
     <previously-shown />
-    <title lang="en">Fox Nation: PARK'D</title>
+    <title lang="en">MythBusters</title>
   </programme>
   <programme start="20260822060000 +0000" stop="20260822070000 +0000" channel="FOXWeather.us">
     <category lang="en">News</category>
@@ -7117,11 +7130,12 @@ Visit Glacier and White Sands National Parks for an inside look at these natural
     <title lang="en">America's Weather Center</title>
     <live />
   </programme>
-  <programme start="20260822050000 +0000" stop="20260822060000 +0000" channel="HSN.us">
-    <date>2026</date>
-    <desc lang="en">Discover professional-quality cookware and kitchen essentials from celebrity chef Wolfgang Puck.</desc>
-    <icon src="https://iptv-epg.org/images/XX7uDLP11oStm6uv38g1zmtU02z4T-NKgkbfwqQS-jiyA0YwFY1ZTyJGgO5MST-K2AzljeTFOuCOCed6kP2Zv2xu3nh9Fmf1RC8Vf8O4tdk" />
-    <title lang="en">Today's Super-Special Weekend - Chef Wolfgang Puck</title>
+  <programme start="20260824190000 +0000" stop="20260824220000 +0000" channel="FOXWeather.us">
+    <category lang="en">News</category>
+    <category lang="en">Weather</category>
+    <desc lang="en">Ian Oliver delivers the up-to-the-minute play-by-play of the nation's weather news; Ian and friends use their experience and expertise to interpret the latest forecasts and give perspective on the day's weather news.</desc>
+    <icon src="https://iptv-epg.org/images/Tou9Ua3Xkb9XlVtXwtadNgDm24BaxUg3mcBu9j3_mT8INpXaypTjM_ZToDcHPHd9QrviZ3QsdhidALlgAaijJM18nJRgsz_bBI7aXQjCP3w" />
+    <title lang="en">FOX Weather Now</title>
     <live />
   </programme>
   <programme start="20260822060000 +0000" stop="20260822070000 +0000" channel="HSN.us">
@@ -7208,6 +7222,7 @@ Visit Glacier and White Sands National Parks for an inside look at these natural
   <programme start="20260822170000 +0000" stop="20260822180000 +0000" channel="HSN.us">
     <date>2026</date>
     <desc lang="en">Welcome to an epic weekend bursting with 48-hours of Today's Specials!</desc>
+    <icon src="https://iptv-epg.org/images/UCwwBlwfBag3W6jaNzDBm4TZZyMGlMoW1-XWWzkGy8bIz8BeNK1YK1G7AR-y0RvZwVQGjELsv4hzFaOj_jQdYcco4Q1rkImQnLiem86Ok0Y" />
     <title lang="en">Today's Super-Special Weekend - featuring Shark</title>
     <live />
   </programme>
@@ -7271,6 +7286,7 @@ Visit Glacier and White Sands National Parks for an inside look at these natural
   <programme start="20260823020000 +0000" stop="20260823030000 +0000" channel="HSN.us">
     <date>2026</date>
     <desc lang="en">Welcome to an epic weekend bursting with 48-hours of Today's Specials!</desc>
+    <icon src="https://iptv-epg.org/images/6DLA54ek4j1AYTfwl9uqP0hhuhvSSyQ3wCR9_BvV1hIb1DYqEx4plLgkUklGr6-n_HRZQBVjK2jUh5V4m2avVvKlzl0nLqYRpKkdL3qp6F0" />
     <title lang="en">Today's Super-Special Weekend - Coin Collector</title>
     <live />
   </programme>
@@ -7284,6 +7300,7 @@ Visit Glacier and White Sands National Parks for an inside look at these natural
   <programme start="20260823040000 +0000" stop="20260823050000 +0000" channel="HSN.us">
     <date>2026</date>
     <desc lang="en">Welcome to an epic weekend bursting with 48-hours of Today's Specials!</desc>
+    <icon src="https://iptv-epg.org/images/UCwwBlwfBag3W6jaNzDBm4TZZyMGlMoW1-XWWzkGy8bIz8BeNK1YK1G7AR-y0RvZwVQGjELsv4hzFaOj_jQdYcco4Q1rkImQnLiem86Ok0Y" />
     <title lang="en">Today's Super-Special Weekend - featuring Shark</title>
     <live />
   </programme>
@@ -7305,11 +7322,13 @@ Visit Glacier and White Sands National Parks for an inside look at these natural
   <programme start="20260823070000 +0000" stop="20260823080000 +0000" channel="HSN.us">
     <date>2026</date>
     <desc lang="en">Welcome to an epic weekend bursting with 48-hours of Today's Specials!</desc>
+    <icon src="https://iptv-epg.org/images/UCwwBlwfBag3W6jaNzDBm4TZZyMGlMoW1-XWWzkGy8bIz8BeNK1YK1G7AR-y0RvZwVQGjELsv4hzFaOj_jQdYcco4Q1rkImQnLiem86Ok0Y" />
     <title lang="en">Today's Super-Special Weekend - featuring Shark</title>
   </programme>
   <programme start="20260823080000 +0000" stop="20260823090000 +0000" channel="HSN.us">
     <date>2026</date>
     <desc lang="en">Get your weekend poppin' with a house party filled with all the, I need that! finds you've been shopping for!</desc>
+    <icon src="https://iptv-epg.org/images/AizcySQ9GUBXAHJMD73IVN98THT_gvJMsLUJBPJR9bakhGbwF5DBQSZcdb_ImvX4Cfgg37CHwV5tEl65NTpedwjEB6c7iEGb3wIPPX2gRzE" />
     <title lang="en">Debbie &amp; Adam's Today's Super-Special Weekend Preview</title>
   </programme>
   <programme start="20260823090000 +0000" stop="20260823100000 +0000" channel="HSN.us">
@@ -7321,7 +7340,15 @@ Visit Glacier and White Sands National Parks for an inside look at these natural
   <programme start="20260823100000 +0000" stop="20260823110000 +0000" channel="HSN.us">
     <date>2026</date>
     <desc lang="en">Welcome to an epic weekend bursting with 48-hours of Today's Specials!</desc>
+    <icon src="https://iptv-epg.org/images/UCwwBlwfBag3W6jaNzDBm4TZZyMGlMoW1-XWWzkGy8bIz8BeNK1YK1G7AR-y0RvZwVQGjELsv4hzFaOj_jQdYcco4Q1rkImQnLiem86Ok0Y" />
     <title lang="en">Today's Super-Special Weekend - featuring Shark</title>
+  </programme>
+  <programme start="20260823110000 +0000" stop="20260823120000 +0000" channel="HSN.us">
+    <category lang="en">Shopping</category>
+    <date>2024</date>
+    <desc lang="en">Today's Super-Special Weekend - Home &amp; Kitchen</desc>
+    <icon src="https://iptv-epg.org/images/azFVMrFAHElbTBApC6jYg4lvSSKImh96Xqql9tvH0hqiy8ta5Tnn6dt0PydUELlVFJjklK93ZtePVZZndaZu3XfK8t5itfO2FV2MEshEO7U" />
+    <title lang="en">Today's Super-Special Weekend - Home &amp; Kitchen</title>
   </programme>
   <programme start="20260822050000 +0000" stop="20260822070000 +0000" channel="QVC.us">
     <category lang="en">Fashion</category>
@@ -7565,31 +7592,6 @@ Visit Glacier and White Sands National Parks for an inside look at these natural
     <icon src="https://iptv-epg.org/images/lBxS9CByPbTR4GSsf4VLCOn0ifI-HpthUuh_RFL0QTFD-cNf-6EE_DrjkCEO2_rEEjL8c-p71i-tRAej3TX-W8FmHWx_K8B6Ctw1kRvhHU0" />
     <title lang="en">Just Reduced - Fashion &amp; Accessories</title>
     <live />
-  </programme>
-  <programme start="20260822030100 +0000" stop="20260822060300 +0000" channel="WeTV.us">
-    <category lang="en">Action</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Movie</category>
-    <credits>
-      <director>Michael Bay</director>
-      <producer>Jerry Bruckheimer</producer>
-      <actor>Martin Lawrence</actor>
-      <actor>Will Smith</actor>
-      <actor>Jordi Mollà</actor>
-      <actor>Gabrielle Union</actor>
-      <actor>Peter Stormare</actor>
-      <actor>Theresa Randle</actor>
-      <actor>Joe Pantoliano</actor>
-      <actor>Michael Shannon</actor>
-      <actor>Jon Seda</actor>
-      <actor>Yul Vazquez</actor>
-      <actor>Jason Olazabal</actor>
-      <actor>Otto Sanchez</actor>
-    </credits>
-    <date>2003</date>
-    <desc lang="en">Two detectives uncover a conspiracy involving a drug kingpin while trying to stop the trafficking of Ecstasy in Miami.</desc>
-    <icon src="https://iptv-epg.org/images/S9PAHrFCwdKKh-NxBgR7IyuQ1hWp-0QRUN32AlL-jajGEQI88OBsaJIwUP8pTDimOaqgrN-oiC9tdHo1Ptee0zHJiGJ8U7PWyyPbGFaC9h0" />
-    <title lang="en">Bad Boys II</title>
   </programme>
   <programme start="20260822060300 +0000" stop="20260822070300 +0000" channel="WeTV.us">
     <category lang="en">Reality</category>
@@ -8181,17 +8183,30 @@ Halloween finds the first responders racing to the rescue at a cemetery, a haunt
     <previously-shown />
     <title lang="en">9-1-1</title>
   </programme>
-  <programme start="20260822050000 +0000" stop="20260822060000 +0000" channel="TheWeatherChannel.us">
-    <category lang="en">Documentary</category>
-    <category lang="en">Weather</category>
+  <programme start="20260823070000 +0000" stop="20260823080000 +0000" channel="WeTV.us">
+    <category lang="en">Action</category>
+    <category lang="en">Drama</category>
     <category lang="en">Series</category>
-    <date>2015</date>
-    <desc lang="en">S01 E08 — Without Warning
-Ice forces an airplane down and passengers must prepare for a crash landing; a dust devil strikes during a controlled burn, sending flames whipping into the air; a powerful wave drags tourists down a 12-story drop.</desc>
-    <episode-num>S01 E08</episode-num>
-    <icon src="https://iptv-epg.org/images/0yWAihrMR0z6yLrfEwK0rMDTblfx_wj-bAZcuOlGdYVKihEW207P5gpckoC2Qu3NzmU2JYCdC3ehwskdDwAdiaM0IxSXsrtxk_1pmDYBu9g" />
+    <credits>
+      <actor>Angela Bassett</actor>
+      <actor>Oliver Stark</actor>
+      <actor>Elijah Cooper</actor>
+      <actor>Aisha Hinds</actor>
+      <actor>Kenneth Choi</actor>
+      <actor>Jennifer Hewitt</actor>
+      <actor>Ryan Guzman</actor>
+      <actor>Corinne Massiah</actor>
+      <actor>Gavin McHugh</actor>
+      <actor>Marcanthonee Reis</actor>
+      <actor>Peter Krause</actor>
+      <actor>Rockmond Dunbar</actor>
+    </credits>
+    <desc lang="en">S02 E08 — Buck, Actually
+Buck jumps back into the dating scene but fears he will return to his old ways; a woman goes to great extremes on a freeway overpass to get the attention of her husband; a couple have a car accident on their wedding day.</desc>
+    <episode-num>S02 E08</episode-num>
+    <icon src="https://iptv-epg.org/images/-i2ZXkQI3vkfZlhKR3DUzHJCg317yTDbMFF2e95z2U__dKg1yd7HAv2_ntZaw98ZpOzwOWun0w91Rncg3K1qwfBc0eIUJHr9vSayBWQXQSQ" />
     <previously-shown />
-    <title lang="en">Weather Gone Viral</title>
+    <title lang="en">9-1-1</title>
   </programme>
   <programme start="20260822060000 +0000" stop="20260822070000 +0000" channel="TheWeatherChannel.us">
     <category lang="en">Documentary</category>
@@ -8520,39 +8535,12 @@ Australia's Kangaroo Island is ravaged by deadly bushfires; in Kansas, two torna
     <icon src="https://iptv-epg.org/images/2Q1Ts7S7VL0QpzTGlsYJACiy7ZlacPpFlf162mLiRnXu8KRsTfaKuaS3btWXAysut1Uvwr9mwjkCV6Qa7_mJmzy8-PS5VXY15QLOY8Z2jiw" />
     <title lang="en">America's Weekend Headquarters</title>
   </programme>
-  <programme start="20260822050000 +0000" stop="20260822053000 +0000" channel="MYWSBK.us">
-    <category lang="en">Game show</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S01 E51 — Material Girl
-Three contestants put their pop culture knowledge to the test to complete crosswords based on the iconic puzzles in People Magazine.</desc>
-    <episode-num>S01 E51</episode-num>
-    <icon src="https://iptv-epg.org/images/rpqXyfjYCOOtjPB_kDQ_x5OMZ8lUALWqtUFgvu4DywYd-ZWTgpaBJDg9t91cIldYQDEHm4BGsDOmWnMFnIa3nxwjYaj3oDW59TumvCSG1NE" />
-    <previously-shown />
-    <title lang="en">People Puzzler</title>
-  </programme>
-  <programme start="20260822053000 +0000" stop="20260822060000 +0000" channel="MYWSBK.us">
-    <category lang="en">Sitcom</category>
-    <category lang="en">Series</category>
-    <credits>
-      <director>Mark Cendrowski</director>
-      <director>Anthony Rich</director>
-      <producer>Kristy Cecil</producer>
-      <actor>Johnny Galecki</actor>
-      <actor>Jim Parsons</actor>
-      <actor>Kaley Cuoco</actor>
-      <actor>Simon Helberg</actor>
-      <actor>Kunal Nayyar</actor>
-      <actor>Mayim Bialik</actor>
-      <actor>Melissa Rauch</actor>
-      <actor>Sara Gilbert</actor>
-    </credits>
-    <date>2017</date>
-    <desc lang="en">S10 E12 — The Holiday Summation
-Sheldon and Amy visit Penny and Leonard after the holidays and tell them about their terrible trip to Texas.</desc>
-    <episode-num>S10 E12</episode-num>
-    <icon src="https://iptv-epg.org/images/p1vxExGwAeB0kVkNojfmCxgbiSdv-kJdkSrDqkeeJe6qyZXE-pJUPvMc9UDm5Q5E3YOHOeL0wG20QH2EM43d-_j6XxjFNn8klQYe70UKzMM" />
-    <previously-shown />
-    <title lang="en">The Big Bang Theory</title>
+  <programme start="20260823110000 +0000" stop="20260823120000 +0000" channel="TheWeatherChannel.us">
+    <category lang="en">Weather</category>
+    <date>2021</date>
+    <desc lang="en">The science and stories of weather, plus in-depth forecasts with a focus on weekend weather.</desc>
+    <icon src="https://iptv-epg.org/images/2Q1Ts7S7VL0QpzTGlsYJACiy7ZlacPpFlf162mLiRnXu8KRsTfaKuaS3btWXAysut1Uvwr9mwjkCV6Qa7_mJmzy8-PS5VXY15QLOY8Z2jiw" />
+    <title lang="en">America's Weekend Headquarters</title>
   </programme>
   <programme start="20260822060000 +0000" stop="20260822063000 +0000" channel="MYWSBK.us">
     <category lang="en">Comedy</category>
@@ -8880,23 +8868,53 @@ Jerry takes pity on a foreigner (Brian George) when the man's immigration papers
     <title lang="en">CBS Evening News</title>
     <new />
   </programme>
-  <programme start="20260822050000 +0000" stop="20260822053000 +0000" channel="DisneyChannel.ca">
-    <category lang="en">Animals</category>
-    <category lang="en">Reality</category>
+  <programme start="20260822230000 +0000" stop="20260822233000 +0000" channel="MYWSBK.us">
+    <category lang="en">Sitcom</category>
     <category lang="en">Series</category>
-    <desc lang="en">Karyn checks on the three Sumatran tiger cubs; a sick Komodo dragon hatchling; feeding the bears.</desc>
-    <icon src="https://iptv-epg.org/images/yCbSSpNF-lu2t3gLienMFcxKn5A8U8Zvqoaqhq3OYelnbrt8wHe0OOMOyI4J-wITGMsrzCqaZ9xpvHjid5uvdeLG0j1haX5t92pJRYWLc1I" />
+    <credits>
+      <director>Mark Cendrowski</director>
+      <director>Anthony Rich</director>
+      <producer>Kristy Cecil</producer>
+      <actor>Johnny Galecki</actor>
+      <actor>Jim Parsons</actor>
+      <actor>Kaley Cuoco</actor>
+      <actor>Simon Helberg</actor>
+      <actor>Kunal Nayyar</actor>
+      <actor>Mayim Bialik</actor>
+      <actor>Melissa Rauch</actor>
+      <actor>Sara Gilbert</actor>
+    </credits>
+    <date>2016</date>
+    <desc lang="en">S09 E21 — The Viewing Party Combustion
+During a group get-together, a minor argument between Sheldon and Leonard turns into a heated debate, leaving the rest of the gang to choose sides.</desc>
+    <episode-num>S09 E21</episode-num>
+    <icon src="https://iptv-epg.org/images/p1vxExGwAeB0kVkNojfmCxgbiSdv-kJdkSrDqkeeJe6qyZXE-pJUPvMc9UDm5Q5E3YOHOeL0wG20QH2EM43d-_j6XxjFNn8klQYe70UKzMM" />
     <previously-shown />
-    <title lang="en">Zoo Diaries</title>
+    <title lang="en">The Big Bang Theory</title>
   </programme>
-  <programme start="20260822053000 +0000" stop="20260822060000 +0000" channel="DisneyChannel.ca">
-    <category lang="en">Animals</category>
-    <category lang="en">Reality</category>
+  <programme start="20260822233000 +0000" stop="20260823000000 +0000" channel="MYWSBK.us">
+    <category lang="en">Sitcom</category>
     <category lang="en">Series</category>
-    <desc lang="en">Brad tries to get the lions ready for their inoculations; a goat suffers from infection; breeding tree kangaroos.</desc>
-    <icon src="https://iptv-epg.org/images/yCbSSpNF-lu2t3gLienMFcxKn5A8U8Zvqoaqhq3OYelnbrt8wHe0OOMOyI4J-wITGMsrzCqaZ9xpvHjid5uvdeLG0j1haX5t92pJRYWLc1I" />
+    <credits>
+      <director>Mark Cendrowski</director>
+      <director>Anthony Rich</director>
+      <producer>Kristy Cecil</producer>
+      <actor>Johnny Galecki</actor>
+      <actor>Jim Parsons</actor>
+      <actor>Kaley Cuoco</actor>
+      <actor>Simon Helberg</actor>
+      <actor>Kunal Nayyar</actor>
+      <actor>Mayim Bialik</actor>
+      <actor>Melissa Rauch</actor>
+      <actor>Sara Gilbert</actor>
+    </credits>
+    <date>2016</date>
+    <desc lang="en">S09 E22 — The Fermentation Bifurcation
+The gang runs into Penny's old boyfriend while out at a wine bar; Bernadette spends an evening with Sheldon; Koothrappali's introduction of his new girlfriend doesn't go as planned.</desc>
+    <episode-num>S09 E22</episode-num>
+    <icon src="https://iptv-epg.org/images/p1vxExGwAeB0kVkNojfmCxgbiSdv-kJdkSrDqkeeJe6qyZXE-pJUPvMc9UDm5Q5E3YOHOeL0wG20QH2EM43d-_j6XxjFNn8klQYe70UKzMM" />
     <previously-shown />
-    <title lang="en">Zoo Diaries</title>
+    <title lang="en">The Big Bang Theory</title>
   </programme>
   <programme start="20260822060000 +0000" stop="20260822070000 +0000" channel="DisneyChannel.ca">
     <category lang="en">Drama</category>
@@ -9394,12 +9412,35 @@ When Hugo runs a crafts store and Fig starts a competing business, the Monster S
     <previously-shown />
     <title lang="en">Esme &amp; Roy</title>
   </programme>
-  <programme start="20260822050000 +0000" stop="20260822060000 +0000" channel="WeatherNetwork.ca">
-    <category lang="en">Weather</category>
-    <date>2013</date>
-    <desc lang="en">Recapping the day's weather stories with forecasts for the days ahead.</desc>
-    <icon src="https://iptv-epg.org/images/L6OfDcvdJoHzyKJ0coB-Qb871RtpzIgoql2EeZ-MeE87xPi0XYp4w2EdDE9eaDY7b7gFbmWNzlLfdOsi0kFRicQwjF4bokrQN9hevNEI8Gs" />
-    <title lang="en">Overnight on The Weather Network</title>
+  <programme start="20260822155000 +0000" stop="20260822161500 +0000" channel="DisneyChannel.ca">
+    <category lang="en">Adventure</category>
+    <category lang="en">Animated</category>
+    <category lang="en">Children</category>
+    <category lang="en">Family</category>
+    <category lang="en">Series</category>
+    <date>2026</date>
+    <desc lang="en">S01 E06 — Darly's Messy Magical Map; Pixsqueaks
+Loomis makes a mess of Daryl's map; Pipsqueaks invade the picnic party.</desc>
+    <episode-num>S01 E06</episode-num>
+    <icon src="https://iptv-epg.org/images/m6t6VQN1smuaM0SD49437X8tGmi2bOdQW4DaZWANSApEEoOjwMqnt2rAIY-jhcy8iwozHcabsn2z8fWKCsFTfySAPiMXlAjJ-9EnI0N229E" />
+    <previously-shown />
+    <title lang="en">Magicampers</title>
+  </programme>
+  <programme start="20260822161500 +0000" stop="20260822164000 +0000" channel="DisneyChannel.ca">
+    <category lang="en">Action</category>
+    <category lang="en">Adventure</category>
+    <category lang="en">Anime</category>
+    <category lang="en">Series</category>
+    <credits>
+      <director>Katsuhito Akiyama</director>
+      <director>Suto Terada</director>
+    </credits>
+    <desc lang="en">S01 E109 — The End of the Demon Dragon
+Khrome wakes from a nightmare only to be knocked unconscious by Byte; Khrome awakens in the True X Tower, where One Kurosu demands his help to achieve the fastest Xtreme Dash in history using a revolutionary new futuristic Bey.</desc>
+    <episode-num>S01 E109</episode-num>
+    <icon src="https://iptv-epg.org/images/Jp4JK0SSxcTX7zXQ0soQvVqOev0nkv-IPXxmCSH58bs0SpNjezAV99Zmu6A2H8nMdCviWqWVu6tnH2xFOVYcA2-pSwd5enJg7qhRVa9JYWA" />
+    <title lang="en">Beyblade X</title>
+    <new />
   </programme>
   <programme start="20260822060000 +0000" stop="20260822070000 +0000" channel="WeatherNetwork.ca">
     <category lang="en">Entertainment</category>
@@ -9616,10 +9657,13 @@ When Hugo runs a crafts store and Fig starts a competing business, the Monster S
     <icon src="https://iptv-epg.org/images/eap4PmWDaRyIPWkC7_hXRrC4S-vcnLt08n8AzMIX0laQTFpA9AwgEbIS7J53CzFWcrstGQc6i2Wh4qT6fhfzplzSH_IYf6U1CS9aIQxjzO0" />
     <title lang="en">Weather AM</title>
   </programme>
-  <programme channel="380437" start="20260822051000 +0000" stop="20260822061000 +0000">
-    <title lang="zh">Abandoned Engineering</title>
-    <desc>Exploring derelict villas in Sicily that reveal the island's complicated history with the Mafia and an aristocratic mansion in Ireland embroiled in a bizarre terrorist plot.</desc>
-    <date>2026-08-22</date>
+  <programme start="20260823110000 +0000" stop="20260823120000 +0000" channel="WeatherNetwork.ca">
+    <category lang="en">Special</category>
+    <category lang="en">Weather</category>
+    <date>2023</date>
+    <desc lang="en">Forecasts for all of Canada with relevant weather stories to start the day.</desc>
+    <icon src="https://iptv-epg.org/images/eap4PmWDaRyIPWkC7_hXRrC4S-vcnLt08n8AzMIX0laQTFpA9AwgEbIS7J53CzFWcrstGQc6i2Wh4qT6fhfzplzSH_IYf6U1CS9aIQxjzO0" />
+    <title lang="en">Weather AM</title>
   </programme>
   <programme channel="380437" start="20260822061000 +0000" stop="20260822070000 +0000">
     <title lang="zh">Abandoned Engineering</title>
@@ -9766,10 +9810,160 @@ When Hugo runs a crafts store and Fig starts a competing business, the Monster S
     <desc>Robbie Cumming navigates the scenic Oxford Canal onboard Naughty Lass, explores its twists and turns, and helps tow a stranded broken-down boater.</desc>
     <date>2026-08-23</date>
   </programme>
-  <programme channel="486671" start="20260822040000 +0000" stop="20260822060000 +0000">
-    <title lang="zh">Teleshopping</title>
-    <desc>Shopping from Home.</desc>
+  <programme channel="380437" start="20260823130000 +0000" stop="20260823140000 +0000">
+    <title lang="zh">Canal Boat Diaries</title>
+    <desc>Robbie navigates the Oxford Canal, bumps into a hire boat and a hedge and tackles large river locks on the scenic Upper River Thames.</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260822053400 +0000" stop="20260822080400 +0000">
+    <title lang="zh">Marry Me</title>
+    <desc>Pop superstar Kat Valdez is about to get married before an audience of her loyal fans. However, seconds before the ceremony, she learns about her fiancé's cheating ways and has a meltdown on stage. In a moment of inspired insanity, Kat locks eyes with a total stranger in the crowd and marries him on the spot. As forces conspire to separate the unlikely newlyweds, they must soon decide if two peopl</desc>
     <date>2026-08-22</date>
+  </programme>
+  <programme channel="464753" start="20260822080400 +0000" stop="20260822100000 +0000">
+    <title lang="zh">Of an Age</title>
+    <desc>During the summer of 1999, an 18-year-old amateur ballroom dancer has an unexpected and intense 24-hour romance with a friend's older brother.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="464753" start="20260822100000 +0000" stop="20260822110000 +0000">
+    <title lang="zh">The Real Housewives of London</title>
+    <desc>As the women prepare for a countryside getaway, Karen reconnects with her Jamaican heritage in Brixton, and Panthea reflects on her family's dramatic past; a helicopter arrival sets the tone for a playful retreat in the Cotswolds.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="464753" start="20260822110000 +0000" stop="20260822120000 +0000">
+    <title lang="zh">The Real Housewives of London</title>
+    <desc>Tensions erupt at Nessie's red-themed dinner as Karen and Panthea clash; a day of alpacas and countryside calm is followed by an emotional dinner, but a cryptic Instagram post soon leaves the group questioning what's really been resolved.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="464753" start="20260822120000 +0000" stop="20260822130000 +0000">
+    <title lang="zh">The Real Housewives of London</title>
+    <desc>As Juliet Mayhew gathers the ladies for a chic picnic in Henley, an unexpected arrival brings past tensions bubbling back to the surface; Panthea prepares for Buckingham Palace and gossip flows when the Juliet's meets Caroline Stanbury.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="464753" start="20260822130000 +0000" stop="20260822140000 +0000">
+    <title lang="zh">The Real Housewives of London</title>
+    <desc>As the Henley fallout spreads, Juliet A turns to Gregor; Panthea gets personal; Karen opens up to Jeremy; The Juliets, Nessie and Panthea regroup over lunch, but things don't turn out the way they're expected to.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="464753" start="20260822140000 +0000" stop="20260822150000 +0000">
+    <title lang="zh">The Real Housewives of London</title>
+    <desc>What starts with bagpipes and bonding turns explosive at Glenapp Castle; Amanda and Juliet Angus's feud boils over, Karen breaks down, and Panthea storms out; highland games and castle calm give way to conflict, tears, and unexpected alliances.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="464753" start="20260822150000 +0000" stop="20260822160000 +0000">
+    <title lang="zh">The Real Housewives of London</title>
+    <desc>The atmosphere calms down in Scotland; Amanda and Juliet Angus find a fragile truce; Panthea defuses tensions with humour.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="464753" start="20260822160000 +0000" stop="20260822180000 +0000">
+    <title lang="zh">My Big Fat Greek Wedding 3</title>
+    <desc>Members of the Portokalos family reunite in Greece for a hilarious and heartwarming trip full of love, twists and turns.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="464753" start="20260822180000 +0000" stop="20260822210000 +0000">
+    <title lang="zh">Sex and the City</title>
+    <desc>Four years after the earlier adventures of Carrie Bradshaw and her best gal pals, she and her intermittent lover, Big, are in a committed relationship. Samantha, having survived cancer, has a monogamous relationship with Smith Jerrod. Charlotte and her husband live on Park Avenue, and Miranda, now in Brooklyn, feels the pressure of family life.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="464753" start="20260822210000 +0000" stop="20260823000000 +0000">
+    <title lang="zh">Sex and the City 2</title>
+    <desc>Fun, fashion and friendship continue to define the lives of Carrie, Samantha, Charlotte and Miranda. They have more than they ever wished for, but when the combination of marriage and motherhood approach, the gals take an exotic vacation in Abu Dhabi. The sun-drenched paradise holds many surprises -- especially for Carrie, who faces temptation when she unexpectedly runs into Aidan.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="464753" start="20260823000000 +0000" stop="20260823023200 +0000">
+    <title lang="zh">Save the Last Dance</title>
+    <desc>Sara moves from a small Midwestern town to the south side of Chicago when her mother dies in a car accident, and must live with her father. She soon falls for an African American teenager at her new high school, and he has less than an idyllic past. They share a love for dance (ballet and hip hop respectively) and together they tackle the problems that go with an interracial relationship.</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260823023200 +0000" stop="20260823050400 +0000">
+    <title lang="zh">Marry Me</title>
+    <desc>Pop superstar Kat Valdez is about to get married before an audience of her loyal fans. However, seconds before the ceremony, she learns about her fiancé's cheating ways and has a meltdown on stage. In a moment of inspired insanity, Kat locks eyes with a total stranger in the crowd and marries him on the spot. As forces conspire to separate the unlikely newlyweds, they must soon decide if two peopl</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260823050400 +0000" stop="20260823070400 +0000">
+    <title lang="zh">My Big Fat Greek Wedding 3</title>
+    <desc>Members of the Portokalos family reunite in Greece for a hilarious and heartwarming trip full of love, twists and turns.</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260823070400 +0000" stop="20260823090200 +0000">
+    <title lang="zh">Easter Sunday</title>
+    <desc>A man returns home to celebrate Easter with his riotous, bickering, eating, drinking, laughing, loving family.</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260823090200 +0000" stop="20260823100000 +0000">
+    <title lang="zh">The Real Housewives of Orange County</title>
+    <desc>The Vegas vacation continues as the ladies head to the Grand Canyon; Jenn tries to redirect Shannon's frustrations, resulting in an admission in Shannon and Heather's friendship.</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260823100000 +0000" stop="20260823110000 +0000">
+    <title lang="zh">The Real Housewives: Ultimate Girls Trip</title>
+    <desc>Seven iconic Housewives begin their trip in Orange County to celebrate 20 years of the historic franchise. Vicki hosts a yacht party and the ladies reflect on some of their most memorable Housewives moments. Vicki tries to recreate OC's iconic Bunco party with some old friends at the Quiet Woman, where the night is anything but quiet.</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260823110000 +0000" stop="20260823120000 +0000">
+    <title lang="zh">The Real Housewives: Ultimate Girls Trip</title>
+    <desc>One offhand comment leads to a bigger Housewives conversation; Teresa Giudice questions Vicki Gunvalson about remarks she found insulting, and the disagreement quickly turns into a debate about growth, perception and second chances.</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260823120000 +0000" stop="20260823130000 +0000">
+    <title lang="zh">The Real Housewives of Atlanta</title>
+    <desc>Kenya returns home from vacation with big news; Kandi shows no signs of defeat as business continues to boom at the OLG restaurant; Porsha struggles with letting people back into her life; Cynthia celebrates her 50th birthday one more time.</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260823130000 +0000" stop="20260823140000 +0000">
+    <title lang="zh">The Real Housewives of Atlanta</title>
+    <desc>Cynthia rejoins the dating scene with a much younger beau; Shereé meets with a life coach to help get her life back on track; Kenya is scrutinized over her husband; during Shamea's bridal shower, Porsha gets called out for being a shady best friend.</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260823140000 +0000" stop="20260823150000 +0000">
+    <title lang="zh">The Real Housewives of Atlanta</title>
+    <desc>Porsha clings to her family after losing another friend, but she is shocked by accusations from her sister; NeNe is left home alone to fend for herself; Shereé plans to turn the Château into a disco palace, but her party planner leaves her in a bind.</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260823150000 +0000" stop="20260823160000 +0000">
+    <title lang="zh">The Real Housewives of Atlanta</title>
+    <desc>NeNe plans a soirée while nursing Gregg back to health; tensions rise when Kim Zolciak-Biermann shows up to the party; Kandi discovers the difficulties of balancing life and business; Shereé is forced to come to terms with the truth.</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260823160000 +0000" stop="20260823170000 +0000">
+    <title lang="zh">The Real Housewives of Atlanta</title>
+    <desc>The girls attempt to make sense of what transpired between Kenya and Kim; Cynthia opens up to her daughter about her new man; Kenya contends with heartbreaking family news; Shereé reveals a shocking secret about her romantic life.</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260823170000 +0000" stop="20260823180000 +0000">
+    <title lang="zh">The Real Housewives of Atlanta</title>
+    <desc>The ladies surprise Kenya with a wedding celebration; NeNe makes a shocking revelation about Shereé's new man; Porsha tries to repair her relationship with Kandi; the group questions whether Kenya and Cynthia are truly best friends.</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260823180000 +0000" stop="20260823190000 +0000">
+    <title lang="zh">The Real Housewives of Atlanta</title>
+    <desc>Cynthia and Peter reunite to discuss business moves; Porsha embarks on her first blind date; Kandi faces the challenges of raising a teen; an unexpected phone call leaves Shereé wondering if her new love is strong enough to stand the test of time.</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260823190000 +0000" stop="20260823200000 +0000">
+    <title lang="zh">The Real Housewives of Atlanta</title>
+    <desc>Kandi and Todd search for a new general manager for the restaurant; Cynthia and Marlo serve tea to NeNe and Porsha with the hope that they will reconcile; Kenya and Shereé join forces to produce a PSA against domestic violence.</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260823200000 +0000" stop="20260823210000 +0000">
+    <title lang="zh">The Real Housewives of Atlanta</title>
+    <desc>Shereé invites Kim and NeNe to dinner; Porsha gets a career-changing opportunity; Shereé receives good news about her boyfriend; Cynthia faces new scrutiny over her interest in Will; NeNe gathers the women to address their issues.</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260823210000 +0000" stop="20260823220000 +0000">
+    <title lang="zh">The Real Housewives of Atlanta</title>
+    <desc>Drew's divorce nears, K. Michelle clashes with her, and a listening party falls apart.</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260823220000 +0000" stop="20260823230000 +0000">
+    <title lang="zh">The Real Housewives of Atlanta</title>
+    <desc>The peaches of Atlanta gather to revisit the season; Porsha spills tea about her love life; Kelli sits in the hot seat to discuss her living arrangements.</desc>
+    <date>2026-08-23</date>
+  </programme>
+  <programme channel="464753" start="20260823230000 +0000" stop="20260824000000 +0000">
+    <title lang="zh">The Real Housewives of Atlanta</title>
+    <desc>What starts as a conversation about accountability and friendship quickly devolves into accusations, interruptions and nonstop shouting across the couches.</desc>
+    <date>2026-08-23</date>
   </programme>
   <programme channel="486671" start="20260822060000 +0000" stop="20260822071000 +0000">
     <title lang="zh">Teleshopping</title>
@@ -9916,15 +10110,10 @@ When Hugo runs a crafts store and Fig starts a competing business, the Monster S
     <desc>Father Brown must discover who's out to kill a tortured artist before it's too late.</desc>
     <date>2026-08-23</date>
   </programme>
-  <programme channel="399723" start="20260822043500 +0000" stop="20260822053000 +0000">
-    <title lang="zh">You Rang, M'Lord?</title>
-    <desc>Comedy from the 'Dad's Army' stable, with a cast you'll recognise from other British sitcoms. Alf has a scheme and Sir Ralph is suspicious of his wife.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="399723" start="20260822053000 +0000" stop="20260822060000 +0000">
-    <title lang="zh">Fred Dibnah's Age of Steam</title>
-    <desc>Fred Dibnah looks at how steam revolutionised shipping, from the earliest paddle steamers to more modern vessels like the Britannia.</desc>
-    <date>2026-08-22</date>
+  <programme channel="486671" start="20260823134000 +0000" stop="20260823144000 +0000">
+    <title lang="zh">Father Brown</title>
+    <desc>The Fall of the House of St Gardner: A gossip columnist is murdered after threatening to expose the secrets of a fashion house.</desc>
+    <date>2026-08-23</date>
   </programme>
   <programme channel="399723" start="20260822060000 +0000" stop="20260822090000 +0000">
     <title lang="zh">Teleshopping</title>
@@ -10066,165 +10255,15 @@ When Hugo runs a crafts store and Fig starts a competing business, the Monster S
     <desc>A major fire breaks out in a haulage depot in Brighouse and a serious accident at an illegal off-road biking site leads to a rider needing urgent hospital treatment.</desc>
     <date>2026-08-23</date>
   </programme>
-  <programme channel="2638" start="20260822050000 +0000" stop="20260822060000 +0000">
-    <title lang="zh">The Chase</title>
-    <desc>It's game on as teams of complete strangers work together to win money and try and defeat the Chaser, a ruthless quiz genius, who wants to leave them with nothing! Hosted by Bradley Walsh.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822060000 +0000" stop="20260822070000 +0000">
-    <title lang="zh">1News at Six</title>
-    <desc>The nation's leading team of journalists brings viewers the latest news and sport, plus the most comprehensive weather report.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822070000 +0000" stop="20260822073000 +0000">
-    <title lang="zh">Motorway Patrol</title>
-    <desc>Season Premiere:Tonight on Motorway Patrol: A large sheet of metal pierces a windscreen. Too young to hold a license but speeding on a motorbike. Police get a rude hand signal from a grumpy motorist.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822073000 +0000" stop="20260822095000 +0000">
-    <title lang="zh">NPC Rugby Continued</title>
-    <desc>Join us for coverage of the Round 4 clash between hosts Bay of Plenty and Taranaki from Rotorua International Stadium in Rotorua.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822095000 +0000" stop="20260822102000 +0000">
-    <title lang="zh">Border Patrol</title>
-    <desc>A traveller is caught sporting the wrong kind of South American souvenir; Customs inspect a pool filter and Immigration speaks with a Canadian visitor who has a chequered past.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822102000 +0000" stop="20260822113000 +0000">
-    <title lang="zh">The Capture</title>
-    <desc>Carey searches for one suspect, whilst Frank Napier deals with another. S3 E3</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822113000 +0000" stop="20260822123000 +0000">
-    <title lang="zh">Bay Of Fires</title>
-    <desc>Caught between a rock and a soft cake, Stella is thrown into a tailspin as, not only is Frankie back and here to stay, but some colourful newcomers seem to remind Mystery Bay of an idea. S2 E4</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822123000 +0000" stop="20260822132500 +0000">
-    <title lang="zh">The Doll Factory</title>
-    <desc>Iris works in a doll-making shop but dreams of becoming an artist. Her chance encounter with a pre-Raphaelite painter changes her life. S1 E1</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822132500 +0000" stop="20260822141000 +0000">
-    <title lang="zh">Chateau DIY</title>
-    <desc>In the Dordogne, Nick and Nicole are creating a magical Narnia-inspired doorway. Ben and Billie are up against it with a major hall renovation.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822141000 +0000" stop="20260822153000 +0000">
-    <title lang="zh">TVNZ1 Quiz</title>
-    <desc />
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822153000 +0000" stop="20260822160000 +0000">
-    <title lang="zh">Infomercials</title>
-    <desc>Infomercials is an umbrella title for independent, quarter-hour television comedy specials airing on Adult Swim. Unlike actual paid programming, all of the programs are fictitious and maintain no continuity with each other.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822160000 +0000" stop="20260822163000 +0000">
-    <title lang="zh">Infomercials</title>
-    <desc>Infomercials is an umbrella title for independent, quarter-hour television comedy specials airing on Adult Swim. Unlike actual paid programming, all of the programs are fictitious and maintain no continuity with each other.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822163000 +0000" stop="20260822170000 +0000">
-    <title lang="zh">Infomercials</title>
-    <desc>Infomercials is an umbrella title for independent, quarter-hour television comedy specials airing on Adult Swim. Unlike actual paid programming, all of the programs are fictitious and maintain no continuity with each other.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822170000 +0000" stop="20260822173000 +0000">
-    <title lang="zh">Infomercials</title>
-    <desc>Infomercials is an umbrella title for independent, quarter-hour television comedy specials airing on Adult Swim. Unlike actual paid programming, all of the programs are fictitious and maintain no continuity with each other.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822173000 +0000" stop="20260822180000 +0000">
-    <title lang="zh">Infomercials</title>
-    <desc>Infomercials is an umbrella title for independent, quarter-hour television comedy specials airing on Adult Swim. Unlike actual paid programming, all of the programs are fictitious and maintain no continuity with each other.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822180000 +0000" stop="20260822183000 +0000">
-    <title lang="zh">Rural Delivery</title>
-    <desc>Meet the places and faces behind the New Zealand agricultural sector with Rural Delivery. Made with the support of NZ on Air.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822183000 +0000" stop="20260822190000 +0000">
-    <title lang="zh">Find My Country House: Canada</title>
-    <desc>Couples looking to relocate from the city find their perfect country house in a regional, Canadian location.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822190000 +0000" stop="20260822193000 +0000">
-    <title lang="zh">Tagata Pasifika</title>
-    <desc>Tagata Pasifika is TVNZ's flagship Pacific news show, telling the stories of Pacific Islanders and its community. Made with the support of NZ on Air.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822193000 +0000" stop="20260822200000 +0000">
-    <title lang="zh">Songs Of Praise</title>
-    <desc>Inspiring hymns and songs, together with uplifting stories of faith from around the UK and beyond.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822200000 +0000" stop="20260822210000 +0000">
-    <title lang="zh">Susan Calman's Grand Day Out</title>
-    <desc>Susan's on home soil exploring the Scottish Borders, where she learns about Scotland's first Formula One Champion, sees the Great Tapestry of Scotland, and a historic camera obscura.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822210000 +0000" stop="20260822220500 +0000">
-    <title lang="zh">Q+A With Jack Tame</title>
-    <desc>Hosted by Jack Tame, Q+A brings viewers the important political interviews and discussions of the week, taking a close look at politics, economics, and global events.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822220500 +0000" stop="20260822223500 +0000">
-    <title lang="zh">Waka Huia</title>
-    <desc>Waka Huia is an iconic archival documentary series recording the unique stories and histories of Maori for all New Zealanders.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822223500 +0000" stop="20260822230500 +0000">
-    <title lang="zh">Marae</title>
-    <desc>Your way in to the Māori world and the issues that matter. Māiatanga, Whanaungatanga, Manaakitanga - We bring you stories with heart.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260822230500 +0000" stop="20260823000000 +0000">
-    <title lang="zh">The Great British Bake Off</title>
-    <desc>It's Dessert Week and the bakers tackle exquisitely filled meringue nests, steamed suet puddings and a beloved Italian dessert. Whose meringues will peak, and whose tiramisu will get them through?</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="2638" start="20260823003000 +0000" stop="20260823010000 +0000">
-    <title lang="zh">Tom Kerridge Cooks Italy</title>
-    <desc>Tom is in Tuscany and Lazio, discovering the secrets behind an Italian icon, olive oil and fiery rocket, before cooking up delicious dishes that celebrate them.</desc>
+  <programme channel="399723" start="20260823170000 +0000" stop="20260823180000 +0000">
+    <title lang="zh">999 Rescue Squad</title>
+    <desc>A skier falls over on a steep slope and suffers a suspected brain injury in Wakefield and a DIY enthusiast's attempts to fix the heating in his chilly home end in disaster.</desc>
     <date>2026-08-23</date>
   </programme>
-  <programme channel="2638" start="20260823010000 +0000" stop="20260823020000 +0000">
-    <title lang="zh">Coastal Wonders</title>
-    <desc>Tom Webster explores landmark homes across the South Pacific, from Noosa in Queensland, Australia, to Piha and Tutukaka in New Zealand, where bold architecture becomes art.</desc>
+  <programme channel="399723" start="20260823180000 +0000" stop="20260823190000 +0000">
+    <title lang="zh">999 Rescue Squad</title>
+    <desc>The start of the new school term leads of a spate of stabbings and a forester is badly injured in an accident involving a chainsaw deep in woods near Keighley.</desc>
     <date>2026-08-23</date>
-  </programme>
-  <programme channel="2638" start="20260823020000 +0000" stop="20260823043000 +0000">
-    <title lang="zh">NPC Rugby</title>
-    <desc>Join us for coverage of the Round 4 match between hosts Waikato and Counties Manukau from FMG Stadium in Hamilton.</desc>
-    <date>2026-08-23</date>
-  </programme>
-  <programme channel="2638" start="20260823043000 +0000" stop="20260823050000 +0000">
-    <title lang="zh">Fishing and Adventure</title>
-    <desc>Season Premiere: The crew kicks off the new season in Waitara with a 50cm minimum catch limit. Big fish are on the line, and consequences await if they fall short.</desc>
-    <date>2026-08-23</date>
-  </programme>
-  <programme channel="2638" start="20260823050000 +0000" stop="20260823060000 +0000">
-    <title lang="zh">The Chase</title>
-    <desc>It's game on as teams of complete strangers work together to win money and try and defeat the Chaser, a ruthless quiz genius, who wants to leave them with nothing! Hosted by Bradley Walsh.</desc>
-    <date>2026-08-23</date>
-  </programme>
-  <programme channel="2638" start="20260823060000 +0000" stop="20260823070000 +0000">
-    <title lang="zh">1News at Six</title>
-    <desc>The nation's leading team of journalists brings viewers the latest news and sport, plus the most comprehensive weather report.</desc>
-    <date>2026-08-23</date>
-  </programme>
-  <programme channel="543450" start="20260822043000 +0000" stop="20260822053000 +0000">
-    <title lang="zh">Welcome to the Weekend</title>
-    <desc>A comprehensive and detailed insight into the latest news and developments from the world of football, providing key highlights of the week.</desc>
-    <date>2026-08-22</date>
-  </programme>
-  <programme channel="543450" start="20260822053000 +0000" stop="20260822060000 +0000">
-    <title lang="zh">Premier League Preview</title>
-    <desc>This is Sport - Football Category.</desc>
-    <date>2026-08-22</date>
   </programme>
   <programme channel="543450" start="20260822060000 +0000" stop="20260822063000 +0000">
     <title lang="zh">Premier League Highlights</title>
@@ -10299,6 +10338,36 @@ When Hugo runs a crafts store and Fig starts a competing business, the Monster S
   <programme channel="543450" start="20260822140000 +0000" stop="20260823000000 +0000">
     <title lang="zh">Live - 2026 Men's FIH Hockey World Cup</title>
     <desc>This is Sport - Hockey Category.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="543263" start="20260822050000 +0000" stop="20260822080000 +0000">
+    <title lang="zh">Live - BWF World Tour Badminton</title>
+    <desc>Elite shuttlers compete in international competitions across the BWF World Tour, vying for ranking points and prestigious titles.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="543263" start="20260822080000 +0000" stop="20260822103000 +0000">
+    <title lang="zh">Live - BWF World Tour Badminton</title>
+    <desc>Elite shuttlers compete in international competitions across the BWF World Tour, vying for ranking points and prestigious titles.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="543263" start="20260822103000 +0000" stop="20260822112000 +0000">
+    <title lang="zh">Live - PL Matchday Pre Show</title>
+    <desc>Sports experts discuss and predicts the performances and strategies of teams and players competing in the Premier League.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="543263" start="20260822112000 +0000" stop="20260822133000 +0000">
+    <title lang="zh">Live - Hull City vs. Manchester United; Premier League Soccer</title>
+    <desc>Professional football teams compete against each other in the Premier League in order to emerge victorious and win the coveted title.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="543263" start="20260822133000 +0000" stop="20260822135000 +0000">
+    <title lang="zh">Live - PL Matchday Pre Show</title>
+    <desc>Sports experts discuss and predicts the performances and strategies of teams and players competing in the Premier League.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="543263" start="20260822135000 +0000" stop="20260823000000 +0000">
+    <title lang="zh">Live - Everton vs. Crystal Palace; Premier League Soccer</title>
+    <desc>From Hill Dickinson Stadium in Liverpool, Merseyside, England.</desc>
     <date>2026-08-22</date>
   </programme>
   <programme channel="2390" start="20260822050000 +0000" stop="20260822063000 +0000">
@@ -10451,184 +10520,154 @@ When Hugo runs a crafts store and Fig starts a competing business, the Monster S
     <desc>Queenslanders Walt and Barbara are making the long round trip to Melbourne to visit the grandkids. Old Walt has a twinkle in his eye... so is it from a bit of beery refreshment with his lunch?</desc>
     <date>2026-08-23</date>
   </programme>
-  <programme channel="543263" start="20260822050000 +0000" stop="20260822080000 +0000">
-    <title lang="zh">Live - BWF World Tour Badminton</title>
-    <desc>Elite shuttlers compete in international competitions across the BWF World Tour, vying for ranking points and prestigious titles.</desc>
+  <programme channel="2638" start="20260822060000 +0000" stop="20260822070000 +0000">
+    <title lang="zh">1News at Six</title>
+    <desc>The nation's leading team of journalists brings viewers the latest news and sport, plus the most comprehensive weather report.</desc>
     <date>2026-08-22</date>
   </programme>
-  <programme channel="543263" start="20260822080000 +0000" stop="20260822103000 +0000">
-    <title lang="zh">Live - BWF World Tour Badminton</title>
-    <desc>Elite shuttlers compete in international competitions across the BWF World Tour, vying for ranking points and prestigious titles.</desc>
+  <programme channel="2638" start="20260822070000 +0000" stop="20260822073000 +0000">
+    <title lang="zh">Motorway Patrol</title>
+    <desc>Season Premiere:Tonight on Motorway Patrol: A large sheet of metal pierces a windscreen. Too young to hold a license but speeding on a motorbike. Police get a rude hand signal from a grumpy motorist.</desc>
     <date>2026-08-22</date>
   </programme>
-  <programme channel="543263" start="20260822103000 +0000" stop="20260822112000 +0000">
-    <title lang="zh">Live - PL Matchday Pre Show</title>
-    <desc>Sports experts discuss and predicts the performances and strategies of teams and players competing in the Premier League.</desc>
+  <programme channel="2638" start="20260822073000 +0000" stop="20260822095000 +0000">
+    <title lang="zh">NPC Rugby Continued</title>
+    <desc>Join us for coverage of the Round 4 clash between hosts Bay of Plenty and Taranaki from Rotorua International Stadium in Rotorua.</desc>
     <date>2026-08-22</date>
   </programme>
-  <programme channel="543263" start="20260822112000 +0000" stop="20260822133000 +0000">
-    <title lang="zh">Live - Hull City vs. Manchester United; Premier League Soccer</title>
-    <desc>Professional football teams compete against each other in the Premier League in order to emerge victorious and win the coveted title.</desc>
+  <programme channel="2638" start="20260822095000 +0000" stop="20260822102000 +0000">
+    <title lang="zh">Border Patrol</title>
+    <desc>A traveller is caught sporting the wrong kind of South American souvenir; Customs inspect a pool filter and Immigration speaks with a Canadian visitor who has a chequered past.</desc>
     <date>2026-08-22</date>
   </programme>
-  <programme channel="543263" start="20260822133000 +0000" stop="20260822135000 +0000">
-    <title lang="zh">Live - PL Matchday Pre Show</title>
-    <desc>Sports experts discuss and predicts the performances and strategies of teams and players competing in the Premier League.</desc>
+  <programme channel="2638" start="20260822102000 +0000" stop="20260822113000 +0000">
+    <title lang="zh">The Capture</title>
+    <desc>Carey searches for one suspect, whilst Frank Napier deals with another. S3 E3</desc>
     <date>2026-08-22</date>
   </programme>
-  <programme channel="543263" start="20260822135000 +0000" stop="20260823000000 +0000">
-    <title lang="zh">Live - Everton vs. Crystal Palace; Premier League Soccer</title>
-    <desc>From Hill Dickinson Stadium in Liverpool, Merseyside, England.</desc>
+  <programme channel="2638" start="20260822113000 +0000" stop="20260822123000 +0000">
+    <title lang="zh">Bay Of Fires</title>
+    <desc>Caught between a rock and a soft cake, Stella is thrown into a tailspin as, not only is Frankie back and here to stay, but some colourful newcomers seem to remind Mystery Bay of an idea. S2 E4</desc>
     <date>2026-08-22</date>
   </programme>
-  <programme channel="464753" start="20260822030200 +0000" stop="20260822053400 +0000">
-    <title lang="zh">Save the Last Dance</title>
-    <desc>Sara moves from a small Midwestern town to the south side of Chicago when her mother dies in a car accident, and must live with her father. She soon falls for an African American teenager at her new high school, and he has less than an idyllic past. They share a love for dance (ballet and hip hop respectively) and together they tackle the problems that go with an interracial relationship.</desc>
+  <programme channel="2638" start="20260822123000 +0000" stop="20260822132500 +0000">
+    <title lang="zh">The Doll Factory</title>
+    <desc>Iris works in a doll-making shop but dreams of becoming an artist. Her chance encounter with a pre-Raphaelite painter changes her life. S1 E1</desc>
     <date>2026-08-22</date>
   </programme>
-  <programme channel="464753" start="20260822053400 +0000" stop="20260822080400 +0000">
-    <title lang="zh">Marry Me</title>
-    <desc>Pop superstar Kat Valdez is about to get married before an audience of her loyal fans. However, seconds before the ceremony, she learns about her fiancé's cheating ways and has a meltdown on stage. In a moment of inspired insanity, Kat locks eyes with a total stranger in the crowd and marries him on the spot. As forces conspire to separate the unlikely newlyweds, they must soon decide if two peopl</desc>
+  <programme channel="2638" start="20260822132500 +0000" stop="20260822141000 +0000">
+    <title lang="zh">Chateau DIY</title>
+    <desc>In the Dordogne, Nick and Nicole are creating a magical Narnia-inspired doorway. Ben and Billie are up against it with a major hall renovation.</desc>
     <date>2026-08-22</date>
   </programme>
-  <programme channel="464753" start="20260822080400 +0000" stop="20260822100000 +0000">
-    <title lang="zh">Of an Age</title>
-    <desc>During the summer of 1999, an 18-year-old amateur ballroom dancer has an unexpected and intense 24-hour romance with a friend's older brother.</desc>
+  <programme channel="2638" start="20260822141000 +0000" stop="20260822153000 +0000">
+    <title lang="zh">TVNZ1 Quiz</title>
+    <desc />
     <date>2026-08-22</date>
   </programme>
-  <programme channel="464753" start="20260822100000 +0000" stop="20260822110000 +0000">
-    <title lang="zh">The Real Housewives of London</title>
-    <desc>As the women prepare for a countryside getaway, Karen reconnects with her Jamaican heritage in Brixton, and Panthea reflects on her family's dramatic past; a helicopter arrival sets the tone for a playful retreat in the Cotswolds.</desc>
+  <programme channel="2638" start="20260822153000 +0000" stop="20260822160000 +0000">
+    <title lang="zh">Infomercials</title>
+    <desc>Infomercials is an umbrella title for independent, quarter-hour television comedy specials airing on Adult Swim. Unlike actual paid programming, all of the programs are fictitious and maintain no continuity with each other.</desc>
     <date>2026-08-22</date>
   </programme>
-  <programme channel="464753" start="20260822110000 +0000" stop="20260822120000 +0000">
-    <title lang="zh">The Real Housewives of London</title>
-    <desc>Tensions erupt at Nessie's red-themed dinner as Karen and Panthea clash; a day of alpacas and countryside calm is followed by an emotional dinner, but a cryptic Instagram post soon leaves the group questioning what's really been resolved.</desc>
+  <programme channel="2638" start="20260822160000 +0000" stop="20260822163000 +0000">
+    <title lang="zh">Infomercials</title>
+    <desc>Infomercials is an umbrella title for independent, quarter-hour television comedy specials airing on Adult Swim. Unlike actual paid programming, all of the programs are fictitious and maintain no continuity with each other.</desc>
     <date>2026-08-22</date>
   </programme>
-  <programme channel="464753" start="20260822120000 +0000" stop="20260822130000 +0000">
-    <title lang="zh">The Real Housewives of London</title>
-    <desc>As Juliet Mayhew gathers the ladies for a chic picnic in Henley, an unexpected arrival brings past tensions bubbling back to the surface; Panthea prepares for Buckingham Palace and gossip flows when the Juliet's meets Caroline Stanbury.</desc>
+  <programme channel="2638" start="20260822163000 +0000" stop="20260822170000 +0000">
+    <title lang="zh">Infomercials</title>
+    <desc>Infomercials is an umbrella title for independent, quarter-hour television comedy specials airing on Adult Swim. Unlike actual paid programming, all of the programs are fictitious and maintain no continuity with each other.</desc>
     <date>2026-08-22</date>
   </programme>
-  <programme channel="464753" start="20260822130000 +0000" stop="20260822140000 +0000">
-    <title lang="zh">The Real Housewives of London</title>
-    <desc>As the Henley fallout spreads, Juliet A turns to Gregor; Panthea gets personal; Karen opens up to Jeremy; The Juliets, Nessie and Panthea regroup over lunch, but things don't turn out the way they're expected to.</desc>
+  <programme channel="2638" start="20260822170000 +0000" stop="20260822173000 +0000">
+    <title lang="zh">Infomercials</title>
+    <desc>Infomercials is an umbrella title for independent, quarter-hour television comedy specials airing on Adult Swim. Unlike actual paid programming, all of the programs are fictitious and maintain no continuity with each other.</desc>
     <date>2026-08-22</date>
   </programme>
-  <programme channel="464753" start="20260822140000 +0000" stop="20260822150000 +0000">
-    <title lang="zh">The Real Housewives of London</title>
-    <desc>What starts with bagpipes and bonding turns explosive at Glenapp Castle; Amanda and Juliet Angus's feud boils over, Karen breaks down, and Panthea storms out; highland games and castle calm give way to conflict, tears, and unexpected alliances.</desc>
+  <programme channel="2638" start="20260822173000 +0000" stop="20260822180000 +0000">
+    <title lang="zh">Infomercials</title>
+    <desc>Infomercials is an umbrella title for independent, quarter-hour television comedy specials airing on Adult Swim. Unlike actual paid programming, all of the programs are fictitious and maintain no continuity with each other.</desc>
     <date>2026-08-22</date>
   </programme>
-  <programme channel="464753" start="20260822150000 +0000" stop="20260822160000 +0000">
-    <title lang="zh">The Real Housewives of London</title>
-    <desc>The atmosphere calms down in Scotland; Amanda and Juliet Angus find a fragile truce; Panthea defuses tensions with humour.</desc>
+  <programme channel="2638" start="20260822180000 +0000" stop="20260822183000 +0000">
+    <title lang="zh">Rural Delivery</title>
+    <desc>Meet the places and faces behind the New Zealand agricultural sector with Rural Delivery. Made with the support of NZ on Air.</desc>
     <date>2026-08-22</date>
   </programme>
-  <programme channel="464753" start="20260822160000 +0000" stop="20260822180000 +0000">
-    <title lang="zh">My Big Fat Greek Wedding 3</title>
-    <desc>Members of the Portokalos family reunite in Greece for a hilarious and heartwarming trip full of love, twists and turns.</desc>
+  <programme channel="2638" start="20260822183000 +0000" stop="20260822190000 +0000">
+    <title lang="zh">Find My Country House: Canada</title>
+    <desc>Couples looking to relocate from the city find their perfect country house in a regional, Canadian location.</desc>
     <date>2026-08-22</date>
   </programme>
-  <programme channel="464753" start="20260822180000 +0000" stop="20260822210000 +0000">
-    <title lang="zh">Sex and the City</title>
-    <desc>Four years after the earlier adventures of Carrie Bradshaw and her best gal pals, she and her intermittent lover, Big, are in a committed relationship. Samantha, having survived cancer, has a monogamous relationship with Smith Jerrod. Charlotte and her husband live on Park Avenue, and Miranda, now in Brooklyn, feels the pressure of family life.</desc>
+  <programme channel="2638" start="20260822190000 +0000" stop="20260822193000 +0000">
+    <title lang="zh">Tagata Pasifika</title>
+    <desc>Tagata Pasifika is TVNZ's flagship Pacific news show, telling the stories of Pacific Islanders and its community. Made with the support of NZ on Air.</desc>
     <date>2026-08-22</date>
   </programme>
-  <programme channel="464753" start="20260822210000 +0000" stop="20260823000000 +0000">
-    <title lang="zh">Sex and the City 2</title>
-    <desc>Fun, fashion and friendship continue to define the lives of Carrie, Samantha, Charlotte and Miranda. They have more than they ever wished for, but when the combination of marriage and motherhood approach, the gals take an exotic vacation in Abu Dhabi. The sun-drenched paradise holds many surprises -- especially for Carrie, who faces temptation when she unexpectedly runs into Aidan.</desc>
+  <programme channel="2638" start="20260822193000 +0000" stop="20260822200000 +0000">
+    <title lang="zh">Songs Of Praise</title>
+    <desc>Inspiring hymns and songs, together with uplifting stories of faith from around the UK and beyond.</desc>
     <date>2026-08-22</date>
   </programme>
-  <programme channel="464753" start="20260823000000 +0000" stop="20260823023200 +0000">
-    <title lang="zh">Save the Last Dance</title>
-    <desc>Sara moves from a small Midwestern town to the south side of Chicago when her mother dies in a car accident, and must live with her father. She soon falls for an African American teenager at her new high school, and he has less than an idyllic past. They share a love for dance (ballet and hip hop respectively) and together they tackle the problems that go with an interracial relationship.</desc>
+  <programme channel="2638" start="20260822200000 +0000" stop="20260822210000 +0000">
+    <title lang="zh">Susan Calman's Grand Day Out</title>
+    <desc>Susan's on home soil exploring the Scottish Borders, where she learns about Scotland's first Formula One Champion, sees the Great Tapestry of Scotland, and a historic camera obscura.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="2638" start="20260822210000 +0000" stop="20260822220500 +0000">
+    <title lang="zh">Q+A With Jack Tame</title>
+    <desc>Hosted by Jack Tame, Q+A brings viewers the important political interviews and discussions of the week, taking a close look at politics, economics, and global events.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="2638" start="20260822220500 +0000" stop="20260822223500 +0000">
+    <title lang="zh">Waka Huia</title>
+    <desc>Waka Huia is an iconic archival documentary series recording the unique stories and histories of Maori for all New Zealanders.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="2638" start="20260822223500 +0000" stop="20260822230500 +0000">
+    <title lang="zh">Marae</title>
+    <desc>Your way in to the Māori world and the issues that matter. Māiatanga, Whanaungatanga, Manaakitanga - We bring you stories with heart.</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="2638" start="20260822230500 +0000" stop="20260823000000 +0000">
+    <title lang="zh">The Great British Bake Off</title>
+    <desc>It's Dessert Week and the bakers tackle exquisitely filled meringue nests, steamed suet puddings and a beloved Italian dessert. Whose meringues will peak, and whose tiramisu will get them through?</desc>
+    <date>2026-08-22</date>
+  </programme>
+  <programme channel="2638" start="20260823003000 +0000" stop="20260823010000 +0000">
+    <title lang="zh">Tom Kerridge Cooks Italy</title>
+    <desc>Tom is in Tuscany and Lazio, discovering the secrets behind an Italian icon, olive oil and fiery rocket, before cooking up delicious dishes that celebrate them.</desc>
     <date>2026-08-23</date>
   </programme>
-  <programme channel="464753" start="20260823023200 +0000" stop="20260823050400 +0000">
-    <title lang="zh">Marry Me</title>
-    <desc>Pop superstar Kat Valdez is about to get married before an audience of her loyal fans. However, seconds before the ceremony, she learns about her fiancé's cheating ways and has a meltdown on stage. In a moment of inspired insanity, Kat locks eyes with a total stranger in the crowd and marries him on the spot. As forces conspire to separate the unlikely newlyweds, they must soon decide if two peopl</desc>
+  <programme channel="2638" start="20260823010000 +0000" stop="20260823020000 +0000">
+    <title lang="zh">Coastal Wonders</title>
+    <desc>Tom Webster explores landmark homes across the South Pacific, from Noosa in Queensland, Australia, to Piha and Tutukaka in New Zealand, where bold architecture becomes art.</desc>
     <date>2026-08-23</date>
   </programme>
-  <programme channel="464753" start="20260823050400 +0000" stop="20260823070400 +0000">
-    <title lang="zh">My Big Fat Greek Wedding 3</title>
-    <desc>Members of the Portokalos family reunite in Greece for a hilarious and heartwarming trip full of love, twists and turns.</desc>
+  <programme channel="2638" start="20260823020000 +0000" stop="20260823043000 +0000">
+    <title lang="zh">NPC Rugby</title>
+    <desc>Join us for coverage of the Round 4 match between hosts Waikato and Counties Manukau from FMG Stadium in Hamilton.</desc>
     <date>2026-08-23</date>
   </programme>
-  <programme channel="464753" start="20260823070400 +0000" stop="20260823090200 +0000">
-    <title lang="zh">Easter Sunday</title>
-    <desc>A man returns home to celebrate Easter with his riotous, bickering, eating, drinking, laughing, loving family.</desc>
+  <programme channel="2638" start="20260823043000 +0000" stop="20260823050000 +0000">
+    <title lang="zh">Fishing and Adventure</title>
+    <desc>Season Premiere: The crew kicks off the new season in Waitara with a 50cm minimum catch limit. Big fish are on the line, and consequences await if they fall short.</desc>
     <date>2026-08-23</date>
   </programme>
-  <programme channel="464753" start="20260823090200 +0000" stop="20260823100000 +0000">
-    <title lang="zh">The Real Housewives of Orange County</title>
-    <desc>The Vegas vacation continues as the ladies head to the Grand Canyon; Jenn tries to redirect Shannon's frustrations, resulting in an admission in Shannon and Heather's friendship.</desc>
+  <programme channel="2638" start="20260823050000 +0000" stop="20260823060000 +0000">
+    <title lang="zh">The Chase</title>
+    <desc>It's game on as teams of complete strangers work together to win money and try and defeat the Chaser, a ruthless quiz genius, who wants to leave them with nothing! Hosted by Bradley Walsh.</desc>
     <date>2026-08-23</date>
   </programme>
-  <programme channel="464753" start="20260823100000 +0000" stop="20260823110000 +0000">
-    <title lang="zh">The Real Housewives: Ultimate Girls Trip</title>
-    <desc>Seven iconic Housewives begin their trip in Orange County to celebrate 20 years of the historic franchise. Vicki hosts a yacht party and the ladies reflect on some of their most memorable Housewives moments. Vicki tries to recreate OC's iconic Bunco party with some old friends at the Quiet Woman, where the night is anything but quiet.</desc>
+  <programme channel="2638" start="20260823060000 +0000" stop="20260823070000 +0000">
+    <title lang="zh">1News at Six</title>
+    <desc>The nation's leading team of journalists brings viewers the latest news and sport, plus the most comprehensive weather report.</desc>
     <date>2026-08-23</date>
   </programme>
-  <programme channel="464753" start="20260823110000 +0000" stop="20260823120000 +0000">
-    <title lang="zh">The Real Housewives: Ultimate Girls Trip</title>
-    <desc>One offhand comment leads to a bigger Housewives conversation; Teresa Giudice questions Vicki Gunvalson about remarks she found insulting, and the disagreement quickly turns into a debate about growth, perception and second chances.</desc>
-    <date>2026-08-23</date>
-  </programme>
-  <programme channel="464753" start="20260823120000 +0000" stop="20260823130000 +0000">
-    <title lang="zh">The Real Housewives of Atlanta</title>
-    <desc>Kenya returns home from vacation with big news; Kandi shows no signs of defeat as business continues to boom at the OLG restaurant; Porsha struggles with letting people back into her life; Cynthia celebrates her 50th birthday one more time.</desc>
-    <date>2026-08-23</date>
-  </programme>
-  <programme channel="464753" start="20260823130000 +0000" stop="20260823140000 +0000">
-    <title lang="zh">The Real Housewives of Atlanta</title>
-    <desc>Cynthia rejoins the dating scene with a much younger beau; Shereé meets with a life coach to help get her life back on track; Kenya is scrutinized over her husband; during Shamea's bridal shower, Porsha gets called out for being a shady best friend.</desc>
-    <date>2026-08-23</date>
-  </programme>
-  <programme channel="464753" start="20260823140000 +0000" stop="20260823150000 +0000">
-    <title lang="zh">The Real Housewives of Atlanta</title>
-    <desc>Porsha clings to her family after losing another friend, but she is shocked by accusations from her sister; NeNe is left home alone to fend for herself; Shereé plans to turn the Château into a disco palace, but her party planner leaves her in a bind.</desc>
-    <date>2026-08-23</date>
-  </programme>
-  <programme channel="464753" start="20260823150000 +0000" stop="20260823160000 +0000">
-    <title lang="zh">The Real Housewives of Atlanta</title>
-    <desc>NeNe plans a soirée while nursing Gregg back to health; tensions rise when Kim Zolciak-Biermann shows up to the party; Kandi discovers the difficulties of balancing life and business; Shereé is forced to come to terms with the truth.</desc>
-    <date>2026-08-23</date>
-  </programme>
-  <programme channel="464753" start="20260823160000 +0000" stop="20260823170000 +0000">
-    <title lang="zh">The Real Housewives of Atlanta</title>
-    <desc>The girls attempt to make sense of what transpired between Kenya and Kim; Cynthia opens up to her daughter about her new man; Kenya contends with heartbreaking family news; Shereé reveals a shocking secret about her romantic life.</desc>
-    <date>2026-08-23</date>
-  </programme>
-  <programme channel="464753" start="20260823170000 +0000" stop="20260823180000 +0000">
-    <title lang="zh">The Real Housewives of Atlanta</title>
-    <desc>The ladies surprise Kenya with a wedding celebration; NeNe makes a shocking revelation about Shereé's new man; Porsha tries to repair her relationship with Kandi; the group questions whether Kenya and Cynthia are truly best friends.</desc>
-    <date>2026-08-23</date>
-  </programme>
-  <programme channel="464753" start="20260823180000 +0000" stop="20260823190000 +0000">
-    <title lang="zh">The Real Housewives of Atlanta</title>
-    <desc>Cynthia and Peter reunite to discuss business moves; Porsha embarks on her first blind date; Kandi faces the challenges of raising a teen; an unexpected phone call leaves Shereé wondering if her new love is strong enough to stand the test of time.</desc>
-    <date>2026-08-23</date>
-  </programme>
-  <programme channel="464753" start="20260823190000 +0000" stop="20260823200000 +0000">
-    <title lang="zh">The Real Housewives of Atlanta</title>
-    <desc>Kandi and Todd search for a new general manager for the restaurant; Cynthia and Marlo serve tea to NeNe and Porsha with the hope that they will reconcile; Kenya and Shereé join forces to produce a PSA against domestic violence.</desc>
-    <date>2026-08-23</date>
-  </programme>
-  <programme channel="464753" start="20260823200000 +0000" stop="20260823210000 +0000">
-    <title lang="zh">The Real Housewives of Atlanta</title>
-    <desc>Shereé invites Kim and NeNe to dinner; Porsha gets a career-changing opportunity; Shereé receives good news about her boyfriend; Cynthia faces new scrutiny over her interest in Will; NeNe gathers the women to address their issues.</desc>
-    <date>2026-08-23</date>
-  </programme>
-  <programme channel="464753" start="20260823210000 +0000" stop="20260823220000 +0000">
-    <title lang="zh">The Real Housewives of Atlanta</title>
-    <desc>Drew's divorce nears, K. Michelle clashes with her, and a listening party falls apart.</desc>
-    <date>2026-08-23</date>
-  </programme>
-  <programme channel="464753" start="20260823220000 +0000" stop="20260823230000 +0000">
-    <title lang="zh">The Real Housewives of Atlanta</title>
-    <desc>The peaches of Atlanta gather to revisit the season; Porsha spills tea about her love life; Kelli sits in the hot seat to discuss her living arrangements.</desc>
+  <programme channel="2638" start="20260823070000 +0000" stop="20260823073000 +0000">
+    <title lang="zh">Hyundai Country Calendar</title>
+    <desc>A Canterbury family has spent the last 100 years breeding Angus cattle &amp; Romney sheep that thrive in tough country, and sell via their online livestock sales system.</desc>
     <date>2026-08-23</date>
   </programme>
 </tv>
