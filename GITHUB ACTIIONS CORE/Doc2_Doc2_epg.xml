@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<tv date="20260906184229 " generator-info-name="Doc2-Multi-XML-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="Doc2-Source-EPG">
+<tv date="20260906205408 " generator-info-name="Doc2-Multi-XML-Processor" generator-info-url="https://github.com/r56wdvm6d5-cloud/epguk" source-info-name="Doc2-Source-EPG">
   <channel id="CBCHalifax-CBHT.ca">
     <display-name>CBC HALIFAX</display-name>
     <icon src="https://iptv-epg.org/images/0Z4puZzuSi93QZsx_1XHJz6cCg74ZCQ7Bq0dxQ0liGvaYcCzrzZAw2G0pVeQBwYRLnKNl4RQntcU77PKhPvZfLQqNCDgtfVy0YvkLUl3XRefDFVuBVQKgw" />
@@ -16,16 +16,28 @@
     <display-name>CLEO TV</display-name>
     <icon src="https://iptv-epg.org/images/yeO-DiVmWeUby2M90WT2ozvggeldWB2TFjPL5lovUR_kTohJ-VWSeH-UJ25bcZ1pCMLu2eIWMM4Ly3Tootpcvt4k1BLbH9QTaFy_Mw" />
   </channel>
+  <channel id="9410">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">SONY TV HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="467679">
+    <display-name lang="US">WABC-DT</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="464992">
+    <display-name lang="US">A and E HD East</display-name>
+    <icon src="" />
+  </channel>
   <channel id="467161">
     <display-name lang="US">WKBW-DT</display-name>
     <icon src="" />
   </channel>
-  <channel id="470651">
-    <display-name lang="Canada">A and E Canada HD</display-name>
+  <channel id="486777">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">4seven</display-name>
     <icon src="" />
   </channel>
-  <channel id="9410">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">SONY TV HD</display-name>
+  <channel id="470651">
+    <display-name lang="Canada">A and E Canada HD</display-name>
     <icon src="" />
   </channel>
   <channel id="470669">
@@ -72,44 +84,32 @@
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">True Crime Xtra</display-name>
     <icon src="" />
   </channel>
-  <channel id="464992">
-    <display-name lang="US">A and E HD East</display-name>
-    <icon src="" />
-  </channel>
   <channel id="486749">
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">True Crime</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="467679">
-    <display-name lang="US">WABC-DT</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="486777">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">4seven</display-name>
     <icon src="" />
   </channel>
   <channel id="486692">
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">Channel 4 HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="486845">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">Channel 5 HD</display-name>
-    <icon src="" />
-  </channel>
   <channel id="486733">
     <display-name lang="United Kingdom of Great Britain and Northern Ireland">Challenge</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="486845">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">Channel 5 HD</display-name>
     <icon src="" />
   </channel>
   <channel id="470301">
     <display-name lang="Canada">CHCH-DT</display-name>
     <icon src="" />
   </channel>
-  <channel id="470911">
-    <display-name lang="Canada">Citytv Montreal</display-name>
-    <icon src="" />
-  </channel>
   <channel id="470612">
     <display-name lang="Canada">Citytv Calgary</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="470911">
+    <display-name lang="Canada">Citytv Montreal</display-name>
     <icon src="" />
   </channel>
   <channel id="470862">
@@ -118,6 +118,10 @@
   </channel>
   <channel id="470496">
     <display-name lang="Canada">Citytv Vancouver</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="486759">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">U and alibi HD</display-name>
     <icon src="" />
   </channel>
   <channel id="465071">
@@ -132,20 +136,6 @@
     <display-name lang="Australia">ABC ME</display-name>
     <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609083600248144_91.png" />
   </channel>
-  <channel id="486759">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">U and alibi HD</display-name>
-    <icon src="" />
-  </channel>
-  <programme start="20260906180000 +0000" stop="20260906200000 +0000" channel="CBCHalifax-CBHT.ca">
-    <category lang="en">Sports</category>
-    <category lang="en">Soccer</category>
-    <category lang="en">Series</category>
-    <desc lang="en">Calgary Wild at AFC Toronto
-From BMO Field in Toronto.</desc>
-    <icon src="https://iptv-epg.org/images/BcLdt_4p9LDZG2QgGEYHeGilSvcBIsusHigqA2MF2j5PrQAb8B7W51T2s-CmQp-JfU74j7tVc-Qyaj37Qqo4XMuHdXvUwiempMggU-qjOLg" />
-    <title lang="en">Northern Super League Soccer</title>
-    <live />
-  </programme>
   <programme start="20260906200000 +0000" stop="20260906210000 +0000" channel="CBCHalifax-CBHT.ca">
     <category lang="en">Competition reality</category>
     <category lang="en">Cooking</category>
@@ -525,15 +515,19 @@ Ronny drains Lake Lucky for a mud park; Hop must reverse the situation.</desc>
     <previously-shown />
     <title lang="en">Hop</title>
   </programme>
-  <programme start="20260906180000 +0000" stop="20260906200000 +0000" channel="CBCOttawa-CBOT.ca">
-    <category lang="en">Sports</category>
-    <category lang="en">Soccer</category>
+  <programme start="20260907122600 +0000" stop="20260907123400 +0000" channel="CBCHalifax-CBHT.ca">
+    <category lang="en">Adventure</category>
+    <category lang="en">Animated</category>
+    <category lang="en">Children</category>
+    <category lang="en">Family</category>
     <category lang="en">Series</category>
-    <desc lang="en">Calgary Wild at AFC Toronto
-From BMO Field in Toronto.</desc>
-    <icon src="https://iptv-epg.org/images/BcLdt_4p9LDZG2QgGEYHeGilSvcBIsusHigqA2MF2j5PrQAb8B7W51T2s-CmQp-JfU74j7tVc-Qyaj37Qqo4XMuHdXvUwiempMggU-qjOLg" />
-    <title lang="en">Northern Super League Soccer</title>
-    <live />
+    <date>2021</date>
+    <desc lang="en">S01 E02 — Raindrops
+Maddie and Triggs are camping in the woods with Dad; but when rain comes to spoil their campfire fun, they all rush into the tent; Dad is not happy, but a visit from a happy little raindrop soon has the whole gang up and dancing about the tent.</desc>
+    <episode-num>S01 E02</episode-num>
+    <icon src="https://iptv-epg.org/images/2BLFBMK4ZzZXLX41k0enRflTnE8vNP8nqXxQ7tQoJG394Nhpnmm_-kRhJa-U-slpWGDFBNE02585ZtjIqqChtcw4QVeCmrDzzKy6LDlui1s" />
+    <previously-shown />
+    <title lang="en">Maddie + Triggs</title>
   </programme>
   <programme start="20260906200000 +0000" stop="20260906210000 +0000" channel="CBCOttawa-CBOT.ca">
     <category lang="en">Cooking</category>
@@ -922,15 +916,19 @@ Ronny drains Lake Lucky for a mud park; Hop must reverse the situation.</desc>
     <previously-shown />
     <title lang="en">Hop</title>
   </programme>
-  <programme start="20260906180000 +0000" stop="20260906200000 +0000" channel="CBCToronto-CBLT.ca">
-    <category lang="en">Sports</category>
-    <category lang="en">Soccer</category>
+  <programme start="20260907132600 +0000" stop="20260907133400 +0000" channel="CBCOttawa-CBOT.ca">
+    <category lang="en">Adventure</category>
+    <category lang="en">Animated</category>
+    <category lang="en">Children</category>
+    <category lang="en">Family</category>
     <category lang="en">Series</category>
-    <desc lang="en">Calgary Wild at AFC Toronto
-From BMO Field in Toronto.</desc>
-    <icon src="https://iptv-epg.org/images/BcLdt_4p9LDZG2QgGEYHeGilSvcBIsusHigqA2MF2j5PrQAb8B7W51T2s-CmQp-JfU74j7tVc-Qyaj37Qqo4XMuHdXvUwiempMggU-qjOLg" />
-    <title lang="en">Northern Super League Soccer</title>
-    <live />
+    <date>2021</date>
+    <desc lang="en">S01 E02 — Raindrops
+Maddie and Triggs are camping in the woods with Dad; but when rain comes to spoil their campfire fun, they all rush into the tent; Dad is not happy, but a visit from a happy little raindrop soon has the whole gang up and dancing about the tent.</desc>
+    <episode-num>S01 E02</episode-num>
+    <icon src="https://iptv-epg.org/images/2BLFBMK4ZzZXLX41k0enRflTnE8vNP8nqXxQ7tQoJG394Nhpnmm_-kRhJa-U-slpWGDFBNE02585ZtjIqqChtcw4QVeCmrDzzKy6LDlui1s" />
+    <previously-shown />
+    <title lang="en">Maddie + Triggs</title>
   </programme>
   <programme start="20260906200000 +0000" stop="20260906210000 +0000" channel="CBCToronto-CBLT.ca">
     <category lang="en">Cooking</category>
@@ -1314,85 +1312,19 @@ Dylan and his friends imagine he's an astronaut.</desc>
     <previously-shown />
     <title lang="en">Dylan's Playtime Adventures</title>
   </programme>
-  <programme start="20260906183000 +0000" stop="20260906190000 +0000" channel="CleoTV.us">
-    <category lang="en">Sitcom</category>
+  <programme start="20260907131300 +0000" stop="20260907132600 +0000" channel="CBCToronto-CBLT.ca">
+    <category lang="en">Adventure</category>
+    <category lang="en">Animated</category>
+    <category lang="en">Children</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Family</category>
     <category lang="en">Series</category>
-    <credits>
-      <actor>Flex Alexander</actor>
-      <actor>Kyla Pratt</actor>
-      <actor>Robert Ri'chard</actor>
-      <actor>Jonathan Chase</actor>
-      <actor>Camille Mana</actor>
-      <actor>Ray Norwood</actor>
-      <actor>Nicole Paggi</actor>
-    </credits>
-    <date>2004</date>
-    <desc lang="en">S03 E21 — The Prodigal Brother
-When his career as a celebrity hairdresser ends abruptly, Flex's younger brother (Marques Houston) returns home hoping to take over the family barbershop.</desc>
-    <episode-num>S03 E21</episode-num>
-    <icon src="https://iptv-epg.org/images/gQ-Ls3spq59BNnYLsenTHKUwN-13sSvJ5HX8f1iszkyaA9SBvom643KHYyFfKye_r2JFg5oKiNhQyrufq-fy2vKWfgs6N7hApyhJMw0g1Sg" />
+    <desc lang="en">S01 E12 — A Muddy Mess
+Ronny drains Lake Lucky for a mud park; Hop must reverse the situation.</desc>
+    <episode-num>S01 E12</episode-num>
+    <icon src="https://iptv-epg.org/images/zGEMhIvwGZBde8xNlQHZ857ATLiwuN495wxner6QlckSPnw2jcJ9CV0291bubGSwq2heNNwqLPutv5Q2MmZpM1j8aihglXh7kxL0JcMRyCk" />
     <previously-shown />
-    <title lang="en">One on One</title>
-  </programme>
-  <programme start="20260906190000 +0000" stop="20260906193000 +0000" channel="CleoTV.us">
-    <category lang="en">Sitcom</category>
-    <category lang="en">Series</category>
-    <credits>
-      <actor>Flex Alexander</actor>
-      <actor>Kyla Pratt</actor>
-      <actor>Robert Ri'chard</actor>
-      <actor>Jonathan Chase</actor>
-      <actor>Camille Mana</actor>
-      <actor>Ray Norwood</actor>
-      <actor>Nicole Paggi</actor>
-    </credits>
-    <date>2004</date>
-    <desc lang="en">S03 E22 — Phatheadz
-When hair-care mogul Jack Sherwood buys the family barbershop, Kevin is forced to co-manage the place with the new owner's spoiled daughter (Shannon Elizabeth).</desc>
-    <episode-num>S03 E22</episode-num>
-    <icon src="https://iptv-epg.org/images/gQ-Ls3spq59BNnYLsenTHKUwN-13sSvJ5HX8f1iszkyaA9SBvom643KHYyFfKye_r2JFg5oKiNhQyrufq-fy2vKWfgs6N7hApyhJMw0g1Sg" />
-    <previously-shown />
-    <title lang="en">One on One</title>
-  </programme>
-  <programme start="20260906193000 +0000" stop="20260906200000 +0000" channel="CleoTV.us">
-    <category lang="en">Sitcom</category>
-    <category lang="en">Series</category>
-    <credits>
-      <actor>Flex Alexander</actor>
-      <actor>Kyla Pratt</actor>
-      <actor>Robert Ri'chard</actor>
-      <actor>Jonathan Chase</actor>
-      <actor>Camille Mana</actor>
-      <actor>Ray Norwood</actor>
-      <actor>Nicole Paggi</actor>
-    </credits>
-    <date>2004</date>
-    <desc lang="en">S03 E23 — The Play's the Thing
-Flex and his "Flex Files" co-host (Jenny McCarthy) fake a romance in order to generate publicity for the show.</desc>
-    <episode-num>S03 E23</episode-num>
-    <icon src="https://iptv-epg.org/images/gQ-Ls3spq59BNnYLsenTHKUwN-13sSvJ5HX8f1iszkyaA9SBvom643KHYyFfKye_r2JFg5oKiNhQyrufq-fy2vKWfgs6N7hApyhJMw0g1Sg" />
-    <previously-shown />
-    <title lang="en">One on One</title>
-  </programme>
-  <programme start="20260906200000 +0000" stop="20260906203000 +0000" channel="CleoTV.us">
-    <category lang="en">Sitcom</category>
-    <category lang="en">Series</category>
-    <credits>
-      <actor>Flex Alexander</actor>
-      <actor>Kyla Pratt</actor>
-      <actor>Robert Ri'chard</actor>
-      <actor>Jonathan Chase</actor>
-      <actor>Camille Mana</actor>
-      <actor>Ray Norwood</actor>
-      <actor>Nicole Paggi</actor>
-    </credits>
-    <date>2004</date>
-    <desc lang="en">S03 E24 — Bright Lights, Big City
-Holly (Jenny McCarthy) learns that Flex is not really in love with her and decides to get even by ruining their chances at syndication.</desc>
-    <episode-num>S03 E24</episode-num>
-    <icon src="https://iptv-epg.org/images/gQ-Ls3spq59BNnYLsenTHKUwN-13sSvJ5HX8f1iszkyaA9SBvom643KHYyFfKye_r2JFg5oKiNhQyrufq-fy2vKWfgs6N7hApyhJMw0g1Sg" />
-    <previously-shown />
-    <title lang="en">One on One</title>
+    <title lang="en">Hop</title>
   </programme>
   <programme start="20260906203000 +0000" stop="20260906210000 +0000" channel="CleoTV.us">
     <category lang="en">Sitcom</category>
@@ -1854,10 +1786,490 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <previously-shown />
     <title lang="en">One on One</title>
   </programme>
-  <programme channel="467161" start="20260906160000 +0000" stop="20260906190000 +0000">
-    <title lang="zh">Live: Women's College Volleyball</title>
-    <desc>Nashville hosts a pair of Top Ten teams when Louisville takes on Texas in the Broadway Block Party. The Cardinals come into the match ranked sixth while the Longhorns dropped from second to ninth after a loss to top-ranked Nebraska.</desc>
+  <programme start="20260907080000 +0000" stop="20260907083000 +0000" channel="CleoTV.us">
+    <category lang="en">Sitcom</category>
+    <category lang="en">Series</category>
+    <credits>
+      <actor>Flex Alexander</actor>
+      <actor>Kyla Pratt</actor>
+      <actor>Robert Ri'chard</actor>
+      <actor>Jonathan Chase</actor>
+      <actor>Camille Mana</actor>
+      <actor>Ray Norwood</actor>
+      <actor>Nicole Paggi</actor>
+    </credits>
+    <date>2005</date>
+    <desc lang="en">S05 E02 — Money's Tight and So Are My Abs
+Breanna finds out that the half-naked singing musician on the Venice boardwalk is her boyfriend Arnaz.</desc>
+    <episode-num>S05 E02</episode-num>
+    <icon src="https://iptv-epg.org/images/gQ-Ls3spq59BNnYLsenTHKUwN-13sSvJ5HX8f1iszkyaA9SBvom643KHYyFfKye_r2JFg5oKiNhQyrufq-fy2vKWfgs6N7hApyhJMw0g1Sg" />
+    <previously-shown />
+    <title lang="en">One on One</title>
+  </programme>
+  <programme start="20260907083000 +0000" stop="20260907090000 +0000" channel="CleoTV.us">
+    <category lang="en">Sitcom</category>
+    <category lang="en">Series</category>
+    <credits>
+      <actor>Flex Alexander</actor>
+      <actor>Kyla Pratt</actor>
+      <actor>Robert Ri'chard</actor>
+      <actor>Jonathan Chase</actor>
+      <actor>Camille Mana</actor>
+      <actor>Ray Norwood</actor>
+      <actor>Nicole Paggi</actor>
+    </credits>
+    <date>2005</date>
+    <desc lang="en">S05 E03 — House Dad
+Breanna finds it aggravating that Flex befriends her roommates, who make him their new housefather.</desc>
+    <episode-num>S05 E03</episode-num>
+    <icon src="https://iptv-epg.org/images/gQ-Ls3spq59BNnYLsenTHKUwN-13sSvJ5HX8f1iszkyaA9SBvom643KHYyFfKye_r2JFg5oKiNhQyrufq-fy2vKWfgs6N7hApyhJMw0g1Sg" />
+    <previously-shown />
+    <title lang="en">One on One</title>
+  </programme>
+  <programme start="20260907090000 +0000" stop="20260907093000 +0000" channel="CleoTV.us">
+    <category lang="en">Sitcom</category>
+    <category lang="en">Series</category>
+    <credits>
+      <actor>Flex Alexander</actor>
+      <actor>Kyla Pratt</actor>
+      <actor>Robert Ri'chard</actor>
+      <actor>Jonathan Chase</actor>
+      <actor>Camille Mana</actor>
+      <actor>Ray Norwood</actor>
+      <actor>Nicole Paggi</actor>
+    </credits>
+    <date>2005</date>
+    <desc lang="en">S05 E04 — Static Clingy
+When the guys and the gals separately decide to spend time together, both groups wind up at the same club where Breanna catches Arnaz chatting with another woman.</desc>
+    <episode-num>S05 E04</episode-num>
+    <icon src="https://iptv-epg.org/images/gQ-Ls3spq59BNnYLsenTHKUwN-13sSvJ5HX8f1iszkyaA9SBvom643KHYyFfKye_r2JFg5oKiNhQyrufq-fy2vKWfgs6N7hApyhJMw0g1Sg" />
+    <previously-shown />
+    <title lang="en">One on One</title>
+  </programme>
+  <programme start="20260907093000 +0000" stop="20260907100000 +0000" channel="CleoTV.us">
+    <category lang="en">Sitcom</category>
+    <category lang="en">Series</category>
+    <credits>
+      <actor>Flex Alexander</actor>
+      <actor>Kyla Pratt</actor>
+      <actor>Robert Ri'chard</actor>
+      <actor>Jonathan Chase</actor>
+      <actor>Camille Mana</actor>
+      <actor>Ray Norwood</actor>
+      <actor>Nicole Paggi</actor>
+    </credits>
+    <date>2005</date>
+    <desc lang="en">S05 E05 — Study Buddy
+When Breanna and D-Mack start spending a lot of time studying together, Arnaz becomes jealous and decides to put a stop to it.</desc>
+    <episode-num>S05 E05</episode-num>
+    <icon src="https://iptv-epg.org/images/gQ-Ls3spq59BNnYLsenTHKUwN-13sSvJ5HX8f1iszkyaA9SBvom643KHYyFfKye_r2JFg5oKiNhQyrufq-fy2vKWfgs6N7hApyhJMw0g1Sg" />
+    <previously-shown />
+    <title lang="en">One on One</title>
+  </programme>
+  <programme channel="9410" start="20260906200000 +0000" stop="20260906213000 +0000">
+    <title lang="zh">India's Best Dancer - 2026</title>
+    <desc>dance reality show new season is back with judges Karisma Kapoor, Geeta Kapoor, Terence Lewis and Javed Jaffrey, promises to feature intense performances hosted by Jay Bhanushali.</desc>
     <date>2026-09-06</date>
+  </programme>
+  <programme channel="9410" start="20260906213000 +0000" stop="20260906223000 +0000">
+    <title lang="zh">Maharani</title>
+    <desc>Rani Bharti, a simple homemaker whose life flips upside down when her husband, Bihar Chief Minister Bheema Bharti, survives an assassination attempt and makes her his successor.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="9410" start="20260906223000 +0000" stop="20260906225000 +0000">
+    <title lang="zh">Crime Patrol</title>
+    <desc>Join India's police force in action as they deal with criminal activities around the country in this dramatisation of real life crime stories, narrated by Anup Soni.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="9410" start="20260906225000 +0000" stop="20260906234900 +0000">
+    <title lang="zh">Crime Patrol</title>
+    <desc>Join India's police force in action as they deal with criminal activities around the country in this dramatisation of real life crime stories, narrated by Anup Soni.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="9410" start="20260906234900 +0000" stop="20260907000000 +0000">
+    <title lang="zh">Crime Patrol</title>
+    <desc>Join India's police force in action as they deal with criminal activities around the country in this dramatisation of real life crime stories, narrated by Anup Soni.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="9410" start="20260907004900 +0000" stop="20260907014300 +0000">
+    <title lang="zh">Crime Patrol</title>
+    <desc>Join India's police force in action as they deal with criminal activities around the country in this dramatisation of real life crime stories, narrated by Anup Soni.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907014300 +0000" stop="20260907023000 +0000">
+    <title lang="zh">Crime Patrol</title>
+    <desc>Join India's police force in action as they deal with criminal activities around the country in this dramatisation of real life crime stories, narrated by Anup Soni.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907023000 +0000" stop="20260907031600 +0000">
+    <title lang="zh">Crime Patrol</title>
+    <desc>Join India's police force in action as they deal with criminal activities around the country in this dramatisation of real life crime stories, narrated by Anup Soni.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907031600 +0000" stop="20260907043200 +0000">
+    <title lang="zh">The Kapil Sharma Show</title>
+    <desc>Laugh out loud with the king of stand-up comedy, Kapil Sharma and his signature supporting cast as they interact with celebrity guests.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907043200 +0000" stop="20260907060000 +0000">
+    <title lang="zh">India's Best Dancer - 2026</title>
+    <desc>dance reality show new season is back with judges Karisma Kapoor, Geeta Kapoor, Terence Lewis and Javed Jaffrey, promises to feature intense performances hosted by Jay Bhanushali.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907060000 +0000" stop="20260907072400 +0000">
+    <title lang="zh">The Kapil Sharma Show</title>
+    <desc>Laugh out loud with the king of stand-up comedy, Kapil Sharma and his signature supporting cast as they interact with celebrity guests.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907072400 +0000" stop="20260907075600 +0000">
+    <title lang="zh">Womens Asia Cup 2026 - Sl Vs Ban Hls</title>
+    <desc>All the best moments, big shots and match-winners from ACC Women's Asia Cup 2026. the highlights you don't want to miss.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907075600 +0000" stop="20260907095200 +0000">
+    <title lang="zh">Kaun Banega Crorepati - 2026</title>
+    <desc>Kaun Banega Crorepati' is back with Season 18, host Amitabh Bachchan challenges contestants from across India to use critical thinking and win the life-changing 70 million jackpot.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907095200 +0000" stop="20260907105700 +0000">
+    <title lang="zh">Indian Game Show With Bharti And Harssh</title>
+    <desc>Comedian power couple Bharti &amp; Harssh host a high-energy game show featuring over 100 stars! Watch as they mix wildly creative challenges with hilarious comedy for an ultimate family entertainment.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907105700 +0000" stop="20260907114600 +0000">
+    <title lang="zh">Crime Patrol - Tez</title>
+    <desc>A special edition of the Crime Patrol series that features the police investigation &amp; legal proceedings involved in the real-life crime cases in India.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907114600 +0000" stop="20260907124500 +0000">
+    <title lang="zh">CID</title>
+    <desc>I.D team solve yet another case in this award winning and longest running crime show.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907124500 +0000" stop="20260907140000 +0000">
+    <title lang="zh">Indian Idol 16</title>
+    <desc>The ultimate singing show is back, Join judges Shreya Ghoshal, Vishal Dadlani &amp; Badshah for a new season packed with amazing voices, thrilling moments, and pure entertainment.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907140000 +0000" stop="20260907151100 +0000">
+    <title lang="zh">India's Best Dancer - 2026</title>
+    <desc>dance reality show new season is back with judges Karisma Kapoor, Geeta Kapoor, Terence Lewis and Javed Jaffrey, promises to feature intense performances hosted by Jay Bhanushali.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907151100 +0000" stop="20260907165700 +0000">
+    <title lang="zh">Kaun Banega Crorepati - 2026</title>
+    <desc>Kaun Banega Crorepati' is back with Season 18, host Amitabh Bachchan challenges contestants from across India to use critical thinking and win the life-changing 70 million jackpot.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907165700 +0000" stop="20260907172800 +0000">
+    <title lang="zh">Pushpa Impossible</title>
+    <desc>Pushpa Patel, a small entrepreneur and an endearing mother of three faces life's challenges with resilience and courage. Her constant pursuit of living a good life serves as an inspiration to many.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907172800 +0000" stop="20260907175900 +0000">
+    <title lang="zh">Hui Gumm Yaadein</title>
+    <desc>Dev Mehta, a top surgeon who can't remember his own skills &amp; past 8 years of life. now, forced to restart as an intern and have to re-learn medicine and face the family he no longer knows.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907175900 +0000" stop="20260907182700 +0000">
+    <title lang="zh">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc>The lively and diverse residents of Gokuldham Housing Society live together as one big family. They navigate everyday challenges, celebrate festivals and find joy in each other's company.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907182700 +0000" stop="20260907190000 +0000">
+    <title lang="zh">Yashomati Maiyya Ke Nandlala</title>
+    <desc>Many a story has been told about Krishna, but here's the story of Yashomati, her desire for a child, finding Krishna and the affectionate relationship between them.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907190000 +0000" stop="20260907200200 +0000">
+    <title lang="zh">Indian Game Show With Bharti And Harssh</title>
+    <desc>Comedian power couple Bharti &amp; Harssh host a high-energy game show featuring over 100 stars! Watch as they mix wildly creative challenges with hilarious comedy for an ultimate family entertainment.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907200200 +0000" stop="20260907213000 +0000">
+    <title lang="zh">Kaun Banega Crorepati - 2026</title>
+    <desc>Kaun Banega Crorepati' is back with Season 18, host Amitabh Bachchan challenges contestants from across India to use critical thinking and win the life-changing 70 million jackpot.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907213000 +0000" stop="20260907223200 +0000">
+    <title lang="zh">Crime Patrol 2026</title>
+    <desc>Crime Patrol returns with a gripping new season of real-life stories, all inspired by the nation's most shocking headlines.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9410" start="20260907223200 +0000" stop="20260908000000 +0000">
+    <title lang="zh">Crime Patrol</title>
+    <desc>Join India's police force in action as they deal with criminal activities around the country in this dramatisation of real life crime stories, narrated by Anup Soni.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260906190000 +0000" stop="20260906220000 +0000">
+    <title lang="zh">Live: 2026 US Open Tennis</title>
+    <desc>Men's and women's Round of 16 tennis action from the U.S. Open, held at the USTA Billie Jean King National Center in Flushing, N.Y.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="467679" start="20260906220000 +0000" stop="20260906223000 +0000">
+    <title lang="zh">Eyewitness News at 6</title>
+    <desc>Stay informed with the latest breaking news and headlines.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="467679" start="20260906223000 +0000" stop="20260906230000 +0000">
+    <title lang="zh">ABC World News Tonight With David Muir</title>
+    <desc>Delivering the news that matters most.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="467679" start="20260906230000 +0000" stop="20260906233000 +0000">
+    <title lang="zh">America's Funniest Home Videos</title>
+    <desc>A deer who tries to eat a chunk of a woman's hair when she poses for a picture; the ongoing battle of cats versus dogs; a musical salute to runaway cars.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="467679" start="20260906233000 +0000" stop="20260907000000 +0000">
+    <title lang="zh">Live: College Football</title>
+    <desc>Ole Miss plays Louisville at Nissan Stadium for a Sunday prime-time Week 1 kickoff. Both programs look to establish early momentum in their season opener after finishing 13-2 and 9-4 respectively in their college football campaigns last year.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="467679" start="20260907030000 +0000" stop="20260907040000 +0000">
+    <title lang="zh">Eyewitness News at 11</title>
+    <desc>Breaking news.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907040000 +0000" stop="20260907050000 +0000">
+    <title lang="zh">The Rookie</title>
+    <desc>Officer John Nolan is assigned his first rookie, Officer Celina Juarez, whose unconventional approach to police work poses a unique challenge for him.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907050000 +0000" stop="20260907060000 +0000">
+    <title lang="zh">The Rookie</title>
+    <desc>Rosalind returns with a vengeance and Bailey's life is left hanging in the balance; Nolan is forced to make a deadly decision after a harrowing ultimatum.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907060000 +0000" stop="20260907070000 +0000">
+    <title lang="zh">Murdoch Mysteries</title>
+    <desc>Murdoch investigates the shooting of a local construction company owner who was executed in a barber shop.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907070000 +0000" stop="20260907080000 +0000">
+    <title lang="zh">This Week With George Stephanopoulos</title>
+    <desc>Anchor George Stephanopoulos and co-anchors Martha Raddatz and Jonathan Karl interview top newsmakers and officials, with reporting from across the country and roundtable debates over the hottest political issues.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907080000 +0000" stop="20260907083000 +0000">
+    <title lang="zh">Good Morning America First Look</title>
+    <desc>ABC's "Good Morning America First Look" brings one overnight breaking news, weather, politics, and the stories and video people will be talking about in the day ahead.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907083000 +0000" stop="20260907100000 +0000">
+    <title lang="zh">Eyewitness News This Morning</title>
+    <desc>News coverage to start the day.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907100000 +0000" stop="20260907110000 +0000">
+    <title lang="zh">Eyewitness News This Morning</title>
+    <desc>News coverage to start the day.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907110000 +0000" stop="20260907130000 +0000">
+    <title lang="zh">Good Morning America</title>
+    <desc>Early morning news and entertainment program that covers important issues with key figures from around the world and a wide spectrum of topics, including medicine, finance, consumer issues, computer technology, education and gardening.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907130000 +0000" stop="20260907140000 +0000">
+    <title lang="zh">Live with Kelly and Mark</title>
+    <desc>Curtis "50 Cent" Jackson; Misty Copeland; rediscovering what you love about your job.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907140000 +0000" stop="20260907150000 +0000">
+    <title lang="zh">Eyewitness News Mornings at 10</title>
+    <desc>Stay informed with the latest breaking news and headlines.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907150000 +0000" stop="20260907160000 +0000">
+    <title lang="zh">The View</title>
+    <desc>Actress Tracee Ellis Ross.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907160000 +0000" stop="20260907170000 +0000">
+    <title lang="zh">Eyewitness News at Noon</title>
+    <desc>Midday news update.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907170000 +0000" stop="20260907180000 +0000">
+    <title lang="zh">GMA3</title>
+    <desc>News, lifestyle and entertainment.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907180000 +0000" stop="20260907190000 +0000">
+    <title lang="zh">Tamron Hall</title>
+    <desc>Cedric the Entertainer and Anthony Anderson (book "The Husky and Handsome Guide to Grilling"); martial arts legend Jet Li opens up about his memoir; Jay Pharoah on hosting "The Quiz with Balls" and releasing new music.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907190000 +0000" stop="20260907200000 +0000">
+    <title lang="zh">General Hospital</title>
+    <desc>The ongoing lives of the diverse and evolving citizens of the fictional town of Port Charles in upstate New York.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907200000 +0000" stop="20260907210000 +0000">
+    <title lang="zh">Eyewitness News First at 4</title>
+    <desc>Local and regional news coverage.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907210000 +0000" stop="20260907220000 +0000">
+    <title lang="zh">Eyewitness News at 5</title>
+    <desc>Local and regional news.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907220000 +0000" stop="20260907223000 +0000">
+    <title lang="zh">Eyewitness News at 6</title>
+    <desc>Stay informed with the latest breaking news and headlines.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907223000 +0000" stop="20260907230000 +0000">
+    <title lang="zh">ABC World News Tonight With David Muir</title>
+    <desc>Delivering the news that matters most.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907230000 +0000" stop="20260907233000 +0000">
+    <title lang="zh">Jeopardy!</title>
+    <desc>The Emmy-winning quiz show features a unique answer-and-question format.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="467679" start="20260907233000 +0000" stop="20260908000000 +0000">
+    <title lang="zh">Wheel of Fortune</title>
+    <desc>In a classic game-show version of "Hangman," contestants solve word puzzles for cash and prizes.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260906203000 +0000" stop="20260906210000 +0000">
+    <title lang="zh">Fugitives Caught on Tape</title>
+    <desc>Law enforcement officers pursue fugitives on the run; after a high-speed chase ends with a crash on the highway, the suspect shocks officers by attacking one of the accident victims with a knife.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="464992" start="20260906210000 +0000" stop="20260906213000 +0000">
+    <title lang="zh">Fugitives Caught on Tape</title>
+    <desc>Law enforcement officers pursue fugitives on the run; a suspect in a box truck causes multiple collisions on the highway before engaging officers in an airport shootout; a K-9 officer chases down a fugitive wanted for aggravated battery.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="464992" start="20260906213000 +0000" stop="20260906220000 +0000">
+    <title lang="zh">Fugitives Caught on Tape</title>
+    <desc>A car thief in New Mexico steals a vehicle from right under the noses of deputies; police in Wisconsin get in a foot chase with a serial evader; LAPD officers engage in the slow-speed highway pursuit of a suspect on a bicycle.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="464992" start="20260906220000 +0000" stop="20260906223000 +0000">
+    <title lang="zh">Fugitives Caught on Tape</title>
+    <desc>Law enforcement officers pursue fugitives on the run; a convicted felon fleeing from police across a highway nearly gets hit by a semi truck; a fugitive wanted for kidnapping and attempted murder leads officers on a high-speed highway chase.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="464992" start="20260906223000 +0000" stop="20260906230000 +0000">
+    <title lang="zh">Fugitives Caught on Tape</title>
+    <desc>LAPD ground units work with helicopter officers to catch an alleged multiple-hit-and-run suspect; deputies and police in Florida chase an alleged murder suspect; deputies in New Mexico pursue a naked woman driving recklessly on the highway.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="464992" start="20260906230000 +0000" stop="20260907000000 +0000">
+    <title lang="zh">WWE Rivals</title>
+    <desc>The early '90s rivalry between Jake Roberts and Randy Savage.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="464992" start="20260907000000 +0000" stop="20260907010000 +0000">
+    <title lang="zh">WWE Rivals</title>
+    <desc>The main event at WrestleMania III between Hulk Hogan and Andre the Giant cements wrestling's place in pop culture history; Freddie Prinze Jr. leads a roundtable discussion with Booker T, Natalya, D-Von Dudley and John.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907010000 +0000" stop="20260907020100 +0000">
+    <title lang="zh">WWE LFG</title>
+    <desc>After weeks of anticipation, Tristan's proposed mixed tag team matchup finally becomes a reality! All eyes are on the main event, as Tristan Angels and Myka Lockwood take on Tate Wilder and Kali Armstrong in what may be the most exciting match in LFG history. Elsewhere, Romeo Moreno locks up with Harley Riggins, and Kam Hendrix battles with Dorian Van Dux. Plus, the final two spots for WWE World w</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907020100 +0000" stop="20260907030400 +0000">
+    <title lang="zh">WWE LFG</title>
+    <desc>Season Finale! Months of training have led to this moment, as four of LFG's finest head to Las Vegas to perform at WWE World during WrestleMania Week; with NXT contracts within reach and call-ups looming, which Future Greats will rise to the occasion and prove they're ready for the next level?</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907030400 +0000" stop="20260907040300 +0000">
+    <title lang="zh">WWE Rivals</title>
+    <desc>Dusty Rhodes "The American Dream", inspired young wrestler Ric Flair, who eventually came to be known as the "Nature Boy"; Dusty helped Ric on his journey as they competed to become the best in the industry.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907040300 +0000" stop="20260907050300 +0000">
+    <title lang="zh">WWE Rivals</title>
+    <desc>The main event at WrestleMania III between Hulk Hogan and Andre the Giant cements wrestling's place in pop culture history; Freddie Prinze Jr. leads a roundtable discussion with Booker T, Natalya, D-Von Dudley and John.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907050300 +0000" stop="20260907060400 +0000">
+    <title lang="zh">WWE LFG</title>
+    <desc>After weeks of anticipation, Tristan's proposed mixed tag team matchup finally becomes a reality! All eyes are on the main event, as Tristan Angels and Myka Lockwood take on Tate Wilder and Kali Armstrong in what may be the most exciting match in LFG history. Elsewhere, Romeo Moreno locks up with Harley Riggins, and Kam Hendrix battles with Dorian Van Dux. Plus, the final two spots for WWE World w</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907060400 +0000" stop="20260907070500 +0000">
+    <title lang="zh">WWE LFG</title>
+    <desc>Season Finale! Months of training have led to this moment, as four of LFG's finest head to Las Vegas to perform at WWE World during WrestleMania Week; with NXT contracts within reach and call-ups looming, which Future Greats will rise to the occasion and prove they're ready for the next level?</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907070500 +0000" stop="20260907080200 +0000">
+    <title lang="zh">WWE Rivals</title>
+    <desc>Dusty Rhodes "The American Dream", inspired young wrestler Ric Flair, who eventually came to be known as the "Nature Boy"; Dusty helped Ric on his journey as they competed to become the best in the industry.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907080200 +0000" stop="20260907083200 +0000">
+    <title lang="zh">Freedom to Leave the House! Inogen Portable Oxygen</title>
+    <desc>Regain independence and enjoy greater mobility with the compact design and long-lasting battery of portable oxygen.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907083200 +0000" stop="20260907090200 +0000">
+    <title lang="zh">DraftKings Sportsbook Report</title>
+    <desc>DraftKings Sportsbook, a top-rated sportsbook app!</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907090200 +0000" stop="20260907093100 +0000">
+    <title lang="zh">Natural Blood Pressure Management</title>
+    <desc>Unleash the power of My Best Heart's patented Red Spinach-Potassium Nitrate combination, plus 8 natural dietary blood pressure regulators to maintain a normal healthy range. Improve circulation and restore more youthful energy and vitality.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907093100 +0000" stop="20260907100000 +0000">
+    <title lang="zh">Get A Beautiful New Smile in 24 Hours</title>
+    <desc>The Wellness Hour: Dr. Alvarez explores how Nuvia delivers a beautiful new smile in just 24 hours.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907100000 +0000" stop="20260907103000 +0000">
+    <title lang="zh">2026 Silver Eagle is here &amp; it is a once-in-a-lifetime coin!</title>
+    <desc>Join your hosts Kevin Cash &amp; Cory Cady as we discuss the 250th Anniversary of America with the official "America 250" logo on a Silver American Eagle label; we are locking in orders for this iconic release, but coins are limited! Don't miss out!</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907103000 +0000" stop="20260907110000 +0000">
+    <title lang="zh">Joni Table Talk</title>
+    <desc>Joni and guests tackle a wide range of relevant issues, controversial subjects and hard-hitting news topics with candor and wit.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907110000 +0000" stop="20260907120000 +0000">
+    <title lang="zh">Ozark Law</title>
+    <desc>Lost puppies, alleged pickpockets and bachelor parties keep the officers policing the Lake of the Ozarks on their toes; on the Strip Lake Ozark PD Detective Sergeant Mark Kordula must remove a rowdy woman causing trouble at one of the bars.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907120000 +0000" stop="20260907130000 +0000">
+    <title lang="zh">Ozark Law</title>
+    <desc>Summer at the Lake of the Ozarks heats up as Cpl. Stephen Riner investigates a road rage case; K9 officer Cpl. Caleb Harvey and his dog Donzi search a vehicle suspected of carrying drugs.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907130000 +0000" stop="20260907140000 +0000">
+    <title lang="zh">Ozark Law</title>
+    <desc>Over 125,000 motorcycles roll into the Lake for the seminal event of the summer, Bike Fest, bringing with them high-octane chaos for the cops in charge, including an onslaught of outlaw biker gangs, messy motorcycle wrecks and boozy partiers.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907140000 +0000" stop="20260907150000 +0000">
+    <title lang="zh">Ozark Law</title>
+    <desc>The Hot Summer Nights classic car show rolls into town for a day of fun, but things turn really hot that night when there is an outbreak of bar fights; Officer Rosenberg picks up a pair of underage shoplifters and gives them a valuable life lesson.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907150000 +0000" stop="20260907160000 +0000">
+    <title lang="zh">Ozark Law</title>
+    <desc>One hundred thousand roaring motorcycles roll into the Lake of the Ozarks region for the seminal event of the season; the Lake Ozark and Osage Beach Police Departments must team up with the State Troopers.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907160000 +0000" stop="20260907170000 +0000">
+    <title lang="zh">Ozark Law</title>
+    <desc>It's another wild summer weekend on the lake with all three departments getting in on the action as they wrangle unruly revelers, investigate curious car crashes, and pursue fleeing pick-ups.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="464992" start="20260907170000 +0000" stop="20260907180000 +0000">
+    <title lang="zh">Ozark Law</title>
+    <desc>Crowds flock to the Lake of the Ozarks for the annual Aquapalooza Music Festival during the day; at night, Detective Sgt. Mark Kordula and Chief Boren face underage drinkers using fake IDs to enter bars.</desc>
+    <date>2026-09-07</date>
   </programme>
   <programme channel="467161" start="20260906190000 +0000" stop="20260906220000 +0000">
     <title lang="zh">Live: 2026 US Open Tennis</title>
@@ -1989,25 +2401,140 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>A man says a former acquaintance sold him a bad auto insurance policy and hit him with fees to which he never agreed; the seller argues that the fees are related to the buyer's requested add-ons that he's refusing to pay! Extra charges and confusing add-ons send a feud off the road and into the weeds.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="470651" start="20260906183000 +0000" stop="20260906190000 +0000">
-    <title lang="zh">Fugitives Caught on Tape</title>
-    <desc>A man wanted for robbery and carjacking leads sheriff's deputies on a chase through crowded city streets; police get in a foot chase with an attempted murder suspect; a late-night, 145-mile-an-hour highway pursuit; and more.</desc>
+  <programme channel="467161" start="20260907193000 +0000" stop="20260907200000 +0000">
+    <title lang="zh">Hot Bench</title>
+    <desc>A woman says she paid her goddaughter's furniture bill only to get blocked after asking to be repaid; the goddaughter says repayment was never agreed upon and accuses her godmother of harassment and spreading vicious rumors; now it's up to the judges to decide if this was kindness or a costly misunderstanding.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260906200000 +0000" stop="20260906210000 +0000">
+    <title lang="zh">24 Hours in A&amp;E</title>
+    <desc>Claire, who's 22, is rushed to Queen's after she collapsed while she was out running. Emma has serious leg burns after spilling a kettle. Adele is struggling with an injured toe.</desc>
     <date>2026-09-06</date>
   </programme>
-  <programme channel="470651" start="20260906190000 +0000" stop="20260906193000 +0000">
-    <title lang="zh">Fugitives Caught on Tape</title>
-    <desc>Officers in Florida pursue a man who stole two police cars in the same day; deputies engage in a foot chase with an alleged cop killer; police respond to a report of a man attacked with a machete.</desc>
+  <programme channel="486777" start="20260906210000 +0000" stop="20260906220500 +0000">
+    <title lang="zh">Gogglebox</title>
+    <desc>Britain's sharpest armchair critics return for a new run. What do they think of the biggest and best programmes on TV.</desc>
     <date>2026-09-06</date>
   </programme>
-  <programme channel="470651" start="20260906193000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">Fugitives Caught on Tape</title>
-    <desc>A high-speed chase across three states; a woman pulled over for speeding flees the scene but still manages to obey traffic laws; suspected auto thieves flee a hit-and-run to hide on a golf course.</desc>
+  <programme channel="486777" start="20260906220500 +0000" stop="20260906230500 +0000">
+    <title lang="zh">Celebrity Gogglebox</title>
+    <desc>A bunch of famous faces watch The Piano, Bridgerton, Celebrity Bridge of Lies, UK's Strongest Man 2024, The World's Most Luxurious Retirement Homes and Scam Interceptors.</desc>
     <date>2026-09-06</date>
   </programme>
-  <programme channel="470651" start="20260906200000 +0000" stop="20260906203000 +0000">
-    <title lang="zh">Fugitives Caught on Tape</title>
-    <desc>A man with seven active warrants for his arrest tries to evade officers by throwing chocolate milk at their cruiser; a distressed eight-year-old girl calls 911 to report her father assaulting her mother; a robbery and carjacking suspect shoots.</desc>
+  <programme channel="486777" start="20260906230500 +0000" stop="20260907000000 +0000">
+    <title lang="zh">Nope</title>
+    <desc>Western-infused sci-fi chiller starring Daniel Kaluuya and Keke Palmer as cash-strapped horse trainers who try to supplement their income by filming alien goings-on at their ranch.</desc>
     <date>2026-09-06</date>
+  </programme>
+  <programme channel="486777" start="20260907014000 +0000" stop="20260907024000 +0000">
+    <title lang="zh">Crime Scene Cleaners</title>
+    <desc>A Florida woman is found unconscious in a blood-drenched bedroom. Is a decomposing body in Louisiana linked to hidden cash? And discarded drug needles are a hazard in Somerset.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907024000 +0000" stop="20260907033500 +0000">
+    <title lang="zh">Emergency Helicopter Medics</title>
+    <desc>Charlie has life-threatening injuries after coming off his dirt bike. And anxious parents can only watch and wait as medics treat their five-year-old, who's having seizures.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907033500 +0000" stop="20260907060000 +0000">
+    <title lang="zh">Teleshopping</title>
+    <desc />
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907060000 +0000" stop="20260907080000 +0000">
+    <title lang="zh">Teleshopping</title>
+    <desc />
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907080000 +0000" stop="20260907090000 +0000">
+    <title lang="zh">A New Life in the Sun: Where</title>
+    <desc>In France, can Aggie and Camille's restaurant cope with one less staff member? Is Leah and Joao's new arrival shaking things up at their Portuguese cocktail bar.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907090000 +0000" stop="20260907100000 +0000">
+    <title lang="zh">Find It, Fix It, Flog It</title>
+    <desc>Simon O'Brien and Henry Cole head to Constable country in Suffolk, where Henry finds a miniature hay wain to lovingly restore.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907100000 +0000" stop="20260907110000 +0000">
+    <title lang="zh">The Great B&amp;B Challenge</title>
+    <desc>It's the moment of truth as all the hosts deliver their business plans. There's tension, emotion and fierce debate before the winner's given the keys to their new life in France.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907110000 +0000" stop="20260907120000 +0000">
+    <title lang="zh">A Place in the Sun</title>
+    <desc>After devoting their lives to raising their family, Tracey and Dean are now in a position to buy a holiday home in Spain's Mar Menor. Jasmine Harman shows them five options for their £70k.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907120000 +0000" stop="20260907130000 +0000">
+    <title lang="zh">A Place in the Sun</title>
+    <desc>Gill and Chris are celebrating their 13th wedding anniversary in style by finding their very own cave house in Granada's gorgeous countryside. Can Laura Hamilton deliver the perfect place.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907130000 +0000" stop="20260907140000 +0000">
+    <title lang="zh">A Place in the Sun</title>
+    <desc>Nikki and Gordon want a home with great views on the Maltese island of Gozo. Ben Hillman shows them what their £350k can buy. Has he found the Mediterranean dream.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907140000 +0000" stop="20260907143000 +0000">
+    <title lang="zh">Come Dine with Me</title>
+    <desc>Glamorous fitness instructor Tanya serves up a Mediterranean feast. But is this host more style than substance.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907143000 +0000" stop="20260907150000 +0000">
+    <title lang="zh">Come Dine with Me</title>
+    <desc>Business coach and passionate foodie Rod is determined to impress. But he's already offended Tanya - and HR manager Claire predicts fireworks..</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907150000 +0000" stop="20260907153000 +0000">
+    <title lang="zh">Come Dine with Me</title>
+    <desc>HR manager Claire hopes that her hosting skills will compensate for her 'imperfect' cooking. But tension rises when Tanya barely touches her food.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907153000 +0000" stop="20260907160000 +0000">
+    <title lang="zh">Come Dine with Me</title>
+    <desc>Psychic medium Dean plans to put his supernatural skills to good use on his night. The main goes down well - even with Tanya - but his boozy berry cheesecake bombs.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907160000 +0000" stop="20260907163000 +0000">
+    <title lang="zh">Come Dine with Me</title>
+    <desc>Will the tension between Sadiya and Tanya finally explode as Sadiya hosts the final night? And Dean's clairvoyant powers are put to the test.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907163000 +0000" stop="20260907170000 +0000">
+    <title lang="zh">A Place in the Sun</title>
+    <desc>Maria and Paul dream of owning a home away from home among the Andalucian countryside, to escape the English winters. Can Craig Rowe find 'the one' for their budget of £270k.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907170000 +0000" stop="20260907180000 +0000">
+    <title lang="zh">A Place in the Sun</title>
+    <desc>Barbara and her daughter-in-law Jodi search for a place on Mallorca for £165k. Will a sea view apartment or a tempting townhouse with two suntraps be their idea of Balearic bolthole bliss.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907180000 +0000" stop="20260907190000 +0000">
+    <title lang="zh">The Dog House</title>
+    <desc>Tom sees dog ownership as a high-risk activity. Can girlfriend Maxine and Monty the Labrador persuade him to throw caution to the wind? And Leila and Alison meet loveable Eloise.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907190000 +0000" stop="20260907200000 +0000">
+    <title lang="zh">Kirstie and Phil's Love It or List It</title>
+    <desc>The duo explore what to do when your property problems just can't be fixed, and revisit a garden that proved to be a hill too steep to climb.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907200000 +0000" stop="20260907210000 +0000">
+    <title lang="zh">24 Hours in Police Custody</title>
+    <desc>A 17-year-old is in a coma after a serious assault. Officers believe the brutal crime is part of a territorial dispute between drug gangs. But can they prove it.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907210000 +0000" stop="20260907220500 +0000">
+    <title lang="zh">Emergency Helicopter Medics</title>
+    <desc>Charlie has life-threatening injuries after coming off his dirt bike. And anxious parents can only watch and wait as medics treat their five-year-old, who's having seizures.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486777" start="20260907220500 +0000" stop="20260908000000 +0000">
+    <title lang="zh">Gogglebox</title>
+    <desc>The Goggleboxers return for the best on TV, watching Trigger Point, Celebrity MasterChef, Love Is Blind: UK, Millionaire Hot Seat, Long Lost Family and Race Against the Tide.</desc>
+    <date>2026-09-07</date>
   </programme>
   <programme channel="470651" start="20260906203000 +0000" stop="20260906210000 +0000">
     <title lang="zh">Fugitives Caught on Tape</title>
@@ -2124,160 +2651,25 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>Over 125,000 motorcycles roll into the Lake for the seminal event of the summer, Bike Fest, bringing with them high-octane chaos for the cops in charge, including an onslaught of outlaw biker gangs, messy motorcycle wrecks and boozy partiers.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="9410" start="20260906173000 +0000" stop="20260906190000 +0000">
-    <title lang="zh">India's Best Dancer - 2026</title>
-    <desc>dance reality show new season is back with judges Karisma Kapoor, Geeta Kapoor, Terence Lewis and Javed Jaffrey, promises to feature intense performances hosted by Jay Bhanushali.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="9410" start="20260906190000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">Indian Game Show With Bharti And Harssh</title>
-    <desc>Comedian power couple Bharti &amp; Harssh host a high-energy game show featuring over 100 stars! Watch as they mix wildly creative challenges with hilarious comedy for an ultimate family entertainment.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="9410" start="20260906200000 +0000" stop="20260906213000 +0000">
-    <title lang="zh">India's Best Dancer - 2026</title>
-    <desc>dance reality show new season is back with judges Karisma Kapoor, Geeta Kapoor, Terence Lewis and Javed Jaffrey, promises to feature intense performances hosted by Jay Bhanushali.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="9410" start="20260906213000 +0000" stop="20260906223000 +0000">
-    <title lang="zh">Maharani</title>
-    <desc>Rani Bharti, a simple homemaker whose life flips upside down when her husband, Bihar Chief Minister Bheema Bharti, survives an assassination attempt and makes her his successor.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="9410" start="20260906223000 +0000" stop="20260906225000 +0000">
-    <title lang="zh">Crime Patrol</title>
-    <desc>Join India's police force in action as they deal with criminal activities around the country in this dramatisation of real life crime stories, narrated by Anup Soni.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="9410" start="20260906225000 +0000" stop="20260906234900 +0000">
-    <title lang="zh">Crime Patrol</title>
-    <desc>Join India's police force in action as they deal with criminal activities around the country in this dramatisation of real life crime stories, narrated by Anup Soni.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="9410" start="20260906234900 +0000" stop="20260907000000 +0000">
-    <title lang="zh">Crime Patrol</title>
-    <desc>Join India's police force in action as they deal with criminal activities around the country in this dramatisation of real life crime stories, narrated by Anup Soni.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="9410" start="20260907004900 +0000" stop="20260907014300 +0000">
-    <title lang="zh">Crime Patrol</title>
-    <desc>Join India's police force in action as they deal with criminal activities around the country in this dramatisation of real life crime stories, narrated by Anup Soni.</desc>
+  <programme channel="470651" start="20260907140000 +0000" stop="20260907150000 +0000">
+    <title lang="zh">Ozark Law</title>
+    <desc>The Hot Summer Nights classic car show rolls into town for a day of fun, but things turn really hot that night when there is an outbreak of bar fights; Officer Rosenberg picks up a pair of underage shoplifters and gives them a valuable life lesson.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="9410" start="20260907014300 +0000" stop="20260907023000 +0000">
-    <title lang="zh">Crime Patrol</title>
-    <desc>Join India's police force in action as they deal with criminal activities around the country in this dramatisation of real life crime stories, narrated by Anup Soni.</desc>
+  <programme channel="470651" start="20260907150000 +0000" stop="20260907160000 +0000">
+    <title lang="zh">Ozark Law</title>
+    <desc>One hundred thousand roaring motorcycles roll into the Lake of the Ozarks region for the seminal event of the season; the Lake Ozark and Osage Beach Police Departments must team up with the State Troopers.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="9410" start="20260907023000 +0000" stop="20260907031600 +0000">
-    <title lang="zh">Crime Patrol</title>
-    <desc>Join India's police force in action as they deal with criminal activities around the country in this dramatisation of real life crime stories, narrated by Anup Soni.</desc>
+  <programme channel="470651" start="20260907160000 +0000" stop="20260907170000 +0000">
+    <title lang="zh">Ozark Law</title>
+    <desc>It's another wild summer weekend on the lake with all three departments getting in on the action as they wrangle unruly revelers, investigate curious car crashes, and pursue fleeing pick-ups.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="9410" start="20260907031600 +0000" stop="20260907043200 +0000">
-    <title lang="zh">The Kapil Sharma Show</title>
-    <desc>Laugh out loud with the king of stand-up comedy, Kapil Sharma and his signature supporting cast as they interact with celebrity guests.</desc>
+  <programme channel="470651" start="20260907170000 +0000" stop="20260907180000 +0000">
+    <title lang="zh">Ozark Law</title>
+    <desc>Crowds flock to the Lake of the Ozarks for the annual Aquapalooza Music Festival during the day; at night, Detective Sgt. Mark Kordula and Chief Boren face underage drinkers using fake IDs to enter bars.</desc>
     <date>2026-09-07</date>
-  </programme>
-  <programme channel="9410" start="20260907043200 +0000" stop="20260907060000 +0000">
-    <title lang="zh">India's Best Dancer - 2026</title>
-    <desc>dance reality show new season is back with judges Karisma Kapoor, Geeta Kapoor, Terence Lewis and Javed Jaffrey, promises to feature intense performances hosted by Jay Bhanushali.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="9410" start="20260907060000 +0000" stop="20260907072400 +0000">
-    <title lang="zh">The Kapil Sharma Show</title>
-    <desc>Laugh out loud with the king of stand-up comedy, Kapil Sharma and his signature supporting cast as they interact with celebrity guests.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="9410" start="20260907072400 +0000" stop="20260907075600 +0000">
-    <title lang="zh">Womens Asia Cup 2026 - Sl Vs Ban Hls</title>
-    <desc>All the best moments, big shots and match-winners from ACC Women's Asia Cup 2026. the highlights you don't want to miss.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="9410" start="20260907075600 +0000" stop="20260907095200 +0000">
-    <title lang="zh">Kaun Banega Crorepati - 2026</title>
-    <desc>Kaun Banega Crorepati' is back with Season 18, host Amitabh Bachchan challenges contestants from across India to use critical thinking and win the life-changing 70 million jackpot.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="9410" start="20260907095200 +0000" stop="20260907105700 +0000">
-    <title lang="zh">Indian Game Show With Bharti And Harssh</title>
-    <desc>Comedian power couple Bharti &amp; Harssh host a high-energy game show featuring over 100 stars! Watch as they mix wildly creative challenges with hilarious comedy for an ultimate family entertainment.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="9410" start="20260907105700 +0000" stop="20260907114600 +0000">
-    <title lang="zh">Crime Patrol - Tez</title>
-    <desc>A special edition of the Crime Patrol series that features the police investigation &amp; legal proceedings involved in the real-life crime cases in India.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="9410" start="20260907114600 +0000" stop="20260907124500 +0000">
-    <title lang="zh">CID</title>
-    <desc>I.D team solve yet another case in this award winning and longest running crime show.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="9410" start="20260907124500 +0000" stop="20260907140000 +0000">
-    <title lang="zh">Indian Idol 16</title>
-    <desc>The ultimate singing show is back, Join judges Shreya Ghoshal, Vishal Dadlani &amp; Badshah for a new season packed with amazing voices, thrilling moments, and pure entertainment.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="9410" start="20260907140000 +0000" stop="20260907151100 +0000">
-    <title lang="zh">India's Best Dancer - 2026</title>
-    <desc>dance reality show new season is back with judges Karisma Kapoor, Geeta Kapoor, Terence Lewis and Javed Jaffrey, promises to feature intense performances hosted by Jay Bhanushali.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="9410" start="20260907151100 +0000" stop="20260907165700 +0000">
-    <title lang="zh">Kaun Banega Crorepati - 2026</title>
-    <desc>Kaun Banega Crorepati' is back with Season 18, host Amitabh Bachchan challenges contestants from across India to use critical thinking and win the life-changing 70 million jackpot.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="9410" start="20260907165700 +0000" stop="20260907172800 +0000">
-    <title lang="zh">Pushpa Impossible</title>
-    <desc>Pushpa Patel, a small entrepreneur and an endearing mother of three faces life's challenges with resilience and courage. Her constant pursuit of living a good life serves as an inspiration to many.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="9410" start="20260907172800 +0000" stop="20260907175900 +0000">
-    <title lang="zh">Hui Gumm Yaadein</title>
-    <desc>Dev Mehta, a top surgeon who can't remember his own skills &amp; past 8 years of life. now, forced to restart as an intern and have to re-learn medicine and face the family he no longer knows.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="9410" start="20260907175900 +0000" stop="20260907182700 +0000">
-    <title lang="zh">Taarak Mehta Ka Ooltah Chashmah</title>
-    <desc>The lively and diverse residents of Gokuldham Housing Society live together as one big family. They navigate everyday challenges, celebrate festivals and find joy in each other's company.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="9410" start="20260907182700 +0000" stop="20260907190000 +0000">
-    <title lang="zh">Yashomati Maiyya Ke Nandlala</title>
-    <desc>Many a story has been told about Krishna, but here's the story of Yashomati, her desire for a child, finding Krishna and the affectionate relationship between them.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="9410" start="20260907190000 +0000" stop="20260907200200 +0000">
-    <title lang="zh">Indian Game Show With Bharti And Harssh</title>
-    <desc>Comedian power couple Bharti &amp; Harssh host a high-energy game show featuring over 100 stars! Watch as they mix wildly creative challenges with hilarious comedy for an ultimate family entertainment.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="9410" start="20260907200200 +0000" stop="20260907213000 +0000">
-    <title lang="zh">Kaun Banega Crorepati - 2026</title>
-    <desc>Kaun Banega Crorepati' is back with Season 18, host Amitabh Bachchan challenges contestants from across India to use critical thinking and win the life-changing 70 million jackpot.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="470669" start="20260906183000 +0000" stop="20260906190000 +0000">
-    <title lang="zh">QI</title>
-    <desc>Sandi Toksvig looks at quantity and quality with James Acaster, Bridget Christie, Alan Davies and Joe Lycett.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="470669" start="20260906190000 +0000" stop="20260906193000 +0000">
-    <title lang="zh">QI</title>
-    <desc>Sandi Toksvig looks at quads and quins with Aisling Bea, Nish Kumar and David Mitchell.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="470669" start="20260906193000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">QI</title>
-    <desc>Eshaan Akbar, Jo Brand and Jimmy Carr join Sandi and Alan for a festive special.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="470669" start="20260906200000 +0000" stop="20260906203000 +0000">
-    <title lang="zh">QI</title>
-    <desc>Aisling Bea, Urzila Carlson, and Romesh Ranganathan compete in this upside-down episode.</desc>
-    <date>2026-09-06</date>
   </programme>
   <programme channel="470669" start="20260906203000 +0000" stop="20260906210000 +0000">
     <title lang="zh">QI</title>
@@ -2394,15 +2786,25 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>Unlock an abandoned site on a remote Antarctic isle and check out mysterious shapes in the Finnish snow. Puzzle over an inexplicable monolith in the far reaches of Norway, then get shocked by a blood-red frozen waterfall at the bottom of the world.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="486880" start="20260906180000 +0000" stop="20260906190000 +0000">
-    <title lang="zh">Countryfile</title>
-    <desc>John Craven and Anita Rani are in Cumbria to see how arable farmers more used to rain than drought have fared after a record-breaking dry summer.</desc>
-    <date>2026-09-06</date>
+  <programme channel="470669" start="20260907170000 +0000" stop="20260907180000 +0000">
+    <title lang="zh">The Finish Line</title>
+    <desc>Roman Kemp and sidekick Sarah Greene host the quiz show where contestants race on moving podiums across the studio floor; correct answers get the players moving, while wrong answers will stop them in their tracks.</desc>
+    <date>2026-09-07</date>
   </programme>
-  <programme channel="486880" start="20260906190000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">Antiques Roadshow</title>
-    <desc>In a special episode filmed before the accession, Fiona Bruce welcomes the Queen Consort to the Eden Project in Cornwall.</desc>
-    <date>2026-09-06</date>
+  <programme channel="470669" start="20260907180000 +0000" stop="20260907190000 +0000">
+    <title lang="zh">The Chase</title>
+    <desc>A thrilling battle of brainpower as four contestants pit their wits against The Chaser.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470669" start="20260907190000 +0000" stop="20260907193000 +0000">
+    <title lang="zh">QI</title>
+    <desc>Gyles Brandreth, Judi Love and Kiri Pritchard-McLean.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470669" start="20260907193000 +0000" stop="20260907200000 +0000">
+    <title lang="zh">QI</title>
+    <desc>Sandi Toksvig puts the UK-US special relationship under the microscope with Kemah Bob, Alex Edelman, David Mitchell, and Alan Davies.</desc>
+    <date>2026-09-07</date>
   </programme>
   <programme channel="486880" start="20260906200000 +0000" stop="20260906210000 +0000">
     <title lang="zh">Vigil</title>
@@ -2529,15 +2931,15 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>Amy and Kirsten venture into the dangerous Arctic wilderness, looking for answers. Contains some strong language.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="486673" start="20260906170000 +0000" stop="20260906190000 +0000">
-    <title lang="zh">American Classics at the Proms</title>
-    <desc>Bernstein's West Side Story and On the Town feature alongside Gershwin's Rhapsody in Blue and other all-time favourites as Marin Alsop conducts music from her homeland.</desc>
-    <date>2026-09-06</date>
+  <programme channel="486880" start="20260907210000 +0000" stop="20260907213000 +0000">
+    <title lang="zh">BBC News and Weather</title>
+    <desc>The latest national and international news, with reports from BBC correspondents worldwide.</desc>
+    <date>2026-09-07</date>
   </programme>
-  <programme channel="486673" start="20260906190000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">Pilgrimage: The Road Through the Alps</title>
-    <desc>It's day five, and the pilgrims prepare for the challenging Alpine paths ahead of them.</desc>
-    <date>2026-09-06</date>
+  <programme channel="486880" start="20260907213000 +0000" stop="20260907214000 +0000">
+    <title lang="zh">Look East</title>
+    <desc>The latest news, sport and weather for the East of England.</desc>
+    <date>2026-09-07</date>
   </programme>
   <programme channel="486673" start="20260906200000 +0000" stop="20260906210000 +0000">
     <title lang="zh">Rob and Rylan's Passage to India</title>
@@ -2664,15 +3066,15 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>The first round of the competition continues with a Midlands derby. Students from Birmingham take on a team from Leicester, with Amol Rajan asking the questions.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="9176" start="20260906180000 +0000" stop="20260906190000 +0000">
-    <title lang="zh">Secrets In The Jungle</title>
-    <desc>A mysterious site with huge stone blocks is discovered off the coast of Tanzania. In the Guatemalan rainforest, hundreds of human bones are found.</desc>
-    <date>2026-09-06</date>
+  <programme channel="486673" start="20260907200000 +0000" stop="20260907210000 +0000">
+    <title lang="zh">Steeltown Murders: Hunting a Serial Killer</title>
+    <desc>The inside story of how detectives used groundbreaking techniques to hunt a serial killer. Contains scenes which some viewers may find upsetting.</desc>
+    <date>2026-09-07</date>
   </programme>
-  <programme channel="9176" start="20260906190000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">Secrets In The Sand</title>
-    <desc>Lady Be Good Wreck &amp; The GöBekli Tepe Calendar: From ancient symbols at Göbekli Tepe to a hidden Israeli shrine, explore how survival, belief and control have shaped history.</desc>
-    <date>2026-09-06</date>
+  <programme channel="486673" start="20260907210000 +0000" stop="20260907213000 +0000">
+    <title lang="zh">Colin from Accounts</title>
+    <desc>Three years later, a chance encounter in a suburban GP clinic reunites Gordon and Ashley. Contains very strong language and adult humour.</desc>
+    <date>2026-09-07</date>
   </programme>
   <programme channel="9176" start="20260906200000 +0000" stop="20260906210000 +0000">
     <title lang="zh">Bradley Walsh: Egypt's...</title>
@@ -2799,10 +3201,15 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>Discover the top ten mysterious monoliths, from a 500-ton stone tied to UFOs to giant statues hinting at advanced tech and visitors.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="2379" start="20260906134000 +0000" stop="20260906190000 +0000">
-    <title lang="zh">Infomercials</title>
-    <desc>Brought to you by The Shopping Channel</desc>
-    <date>2026-09-06</date>
+  <programme channel="9176" start="20260907150500 +0000" stop="20260907160000 +0000">
+    <title lang="zh">Ancient Aliens 17</title>
+    <desc>An acorn-shaped crash, a craft in Japan and a baffling impact in Britain - could these strange events prove Earth has been visited.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="9176" start="20260907160000 +0000" stop="20260907163000 +0000">
+    <title lang="zh">Close Encounters</title>
+    <desc>An Australian banana farmer spots a saucer-shaped UFO rising out of a swamp in 1966. That same year in Victoria, a man veers off the road while distracted by lights in the sky.</desc>
+    <date>2026-09-07</date>
   </programme>
   <programme channel="2379" start="20260906190000 +0000" stop="20260906231000 +0000">
     <title lang="zh">Infomercials</title>
@@ -3049,21 +3456,6 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>Crystals! Big Lizard has found an epic crystal, and Cosima is jealous. Their squabbling reaches its peak at the top of the volcano! Will they learn to share before it's too late.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="470530" start="20260906182600 +0000" stop="20260906184900 +0000">
-    <title lang="zh">Wishfart</title>
-    <desc>Dez's old shoes come to life and demand that he complete a childhood bucket list; Akiko tries to impress her parents by acting like she's a scary ghost.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="470530" start="20260906184900 +0000" stop="20260906193400 +0000">
-    <title lang="zh">Rollbots</title>
-    <desc>Lance needs a full repair at the Hub, but something in Penny's past may interfere.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="470530" start="20260906193400 +0000" stop="20260906195600 +0000">
-    <title lang="zh">For Better or for Worse</title>
-    <desc>The life and times of the Patterson family.</desc>
-    <date>2026-09-06</date>
-  </programme>
   <programme channel="470530" start="20260906195600 +0000" stop="20260906210100 +0000">
     <title lang="zh">Chaotic</title>
     <desc>Krystella and Klay stage an ambush and walk away with the only two scans of Tom and Kaz's fabulous Phobia Mask.</desc>
@@ -3184,20 +3576,15 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>Toopy and Binoo follow Binoo's lost sock in the drawer and discover a laundry jungle.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="CBCCalgary-CBRT.ca" start="20260906183000 +0000" stop="20260906190000 +0000">
-    <title lang="zh">Land and Sea</title>
-    <desc>Tilting on Fogo Island, N.L., has deep Irish roots; during a festival in September, you could mistake it for a town on the Emerald Isle; we'll take you to Féile Tilting, a celebration of Irish history, tradition and culture.</desc>
-    <date>2026-09-06</date>
+  <programme channel="470530" start="20260907113500 +0000" stop="20260907115600 +0000">
+    <title lang="zh">Tree Fu Tom</title>
+    <desc>A game of hide and seek goes awry when Squirmtum's fear of the dark causes a disaster and Tom must save Treetopolis.</desc>
+    <date>2026-09-07</date>
   </programme>
-  <programme channel="CBCCalgary-CBRT.ca" start="20260906190000 +0000" stop="20260906193000 +0000">
-    <title lang="zh">Stuff the British Stole</title>
-    <desc>The twisting history of Charles Byrne, the Irish Giant.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="CBCCalgary-CBRT.ca" start="20260906193000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">Stuff the British Stole</title>
-    <desc>The mystery of the sphinx in the British Museum.</desc>
-    <date>2026-09-06</date>
+  <programme channel="470530" start="20260907115600 +0000" stop="20260907122900 +0000">
+    <title lang="zh">Chirp</title>
+    <desc>Chirp, Tweet and Squawk find a gold coin but lose it.</desc>
+    <date>2026-09-07</date>
   </programme>
   <programme channel="CBCCalgary-CBRT.ca" start="20260906200000 +0000" stop="20260906220000 +0000">
     <title lang="zh">Live: Northern Super League Soccer</title>
@@ -3319,15 +3706,15 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>Clara and Atticus steal a Stego egg, making Clara realize looking after a dino baby is hard; Clara challenges Jon to a scavenger hunt to find the best explorer, with the catch of switching dino partners.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="470511" start="20260906180000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">Live: Northern Super League Soccer</title>
-    <desc>From BMO Field in Toronto.</desc>
-    <date>2026-09-06</date>
+  <programme channel="CBCCalgary-CBRT.ca" start="20260907135400 +0000" stop="20260907141700 +0000">
+    <title lang="zh">PAW Patrol</title>
+    <desc>When a lost world of dinosaurs is discovered, Mayor Humdinger wants to take dino eggs back to Foggy Bottom, but along the way a baby Brachiosaurus ends up in dino-sized trouble.</desc>
+    <date>2026-09-07</date>
   </programme>
-  <programme channel="470511" start="20260906200000 +0000" stop="20260906203000 +0000">
-    <title lang="zh">Stuff the British Stole</title>
-    <desc>The twisting history of Charles Byrne, the Irish Giant.</desc>
-    <date>2026-09-06</date>
+  <programme channel="CBCCalgary-CBRT.ca" start="20260907141700 +0000" stop="20260907150100 +0000">
+    <title lang="zh">Rocky's Cat-astrophe</title>
+    <desc>When one of Humdinger's schemes goes awry, a Junkyard Kitten's home is destroyed, and Rocky bites off more than he can chew when he invites the kitten to stay at the Lookout overnight.</desc>
+    <date>2026-09-07</date>
   </programme>
   <programme channel="470511" start="20260906203000 +0000" stop="20260906210000 +0000">
     <title lang="zh">Stuff the British Stole</title>
@@ -3454,10 +3841,10 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>It's the night of the Reader Valley fireworks show, but the machine is out of power; Power Paige and Princess Presto need your help to spell the words pop and zip, so the show can go on.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="468311" start="20260906180000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">Live: NWSL Soccer</title>
-    <desc>Denver Summit FC hosts NWSL leaders Gotham FC at Centennial Stadium in Centennial, Colorado, for matchday 23. Ninth-placed Denver hosts Gotham on matchday 23 of 30 in the NWSL. Gotham has a three-match win streak, while Denver won 6-1 last time out.</desc>
-    <date>2026-09-06</date>
+  <programme channel="470511" start="20260907143000 +0000" stop="20260907145400 +0000">
+    <title lang="zh">Dino Ranch: Island Explorers</title>
+    <desc>Clara and Atticus steal a Stego egg, making Clara realize looking after a dino baby is hard; Clara challenges Jon to a scavenger hunt to find the best explorer, with the catch of switching dino partners.</desc>
+    <date>2026-09-07</date>
   </programme>
   <programme channel="468311" start="20260906200000 +0000" stop="20260906220000 +0000">
     <title lang="zh">Live: NWSL Soccer</title>
@@ -3584,30 +3971,10 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>Midday news update.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="205306" start="20260906182500 +0000" stop="20260906185000 +0000">
-    <title lang="zh">Judge Judy</title>
-    <desc>A man accused of coming into court with unclean hands regarding a botched co-op deal is put in his place after talking back to Her Honor.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="205306" start="20260906185000 +0000" stop="20260906191500 +0000">
-    <title lang="zh">Judge Judy</title>
-    <desc />
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="205306" start="20260906191500 +0000" stop="20260906194000 +0000">
-    <title lang="zh">Judge Judy</title>
-    <desc>When a young man exhibits allegedly poor restaurant manners, an outraged father takes justice into his own hands.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="205306" start="20260906194000 +0000" stop="20260906200500 +0000">
-    <title lang="zh">Judge Judy</title>
-    <desc />
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="205306" start="20260906200500 +0000" stop="20260906203000 +0000">
-    <title lang="zh">Judge Judy</title>
-    <desc>Alleged abuse of the judicial system, harassment claims, and swimming privileges for homeschooled children come into play.</desc>
-    <date>2026-09-06</date>
+  <programme channel="468311" start="20260907163000 +0000" stop="20260907173000 +0000">
+    <title lang="zh">The Young and the Restless</title>
+    <desc>Drama revolves around three families in Genoa City.</desc>
+    <date>2026-09-07</date>
   </programme>
   <programme channel="205306" start="20260906203000 +0000" stop="20260906210000 +0000">
     <title lang="zh">Judge Judy</title>
@@ -3714,145 +4081,30 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>Melanie Road was found murdered in 1984. Despite decades without answers, advances in DNA and persistent police work finally identified her killer.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="464992" start="20260906183000 +0000" stop="20260906190000 +0000">
-    <title lang="zh">Fugitives Caught on Tape</title>
-    <desc>A man wanted for robbery and carjacking leads sheriff's deputies on a chase through crowded city streets; police get in a foot chase with an attempted murder suspect; a late-night, 145-mile-an-hour highway pursuit; and more.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="464992" start="20260906190000 +0000" stop="20260906193000 +0000">
-    <title lang="zh">Fugitives Caught on Tape</title>
-    <desc>Officers in Florida pursue a man who stole two police cars in the same day; deputies engage in a foot chase with an alleged cop killer; police respond to a report of a man attacked with a machete.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="464992" start="20260906193000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">Fugitives Caught on Tape</title>
-    <desc>A high-speed chase across three states; a woman pulled over for speeding flees the scene but still manages to obey traffic laws; suspected auto thieves flee a hit-and-run to hide on a golf course.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="464992" start="20260906200000 +0000" stop="20260906203000 +0000">
-    <title lang="zh">Fugitives Caught on Tape</title>
-    <desc>A man with seven active warrants for his arrest tries to evade officers by throwing chocolate milk at their cruiser; a distressed eight-year-old girl calls 911 to report her father assaulting her mother; a robbery and carjacking suspect shoots.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="464992" start="20260906203000 +0000" stop="20260906210000 +0000">
-    <title lang="zh">Fugitives Caught on Tape</title>
-    <desc>Law enforcement officers pursue fugitives on the run; after a high-speed chase ends with a crash on the highway, the suspect shocks officers by attacking one of the accident victims with a knife.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="464992" start="20260906210000 +0000" stop="20260906213000 +0000">
-    <title lang="zh">Fugitives Caught on Tape</title>
-    <desc>Law enforcement officers pursue fugitives on the run; a suspect in a box truck causes multiple collisions on the highway before engaging officers in an airport shootout; a K-9 officer chases down a fugitive wanted for aggravated battery.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="464992" start="20260906213000 +0000" stop="20260906220000 +0000">
-    <title lang="zh">Fugitives Caught on Tape</title>
-    <desc>A car thief in New Mexico steals a vehicle from right under the noses of deputies; police in Wisconsin get in a foot chase with a serial evader; LAPD officers engage in the slow-speed highway pursuit of a suspect on a bicycle.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="464992" start="20260906220000 +0000" stop="20260906223000 +0000">
-    <title lang="zh">Fugitives Caught on Tape</title>
-    <desc>Law enforcement officers pursue fugitives on the run; a convicted felon fleeing from police across a highway nearly gets hit by a semi truck; a fugitive wanted for kidnapping and attempted murder leads officers on a high-speed highway chase.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="464992" start="20260906223000 +0000" stop="20260906230000 +0000">
-    <title lang="zh">Fugitives Caught on Tape</title>
-    <desc>LAPD ground units work with helicopter officers to catch an alleged multiple-hit-and-run suspect; deputies and police in Florida chase an alleged murder suspect; deputies in New Mexico pursue a naked woman driving recklessly on the highway.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="464992" start="20260906230000 +0000" stop="20260907000000 +0000">
-    <title lang="zh">WWE Rivals</title>
-    <desc>The early '90s rivalry between Jake Roberts and Randy Savage.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="464992" start="20260907000000 +0000" stop="20260907010000 +0000">
-    <title lang="zh">WWE Rivals</title>
-    <desc>The main event at WrestleMania III between Hulk Hogan and Andre the Giant cements wrestling's place in pop culture history; Freddie Prinze Jr. leads a roundtable discussion with Booker T, Natalya, D-Von Dudley and John.</desc>
+  <programme channel="205306" start="20260907085500 +0000" stop="20260907094500 +0000">
+    <title lang="zh">UK Crime Files: Security Guard Killer</title>
+    <desc>Donal MacIntyre meets former Detective Chief Inspector Peter Hall to discover how Staffordshire Police solved Wendy Upton's murder at the hands of a security guard.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="464992" start="20260907010000 +0000" stop="20260907020100 +0000">
-    <title lang="zh">WWE LFG</title>
-    <desc>After weeks of anticipation, Tristan's proposed mixed tag team matchup finally becomes a reality! All eyes are on the main event, as Tristan Angels and Myka Lockwood take on Tate Wilder and Kali Armstrong in what may be the most exciting match in LFG history. Elsewhere, Romeo Moreno locks up with Harley Riggins, and Kam Hendrix battles with Dorian Van Dux. Plus, the final two spots for WWE World w</desc>
+  <programme channel="205306" start="20260907094500 +0000" stop="20260907100000 +0000">
+    <title lang="zh">Teleshopping</title>
+    <desc>Innovative, value-for-money products brought directly to you at home. Shop 'til you drop whilst avoiding the hustle and bustle of the High Street.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="464992" start="20260907020100 +0000" stop="20260907030400 +0000">
-    <title lang="zh">WWE LFG</title>
-    <desc>Season Finale! Months of training have led to this moment, as four of LFG's finest head to Las Vegas to perform at WWE World during WrestleMania Week; with NXT contracts within reach and call-ups looming, which Future Greats will rise to the occasion and prove they're ready for the next level?</desc>
+  <programme channel="205306" start="20260907100000 +0000" stop="20260907110000 +0000">
+    <title lang="zh">Killers: Caught on Camera</title>
+    <desc>Josh and Chloe Bashford were stabbed and strangled to death by Chloe's stepfather in Brighton, UK. Shannon Hiott was stabbed to death in her home by her jealous ex.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="464992" start="20260907030400 +0000" stop="20260907040300 +0000">
-    <title lang="zh">WWE Rivals</title>
-    <desc>Dusty Rhodes "The American Dream", inspired young wrestler Ric Flair, who eventually came to be known as the "Nature Boy"; Dusty helped Ric on his journey as they competed to become the best in the industry.</desc>
+  <programme channel="205306" start="20260907110000 +0000" stop="20260907113000 +0000">
+    <title lang="zh">Medical Detectives</title>
+    <desc>Top notch forensic science helps solve crimes. A gang of experienced criminals stage a series of complicated bank robberies.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="464992" start="20260907040300 +0000" stop="20260907050300 +0000">
-    <title lang="zh">WWE Rivals</title>
-    <desc>The main event at WrestleMania III between Hulk Hogan and Andre the Giant cements wrestling's place in pop culture history; Freddie Prinze Jr. leads a roundtable discussion with Booker T, Natalya, D-Von Dudley and John.</desc>
+  <programme channel="205306" start="20260907113000 +0000" stop="20260907120000 +0000">
+    <title lang="zh">Medical Detectives</title>
+    <desc>California police are baffled when an innocent man's DNA is found at the scene of a deadly home invasion.</desc>
     <date>2026-09-07</date>
-  </programme>
-  <programme channel="464992" start="20260907050300 +0000" stop="20260907060400 +0000">
-    <title lang="zh">WWE LFG</title>
-    <desc>After weeks of anticipation, Tristan's proposed mixed tag team matchup finally becomes a reality! All eyes are on the main event, as Tristan Angels and Myka Lockwood take on Tate Wilder and Kali Armstrong in what may be the most exciting match in LFG history. Elsewhere, Romeo Moreno locks up with Harley Riggins, and Kam Hendrix battles with Dorian Van Dux. Plus, the final two spots for WWE World w</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="464992" start="20260907060400 +0000" stop="20260907070500 +0000">
-    <title lang="zh">WWE LFG</title>
-    <desc>Season Finale! Months of training have led to this moment, as four of LFG's finest head to Las Vegas to perform at WWE World during WrestleMania Week; with NXT contracts within reach and call-ups looming, which Future Greats will rise to the occasion and prove they're ready for the next level?</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="464992" start="20260907070500 +0000" stop="20260907080200 +0000">
-    <title lang="zh">WWE Rivals</title>
-    <desc>Dusty Rhodes "The American Dream", inspired young wrestler Ric Flair, who eventually came to be known as the "Nature Boy"; Dusty helped Ric on his journey as they competed to become the best in the industry.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="464992" start="20260907080200 +0000" stop="20260907083200 +0000">
-    <title lang="zh">Freedom to Leave the House! Inogen Portable Oxygen</title>
-    <desc>Regain independence and enjoy greater mobility with the compact design and long-lasting battery of portable oxygen.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="464992" start="20260907083200 +0000" stop="20260907090200 +0000">
-    <title lang="zh">DraftKings Sportsbook Report</title>
-    <desc>DraftKings Sportsbook, a top-rated sportsbook app!</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="464992" start="20260907090200 +0000" stop="20260907093100 +0000">
-    <title lang="zh">Natural Blood Pressure Management</title>
-    <desc>Unleash the power of My Best Heart's patented Red Spinach-Potassium Nitrate combination, plus 8 natural dietary blood pressure regulators to maintain a normal healthy range. Improve circulation and restore more youthful energy and vitality.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="464992" start="20260907093100 +0000" stop="20260907100000 +0000">
-    <title lang="zh">Get A Beautiful New Smile in 24 Hours</title>
-    <desc>The Wellness Hour: Dr. Alvarez explores how Nuvia delivers a beautiful new smile in just 24 hours.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="464992" start="20260907100000 +0000" stop="20260907103000 +0000">
-    <title lang="zh">2026 Silver Eagle is here &amp; it is a once-in-a-lifetime coin!</title>
-    <desc>Join your hosts Kevin Cash &amp; Cory Cady as we discuss the 250th Anniversary of America with the official "America 250" logo on a Silver American Eagle label; we are locking in orders for this iconic release, but coins are limited! Don't miss out!</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="464992" start="20260907103000 +0000" stop="20260907110000 +0000">
-    <title lang="zh">Joni Table Talk</title>
-    <desc>Joni and guests tackle a wide range of relevant issues, controversial subjects and hard-hitting news topics with candor and wit.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="464992" start="20260907110000 +0000" stop="20260907120000 +0000">
-    <title lang="zh">Ozark Law</title>
-    <desc>Lost puppies, alleged pickpockets and bachelor parties keep the officers policing the Lake of the Ozarks on their toes; on the Strip Lake Ozark PD Detective Sergeant Mark Kordula must remove a rowdy woman causing trouble at one of the bars.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="464992" start="20260907120000 +0000" stop="20260907130000 +0000">
-    <title lang="zh">Ozark Law</title>
-    <desc>Summer at the Lake of the Ozarks heats up as Cpl. Stephen Riner investigates a road rage case; K9 officer Cpl. Caleb Harvey and his dog Donzi search a vehicle suspected of carrying drugs.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486749" start="20260906180000 +0000" stop="20260906190000 +0000">
-    <title lang="zh">UK Crime Files: Railway Murders</title>
-    <desc>Jackie Malton revisits the case of William Saunderson-Smith, a property millionaire, who was murdered in his home. Police used CCTV to trace three suspects across Europe.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486749" start="20260906190000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">UK Crime Files: The Head On The Beach</title>
-    <desc>Geoffrey Wansell revisits the case of the greed-driven Lithuanian ex-soldier Vitas Plytnikas and an accomplice who murdered Jolanta Bledaite in Scotland.</desc>
-    <date>2026-09-06</date>
   </programme>
   <programme channel="486749" start="20260906200000 +0000" stop="20260906210000 +0000">
     <title lang="zh">UK Crime Files: The Female Killer</title>
@@ -3974,270 +4226,15 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>A salon owner claims one of his stylists left without paying rent and stole some of his furniture on the way out.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="467679" start="20260906160000 +0000" stop="20260906190000 +0000">
-    <title lang="zh">Live: Women's College Volleyball</title>
-    <desc>Nashville hosts a pair of Top Ten teams when Louisville takes on Texas in the Broadway Block Party. The Cardinals come into the match ranked sixth while the Longhorns dropped from second to ninth after a loss to top-ranked Nebraska.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="467679" start="20260906190000 +0000" stop="20260906220000 +0000">
-    <title lang="zh">Live: 2026 US Open Tennis</title>
-    <desc>Men's and women's Round of 16 tennis action from the U.S. Open, held at the USTA Billie Jean King National Center in Flushing, N.Y.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="467679" start="20260906220000 +0000" stop="20260906223000 +0000">
-    <title lang="zh">Eyewitness News at 6</title>
-    <desc>Stay informed with the latest breaking news and headlines.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="467679" start="20260906223000 +0000" stop="20260906230000 +0000">
-    <title lang="zh">ABC World News Tonight With David Muir</title>
-    <desc>Delivering the news that matters most.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="467679" start="20260906230000 +0000" stop="20260906233000 +0000">
-    <title lang="zh">America's Funniest Home Videos</title>
-    <desc>A deer who tries to eat a chunk of a woman's hair when she poses for a picture; the ongoing battle of cats versus dogs; a musical salute to runaway cars.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="467679" start="20260906233000 +0000" stop="20260907000000 +0000">
-    <title lang="zh">Live: College Football</title>
-    <desc>Ole Miss plays Louisville at Nissan Stadium for a Sunday prime-time Week 1 kickoff. Both programs look to establish early momentum in their season opener after finishing 13-2 and 9-4 respectively in their college football campaigns last year.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="467679" start="20260907030000 +0000" stop="20260907040000 +0000">
-    <title lang="zh">Eyewitness News at 11</title>
-    <desc>Breaking news.</desc>
+  <programme channel="486749" start="20260907133000 +0000" stop="20260907140000 +0000">
+    <title lang="zh">Judge Judy</title>
+    <desc>When an unleashed greyhound is injured, dog owners fight over liability and the risk involved in their dog park visit.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="467679" start="20260907040000 +0000" stop="20260907050000 +0000">
-    <title lang="zh">The Rookie</title>
-    <desc>Officer John Nolan is assigned his first rookie, Officer Celina Juarez, whose unconventional approach to police work poses a unique challenge for him.</desc>
+  <programme channel="486749" start="20260907140000 +0000" stop="20260907143000 +0000">
+    <title lang="zh">Judge Judy</title>
+    <desc>A mother demands that her adopted daughter's ex-boyfriend pay her back for a failed time share vacation in Orlando.</desc>
     <date>2026-09-07</date>
-  </programme>
-  <programme channel="467679" start="20260907050000 +0000" stop="20260907060000 +0000">
-    <title lang="zh">The Rookie</title>
-    <desc>Rosalind returns with a vengeance and Bailey's life is left hanging in the balance; Nolan is forced to make a deadly decision after a harrowing ultimatum.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="467679" start="20260907060000 +0000" stop="20260907070000 +0000">
-    <title lang="zh">Murdoch Mysteries</title>
-    <desc>Murdoch investigates the shooting of a local construction company owner who was executed in a barber shop.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="467679" start="20260907070000 +0000" stop="20260907080000 +0000">
-    <title lang="zh">This Week With George Stephanopoulos</title>
-    <desc>Anchor George Stephanopoulos and co-anchors Martha Raddatz and Jonathan Karl interview top newsmakers and officials, with reporting from across the country and roundtable debates over the hottest political issues.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="467679" start="20260907080000 +0000" stop="20260907083000 +0000">
-    <title lang="zh">Good Morning America First Look</title>
-    <desc>ABC's "Good Morning America First Look" brings one overnight breaking news, weather, politics, and the stories and video people will be talking about in the day ahead.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="467679" start="20260907083000 +0000" stop="20260907100000 +0000">
-    <title lang="zh">Eyewitness News This Morning</title>
-    <desc>News coverage to start the day.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="467679" start="20260907100000 +0000" stop="20260907110000 +0000">
-    <title lang="zh">Eyewitness News This Morning</title>
-    <desc>News coverage to start the day.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="467679" start="20260907110000 +0000" stop="20260907130000 +0000">
-    <title lang="zh">Good Morning America</title>
-    <desc>Early morning news and entertainment program that covers important issues with key figures from around the world and a wide spectrum of topics, including medicine, finance, consumer issues, computer technology, education and gardening.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="467679" start="20260907130000 +0000" stop="20260907140000 +0000">
-    <title lang="zh">Live with Kelly and Mark</title>
-    <desc>Curtis "50 Cent" Jackson; Misty Copeland; rediscovering what you love about your job.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="467679" start="20260907140000 +0000" stop="20260907150000 +0000">
-    <title lang="zh">Eyewitness News Mornings at 10</title>
-    <desc>Stay informed with the latest breaking news and headlines.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="467679" start="20260907150000 +0000" stop="20260907160000 +0000">
-    <title lang="zh">The View</title>
-    <desc>Actress Tracee Ellis Ross.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="467679" start="20260907160000 +0000" stop="20260907170000 +0000">
-    <title lang="zh">Eyewitness News at Noon</title>
-    <desc>Midday news update.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="467679" start="20260907170000 +0000" stop="20260907180000 +0000">
-    <title lang="zh">GMA3</title>
-    <desc>News, lifestyle and entertainment.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="467679" start="20260907180000 +0000" stop="20260907190000 +0000">
-    <title lang="zh">Tamron Hall</title>
-    <desc>Cedric the Entertainer and Anthony Anderson (book "The Husky and Handsome Guide to Grilling"); martial arts legend Jet Li opens up about his memoir; Jay Pharoah on hosting "The Quiz with Balls" and releasing new music.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="467679" start="20260907190000 +0000" stop="20260907200000 +0000">
-    <title lang="zh">General Hospital</title>
-    <desc>The ongoing lives of the diverse and evolving citizens of the fictional town of Port Charles in upstate New York.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="467679" start="20260907200000 +0000" stop="20260907210000 +0000">
-    <title lang="zh">Eyewitness News First at 4</title>
-    <desc>Local and regional news coverage.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="467679" start="20260907210000 +0000" stop="20260907220000 +0000">
-    <title lang="zh">Eyewitness News at 5</title>
-    <desc>Local and regional news.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="467679" start="20260907220000 +0000" stop="20260907223000 +0000">
-    <title lang="zh">Eyewitness News at 6</title>
-    <desc>Stay informed with the latest breaking news and headlines.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="467679" start="20260907223000 +0000" stop="20260907230000 +0000">
-    <title lang="zh">ABC World News Tonight With David Muir</title>
-    <desc>Delivering the news that matters most.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260906180000 +0000" stop="20260906190000 +0000">
-    <title lang="zh">A Place in the Sun</title>
-    <desc>Angie and Alan want to fulfil their dream of buying their very first property together on Spain's beautiful Orihuela Costa. Can Jasmine Harman find the perfect place for their £60k.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486777" start="20260906190000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">Jimmy Doherty's Big Bear Rescue</title>
-    <desc>Jimmy and the team make a vast reserve for a pack of homeless wolves. But can the wolves sort their differences and settle in? And Ewa the polar bear is joined by Flocke and Tala.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486777" start="20260906200000 +0000" stop="20260906210000 +0000">
-    <title lang="zh">24 Hours in A&amp;E</title>
-    <desc>Claire, who's 22, is rushed to Queen's after she collapsed while she was out running. Emma has serious leg burns after spilling a kettle. Adele is struggling with an injured toe.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486777" start="20260906210000 +0000" stop="20260906220500 +0000">
-    <title lang="zh">Gogglebox</title>
-    <desc>Britain's sharpest armchair critics return for a new run. What do they think of the biggest and best programmes on TV.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486777" start="20260906220500 +0000" stop="20260906230500 +0000">
-    <title lang="zh">Celebrity Gogglebox</title>
-    <desc>A bunch of famous faces watch The Piano, Bridgerton, Celebrity Bridge of Lies, UK's Strongest Man 2024, The World's Most Luxurious Retirement Homes and Scam Interceptors.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486777" start="20260906230500 +0000" stop="20260907000000 +0000">
-    <title lang="zh">Nope</title>
-    <desc>Western-infused sci-fi chiller starring Daniel Kaluuya and Keke Palmer as cash-strapped horse trainers who try to supplement their income by filming alien goings-on at their ranch.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486777" start="20260907014000 +0000" stop="20260907024000 +0000">
-    <title lang="zh">Crime Scene Cleaners</title>
-    <desc>A Florida woman is found unconscious in a blood-drenched bedroom. Is a decomposing body in Louisiana linked to hidden cash? And discarded drug needles are a hazard in Somerset.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907024000 +0000" stop="20260907033500 +0000">
-    <title lang="zh">Emergency Helicopter Medics</title>
-    <desc>Charlie has life-threatening injuries after coming off his dirt bike. And anxious parents can only watch and wait as medics treat their five-year-old, who's having seizures.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907033500 +0000" stop="20260907060000 +0000">
-    <title lang="zh">Teleshopping</title>
-    <desc />
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907060000 +0000" stop="20260907080000 +0000">
-    <title lang="zh">Teleshopping</title>
-    <desc />
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907080000 +0000" stop="20260907090000 +0000">
-    <title lang="zh">A New Life in the Sun: Where</title>
-    <desc>In France, can Aggie and Camille's restaurant cope with one less staff member? Is Leah and Joao's new arrival shaking things up at their Portuguese cocktail bar.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907090000 +0000" stop="20260907100000 +0000">
-    <title lang="zh">Find It, Fix It, Flog It</title>
-    <desc>Simon O'Brien and Henry Cole head to Constable country in Suffolk, where Henry finds a miniature hay wain to lovingly restore.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907100000 +0000" stop="20260907110000 +0000">
-    <title lang="zh">The Great B&amp;B Challenge</title>
-    <desc>It's the moment of truth as all the hosts deliver their business plans. There's tension, emotion and fierce debate before the winner's given the keys to their new life in France.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907110000 +0000" stop="20260907120000 +0000">
-    <title lang="zh">A Place in the Sun</title>
-    <desc>After devoting their lives to raising their family, Tracey and Dean are now in a position to buy a holiday home in Spain's Mar Menor. Jasmine Harman shows them five options for their £70k.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907120000 +0000" stop="20260907130000 +0000">
-    <title lang="zh">A Place in the Sun</title>
-    <desc>Gill and Chris are celebrating their 13th wedding anniversary in style by finding their very own cave house in Granada's gorgeous countryside. Can Laura Hamilton deliver the perfect place.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907130000 +0000" stop="20260907140000 +0000">
-    <title lang="zh">A Place in the Sun</title>
-    <desc>Nikki and Gordon want a home with great views on the Maltese island of Gozo. Ben Hillman shows them what their £350k can buy. Has he found the Mediterranean dream.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907140000 +0000" stop="20260907143000 +0000">
-    <title lang="zh">Come Dine with Me</title>
-    <desc>Glamorous fitness instructor Tanya serves up a Mediterranean feast. But is this host more style than substance.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907143000 +0000" stop="20260907150000 +0000">
-    <title lang="zh">Come Dine with Me</title>
-    <desc>Business coach and passionate foodie Rod is determined to impress. But he's already offended Tanya - and HR manager Claire predicts fireworks..</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907150000 +0000" stop="20260907153000 +0000">
-    <title lang="zh">Come Dine with Me</title>
-    <desc>HR manager Claire hopes that her hosting skills will compensate for her 'imperfect' cooking. But tension rises when Tanya barely touches her food.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907153000 +0000" stop="20260907160000 +0000">
-    <title lang="zh">Come Dine with Me</title>
-    <desc>Psychic medium Dean plans to put his supernatural skills to good use on his night. The main goes down well - even with Tanya - but his boozy berry cheesecake bombs.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907160000 +0000" stop="20260907163000 +0000">
-    <title lang="zh">Come Dine with Me</title>
-    <desc>Will the tension between Sadiya and Tanya finally explode as Sadiya hosts the final night? And Dean's clairvoyant powers are put to the test.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907163000 +0000" stop="20260907170000 +0000">
-    <title lang="zh">A Place in the Sun</title>
-    <desc>Maria and Paul dream of owning a home away from home among the Andalucian countryside, to escape the English winters. Can Craig Rowe find 'the one' for their budget of £270k.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907170000 +0000" stop="20260907180000 +0000">
-    <title lang="zh">A Place in the Sun</title>
-    <desc>Barbara and her daughter-in-law Jodi search for a place on Mallorca for £165k. Will a sea view apartment or a tempting townhouse with two suntraps be their idea of Balearic bolthole bliss.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907180000 +0000" stop="20260907190000 +0000">
-    <title lang="zh">The Dog House</title>
-    <desc>Tom sees dog ownership as a high-risk activity. Can girlfriend Maxine and Monty the Labrador persuade him to throw caution to the wind? And Leila and Alison meet loveable Eloise.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907190000 +0000" stop="20260907200000 +0000">
-    <title lang="zh">Kirstie and Phil's Love It or List It</title>
-    <desc>The duo explore what to do when your property problems just can't be fixed, and revisit a garden that proved to be a hill too steep to climb.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486777" start="20260907200000 +0000" stop="20260907210000 +0000">
-    <title lang="zh">24 Hours in Police Custody</title>
-    <desc>A 17-year-old is in a coma after a serious assault. Officers believe the brutal crime is part of a territorial dispute between drug gangs. But can they prove it.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486692" start="20260906173000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">F1 Italian GP Highlights</title>
-    <desc>F1 heads to Monza - one of the most storied circuits in motor racing and domain of the passionate Tifosi. Can championship leader Antonelli be the first Italian in 60 years to win at home.</desc>
-    <date>2026-09-06</date>
   </programme>
   <programme channel="486692" start="20260906200000 +0000" stop="20260906210000 +0000">
     <title lang="zh">24 Hours in Police Custody</title>
@@ -4362,6 +4359,141 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
   <programme channel="486692" start="20260907111000 +0000" stop="20260907121000 +0000">
     <title lang="zh">Find It, Fix It, Flog It</title>
     <desc>Simon O'Brien and Henry Cole are in North Wales, where Simon attempts his craziest restoration yet, turning the carcass of an old Land Rover into a garden seat.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486692" start="20260907121000 +0000" stop="20260907131000 +0000">
+    <title lang="zh">The Great House Giveaway</title>
+    <desc>In Burton-on-Trent, strangers Jack and Helen bring a wrecked terrace house into the 21st century. But as the budget dwindles and the clock ticks, the stress of the job sets in.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260906200000 +0000" stop="20260906210000 +0000">
+    <title lang="zh">The Chase Celebrity</title>
+    <desc>Bradley Walsh hosts the game show that asks celebrities to complete a series of general knowledge questions faster than The Chaser.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="486733" start="20260906210000 +0000" stop="20260906220000 +0000">
+    <title lang="zh">The Chase</title>
+    <desc>Bradley Walsh hosts the game show that asks contestants to complete a series of general knowledge questions faster than The Chaser, a brainbox of the highest order.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="486733" start="20260906220000 +0000" stop="20260906223000 +0000">
+    <title lang="zh">Bullseye Christmas</title>
+    <desc>Dartboard quiz game that tests contestants' darts skills and their general knowledge.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="486733" start="20260906223000 +0000" stop="20260906230000 +0000">
+    <title lang="zh">Bullseye</title>
+    <desc>Dartboard quiz game that tests contestants' darts skills and their general knowledge.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="486733" start="20260906230000 +0000" stop="20260906233000 +0000">
+    <title lang="zh">Bullseye</title>
+    <desc>Dartboard quiz game that tests contestants' darts skills and their general knowledge.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="486733" start="20260906233000 +0000" stop="20260907000000 +0000">
+    <title lang="zh">Bullseye</title>
+    <desc>Dartboard quiz game that tests contestants' darts skills and their general knowledge.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="486733" start="20260907000000 +0000" stop="20260907003000 +0000">
+    <title lang="zh">Bullseye</title>
+    <desc>Dartboard quiz game that tests contestants' darts skills and their general knowledge.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907003000 +0000" stop="20260907010000 +0000">
+    <title lang="zh">Bullseye</title>
+    <desc>Dartboard quiz game that tests contestants' darts skills and their general knowledge.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907010000 +0000" stop="20260907020000 +0000">
+    <title lang="zh">The Chase</title>
+    <desc>Bradley Walsh hosts the game show that asks contestants to complete a series of general knowledge questions faster than The Chaser, a brainbox of the highest order.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907020000 +0000" stop="20260907030000 +0000">
+    <title lang="zh">The Chase</title>
+    <desc>Bradley Walsh hosts the game show that asks contestants to complete a series of general knowledge questions faster than The Chaser, a brainbox of the highest order.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907030000 +0000" stop="20260907040000 +0000">
+    <title lang="zh">The Chase Celebrity</title>
+    <desc>Bradley Walsh hosts the game show that asks celebrities to complete a series of general knowledge questions faster than The Chaser.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907040000 +0000" stop="20260907050000 +0000">
+    <title lang="zh">The Chase UK</title>
+    <desc>Bradley Walsh hosts the game show that asks contestants to complete a series of general knowledge questions faster than The Chaser.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907050000 +0000" stop="20260907053000 +0000">
+    <title lang="zh">Teleshopping 2026</title>
+    <desc />
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907053000 +0000" stop="20260907060000 +0000">
+    <title lang="zh">Teleshopping 2026</title>
+    <desc />
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907060000 +0000" stop="20260907070000 +0000">
+    <title lang="zh">The Chase</title>
+    <desc>Bradley Walsh hosts the game show that asks contestants to complete a series of general knowledge questions faster than The Chaser.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907070000 +0000" stop="20260907080000 +0000">
+    <title lang="zh">The Chase</title>
+    <desc>Bradley Walsh hosts the game show that asks contestants to complete a series of general knowledge questions faster than The Chaser, a brainbox of the highest order.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907080000 +0000" stop="20260907090000 +0000">
+    <title lang="zh">The Chase Celebrity</title>
+    <desc>Bradley Walsh hosts the game show that asks celebrities to complete a series of general knowledge questions faster than The Chaser.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907090000 +0000" stop="20260907100000 +0000">
+    <title lang="zh">The Bidding Room</title>
+    <desc>Watch Nigel Havers as dealers race to grab an antique stereoscope, a prototype race bike and a mystery item that leaves everyone guessing.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907100000 +0000" stop="20260907111500 +0000">
+    <title lang="zh">Celebrity Antiques Road Trip</title>
+    <desc>Neil Stuke and Penny Smith hit the road with £400 to spend on antiques, guided by experts Paul Laidlaw and Thomas Plant.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907111500 +0000" stop="20260907120000 +0000">
+    <title lang="zh">Blankety Blank</title>
+    <desc>With the help of a celebrity panel, contestants must fill in the missing words of statements and phrases. Lily Savage hosts this classic game show.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907120000 +0000" stop="20260907130000 +0000">
+    <title lang="zh">Cash Trapped</title>
+    <desc>Six contestants face off against each other in four rounds of general knowledge questions presented by host Bradley Walsh in order to win a cash prize.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907130000 +0000" stop="20260907140000 +0000">
+    <title lang="zh">Bridge Of Lies</title>
+    <desc>Ross Kemp hosts the Bridge of Lies. Contestants must cross by stepping on the truths and avoiding the lies, earning money as they go.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907140000 +0000" stop="20260907150000 +0000">
+    <title lang="zh">The Chase</title>
+    <desc>Bradley Walsh hosts the game show that asks contestants to complete a series of general knowledge questions faster than The Chaser.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907150000 +0000" stop="20260907161500 +0000">
+    <title lang="zh">Celebrity Antiques Road Trip</title>
+    <desc>Laila Rouass and Charles Dale search for antiques from York to Surrey, aided by experts James Lewis and Paul Laidlaw.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907161500 +0000" stop="20260907170000 +0000">
+    <title lang="zh">All Star Family Fortunes</title>
+    <desc>Stars compete to win money for charity with a little help from their families. Glitzy celebrity version of the classic family game show presented by Vernon Kay.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486733" start="20260907170000 +0000" stop="20260907180000 +0000">
+    <title lang="zh">Cash Trapped</title>
+    <desc>Six contestants face off against each other in four rounds of general knowledge questions presented by host Bradley Walsh in order to win a cash prize.</desc>
     <date>2026-09-07</date>
   </programme>
   <programme channel="486845" start="20260906174500 +0000" stop="20260906210000 +0000">
@@ -4494,141 +4626,6 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>Today is the 'Twin It to Win It' pet show, where owners and their pets dress in matching outfits. But Humdinger steals Katie and Cali's tiaras in hopes of winning the trophy.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="486733" start="20260906180000 +0000" stop="20260906190000 +0000">
-    <title lang="zh">The Chase</title>
-    <desc>Bradley Walsh hosts the game show that asks contestants to complete a series of general knowledge questions faster than The Chaser, a brainbox of the highest order.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486733" start="20260906190000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">The Chase</title>
-    <desc>Bradley Walsh hosts the game show that asks contestants to complete a series of general knowledge questions faster than The Chaser, a brainbox of the highest order.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486733" start="20260906200000 +0000" stop="20260906210000 +0000">
-    <title lang="zh">The Chase Celebrity</title>
-    <desc>Bradley Walsh hosts the game show that asks celebrities to complete a series of general knowledge questions faster than The Chaser.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486733" start="20260906210000 +0000" stop="20260906220000 +0000">
-    <title lang="zh">The Chase</title>
-    <desc>Bradley Walsh hosts the game show that asks contestants to complete a series of general knowledge questions faster than The Chaser, a brainbox of the highest order.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486733" start="20260906220000 +0000" stop="20260906223000 +0000">
-    <title lang="zh">Bullseye Christmas</title>
-    <desc>Dartboard quiz game that tests contestants' darts skills and their general knowledge.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486733" start="20260906223000 +0000" stop="20260906230000 +0000">
-    <title lang="zh">Bullseye</title>
-    <desc>Dartboard quiz game that tests contestants' darts skills and their general knowledge.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486733" start="20260906230000 +0000" stop="20260906233000 +0000">
-    <title lang="zh">Bullseye</title>
-    <desc>Dartboard quiz game that tests contestants' darts skills and their general knowledge.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486733" start="20260906233000 +0000" stop="20260907000000 +0000">
-    <title lang="zh">Bullseye</title>
-    <desc>Dartboard quiz game that tests contestants' darts skills and their general knowledge.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486733" start="20260907000000 +0000" stop="20260907003000 +0000">
-    <title lang="zh">Bullseye</title>
-    <desc>Dartboard quiz game that tests contestants' darts skills and their general knowledge.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486733" start="20260907003000 +0000" stop="20260907010000 +0000">
-    <title lang="zh">Bullseye</title>
-    <desc>Dartboard quiz game that tests contestants' darts skills and their general knowledge.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486733" start="20260907010000 +0000" stop="20260907020000 +0000">
-    <title lang="zh">The Chase</title>
-    <desc>Bradley Walsh hosts the game show that asks contestants to complete a series of general knowledge questions faster than The Chaser, a brainbox of the highest order.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486733" start="20260907020000 +0000" stop="20260907030000 +0000">
-    <title lang="zh">The Chase</title>
-    <desc>Bradley Walsh hosts the game show that asks contestants to complete a series of general knowledge questions faster than The Chaser, a brainbox of the highest order.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486733" start="20260907030000 +0000" stop="20260907040000 +0000">
-    <title lang="zh">The Chase Celebrity</title>
-    <desc>Bradley Walsh hosts the game show that asks celebrities to complete a series of general knowledge questions faster than The Chaser.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486733" start="20260907040000 +0000" stop="20260907050000 +0000">
-    <title lang="zh">The Chase UK</title>
-    <desc>Bradley Walsh hosts the game show that asks contestants to complete a series of general knowledge questions faster than The Chaser.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486733" start="20260907050000 +0000" stop="20260907053000 +0000">
-    <title lang="zh">Teleshopping 2026</title>
-    <desc />
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486733" start="20260907053000 +0000" stop="20260907060000 +0000">
-    <title lang="zh">Teleshopping 2026</title>
-    <desc />
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486733" start="20260907060000 +0000" stop="20260907070000 +0000">
-    <title lang="zh">The Chase</title>
-    <desc>Bradley Walsh hosts the game show that asks contestants to complete a series of general knowledge questions faster than The Chaser.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486733" start="20260907070000 +0000" stop="20260907080000 +0000">
-    <title lang="zh">The Chase</title>
-    <desc>Bradley Walsh hosts the game show that asks contestants to complete a series of general knowledge questions faster than The Chaser, a brainbox of the highest order.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486733" start="20260907080000 +0000" stop="20260907090000 +0000">
-    <title lang="zh">The Chase Celebrity</title>
-    <desc>Bradley Walsh hosts the game show that asks celebrities to complete a series of general knowledge questions faster than The Chaser.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486733" start="20260907090000 +0000" stop="20260907100000 +0000">
-    <title lang="zh">The Bidding Room</title>
-    <desc>Watch Nigel Havers as dealers race to grab an antique stereoscope, a prototype race bike and a mystery item that leaves everyone guessing.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486733" start="20260907100000 +0000" stop="20260907111500 +0000">
-    <title lang="zh">Celebrity Antiques Road Trip</title>
-    <desc>Neil Stuke and Penny Smith hit the road with £400 to spend on antiques, guided by experts Paul Laidlaw and Thomas Plant.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486733" start="20260907111500 +0000" stop="20260907120000 +0000">
-    <title lang="zh">Blankety Blank</title>
-    <desc>With the help of a celebrity panel, contestants must fill in the missing words of statements and phrases. Lily Savage hosts this classic game show.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486733" start="20260907120000 +0000" stop="20260907130000 +0000">
-    <title lang="zh">Cash Trapped</title>
-    <desc>Six contestants face off against each other in four rounds of general knowledge questions presented by host Bradley Walsh in order to win a cash prize.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486733" start="20260907130000 +0000" stop="20260907140000 +0000">
-    <title lang="zh">Bridge Of Lies</title>
-    <desc>Ross Kemp hosts the Bridge of Lies. Contestants must cross by stepping on the truths and avoiding the lies, earning money as they go.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486733" start="20260907140000 +0000" stop="20260907150000 +0000">
-    <title lang="zh">The Chase</title>
-    <desc>Bradley Walsh hosts the game show that asks contestants to complete a series of general knowledge questions faster than The Chaser.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486733" start="20260907150000 +0000" stop="20260907161500 +0000">
-    <title lang="zh">Celebrity Antiques Road Trip</title>
-    <desc>Laila Rouass and Charles Dale search for antiques from York to Surrey, aided by experts James Lewis and Paul Laidlaw.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="470301" start="20260906180000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">It Always Rains on Sunday</title>
-    <desc>In a working class neighborhood in London, a housewife named Rose (Googie Withers) finds herself in a serious bind when her old lover, Tommy Swann (John McCallum), escapes from prison and winds up in her backyard. Rose wants to escape the drudgery of her daily life and remembers the charming man Swann was before prison. But when Swann suspects that Rose is about to turn him in, he snaps, and threa</desc>
-    <date>2026-09-06</date>
-  </programme>
   <programme channel="470301" start="20260906200000 +0000" stop="20260906220000 +0000">
     <title lang="zh">Beat the Devil</title>
     <desc>Billy and Maria Dannreuther are among a number of travelers stranded in Italy en route to Africa. While the Dannreuthers seem like an average couple, they have the same goal as Mrs. Gwendolen Chelm and some of their other shifty companions -- to lay claim to property that is supposedly rich with uranium.</desc>
@@ -4754,15 +4751,140 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>Deborah Norville hosts a fun, new game in which contestants must arrange events, items or people in the correct order to create "The Perfect Line" and a chance to win more than $15,000.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="470911" start="20260906180000 +0000" stop="20260906190000 +0000">
+  <programme channel="470301" start="20260907203000 +0000" stop="20260907210000 +0000">
+    <title lang="zh">Person, Place or Thing</title>
+    <desc>A modern take on the age-old game of 20 Questions intersperses comedy with common knowledge; hosted by People's Choice Award winner Melissa Peterman.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260906200000 +0000" stop="20260906210000 +0000">
     <title lang="zh">Hudson &amp; Rex</title>
     <desc>After two killers escape from St John's Women's Penitentiary, the team is stymied in their attempts to capture the duo when their antics turn them into modern-day folk heroes.</desc>
     <date>2026-09-06</date>
   </programme>
-  <programme channel="470911" start="20260906190000 +0000" stop="20260906200000 +0000">
+  <programme channel="470612" start="20260906210000 +0000" stop="20260906220000 +0000">
     <title lang="zh">Hudson &amp; Rex</title>
     <desc>When the co-owner of a successful board game company is found dead of a snake bite, the team has to not only catch the killer, but also the deadly venomous snake that is still on the loose.</desc>
     <date>2026-09-06</date>
+  </programme>
+  <programme channel="470612" start="20260906220000 +0000" stop="20260906230000 +0000">
+    <title lang="zh">Hudson &amp; Rex</title>
+    <desc>After a popular physiotherapist is murdered, the team must investigate the victims of his alleged sexual assaults in order to track down the killer before they strike again.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="470612" start="20260906230000 +0000" stop="20260906233000 +0000">
+    <title lang="zh">CityNews at 5 Calgary</title>
+    <desc>Stay informed with the latest breaking news and headlines.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="470612" start="20260906233000 +0000" stop="20260907000000 +0000">
+    <title lang="zh">Live: College Football</title>
+    <desc>Notre Dame plays host to Wisconsin at Lambeau Field in Green Bay to open the 2026 season. The Fighting Irish look to build on their 10-2 finish from last season, while the Badgers look to bounce back from their 17-7 loss to the Golden Gophers.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="470612" start="20260907030000 +0000" stop="20260907040000 +0000">
+    <title lang="zh">Hudson &amp; Rex</title>
+    <desc>The maid-of-honor winds up dead after a bachelorette party; it's up to Charlie and Rex to untangle the events of the night.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907040000 +0000" stop="20260907043000 +0000">
+    <title lang="zh">CityNews Connect: Searching for Parker</title>
+    <desc>An entire city unites in the search for an 11-year-old autistic boy.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907043000 +0000" stop="20260907050000 +0000">
+    <title lang="zh">Family Feud</title>
+    <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907050000 +0000" stop="20260907053000 +0000">
+    <title lang="zh">CityNews Tonight Calgary</title>
+    <desc>Coverage of community stories and local news.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907053000 +0000" stop="20260907060000 +0000">
+    <title lang="zh">Storage Wars</title>
+    <desc>Barry arrives code 3 to Stanton, where he takes on a new disciple; Lisa gets clinical with her find, forcing her to take a closer look; the new guy pays heavily for a unit, but seems to know what he's doing, while Brandi and Rene struggle.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907060000 +0000" stop="20260907070000 +0000">
+    <title lang="zh">The Twilight Zone</title>
+    <desc>Three astronauts discover the wreckage of a ship identical to their own on an unexplored planet. With Jack Klugman.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907070000 +0000" stop="20260907073000 +0000">
+    <title lang="zh">Family Feud</title>
+    <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907073000 +0000" stop="20260907080000 +0000">
+    <title lang="zh">CityNews Tonight Calgary</title>
+    <desc>Coverage of community stories and local news.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907080000 +0000" stop="20260907083000 +0000">
+    <title lang="zh">Mobile MD</title>
+    <desc>Singer-songwriter Jeffrey Straker fears a health issue might ruin his career, pushing Dr. Henley to find a treatment that works; mysterious dizziness leads to a rare diagnosis and a competitive trick rider feels like she's literally falling apart.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907083000 +0000" stop="20260907090000 +0000">
+    <title lang="zh">Dirt Farmers</title>
+    <desc>Summer drought is killing the crops; Jason goes in for a risky surgery.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907090000 +0000" stop="20260907093000 +0000">
+    <title lang="zh">CityNews Tonight Calgary</title>
+    <desc>Coverage of community stories and local news.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907093000 +0000" stop="20260907100000 +0000">
+    <title lang="zh">CityNews Tonight Calgary</title>
+    <desc>Coverage of community stories and local news.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907100000 +0000" stop="20260907110000 +0000">
+    <title lang="zh">Hudson &amp; Rex</title>
+    <desc>Charlie's Aunt Miranda and her friends are caught investigating an investment fraud scheme, so it's up to Charlie and Rex to get to the source of the fraud.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907110000 +0000" stop="20260907113000 +0000">
+    <title lang="zh">CityNews Tonight Calgary</title>
+    <desc>Coverage of community stories and local news.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907113000 +0000" stop="20260907120000 +0000">
+    <title lang="zh">CityNews Tonight Calgary</title>
+    <desc>Coverage of community stories and local news.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907120000 +0000" stop="20260907123000 +0000">
+    <title lang="zh">CityNews Tonight Calgary</title>
+    <desc>Coverage of community stories and local news.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907123000 +0000" stop="20260907130000 +0000">
+    <title lang="zh">CityNews Tonight Edmonton</title>
+    <desc>Coverage of community stories and local news.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907130000 +0000" stop="20260907140000 +0000">
+    <title lang="zh">Hudson &amp; Rex</title>
+    <desc>When Rex is accused of attacking a decorated former police officer, Charlie enlists the help of an unorthodox ally to uncover the truth in the hopes of restoring Rex's position on the team.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907140000 +0000" stop="20260907160000 +0000">
+    <title lang="zh">Best of BT Toronto</title>
+    <desc>Highlighting the most memorable or popular moments from episodes of Breakfast Television.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907160000 +0000" stop="20260907163000 +0000">
+    <title lang="zh">Family Feud</title>
+    <desc>Steve Harvey assumes the hosting duties for this daytime game show in which five members of one family are pitted against five members of another family. Each team's goal is to guess the results of audience survey questions. A player from each team initially faces off, answering the question to earn the chance to either pass or play. The winning family gets a chance to earn extra cash in a bonus r</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470612" start="20260907163000 +0000" stop="20260907170000 +0000">
+    <title lang="zh">Family Feud</title>
+    <desc>Steve Harvey assumes the hosting duties for this daytime game show in which five members of one family are pitted against five members of another family. Each team's goal is to guess the results of audience survey questions. A player from each team initially faces off, answering the question to earn the chance to either pass or play. The winning family gets a chance to earn extra cash in a bonus r</desc>
+    <date>2026-09-07</date>
   </programme>
   <programme channel="470911" start="20260906200000 +0000" stop="20260906210000 +0000">
     <title lang="zh">Hudson &amp; Rex</title>
@@ -4884,145 +5006,15 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>Participants must guess the prices of different types of items, ranging from vehicles to electronic appliances, to win a prize.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="470612" start="20260906170000 +0000" stop="20260906190000 +0000">
-    <title lang="zh">Scented With Love</title>
-    <desc>Rosalie trains as a perfumer in Paris, but fails to secure a job and must return to her small hometown. She decides to rent a store to sell her own perfume, but the only space available is shared by the local furniture store, which is owned by the previously geeky-now handsome Jason.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="470612" start="20260906190000 +0000" stop="20260906193000 +0000">
-    <title lang="zh">Storage Wars</title>
-    <desc>Rene gets lukewarm results bobbing for profits in Stanton; Dusty finds a hoard of quality equipment, inking himself a decent payday; looking for treasure, Brandi ends up with the green in an unexpected manner.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="470612" start="20260906193000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">Storage Wars</title>
-    <desc>Dusty and Lupe pedal their way to an auction but end up needing the truck; Darrell pins his hopes on a small locker for which he overpaid; Rene makes the most of the honeymoon unit, and things get a bit racy.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="470612" start="20260906200000 +0000" stop="20260906210000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>After two killers escape from St John's Women's Penitentiary, the team is stymied in their attempts to capture the duo when their antics turn them into modern-day folk heroes.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="470612" start="20260906210000 +0000" stop="20260906220000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>When the co-owner of a successful board game company is found dead of a snake bite, the team has to not only catch the killer, but also the deadly venomous snake that is still on the loose.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="470612" start="20260906220000 +0000" stop="20260906230000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>After a popular physiotherapist is murdered, the team must investigate the victims of his alleged sexual assaults in order to track down the killer before they strike again.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="470612" start="20260906230000 +0000" stop="20260906233000 +0000">
-    <title lang="zh">CityNews at 5 Calgary</title>
-    <desc>Stay informed with the latest breaking news and headlines.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="470612" start="20260906233000 +0000" stop="20260907000000 +0000">
-    <title lang="zh">Live: College Football</title>
-    <desc>Notre Dame plays host to Wisconsin at Lambeau Field in Green Bay to open the 2026 season. The Fighting Irish look to build on their 10-2 finish from last season, while the Badgers look to bounce back from their 17-7 loss to the Golden Gophers.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="470612" start="20260907030000 +0000" stop="20260907040000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>The maid-of-honor winds up dead after a bachelorette party; it's up to Charlie and Rex to untangle the events of the night.</desc>
+  <programme channel="470911" start="20260907160000 +0000" stop="20260907170000 +0000">
+    <title lang="zh">Let's Make a Deal</title>
+    <desc>Celebrating the 60th anniversary of "Star Trek" with actors Jonathan Mangum and model Tiffany Coyne.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="470612" start="20260907040000 +0000" stop="20260907043000 +0000">
-    <title lang="zh">CityNews Connect: Searching for Parker</title>
-    <desc>An entire city unites in the search for an 11-year-old autistic boy.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="470612" start="20260907043000 +0000" stop="20260907050000 +0000">
+  <programme channel="470911" start="20260907170000 +0000" stop="20260907173000 +0000">
     <title lang="zh">Family Feud</title>
     <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
     <date>2026-09-07</date>
-  </programme>
-  <programme channel="470612" start="20260907050000 +0000" stop="20260907053000 +0000">
-    <title lang="zh">CityNews Tonight Calgary</title>
-    <desc>Coverage of community stories and local news.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="470612" start="20260907053000 +0000" stop="20260907060000 +0000">
-    <title lang="zh">Storage Wars</title>
-    <desc>Barry arrives code 3 to Stanton, where he takes on a new disciple; Lisa gets clinical with her find, forcing her to take a closer look; the new guy pays heavily for a unit, but seems to know what he's doing, while Brandi and Rene struggle.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="470612" start="20260907060000 +0000" stop="20260907070000 +0000">
-    <title lang="zh">The Twilight Zone</title>
-    <desc>Three astronauts discover the wreckage of a ship identical to their own on an unexplored planet. With Jack Klugman.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="470612" start="20260907070000 +0000" stop="20260907073000 +0000">
-    <title lang="zh">Family Feud</title>
-    <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="470612" start="20260907073000 +0000" stop="20260907080000 +0000">
-    <title lang="zh">CityNews Tonight Calgary</title>
-    <desc>Coverage of community stories and local news.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="470612" start="20260907080000 +0000" stop="20260907083000 +0000">
-    <title lang="zh">Mobile MD</title>
-    <desc>Singer-songwriter Jeffrey Straker fears a health issue might ruin his career, pushing Dr. Henley to find a treatment that works; mysterious dizziness leads to a rare diagnosis and a competitive trick rider feels like she's literally falling apart.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="470612" start="20260907083000 +0000" stop="20260907090000 +0000">
-    <title lang="zh">Dirt Farmers</title>
-    <desc>Summer drought is killing the crops; Jason goes in for a risky surgery.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="470612" start="20260907090000 +0000" stop="20260907093000 +0000">
-    <title lang="zh">CityNews Tonight Calgary</title>
-    <desc>Coverage of community stories and local news.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="470612" start="20260907093000 +0000" stop="20260907100000 +0000">
-    <title lang="zh">CityNews Tonight Calgary</title>
-    <desc>Coverage of community stories and local news.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="470612" start="20260907100000 +0000" stop="20260907110000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>Charlie's Aunt Miranda and her friends are caught investigating an investment fraud scheme, so it's up to Charlie and Rex to get to the source of the fraud.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="470612" start="20260907110000 +0000" stop="20260907113000 +0000">
-    <title lang="zh">CityNews Tonight Calgary</title>
-    <desc>Coverage of community stories and local news.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="470612" start="20260907113000 +0000" stop="20260907120000 +0000">
-    <title lang="zh">CityNews Tonight Calgary</title>
-    <desc>Coverage of community stories and local news.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="470612" start="20260907120000 +0000" stop="20260907123000 +0000">
-    <title lang="zh">CityNews Tonight Calgary</title>
-    <desc>Coverage of community stories and local news.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="470612" start="20260907123000 +0000" stop="20260907130000 +0000">
-    <title lang="zh">CityNews Tonight Edmonton</title>
-    <desc>Coverage of community stories and local news.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="470612" start="20260907130000 +0000" stop="20260907140000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>When Rex is accused of attacking a decorated former police officer, Charlie enlists the help of an unorthodox ally to uncover the truth in the hopes of restoring Rex's position on the team.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="470862" start="20260906180000 +0000" stop="20260906190000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>After two killers escape from St John's Women's Penitentiary, the team is stymied in their attempts to capture the duo when their antics turn them into modern-day folk heroes.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="470862" start="20260906190000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">Hudson &amp; Rex</title>
-    <desc>When the co-owner of a successful board game company is found dead of a snake bite, the team has to not only catch the killer, but also the deadly venomous snake that is still on the loose.</desc>
-    <date>2026-09-06</date>
   </programme>
   <programme channel="470862" start="20260906200000 +0000" stop="20260906210000 +0000">
     <title lang="zh">Hudson &amp; Rex</title>
@@ -5144,15 +5136,15 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>A new homeowner hires a gravel man to fix her driveway, only to end up in court when he knocks down her power lines and sparks an explosion.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="470496" start="20260906180000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">Scented With Love</title>
-    <desc>Rosalie trains as a perfumer in Paris, but fails to secure a job and must return to her small hometown. She decides to rent a store to sell her own perfume, but the only space available is shared by the local furniture store, which is owned by the previously geeky-now handsome Jason.</desc>
-    <date>2026-09-06</date>
+  <programme channel="470862" start="20260907193000 +0000" stop="20260907200000 +0000">
+    <title lang="zh">Tribunal Justice</title>
+    <desc>An Air Force veteran with PTSD raised hens as emotional support animals until two neighborhood dogs escape and kill ten of them in a violent attack caught on video; he sues the dog owner and property owner for $10K.</desc>
+    <date>2026-09-07</date>
   </programme>
-  <programme channel="470496" start="20260906200000 +0000" stop="20260906203000 +0000">
-    <title lang="zh">Storage Wars</title>
-    <desc>Rene gets lukewarm results bobbing for profits in Stanton; Dusty finds a hoard of quality equipment, inking himself a decent payday; looking for treasure, Brandi ends up with the green in an unexpected manner.</desc>
-    <date>2026-09-06</date>
+  <programme channel="470862" start="20260907200000 +0000" stop="20260907203000 +0000">
+    <title lang="zh">Judy Justice</title>
+    <desc>Judge Judy Sheindlin returns to the courtroom.</desc>
+    <date>2026-09-07</date>
   </programme>
   <programme channel="470496" start="20260906203000 +0000" stop="20260906210000 +0000">
     <title lang="zh">Storage Wars</title>
@@ -5274,20 +5266,145 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>Participants must guess the prices of different types of items, ranging from vehicles to electronic appliances, to win a prize.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="465071" start="20260906183000 +0000" stop="20260906190000 +0000">
-    <title lang="zh">Find Me a Vacation Home</title>
-    <desc>From beachside bungalows to mountain lodges, property hunters look for luxurious vacation homes where paradise is in the backyard.</desc>
+  <programme channel="470496" start="20260907180000 +0000" stop="20260907190000 +0000">
+    <title lang="zh">Let's Make a Deal</title>
+    <desc>Celebrating the 60th anniversary of "Star Trek" with actors Jonathan Mangum and model Tiffany Coyne.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="470496" start="20260907190000 +0000" stop="20260907193000 +0000">
+    <title lang="zh">Family Feud</title>
+    <desc>Family Feud is an American television game show where two families compete to name the responses to survey questions in order to win cash and prizes.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260906202500 +0000" stop="20260906212500 +0000">
+    <title lang="zh">Death in Paradise</title>
+    <desc>Jack faces a life-changing decision while investigating the murder of a man found dead in a boat off the Saint Marie coast.</desc>
     <date>2026-09-06</date>
   </programme>
-  <programme channel="465071" start="20260906190000 +0000" stop="20260906193000 +0000">
-    <title lang="zh">Selling Jets</title>
-    <desc>Ken's childhood dream was to become an aviator and now considers the purchase of a light business jet for his charter clients, so broker Leonard Goldberg, having shared Ken's childhood dream in aviation, has lined up an eye-popping surprise for Ken.</desc>
+  <programme channel="486759" start="20260906212500 +0000" stop="20260906222000 +0000">
+    <title lang="zh">The Hunting Party</title>
+    <desc>A serial killer who targeted social media influencers resurfaces and collaborates with them instead, as the team tries to combat his mastery of technology and manipulation.</desc>
     <date>2026-09-06</date>
   </programme>
-  <programme channel="465071" start="20260906193000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">Luxury Property Wars</title>
-    <desc>Hosts Luke and Kelly compete to find the perfect home with enough wow factor to create the best match for a discriminating buyer.</desc>
+  <programme channel="486759" start="20260906222000 +0000" stop="20260906232000 +0000">
+    <title lang="zh">CSI: Vegas</title>
+    <desc>A mysterious Bigfoot-like print found near a crime scene puzzles the CSI team as they work to uncover who or what killed a father and son.</desc>
     <date>2026-09-06</date>
+  </programme>
+  <programme channel="486759" start="20260906232000 +0000" stop="20260907000000 +0000">
+    <title lang="zh">CSI: Vegas</title>
+    <desc>Catherine is frustrated when a lead suspect in Grace's disappearance is murdered. The team exhausts all their skills to figure out who killed him.</desc>
+    <date>2026-09-06</date>
+  </programme>
+  <programme channel="486759" start="20260907001500 +0000" stop="20260907012000 +0000">
+    <title lang="zh">Murdoch Mysteries</title>
+    <desc>Ogden leads Louise Cherry and wealthy donor Harold Warrington on a tour of the new women's hospital, but when a noxious smell is noted, a young nurse drops dead.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907012000 +0000" stop="20260907020500 +0000">
+    <title lang="zh">Dark Winds</title>
+    <desc>With a major suspect in custody, Leaphorn discovers there is more to this crime than he ever imagined. Chee must choose between his career and his people.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907020500 +0000" stop="20260907030000 +0000">
+    <title lang="zh">Dark Winds</title>
+    <desc>Leaphorn, Chee and Manuelito descend on the hiding place of the Buffalo Society, only to be confronted with hard decisions that could change the rest of their lives.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907030000 +0000" stop="20260907050000 +0000">
+    <title lang="zh">Teleshopping</title>
+    <desc>Shopping from Home.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907050000 +0000" stop="20260907061000 +0000">
+    <title lang="zh">Teleshopping</title>
+    <desc>Shopping from Home.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907061000 +0000" stop="20260907070000 +0000">
+    <title lang="zh">Murdoch Mysteries</title>
+    <desc>Yannick Bisson stars in the crime drama set in Edwardian Toronto. Murdoch's old friend, private investigator Freddie Pink, is herself accused of murder.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907070000 +0000" stop="20260907080000 +0000">
+    <title lang="zh">Murdoch Mysteries</title>
+    <desc>Yannick Bisson stars in the tenth series of the crime drama set in Edwardian Toronto. Murdoch meets a rival, Detective Watts, as an old case is re-opened.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907080000 +0000" stop="20260907090000 +0000">
+    <title lang="zh">Shakespeare &amp; Hathaway Private Investigators</title>
+    <desc>I No More Desire A Rose: Frank and Lu are hired to unmask a 'Voice in the Dark' who threatens to destroy Wintermas, and Sebastian faces his first solo case.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907090000 +0000" stop="20260907100000 +0000">
+    <title lang="zh">The Mentalist</title>
+    <desc>Patrick and Fischer head out to a small town in Texas to investigate the mysterious death of an anti-fracking protester on the site of the drilling company he had just sued.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907100000 +0000" stop="20260907110000 +0000">
+    <title lang="zh">The Mentalist</title>
+    <desc>Grace is kidnapped by the killer who has been hunting down former members of the CBI, but the prime suspect appears to have a watertight alibi.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907110000 +0000" stop="20260907120000 +0000">
+    <title lang="zh">Body of Proof</title>
+    <desc>Part 1: Megan investigates a mysterious viral outbreak in Philadelphia, while CDC Officer Charlie Stafford tries to determine what - or who - caused the epidemic.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907120000 +0000" stop="20260907130000 +0000">
+    <title lang="zh">Death in Paradise</title>
+    <desc>..: Kris Marshall is the detective on a Caribbean island. A death in the Saint Marie Heritage Society suggests that this cosy group could be less amicable than it seems.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907130000 +0000" stop="20260907140000 +0000">
+    <title lang="zh">Murdoch Mysteries</title>
+    <desc>Yannick Bisson stars in the crime drama set in Edwardian Toronto. Murdoch's old friend, private investigator Freddie Pink, is herself accused of murder.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907140000 +0000" stop="20260907150000 +0000">
+    <title lang="zh">Murdoch Mysteries</title>
+    <desc>Yannick Bisson stars in the tenth series of the crime drama set in Edwardian Toronto. Murdoch meets a rival, Detective Watts, as an old case is re-opened.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907150000 +0000" stop="20260907160000 +0000">
+    <title lang="zh">The Mentalist</title>
+    <desc>Patrick and Fischer head out to a small town in Texas to investigate the mysterious death of an anti-fracking protester on the site of the drilling company he had just sued.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907160000 +0000" stop="20260907170000 +0000">
+    <title lang="zh">The Mentalist</title>
+    <desc>Grace is kidnapped by the killer who has been hunting down former members of the CBI, but the prime suspect appears to have a watertight alibi.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907170000 +0000" stop="20260907180000 +0000">
+    <title lang="zh">Body of Proof</title>
+    <desc>Part 1: Megan investigates a mysterious viral outbreak in Philadelphia, while CDC Officer Charlie Stafford tries to determine what - or who - caused the epidemic.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907180000 +0000" stop="20260907190000 +0000">
+    <title lang="zh">Private Eyes</title>
+    <desc>Shade and Angie investigate the seemingly paranoid claims of a wealthy patriarch who thinks that a series of accidents are proof his enemies are out to get him.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907190000 +0000" stop="20260907200000 +0000">
+    <title lang="zh">My Life Is Murder</title>
+    <desc>When a falling concrete gargoyle kills a man at a party, the lead suspect is a deadly talking doll - but Alexa soon discovers that murder is not child's play.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907200000 +0000" stop="20260907210000 +0000">
+    <title lang="zh">Death in Paradise</title>
+    <desc>..: Kris Marshall is the detective on a Caribbean island. A death in the Saint Marie Heritage Society suggests that this cosy group could be less amicable than it seems.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907210000 +0000" stop="20260907220000 +0000">
+    <title lang="zh">Father Brown</title>
+    <desc>The sleuthing priest investigates when a medieval murder is committed at a battle reenactment.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="486759" start="20260907220000 +0000" stop="20260907230000 +0000">
+    <title lang="zh">Private Eyes</title>
+    <desc>Shade and Angie investigate the seemingly paranoid claims of a wealthy patriarch who thinks that a series of accidents are proof his enemies are out to get him.</desc>
+    <date>2026-09-07</date>
   </programme>
   <programme channel="465071" start="20260906200000 +0000" stop="20260906210000 +0000">
     <title lang="zh">Road Less Traveled</title>
@@ -5404,15 +5521,20 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>Dan Ball of "Real America" trains, works and eats alongside people from across the country who have dedicated their lives to the service of others.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="3357" start="20260906180000 +0000" stop="20260906190000 +0000">
-    <title lang="zh">Antiques Roadshow</title>
-    <desc>The roadshow comes from the sunny surroundings of Swanage Pier in Dorset.</desc>
-    <date>2026-09-06</date>
+  <programme channel="465071" start="20260907103000 +0000" stop="20260907110000 +0000">
+    <title lang="zh">Takeoff</title>
+    <desc>Verdant jungles of the Amazon.</desc>
+    <date>2026-09-07</date>
   </programme>
-  <programme channel="3357" start="20260906190000 +0000" stop="20260906200000 +0000">
-    <title lang="zh">Insiders</title>
-    <desc>As politicians return to Canberra for a new sitting fortnight, David Speers and the panel look at the issues of the week and what we can expect in parliament including housing, migration, tax, gambling reform and the economy.</desc>
-    <date>2026-09-06</date>
+  <programme channel="465071" start="20260907110000 +0000" stop="20260907113000 +0000">
+    <title lang="zh">Luxury Property Wars</title>
+    <desc>Hosts Luke and Kelly compete to find the perfect home with enough wow factor to create the best match for a discriminating buyer.</desc>
+    <date>2026-09-07</date>
+  </programme>
+  <programme channel="465071" start="20260907113000 +0000" stop="20260907120000 +0000">
+    <title lang="zh">Blue World</title>
+    <desc>Jonathan explores Lake Champlain's wrecks, focusing on a horse ferry wreck in Burlington Bay.</desc>
+    <date>2026-09-07</date>
   </programme>
   <programme channel="3357" start="20260906200000 +0000" stop="20260906230000 +0000">
     <title lang="zh">News Breakfast</title>
@@ -5534,35 +5656,15 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>The incredible true story of a man left on the front seat of a car in Northern Ireland and a woman abandoned six years later in a telephone box in the Republic of Ireland.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="3269" start="20260906182000 +0000" stop="20260906184500 +0000">
-    <title lang="zh">Be Cool, Scooby-Doo!</title>
-    <desc>A creepy Scarecrow Ghost haunts a farm.</desc>
-    <date>2026-09-06</date>
+  <programme channel="3357" start="20260907144000 +0000" stop="20260907154000 +0000">
+    <title lang="zh">Parliament Question Time</title>
+    <desc>Parliament returns for a new sitting fortnight, with coverage of Question Time from the House of Representatives.</desc>
+    <date>2026-09-07</date>
   </programme>
-  <programme channel="3269" start="20260906184500 +0000" stop="20260906191000 +0000">
-    <title lang="zh">Miraculous: Tales Of Ladybug And Cat Noir</title>
-    <desc>The end of the school year is near, and rebellion is brewing. Monarch decides to implement a plan that is dangerous for his secret identity.and for Ladybug and Cat Noir, too.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="3269" start="20260906191000 +0000" stop="20260906193500 +0000">
-    <title lang="zh">Malory Towers</title>
-    <desc>Gwen's power goes to her head when she organises a dance lesson with the boys from Thackerton. Meanwhile, Darrell and Mary-Lou make a mysterious discovery in the woods!</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="3269" start="20260906193500 +0000" stop="20260906200000 +0000">
-    <title lang="zh">Lagging</title>
-    <desc>Sol's over the moon that voice of Zaag Rex Moon is guesting at the Respawn Point. All he has to do is not accidentally kidnap him and take him for Polish crisps and chicken salad.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="3269" start="20260906200000 +0000" stop="20260906202500 +0000">
-    <title lang="zh">Iyanu</title>
-    <desc>As Elu's political climate worsens, Iyanu intensifies her training with Sewa while two armies converge on the Riverlands Settlement to capture her.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="3269" start="20260906202500 +0000" stop="20260906203500 +0000">
-    <title lang="zh">The Strange Chores</title>
-    <desc>When Dracula throws the party of the millennium, Charlie struggles to accept that he's not invited.</desc>
-    <date>2026-09-06</date>
+  <programme channel="3357" start="20260907154000 +0000" stop="20260907164500 +0000">
+    <title lang="zh">rage Charts</title>
+    <desc>Australia's longest running music TV show, rage is home to the biggest vault of music videos from a diverse range of artists, genres and eras. We curate the best clips of all time to surprise and entertain you for hours.</desc>
+    <date>2026-09-07</date>
   </programme>
   <programme channel="3269" start="20260906203500 +0000" stop="20260906210000 +0000">
     <title lang="zh">100% Wolf: Book of Hath</title>
@@ -5664,134 +5766,34 @@ After graduating, Breanna and Arnaz want to pursue their dreams in California, b
     <desc>When a prominent barrister and his second wife are found shot dead in their home the crime scene has uncanny parallels to another double murder 15 years ago - is it a copycat killing or was the wrong man prosecuted?</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="486759" start="20260906182500 +0000" stop="20260906192500 +0000">
-    <title lang="zh">Death in Paradise</title>
-    <desc>Jack's romance with Anna blossoms whilst he and the rest of the team investigate the mysterious death of a cyclist during a race.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486759" start="20260906192500 +0000" stop="20260906202500 +0000">
-    <title lang="zh">Father Brown</title>
-    <desc>Flambeau is incarcerated under suspicion of murder, but denies killing his cohort Flynn, and asks Father Brown to hear his confession if he is convicted.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486759" start="20260906202500 +0000" stop="20260906212500 +0000">
-    <title lang="zh">Death in Paradise</title>
-    <desc>Jack faces a life-changing decision while investigating the murder of a man found dead in a boat off the Saint Marie coast.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486759" start="20260906212500 +0000" stop="20260906222000 +0000">
-    <title lang="zh">The Hunting Party</title>
-    <desc>A serial killer who targeted social media influencers resurfaces and collaborates with them instead, as the team tries to combat his mastery of technology and manipulation.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486759" start="20260906222000 +0000" stop="20260906232000 +0000">
-    <title lang="zh">CSI: Vegas</title>
-    <desc>A mysterious Bigfoot-like print found near a crime scene puzzles the CSI team as they work to uncover who or what killed a father and son.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486759" start="20260906232000 +0000" stop="20260907000000 +0000">
-    <title lang="zh">CSI: Vegas</title>
-    <desc>Catherine is frustrated when a lead suspect in Grace's disappearance is murdered. The team exhausts all their skills to figure out who killed him.</desc>
-    <date>2026-09-06</date>
-  </programme>
-  <programme channel="486759" start="20260907001500 +0000" stop="20260907012000 +0000">
-    <title lang="zh">Murdoch Mysteries</title>
-    <desc>Ogden leads Louise Cherry and wealthy donor Harold Warrington on a tour of the new women's hospital, but when a noxious smell is noted, a young nurse drops dead.</desc>
+  <programme channel="3269" start="20260907030500 +0000" stop="20260907040000 +0000">
+    <title lang="zh">Unsolved Histories with Lucy Worsley</title>
+    <desc>Lucy Worsley investigates how the American Revolution affected Britain, with sabotage, espionage, and political unrest reshaping the empire. (Final)</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="486759" start="20260907012000 +0000" stop="20260907020500 +0000">
-    <title lang="zh">Dark Winds</title>
-    <desc>With a major suspect in custody, Leaphorn discovers there is more to this crime than he ever imagined. Chee must choose between his career and his people.</desc>
+  <programme channel="3269" start="20260907040000 +0000" stop="20260907044500 +0000">
+    <title lang="zh">ER</title>
+    <desc>Neela and Sam arrive at the airport with transplant organs only to find that their plane left without them. Carter gets a visit from an old friend while waiting for his kidney transplant. Cate bonds with an abandoned baby.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="486759" start="20260907020500 +0000" stop="20260907030000 +0000">
-    <title lang="zh">Dark Winds</title>
-    <desc>Leaphorn, Chee and Manuelito descend on the hiding place of the Buffalo Society, only to be confronted with hard decisions that could change the rest of their lives.</desc>
+  <programme channel="3269" start="20260907044500 +0000" stop="20260907050500 +0000">
+    <title lang="zh">Fresh Off the Boat</title>
+    <desc>Louis hires a professional instructor to give the restaurant staff a sexual harassment seminar. Meanwhile, hoping to impress his friends, Eddie tries to pass off the seminar's instructional tape as a dirty movie.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="486759" start="20260907030000 +0000" stop="20260907050000 +0000">
-    <title lang="zh">Teleshopping</title>
-    <desc>Shopping from Home.</desc>
+  <programme channel="3269" start="20260907050500 +0000" stop="20260907053500 +0000">
+    <title lang="zh">QI</title>
+    <desc>Hosted by Stephen Fry, this episode features Alan Davies, Ronni Ancona, David Mitchell and Sir Terry Wogan.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="486759" start="20260907050000 +0000" stop="20260907061000 +0000">
-    <title lang="zh">Teleshopping</title>
-    <desc>Shopping from Home.</desc>
+  <programme channel="3269" start="20260907053500 +0000" stop="20260907060500 +0000">
+    <title lang="zh">Would I Lie To You?</title>
+    <desc>Joining team captains Lee Mack and David Mitchell are comedian Jo Brand, singer and Spice Girl Emma Bunton, athlete Jonnie Peacock, and actor Shaun Williamson.</desc>
     <date>2026-09-07</date>
   </programme>
-  <programme channel="486759" start="20260907061000 +0000" stop="20260907070000 +0000">
-    <title lang="zh">Murdoch Mysteries</title>
-    <desc>Yannick Bisson stars in the crime drama set in Edwardian Toronto. Murdoch's old friend, private investigator Freddie Pink, is herself accused of murder.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486759" start="20260907070000 +0000" stop="20260907080000 +0000">
-    <title lang="zh">Murdoch Mysteries</title>
-    <desc>Yannick Bisson stars in the tenth series of the crime drama set in Edwardian Toronto. Murdoch meets a rival, Detective Watts, as an old case is re-opened.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486759" start="20260907080000 +0000" stop="20260907090000 +0000">
-    <title lang="zh">Shakespeare &amp; Hathaway Private Investigators</title>
-    <desc>I No More Desire A Rose: Frank and Lu are hired to unmask a 'Voice in the Dark' who threatens to destroy Wintermas, and Sebastian faces his first solo case.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486759" start="20260907090000 +0000" stop="20260907100000 +0000">
-    <title lang="zh">The Mentalist</title>
-    <desc>Patrick and Fischer head out to a small town in Texas to investigate the mysterious death of an anti-fracking protester on the site of the drilling company he had just sued.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486759" start="20260907100000 +0000" stop="20260907110000 +0000">
-    <title lang="zh">The Mentalist</title>
-    <desc>Grace is kidnapped by the killer who has been hunting down former members of the CBI, but the prime suspect appears to have a watertight alibi.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486759" start="20260907110000 +0000" stop="20260907120000 +0000">
-    <title lang="zh">Body of Proof</title>
-    <desc>Part 1: Megan investigates a mysterious viral outbreak in Philadelphia, while CDC Officer Charlie Stafford tries to determine what - or who - caused the epidemic.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486759" start="20260907120000 +0000" stop="20260907130000 +0000">
-    <title lang="zh">Death in Paradise</title>
-    <desc>..: Kris Marshall is the detective on a Caribbean island. A death in the Saint Marie Heritage Society suggests that this cosy group could be less amicable than it seems.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486759" start="20260907130000 +0000" stop="20260907140000 +0000">
-    <title lang="zh">Murdoch Mysteries</title>
-    <desc>Yannick Bisson stars in the crime drama set in Edwardian Toronto. Murdoch's old friend, private investigator Freddie Pink, is herself accused of murder.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486759" start="20260907140000 +0000" stop="20260907150000 +0000">
-    <title lang="zh">Murdoch Mysteries</title>
-    <desc>Yannick Bisson stars in the tenth series of the crime drama set in Edwardian Toronto. Murdoch meets a rival, Detective Watts, as an old case is re-opened.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486759" start="20260907150000 +0000" stop="20260907160000 +0000">
-    <title lang="zh">The Mentalist</title>
-    <desc>Patrick and Fischer head out to a small town in Texas to investigate the mysterious death of an anti-fracking protester on the site of the drilling company he had just sued.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486759" start="20260907160000 +0000" stop="20260907170000 +0000">
-    <title lang="zh">The Mentalist</title>
-    <desc>Grace is kidnapped by the killer who has been hunting down former members of the CBI, but the prime suspect appears to have a watertight alibi.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486759" start="20260907170000 +0000" stop="20260907180000 +0000">
-    <title lang="zh">Body of Proof</title>
-    <desc>Part 1: Megan investigates a mysterious viral outbreak in Philadelphia, while CDC Officer Charlie Stafford tries to determine what - or who - caused the epidemic.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486759" start="20260907180000 +0000" stop="20260907190000 +0000">
-    <title lang="zh">Private Eyes</title>
-    <desc>Shade and Angie investigate the seemingly paranoid claims of a wealthy patriarch who thinks that a series of accidents are proof his enemies are out to get him.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486759" start="20260907190000 +0000" stop="20260907200000 +0000">
-    <title lang="zh">My Life Is Murder</title>
-    <desc>When a falling concrete gargoyle kills a man at a party, the lead suspect is a deadly talking doll - but Alexa soon discovers that murder is not child's play.</desc>
-    <date>2026-09-07</date>
-  </programme>
-  <programme channel="486759" start="20260907200000 +0000" stop="20260907210000 +0000">
-    <title lang="zh">Death in Paradise</title>
-    <desc>..: Kris Marshall is the detective on a Caribbean island. A death in the Saint Marie Heritage Society suggests that this cosy group could be less amicable than it seems.</desc>
+  <programme channel="3269" start="20260907060500 +0000" stop="20260907065500 +0000">
+    <title lang="zh">Mythbusters</title>
+    <desc>In Mentos &amp; Soda Adam and Jamie are trying to figure out the theory behind the chaos when diet cola and mentos mix. Inspired by an internet phenomenon The Mythbusters take on the controversy surrounding these fizzy fountains.</desc>
     <date>2026-09-07</date>
   </programme>
 </tv>
